@@ -78,12 +78,12 @@ for row in df_new.rows():
     print()
     github_latest_ver, ear_lat_version, early_versions = versions(username, reponame)
         
-    if github_latest_ver == winget_latest_ver:
+    if winget_latest_ver.lower() in github_latest_ver.lower():
         update_require = "No"
-    elif github_latest_ver == ear_lat_version:
+    elif winget_latest_ver.lower() in ear_lat_version.lower():
         update_require = "No"
     else:
-        update_require = "Yes"
+        update_require = "Maybe"
         
     github_latest_vers.append(github_latest_ver)
     update_requires.append(update_require)
