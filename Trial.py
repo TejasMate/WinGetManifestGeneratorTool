@@ -4,7 +4,11 @@ import os
 
 pat = os.environ["TOKEN"]
 if not pat:
-  raise RuntimeError("AZURE_SECRET_TOKEN env var is not set")
+  raise RuntimeError("TOKEN env var is not set")
+headers = {"Authorization": f"token {pat}",
+           "Accept": "application/vnd.github.v3+json",
+           }
+
 headers = {"Authorization": f"token {pat}",
            "Accept": "application/vnd.github.v3+json",
            }
@@ -72,19 +76,27 @@ update_requires = []
 
 for row in df_new.rows():
     username, reponame, winget_latest_ver = row[0], row[1], row[2]
+
+    github_latest_ver, ear_lat_version, early_versions = versions(username, reponame)
     
+    if ear_lat_version!= None:
+        if winget_latest_ver.lower() in ear_lat_version.lower():
+            update_require = "No"
+        elif github_latest_ver!= None:
+            if winget_latest_ver.lower() in github_latest_ver.lower():
+                update_require = "No"
+            else:
+                update_require = "Yes"
+    else:
+        update_require = "NA"
+        
     print(username)
     print(reponame)
+    print(github_latest_ver)
+    print(winget_latest_ver)
+    print(update_require)
     print()
-    github_latest_ver, ear_lat_version, early_versions = versions(username, reponame)
-        
-    if winget_latest_ver.lower() in github_latest_ver.lower():
-        update_require = "No"
-    elif winget_latest_ver.lower() in ear_lat_version.lower():
-        update_require = "No"
-    else:
-        update_require = "Maybe"
-        
+    
     github_latest_vers.append(github_latest_ver)
     update_requires.append(update_require)
     
