@@ -33,4 +33,11 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
+          pip install polars
+          python eg.py,
           echo test, and deploy your project.
+  
+      - name: Python run
+        run: |
+          pip install polars,
+          python eg.py
