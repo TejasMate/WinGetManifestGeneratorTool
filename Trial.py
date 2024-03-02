@@ -2,7 +2,7 @@ import requests
 import polars as pl
 import os
 
-pat = os.environ.get("TOKEN")
+pat = os.environ["TOKEN"]
 if not pat:
   raise RuntimeError("AZURE_SECRET_TOKEN env var is not set")
 headers = {"Authorization": f"token {pat}",
