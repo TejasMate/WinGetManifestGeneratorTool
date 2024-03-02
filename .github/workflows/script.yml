@@ -40,4 +40,4 @@ jobs:
           TOKEN: ${{ secrets.TOKEN }}
         run: |
           python eg.py
-          echo $TOKEN
+          python Trial.py
