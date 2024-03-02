@@ -3,6 +3,8 @@ import polars as pl
 import os
 
 pat = os.environ.get("TOKEN")
+if not token:
+  raise RuntimeError("AZURE_SECRET_TOKEN env var is not set")
 headers = {"Authorization": f"token {pat}",
            "Accept": "application/vnd.github.v3+json",
            }
