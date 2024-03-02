@@ -46,3 +46,7 @@ jobs:
         with:
           name: Build
           path: build
+      - run: zip -r build.zip build/
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: "build.zip"
