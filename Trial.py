@@ -2,7 +2,7 @@ import requests
 import polars as pl
 import os
 
-pat = os.environ.get["TOKEN"]
+pat = os.environ.get("TOKEN")
 headers = {"Authorization": f"token {pat}",
            "Accept": "application/vnd.github.v3+json",
            }
