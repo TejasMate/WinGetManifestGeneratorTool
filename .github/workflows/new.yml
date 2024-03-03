@@ -42,6 +42,7 @@ jobs:
           sudo apt install tree
           tree -L 5
           python ExtractPackageName.py
+          python ExtractGitHubReleases.py
 
 
 
