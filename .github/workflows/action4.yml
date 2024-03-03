@@ -8,6 +8,15 @@ jobs:
   comment:
     runs-on: ubuntu-latest
     steps:
-      - run: gh pr list --repo "microsoft/winget-pkgs" --state "open"
+      - run: gh pr list --repo "microsoft/winget-pkgs" --state "open" > omg.txt
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🚀 Commit and push if it changed
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push
