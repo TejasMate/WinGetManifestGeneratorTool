@@ -56,7 +56,7 @@ for row in df_new.rows():
                     download_url = asset["browser_download_url"]
                     download_urls.append(download_url)
                     
-                    print(f"Download URL: {download_url}")
+                    # print(f"Download URL: {download_url}")
             else:
                 print(f"No releases found for {username}/{reponame} with tag {release_tag}")
         else:
@@ -71,7 +71,7 @@ for row in df_new.rows():
             proper_urls.append(download_url) 
         
     print()
-    print(download_urls)
+    print(proper_urls)
 
     
     if len(proper_urls) == 1:
