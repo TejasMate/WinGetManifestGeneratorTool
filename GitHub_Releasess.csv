@@ -82,7 +82,7 @@ surajrathod,eagluet,0.1.3,exe,surajrathod.eagluet,eagluet-0.1.3.Setup.exe,Patter
 TaiStudio,Sofia,1.0.3,exe,TaiStudio.Sofia,Sofia.Setup.1.0.3.exe,PatternMatchOnlyNum,No,v1.0.3
 JvanKatwijk,qt-dab,5.4,exe,JvanKatwijk.Qt-DAB,setup-qt-dab32-5.4.exe,PatternMatchOnlyNum,Yes,Qt-DAB-6.5
 getzola,zola,0.18.0,zip,getzola.zola,zola-v0.18.0-x86_64-pc-windows-msvc.zip,PatternMatchOnlyNum,No,v0.18.0
-alagrede,znote-app,2.3.11,exe,alagrede.znote,znote-Setup-2.3.11.exe,PatternMatchOnlyNum,Yes,v2.5.1
+alagrede,znote-app,2.3.11,exe,alagrede.znote,znote-Setup-2.3.11.exe,PatternMatchOnlyNum,Yes,v2.5.2
 alexkim205,G-Desktop-Suite,0.3.1,exe,alexkim205.g-desktop-suite,G-Desktop-Suite-0.3.1.exe,PatternMatchOnlyNum,No,v0.3.1
 mvdicarlo,postybirb,2.3.44,exe,MichaelDiCarlo.PostyBirb,PostyBirb-Setup-2.3.44.exe,PatternMatchOnlyNum,No,v2.3.44
 tanshuai,alphabiz,0.2.4,msi,tanshuai.alphabiz,alphabiz-0.2.4.msi,PatternMatchOnlyNum,Yes,0.3.0
@@ -182,7 +182,7 @@ roryok,poe-auto-updater,2.3.16,exe,roryok.poe-writer,Poe-Setup.2.3.16.exe,Patter
 Moosync,Moosync,8.1.1,exe,Ovenoboyo.Moosync,Moosync-8.1.1-win-x64.exe,PatternMatchOnlyNum,Yes,v10.3.2
 beeradmoore,dlss-swapper,1.0.5.0,exe,beeradmoore.dlss-swapper,DLSS.Swapper-1.0.5.0-installer.exe,PatternMatchOnlyNum,No,v1.0.5.0
 AndresMorelos,Invoncify,1.30.4,exe,AndresMorelos.Invoncify,Invoncify-Setup-1.30.4.exe,PatternMatchOnlyNum,No,v1.30.4
-webrecorder,replayweb.page,1.8.14,exe,webrecorder.replayweb-page,ReplayWeb.page-1.8.14.exe,PatternMatchOnlyNum,No,v1.8.14
+webrecorder,replayweb.page,1.8.14,exe,webrecorder.replayweb-page,ReplayWeb.page-1.8.14.exe,PatternMatchOnlyNum,Yes,v1.8.15
 blocknetdx,blocknet,4.4.1,exe,Blocknetproject.Blocknet,blocknet-4.4.1-win64-setup-unsigned.exe,PatternMatchOnlyNum,No,v4.4.1
 mgajda83,CertoNiuchacz,2.0.1.0,msix,PowerClouds.CertoNiuchacz,CertoNiuchacz_2.0.1.0_x64__4tr01tz8fz8e6.msix,PatternMatchOnlyNum,Yes,v2.0.1
 corda,node-explorer,0.1.2,exe,corda.node-explorer,Corda.Node.Explorer.Setup.0.1.2.exe,PatternMatchOnlyNum,No,v0.1.2-rev
@@ -248,7 +248,7 @@ balena-io,etcher,1.18.11,exe,Balena.Etcher,balenaEtcher-Setup-1.18.11.exe,Patter
 KurtisLiggett,Simple-IP-Config,2.9.6,exe,KurtisLiggett.SimpleIPConfig,Simple.IP.Config.Setup.2.9.6.1.exe,PatternMatchOnlyNum,Yes,2.9.7
 alibaba,lightproxy,1.1.41,exe,Alibaba.LightProxy,LightProxy-Setup-1.1.41.exe,PatternMatchOnlyNum,No,v1.1.41
 assaultcube,AC,1.3.0.2,exe,RabidViperProductions.AssaultCube,AssaultCube_v1.3.0.2_LockdownEdition.exe,PatternMatchOnlyNum,No,v1.3.0.2
-katahiromz,RisohEditor,5.7.9,exe,katahiromz.RisohEditor,RisohEditor-5.7.9-installer.exe,PatternMatchOnlyNum,No,5.7.9
+katahiromz,RisohEditor,5.7.9,exe,katahiromz.RisohEditor,RisohEditor-5.7.9-installer.exe,PatternMatchOnlyNum,Yes,5.8.0
 iamscottxu,obs-rtspserver,3.0.0,exe,iamscottxu.obs-rtspserver,obs-rtspserver-v3.0.0-windows-installer.exe,PatternMatchOnlyNum,Yes,v3.1.0
 BRL-CAD,brlcad,7.38.0,exe,BRL-CAD.brlcad,BRL-CAD_7.38.0_win64.exe,PatternMatchOnlyNum,Yes,rel-7-38-0
 AILight,AILZ80ASM,1.0.15,zip,AILight.AILZ80ASM,AILZ80ASM.win-x64.v1.0.15.zip,PatternMatchOnlyNum,No,v1.0.15
@@ -319,7 +319,7 @@ blueedgetechno,androidInReact,0.0.3,msi,blueedge.android11react,Android11React_0
 ilime,Petal,2.25.0,exe,ilime.petal,Petal.Setup.2.25.0.exe,PatternMatchOnlyNum,No,v2.25.0
 occ-ai,obs-backgroundremoval,1.1.8,exe,RoyShilkrot.obs-backgroundremoval,obs-backgroundremoval-1.1.8-windows-x64-Installer.exe,PatternMatchOnlyNum,Yes,1.1.10
 SupertigerDev,nertivia-desktop-app,0.3.15,exe,supertiger1234.nertivia,nertivia-Setup-0.3.15.exe,PatternMatchOnlyNum,No,v0.3.15
-gcarmix,HexWalk,1.7.0,exe,Carmix.HexWalk,HexWalk_1.7.0_Windows_X64_Installer.exe,PatternMatchOnlyNum,No,v1.7.0
+gcarmix,HexWalk,1.7.0,exe,Carmix.HexWalk,HexWalk_1.7.0_Windows_X64_Installer.exe,PatternMatchOnlyNum,Yes,v1.7.1
 Jisco,LotOfThings,1.1.0,exe,Jisco.LoT,LoT.1.1.0.exe,PatternMatchOnlyNum,No,v1.1.0
 mgth,LittleBigMouse,4.2.7124.42685,exe,mgth.LittleBigMouse,LittleBigMouse_4.2.7124.42685.exe,PatternMatchOnlyNum,No,
 scimusmn,stele,2.1.6,msi,scimusmn.stele,stele-win-2.1.6.msi,PatternMatchOnlyNum,No,v2.1.6
@@ -377,7 +377,7 @@ jeanslack,Videomass,3.5.8,exe,GianlucaPernigotto.Videomass,Videomass-v3.5.8-x86_
 FiloSottile,age,1.1.1,zip,FiloSottile.age,age-v1.1.1-windows-amd64.zip,PatternMatchOnlyNum,No,v1.1.1
 quarto-dev,quarto-cli,1.4.550,msi,Posit.Quarto,quarto-1.4.550-win.msi,PatternMatchOnlyNum,No,v1.4.550
 wandersick,englishize-cmd,2.0,exe,wandersick.EnglishizeCmd,EnglishizeCmd-2.0.0.0_Silent_Installer.exe,PatternMatchOnlyNum,No,v2.0
-Tenpi,Waifu2x-GUI,0.4.1,exe,Tenpi.Waifu2xGUI,Waifu2x-GUI-Setup-0.4.1.exe,PatternMatchOnlyNum,Yes,v0.4.8
+Tenpi,Waifu2x-GUI,0.4.1,exe,Tenpi.Waifu2xGUI,Waifu2x-GUI-Setup-0.4.1.exe,PatternMatchOnlyNum,Yes,v0.4.9
 CircleCI-Public,circleci-cli,0.1.26837,zip,CircleCI.CLI,circleci-cli_0.1.26837_windows_amd64.zip,PatternMatchOnlyNum,Yes,v0.1.30163
 graphql,graphql-playground,1.8.10,exe,Graphcool.GraphQLPlayground,graphql-playground-electron-setup-1.8.10.exe,PatternMatchOnlyNum,No,v1.8.10
 umlfri,umlfri2,2.2.2,exe,KST.UML.FRI,umlfri-setup-2.2.2.exe,PatternMatchOnlyNum,No,v2.2.2
@@ -404,7 +404,7 @@ ozankaraali,PiTV,1.1.1,exe,ozankaraali.PiTV,PiTV-1.1.1.Setup.exe,PatternMatchOnl
 sufone,qawl,0.0.7,exe,sufone.qawl,Qawl-Windows-Setup-0.0.7.exe,PatternMatchOnlyNum,No,v0.0.7
 r-lib,rig,0.6.0,exe,Posit.rig,rig-windows-0.6.0.exe,PatternMatchOnlyNum,No,v0.6.0
 ZakKemble,avr-gcc-build,13.2.0,zip,ZakKemble.avr-gcc,avr-gcc-13.2.0-x64-windows.zip,PatternMatchOnlyNum,No,v13.2.0-1
-WerWolv,ImHex,1.33.0,msi,WerWolv.ImHex,imhex-1.33.0-Windows-x86_64.msi,PatternMatchOnlyNum,No,v1.33.0
+WerWolv,ImHex,1.33.0,msi,WerWolv.ImHex,imhex-1.33.0-Windows-x86_64.msi,PatternMatchOnlyNum,Yes,v1.33.1
 SafeExamBrowser,seb-win-refactoring,3.6.0.633,exe,ETHZurich.SafeExamBrowser,SEB_3.6.0.633_SetupBundle.exe,PatternMatchOnlyNum,Yes,v3.6.0
 Glecun,soundboard,0.0.6,exe,Glecun.soundboard,soundboard-Setup-0.0.6.exe,PatternMatchOnlyNum,No,v0.0.6
 jindrapetrik,jpexs-decompiler,20.1.0,exe,JPEXS.FFDec,ffdec_20.1.0_setup.exe,PatternMatchOnlyNum,No,version20.1.0
@@ -471,7 +471,7 @@ SartoxSoftware,audacium,1.0.0,exe,SartoxOnlyGNU.Audacium,audacium-win-1.0.0-x64.
 owlbear-rodeo,kenku-fm,1.4.0,exe,OwlbearRodeo.Kenku-FM,kenku-fm-1.4.0-win32-x64.exe,PatternMatchOnlyNum,Yes,v1.4.3
 concourse,concourse,7.9.1,zip,Concourse.Fly,fly-7.9.1-windows-amd64.zip,PatternMatchOnlyNum,Yes,v7.11.2
 patrikx3,redis-ui,2023.10.238,exe,PatrikLaszlo.P3XRedisUI,p3x-redis-ui-electron-setup-win-2023.10.238.exe,PatternMatchOnlyNum,Yes,v2024.4.134
-WindowTop,WindowTop-App,5.22.5,exe,gileli121.windowtop,WindowTop.5.22.5.-.setup.exe,PatternMatchOnlyNum,Yes,v5.22.6
+WindowTop,WindowTop-App,5.22.5,exe,gileli121.windowtop,WindowTop.5.22.5.-.setup.exe,PatternMatchOnlyNum,Yes,v5.22.7
 tecwindow,SoundTranscriber,1.3.3,exe,tecwindow.SoundTranscriber,SoundTranscriberV1.3.3.exe,PatternMatchOnlyNum,No,V1.3.3
 dothq,browser-desktop,87.0,exe,Dothq.DotBrowser,dot-87.0.exe,PatternMatchOnlyNum,No,87.0-2021-07-24
 saturneric,GpgFrontend,2.1.0,exe,Saturneric.GpgFrontend,GpgFrontend-2.1.0-windows-x86_64-setup.exe,PatternMatchOnlyNum,Yes,v2.1.2
@@ -527,7 +527,7 @@ mi-g,vdhcoapp,1.6.3,exe,DownloadHelper.VdhCoApp,VdhCoAppSetup-1.6.3.exe,PatternM
 svenstaro,miniserve,0.24.0,exe,svenstaro.miniserve,miniserve-0.24.0-x86_64-pc-windows-msvc.exe,PatternMatchOnlyNum,Yes,v0.26.0
 CoocooFroggy,FutureRestore-GUI,1.98.3,msi,CoocooFroggy.FutureRestore-GUI,FutureRestore-GUI-Windows-1.98.3.msi,PatternMatchOnlyNum,No,v1.98.3
 open-source-labs,ReacType,11.0.0,msi,open-source-labs.ReacType,ReacType.11.0.0.Windows.Installer.msi,PatternMatchOnlyNum,Yes,v20.0.0
-sn4k3,UVtools,4.2.2,msi,PTRTECH.UVtools,UVtools_win-x64_v4.2.2.msi,PatternMatchOnlyNum,Yes,v4.2.3
+sn4k3,UVtools,4.2.2,msi,PTRTECH.UVtools,UVtools_win-x64_v4.2.2.msi,PatternMatchOnlyNum,Yes,v4.2.4
 parsify-dev,desktop,2.0.1,exe,AntoniKepinski.ParsifyDesktop,Parsify-2.0.1-win-x64.exe,PatternMatchOnlyNum,No,v2.0.1
 JackHumphries9,Socially,1.0.0,exe,JackHumphries.Socially,Socially-Windows_1.0.0-amd64.exe,PatternMatchOnlyNum,Yes,V1.0
 slowscript,warpinator-windows,0.4.1,exe,slowscript.Warpinator,warpinator-setup_0.4.1.exe,PatternMatchOnlyNum,No,v0.4.1
@@ -608,7 +608,7 @@ google,agi,3.3.0,msi,Google.AndroidGPUInspector,agi-3.3.0-windows.msi,PatternMat
 xwartz,PupaFM,1.2.2,exe,xwartz.PupaFM,PupaFM.Setup.1.2.2.exe,PatternMatchOnlyNum,No,v1.2.2
 lycheeverse,lychee,0.14.3,exe,lycheeverse.lychee,lychee-v0.14.3-windows-x86_64.exe,PatternMatchOnlyNum,No,v0.14.3
 AlDanial,cloc,1.98,exe,AlDanial.Cloc,cloc-1.98.exe,PatternMatchOnlyNum,Yes,v2.00
-altair-graphql,altair,6.1.0,exe,altair-graphql.altair,altair_6.1.0_x64_win.exe,PatternMatchOnlyNum,Yes,v6.3.0
+altair-graphql,altair,6.1.0,exe,altair-graphql.altair,altair_6.1.0_x64_win.exe,PatternMatchOnlyNum,Yes,v6.3.1
 tiny-craft,tiny-rdm,1.1.9,exe,TinyCraft.TinyRDM,TinyRDM_Setup_1.1.9_windows_x64.exe,PatternMatchOnlyNum,No,v1.1.9
 slackedlime,TimeSpent,1.2,exe,SlackedLime.TimeSpent,TimeSpent.Setup.v1.2.exe,PatternMatchOnlyNum,No,1.2
 chezhe,aleph,0.7.1,msi,chezhe.Aleph,aleph_0.7.1_x64_en-US.msi,PatternMatchOnlyNum,No,
