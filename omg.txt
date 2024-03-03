@@ -1,10 +1,16 @@
+141938	Cisco.Webex version 44.2.0.28859	PckgrBot:Cisco.Webex-44.2.0.28859-e5db4810-5104-4401-bfc4-9d0a070f5f78	OPEN	2024-03-03T22:49:32Z
+141937	Update the spacing in 'installer.md' and 'singleton.md' files under 'doc/manifest/schema/1.6.0' folder	og-mrk:update-markdown-files/docs-manifest-schema-tabs-to-spaces	OPEN	2024-03-03T22:14:18Z
+141936	Automatic update of RussellBanks.Komac.Nightly 2.1.1	wingetbot:AutomaticUpdate_82c0e0ea-f74c-4103-b845-3ed64fa9ed5a	OPEN	2024-03-03T21:58:43Z
+141934	New version: Cisco.Webex version 44.2.0.28859	PckgrBot:Cisco.Webex-44.2.0.28859-951b3a5f-ed30-4bbc-af4d-3a5ca0d8e367	OPEN	2024-03-03T21:55:06Z
+141933	New version: katahiromz.RisohEditor version 5.8.0	SpecterShell:katahiromz.RisohEditor-5.8.0-13BBEE5F	OPEN	2024-03-03T21:41:53Z
+141932	New version: Google.Chrome.Canary version 124.0.6336.0	SpecterShell:Google.Chrome.Canary-124.0.6336.0-302147113	OPEN	2024-03-03T21:37:56Z
+141931	Automatic update of BiniSoft.WindowsFirewallControl from 6.9.9.4 to 6.9.9.6	wingetbot:AutomaticUpdate_f04430de-6112-4de4-a04d-0fbc01ef2007	OPEN	2024-03-03T21:33:00Z
 141930	New version: PrismLauncher.PrismLauncher version 8.2	PrismLauncher:PrismLauncher.PrismLauncher-8.2-F314A5106005CEE2B5C01CFE5DE2A3C3A9058D02	OPEN	2024-03-03T21:20:14Z
 141929	Automatic update of RawTherapee.RawTherapee.Dev from 5.10-65-g3672e0f34 to 5.10-99-g619b1866f	wingetbot:AutomaticUpdate_8c2bdce6-5117-4020-a43b-a9b7417a621b	OPEN	2024-03-03T21:07:40Z
 141927	Update Netron to 7.5.2	lutzroeder:master	OPEN	2024-03-03T20:41:08Z
 141926	Automatic update of FACEITLTD.FACEITClient from 1.33.0 to 1.34.1	wingetbot:AutomaticUpdate_5918add2-26fb-426b-96ea-5fd5babc9156	OPEN	2024-03-03T20:36:36Z
 141925	Automatic update of EvgenyCherpak.RemoteHelperApp from 2024.6 to 2024.7	wingetbot:AutomaticUpdate_255ca220-c78a-4125-9006-e3936fb7e21f	OPEN	2024-03-03T20:28:44Z
 141924	New version: NexusMods.Vortex version 1.9.12	TejasMate:NexusMods.Vortex-1.9.12-D04AF737339648BDAFA37DA968F9E179	OPEN	2024-03-03T19:26:12Z
-141923	New version: PrismLauncher.PrismLauncher version 8.1	PrismLauncher:PrismLauncher.PrismLauncher-8.1-7EE944A834A6872167C5E8AC4CB2FE54C399CE10	OPEN	2024-03-03T19:17:04Z
 141922	New version: Tetrate.wazero version 1.6.0	TejasMate:Tetrate.wazero-1.6.0-FC2DF48333E44892AF2475F941AD622E	OPEN	2024-03-03T19:11:09Z
 141921	New version: dbeaver.dbeaver version 24.0.0	PckgrBot:dbeaver.dbeaver-24.0.0-a9cbe61e-1518-4b25-b8fd-282f35af18ee	OPEN	2024-03-03T18:56:28Z
 141920	New version: Wasmer.Wasmer version 4.2.6	SpecterShell:Wasmer.Wasmer-4.2.6-1267278264	OPEN	2024-03-03T18:39:56Z
