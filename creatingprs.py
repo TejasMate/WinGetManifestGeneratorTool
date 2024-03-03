@@ -28,7 +28,7 @@ df_new.write_csv("GitHub_Releasessss.csv")
 
 commands = []
 for row in df_new.rows():
-    username, reponame, extension, pkgs_name, pkg_pattern, release_tag = row[0], row[1], row[3], row[4],  row[5], row[8]
+    username, reponame, latest_ver, extension, pkgs_name, pkg_pattern, release_tag = row[0], row[1], row[2], row[3], row[4],  row[5], row[8]
     if not release_tag: continue
 
     download_urls = list()
@@ -45,6 +45,8 @@ for row in df_new.rows():
         pass
     else:
         continue
+
+    
     
     try:
         response = requests.get(url, headers = headers)
@@ -75,11 +77,16 @@ for row in df_new.rows():
     print(proper_urls)
 
     
+    
     if len(proper_urls) == 1:
         komac_download_url = proper_urls[0]
         komac_pkgs_name = pkgs_name
         komac_version = release_tag.replace('v', '')
         komac_version = komac_version.replace('V', '')
+
+        if komac_version in latest_ver: continue
+        elif latest_ver in komac_version: continue
+        if latest_ver > komac_version: continue
         
         command = f"komac update --identifier {komac_pkgs_name} --version {komac_version} --urls {komac_download_url}"
         commands.append(command)
