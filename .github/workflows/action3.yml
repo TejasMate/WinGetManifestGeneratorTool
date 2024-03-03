@@ -20,18 +20,12 @@ jobs:
       - uses: actions/checkout@v3  # Checkout code from repository
       # Add steps specific to your build process (e.g., using PowerShell)
 
-      - name: Set up Python 3.12
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
       - name: Install dependencies
         shell: pwsh
         run: |
           $URL="https://github.com/microsoft/winget-cli/releases/download/v1.7.10582/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
           $Path="D:\a\trial-python\trial-python\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
           Invoke-WebRequest -URI $URL -OutFile $Path
-        #  curl https://github.com/microsoft/winget-cli/releases/download/v1.7.10582/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle -o Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle
           dir
           Add-AppPackage -path "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
           winget
