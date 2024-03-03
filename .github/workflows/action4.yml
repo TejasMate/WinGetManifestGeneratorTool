@@ -1,0 +1,13 @@
+name: Comment when opened
+on:
+  push:
+  #  branches: [ "main" ]
+  pull_request:
+  #  branches: [ "main" ]
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - run: gh pr list --repo "microsoft/winget-pkgs" --state "open"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
