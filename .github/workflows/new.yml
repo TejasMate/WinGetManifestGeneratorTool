@@ -28,7 +28,7 @@ jobs:
       - name: Git Clone
         run: |
           git clone --branch "master" https://github.com/microsoft/winget-pkgs.git
-          ls-l
+          ls -l
 
 
 
