@@ -28,7 +28,10 @@ jobs:
       - name: Install dependencies
         shell: pwsh
         run: |
-          curl https://github.com/microsoft/winget-cli/releases/download/v1.7.10582/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle -o Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle
+          $URL="https://github.com/microsoft/winget-cli/releases/download/v1.7.10582/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
+          $Path="D:\a\trial-python\trial-python\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
+          Invoke-WebRequest -URI $URL -OutFile $Path
+        #  curl https://github.com/microsoft/winget-cli/releases/download/v1.7.10582/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle -o Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle
           dir
           Add-AppPackage -path "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
-          winget install komac
+          winget
