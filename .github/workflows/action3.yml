@@ -12,20 +12,18 @@ on:
   workflow_dispatch:
 
 jobs:
-  # Define jobs for different pipeline stages (e.g., build, test, deploy)
+  # This workflow contains a single job called "build"
   build:
-    runs-on: windows-latest  # Specify Windows runner
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
 
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: actions/checkout@v3  # Checkout code from repository
-      # Add steps specific to your build process (e.g., using PowerShell)
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
 
       - name: Install dependencies
-        shell: pwsh
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
         run: |
-          $URL="https://github.com/microsoft/winget-cli/releases/download/v1.7.10582/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
-          $Path="D:\a\trial-python\trial-python\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
-          Invoke-WebRequest -URI $URL -OutFile $Path
-          dir
-          Add-AppPackage -path "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
-          winget
+          komac update --identifier NexusMods.Vortex --version 1.9.12 --urls https://github.com/Nexus-Mods/Vortex/releases/download/v1.9.12/vortex-setup-1.9.12.exe --token $TOKEN --submit
