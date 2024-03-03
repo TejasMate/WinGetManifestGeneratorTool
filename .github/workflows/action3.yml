@@ -28,4 +28,4 @@ jobs:
         run: |
           wget "https://github.com/russellbanks/Komac/releases/download/v2.1.0/komac_2.1.0-1_amd64.deb"
           sudo dpkg -i komac_2.1.0-1_amd64.deb
-          xargs -L 1 -I {} bash -c "{} --token $TOKEN --submit" my_commands.sh
+          xargs -L 1 -I {} bash -c "{} $TOKEN" my_commands.sh
