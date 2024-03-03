@@ -50,7 +50,9 @@ jobs:
           sudo dpkg -i komac_2.1.0-1_amd64.deb
           chmod +x my_commandsss.sh
           bash my_commandsss.sh
+          ls -l
           rm my_commandsss.sh
+          ls -l
           
 
       - name: 🚀 Commit and push if it changed
