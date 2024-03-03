@@ -107,8 +107,8 @@ for row in df_new.rows():
 df_new = df_new.with_columns([
     pl.Series(name="update_requires", values=update_requires),
     pl.Series(name="github_latest_vers", values=github_latest_vers),
-    pl.Series(name="github_earliest_vers", values=ear_lat_version),
-    pl.Series(name="IsEarliestVerReleases", values=early_versions),
+    pl.Series(name="github_earliest_vers", values=ear_lat_versions),
+    pl.Series(name="IsEarliestVerReleases", values=early_versionss),
 
 ])      
     
