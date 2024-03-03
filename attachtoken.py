@@ -1,5 +1,4 @@
 import os
-from dotenv import load_dotenv
 
 def modify_file(input_file, output_file, string_to_add):
   with open(input_file, 'r') as f_in, open(output_file, 'w') as f_out:
@@ -10,12 +9,9 @@ def modify_file(input_file, output_file, string_to_add):
       modified_line = line + string_to_add + '\n'
       f_out.write(modified_line)
 
-# pat = os.environ["TOKEN"]
-# if not pat:
-#   raise RuntimeError("TOKEN env var is not set")
-
-load_dotenv()
-pat = os.getenv("TOKEN")
+pat = os.environ["TOKEN"]
+if not pat:
+  raise RuntimeError("TOKEN env var is not set")
 
 # Example usage
 input_file = "my_commands.sh"
