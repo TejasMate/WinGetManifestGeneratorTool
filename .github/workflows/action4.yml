@@ -8,7 +8,9 @@ jobs:
   comment:
     runs-on: ubuntu-latest
     steps:
-      - run: gh pr list --repo "microsoft/winget-pkgs" --state "open" > omg.txt
+      - run: |
+          gh pr list --repo "microsoft/winget-pkgs" --state "open" > omg.txt
+          ls -l
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
