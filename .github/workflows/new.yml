@@ -27,7 +27,7 @@ jobs:
 
       - name: Git Clone
         run: |
-          git clone https://github.com/microsoft/winget-pkgs.git cloned-repo
+          git clone https://github.com/microsoft/winget-pkgs.git
 
       - name: 🚀 Commit and push if it changed
         run: |
