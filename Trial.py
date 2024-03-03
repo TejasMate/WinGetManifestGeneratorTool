@@ -70,6 +70,9 @@ df_new = df.filter(pl.col('version_pattern_match') == 'PatternMatchOnlyNum')
 
 github_latest_vers = []
 update_requires = []
+ear_lat_versions = []
+early_versionss = []
+
 
 for row in df_new.rows():
     username, reponame, winget_latest_ver = row[0], row[1], row[2]
@@ -96,6 +99,10 @@ for row in df_new.rows():
     
     github_latest_vers.append(github_latest_ver)
     update_requires.append(update_require)
+    ear_lat_versions.append(ear_lat_version)
+    early_versionss.append(early_versions)
+    
+    
     
 df_new = df_new.with_columns([
     pl.Series(name="update_requires", values=update_requires),
@@ -105,4 +112,4 @@ df_new = df_new.with_columns([
 
 ])      
     
-df_new.write_csv("GitHub_Releasess.csv")    
+df_new.write_csv("GitHub_Releasess.csv")
