@@ -1,0 +1,26 @@
+name: CI/CD Pipeline
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+  #  branches: [ "main" ]
+  pull_request:
+  #  branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  # Define jobs for different pipeline stages (e.g., build, test, deploy)
+  build:
+    runs-on: windows-latest  # Specify Windows runner
+
+    steps:
+      - uses: actions/checkout@v3  # Checkout code from repository
+      # Add steps specific to your build process (e.g., using PowerShell)
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
