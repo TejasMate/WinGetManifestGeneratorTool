@@ -8,6 +8,7 @@ jobs:
   comment:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - env: 
           GH_TOKEN: ${{ secrets.TOKEN }}
         run: |
