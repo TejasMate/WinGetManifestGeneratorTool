@@ -1,0 +1,30 @@
+141930	New version: PrismLauncher.PrismLauncher version 8.2	PrismLauncher:PrismLauncher.PrismLauncher-8.2-F314A5106005CEE2B5C01CFE5DE2A3C3A9058D02	OPEN	2024-03-03T21:20:14Z
+141929	Automatic update of RawTherapee.RawTherapee.Dev from 5.10-65-g3672e0f34 to 5.10-99-g619b1866f	wingetbot:AutomaticUpdate_8c2bdce6-5117-4020-a43b-a9b7417a621b	OPEN	2024-03-03T21:07:40Z
+141927	Update Netron to 7.5.2	lutzroeder:master	OPEN	2024-03-03T20:41:08Z
+141926	Automatic update of FACEITLTD.FACEITClient from 1.33.0 to 1.34.1	wingetbot:AutomaticUpdate_5918add2-26fb-426b-96ea-5fd5babc9156	OPEN	2024-03-03T20:36:36Z
+141925	Automatic update of EvgenyCherpak.RemoteHelperApp from 2024.6 to 2024.7	wingetbot:AutomaticUpdate_255ca220-c78a-4125-9006-e3936fb7e21f	OPEN	2024-03-03T20:28:44Z
+141924	New version: NexusMods.Vortex version 1.9.12	TejasMate:NexusMods.Vortex-1.9.12-D04AF737339648BDAFA37DA968F9E179	OPEN	2024-03-03T19:26:12Z
+141923	New version: PrismLauncher.PrismLauncher version 8.1	PrismLauncher:PrismLauncher.PrismLauncher-8.1-7EE944A834A6872167C5E8AC4CB2FE54C399CE10	OPEN	2024-03-03T19:17:04Z
+141922	New version: Tetrate.wazero version 1.6.0	TejasMate:Tetrate.wazero-1.6.0-FC2DF48333E44892AF2475F941AD622E	OPEN	2024-03-03T19:11:09Z
+141921	New version: dbeaver.dbeaver version 24.0.0	PckgrBot:dbeaver.dbeaver-24.0.0-a9cbe61e-1518-4b25-b8fd-282f35af18ee	OPEN	2024-03-03T18:56:28Z
+141920	New version: Wasmer.Wasmer version 4.2.6	SpecterShell:Wasmer.Wasmer-4.2.6-1267278264	OPEN	2024-03-03T18:39:56Z
+141919	New version: dbeaver.dbeaver version 24.0.0	Exorcism0666:dbeaver.dbeaver-24.0.0-D06F76FCD81447C8B20DEBEE1F2237B1	OPEN	2024-03-03T18:31:40Z
+141918	New version: StarlaneStudios.Surrealist version 1.11.5	TejasMate:StarlaneStudios.Surrealist-1.11.5-C886ED4DD7AA488B86D67F61129CECC6	OPEN	2024-03-03T18:27:17Z
+141917	New version: svenstaro.genact version 1.4.2	TejasMate:svenstaro.genact-1.4.2-4995ADF6E1BE4C3DA838A34B75F23009	OPEN	2024-03-03T15:46:34Z
+141916	New version: TeraTermProject.teraterm version 5.2	TejasMate:TeraTermProject.teraterm-5.2-F0E6B87238F746849B63EE9640FD0944	OPEN	2024-03-03T15:42:44Z
+141915	New version: YuzuEmu.Yuzu.Mainline version 1733	Exorcism0666:YuzuEmu.Yuzu.Mainline-1733-7D07430A1C794121A038C4AB855A6302	OPEN	2024-03-03T15:27:30Z
+141914	New version: Tencent.WeType version 1.0.5.376	stevenlele:wetype	OPEN	2024-03-03T14:47:36Z
+141913	New package: LGUG2Z.komokana version 0.1.2	sitiom:LGUG2Z.komokana-0.1.2-38566A2C91AE43D09D4181F27CC6B9D5	OPEN	2024-03-03T14:46:21Z
+141912	Add version: IObit.DriverBooster version 10.3.0	TommyE123:IObit.DriverBooster-10.3.0-F5D70C439DC642549D90E5D713B41B2B	OPEN	2024-03-03T14:45:50Z
+141910	New version: Bedrock-OSS.regolith version 1.2.0	Nusiq:Bedrock-OSS.regolith-1.2.0-87b54bbc-63ad-4fb7-8811-38795d14330e	OPEN	2024-03-03T13:36:39Z
+141909	Update: win32ss.Supermium version 121.0.6167.81	Exorcism0666:win32ss.Supermium-121.0.6167.81-8C998C01	OPEN	2024-03-03T13:24:14Z
+141908	New version: Twinkstar.TwinkstarBrowser version 8.12.1000.2402	SpecterShell:Twinkstar.TwinkstarBrowser-8.12.1000.2402-706650077	OPEN	2024-03-03T12:42:51Z
+141907	New version: Iminetsoft.DarkSwitcher version 1.2.8463	iminet:Iminetsoft.DarkSwitcher-1.2.8463-d74e115c-510c-487f-81a6-93ca7158ca89	OPEN	2024-03-03T12:29:48Z
+141906	New Package: GitLeaks.GitLeaks version 8.12.2	Okeanos:gitleaks	OPEN	2024-03-03T12:21:58Z
+141905	New version: tailscale.tailscale version 1.60.1	PckgrBot:tailscale.tailscale-1.60.1-ab9ae47b-591c-4599-953b-52a4e24b10e2	OPEN	2024-03-03T11:27:23Z
+141904	New version: calibre.calibre version 7.6.0	PckgrBot:calibre.calibre-7.6.0-38da6a1e-68ba-45da-9f0d-cd584c4d6f24	OPEN	2024-03-03T11:17:21Z
+141903	New version: Amazon.WorkspacesClient version 5.19.0	PckgrBot:Amazon.WorkspacesClient-5.19.0-a1bfea3f-7803-4315-aa61-a6d138847fa7	OPEN	2024-03-03T11:11:19Z
+141902	New version: Microsoft.Edge version 122.0.2365.66	PckgrBot:Microsoft.Edge-122.0.2365.66-41b7acf3-76ed-4e68-aa9d-d77056eeeef9	OPEN	2024-03-03T11:07:39Z
+141901	CorvusSKK version 3.2.3	nathancorvussolis:work	OPEN	2024-03-03T11:07:17Z
+141900	New version: rink-turksma.IntunePrepTool version 1.2.8.0	rink-turksma:rink-turksma.IntunePrepTool-1.2.8.0-45dac786-a657-4873-81db-52b272c8a2bd	OPEN	2024-03-03T10:46:20Z
+141899	New package: JPersson77.LGTVCompanion version 3.4.0	Chaython:JPersson77.LGTVCompanion-3.4.0-72994F4FD43344A8BA08768F75B9634C	OPEN	2024-03-03T09:39:54Z
