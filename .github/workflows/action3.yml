@@ -26,4 +26,6 @@ jobs:
         env:
           TOKEN: ${{ secrets.TOKEN }}
         run: |
+          wget "https://github.com/russellbanks/Komac/releases/download/v2.1.0/komac_2.1.0-1_amd64.deb"
+          sudo dpkg -i komac_2.1.0-1_amd64.deb
           komac update --identifier NexusMods.Vortex --version 1.9.12 --urls https://github.com/Nexus-Mods/Vortex/releases/download/v1.9.12/vortex-setup-1.9.12.exe --token $TOKEN --submit
