@@ -12,7 +12,7 @@ jobs:
       - env: 
           GH_TOKEN: ${{ secrets.TOKEN }}
         run: |
-          gh pr list --repo "microsoft/winget-pkgs" --state "open" > omg.txt
+          gh pr list --repo "microsoft/winget-pkgs" --state "open" --limit 10000000 > omg.txt
           ls -l
 
       - name: 🚀 Commit and push if it changed
