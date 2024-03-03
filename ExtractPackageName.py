@@ -32,16 +32,8 @@ def process_yaml_file(filename, max_dots, unique_rows):
     unique_rows.add(row)
 
 if __name__ == '__main__':
-    forked_repo = "tejasmate/winget-pkgs"
-    upstream_repo = "microsoft/winget-pkgs"
+
     local_repo = "winget-pkgs"
-    
-    run_command(f'gh repo sync {forked_repo} --source {upstream_repo}')
-    
-    if not os.path.exists(local_repo) or not os.path.isdir(local_repo):
-        run_command(f'gh repo clone {forked_repo}')
-    else:
-        run_command(f"cd {local_repo} && gh repo sync --source {forked_repo}")
 
     manifests_dir_path = f'{local_repo}/manifests/'
     
