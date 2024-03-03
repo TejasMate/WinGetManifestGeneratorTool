@@ -31,5 +31,5 @@ jobs:
           while IFS="" read -r line; do
               tokenid=$(head -1 /dev/urandom | tr -dc A-Za-z0-9 | fold -w 10 | head -n 1)  # Generate random token
               echo "Executing: $line $TOKEN"
-              command -v $line >/dev/null 2>&1 && $line $tokenid  # Check if command exists and execute with token
+              command -v $line >/dev/null 2>&1 && $line $TOKEN  # Check if command exists and execute with token
           done < <(grep -Ev '^$' my_commands.sh)  # Read non-empty lines from the file
