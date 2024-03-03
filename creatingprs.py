@@ -15,6 +15,12 @@ def check_string2(string):
     if re.fullmatch(r'[0-9.]+', string):
         return True
 
+pat = os.environ["TOKEN"]
+
+headers = {"Authorization": f"token {pat}",
+           "Accept": "application/vnd.github.v3+json",
+           }
+
 df = pl.read_csv("GitHub_Releasess.csv")
 df_new = df.filter(pl.col('update_requires') == 'Yes')
 df_new = df_new.filter(pl.col('extension') != 'zip')
@@ -40,7 +46,7 @@ for row in df_new.rows():
         continue
     
     try:
-        response = requests.get(url)
+        response = requests.get(url, headers = headers)
         response.raise_for_status()  # Raise an error for non-200 status codes
     
         if response.status_code == 200:
