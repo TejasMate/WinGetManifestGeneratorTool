@@ -25,16 +25,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      #- name: Git Clone
-      #  run: |
-      #    git clone https://github.com/microsoft/winget-pkgs.git
+      - name: Git Clone
+        run: |
+          git clone --branch "master" https://github.com/microsoft/winget-pkgs.git
 
-      - name: Clone GuillaumeFalourd/poc-github-actions PUBLIC repository
-        uses: GuillaumeFalourd/clone-github-repo-action@main
-        with:
-          owner: 'microsoft'
-          repository: 'winget-pkgs'
-          branch: 'master'
+
 
       - name: 🚀 Commit and push if it changed
         run: |
