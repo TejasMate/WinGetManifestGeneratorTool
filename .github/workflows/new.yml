@@ -29,6 +29,8 @@ jobs:
         run: |
           git clone --branch "master" https://github.com/microsoft/winget-pkgs.git
           ls -l
+          sudo apt install tree
+          tree -L 5
 
 
 
