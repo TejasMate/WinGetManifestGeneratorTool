@@ -29,6 +29,7 @@ df_new.write_csv("GitHub_Releasessss.csv")
 commands = []
 for row in df_new.rows():
     username, reponame, extension, pkgs_name, pkg_pattern, release_tag = row[0], row[1], row[3], row[4],  row[5], row[8]
+    if not release_tag: continue
 
     download_urls = list()
     # username = "AppFlowy-IO"
