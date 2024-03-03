@@ -34,7 +34,7 @@ jobs:
         with:
           owner: 'microsoft'
           repository: 'winget-pkgs'
-          branch: 'main'
+          branch: 'master'
 
       - name: 🚀 Commit and push if it changed
         run: |
