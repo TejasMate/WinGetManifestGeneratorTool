@@ -46,6 +46,11 @@ jobs:
           python eg.py
           python ExtractPackageName.py
           python ExtractGitHubReleases.py
+      
+      - name: Python run 
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+        run: |
           python Trial.py
 
       - name: 🚀 Commit and push if it changed
