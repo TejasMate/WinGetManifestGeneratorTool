@@ -24,12 +24,12 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-        with:
-          repository: microsoft/winget-pkgs
 
-      #- name: Git Clone
-      #  run: |
-      #    git clone https://github.com/microsoft/winget-pkgs.git
+      - name: Git Clone
+        run: |
+          git clone https://github.com/microsoft/winget-pkgs.git
+          cd winget-pkgs
+          ls
 
       - name: 🚀 Commit and push if it changed
         run: |
