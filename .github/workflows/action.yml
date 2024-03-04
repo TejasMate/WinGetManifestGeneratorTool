@@ -42,6 +42,8 @@ jobs:
           komac -v
           
       - name: Git Clone & Check microsoft/winget-pkgs listing
+        env:
+          GH_TOKEN: ${{ secrets.token }}
         run: |
           git clone --branch "master" https://github.com/microsoft/winget-pkgs.git
           gh pr list --repo "microsoft/winget-pkgs" --state "open" --limit 10000000 > OpenPRs.txt
