@@ -1,8 +1,42 @@
+142044	New version: NicolasRamz.React-Explorer version 3.1.0	TejasMate:NicolasRamz.React-Explorer-3.1.0-91678DD2F9D848B28E55222F4F8D3869	OPEN	2024-03-04T10:51:06Z
+142043	New version: listen1.listen1.fluent version 2.28.0	TejasMate:listen1.listen1.fluent-2.28.0-7694259E76E0419D84059D5F2046FB89	OPEN	2024-03-04T10:51:01Z
+142042	New version: fzf404.Monit version 0.8.1	TejasMate:fzf404.Monit-0.8.1-9BF4CEDE8E7F45B79488D133BB0668D1	OPEN	2024-03-04T10:50:57Z
+142041	New version: AlDanial.Cloc version 2.00	TejasMate:AlDanial.Cloc-2.00-30BDD01487854A34B0232B88A2F00139	OPEN	2024-03-04T10:50:52Z
+142040	New version: OwlbearRodeo.Kenku-FM version 1.4.3	TejasMate:OwlbearRodeo.Kenku-FM-1.4.3-2DA2924BEB7F424D8E7AA28519B06AE4	OPEN	2024-03-04T10:50:48Z
+142039	Add version: JackHumphries.Socially version 1.0	TejasMate:JackHumphries.Socially-1.0-D772F4E405CB447A8C9494F9AD080B3A	OPEN	2024-03-04T10:50:43Z
+142038	New version: huanghongxun.HelloMinecraftLauncher version 3.5.6.239	TejasMate:huanghongxun.HelloMinecraftLauncher-3.5.6.239-849B7664BC94471B8BE1EDA7BAD12409	OPEN	2024-03-04T10:50:39Z
+142037	Add version: D4koon.WhatsappTray version 1.9.0	TejasMate:D4koon.WhatsappTray-1.9.0-215B44888C114305B8E382F95E656090	OPEN	2024-03-04T10:50:35Z
+142036	New version: CiderCollective.Cider version 1.6.2	TejasMate:CiderCollective.Cider-1.6.2-766AFCC50EAA4309889B7A95E528F11C	OPEN	2024-03-04T10:50:31Z
+142035	New version: g07cha.pomodoro version 3.5.0	TejasMate:g07cha.pomodoro-3.5.0-22829B0B07DB4EFABD3B5D8E32323C04	OPEN	2024-03-04T10:50:27Z
+142034	New version: NitrokeyGmbH.Nitropy version 0.4.45	TejasMate:NitrokeyGmbH.Nitropy-0.4.45-095623DC599548659DBF386785F168DA	OPEN	2024-03-04T10:50:24Z
+142033	New version: JaydenDev.Catalyst3 version 3.5.4	TejasMate:JaydenDev.Catalyst3-3.5.4-9A32F1F891F84B0D9C3D6F336FAC0140	OPEN	2024-03-04T10:50:21Z
+142032	New version: rsjaffe.MIDI2LR version 6.1.0.0	TejasMate:rsjaffe.MIDI2LR-6.1.0.0-75431972EEF24DEA8B294E8D781F5D62	OPEN	2024-03-04T10:50:17Z
+142031	Add version: PowerClouds.CertoNiuchacz version 2.0.1	TejasMate:PowerClouds.CertoNiuchacz-2.0.1-0F2CCBB8A2014CFAB804BFB9049600DC	OPEN	2024-03-04T10:50:13Z
+142030	New version: TeraTermProject.teraterm5 version 5.2	TejasMate:TeraTermProject.teraterm5-5.2-7E7BB30B44EE443395A677B9F24C3B0B	OPEN	2024-03-04T10:50:10Z
+142029	New version: ArduinoSA.CLI version 0.35.3	TejasMate:ArduinoSA.CLI-0.35.3-4968A6AF5B5D490FA759A0116BE2FF05	OPEN	2024-03-04T10:50:07Z
+142028	Add version: akeo.ie.Zadig version 1.5.0	TejasMate:akeo.ie.Zadig-1.5.0-B439183B127047C0B860A2B04B1FB12A	OPEN	2024-03-04T10:50:03Z
+142027	Add version: ETHZurich.SafeExamBrowser version 3.6.0	TejasMate:ETHZurich.SafeExamBrowser-3.6.0-9EA491AD7D4F4F118A951C894868B54E	OPEN	2024-03-04T10:49:59Z
+142026	New version: Intel.OSPRay version 3.1.0	TejasMate:Intel.OSPRay-3.1.0-DBC9A0D3B5484C5FBFBB351EFF26EC8C	OPEN	2024-03-04T10:49:55Z
+142025	New version: trinsic.cli version 1.13.0	TejasMate:trinsic.cli-1.13.0-1AEF63EF74BA4E1B93E1B325809314BE	OPEN	2024-03-04T10:49:50Z
+142024	Add version: Exploitox.WebRadio version 1.0.0	TejasMate:Exploitox.WebRadio-1.0.0-66FB2B764722480E8DE488EACFCAC4A1	OPEN	2024-03-04T10:49:46Z
+142023	New version: OVRASTeam.OpenVR-AdvancedSettings version 5.8.6	TejasMate:OVRASTeam.OpenVR-AdvancedSettings-5.8.6-C64CCB4DF0774D868E6861AF77FAEDC0	OPEN	2024-03-04T10:49:42Z
+142022	New version: EnderbytePrograms.TimeIt version 1.3	TejasMate:EnderbytePrograms.TimeIt-1.3-B8E64B754EC34E6B81715CFC515303B6	OPEN	2024-03-04T10:49:38Z
+142021	New version: Adamant.Messenger version 4.5.3	TejasMate:Adamant.Messenger-4.5.3-4EB87C8215FC476DA76315CA82766155	OPEN	2024-03-04T10:49:35Z
+142020	New version: QGIS.QField version 3.1.9	TejasMate:QGIS.QField-3.1.9-879E53A9FED4483DAC65595D2AFC46C8	OPEN	2024-03-04T10:49:31Z
+142019	New version: JanetLang.Janet version 1.33.0	TejasMate:JanetLang.Janet-1.33.0-8AF611AB0AF44D1881BAF7EA9B9E73C1	OPEN	2024-03-04T10:49:27Z
+142018	New version: YikuanSun.WebKitty version 3.2.1	TejasMate:YikuanSun.WebKitty-3.2.1-46AABAD6B5224915823B4BB4751C036D	OPEN	2024-03-04T10:49:23Z
+142017	Add version: mscststs.LANService version 0.0.5	TejasMate:mscststs.LANService-0.0.5-E5394BE08FE74884A9B08AE8EF0C25FE	OPEN	2024-03-04T10:49:18Z
+142016	New version: NitrokeyGmbH.Nitrokey-App version 2.2.1	TejasMate:NitrokeyGmbH.Nitrokey-App-2.2.1-EF7DC2A4D3994DD98E9D52162D414A0B	OPEN	2024-03-04T10:49:14Z
+142015	Lilith.RiseofKingdoms version 1.0.5.3	solomoncyj:revert-133695-Lilith.RiseofKingdoms-106716-24DE3ACDB7C364D85578C524F02C453C0629ADE7	OPEN	2024-03-04T10:26:25Z
+142014	New version: THS.THS.Hevo version 9.5.1.4	SpecterShell:THS.THS.Hevo-9.5.1.4-469431194	OPEN	2024-03-04T10:21:34Z
+142013	New version: Baidu.BaiduNetdisk version 7.38.0 (7.38.0.9)	SpecterShell:Baidu.BaiduNetdisk-7.38.0-366932924	OPEN	2024-03-04T10:20:22Z
+142012	New version: VOCALOMAKETS.YuzukiYukariRei version 2.0.0	Exorcism0666:VOCALOMAKETS.YuzukiYukariRei-2.0.0-eaad192c-bb47-4489-95e2-8db94c43954a	OPEN	2024-03-04T09:29:15Z
+142009	New version: HeroicGamesLauncher.HeroicGamesLauncher version 2.13.0	Exorcism0666:HeroicGamesLauncher.HeroicGamesLauncher-2.13.0-a9f6e3b4-a37e-47e9-8070-976302509a8e	OPEN	2024-03-04T09:23:20Z
+142008	New version: OpslyCloud.opsly-cli version v0.0.1-alpha.18	Opsly:release-v0.0.1-alpha.18	OPEN	2024-03-04T09:08:11Z
+142007	New package: h3poteto.fedistar version 1.9.0	totallytavi:h3poteto.fedistar-1.9.0-7d1e9cc2-0f27-4bb9-921d-c0920f972145	OPEN	2024-03-04T09:05:53Z
 142006	ReleaseNotes: Ruben2776.PicView version 2.1	SpecterShell:Ruben2776.PicView-2.1-ReleaseNotes	OPEN	2024-03-04T08:43:08Z
-142005	New version: HeroicGamesLauncher.HeroicGamesLauncher version 2.13.0	Exorcism0666:HeroicGamesLauncher.HeroicGamesLauncher-2.13.0-D0310607	OPEN	2024-03-04T08:16:35Z
 142004	New version: VirtualHere.USBClient version 5.5.7	Exorcism0666:VirtualHere.USBClient-5.5.7-B49AB8A2	OPEN	2024-03-04T07:58:14Z
 142003	New version: NordSecurity.NordLayer version 3.2.4.0	PckgrBot:NordSecurity.NordLayer-3.2.4.0-9a3f64b2-6090-46e2-acfb-0737d30d11d4	OPEN	2024-03-04T07:56:20Z
-142002	New version: VOCALOMAKETS.YuzukiYukariRei version 2.0.0	Exorcism0666:VOCALOMAKETS.YuzukiYukariRei-2.0.0-569AF930	OPEN	2024-03-04T07:51:36Z
 142000	New version: katahiromz.RisohEditor version 5.8.1	SpecterShell:katahiromz.RisohEditor-5.8.1-E40B2178	OPEN	2024-03-04T07:22:54Z
 141999	New version: Apifox.Apifox version 2.5.10	SpecterShell:Apifox.Apifox-2.5.10-1880179383	OPEN	2024-03-04T06:55:05Z
 141996	Remove: Huawei.HiSuite version 11.0.0.650	coolplaylinbot:Huawei.HiSuite-11.0.0.650-F9C8BFE55BDD4B6DB8ABAFAD45F2FE4887E88D3D	OPEN	2024-03-04T05:15:34Z
