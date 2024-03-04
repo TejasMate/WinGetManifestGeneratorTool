@@ -14,10 +14,10 @@ def convert_txt_to_dataframe(file_path, field_names, field_lengths):
     return pl.DataFrame(data)
 
 # Example usage
-file_path = "omg.txt"
+file_path = "OpenPRs.txt"
 field_names = ["ID", "Title", "Branch", "Status", "CreatedAt"]
 field_lengths = [1000, 1500, 2000, 2000, 2000]
 
 df = convert_txt_to_dataframe(file_path, field_names, field_lengths)
-df.write_csv("OpenIssues.csv")    
+df.write_csv("OpenPRs.csv")    
 
