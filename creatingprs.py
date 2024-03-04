@@ -21,7 +21,7 @@ def check_strings(value, string1, string2):
     else:
         return False
 
-df_issues = pl.read_csv("OpenIssues.csv")
+df_issues = pl.read_csv("OpenPRs.csv")
 
 pat = os.environ["TOKEN"]
 
