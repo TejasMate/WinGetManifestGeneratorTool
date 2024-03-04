@@ -20,4 +20,4 @@ field_lengths = [1000, 1500, 2000, 2000, 2000]
 
 df = convert_txt_to_dataframe(file_path, field_names, field_lengths)
 df.write_csv("OpenPRs.csv")    
-
+print("Generated OpenPRs.csv successfully")
