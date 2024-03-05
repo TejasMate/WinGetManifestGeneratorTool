@@ -1,7 +1,37 @@
-142189	New version: PeterPawlowski.foobar2000.EncoderPack version 2024-03-03	Exorcism0666:PeterPawlowski.foobar2000.EncoderPack-2024-03-03-B959F29257EA8	OPEN	2024-03-05T12:27:03Z
+142221	New package: PlanetVPN.PlanetVPN version 2.7.8.23	drshtmstry:PlanetVPN.PlanetVPN-2.7.8.23-5c127159-8bde-4aaa-b681-5ce6bb7a4f36	OPEN	2024-03-05T14:41:42Z
+142220	Remove The Desktop Watchmaker version 3.1	japplis:remove-the-desktop-watchmaker-3.1	OPEN	2024-03-05T14:41:00Z
+142219	Remove The Desktop Watchmaker Widget version 1.1	japplis:remove-the-desktop-watchmaker-widget-1.1	OPEN	2024-03-05T14:39:53Z
+142218	Remove The Desktop Watchmaker Widget version 1.0	japplis:remove-the-desktop-watchmaker-widget-1.0	OPEN	2024-03-05T14:38:43Z
+142217	Remove Dictaphone version 1.0	japplis:remove-dictaphone-1.0	OPEN	2024-03-05T14:36:28Z
+142216	Remove Discotheek version 1.4	japplis:remove-discotheek-1.4	OPEN	2024-03-05T14:34:53Z
+142215	Remove JLearnIt version 6.5	japplis:remove-jlearnit-6.5	OPEN	2024-03-05T14:33:20Z
+142214	New Package: NuzuEmu.Nuzu.EarlyAccess version 4176	og-mrk:new-manifest/NuzuEmu.Nuzu	OPEN	2024-03-05T14:32:10Z
+142213	Remove Post On Screen version 1.1	japplis:remove-post-on-screen-1.1	OPEN	2024-03-05T14:31:51Z
+142212	Remove Post On Screen Pro version 1.1	japplis:remove-post-on-screen-pro-1.1	OPEN	2024-03-05T14:30:44Z
+142211	Remove Screen Highlighter version 1.0	japplis:remove-screen-highlighter-1.0	OPEN	2024-03-05T14:26:21Z
+142210	New version: Mozilla.SeaMonkey version 2.53.18.1	Exorcism0666:Mozilla.SeaMonkey-2.53.18.1-45C1A9E5	OPEN	2024-03-05T14:24:14Z
+142209	Remove Screen Highlighter Pro version 1.0	japplis:remove-screen-highlighter-pro-1.0	OPEN	2024-03-05T14:24:09Z
+142208	Remove Screenshot Crop version 1.0	japplis:remove-screenshot-crop-1.0	OPEN	2024-03-05T14:22:09Z
+142207	Remove Directory Crop version 1.0	japplis:remove-directory-crop-1.0	OPEN	2024-03-05T14:20:27Z
+142206	Remove Sheet Stats version 1.0	japplis:remove-sheet-stats-1.0	OPEN	2024-03-05T14:18:41Z
+142205	Remove Sheet Viewer version 1.0	japplis:remove-sheet-viewer-1.0	OPEN	2024-03-05T14:17:39Z
+142204	New version: Opera.Opera version 108.0.5067.20	PckgrBot:Opera.Opera-108.0.5067.20-912a440e-d7bd-42a3-87ef-64f55a204096	OPEN	2024-03-05T13:56:36Z
+142203	New version: nkdAgility.AzureDevOpsMigrationTools.Preview version 15.0.0-Preview.357	MrHinsh:nkdAgility.AzureDevOpsMigrationTools.Preview-15.0.0-Preview.357-a9acca71-5f8c-45c6-871a-2323ae4adfd5	OPEN	2024-03-05T13:52:44Z
+142202	New Package: aimotrens.impulsar 0.10.1	aimotrens:aimotrens/impulsar	OPEN	2024-03-05T13:39:13Z
+142201	New package: ThreemaGmbH.Threemafordesktop version 1.2.41	tim2zg:ThreemaGmbH.Threemafordesktop-1.2.41-0be3bbf2-2b31-4dd3-b565-fd81d4773a93	OPEN	2024-03-05T13:25:53Z
+142200	New version: CitraEmu.Citra version 2.1	Exorcism0666:CitraEmu.Citra-2.1-9EA4D649	OPEN	2024-03-05T13:07:03Z
+142199	New version: Tencent.COSBrowser version 2.11.16	SpecterShell:Tencent.COSBrowser-2.11.16-1309990646	OPEN	2024-03-05T12:44:39Z
+142198	New version: Tarma.PublishOrPerish version 8.12.4608.8831	SpecterShell:Tarma.PublishOrPerish-8.12.4608.8831-1876462583	OPEN	2024-03-05T12:44:31Z
+142197	New version: JetBrains.RustRover.EAP version 233.14015.155	SpecterShell:JetBrains.RustRover.EAP-233.14015.155-1149594326	OPEN	2024-03-05T12:43:45Z
+142196	New version: Foxit.FoxitReader version 2024.1.0.23997 (2024.1.0.23997)	SpecterShell:Foxit.FoxitReader-2024.1.0.23997-833090312	OPEN	2024-03-05T12:43:28Z
+142195	New version: DigitalScholar.Tropy version 1.16.2	SpecterShell:DigitalScholar.Tropy-1.16.2-239974012	OPEN	2024-03-05T12:43:22Z
+142194	New version: printfn.fend version 1.4.4	Exorcism0666:printfn.fend-1.4.4-9C641B45420C48529F8D60781E757DA5	OPEN	2024-03-05T12:42:49Z
+142193	New version: PeterPawlowski.foobar2000.EncoderPack version 2024-03-03	Exorcism0666:PeterPawlowski.foobar2000.EncoderPack-2024-03-03-3A37E5AE	OPEN	2024-03-05T12:40:39Z
+142192	Add Devolutions Launcher version 2024.1.12.0	Devolutions:Launcher-WinGet-2024.1.12.0	OPEN	2024-03-05T12:36:59Z
+142191	Add Devolutions RemoteDesktopManager version 2024.1.12.0	Devolutions:RDM-WinGet-2024.1.12.0	OPEN	2024-03-05T12:36:49Z
+142190	Add Devolutions RemoteDesktopManagerAgent version 2024.1.12.0	Devolutions:RDMAgent-WinGet-2024.1.12.0	OPEN	2024-03-05T12:36:30Z
 142188	New version: Datronicsoft.SpacedeskDriver.Server version 2.1.15.0	krystofkrticka:Datronicsoft.SpacedeskDriver.Server-2.1.15.0-695A82D55E6E403EAF7EA42243715EEB	OPEN	2024-03-05T12:11:14Z
 142187	JanDeDobbeleer.OhMyPosh version 19.13.0	JanDeDobbeleer:JanDeDobbeleer.OhMyPosh-19.13.0-baed8a24-984a-4905-8b97-33909ea1d513	OPEN	2024-03-05T12:05:26Z
-142185	JanDeDobbeleer.OhMyPosh version 19.12.0	JanDeDobbeleer:JanDeDobbeleer.OhMyPosh-19.12.0-0ab000bb-8169-46d4-8404-d1d707912e2a	OPEN	2024-03-05T11:43:23Z
 142184	JanDeDobbeleer.Aliae version 0.18.0	JanDeDobbeleer:JanDeDobbeleer.Aliae-0.18.0-c8c91381-79b5-4a65-a993-383831c9be9f	OPEN	2024-03-05T11:40:30Z
 142183	New version voidtools.Everything.Alpha version 1.5.0.1370a	mrjcap:voidtools.Everything-1.5.0.1370a	OPEN	2024-03-05T11:37:26Z
 142182	New version AntibodySoftware.WizTree version 4.19	mrjcap:wiztree-4.19	OPEN	2024-03-05T11:29:47Z
