@@ -1,3 +1,27 @@
+142189	New version: PeterPawlowski.foobar2000.EncoderPack version 2024-03-03	Exorcism0666:PeterPawlowski.foobar2000.EncoderPack-2024-03-03-B959F29257EA8	OPEN	2024-03-05T12:27:03Z
+142188	New version: Datronicsoft.SpacedeskDriver.Server version 2.1.15.0	krystofkrticka:Datronicsoft.SpacedeskDriver.Server-2.1.15.0-695A82D55E6E403EAF7EA42243715EEB	OPEN	2024-03-05T12:11:14Z
+142187	JanDeDobbeleer.OhMyPosh version 19.13.0	JanDeDobbeleer:JanDeDobbeleer.OhMyPosh-19.13.0-baed8a24-984a-4905-8b97-33909ea1d513	OPEN	2024-03-05T12:05:26Z
+142185	JanDeDobbeleer.OhMyPosh version 19.12.0	JanDeDobbeleer:JanDeDobbeleer.OhMyPosh-19.12.0-0ab000bb-8169-46d4-8404-d1d707912e2a	OPEN	2024-03-05T11:43:23Z
+142184	JanDeDobbeleer.Aliae version 0.18.0	JanDeDobbeleer:JanDeDobbeleer.Aliae-0.18.0-c8c91381-79b5-4a65-a993-383831c9be9f	OPEN	2024-03-05T11:40:30Z
+142183	New version voidtools.Everything.Alpha version 1.5.0.1370a	mrjcap:voidtools.Everything-1.5.0.1370a	OPEN	2024-03-05T11:37:26Z
+142182	New version AntibodySoftware.WizTree version 4.19	mrjcap:wiztree-4.19	OPEN	2024-03-05T11:29:47Z
+142181	New version: stacklok.minder 0.0.33	stacklok:minder-0.0.33	OPEN	2024-03-05T11:27:27Z
+142180	New package: AdobeInc.AdobeInstaller version 2.12.0.23	tim2zg:AdobeInc.AdobeInstaller-2.12.0.23-fa21a936-e1b3-4941-a9b4-0300ebdf7402	OPEN	2024-03-05T10:49:25Z
+142179	New version: TheDocumentFoundation.LibreOffice version 24.2.1.2	Exorcism0666:TheDocumentFoundation.LibreOffice-24.2.1.2-0C65A2ADD77649A88C04481A7DED1D42	OPEN	2024-03-05T10:31:34Z
+142178	New version: Tutanota.Tutanota version 218.240305.0	Exorcism0666:Tutanota.Tutanota-218.240305.0-09AD09E485E149B1AF2A2E44790710ED	OPEN	2024-03-05T10:27:09Z
+142177	New version: nkdAgility.AzureDevOpsMigrationTools.Preview version 15.0.0-Preview.356	MrHinsh:nkdAgility.AzureDevOpsMigrationTools.Preview-15.0.0-Preview.356-1bf8f924-dd04-42c0-ac47-8bc4250ab448	OPEN	2024-03-05T10:18:16Z
+142176	New version: nkdAgility.AzureDevOpsMigrationTools.Preview version 15.0.0-Preview.355	MrHinsh:nkdAgility.AzureDevOpsMigrationTools.Preview-15.0.0-Preview.355-8a5992b0-9c51-42cd-a033-e8d3c00e7478	OPEN	2024-03-05T10:15:01Z
+142175	New version: Postman.Postman version 10.23.9	PckgrBot:Postman.Postman-10.23.9-a929d8a9-70b3-496c-8bdc-d06013c037ca	OPEN	2024-03-05T09:56:23Z
+142174	New version: Mozilla.Thunderbird version 115.8.1	SpecterShell:Mozilla.Thunderbird-115.8.1-450759714	OPEN	2024-03-05T09:39:57Z
+142173	New version: Kiraku.Mindbox version 2.6.0-563	SpecterShell:Kiraku.Mindbox-2.6.0-563-101092086	OPEN	2024-03-05T09:39:41Z
+142172	New version: CCTV.CBox version 6.0.0.4	SpecterShell:CCTV.CBox-6.0.0.4-66996479	OPEN	2024-03-05T09:39:01Z
+142171	New version: ByteDance.CapCut version 3.5.0.1268	SpecterShell:ByteDance.CapCut-3.5.0.1268-484455317	OPEN	2024-03-05T09:38:14Z
+142170	New version: Brave.Brave.Beta version 122.1.64.95	SpecterShell:Brave.Brave.Beta-122.1.64.95-762822347	OPEN	2024-03-05T09:38:11Z
+142169	New version: Alibaba.QuarkCloudDrive version 3.1.4	SpecterShell:Alibaba.QuarkCloudDrive-3.1.4-478891992	OPEN	2024-03-05T09:37:56Z
+142167	New version: ThePyzoteam.pyzo version 4.15.0	TejasMate:ThePyzoteam.pyzo-4.15.0-29268A3C0A7A4CB9A019F1110CB0D638	OPEN	2024-03-05T09:31:48Z
+142166	New version: Syncthing.Syncthing version 1.27.4	Exorcism0666:Syncthing.Syncthing-1.27.4-68AF6B2CC138451F82DFCBCD7671F76A	OPEN	2024-03-05T09:27:47Z
+142165	New version: TeamIDE.TeamIDE version 2.6.10	Exorcism0666:TeamIDE.TeamIDE-2.6.10-EB7F087E603E4A1F9384F5CCB84ABA64	OPEN	2024-03-05T09:27:41Z
+142164	New version: xavidop.cxcli 1.179.0	xavidop:cxcli-1.179.0	OPEN	2024-03-05T09:25:34Z
 142163	New version: xavidop.cxcli 1.178.0	xavidop:cxcli-1.178.0	OPEN	2024-03-05T09:11:51Z
 142162	Yuzu	Exorcism0666:yuzu	OPEN	2024-03-05T08:01:42Z
 142161	Microsoft.VisualStudioCode.Insiders_v1.88.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.88.0	OPEN	2024-03-05T07:04:46Z
@@ -108,7 +132,6 @@
 141328	New version: Rojo.Rojo version 7.4.1	HeitorAugustoLN:Rojo.Rojo-7.4.1	OPEN	2024-02-28T18:41:59Z
 141323	New version: OnionShare.OnionShare version 2.6.1	Exorcism0666:OnionShare.OnionShare-2.6.1-69525CBDB9304A0EBC1F652F9FF7A9E1	OPEN	2024-02-28T18:31:26Z
 141312	New version: Tencent.QQ version 9.7.22.240228	SpecterShell:Tencent.QQ-9.7.22.240228-247946539	OPEN	2024-02-28T15:41:21Z
-141295	New version: evernote.evernote version 10.78.2	PckgrBot:evernote.evernote-10.78.2-e5aa0ccc-ac33-4d83-8f19-fd47a0d8c691	OPEN	2024-02-28T09:56:53Z
 141294	Add version: shirowanisan.COEIROINK version 1.0.1	Exorcism0666:shirowanisan.COEIROINK-1.0.1-D883C85E0FCD445692F5D91B51BE79C3	OPEN	2024-02-28T09:54:16Z
 141264	New version: Alex313031.Codium version 1.86.2.24053	abhinandanudupa:Alex313031.Codium-1.86.2.24053-8797f6be-d301-4158-8de8-a550bdfc7467	OPEN	2024-02-28T07:43:56Z
 141230	Automatic update of NAVER.Vaccine from 2021.5.7.1 to 2023.6.12.2	wingetbot:AutomaticUpdate_415ea5e7-83af-48b8-badf-d01279dbc3b8	OPEN	2024-02-27T23:56:39Z
