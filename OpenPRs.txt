@@ -1,3 +1,11 @@
+142157	New version: Ablaze.Floorp.Daylight version 11.10.5	Hibi-10000:Ablaze.Floorp.Daylight-11.10.5	OPEN	2024-03-05T06:15:07Z
+142156	New version: Jackett.Jackett version 0.21.1946	Jackett:Jackett.Jackett-0.21.1946-B90409DF8A27E97E34679FCA92EC809895ED040A	OPEN	2024-03-05T05:57:28Z
+142155	New version: Bilibili.Livehime version 4.63.0.6392	SpecterShell:Bilibili.Livehime-4.63.0.6392-587966423	OPEN	2024-03-05T05:47:35Z
+142154	New version: Eugeny.Tabby version 1.0.207	SpecterShell:Eugeny.Tabby-1.0.207-6D0B91D6	OPEN	2024-03-05T05:32:50Z
+142151	New version: Glodon.CADReader.CN version 6.1.0.95	SpecterShell:Glodon.CADReader.CN-6.1.0.95-121189359	OPEN	2024-03-05T03:37:48Z
+142150	New version: Appest.TickTick version 5.1.0.0	SpecterShell:Appest.TickTick-5.1.0.0-1031027679	OPEN	2024-03-05T03:36:33Z
+142149	New version: Microsoft.AzureCLI version 2.58.0	Exorcism0666:Microsoft.AzureCLI-2.58.0-F1C0B420B55149A181EFB8CFB5153FB8	OPEN	2024-03-05T03:30:48Z
+142148	New version: B3log.SiYuan version 3.0.2	Exorcism0666:B3log.SiYuan-3.0.2-21D898ECE0CC48EAA8DB449D908605DB	OPEN	2024-03-05T03:30:29Z
 142147	Add AzureCLI 2.58.0	azclibot:azurecli-2.58.0	OPEN	2024-03-05T03:08:00Z
 142144	New version: Betterbird.Betterbird version 115.8.0-bb24	aaronliu0130:Betterbird.Betterbird-115.8.0-bb24-55BE0C1712B849498E318B565FE80DC0	OPEN	2024-03-05T01:44:16Z
 142138	Automatic update of Surfshark.Surfshark from 5.5.3999 to 5.6.0999	wingetbot:AutomaticUpdate_a6fadab2-b052-4a9e-8e46-e831aca72c2f	OPEN	2024-03-05T00:18:19Z
@@ -12,7 +20,6 @@
 142091	New package: Bithack.Principia version 2024.02.29	griffi-gh:Bithack.Principia-2024.02.29-380B1B4A9E624D2B99CA7A1C5A6E937A	OPEN	2024-03-04T18:56:19Z
 142090	New version: JetBrains.FleetLauncher.Preview version 1.31.102	SpecterShell:JetBrains.FleetLauncher.Preview-1.31.102-995637120	OPEN	2024-03-04T18:38:33Z
 142085	Remove GPTScript 0.1.1	sirredbeard:remove_gptscript_011	OPEN	2024-03-04T18:26:07Z
-142078	Remove Japplis Website Optimizer version 4.1	japplis:remove-japplis-website-optimizer-4.1	OPEN	2024-03-04T17:52:10Z
 142065	New package: version-fox.vfox version 0.2.4	xxnuo:version-fox.vfox-0.2.4-5a7f1c62-0de2-463c-880a-2fc2bc672763	OPEN	2024-03-04T15:19:27Z
 142063	Update TeamViewer.TeamViewer.Host.installer.yaml	Exorcism0666:patch-1	OPEN	2024-03-04T14:48:01Z
 142061	New version: Tencent.QQ version 9.7.22.240304	SpecterShell:Tencent.QQ-9.7.22.240304-1932171105	OPEN	2024-03-04T12:48:29Z
