@@ -34,7 +34,7 @@ def is_dot_number_string(text):
         return False
 
 # Read the CSV file with the directory structure
-with open("filenames.csv", "r", encoding='utf-8') as csv_file:  # Replace with your CSV file path
+with open("data/filenames.csv", "r", encoding='utf-8') as csv_file:  # Replace with your CSV file path
     csv_reader = csv.reader(csv_file)
     next(csv_reader)  # Skip the header row if it exists
 
@@ -186,9 +186,9 @@ with open("filenames.csv", "r", encoding='utf-8') as csv_file:  # Replace with y
                 else:
                     print("Extension not in the list of allowed extensions.")
                             
-new_df.write_csv("GitHub_Release.csv")
+new_df.write_csv("data/GitHub_Release.csv")
 
-with open("urls.txt", "w") as file:
+with open("data/urls.txt", "w") as file:
     for item in installer_urls:
         file.write(item + "\n")  # Add a newline character to separate elements
         

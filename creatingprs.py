@@ -22,7 +22,7 @@ def check_strings(value, string1, string2):
     else:
         return False
 
-df_issues = pl.read_csv("OpenPRs.csv")
+df_issues = pl.read_csv("data/OpenPRs.csv")
 
 
 pat = os.environ["TOKEN"]
@@ -31,10 +31,10 @@ headers = {"Authorization": f"token {pat}",
            "Accept": "application/vnd.github.v3+json",
            }
 
-df = pl.read_csv("GitHub_Releasess.csv")
+df = pl.read_csv("data/GitHub_Releasess.csv")
 df_new = df.filter(pl.col('update_requires') == 'Yes')
 df_new = df_new.filter(pl.col('extension') != 'zip')
-df_new.write_csv("GitHub_Releasessss.csv")    
+df_new.write_csv("data/GitHub_Releasessss.csv")    
 
 commands = []
 

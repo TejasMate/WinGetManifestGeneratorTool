@@ -52,7 +52,7 @@ if __name__ == '__main__':
         # Wait for all tasks to complete
         concurrent.futures.wait(futures)
         
-    with open('filenames.csv', 'w', newline='', encoding='utf-8') as f:
+    with open('data/filenames.csv', 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
         
         # Generate header row

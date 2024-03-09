@@ -65,7 +65,7 @@ def versions(username, reponame):
 
 
 
-df = pl.read_csv("GitHub_Release.csv")
+df = pl.read_csv("data/GitHub_Release.csv")
 df_new = df.filter(pl.col('version_pattern_match') == 'PatternMatchOnlyNum')
 
 github_latest_vers = []
@@ -112,4 +112,4 @@ df_new = df_new.with_columns([
 
 ])      
     
-df_new.write_csv("GitHub_Releasess.csv")
+df_new.write_csv("data/GitHub_Releasess.csv")
