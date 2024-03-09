@@ -98,5 +98,7 @@ for row in df_new.rows():
         commands.append(command)
     
 
-with open("my_commands.sh", "w") as file:  # Open a file in write mode
+with open("komac_commands.sh", "w") as file:  # Open a file in write mode
     file.write("\n".join(commands))  # Join elements with newlines and write to file
+
+print(commands)

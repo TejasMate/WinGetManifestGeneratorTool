@@ -14,8 +14,8 @@ if not pat:
   raise RuntimeError("TOKEN env var is not set")
 
 # Example usage
-input_file = "my_commands.sh"
-output_file = "my_commandsss.sh"
+input_file = "komac_commands.sh"
+output_file = "komac_commands.sh"
 string_to_add = f" {pat}"
 
 modify_file(input_file, output_file, string_to_add)
