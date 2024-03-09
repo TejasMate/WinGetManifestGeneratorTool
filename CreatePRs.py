@@ -3,6 +3,16 @@ import polars as pl
 import os
 import re
 
+def modify_file(input_file, output_file, string_to_add):
+  with open(input_file, 'r') as f_in, open(output_file, 'w') as f_out:
+    for line in f_in:
+      # Remove trailing newline character if present
+      line = line.rstrip('\n')
+      # Add the string and a newline character
+      modified_line = line + string_to_add + '\n'
+      f_out.write(modified_line)
+
+
 def check_string1(string):
     if "v" in string[0]: 
         if not "." in string[1]: 
@@ -98,7 +108,15 @@ for row in df_new.rows():
         commands.append(command)
     
 
-with open("komac_commands.sh", "w") as file:  # Open a file in write mode
+file_name = "komac_commands.sh"
+with open(file_name, "w") as file:  # Open a file in write mode
     file.write("\n".join(commands))  # Join elements with newlines and write to file
 
 print(commands)
+
+string_to_add = f" {pat}"
+
+modify_file(file_name, file_name, string_to_add)
+
+print(f"Successfully modified {input_file} and saved the result to {output_file}")
+
