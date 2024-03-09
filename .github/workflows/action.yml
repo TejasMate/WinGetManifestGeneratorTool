@@ -62,14 +62,14 @@ jobs:
         env:
           TOKEN: ${{ secrets.TOKEN }}
         run: |
-          python Trial.py
+          python FindLatestVer.py
 
       - name: PRs Creation 
         env:
           TOKEN: ${{ secrets.TOKEN }}
         run: |
-          python creatingprs.py
-          python attachtoken.py
+          python CreatePRs.py
+          python AttachGitHubToken.py
           chmod +x komac_commands.sh
           ls -l
           rm komac_commands.sh
