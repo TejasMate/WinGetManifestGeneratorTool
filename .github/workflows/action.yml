@@ -69,7 +69,6 @@ jobs:
           TOKEN: ${{ secrets.TOKEN }}
         run: |
           python CreatePRs.py
-          python AttachGitHubToken.py
           chmod +x komac_commands.sh
           ls -l
           rm komac_commands.sh
