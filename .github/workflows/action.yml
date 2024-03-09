@@ -48,7 +48,7 @@ jobs:
           GH_TOKEN: ${{ secrets.token }}
         run: |
           git clone --branch "master" https://github.com/microsoft/winget-pkgs.git
-          gh pr list --repo "microsoft/winget-pkgs" --state "open" --limit 10000000 > OpenPRs.txt
+          gh pr list --repo "microsoft/winget-pkgs" --state "open" --limit 10000000 > 'data/OpenPRs.txt'
 
       - name: Python Scripts
         env:
@@ -73,6 +73,7 @@ jobs:
           chmod +x komac_commands.sh
           ls -l
           rm komac_commands.sh
+          rm komac_2.1.0-1_amd64.deb
           ls -l
 
       - name: 🚀 Commit and push if it changed

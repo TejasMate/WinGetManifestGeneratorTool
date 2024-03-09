@@ -14,7 +14,7 @@ def convert_txt_to_dataframe(file_path, field_names, field_lengths):
     return pl.DataFrame(data)
 
 # Example usage
-file_path = "OpenPRs.txt"
+file_path = "data/OpenPRs.txt"
 field_names = ["ID", "Title", "Branch", "Status", "CreatedAt"]
 field_lengths = [1000, 1500, 2000, 2000, 2000]
 
