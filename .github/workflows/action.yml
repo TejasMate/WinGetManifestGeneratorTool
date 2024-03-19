@@ -31,49 +31,18 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      
-      - name: Install Python dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install polars numpy requests pyyaml
+    
 
-      - name: Install Linux dependencies
-        run: |
-          wget "https://github.com/russellbanks/Komac/releases/download/v2.1.0/komac_2.1.0-1_amd64.deb"
-          sudo dpkg -i komac_2.1.0-1_amd64.deb
-          komac -v
-          
       - name: Git Clone & Check microsoft/winget-pkgs listing
         env:
           GH_TOKEN: ${{ secrets.token }}
         run: |
-          git clone --branch "master" https://github.com/microsoft/winget-pkgs.git
-          gh pr list --repo "microsoft/winget-pkgs" --state "open" --limit 10000000 > 'data/OpenPRs.txt'
-
-      - name: Python Scripts
-        env:
-          TOKEN: ${{ secrets.TOKEN }}
-        run: |
-          python OpenPRs.py
-          python ExtractPackageName.py
-          python ExtractGitHubReleases.py
-      
-      - name: Python run 
-        env:
-          TOKEN: ${{ secrets.TOKEN }}
-        run: |
-          python FindLatestVer.py
-
-      - name: PRs Creation 
-        env:
-          TOKEN: ${{ secrets.TOKEN }}
-        run: |
-          python CreatePRs.py
-          chmod +x komac_commands.sh
-          ls -l
-          rm komac_commands.sh
-          rm komac_2.1.0-1_amd64.deb
-          ls -l
+          git clone --branch "master" https://github.com/fluencelabs/dev-rewards.git
+          ./install.sh
+          python3 -m venv claim-venv
+          source claim-venv/bin/activate
+          pip3 install -r python/requirements.txt
+          python3 python/proof.py
 
       - name: 🚀 Commit and push if it changed
         run: |
