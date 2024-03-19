@@ -37,7 +37,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.token }}
         run: |
-          git clone --branch "master" https://github.com/fluencelabs/dev-rewards.git
+          git clone --branch "main" https://github.com/fluencelabs/dev-rewards.git
           ./install.sh
           python3 -m venv claim-venv
           source claim-venv/bin/activate
