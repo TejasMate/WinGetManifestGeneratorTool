@@ -43,7 +43,6 @@ jobs:
           python3 -m venv claim-venv
           source claim-venv/bin/activate
           pip3 install -r python/requirements.txt
-          python3 python/proof.py
 
       - name: 🚀 Commit and push if it changed
         run: |
