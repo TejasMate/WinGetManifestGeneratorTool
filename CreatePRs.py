@@ -118,5 +118,5 @@ string_to_add = f" {pat}"
 
 modify_file(file_name, file_name, string_to_add)
 
-print(f"Successfully modified {input_file} and saved the result to {output_file}")
+print(f"Successfully modified {file_name} and saved the result to {file_name}")
 
