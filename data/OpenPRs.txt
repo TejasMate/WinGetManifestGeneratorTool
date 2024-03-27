@@ -1,3 +1,4 @@
+146626	New version: Jackett.Jackett version 0.21.2175	Jackett:Jackett.Jackett-0.21.2175-96BE7343D7CFAB14BA6858D8EA01023461BF0B0C	OPEN	2024-03-27T06:02:46Z
 146625	New package: Hashicorp.Terraform.RC version 1.8.0-rc1	kdpuvvadi:Hashicorp.Terraform.RC-1.8.0-rc1-7467AE2D69CE40C4B524BBF7D9727B1B	OPEN	2024-03-27T05:51:52Z
 146624	Add version: eksctl.eksctl version 0.175.0	kdpuvvadi:eksctl.eksctl-0.175.0-1C4B3D4ED9532C05195BE7710690943E73B6CBAC	OPEN	2024-03-27T05:34:17Z
 146623	VoyagerX.Vrew version 1.16.1	vedantmgoyal9:VoyagerX.Vrew-1.16.1-aa5ddb05-7faa-4f9b-be06-20cfd2352749	OPEN	2024-03-27T05:27:40Z
