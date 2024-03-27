@@ -1,0 +1,433 @@
+146625	New package: Hashicorp.Terraform.RC version 1.8.0-rc1	kdpuvvadi:Hashicorp.Terraform.RC-1.8.0-rc1-7467AE2D69CE40C4B524BBF7D9727B1B	OPEN	2024-03-27T05:51:52Z
+146624	Add version: eksctl.eksctl version 0.175.0	kdpuvvadi:eksctl.eksctl-0.175.0-1C4B3D4ED9532C05195BE7710690943E73B6CBAC	OPEN	2024-03-27T05:34:17Z
+146623	VoyagerX.Vrew version 1.16.1	vedantmgoyal9:VoyagerX.Vrew-1.16.1-aa5ddb05-7faa-4f9b-be06-20cfd2352749	OPEN	2024-03-27T05:27:40Z
+146622	New version: Wondershare.Repairit.CN version 4.0.3.11 (4.0.3)	SpecterShell:Wondershare.Repairit.CN-4.0.3.11-597370260	OPEN	2024-03-27T05:12:16Z
+146621	New version: ErikAraojo.FintX version 2.0.0	namigop:ErikAraojo.FintX-2.0.0-5356b735-641d-4199-915e-d999cb0e09ff	OPEN	2024-03-27T05:11:45Z
+146619	New version: Xiaoyaoyixia.KOOK version 0.82.0	SpecterShell:Xiaoyaoyixia.KOOK-0.82.0-1324314850	OPEN	2024-03-27T04:11:39Z
+146618	ReleaseNotes: Bilibili.Livehime version 4.62.0.6376	SpecterShell:Bilibili.Livehime-4.62.0.6376-ReleaseNotes	OPEN	2024-03-27T03:43:10Z
+146617	ReleaseNotes: Bilibili.Livehime version 4.64.0.6430	SpecterShell:Bilibili.Livehime-4.64.0.6430-ReleaseNotes	OPEN	2024-03-27T03:42:56Z
+146616	ReleaseNotes: Bilibili.Livehime version 4.65.0.6450	SpecterShell:Bilibili.Livehime-4.65.0.6450-ReleaseNotes	OPEN	2024-03-27T03:42:43Z
+146615	ReleaseNotes: Bilibili.Livehime version 4.65.1.6458	SpecterShell:Bilibili.Livehime-4.65.1.6458-ReleaseNotes	OPEN	2024-03-27T03:42:20Z
+146614	ReleaseNotes: Bilibili.Livehime version 4.65.2.6459	SpecterShell:Bilibili.Livehime-4.65.2.6459-ReleaseNotes	OPEN	2024-03-27T03:42:06Z
+146613	ReleaseNotes: Bilibili.Livehime version 4.65.3.6461	SpecterShell:Bilibili.Livehime-4.65.3.6461-ReleaseNotes	OPEN	2024-03-27T03:41:51Z
+146612	ReleaseNotes: Bilibili.Livehime version 5.0.0.6633	SpecterShell:Bilibili.Livehime-5.0.0.6633-ReleaseNotes	OPEN	2024-03-27T03:41:36Z
+146611	ReleaseNotes: 7S2P.Effie.CN version 3.8.3	SpecterShell:7S2P.Effie.CN-3.8.3-ReleaseNotes	OPEN	2024-03-27T03:37:25Z
+146610	Fix: 7S2P.Effie version 3.8.3	SpecterShell:7S2P.Effie-3.8.3-7S2P.Effie	OPEN	2024-03-27T03:35:45Z
+146609	Remove: Feixiang.Feixiang version 3.2.2	SpecterShell:Feixiang.Feixiang-3.2.2-5299166E	OPEN	2024-03-27T03:34:12Z
+146608	Remove: Feixiang.Feixiang version 3.2.1	SpecterShell:Feixiang.Feixiang-3.2.1-3E442909	OPEN	2024-03-27T03:33:54Z
+146607	Remove: Feixiang.Feixiang version 3.1.0	SpecterShell:Feixiang.Feixiang-3.1.0-D6CCFC64	OPEN	2024-03-27T03:33:36Z
+146606	Remove: Feixiang.Feixiang version 3.0.1	SpecterShell:Feixiang.Feixiang-3.0.1-2D9A734F	OPEN	2024-03-27T03:32:56Z
+146605	Remove: Feixiang.Feixiang version 2.9.4	SpecterShell:Feixiang.Feixiang-2.9.4-ACB22E94	OPEN	2024-03-27T03:32:39Z
+146604	Remove: Feixiang.Feixiang version 2.9.2	SpecterShell:Feixiang.Feixiang-2.9.2-DA9AAC09	OPEN	2024-03-27T03:30:03Z
+146603	Remove: Feixiang.Feixiang version 2.9.1	SpecterShell:Feixiang.Feixiang-2.9.1-0A4EA7C7	OPEN	2024-03-27T03:29:31Z
+146602	Remove: Feixiang.Feixiang version 2.8.1	SpecterShell:Feixiang.Feixiang-2.8.1-BFB0E893	OPEN	2024-03-27T03:29:15Z
+146601	Remove: Feixiang.Feixiang version 2.8.0	SpecterShell:Feixiang.Feixiang-2.8.0-9315932D	OPEN	2024-03-27T03:28:39Z
+146600	Remove: Feixiang.Feixiang version 2.7.1	SpecterShell:Feixiang.Feixiang-2.7.1-7A36B118	OPEN	2024-03-27T03:28:22Z
+146599	Remove: Feixiang.Feixiang version 2.6.1	SpecterShell:Feixiang.Feixiang-2.6.1-9B3EAF57	OPEN	2024-03-27T03:28:03Z
+146598	Remove: Feixiang.Feixiang version 2.5.0	SpecterShell:Feixiang.Feixiang-2.5.0-0A79E161	OPEN	2024-03-27T03:27:27Z
+146597	Remove: Feixiang.Feixiang version 2.4.1	SpecterShell:Feixiang.Feixiang-2.4.1-73EA991E	OPEN	2024-03-27T03:27:12Z
+146596	Remove: Feixiang.Feixiang version 2.3.0	SpecterShell:Feixiang.Feixiang-2.3.0-78E9C879	OPEN	2024-03-27T03:26:47Z
+146595	New version: Ryujinx.Ryujinx version 1.1.1247	Exorcism0666:Ryujinx.Ryujinx-1.1.1247-1904525419	OPEN	2024-03-27T03:21:53Z
+146594	New version: michidk.vscli version 0.2.2	michidk:michidk.vscli-0.2.2-31B62A2F49AE49619E9DD68A59750FCD	OPEN	2024-03-27T03:16:55Z
+146593	Update: Selur.Hybrid version 0.2.6 (2024.03.26.1)	SpecterShell:Selur.Hybrid-0.2.6-1040181766	OPEN	2024-03-27T03:14:45Z
+146592	New version: NetEase.Lingxi version 1.38.2	SpecterShell:NetEase.Lingxi-1.38.2-2045133250	OPEN	2024-03-27T03:11:51Z
+146591	Modify: BlenderFoundation.Blender version 4.1.0	SpecterShell:BlenderFoundation.Blender-4.1.0-32874119	OPEN	2024-03-27T02:59:23Z
+146590	New version: Ryujinx.Ryujinx.Ava version 1.1.1246	Exorcism0666:Ryujinx.Ryujinx.Ava-1.1.1246-343310053	OPEN	2024-03-27T02:25:32Z
+146589	New version: Ryujinx.Ryujinx version 1.1.1246	Exorcism0666:Ryujinx.Ryujinx-1.1.1246-1440450116	OPEN	2024-03-27T02:25:32Z
+146588	Update: Selur.Hybrid version 0.2.6 (2024.03.26.1)	SpecterShell:Selur.Hybrid-0.2.6-108408392	OPEN	2024-03-27T02:14:52Z
+146583	New version: RandyHollines.Objeck version 2024.3.0	Exorcism0666:RandyHollines.Objeck-2024.3.0-3F5790B6AE7D495399E7D9CEDF5A6F92	OPEN	2024-03-27T01:20:16Z
+146581	New version: Aserto.Topaz version 0.31.9	Exorcism0666:Aserto.Topaz-0.31.9-8685F5C404104172B99781ECF0E970E7	OPEN	2024-03-27T01:20:05Z
+146572	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_80dbbbd1-310b-410d-b374-3838571983e8	OPEN	2024-03-27T00:46:38Z
+146569	azurejoga.aurora version 16.0	azurejoga:azurejoga.aurora-16.0-c49b0638-5f0f-4344-b392-b84baecdd420	OPEN	2024-03-27T00:21:43Z
+146557	New version: OSGeo.QGIS version 3.36.1	PckgrBot:OSGeo.QGIS-3.36.1-337eab09-7f3b-43e2-8d5c-ce4211839cb4	OPEN	2024-03-26T22:58:21Z
+146536	New version: Guru3D.RTSS version 7.3.6	vikingnope:Guru3D.RTSS-7.3.6-407CD347B4BB43F1B4583D894C2E141A	OPEN	2024-03-26T21:02:01Z
+146522	Automatic update of AcroSoftwareInc.CutePDFWriter from 4.0 to 4.0.1.3	wingetbot:AutomaticUpdate_9c1d9f98-4839-42c6-9c35-7f3ca9fb1e22	OPEN	2024-03-26T19:01:35Z
+146520	Add version: OpenJS.NodeJS.LTS version 18.20.0	coolplaylinbot:OpenJS.NodeJS.LTS-18.20.0-94607FCF9AF0421DBEDCEF893C7E62E7	OPEN	2024-03-26T18:17:56Z
+146519	New version: OpenJS.NodeJS.LTS version 20.12.0	coolplaylinbot:OpenJS.NodeJS.LTS-20.12.0-27FDCD5403764BAABDCBE5944D3E16C5	OPEN	2024-03-26T18:17:52Z
+146512	Microsoft.VisualStudio.2022.Community version 17.9.5	edwardskrod:autogenerated/Microsoft.VisualStudio.2022.Community/7c00185a-1b51-4cbf-9f10-4b3089752e45	OPEN	2024-03-26T17:15:51Z
+146503	New version: Tauri.create-tauri-app version 3.13.17	SpecterShell:Tauri.create-tauri-app-3.13.17-1946743454	OPEN	2024-03-26T15:11:25Z
+146498	New version: Rime.Weasel version 0.15.0	vikingnope:Rime.Weasel-0.15.0-F2568039FECF4B7586D92DDA7DF25F4E	OPEN	2024-03-26T13:13:14Z
+146491	New version: JetBrains.FleetLauncher.Preview version 1.32.122	SpecterShell:JetBrains.FleetLauncher.Preview-1.32.122-2120806805	OPEN	2024-03-26T11:10:28Z
+146486	PathofBuildingCommunity.PathofBuildingCommunity version 2.41.0	orange-lion:PathofBuildingCommunity.PathofBuildingCommunity-2.41.0-beb1aa0a-34fd-4c1d-9475-47778ca84a68	OPEN	2024-03-26T09:28:31Z
+146480	New version: Initex.YogaDNS version 1.45	vikingnope:Initex.YogaDNS-1.45-178DC19FB8C84AFFA4FB41107A415BC7	OPEN	2024-03-26T07:58:14Z
+146479	New version: deviceinsight.kafkactl-azure-plugin 1.0.5	deviceinsight:kafkactl-azure-plugin-1.0.5	OPEN	2024-03-26T07:18:59Z
+146475	Microsoft.VisualStudioCode.Insiders.CLI_v1.88.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.Insiders.CLI_v1.88.0	OPEN	2024-03-26T07:06:00Z
+146470	New version: Xmarmalade.AlistHelper version 0.1.5	SpecterShell:Xmarmalade.AlistHelper-0.1.5-435581658	OPEN	2024-03-26T05:10:17Z
+146454	Automatic update of NordSecurity.NordPass from 5.13.26 to 5.14.23.47593	wingetbot:AutomaticUpdate_43eda5a8-39b6-4ef5-875d-4479087d2ac6	OPEN	2024-03-26T01:07:18Z
+146417	New package: CelestialCartoGraphers.Loenn version 0.7.8	vikingnope:CelestialCartoGraphers.Loenn-0.7.8-4810378C84954B81BDBCA6579F473D31	OPEN	2024-03-25T20:06:48Z
+146390	mar10.stressor version 0.5.2.0	vedantmgoyal9:mar10.stressor-0.5.2.0-7e20861c-8345-4fd7-87fa-ce8edf6704bf	OPEN	2024-03-25T16:30:56Z
+146364	New package: ITK-SNAP.ITK-SNAP version 4.0.2	fhdrsdg:ITK-SNAP.ITK-SNAP-4.0.2-e4dd2aa8-d796-49fe-a859-725ce75bab7a	OPEN	2024-03-25T10:10:58Z
+146354	New package: hoppscotch.Hoppscotch version 23.12.6.1	xVemu:hoppscotch.Hoppscotch-23.12.6.1-39d69fb2-e5f6-41ca-9b78-a62dc768c90d	OPEN	2024-03-25T08:17:27Z
+146346	Remove: tangshimin.MuJing version 2.2.20	coolplaylinbot:tangshimin.MuJing-2.2.20-3AE28460511994E712F63502937D661BBAA82938	OPEN	2024-03-25T06:41:50Z
+146319	New version: NordSecurity.NordVPN version 7.20.4.0	SpecterShell:NordSecurity.NordVPN-7.20.4.0-B5CD7407	OPEN	2024-03-25T04:57:14Z
+146308	New version: Tencent.QiDian version 5.9.16.20830	SpecterShell:Tencent.QiDian-5.9.16.20830-786390861	OPEN	2024-03-25T03:11:45Z
+146305	New version: Waterfox.Waterfox version G6.0.11	Exorcism0666:Waterfox.Waterfox-G6.0.11-C2038595653440D592D07FE5261B7F6D	OPEN	2024-03-25T01:20:32Z
+146251	New version: Apache.Groovy.4 version 4.0.20	vikingnope:Apache.Groovy.4-4.0.20-43CAF96EF6A84E7793BB3D3DB860BF55	OPEN	2024-03-24T21:03:35Z
+146248	Automatic update of Tonec.InternetDownloadManager from 6.42.3 to 6.42.7.1	wingetbot:AutomaticUpdate_71c41174-ccc8-4efa-929e-eb856deaa4c4	OPEN	2024-03-24T20:27:12Z
+146242	New version: huanghongxun.HelloMinecraftLauncher version 3.5.7.244	TejasMate:huanghongxun.HelloMinecraftLauncher-3.5.7.244-66D92DF3B9C248569E0ADF8A6AF7C524	OPEN	2024-03-24T18:22:19Z
+146241	New package: OptimiseHealth.OptimiseBPDesktop version 4.1.4	fraserbooth:OptimiseHealth.OptimiseBPDesktop-4.1.4-8bfb7ad5-86a8-48eb-b911-19691d79d78c	OPEN	2024-03-24T18:10:03Z
+146234	TopalaSoftwareSolutions.SIW version 2024.02.15.8	gtopala:TopalaSoftwareSolutions.SIW-2024.02.15.8-62ab6ce2-e43c-41e7-ae6e-41b13cd6049b	OPEN	2024-03-24T13:27:47Z
+146230	New version: WatchGuardTechnologies.WatchGuardSystemManager version 1…	1eyeITguy:WatchGuardTechnologies.WatchGuardSystemManager-12.10.2.U1-59C81588	OPEN	2024-03-24T12:23:43Z
+146221	Bug: InternetDownloadManager 6.42.3 Installer fix hash mismatch	vikingnope:idm-fix-hash	OPEN	2024-03-24T06:23:20Z
+146188	Automatic update of Tonec.InternetDownloadManager from 6.42.3 to 6.42.6.1	wingetbot:AutomaticUpdate_66abcb72-4a82-4b50-a2be-9eca99f58c7c	OPEN	2024-03-23T20:26:46Z
+146185	New package: Files-Community.Files version 3.3.0.0	vikingnope:Files-Community.Files-3.3.0.0-31533D8937354C5D8BF3D259CC44BFB3	OPEN	2024-03-23T20:04:03Z
+146169	New package: MgTV.MgTV version 6.7.14	CoolPlayLin:MgTV.MgTV-6.7.14-43D14D1C964B4266ACC892F83E0AF8ED	OPEN	2024-03-23T12:08:45Z
+146157	Move Google.NearbyShare 1.0.993.0 to Google.QuickShare 1.0.993.0	SpecterShell:Move-Google.NearbyShare-v1.0.993.0-E4D8E44E	OPEN	2024-03-23T09:46:59Z
+146155	Move Google.NearbyShare 1.0.972.0 to Google.QuickShare 1.0.972.0	SpecterShell:Move-Google.NearbyShare-v1.0.972.0-E4D8E44E	OPEN	2024-03-23T09:46:49Z
+146153	Move Google.NearbyShare 1.0.891.0 to Google.QuickShare 1.0.891.0	SpecterShell:Move-Google.NearbyShare-v1.0.891.0-E4D8E44E	OPEN	2024-03-23T09:46:40Z
+146151	Move Google.NearbyShare 1.0.839.0 to Google.QuickShare 1.0.839.0	SpecterShell:Move-Google.NearbyShare-v1.0.839.0-E4D8E44E	OPEN	2024-03-23T09:46:31Z
+146149	Move Google.NearbyShare 1.0.787.0 to Google.QuickShare 1.0.787.0	SpecterShell:Move-Google.NearbyShare-v1.0.787.0-E4D8E44E	OPEN	2024-03-23T09:46:21Z
+146131	Update: KRTirtho.Flemozi version 0.1.1	OfficialEsco:KRTirtho.Flemozi-0.1.1-06400019	OPEN	2024-03-23T08:51:02Z
+146128	New version: MuhammadFareezIqmal.IIUMSchedule version 1.4.3.0	iqfareez:MuhammadFareezIqmal.IIUMSchedule-1.4.3.0-9414c1e9-7a8f-4fc3-b9d8-949ce80789c2	OPEN	2024-03-23T08:15:55Z
+146116	New package: aome510.spotify-player version 0.17.1	250h:aome510.spotify-player	OPEN	2024-03-23T03:33:36Z
+146114	New package: Yuanli.uTools version 4.4.1	SpecterShell:Yuanli.uTools-4.4.1-Newpackage	OPEN	2024-03-23T03:28:04Z
+146088	New package: Teclib'.GLPIAgent1.7.1 version 1.7.1	MaxKoerck:Teclib'.GLPIAgent1.7.1-1.7.1-db39a5f4-4fbf-402e-9f7c-568446233bf6	OPEN	2024-03-22T23:13:58Z
+146087	New version: GnuWin32.Grep version 3.5.0	vikingnope:GnuWin32.Grep-3.5.0-1976D0677E504D44BABF907F384DE5B0	OPEN	2024-03-22T23:11:11Z
+146079	New version: git-cola.git-cola version 4.6.1	vikingnope:git-cola.git-cola-4.6.1-43115CFB4B52482A803AC407159C203A	OPEN	2024-03-22T22:22:31Z
+146062	New version: Chromium.ChromeDriver version 123.0.6312.58	vikingnope:Chromium.ChromeDriver-123.0.6312.58-E36873FEA3974DC88697C1751A07CF67	OPEN	2024-03-22T20:34:16Z
+146059	New version: AirDroid.AirDroid version 3.7.2.1	vikingnope:AirDroid.AirDroid-3.7.2.1-56AF2AD4F0F342AAB8FE2C9F6C1C8C63	OPEN	2024-03-22T20:20:21Z
+146058	New version: HulubuluSoftware.AdvancedRenamer version 3.94	vikingnope:HulubuluSoftware.AdvancedRenamer-3.94-141CCCB56B084C5AA64B7AEE8160069A	OPEN	2024-03-22T20:17:51Z
+146056	Add Devolutions Workspace version 2024.1.3.0	Devolutions:Workspace-WinGet-2024.1.3.0	OPEN	2024-03-22T20:05:30Z
+146052	New version: Tetrate.wazero version 1.7.0	TejasMate:Tetrate.wazero-1.7.0-835B283649D64005912243D043F44E52	OPEN	2024-03-22T19:23:21Z
+146048	Fixes link issue regarding sandbox test PowerShell script	vikingnope:sandbox-doc-fix	OPEN	2024-03-22T18:46:54Z
+145998	clsid2.mpc-hc version 2.1.7	vedantmgoyal9:clsid2.mpc-hc-2.1.7-030a74f8-80b0-44b4-866f-0629f6666e3b	OPEN	2024-03-22T16:28:12Z
+145942	New version: Streetwriters.Notesnook version 2.6.17	Exorcism0666:Streetwriters.Notesnook-2.6.17-0A0D2A3706A74433AB2D3D274D968D22	OPEN	2024-03-22T01:18:16Z
+145939	Automatic update of niconico.nair.live from latest to 1.1.20240321-1	wingetbot:AutomaticUpdate_ed56563b-4d29-4b23-bac8-7fa414875866	OPEN	2024-03-22T00:43:35Z
+145919	tibbo.ioninja version 5.5.1	vedantmgoyal9:tibbo.ioninja-5.5.1-8c295790-0b96-4477-822e-e0ecfe1e5fb9	OPEN	2024-03-21T23:30:20Z
+145918	Microsoft.Edge.Beta version 123.0.2420.53	vedantmgoyal9:Microsoft.Edge.Beta-123.0.2420.53-57c3f951-8b8b-4c6a-993b-69500738f9df	OPEN	2024-03-21T23:29:52Z
+145917	JackieLiu.NotepadsApp version 1.5.4.0	vedantmgoyal9:JackieLiu.NotepadsApp-1.5.4.0-f498f8a5-87fe-4759-8f30-f2a875276c5f	OPEN	2024-03-21T23:27:47Z
+145914	Discord.Discord version 1.0.9036	vedantmgoyal9:Discord.Discord-1.0.9036-2997df81-b728-4466-9d16-548cf00cf012	OPEN	2024-03-21T23:27:08Z
+145891	Submitting WebFortran 0.4.42	ArmstrongJ:add-webfortran	OPEN	2024-03-21T21:39:43Z
+145880	New version: JetBrains.CLion.EAP version 241.14494.154	SpecterShell:JetBrains.CLion.EAP-241.14494.154-856982039	OPEN	2024-03-21T21:09:46Z
+145869	Automatic deletion of PerfectWorld.PerfectWorldArena 1.0.24032112	wingetbot:AutomaticUpdate_0646ac9c-cfa4-4b3a-9bd7-860fe756d5ce	OPEN	2024-03-21T20:23:03Z
+145868	Automatic update of PerfectWorld.PerfectWorldArena from 1.0.24032112 to 1.0.24032112.980	wingetbot:AutomaticUpdate_c15948e9-d1c1-4f1f-941b-451266d65de2	OPEN	2024-03-21T20:17:37Z
+145866	Automatic update of DWANGO.NAIR.experimental from unstable to 1.1.20240321-unstable.1	wingetbot:AutomaticUpdate_dd8bdcee-8d5b-40de-be3d-e545c7639b5c	OPEN	2024-03-21T19:44:21Z
+145860	New version: Unity.Unity.2023 version 2023.2.15f1	SpecterShell:Unity.Unity.2023-2023.2.15f1-477068188	OPEN	2024-03-21T19:12:12Z
+145847	Remove version: Prog.ProgDVB.Free version 7.51.6	Exorcism0666:Prog.ProgDVB.Free-7.51.6-9B1FFE4B1AB41E74F5A219CFEDF31F31E4B60F95	OPEN	2024-03-21T16:35:23Z
+145846	Remove version: Prog.ProgDVB.Professional version 7.51.6	Exorcism0666:Prog.ProgDVB.Professional-7.51.6-4DFCA4D094A4ECCC0AB3A48179EFAE52637E9FF3	OPEN	2024-03-21T16:35:21Z
+145626	Automatic deletion of Jidifudi.GT4T 8.43.240319	wingetbot:AutomaticUpdate_9125e4b4-2a27-4abc-bdef-3798e41d85d0	OPEN	2024-03-21T00:55:58Z
+145619	Automatic deletion of Soundly.Soundly 2024.03.0.111	wingetbot:AutomaticUpdate_a746e130-43ec-4c1b-bf49-c167c0ec147b	OPEN	2024-03-21T00:17:32Z
+145614	Automatic update of IObit.AdvancedSystemCare from 17.2.0 to 17.3.0.204	wingetbot:AutomaticUpdate_eae2b4c0-9e21-4328-a671-784ba31ae8e3	OPEN	2024-03-20T23:48:37Z
+145586	New version: KRTirtho.Flemozi version 0.2.0	OfficialEsco:KRTirtho.Flemozi-0.2.0-18B325AC789D423E85C963E70E24A68B	OPEN	2024-03-20T22:06:59Z
+145562	New version: LyX.LyX version 2.3.7.0	vikingnope:LyX.LyX-2.3.7.0-da791c5b-93d6-45fe-876f-3ee38ea717b1	OPEN	2024-03-20T21:09:15Z
+145546	New version: GNU.Emacs version 29.2.1	OfficialEsco:GNU.Emacs-29.2.1-5503AD393B50414EA1386AD57BBE8BB1	OPEN	2024-03-20T20:28:43Z
+145528	New version: Drawpile.Drawpile version 2.2.1	OfficialEsco:Drawpile.Drawpile-2.2.1-5A9B0164620E4B328443809C97F02FD6	OPEN	2024-03-20T19:38:37Z
+145501	New version: Nvidia.CUDA version 12.4.0	OfficialEsco:Nvidia.CUDA-12.4.0-A34E669D251F4F14984D3271F79B0582	OPEN	2024-03-20T18:18:18Z
+145485	New version: HiroSystems.Clarinet version 2.3.1	OfficialEsco:HiroSystems.Clarinet-2.3.1-59276221825A4D8F8362C614EA3082A5	OPEN	2024-03-20T17:15:06Z
+145475	Min.Min version 1.31.2	vedantmgoyal9:Min.Min-1.31.2-b193d1fc-0a63-4365-b99a-ccd05eb0fc74	OPEN	2024-03-20T16:29:13Z
+145474	Microsoft.Edge.Dev version 124.0.2464.2	vedantmgoyal9:Microsoft.Edge.Dev-124.0.2464.2-31d9ceb1-af86-4840-87df-0a18ffab3042	OPEN	2024-03-20T16:29:01Z
+145427	New version: Mozilla.Firefox.DeveloperEdition version 125.0 (125.0b1)	SpecterShell:Mozilla.Firefox.DeveloperEdition-125.0-900199140	OPEN	2024-03-20T04:01:23Z
+145406	Automatic update of Nvidia.Omniverse from 1.9.8 to 1.9.10.2591	wingetbot:AutomaticUpdate_1e575df0-14d0-477d-a2eb-c719674c093b	OPEN	2024-03-20T01:16:17Z
+145380	Automatic update of Stardock.Start10 from 1.9.7 to 9.5.3.0	wingetbot:AutomaticUpdate_de0cbb86-568c-4f3e-a52e-b3516b37f44e	OPEN	2024-03-20T00:34:18Z
+145305	New version: ast-grep.ast-grep version 0.19.4	OfficialEsco:ast-grep.ast-grep-0.19.4-98AB07B8B3304155B0BF471717D3E4C8	OPEN	2024-03-19T21:44:25Z
+145278	New version: AIMP.AIMP version 5.30.2541	OfficialEsco:AIMP.AIMP-5.30.2541-3E832F15D4034207A28C081568036E7B	OPEN	2024-03-19T21:09:38Z
+145261	New version: HulubuluSoftware.AdvancedRenamer version 3.94.3	OfficialEsco:HulubuluSoftware.AdvancedRenamer-3.94.3-EEED28B7D278486DAC0ECE63D65413F2	OPEN	2024-03-19T18:51:20Z
+145234	New version: Adobe.AdobeDigitalEditions version 4.5.12	Exorcism0666:Adobe.AdobeDigitalEditions-4.5.12-5513EA32	OPEN	2024-03-19T16:02:18Z
+145232	New version: OpslyCloud.opsly-cli version v0.0.1-alpha.19	Opsly:release-v0.0.1-alpha.19	OPEN	2024-03-19T15:58:02Z
+145196	New package: PeteAndJohn.FSUIPC7 version 7.4.9	vikingnope:PeteAndJohn.FSUIPC7-7.4.9-1A84A80AA56E44E19A52F380DB81EC2D	OPEN	2024-03-19T05:01:07Z
+145152	New package: Sapphire.TriXX version 9.7.0	vikingnope:Sapphire.TriXX-9.7.0-7525EA3AB9F1493AA0BFD43B720B3A22	OPEN	2024-03-18T22:41:40Z
+145126	New package: Equalizer.APO version 1.3.2	vikingnope:Equalizer.APO-1.3.2-EEEDA4F7C96C4495B6049FC5523979A7	OPEN	2024-03-18T20:53:13Z
+145088	New version: Sogou.SogouInput version 14.3.0.9006 (14.3a)	SpecterShell:Sogou.SogouInput-14.3.0.9006-1309113756	OPEN	2024-03-18T15:15:07Z
+145045	Remove: Julialang.Julia.LTS version 1.6.7	SpecterShell:Julialang.Julia.LTS-1.6.7-Remove	DRAFT	2024-03-18T05:50:29Z
+145044	Remove: Julialang.Julia version 1.9.4	SpecterShell:Julialang.Julia-1.9.4-Remove	DRAFT	2024-03-18T05:44:53Z
+145043	Remove: Julialang.Julia version 1.9.3	SpecterShell:Julialang.Julia-1.9.3-Remove	DRAFT	2024-03-18T05:44:44Z
+145042	Remove: Julialang.Julia version 1.9.2	SpecterShell:Julialang.Julia-1.9.2-Remove	DRAFT	2024-03-18T05:44:35Z
+145041	Remove: Julialang.Julia version 1.9.1	SpecterShell:Julialang.Julia-1.9.1-Remove	DRAFT	2024-03-18T05:44:26Z
+145040	Remove: Julialang.Julia version 1.9.0	SpecterShell:Julialang.Julia-1.9.0-Remove	DRAFT	2024-03-18T05:44:17Z
+145039	Remove: Julialang.Julia version 1.8.5	SpecterShell:Julialang.Julia-1.8.5-Remove	DRAFT	2024-03-18T05:44:09Z
+145038	Remove: Julialang.Julia version 1.8.4	SpecterShell:Julialang.Julia-1.8.4-Remove	DRAFT	2024-03-18T05:44:00Z
+145037	Remove: Julialang.Julia version 1.8.3	SpecterShell:Julialang.Julia-1.8.3-Remove	DRAFT	2024-03-18T05:43:51Z
+145036	Remove: Julialang.Julia version 1.8.2	SpecterShell:Julialang.Julia-1.8.2-Remove	DRAFT	2024-03-18T05:43:43Z
+145035	Remove: Julialang.Julia version 1.8.1	SpecterShell:Julialang.Julia-1.8.1-Remove	DRAFT	2024-03-18T05:43:34Z
+145034	Remove: Julialang.Julia version 1.8.0	SpecterShell:Julialang.Julia-1.8.0-Remove	DRAFT	2024-03-18T05:43:24Z
+145033	Remove: Julialang.Julia version 1.7.3	SpecterShell:Julialang.Julia-1.7.3-Remove	DRAFT	2024-03-18T05:43:16Z
+145032	Remove: Julialang.Julia version 1.7.2	SpecterShell:Julialang.Julia-1.7.2-Remove	DRAFT	2024-03-18T05:43:07Z
+145031	Remove: Julialang.Julia version 1.7.1	SpecterShell:Julialang.Julia-1.7.1-Remove	DRAFT	2024-03-18T05:42:58Z
+145030	Remove: Julialang.Julia version 1.7.0	SpecterShell:Julialang.Julia-1.7.0-Remove	DRAFT	2024-03-18T05:42:50Z
+145029	Remove: Julialang.Julia version 1.6.2	SpecterShell:Julialang.Julia-1.6.2-Remove	DRAFT	2024-03-18T05:42:41Z
+145028	Remove: Julialang.Julia version 1.6.1	SpecterShell:Julialang.Julia-1.6.1-Remove	DRAFT	2024-03-18T05:42:32Z
+145027	Remove: Julialang.Julia version 1.5.4	SpecterShell:Julialang.Julia-1.5.4-Remove	DRAFT	2024-03-18T05:42:23Z
+145026	Remove: Julialang.Julia version 1.5.1	SpecterShell:Julialang.Julia-1.5.1-Remove	DRAFT	2024-03-18T05:42:14Z
+145025	Remove: Julialang.Julia version 1.4.2	SpecterShell:Julialang.Julia-1.4.2-Remove	DRAFT	2024-03-18T05:42:06Z
+145024	Remove: Julialang.Julia version 1.4.1	SpecterShell:Julialang.Julia-1.4.1-Remove	DRAFT	2024-03-18T05:41:57Z
+145023	Remove: Julialang.Julia version 1.10.0	SpecterShell:Julialang.Julia-1.10.0-Remove	DRAFT	2024-03-18T05:41:48Z
+145017	Prey.Prey version 1.12.3	vedantmgoyal9:Prey.Prey-1.12.3-a90f6e6f-3f0f-4c3a-be3e-748e7fbfc3d6	OPEN	2024-03-18T05:25:22Z
+145000	Remove: XpdfReader.XpdfReader version 4.04	coolplaylinbot:XpdfReader.XpdfReader-4.04-72B92375BA6850E93E260F35733E73D1382A2814	OPEN	2024-03-18T01:03:46Z
+144972	New package: GoHarbor.Harbor version 0.0.1	amands98:go-harbor	OPEN	2024-03-17T17:27:22Z
+144966	Cybelsoft.DriversCloud version 12.0.21	vedantmgoyal9:Cybelsoft.DriversCloud-12.0.21-28ec10ee-04c1-4243-a90f-e30bd900ee0c	OPEN	2024-03-17T16:30:40Z
+144959	New version: Bostrot.WSLManager version 1.8.11.0	Exorcism0666:Bostrot.WSLManager-1.8.11.0-02D3965D	OPEN	2024-03-17T14:14:04Z
+144940	New package: swxtz.etec-config version 1.0.0	swxtz:swxtz.etec-config-1.0.0-b14ba709-d7fd-4f6b-8750-7279c7cb0b2b	OPEN	2024-03-17T08:51:30Z
+144934	EpicGames.EpicGamesLauncher version 1.3.93.0: Remove InstallerLocale	StarsbySea:epic-1.3.93.0-remove-InstallerLocale	OPEN	2024-03-17T05:31:56Z
+144902	Kingsoft.KingsoftPDF 12.6.0.15502	stevenlele:wpspdf-15502	OPEN	2024-03-16T19:35:13Z
+144861	Add version: OpenJS.NodeJS.LTS version 6.12.2	coolplaylinbot:OpenJS.NodeJS.LTS-6.12.2-4D8B77085F734302BC4B6E319FC41870	OPEN	2024-03-16T06:18:33Z
+144855	Add version: OpenJS.NodeJS.LTS version 4.2.0	coolplaylinbot:OpenJS.NodeJS.LTS-4.2.0-C557841D9E8440CB9C1F308982BF6EBA	OPEN	2024-03-16T04:26:41Z
+144854	Add version: OpenJS.NodeJS.LTS version 4.2.1	coolplaylinbot:OpenJS.NodeJS.LTS-4.2.1-E15ADB6ADE8D48D8BD3B9B2672B9A836	OPEN	2024-03-16T04:26:38Z
+144853	Add version: OpenJS.NodeJS.LTS version 4.2.2	coolplaylinbot:OpenJS.NodeJS.LTS-4.2.2-DF0BDC9D7FBC410681B8A0115907A0CA	OPEN	2024-03-16T04:26:35Z
+144852	Add version: OpenJS.NodeJS.LTS version 4.2.3	coolplaylinbot:OpenJS.NodeJS.LTS-4.2.3-DB7C3FBC3CC743BCA4617BE28B644F44	OPEN	2024-03-16T04:26:33Z
+144851	Add version: OpenJS.NodeJS.LTS version 4.2.4	coolplaylinbot:OpenJS.NodeJS.LTS-4.2.4-7C083A2D4E1A4519B7B12DEEFEFF25CE	OPEN	2024-03-16T04:26:30Z
+144850	Add version: OpenJS.NodeJS.LTS version 4.2.5	coolplaylinbot:OpenJS.NodeJS.LTS-4.2.5-D895CD3087E4404E82FA9AA4B2F9D7F2	OPEN	2024-03-16T04:26:27Z
+144849	Add version: OpenJS.NodeJS.LTS version 4.2.6	coolplaylinbot:OpenJS.NodeJS.LTS-4.2.6-562C887A8A434CD0A375B74EC17BB2B1	OPEN	2024-03-16T04:26:24Z
+144848	Add version: OpenJS.NodeJS.LTS version 4.3.0	coolplaylinbot:OpenJS.NodeJS.LTS-4.3.0-E927F42733354195AF8FFAF5E2F6426F	OPEN	2024-03-16T04:26:21Z
+144847	Add version: OpenJS.NodeJS.LTS version 4.3.1	coolplaylinbot:OpenJS.NodeJS.LTS-4.3.1-DCC9DE4F2483461992A26135F2ACC1D6	OPEN	2024-03-16T04:26:18Z
+144846	Add version: OpenJS.NodeJS.LTS version 4.3.2	coolplaylinbot:OpenJS.NodeJS.LTS-4.3.2-DB4F215942B348C1A41040EEC40363D5	OPEN	2024-03-16T04:26:15Z
+144845	Add version: OpenJS.NodeJS.LTS version 4.4.2	coolplaylinbot:OpenJS.NodeJS.LTS-4.4.2-04955696ECFA48DC879078BA37B172CA	OPEN	2024-03-16T04:26:08Z
+144844	Add version: OpenJS.NodeJS.LTS version 4.4.3	coolplaylinbot:OpenJS.NodeJS.LTS-4.4.3-90D3BE43C335454CABD4CFA7F033EFB8	OPEN	2024-03-16T04:26:05Z
+144843	Add version: OpenJS.NodeJS.LTS version 4.4.4	coolplaylinbot:OpenJS.NodeJS.LTS-4.4.4-D54E3E005EFF4C1E90641EE16F1BA206	OPEN	2024-03-16T04:26:02Z
+144842	Add version: OpenJS.NodeJS.LTS version 4.4.5	coolplaylinbot:OpenJS.NodeJS.LTS-4.4.5-CAEF18DEEC134CDDB8E8DE6267A698FE	OPEN	2024-03-16T04:25:59Z
+144841	Add version: OpenJS.NodeJS.LTS version 4.4.6	coolplaylinbot:OpenJS.NodeJS.LTS-4.4.6-E1CAB24D670348F8B1F7BDB0D4417B9C	OPEN	2024-03-16T04:25:57Z
+144840	Add version: OpenJS.NodeJS.LTS version 4.4.7	coolplaylinbot:OpenJS.NodeJS.LTS-4.4.7-4DFA123AC3BA426889D4B8817CD1B6F5	OPEN	2024-03-16T04:25:54Z
+144839	Add version: OpenJS.NodeJS.LTS version 4.5.0	coolplaylinbot:OpenJS.NodeJS.LTS-4.5.0-AF31A353164A4F8696A494434CEACF85	OPEN	2024-03-16T04:25:51Z
+144838	Add version: OpenJS.NodeJS.LTS version 4.6.0	coolplaylinbot:OpenJS.NodeJS.LTS-4.6.0-A0C33EAEA2514FB5AA35EC4458CAD0CF	OPEN	2024-03-16T04:25:49Z
+144837	Add version: OpenJS.NodeJS.LTS version 4.6.1	coolplaylinbot:OpenJS.NodeJS.LTS-4.6.1-12E16E886095427185CF663068FF2060	OPEN	2024-03-16T04:25:46Z
+144836	Add version: OpenJS.NodeJS.LTS version 4.6.2	coolplaylinbot:OpenJS.NodeJS.LTS-4.6.2-D8571E9F4B3F407498CDDFC1BB36054B	OPEN	2024-03-16T04:25:43Z
+144835	Add version: OpenJS.NodeJS.LTS version 4.7.0	coolplaylinbot:OpenJS.NodeJS.LTS-4.7.0-9C6CCC36F6B247FF980A27CDFEEE1532	OPEN	2024-03-16T04:25:41Z
+144834	Add version: OpenJS.NodeJS.LTS version 4.7.1	coolplaylinbot:OpenJS.NodeJS.LTS-4.7.1-6F765DBC91284313AE0BB44580EFFBA8	OPEN	2024-03-16T04:25:38Z
+144833	Add version: OpenJS.NodeJS.LTS version 4.7.2	coolplaylinbot:OpenJS.NodeJS.LTS-4.7.2-913DBAE2D09B482FA3C3177DAD0E0068	OPEN	2024-03-16T04:25:35Z
+144832	Add version: OpenJS.NodeJS.LTS version 4.7.3	coolplaylinbot:OpenJS.NodeJS.LTS-4.7.3-9AB4A9C14D024CBB8E5CA2DC582A3261	OPEN	2024-03-16T04:25:32Z
+144831	Add version: OpenJS.NodeJS.LTS version 4.8.0	coolplaylinbot:OpenJS.NodeJS.LTS-4.8.0-D159C53DEB9B45E999656CFB4174130E	OPEN	2024-03-16T04:25:29Z
+144830	Add version: OpenJS.NodeJS.LTS version 4.8.1	coolplaylinbot:OpenJS.NodeJS.LTS-4.8.1-164D84BCC86945F987F166246C4830E8	OPEN	2024-03-16T04:25:26Z
+144829	Add version: OpenJS.NodeJS.LTS version 4.8.2	coolplaylinbot:OpenJS.NodeJS.LTS-4.8.2-04BA7336D79642EE8BAAB5F405B5560B	OPEN	2024-03-16T04:25:23Z
+144828	Add version: OpenJS.NodeJS.LTS version 4.8.3	coolplaylinbot:OpenJS.NodeJS.LTS-4.8.3-9E5843BE6D134ABF9E91D3251AD78544	OPEN	2024-03-16T04:25:19Z
+144827	Add version: OpenJS.NodeJS.LTS version 4.8.4	coolplaylinbot:OpenJS.NodeJS.LTS-4.8.4-E3E476334DCA45E09B305BE7F368430E	OPEN	2024-03-16T04:25:16Z
+144826	Add version: OpenJS.NodeJS.LTS version 4.8.5	coolplaylinbot:OpenJS.NodeJS.LTS-4.8.5-67F764CC503A4AA9BE680DEE53CB9BBE	OPEN	2024-03-16T04:25:13Z
+144825	Add version: OpenJS.NodeJS.LTS version 4.9.0	coolplaylinbot:OpenJS.NodeJS.LTS-4.9.0-7ABA111D3A334976A3BC9ED97EE8FC3E	OPEN	2024-03-16T04:25:05Z
+144824	Add version: OpenJS.NodeJS.LTS version 4.9.1	coolplaylinbot:OpenJS.NodeJS.LTS-4.9.1-F9EA5A6E5C96486992F66F4F138D4038	OPEN	2024-03-16T04:25:02Z
+144823	Add version: OpenJS.NodeJS.LTS version 6.9.0	coolplaylinbot:OpenJS.NodeJS.LTS-6.9.0-AE5D07B1D1DF461CB4EDB38A1BBEF252	OPEN	2024-03-16T04:25:00Z
+144822	Add version: OpenJS.NodeJS.LTS version 6.9.1	coolplaylinbot:OpenJS.NodeJS.LTS-6.9.1-D97CF833C4D348DA8686654001EC8666	OPEN	2024-03-16T04:24:57Z
+144821	Add version: OpenJS.NodeJS.LTS version 6.9.2	coolplaylinbot:OpenJS.NodeJS.LTS-6.9.2-BBB34615E6404469B3DD583778C17693	OPEN	2024-03-16T04:24:54Z
+144820	Add version: OpenJS.NodeJS.LTS version 6.9.3	coolplaylinbot:OpenJS.NodeJS.LTS-6.9.3-D87057F2A1BB45BDA53F7F805628B2A5	OPEN	2024-03-16T04:24:51Z
+144819	Add version: OpenJS.NodeJS.LTS version 6.9.4	coolplaylinbot:OpenJS.NodeJS.LTS-6.9.4-A63460E167C948E0839F095FD6CBF177	OPEN	2024-03-16T04:24:49Z
+144818	Add version: OpenJS.NodeJS.LTS version 6.9.5	coolplaylinbot:OpenJS.NodeJS.LTS-6.9.5-8601AAE2A63D4577AD8B4747B5A196E0	OPEN	2024-03-16T04:24:46Z
+144817	Add version: OpenJS.NodeJS.LTS version 6.10.0	coolplaylinbot:OpenJS.NodeJS.LTS-6.10.0-49FA151DBDE6491DB9E089E4BE5E243D	OPEN	2024-03-16T04:24:43Z
+144816	Add version: OpenJS.NodeJS.LTS version 6.10.1	coolplaylinbot:OpenJS.NodeJS.LTS-6.10.1-D94F471410FB4F8680199C55877EB8E4	OPEN	2024-03-16T04:24:40Z
+144815	Add version: OpenJS.NodeJS.LTS version 6.10.2	coolplaylinbot:OpenJS.NodeJS.LTS-6.10.2-F3A7ABA4209E451B969C1F824D8A4987	OPEN	2024-03-16T04:24:37Z
+144814	Add version: OpenJS.NodeJS.LTS version 6.10.3	coolplaylinbot:OpenJS.NodeJS.LTS-6.10.3-D3E4E755D44C495FB96B053B5A53F946	OPEN	2024-03-16T04:24:35Z
+144813	Add version: OpenJS.NodeJS.LTS version 6.11.0	coolplaylinbot:OpenJS.NodeJS.LTS-6.11.0-ABB6CB3D7BF84AB7AD9E3D4A31BF2C14	OPEN	2024-03-16T04:24:31Z
+144812	Add version: OpenJS.NodeJS.LTS version 6.11.1	coolplaylinbot:OpenJS.NodeJS.LTS-6.11.1-D883DBFEDE344DFC9FCD31BFCAD446D9	OPEN	2024-03-16T04:24:29Z
+144811	Add version: OpenJS.NodeJS.LTS version 6.11.2	coolplaylinbot:OpenJS.NodeJS.LTS-6.11.2-B436258B94504B87AA4E277AAA2F5BEE	OPEN	2024-03-16T04:24:26Z
+144810	Add version: OpenJS.NodeJS.LTS version 6.11.3	coolplaylinbot:OpenJS.NodeJS.LTS-6.11.3-0850E5AD83524AE3835A7F9EA47D9DF3	OPEN	2024-03-16T04:24:23Z
+144809	Add version: OpenJS.NodeJS.LTS version 6.11.4	coolplaylinbot:OpenJS.NodeJS.LTS-6.11.4-37440D49EDF14471AB454C7935BF018E	OPEN	2024-03-16T04:24:21Z
+144808	Add version: OpenJS.NodeJS.LTS version 6.11.5	coolplaylinbot:OpenJS.NodeJS.LTS-6.11.5-D962DAAF95A5492AB8AEE3AB1AFCA741	OPEN	2024-03-16T04:24:18Z
+144807	Add version: OpenJS.NodeJS.LTS version 6.12.0	coolplaylinbot:OpenJS.NodeJS.LTS-6.12.0-A67F2AB2A4214377BFA2F0F2E936FCBD	OPEN	2024-03-16T04:24:15Z
+144806	Add version: OpenJS.NodeJS.LTS version 6.12.1	coolplaylinbot:OpenJS.NodeJS.LTS-6.12.1-6C3DC03167064BAFBE238FBB7AFDBDD1	OPEN	2024-03-16T04:24:12Z
+144805	Add version: OpenJS.NodeJS.LTS version 6.13.0	coolplaylinbot:OpenJS.NodeJS.LTS-6.13.0-7811A75C93774631BDF36BFC273D3410	OPEN	2024-03-16T04:24:03Z
+144804	Add version: OpenJS.NodeJS.LTS version 6.13.1	coolplaylinbot:OpenJS.NodeJS.LTS-6.13.1-EE82FB2ADD4E4F97807FC6CE93EA82A9	OPEN	2024-03-16T04:24:00Z
+144803	Add version: OpenJS.NodeJS.LTS version 6.14.0	coolplaylinbot:OpenJS.NodeJS.LTS-6.14.0-2A3BD72A1EF64363BF15E03A90669C08	OPEN	2024-03-16T04:23:57Z
+144802	Add version: OpenJS.NodeJS.LTS version 6.14.1	coolplaylinbot:OpenJS.NodeJS.LTS-6.14.1-AAE44F31F49C4D8F8BC3195AA6B13AB2	OPEN	2024-03-16T04:23:54Z
+144801	Add version: OpenJS.NodeJS.LTS version 6.14.2	coolplaylinbot:OpenJS.NodeJS.LTS-6.14.2-540EC340836F4A088B507E220B4EE7A1	OPEN	2024-03-16T04:23:52Z
+144800	Add version: OpenJS.NodeJS.LTS version 6.14.3	coolplaylinbot:OpenJS.NodeJS.LTS-6.14.3-F856838B97BC49F09DC0192FB2DEC082	OPEN	2024-03-16T04:23:49Z
+144799	Add version: OpenJS.NodeJS.LTS version 6.14.4	coolplaylinbot:OpenJS.NodeJS.LTS-6.14.4-74EBA0E8EB774E3EB1FD74F39AEE0180	OPEN	2024-03-16T04:23:46Z
+144798	Add version: OpenJS.NodeJS.LTS version 6.15.0	coolplaylinbot:OpenJS.NodeJS.LTS-6.15.0-D0E421ACFA1C484199B331DF02C3CE03	OPEN	2024-03-16T04:23:43Z
+144797	Add version: OpenJS.NodeJS.LTS version 6.15.1	coolplaylinbot:OpenJS.NodeJS.LTS-6.15.1-DCE8EE7B165D42C6A155778918FBCA62	OPEN	2024-03-16T04:23:40Z
+144796	Add version: OpenJS.NodeJS.LTS version 6.16.0	coolplaylinbot:OpenJS.NodeJS.LTS-6.16.0-E11C0EEFCA114D39AAD26D9DFA9FDF99	OPEN	2024-03-16T04:23:36Z
+144795	Add version: OpenJS.NodeJS.LTS version 6.17.0	coolplaylinbot:OpenJS.NodeJS.LTS-6.17.0-1C267C3406C948A197E15AF813206BE9	OPEN	2024-03-16T04:23:33Z
+144794	Add version: OpenJS.NodeJS.LTS version 6.17.1	coolplaylinbot:OpenJS.NodeJS.LTS-6.17.1-12471C9F70EF4A5B81D014E5FA9F1EA2	OPEN	2024-03-16T04:23:30Z
+144793	Add version: OpenJS.NodeJS.LTS version 8.9.0	coolplaylinbot:OpenJS.NodeJS.LTS-8.9.0-93C4D134278F441EA597A00FBF1B303A	OPEN	2024-03-16T04:23:28Z
+144792	Add version: OpenJS.NodeJS.LTS version 8.9.1	coolplaylinbot:OpenJS.NodeJS.LTS-8.9.1-EBBFBC61D3E24A36BABB9924A3594A66	OPEN	2024-03-16T04:23:25Z
+144791	Add version: OpenJS.NodeJS.LTS version 8.9.2	coolplaylinbot:OpenJS.NodeJS.LTS-8.9.2-3601471C03DD44CC8F9530BA44DFA7B0	OPEN	2024-03-16T04:23:22Z
+144790	Add version: OpenJS.NodeJS.LTS version 8.9.3	coolplaylinbot:OpenJS.NodeJS.LTS-8.9.3-40A01CC8A03346D9B93362552516F0E2	OPEN	2024-03-16T04:23:19Z
+144789	Add version: OpenJS.NodeJS.LTS version 8.9.4	coolplaylinbot:OpenJS.NodeJS.LTS-8.9.4-8535BEF3CEA54B91B8CEE5C4A9BAAC84	OPEN	2024-03-16T04:23:16Z
+144788	Add version: OpenJS.NodeJS.LTS version 8.10.0	coolplaylinbot:OpenJS.NodeJS.LTS-8.10.0-9D42D4FAD76042FE9E590425E06FAB16	OPEN	2024-03-16T04:23:14Z
+144786	Add version: OpenJS.NodeJS.LTS version 8.11.1	coolplaylinbot:OpenJS.NodeJS.LTS-8.11.1-1E031C3A5D2B4400BD7DB51422A82528	OPEN	2024-03-16T04:23:08Z
+144785	Add version: OpenJS.NodeJS.LTS version 8.11.4	coolplaylinbot:OpenJS.NodeJS.LTS-8.11.4-08980EE47E124A22B6464EC3A0C5793F	OPEN	2024-03-16T04:23:00Z
+144784	Add version: OpenJS.NodeJS.LTS version 8.12.0	coolplaylinbot:OpenJS.NodeJS.LTS-8.12.0-467E21A2201A40AD828B8E264BCCBB23	OPEN	2024-03-16T04:22:58Z
+144783	Add version: OpenJS.NodeJS.LTS version 8.13.0	coolplaylinbot:OpenJS.NodeJS.LTS-8.13.0-CBAE1A756FFC4E5FB05FD0695D2720AA	OPEN	2024-03-16T04:22:55Z
+144782	Add version: OpenJS.NodeJS.LTS version 8.14.0	coolplaylinbot:OpenJS.NodeJS.LTS-8.14.0-16B7AE13121E4F0AAF6E23515E625129	OPEN	2024-03-16T04:22:52Z
+144781	Add version: OpenJS.NodeJS.LTS version 8.14.1	coolplaylinbot:OpenJS.NodeJS.LTS-8.14.1-93242DF78C124B709D592DCD8163647A	OPEN	2024-03-16T04:22:49Z
+144780	Add version: OpenJS.NodeJS.LTS version 8.15.0	coolplaylinbot:OpenJS.NodeJS.LTS-8.15.0-4C0B640B6DE04AFDA946384C52BECF9D	OPEN	2024-03-16T04:22:47Z
+144779	Add version: OpenJS.NodeJS.LTS version 8.15.1	coolplaylinbot:OpenJS.NodeJS.LTS-8.15.1-413D3629F5664870813AD9C48BBEE964	OPEN	2024-03-16T04:22:44Z
+144778	Add version: OpenJS.NodeJS.LTS version 8.16.0	coolplaylinbot:OpenJS.NodeJS.LTS-8.16.0-3342715629AA4B93BA02E1ABB43B0EDF	OPEN	2024-03-16T04:22:41Z
+144777	Add version: OpenJS.NodeJS.LTS version 8.16.1	coolplaylinbot:OpenJS.NodeJS.LTS-8.16.1-38A1102BB9B842A2AB87382975F98DD8	OPEN	2024-03-16T04:22:38Z
+144776	Add version: OpenJS.NodeJS.LTS version 8.16.2	coolplaylinbot:OpenJS.NodeJS.LTS-8.16.2-8A20EB7D95454944B9B71403C3E44350	OPEN	2024-03-16T04:22:35Z
+144775	Add version: OpenJS.NodeJS.LTS version 8.17.0	coolplaylinbot:OpenJS.NodeJS.LTS-8.17.0-0C55AB7B939C4C16877D2AD21F686B61	OPEN	2024-03-16T04:22:32Z
+144774	Add version: OpenJS.NodeJS.LTS version 10.13.0	coolplaylinbot:OpenJS.NodeJS.LTS-10.13.0-B577FB9150814DDB8728060FD40D804B	OPEN	2024-03-16T04:22:30Z
+144773	Add version: OpenJS.NodeJS.LTS version 10.14.0	coolplaylinbot:OpenJS.NodeJS.LTS-10.14.0-318227AC580440D193EA7E714856D0C4	OPEN	2024-03-16T04:22:27Z
+144772	Add version: OpenJS.NodeJS.LTS version 10.14.1	coolplaylinbot:OpenJS.NodeJS.LTS-10.14.1-D1E1D90961FD4D4DA5360786DE9AFAC1	OPEN	2024-03-16T04:22:24Z
+144771	Add version: OpenJS.NodeJS.LTS version 10.14.2	coolplaylinbot:OpenJS.NodeJS.LTS-10.14.2-4B1D6F44143B467E9BF8DC43981BEA11	OPEN	2024-03-16T04:22:21Z
+144770	Add version: OpenJS.NodeJS.LTS version 10.15.0	coolplaylinbot:OpenJS.NodeJS.LTS-10.15.0-2FC90DEC455C4AA6A9265D80261A32BA	OPEN	2024-03-16T04:22:18Z
+144769	Add version: OpenJS.NodeJS.LTS version 10.15.1	coolplaylinbot:OpenJS.NodeJS.LTS-10.15.1-7C4442E19E0248F89FBAFAF6D8D9A420	OPEN	2024-03-16T04:22:15Z
+144768	Add version: OpenJS.NodeJS.LTS version 10.15.2	coolplaylinbot:OpenJS.NodeJS.LTS-10.15.2-9A3FAA0A2A4C4151A23CF9D953E7B68C	OPEN	2024-03-16T04:22:12Z
+144764	Add version: OpenJS.NodeJS.LTS version 10.16.2	coolplaylinbot:OpenJS.NodeJS.LTS-10.16.2-BF5AD5B9B1F74BAEB8125CEDCB5E332F	OPEN	2024-03-16T04:22:00Z
+144763	Add version: OpenJS.NodeJS.LTS version 10.16.3	coolplaylinbot:OpenJS.NodeJS.LTS-10.16.3-D00FF5DFC46247D48E91D5D2D2C324C5	OPEN	2024-03-16T04:21:57Z
+144762	Add version: OpenJS.NodeJS.LTS version 10.17.0	coolplaylinbot:OpenJS.NodeJS.LTS-10.17.0-2018D719E5054D9C8969CCE61868FCFD	OPEN	2024-03-16T04:21:52Z
+144761	Add version: OpenJS.NodeJS.LTS version 10.18.0	coolplaylinbot:OpenJS.NodeJS.LTS-10.18.0-2799C78B4293414FAAFD50698E3AABDD	OPEN	2024-03-16T04:21:48Z
+144760	Add version: OpenJS.NodeJS.LTS version 10.18.1	coolplaylinbot:OpenJS.NodeJS.LTS-10.18.1-1110501771684C5A86E44CA4058B6AF7	OPEN	2024-03-16T04:21:45Z
+144759	Add version: OpenJS.NodeJS.LTS version 10.19.0	coolplaylinbot:OpenJS.NodeJS.LTS-10.19.0-9B1C22350C4E49FCAC55339C5775208F	OPEN	2024-03-16T04:21:42Z
+144758	Add version: OpenJS.NodeJS.LTS version 10.20.0	coolplaylinbot:OpenJS.NodeJS.LTS-10.20.0-54C8792DD2EF4301B0682D0B1D085C4D	OPEN	2024-03-16T04:21:39Z
+144757	Add version: OpenJS.NodeJS.LTS version 10.20.1	coolplaylinbot:OpenJS.NodeJS.LTS-10.20.1-59E055C892BC4F6798F38424A04BEA86	OPEN	2024-03-16T04:21:36Z
+144756	Add version: OpenJS.NodeJS.LTS version 10.21.0	coolplaylinbot:OpenJS.NodeJS.LTS-10.21.0-878DBBD58BAB478B87E693A90E1BAE81	OPEN	2024-03-16T04:21:34Z
+144755	Add version: OpenJS.NodeJS.LTS version 10.22.0	coolplaylinbot:OpenJS.NodeJS.LTS-10.22.0-388CB14346DC4FF1B79294C8385AC9E0	OPEN	2024-03-16T04:21:31Z
+144754	Add version: OpenJS.NodeJS.LTS version 10.22.1	coolplaylinbot:OpenJS.NodeJS.LTS-10.22.1-9B4642FB423542B5B11CCF5B66DB8960	OPEN	2024-03-16T04:21:28Z
+144753	Add version: OpenJS.NodeJS.LTS version 10.23.0	coolplaylinbot:OpenJS.NodeJS.LTS-10.23.0-471D502B871E4D93A2F83CBD9C910348	OPEN	2024-03-16T04:21:25Z
+144752	Add version: OpenJS.NodeJS.LTS version 10.23.1	coolplaylinbot:OpenJS.NodeJS.LTS-10.23.1-17BEF616C4EE49A18B1A5BCAF8C3CC2D	OPEN	2024-03-16T04:21:22Z
+144751	Add version: OpenJS.NodeJS.LTS version 12.13.0	coolplaylinbot:OpenJS.NodeJS.LTS-12.13.0-7C9BEE419A2C485E9AE111554FBFFB18	OPEN	2024-03-16T04:21:17Z
+144750	Add version: OpenJS.NodeJS.LTS version 12.13.1	coolplaylinbot:OpenJS.NodeJS.LTS-12.13.1-E393E9F097A04A9D871AD8E835C2BEF4	OPEN	2024-03-16T04:21:14Z
+144749	Add version: OpenJS.NodeJS.LTS version 12.14.0	coolplaylinbot:OpenJS.NodeJS.LTS-12.14.0-0048748EACF947659418F84852801552	OPEN	2024-03-16T04:21:11Z
+144748	Add version: OpenJS.NodeJS.LTS version 12.14.1	coolplaylinbot:OpenJS.NodeJS.LTS-12.14.1-9A161C0358A141CAA6F20996FD2A363A	OPEN	2024-03-16T04:21:07Z
+144747	Add version: OpenJS.NodeJS.LTS version 12.15.0	coolplaylinbot:OpenJS.NodeJS.LTS-12.15.0-FF22CFEE247446C9A9BACA2D23EDB7CF	OPEN	2024-03-16T04:21:04Z
+144746	Add version: OpenJS.NodeJS.LTS version 12.16.0	coolplaylinbot:OpenJS.NodeJS.LTS-12.16.0-1CDCFC75F6C9480FB9298D79C67E1841	OPEN	2024-03-16T04:21:01Z
+144745	Add version: OpenJS.NodeJS.LTS version 12.16.1	coolplaylinbot:OpenJS.NodeJS.LTS-12.16.1-F775D376635B4FF6AAA467E4DD3AF490	OPEN	2024-03-16T04:20:58Z
+144744	Add version: OpenJS.NodeJS.LTS version 12.16.2	coolplaylinbot:OpenJS.NodeJS.LTS-12.16.2-226142305EEE4F7D83EDF6A2233BC84D	OPEN	2024-03-16T04:20:56Z
+144743	Add version: OpenJS.NodeJS.LTS version 12.16.3	coolplaylinbot:OpenJS.NodeJS.LTS-12.16.3-1DC1B401729D447582C4E57CB7E4BA91	OPEN	2024-03-16T04:20:53Z
+144742	Add version: OpenJS.NodeJS.LTS version 12.17.0	coolplaylinbot:OpenJS.NodeJS.LTS-12.17.0-DA72A4D3C6064EC98841CA2BC74005F3	OPEN	2024-03-16T04:20:50Z
+144741	Add version: OpenJS.NodeJS.LTS version 12.18.0	coolplaylinbot:OpenJS.NodeJS.LTS-12.18.0-D573289680194810BBE80B666684DF3D	OPEN	2024-03-16T04:20:47Z
+144740	Add version: OpenJS.NodeJS.LTS version 12.18.1	coolplaylinbot:OpenJS.NodeJS.LTS-12.18.1-83C83860CAE140369BF448C7C3491304	OPEN	2024-03-16T04:20:43Z
+144739	Add version: OpenJS.NodeJS.LTS version 12.18.2	coolplaylinbot:OpenJS.NodeJS.LTS-12.18.2-C8D0FBC9C179446DBC631483A3ACA943	OPEN	2024-03-16T04:20:40Z
+144738	Add version: OpenJS.NodeJS.LTS version 12.18.3	coolplaylinbot:OpenJS.NodeJS.LTS-12.18.3-9A166B645B904FD0A7AA0FFD968C29ED	OPEN	2024-03-16T04:20:37Z
+144737	Add version: OpenJS.NodeJS.LTS version 12.19.1	coolplaylinbot:OpenJS.NodeJS.LTS-12.19.1-018376F1576B45C996C4D658CB37F039	OPEN	2024-03-16T04:20:33Z
+144736	Add version: OpenJS.NodeJS.LTS version 12.20.0	coolplaylinbot:OpenJS.NodeJS.LTS-12.20.0-AB0F37667EAC4AAB8620121765942173	OPEN	2024-03-16T04:20:30Z
+144735	Add version: OpenJS.NodeJS.LTS version 12.20.1	coolplaylinbot:OpenJS.NodeJS.LTS-12.20.1-E646329C08CE4377AE55578B24C9D42F	OPEN	2024-03-16T04:20:27Z
+144734	Add version: OpenJS.NodeJS.LTS version 12.22.2	coolplaylinbot:OpenJS.NodeJS.LTS-12.22.2-E67EA34678E548DFBD9E5A4925D5CA6F	OPEN	2024-03-16T04:20:22Z
+144733	Add version: OpenJS.NodeJS.LTS version 12.22.3	coolplaylinbot:OpenJS.NodeJS.LTS-12.22.3-017B482770764F8E8E32EFF9C71DEFDB	OPEN	2024-03-16T04:20:17Z
+144732	Add version: OpenJS.NodeJS.LTS version 12.22.4	coolplaylinbot:OpenJS.NodeJS.LTS-12.22.4-204FFA4AED8249698C4087309E2FC2A4	OPEN	2024-03-16T04:20:14Z
+144731	Add version: OpenJS.NodeJS.LTS version 12.22.5	coolplaylinbot:OpenJS.NodeJS.LTS-12.22.5-ECABDA12BF0C4D61A11090FF111B67C7	OPEN	2024-03-16T04:20:12Z
+144730	Add version: OpenJS.NodeJS.LTS version 12.22.6	coolplaylinbot:OpenJS.NodeJS.LTS-12.22.6-A0EC3B6BBB87463E8164204FF13BFE24	OPEN	2024-03-16T04:20:09Z
+144729	Add version: OpenJS.NodeJS.LTS version 12.22.7	coolplaylinbot:OpenJS.NodeJS.LTS-12.22.7-9349334293334E36B7AB4DEA6CE5C69D	OPEN	2024-03-16T04:20:06Z
+144727	Add version: OpenJS.NodeJS.LTS version 12.22.11	coolplaylinbot:OpenJS.NodeJS.LTS-12.22.11-95DD302EBFD0403AAFCC806D5E373971	OPEN	2024-03-16T04:19:59Z
+144726	Add version: OpenJS.NodeJS.LTS version 14.17.2	coolplaylinbot:OpenJS.NodeJS.LTS-14.17.2-DEC02C7CF695473B857BF188C9D29875	OPEN	2024-03-16T04:19:50Z
+144725	Add version: OpenJS.NodeJS.LTS version 14.19.1	coolplaylinbot:OpenJS.NodeJS.LTS-14.19.1-1997F1F4F751410EA013DFE8FD553176	OPEN	2024-03-16T04:19:42Z
+144724	Add version: OpenJS.NodeJS.LTS version 14.20.0	coolplaylinbot:OpenJS.NodeJS.LTS-14.20.0-A52C31896F22479BBE7DC1243B829E34	OPEN	2024-03-16T04:19:38Z
+144723	Add version: OpenJS.NodeJS.LTS version 14.20.1	coolplaylinbot:OpenJS.NodeJS.LTS-14.20.1-207F03DB54BF4F60B401EB8F531420C9	OPEN	2024-03-16T04:19:35Z
+144722	Add version: OpenJS.NodeJS.LTS version 16.20.1	coolplaylinbot:OpenJS.NodeJS.LTS-16.20.1-E045DC1E748A49EEA2FCB453CBEE62F1	OPEN	2024-03-16T04:19:21Z
+144721	Add version: OpenJS.NodeJS.LTS version 16.20.2	coolplaylinbot:OpenJS.NodeJS.LTS-16.20.2-5B65640CA85046748FA617E93876DB06	OPEN	2024-03-16T04:19:18Z
+144720	Add version: OpenJS.NodeJS.LTS version 18.18.1	coolplaylinbot:OpenJS.NodeJS.LTS-18.18.1-0EA01200AF824895A6B7D7438D971DEB	OPEN	2024-03-16T04:19:09Z
+144719	Add version: OpenJS.NodeJS.LTS version 18.18.2	coolplaylinbot:OpenJS.NodeJS.LTS-18.18.2-3445F8BC469F470088C7A8BD80A9216E	OPEN	2024-03-16T04:19:06Z
+144718	Add version: OpenJS.NodeJS.LTS version 18.19.1	coolplaylinbot:OpenJS.NodeJS.LTS-18.19.1-3B26849FC8DF4A709A7A2A2F2FDA5DFB	OPEN	2024-03-16T04:19:01Z
+144411	Automatic update of Nlitesoft.NTLite from 2024.3.9783.0 to 2024.3.9785.0	wingetbot:AutomaticUpdate_4b66f7c9-c45c-411d-bd4c-8170bb3c4789	OPEN	2024-03-15T01:21:06Z
+144409	Automatic update of Nlitesoft.NTLite from 2024.3.9780.0 to 2024.3.9785.0	wingetbot:AutomaticUpdate_5eef98d3-877d-4685-a36a-2eb9a3ed31f1	OPEN	2024-03-15T01:11:08Z
+144406	New version: Discord.Discord version 1.0.9036	PckgrBot:Discord.Discord-1.0.9036-b037dccd-9b6b-4406-9282-f7376ba5c250	OPEN	2024-03-15T00:56:39Z
+144346	Update LibreWolf.LibreWolf to v123.0.1-1	bsys6:bsys6_automation	OPEN	2024-03-14T18:09:53Z
+144339	Remove version: Autodesk.sketchbook version 8.7.1.0	Exorcism0666:Autodesk.sketchbook-8.7.1.0-3136586DA01EA3D49C3F0F3EBA13746EC28A2B32	OPEN	2024-03-14T17:34:34Z
+144312	Autodesk.Meshmixer version 3.5	Rotzbua:Autodesk.Meshmixer-3.5-2a7131a1-7997-440b-b363-167d6dfe4c56	OPEN	2024-03-14T15:12:27Z
+144305	New version: martinrotter.RSSGuard version 4.6.4	Exorcism0666:martinrotter.RSSGuard-4.6.4-8A80CBF7310A41F8B4829E29B5B98817	OPEN	2024-03-14T12:42:56Z
+144301	Remove version: QuestSoft.QTranslate version 6.10.0	Exorcism0666:QuestSoft.QTranslate-6.10.0-B69A26E824B4863908228812E82309B0C88DB7BB	OPEN	2024-03-14T12:37:49Z
+144264	New version: Daytonaio.Daytona version 0.3.1	harkiratsm:update-daytona	OPEN	2024-03-14T05:55:58Z
+144241	Automatic update of Piriform.CCleaner.ProTrial from 6.19.0.10858 to 6.22.0.10977	wingetbot:AutomaticUpdate_a3113fd3-fb4c-4c76-812b-da534c958a4b	OPEN	2024-03-14T02:21:35Z
+144184	Automatic update of PlayStation.PSRemotePlay from 6.5.0.08180 to 7.0.0.02070	wingetbot:AutomaticUpdate_0d2d1d21-161a-433c-a58d-c2b18f8ba11f	OPEN	2024-03-13T20:17:23Z
+144081	New package: Jigsaw.OutlineClient version 1.12.1	rakleed:Jigsaw.OutlineClient-1.12.1-99b13a86-76be-4bc2-ada7-91cd24084fc8	OPEN	2024-03-12T22:36:50Z
+143819	Automatic update of VB-Audio.Voicemeeter.Banana from 2.0.6.8 to 2.1.1.1	wingetbot:AutomaticUpdate_bbf1495a-3bbe-4d11-9af7-5730645fec15	OPEN	2024-03-11T20:32:19Z
+143818	Automatic update of VB-Audio.Voicemeeter.Potato from 3.0.2.8 to 3.1.1.1	wingetbot:AutomaticUpdate_55f5d631-3dc5-48f6-a180-95652d2446bf	OPEN	2024-03-11T20:32:19Z
+143421	Automatic update of Argotronic.ArgusMonitor from 7.0.4.2721 to 7.0.5.2732	wingetbot:AutomaticUpdate_d90e773d-2fe8-42f3-a026-23f40e6adbbb	OPEN	2024-03-09T20:11:21Z
+143420	New version: RealVNC.VNCViewer version 7.10.0	Exorcism0666:RealVNC.VNCViewer-7.10.0-1470AE608D2843C69159B05E2A8C5F52	OPEN	2024-03-09T19:43:11Z
+143402	New package: SaleaeInc.Logic version 2.4.14	Exorcism0666:SaleaeInc.Logic-2.4.14-3e70270c-1b48-4491-b2ae-3c10b3e31d0d	OPEN	2024-03-09T15:03:25Z
+143072	New package: Saleae.Logic2 version 2.4.14	MatthewA1:Saleae.Logic2-2.4.14-20a6f5ac-cf9d-4cd8-8cd4-7df219deb5d0	OPEN	2024-03-08T23:39:10Z
+143050	Automatic update of WhirlwindFX.SignalRgb from 2.3.61 to 2.3.68	wingetbot:AutomaticUpdate_68c0a36a-9647-44ed-9918-3216e87dfa70	OPEN	2024-03-08T21:12:05Z
+142823	New version: RoyalApps.RoyalTS.V7 version 7.02.50301.0	Exorcism0666:RoyalApps.RoyalTS.V7-7.02.50301.0-93A90B7269264ABE85E33C0FDED50F45	OPEN	2024-03-07T07:37:53Z
+142684	New version: RustDesk.RustDesk version 1.2.3-1	SpecterShell:RustDesk.RustDesk-1.2.3-1-79C74FD6	OPEN	2024-03-06T05:51:07Z
+142598	New version: KuaiFan.DooTask version 0.35.20	coolplaylinbot:KuaiFan.DooTask-0.35.20-6697ED29BEF44893B6F4D39731DF690A	OPEN	2024-03-05T18:14:26Z
+142091	New package: Bithack.Principia version 2024.02.29	griffi-gh:Bithack.Principia-2024.02.29-380B1B4A9E624D2B99CA7A1C5A6E937A	OPEN	2024-03-04T18:56:19Z
+142008	New version: OpslyCloud.opsly-cli version v0.0.1-alpha.18	Opsly:release-v0.0.1-alpha.18	OPEN	2024-03-04T09:08:11Z
+141815	New package: Microsoft.XboxApp version 1.0.1.30	rakleed:Microsoft.XboxApp-1.0.1.30-5c7b2f13-9e3c-4004-9c55-5a7c02702309	OPEN	2024-03-02T23:48:35Z
+141787	New package: NVIDIACorporation.NVIDIAapp version 1.0.14.0	Barradel:NVIDIACorporation.NVIDIAapp-1.0.14.0-8d56a3e1-6c5c-4083-ac50-56a0edd80fa6	OPEN	2024-03-02T17:02:10Z
+141769	New package: Geeks3D.FurMark2 version 2.1.0.2	Exorcism0666:Geeks3D.FurMark2-2.1.0.2-0EA24643	OPEN	2024-03-02T14:13:30Z
+141746	New version: Ryujinx.Ryujinx version 1.1.1217	Exorcism0666:Ryujinx.Ryujinx-1.1.1217-BD207F0CE0CB4A2CA7129E56E22899E1	OPEN	2024-03-02T12:42:01Z
+141648	Automatic update of Getscreenme.Agent from 2.15.8 to 2.18.1	wingetbot:AutomaticUpdate_f9e15711-8cff-4f9b-b7d6-8e18a1470bd4	OPEN	2024-03-01T21:47:53Z
+141643	Automatic update of Getscreenme.Agent from 2.15.7 to 2.18.1	wingetbot:AutomaticUpdate_af8c7c43-8922-4a82-965a-fd0699dd89d0	OPEN	2024-03-01T21:37:55Z
+141535	Automatic update of Cloudflare.Warp from 24.2.69.0 to 24.2.187.0	wingetbot:AutomaticUpdate_7987508b-9734-4e9c-949a-9f9d3e240f9e	OPEN	2024-02-29T23:01:04Z
+141520	New Package: Soundux.Soundux version 0.2.7	og-mrk:update-manifest/Soundux.Soundux	DRAFT	2024-02-29T21:00:07Z
+141474	New version: charmbracelet.confettysh 1.1.1	charmbracelet:confettysh-1.1.1	OPEN	2024-02-29T15:34:01Z
+141294	Add version: shirowanisan.COEIROINK version 1.0.1	Exorcism0666:shirowanisan.COEIROINK-1.0.1-D883C85E0FCD445692F5D91B51BE79C3	OPEN	2024-02-28T09:54:16Z
+141230	Automatic update of NAVER.Vaccine from 2021.5.7.1 to 2023.6.12.2	wingetbot:AutomaticUpdate_415ea5e7-83af-48b8-badf-d01279dbc3b8	OPEN	2024-02-27T23:56:39Z
+141183	New Version: VMware.WorkstationPro version 17.5.1.23298084	virtualex-itv:VMware.WorkstationPro-17.5.1	OPEN	2024-02-27T19:34:52Z
+141182	New Version: VMware.WorkstationPlayer version 17.5.1.23298084	virtualex-itv:VMware.WorkstationPlayer-17.5.1	OPEN	2024-02-27T19:34:37Z
+141152	New version: Elgato.WaveLink version 1.9.3.1962	OfficialEsco:Elgato.WaveLink-1.9.3.1962-2AACF575	OPEN	2024-02-27T18:15:40Z
+141104	New version: nomic.gpt4all version 2.7.1	headquarter8302:nomic.gpt4all-2.7.1-13574083755C472492A0690C89E03A8D	OPEN	2024-02-27T10:09:36Z
+140915	New version: GiulioSorrentino.WinDateFrom version 4.6	numerunix:GiulioSorrentino.WinDateFrom-4.6-1cc69cdb-90ac-4d03-962d-a0b9480b97a4	OPEN	2024-02-25T16:47:56Z
+140904	New package: nkdAgility.AzureDevOpsExportActionableAgile version 0.1.1	MrHinsh:nkdAgility.AzureDevOpsExportActionableAgile-0.1.1-aa1e77f5-8bc4-49ab-8e24-cd2735555b59	OPEN	2024-02-25T14:22:52Z
+140875	New package: GIGABYTE.Sidekick version 24.01.19.01	SpecterShell:GIGABYTE.Sidekick-24.01.03.01-A183BF29	OPEN	2024-02-25T00:01:17Z
+140863	Automatic update of Argotronic.ArgusMonitor from 7.0.4.2721 to 7.0.5.2731	wingetbot:AutomaticUpdate_d565c7e1-b15c-45ea-bdba-8a30c8fc571e	OPEN	2024-02-24T20:11:59Z
+140705	New package: NVIDIA.app version 10.0.0.499	Exorcism0666:NVIDIA.app-10.0.0.499-14893F9044AF4A18B71AD1BE24117300	OPEN	2024-02-23T07:21:23Z
+140621	Automatic update of AprelTech.SilentInstallBuilder.Beta from 6.2.4.0 to 6.3.0.0	wingetbot:AutomaticUpdate_10f48768-d783-4a74-bbd6-42057124b262	OPEN	2024-02-22T20:07:44Z
+140551	New package: AndrewLeech.WSLUSB version 5.3.0	Exorcism0666:AndrewLeech.WSLUSB-5.3.0-081ed0b2-6c9a-4d1c-980b-f0d1769cd860	OPEN	2024-02-22T15:16:44Z
+140459	Automatic update of UweSieber.USBDLM from 5.5.11.0 to 5.6.0.0	wingetbot:AutomaticUpdate_698a8ef8-cc28-473e-a548-b9b52967c60e	OPEN	2024-02-22T02:05:43Z
+140457	Automatic update of Piriform.CCleaner.ProTrial from 6.19.0.10858 to 6.21.0.10918	wingetbot:AutomaticUpdate_66587b0e-70b1-4153-bc14-25b08f33cb52	OPEN	2024-02-22T01:49:08Z
+140451	Automatic update of SystweakSoftware.AdvancedSystemOptimizer from 3.81.8181.234 to 3.81.8181.238	wingetbot:AutomaticUpdate_ee67fbd2-ed87-4b59-9948-153270582ae6	OPEN	2024-02-22T00:13:34Z
+140335	New package: n4af.TR4W version 4.131.0	Exorcism0666:n4af.TR4W-4.131.0-F3F63D74F9D142869CCEF4D9D00D542C	OPEN	2024-02-21T07:17:41Z
+140248	Automatic update of Argotronic.ArgusMonitor from 7.0.4.2721 to 7.0.5.2730	wingetbot:AutomaticUpdate_f2baf596-a6f2-4d5f-81cb-714d5d42bb83	OPEN	2024-02-20T20:12:22Z
+139966	New package: Exiv2.Exiv2 version 0.28.2	Exorcism0666:Exiv2.Exiv2-0.28.2-31871267-8f4b-44bf-9fe8-fe39214a0d19	OPEN	2024-02-18T14:15:06Z
+139679	Automatic update of Milvus.AgenteMilvusCore 103.0.0.0	wingetbot:AutomaticUpdate_a122e067-dad6-4338-aad1-efe588cbe458	OPEN	2024-02-16T23:01:52Z
+139550	Automatic update of AVS.InstallPackComplete from 5.6.1.184 to 5.6.2.186	wingetbot:AutomaticUpdate_f4fdd036-3788-4577-9808-55dd1f24ccbf	OPEN	2024-02-16T20:35:41Z
+139535	Automatic update of Kuwo.KuwoMusic from 9.3.2.0 to 9.3.4.0	wingetbot:AutomaticUpdate_8bdc625a-daa4-4496-bbf6-ec0926571ef0	OPEN	2024-02-16T20:21:25Z
+138818	New version: Dell.CommandUpdate.Universal version 5.2.0	BiosPlus:Dell.CommandUpdate.Universal-5.2.0-DF6B3CE2CCE91D8FA80537A1FA9315E61A98DE52	OPEN	2024-02-12T06:35:43Z
+138817	New version: Dell.CommandUpdate version 5.2.0	BiosPlus:Dell.CommandUpdate-5.2.0-D57B02B11F344046FA249A873228BE05BAA8ACAA	OPEN	2024-02-12T06:34:29Z
+138233	New version: AirDroid.AirDroid version 3.7.2.1	mbilal234:AirDroid.AirDroid-3.7.2.1-E456E8DF	OPEN	2024-02-07T07:39:01Z
+138131	xiaoyifang.GoldenDict-ng version 24.01.22	deanapearce:xiaoyifang.GoldenDict-ng-24.01.22-3acef5a8-d8d7-4faf-ad23-9a652d24489d	OPEN	2024-02-06T04:49:00Z
+137829	SonyEricsson.ThemesCreator version 4.16.2.6	erikiorai:SonyEricsson.ThemesCreator-4.16.2.6-ab70df62-e0fa-4b4a-8eeb-8a7c01f8b67b	OPEN	2024-02-04T16:42:44Z
+137821	New package: BaileyBrown.cppcryptfs version 1.4.4.2	Exorcism0666:BaileyBrown.cppcryptfs-1.4.4.2-fee01bfe-43bc-4024-b8f0-63a5b6e70560	OPEN	2024-02-04T12:26:02Z
+137805	New package: TCHelicon.GoXLRApp version 1.3.3.130	Exorcism0666:TCHelicon.GoXLRApp-1.3.3.130-AE74066C18414072AAD825187F5F4F69	OPEN	2024-02-04T06:46:41Z
+137800	New package: Rem0o.FanControl version 180	Exorcism0666:Rem0o.FanControl-180-FBC9FED90D854C28931A8A8E5DEB7790	OPEN	2024-02-04T06:30:17Z
+137718	New version: Julialang.Julia version 1.13.0.0	SpecterShell:Julialang.Julia-1.13.0.0-Newversion	DRAFT	2024-02-03T06:12:14Z
+137662	New package: UnknownSKL.Greenlight version 2.1.1	Exorcism0666:UnknownSKL.Greenlight-2.1.1-fd71fd91-93ef-4560-b681-c1d20beb2081	OPEN	2024-02-02T17:34:08Z
+137212	Automatic update of Getscreenme.Agent from 2.14.8 to 2.16.2	wingetbot:AutomaticUpdate_9cca0a98-ab08-4783-8e3d-194a22bfe565	OPEN	2024-01-30T20:52:21Z
+136931	New package: Microsoft.VCRedist.2015+.arm64 version 14.38.33130.0	CoolPlayLin:Microsoft.VCRedist.2015+.arm64-14.38.33130.0-2375178EB9754EAE94CDDF397ABAB385	OPEN	2024-01-29T03:39:19Z
+136827	New version: GNU.Nano version 7.2	CoolPlayLin:GNU.Nano-7.2-6D45E0D48636A67974AFC0E8197798119C1D83E3	OPEN	2024-01-28T04:05:13Z
+136817	New version: Kensington.KensingtonWorks version 3.1.8	buzztaiki:Kensington.KensingtonWorks-3.1.8-a100d909-33ef-43e5-aa78-59a6848ca9d6	OPEN	2024-01-27T23:14:38Z
+136781	NetDocuments.ndMail version 1.12.0.448	EmmaTheEmu:NetDocuments.ndMail-1.12.0.448-d4d30328-227b-47be-9fe6-7859fa7c3479	OPEN	2024-01-27T14:14:24Z
+136654	Microsoft.Sysinternals.Sigcheck version 2.90	varGeneric:Microsoft.Sysinternals.Sigcheck-2.90-c456c9b5-3c81-4c21-a22d-76a940de075d	OPEN	2024-01-26T14:17:55Z
+135757	New package: Certiport,aPearsonVUEBusiness.CertiportCompass version 19.0.2.1270	ldriskell:Certiport,aPearsonVUEBusiness.CertiportCompass-19.0.2.1270-7b08cf3b-c8fd-46f2-9625-6412faa08c87	DRAFT	2024-01-22T21:19:10Z
+135678	New package: CPUID.CPU-Z.ARM64 version 1.01	Exorcism0666:CPUID.CPU-Z.ARM64-1.01-e00e14b2-58ce-459c-96e6-4dddb16316e6	OPEN	2024-01-21T20:58:08Z
+135640	New package: iPerf.iPerf3 version 3.1.3	solomoncyj:iPerf.iPerf3-3.1.3-56c324ff-49ef-43cc-9071-4b5d8e2de28a	DRAFT	2024-01-21T00:31:54Z
+135254	New version: Microsoft.WindowsADK version 10.1.25398.1	rasa:Microsoft.WindowsADK-10.1.25398.1-729BCD681042C1318B9418EE13C7EA58940E65DC	OPEN	2024-01-17T23:34:16Z
+135162	New package: Ether.Etherpad-Lite version 1.9.6	Exorcism0666:Ether.Etherpad-Lite-1.9.6-fc58d854-3a86-4597-b24c-3a3c399a2a0e	OPEN	2024-01-17T13:05:28Z
+134262	New version: Cloudflare.cloudflared version 2024.1.2	vedantmgoyal9:Cloudflare.cloudflared-2024.1.2-20240115143250	DRAFT	2024-01-15T14:32:54Z
+134173	New version: AppbyTroye.KoodoReader version 1.6.2	vedantmgoyal9:AppbyTroye.KoodoReader-1.6.2-20240115135637	DRAFT	2024-01-15T13:56:40Z
+134172	Add version: Apifox.Apifox version 2.4.12	vedantmgoyal9:Apifox.Apifox-2.4.12-20240115135627	DRAFT	2024-01-15T13:56:30Z
+133387	New package: KhronosGroup.VulkanSDK version 1.3.268.0	sandercox:khronosgroup.vulkansdk-1.3.268.0	OPEN	2024-01-09T08:07:29Z
+132585	Add Azure Artifacts NuGet Credential Provider	jeffreyrivor:master	OPEN	2024-01-03T22:35:45Z
+131710	New package: TruffleSecurity.TruffleHog version 3.63.7	BiosPlus:TruffleSecurity.TruffleHog-3.63.7-DC41B8DF52ECAD40D0E85E9344103F13F09CA086	OPEN	2023-12-23T09:41:10Z
+131556	PR Watcher and Manual Validation update.	stephengillie:Tools-update-12-20	OPEN	2023-12-21T18:04:44Z
+130839	Flutter 3.16.4	albertopasqualetto:flutter3.16.4	OPEN	2023-12-18T09:32:32Z
+129171	trzsz.lrzsz	lonnywong:trzsz.lrzsz-0.12.21rc-70b78f0b-fcf2-4dfa-8dff-9958449fb086	OPEN	2023-12-04T16:16:57Z
+126999	New version: Microsoft.VCRedist.2022.arm64 version 14.38.33130.0	imfelixlaw:Microsoft.VCRedist.2022.arm64-14.38.33130.0-D2E8825C8B9C5A60AEA40F91A7CEB9C445017D5A	OPEN	2023-11-16T16:55:29Z
+124475	New version: Genymobile.scrcpy version 2.2	coolplaylinbot:Genymobile.scrcpy-2.2-FE093712BEEF5F0BA303FCA646799116D0B2D212	OPEN	2023-11-01T18:13:36Z
+123118	New package: Apache.maven version 3.9.5	echocat:Apache/Maven/3.9.5	OPEN	2023-10-19T09:02:08Z
+118484	New version: DSGT-DLP.dlp-cli 0.0.10	DSGT-DLP:master	DRAFT	2023-08-30T16:33:55Z
+117767	CrystalIDEASoftware.MacsFanControl version 1.5.15	stek29:CrystalIDEASoftware.MacsFanControl-1.5.15-caaf53fc-b14f-4c00-aaed-afe0f0e19fa2	OPEN	2023-08-23T02:31:41Z
+117597	New package: ISC.BIND version 9.16.43	honahuku:master	OPEN	2023-08-21T15:02:34Z
+115283	New version: SAGAUserGroupAssociation.SAGAGIS version 9.1.1	xyzallan:SAGAUserGroupAssociation.SAGAGIS-9.1.1-ABD2CA8DFAE135	DRAFT	2023-08-04T10:36:19Z
+115062	New package: FreakinSoftMania.WinUEFI version 1.9.3	Minionguyjpro:FreakinSoftMania.WinUEFI-1.9.3-345e5f16-92b2-4984-914a-9fe717a14acb	OPEN	2023-08-03T13:43:28Z
+114001	Add the Devicetree compiler (`dtc`)	carlescufi:add-dtc	OPEN	2023-08-01T15:08:30Z
+113306	Autogenerated/apple.boot camp drivers/b5211d2d b630 4028 b631 1719cad5afa9	upintheairsheep:autogenerated/Apple.BootCampDrivers/b5211d2d-b630-4028-b631-1719cad5afa9	OPEN	2023-07-27T09:04:45Z
+113300	Samsung.play av station 4.1.20.47 2ec73e50 ce84 4345 8c2f 7fb49855d65d	upintheairsheep:Samsung.PlayAVStation-4.1.20.47-2ec73e50-ce84-4345-8c2f-7fb49855d65d	OPEN	2023-07-27T08:36:23Z
+113297	New package: Lenovo.ThinkPadUtilityforDOS version 4.44.7IU601US	upintheairsheep:Lenovo.ThinkPadUtilityforDOS-4.44.7IU601US-50b89894-1dcd-4bc3-8a38-b4b06773fb5e	OPEN	2023-07-27T08:31:14Z
+113067	Dell.command monitor 10.9.1 4 a10 b4 de567824	dellclientopensource:Dell.CommandMonitor-10.9.1-4A10B4DE567824	OPEN	2023-07-24T15:27:01Z
+112577	New package: tawk.to version 2.2.0	fontajos:tawk.to-2.2.0-506d6e3f-475d-455a-b963-8ff4ceb2ee6a	OPEN	2023-07-19T13:53:23Z
+112223	New package: Stern.Stern version 1.25.0 (#112222)	BoSoeborgPetersen:Stern.Stern-1.25.0	OPEN	2023-07-16T07:20:15Z
+112205	New package: Qwerty-133.spcache v0.1.0	Qwerty-133:spcache-v0.1.0	OPEN	2023-07-15T19:14:58Z
+112017	New package: Samsung.PlayTouchLauncher version 1.2.0.32	upintheairsheep:Samsung.PlayTouchLauncher-1.2.0.32-62d64b4e-867e-4b56-a12d-8e6c1ee31a4e	OPEN	2023-07-13T04:12:31Z
+111982	New package: Samsung.UpdatePlus version 1.3.0.12	upintheairsheep:Samsung.UpdatePlus-1.3.0.12-50fc94b0-8ca7-40fe-bbf8-b0fd75de562f	OPEN	2023-07-12T22:44:06Z
+111978	New package: Samsung.RecoverySolution version 1.0.3.21	upintheairsheep:Samsung.RecoverySolution-1.0.3.21-6868633b-ee05-45e5-a98a-96c3038e5e2e	OPEN	2023-07-12T22:34:14Z
+111974	New package: Samsung.EasyNetworkManager version 3.0.1.7	upintheairsheep:Samsung.EasyNetworkManager-3.0.1.7-1bcfc17f-b15f-45aa-87d0-fa902dc5cb2f	OPEN	2023-07-12T22:24:34Z
+111894	New package: Lenovo.DiagnosticsTool version 4.47.1.4	upintheairsheep:Lenovo.DiagnosticsTool-4.47.1.4-2f0669ce-bd9f-48d0-8b49-58f8bbb17258	OPEN	2023-07-12T04:24:13Z
+111884	New package: TekkaGB.FileDaddy version 1.5.6	upintheairsheep:TekkaGB.FileDaddy-1.5.6-e339031b-539d-4df7-b64c-89e9e36d928f	OPEN	2023-07-12T02:52:12Z
+111879	New package: Nox.NoxPlayer version 7.0.5.8	SpecterShell:Nox.NoxPlayer-7.0.5.8-Newpackage	OPEN	2023-07-12T01:22:07Z
+111867	Apple.FaceTimeCameraUpdate version 1.0	upintheairsheep:autogenerated/Apple.FaceTimeCamerUpdate/bdc6b68f-5108-4459-a680-dca5cac9169f	OPEN	2023-07-11T22:24:48Z
+111864	Apple.BcUpdate version 1.1	upintheairsheep:autogenerated/Apple.BcUpdate/17e9f502-7199-4799-82d7-f529e66bab4c	OPEN	2023-07-11T22:18:08Z
+111530	New package: WinsiderSS.SystemInformer version 3.0.11299.6772	CoolPlayLin:WinsiderSS.SystemInformer-3.0.11299.6772-ec2e7c97-8617-4f6d-93a2-9bd1feeb4e0a	OPEN	2023-07-07T01:02:42Z
+110767	New package: PlantUML.PlantUML version v1.2023.9	seppeon:NewPackage-SupportPlantUml	OPEN	2023-06-27T14:03:32Z
+110618	New package: Nvidia.GeForceGameReadyDriver	WinkelCode:master	DRAFT	2023-06-24T22:23:30Z
+110299	mercedesclk320.SamsungRemote version 1.0	upintheairsheep:autogenerated/mercedesclk320.SamsungRemote/4b5c0f15-a2a8-4bf5-82ad-ae10f59d0184	OPEN	2023-06-20T22:35:20Z
+109972	Samsung.ThemeDesigner version 2.0.4	erikiorai:autogenerated/Samsung.ThemeDesigner/c1d0c7fb-d504-4e5f-967e-e369797ccc73	OPEN	2023-06-16T10:40:40Z
+109711	Nadeo.Trackmania2020Server version latest	superusercode:autogenerated/Nadeo.Trackmania2020Server/47795429-4068-4dcd-b6bb-95551c041ac7	OPEN	2023-06-13T20:02:14Z
+109106	Macabacus.Macabacus version 9.5.4	khaffner:autogenerated/Macabacus.Macabacus/bdf259da-5970-401d-9c1b-13151d6f0c6e	OPEN	2023-06-07T06:24:16Z
+108025	AxisCommunications.MediaControl version 7.5.41	upintheairsheep:autogenerated/AxisCommunications.MediaControl/1791f579-f0f9-43d2-8aa8-bd34e608993d	OPEN	2023-05-24T21:57:19Z
+107492	GlobalMarineNet.9555UpgradeTool version 1.0	upintheairsheep:autogenerated/GlobalMarineNet.9555UpgradeTool/d9b1d086-d00f-43ca-a93d-d77eba1f2b38	OPEN	2023-05-20T04:19:41Z
+107211	NanoBoyAdvance.NanoBoyAdvance version 1.7.1	superusercode:autogenerated/NanoBoyAdvance.NanoBoyAdvance/46eace2e-83e8-449c-94af-f47d078eafd0	OPEN	2023-05-18T05:57:58Z
+107121	Add: Fluidsynth 2.3.2	superusercode:fluidsynth	OPEN	2023-05-17T19:58:15Z
+107110	vdrift.vdrift version 2014-10-20	superusercode:autogenerated/vdrift.vdrift/0bc28bc9-b73f-40dc-8281-60544a4ccdc3	OPEN	2023-05-17T18:22:52Z
+106718	Microsoft.VisualStudioCode: enable "open with code" context menu items by default	soredake:vscode_new_default_params	OPEN	2023-05-13T17:40:16Z
+106696	Google.ProjectGameface version 0.3.30	upintheairsheep:autogenerated/Google.ProjectGameface/03a6a0a4-ec30-45db-9b9f-709938eb471a	OPEN	2023-05-12T23:03:43Z
+106257	Samsung.EasySettingBox version 1.2.1	upintheairsheep:autogenerated/Samsung.EasySettingBox/56f0bd77-1467-4e5d-a81c-f01be287798e	OPEN	2023-05-09T02:36:44Z
+106255	Autogenerated/forensic cloud.i ve/6d5b5f5e d616 468a a753 07e1f40ae5e3	upintheairsheep:autogenerated/ForensicCloud.iVe/6d5b5f5e-d616-468a-a753-07e1f40ae5e3	OPEN	2023-05-09T02:33:15Z
+106252	Autogenerated/apple.i pod reset/171ca08b 8a09 4f71 a92f a50aa17b6779	upintheairsheep:autogenerated/Apple.iPodReset/171ca08b-8a09-4f71-a92f-a50aa17b6779	OPEN	2023-05-09T02:27:37Z
+106249	Samsung.DataMigration version 2.0	upintheairsheep:autogenerated/Samsung.DataMigration/2b3783c3-4e6c-4c9e-bc84-87f2b910a324	OPEN	2023-05-09T02:22:32Z
+106157	Google.AndroidM5Emulator version m5-rc14	upintheairsheep:autogenerated/Google.AndroidM5Emulator/809f5be4-1a6d-47a7-a274-d5fe7279f2c0	OPEN	2023-05-07T19:19:21Z
+106155	Google.AndroidM3Emulator version m3-rc20a	upintheairsheep:autogenerated/Google.AndroidM3Emulator/e1692b41-c083-4814-8e8a-ffb3c21f2c63	OPEN	2023-05-07T19:16:59Z
+106133	lazygamereviews.KEmulator version 1.0.3	upintheairsheep:autogenerated/lazygamereviews.KEmulator/0e772505-c19f-4ec7-9c07-3bf40f5ef8a2	OPEN	2023-05-06T23:51:55Z
+102953	Andrelouis.NokiaInternalTuneEdit version 1.0	upintheairsheep:autogenerated/Andrelouis.NokiaInternalTuneEdit/f4375585-9989-403b-8bdc-b1db94db557f	OPEN	2023-04-19T21:48:06Z
+102951	Andrelouis.NokiaS30MidiSim version 1.0	upintheairsheep:autogenerated/Andrelouis.NokiaS30MidiSim/50bde995-6784-4da6-a4ae-520f858d5289	OPEN	2023-04-19T21:45:35Z
+94818	New package: Google.Android.SDKPlatformTools version 33.0.3	sitiom:Google.Android.SDKPlatformTools-33.0.3-4E05E834C751B3	DRAFT	2023-01-27T15:58:27Z
+94782	New package: maharmstone.Ntfs2btrfs version 20220812	sitiom:maharmstone.ntfs2btrfs-20220812-88405ACACCC61B	DRAFT	2023-01-27T08:46:21Z
+94697	New package: LinusDierheimer.fastfetch version 1.9.1	sitiom:LinusDierheimer.fastfetch-1.9.1-1EA3C7CE758B90	DRAFT	2023-01-26T10:32:26Z
+92317	[Zip][Portable] New package: Google.DartSDK version 2.18.6	SpecterShell:Google.DartSDK-2.18.6-9F09B51A1D224B	DRAFT	2022-12-27T04:54:40Z
+15446	Microsoft.IISManagerRemoteAdministration version 1.2	Megasware128:autogenerated/Microsoft.IISManagerRemoteAdministration/b2919790-a68c-44a2-acef-4975d044b78a	OPEN	2021-06-01T13:15:04Z
