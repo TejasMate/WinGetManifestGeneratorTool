@@ -1,3 +1,36 @@
+146717	Automatic deletion of LabyMediaGmbH.LabyModLauncher 2.0.13	wingetbot:AutomaticUpdate_56695a17-3821-4e23-92f2-a0c2c6572d52	OPEN	2024-03-27T21:02:28Z
+146716	New version: Microsoft.Edge version 123.0.2420.65	PckgrBot:Microsoft.Edge-123.0.2420.65-3272c384-6a65-41ee-8f91-70cd813faeca	OPEN	2024-03-27T21:00:00Z
+146715	Automatic deletion of Ubisoft.Connect 150.1.0.11037	wingetbot:AutomaticUpdate_c16fb2e0-f2ec-4725-9e8c-9777ede782ec	OPEN	2024-03-27T20:59:49Z
+146713	New version: Opera.Opera version 109.0.5097.33	PckgrBot:Opera.Opera-109.0.5097.33-a3452883-a1e6-4c2e-b69c-66d6263d8033	OPEN	2024-03-27T20:57:23Z
+146711	New version: Amazon.AWSCLI version 2.15.33	PckgrBot:Amazon.AWSCLI-2.15.33-f6da661d-2a1f-4d2e-9554-d2b774938b36	OPEN	2024-03-27T20:56:43Z
+146708	Automatic update of TrueConf.TrueConf 8.4.0	wingetbot:AutomaticUpdate_10631201-6b55-43a0-bce5-b4e096069644	OPEN	2024-03-27T20:48:56Z
+146707	Automatic update of F-Secure.Freedome from 2.69.35.0 to 2.71.176.0	wingetbot:AutomaticUpdate_5fc4891e-1886-4b06-afd6-af9e5ba47419	OPEN	2024-03-27T20:44:58Z
+146706	Automatic deletion of evernote.evernote 10.81.4.20240320152323	wingetbot:AutomaticUpdate_7024dd4e-7fd6-42a3-9990-9bae28e02f9c	OPEN	2024-03-27T20:41:51Z
+146705	New version: HiroSystems.Clarinet version 2.4.1	blockstack-devops:HiroSystems.Clarinet-2.4.1-d3ddeff0-469a-479b-97a9-98fc824b8525	OPEN	2024-03-27T20:39:20Z
+146704	Automatic update of evernote.evernote from 10.81.4.20240320152323 to 10.82.2.20240327123857	wingetbot:AutomaticUpdate_1a47bf5a-0d6a-4600-a160-2f8f1ce2c405	OPEN	2024-03-27T20:36:57Z
+146703	New version: Panic.PlaydateSDK version 2.4.2	idleberg:playdate-sdk/v2.4.2	OPEN	2024-03-27T20:26:29Z
+146702	New version: Panic.PlaydateSDK version 2.4.1	idleberg:playdate-sdk/v2.4.1	OPEN	2024-03-27T20:25:37Z
+146701	New version: Panic.PlaydateSDK version 2.4.0	idleberg:playdate-sdk/v2.4.0	OPEN	2024-03-27T20:25:05Z
+146700	Automatic deletion of ElectronicArts.EADesktop 13.152.0.5665	wingetbot:AutomaticUpdate_0c370282-e8ea-4768-8d52-d93af369a773	OPEN	2024-03-27T20:13:24Z
+146699	New version: TailwindLabs.TailwindCSS version 3.4.3	SpecterShell:TailwindLabs.TailwindCSS-3.4.3-950033826	OPEN	2024-03-27T20:11:12Z
+146698	New version: RemNote.RemNote version 1.14.35	SpecterShell:RemNote.RemNote-1.14.35-1015124525	OPEN	2024-03-27T20:11:02Z
+146697	Automatic update of ElectronicArts.EADesktop from 13.152.0.5665 to 13.162.0.5675	wingetbot:AutomaticUpdate_1c0998be-ab13-4676-a5b9-2defac742816	OPEN	2024-03-27T20:08:46Z
+146696	Update BOINC to v8.0.0	adamradocz:UCBerkeley.BOINC-8.0.0-4c04aad2-4b45-484b-82a2-9dcc5fce1b43	OPEN	2024-03-27T20:03:19Z
+146695	Automatic deletion of AgileBits.1Password.Beta 8.10.30-1.BETA	wingetbot:AutomaticUpdate_6a700424-8a02-4920-87b0-a981db1c8202	OPEN	2024-03-27T19:32:15Z
+146694	Automatic update of AgileBits.1Password.Beta from 8.10.30-1.BETA to 8.10.30-11.BETA	wingetbot:AutomaticUpdate_033c3e82-6f23-4102-9848-bd4a2e540dc3	OPEN	2024-03-27T19:27:07Z
+146693	Automatic deletion of AgileBits.1Password.Beta 8.10.28-3.BETA	wingetbot:AutomaticUpdate_46b0874c-90f9-4714-a196-9f4e69063e3a	OPEN	2024-03-27T19:22:06Z
+146692	New version: DoltHub.Dolt version 1.35.5	coffeegoddd:DoltHub.Dolt-1.35.5-934ce8bc-fabd-4ece-863f-98f896b8d9f3	OPEN	2024-03-27T19:18:42Z
+146691	Automatic update of AgileBits.1Password.Beta from 8.10.28-3.BETA to 8.10.30-11.BETA	wingetbot:AutomaticUpdate_b1697d8e-7fec-40d2-a5a0-452eb180f0af	OPEN	2024-03-27T19:17:13Z
+146690	New version: UPX.UPX version 4.2.3	SpecterShell:UPX.UPX-4.2.3-650460252	OPEN	2024-03-27T19:11:33Z
+146689	New version: RemNote.RemNote version 1.14.34	SpecterShell:RemNote.RemNote-1.14.34-692612255	OPEN	2024-03-27T19:10:57Z
+146688	Automatic update of AdGuard.AdGuardVPN.Nightly from 2.3.1357.0 to 2.3.1364.0	wingetbot:AutomaticUpdate_9d98edcb-144f-4c85-a67a-a31af4f1c656	OPEN	2024-03-27T19:10:07Z
+146687	New version: Google.Chrome.Canary version 125.0.6383.0	SpecterShell:Google.Chrome.Canary-125.0.6383.0-184220189	OPEN	2024-03-27T19:10:01Z
+146686	Microsoft.VisualStudioCode.Insiders_v1.88.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.88.0	OPEN	2024-03-27T19:04:44Z
+146685	New version: Unibo.Alchemist version 33.0.3	DanySK:Unibo.Alchemist-33.0.3-d9570c86-1e1d-4536-b067-5f2bc4359869	OPEN	2024-03-27T18:52:20Z
+146684	Tgstation.Server version 6.4.1	Cyberboss:Tgstation.Server-6.4.1-b92bb00f-ddab-45b8-9b86-e021faeccdb6	OPEN	2024-03-27T18:52:13Z
+146683	New version: buchen.portfolio version 0.68.3	peterbud:buchen	OPEN	2024-03-27T18:39:41Z
+146682	New version: Ryujinx.Ryujinx version 1.1.1248	Exorcism0666:Ryujinx.Ryujinx-1.1.1248-6570071	OPEN	2024-03-27T18:24:59Z
+146681	New version: Prog.ProgDVB.Professional version 7.60.4	Exorcism0666:Prog.ProgDVB.Professional-7.60.4-868A27	OPEN	2024-03-27T18:21:04Z
 146680	New version: Prog.ProgDVB.Free version 7.60.4	Exorcism0666:Prog.ProgDVB.Free-7.60.4-115CE0D9	OPEN	2024-03-27T18:13:37Z
 146679	New package: hatoo.oha version 1.4.1	mechanicalbot:hatoo.oha-1.4.1-20436292-e853-429d-b3b1-f69beb74e2ee	OPEN	2024-03-27T18:09:31Z
 146678	Add `cs-CZ` lang: RARLab.WinRAR version 7.00.0	MaanuelMM:WinRAR-v7.00.0-cs-CZ	OPEN	2024-03-27T17:34:42Z
