@@ -1,3 +1,12 @@
+146809	New version: Spicetify.Spicetify version 2.36.1	spicetify:Spicetify.Spicetify-2.36.1-59660BFF8CF431983CDE18FAF95A8A0045C0CE84	OPEN	2024-03-28T14:05:36Z
+146808	Microsoft.VisualStudioCode.Insiders_v1.88.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.88.0	OPEN	2024-03-28T14:05:26Z
+146807	New version: OneWare.OneWareStudio version 0.17.0.1	HendrikMennen:OneWare.OneWareStudio-0.17.0.1-be4ddb8d-fb0b-4589-9a7e-d79d1e2f58f2	OPEN	2024-03-28T14:00:44Z
+146806	New version: Pulumi.Pulumi version 3.112.0	pulumi-bot:Pulumi.Pulumi-3.112.0-1fb96e08-014f-45c2-841c-a11fc158704d	OPEN	2024-03-28T13:49:10Z
+146804	TopalaSoftwareSolutions.SIW version 2024.02.15.9	gtopala:TopalaSoftwareSolutions.SIW-2024.02.15.9-863d8520-ca45-4aa0-8e44-539b52aadbc8	OPEN	2024-03-28T13:23:41Z
+146803	New version: uazo.cromite version 123.0.6312.86	Exorcism0666:uazo.cromite-123.0.6312.86-47684346	OPEN	2024-03-28T13:22:15Z
+146802	KNIMEAG.KNIMEAnalyticsPlatform version 5.2.3	Rotzbua:KNIMEAG.KNIMEAnalyticsPlatform-5.2.3-fde6ac52-a7db-4e19-99f5-eb5ecba4b09d	OPEN	2024-03-28T13:21:33Z
+146801	New version: DuckDuckGo.DesktopBrowser version 0.73.0.0	SpecterShell:DuckDuckGo.DesktopBrowser-0.73.0.0-1480437751	OPEN	2024-03-28T13:10:26Z
+146800	New version: Appest.Dida version 5.3.0.0	SpecterShell:Appest.Dida-5.3.0.0-148928535	OPEN	2024-03-28T13:09:32Z
 146792	New version: Meitu.ColorByte version 5.5.0	SpecterShell:Meitu.ColorByte-5.5.0-392586610	OPEN	2024-03-28T12:17:57Z
 146790	New version: Ruben2776.PicView version 2.2.4	Ruben2776:Ruben2776.PicView-2.2.4-d5eb31d3-0458-4c44-b95a-d08ddc60e6d0	OPEN	2024-03-28T12:06:40Z
 146789	Version Update: TeamProwlarr.Prowlarr version 1.15.0	babblebauble:TeamProwlarr.Prowlarr-1.15.0-6105d909-7f2b-43a7-ace5-3c2904fc573e	OPEN	2024-03-28T11:36:57Z
@@ -17,8 +26,6 @@
 146773	New version: Google.Chrome.Canary version 125.0.6384.0	SpecterShell:Google.Chrome.Canary-125.0.6384.0-2062532742	OPEN	2024-03-28T07:09:11Z
 146770	New version: Zoom.ZoomOutlookPlugin version 6.0.0 (6.0.0.1012)	SpecterShell:Zoom.ZoomOutlookPlugin-6.0.0-962008304	OPEN	2024-03-28T06:13:53Z
 146769	New version: Neovide.Neovide version 0.12.2	kbarnes3:Neovide.Neovide-0.12.2-cbf56a31-c433-45fd-a86a-a1536185f842	OPEN	2024-03-28T06:11:06Z
-146768	Microsoft.VisualStudioCode.Insiders_v1.88.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.88.0	OPEN	2024-03-28T06:05:42Z
-146767	New version: Jackett.Jackett version 0.21.2199	Jackett:Jackett.Jackett-0.21.2199-2B92FFDB3376081449F894AD5E9FF10C48015138	OPEN	2024-03-28T05:54:15Z
 146766	manosim.gitify version 5.1.0	vedantmgoyal9:manosim.gitify-5.1.0-651a8c22-62ce-4d9d-b3b5-66229ad9b9e7	OPEN	2024-03-28T05:29:40Z
 146765	New version: JLC.LCEDA.Pro version 2.1.54	SpecterShell:JLC.LCEDA.Pro-2.1.54-492597003	OPEN	2024-03-28T05:13:17Z
 146764	New version: Hellofont.Hellofont version 4.0.5	SpecterShell:Hellofont.Hellofont-4.0.5-760638030	OPEN	2024-03-28T04:17:22Z
@@ -41,7 +48,6 @@
 146664	Microsoft.VisualStudioCode.Insiders.CLI_v1.88.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.Insiders.CLI_v1.88.0	OPEN	2024-03-27T16:07:00Z
 146662	Add fallback UserAgent to YamlCreate	Trenly:BackupAgent	OPEN	2024-03-27T15:55:36Z
 146657	New version: JetBrains.TeamCity version 2024.03	SpecterShell:JetBrains.TeamCity-2024.03-909995931	OPEN	2024-03-27T15:11:42Z
-146649	New package: Trimble.SketchUp.Pro.2023 version 23.1.340	Dragon1573:issues/146641	OPEN	2024-03-27T13:28:21Z
 146646	New version: Dell.CommandUpdate.Universal version 5.2.0	SpecterShell:Dell.CommandUpdate.Universal-5.2.0-1311078967	OPEN	2024-03-27T12:39:18Z
 146643	Update Aircall.Aircall to 3.1.14	FaserF:update-Aircall	OPEN	2024-03-27T11:47:28Z
 146640	New package: Lilith.AFKJourney version 1.1.0.0	solomoncyj:Lilith.AFKJourney-1.1.0.0-ff2bcdd9-08b3-4a18-9dca-3d140ffcf306	OPEN	2024-03-27T10:40:54Z
@@ -95,7 +101,6 @@
 145917	JackieLiu.NotepadsApp version 1.5.4.0	vedantmgoyal9:JackieLiu.NotepadsApp-1.5.4.0-f498f8a5-87fe-4759-8f30-f2a875276c5f	OPEN	2024-03-21T23:27:47Z
 145914	Discord.Discord version 1.0.9036	vedantmgoyal9:Discord.Discord-1.0.9036-2997df81-b728-4466-9d16-548cf00cf012	OPEN	2024-03-21T23:27:08Z
 145880	New version: JetBrains.CLion.EAP version 241.14494.154	SpecterShell:JetBrains.CLion.EAP-241.14494.154-856982039	OPEN	2024-03-21T21:09:46Z
-145869	Automatic deletion of PerfectWorld.PerfectWorldArena 1.0.24032112	wingetbot:AutomaticUpdate_0646ac9c-cfa4-4b3a-9bd7-860fe756d5ce	OPEN	2024-03-21T20:23:03Z
 145868	Automatic update of PerfectWorld.PerfectWorldArena from 1.0.24032112 to 1.0.24032112.980	wingetbot:AutomaticUpdate_c15948e9-d1c1-4f1f-941b-451266d65de2	OPEN	2024-03-21T20:17:37Z
 145866	Automatic update of DWANGO.NAIR.experimental from unstable to 1.1.20240321-unstable.1	wingetbot:AutomaticUpdate_dd8bdcee-8d5b-40de-be3d-e545c7639b5c	OPEN	2024-03-21T19:44:21Z
 145860	New version: Unity.Unity.2023 version 2023.2.15f1	SpecterShell:Unity.Unity.2023-2023.2.15f1-477068188	OPEN	2024-03-21T19:12:12Z
