@@ -1,3 +1,12 @@
+146782	New version: TeamIDE.TeamIDE version 2.6.17	SpecterShell:TeamIDE.TeamIDE-2.6.17-1419060955	OPEN	2024-03-28T09:12:27Z
+146781	New version: Baidu.BaiduPinyin version 6.1.5.12	SpecterShell:Baidu.BaiduPinyin-6.1.5.12-875657428	OPEN	2024-03-28T09:11:21Z
+146780	New version: Sohu.SHPlayer version 7.1.10.0	SpecterShell:Sohu.SHPlayer-7.1.10.0-1237339872	OPEN	2024-03-28T08:12:54Z
+146779	New version: LiErHeXun.Quicker version 1.42.24.0	SpecterShell:LiErHeXun.Quicker-1.42.24.0-1770528786	OPEN	2024-03-28T08:12:14Z
+146778	New version: Brave.Brave.Beta version 123.1.65.96	SpecterShell:Brave.Brave.Beta-123.1.65.96-854758163	OPEN	2024-03-28T08:11:12Z
+146777	New version: PLaSK 2024.03.27	macdems:2024.03.27	OPEN	2024-03-28T07:47:45Z
+146776	New package: Microsoft.Teams.Free version 24047.202.2704.38	SpecterShell:Microsoft.Teams.Free-24047.202.2704.38-1386284390	OPEN	2024-03-28T07:37:28Z
+146775	New version: Thunder.Thunder version 12.0.10.2450	SpecterShell:Thunder.Thunder-12.0.10.2450-46256947	OPEN	2024-03-28T07:12:49Z
+146773	New version: Google.Chrome.Canary version 125.0.6384.0	SpecterShell:Google.Chrome.Canary-125.0.6384.0-2062532742	OPEN	2024-03-28T07:09:11Z
 146770	New version: Zoom.ZoomOutlookPlugin version 6.0.0 (6.0.0.1012)	SpecterShell:Zoom.ZoomOutlookPlugin-6.0.0-962008304	OPEN	2024-03-28T06:13:53Z
 146769	New version: Neovide.Neovide version 0.12.2	kbarnes3:Neovide.Neovide-0.12.2-cbf56a31-c433-45fd-a86a-a1536185f842	OPEN	2024-03-28T06:11:06Z
 146768	Microsoft.VisualStudioCode.Insiders_v1.88.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.88.0	OPEN	2024-03-28T06:05:42Z
@@ -16,7 +25,6 @@
 146730	Amazon.AWSCLI version 2.15.33	vedantmgoyal9:Amazon.AWSCLI-2.15.33-d1bef843-6395-4a44-b3d3-c461c1bfd067	OPEN	2024-03-27T23:23:55Z
 146700	Automatic deletion of ElectronicArts.EADesktop 13.152.0.5665	wingetbot:AutomaticUpdate_0c370282-e8ea-4768-8d52-d93af369a773	OPEN	2024-03-27T20:13:24Z
 146695	Automatic deletion of AgileBits.1Password.Beta 8.10.30-1.BETA	wingetbot:AutomaticUpdate_6a700424-8a02-4920-87b0-a981db1c8202	OPEN	2024-03-27T19:32:15Z
-146685	New version: Unibo.Alchemist version 33.0.3	DanySK:Unibo.Alchemist-33.0.3-d9570c86-1e1d-4536-b067-5f2bc4359869	OPEN	2024-03-27T18:52:20Z
 146682	New version: Ryujinx.Ryujinx version 1.1.1248	Exorcism0666:Ryujinx.Ryujinx-1.1.1248-6570071	OPEN	2024-03-27T18:24:59Z
 146679	New package: hatoo.oha version 1.4.1	mechanicalbot:hatoo.oha-1.4.1-20436292-e853-429d-b3b1-f69beb74e2ee	OPEN	2024-03-27T18:09:31Z
 146678	Add `cs-CZ` lang: RARLab.WinRAR version 7.00.0	MaanuelMM:WinRAR-v7.00.0-cs-CZ	OPEN	2024-03-27T17:34:42Z
