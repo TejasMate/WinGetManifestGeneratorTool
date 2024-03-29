@@ -1,3 +1,17 @@
+146926	New version: NordSecurity.NordVPN version 7.20.5.0	SpecterShell:NordSecurity.NordVPN-7.20.5.0-1082114181	OPEN	2024-03-29T09:11:16Z
+146925	New version: GoACME.lego version 4.16.1	BiosPlus:GoACME.lego-4.16.1-76C43B2D20494E99978BE13BBD72FA14	OPEN	2024-03-29T08:32:20Z
+146924	New version: GoACME.lego version 4.16.0	BiosPlus:GoACME.lego-4.16.0-2184FD39A9D148FB80A276FAD9A3EF87	OPEN	2024-03-29T08:31:16Z
+146923	New version: GolangCI.golangci-lint version 1.57.2	BiosPlus:GolangCI.golangci-lint-1.57.2-6D5A6FF51BA14C5CB4501A0F7955C3FA	OPEN	2024-03-29T08:21:41Z
+146922	New version: GolangCI.golangci-lint version 1.57.1	BiosPlus:GolangCI.golangci-lint-1.57.1-09575C9A659E4E94AD82B2ADEF49749D	OPEN	2024-03-29T08:21:18Z
+146921	New version: GolangCI.golangci-lint version 1.57.0	BiosPlus:GolangCI.golangci-lint-1.57.0-CC4725224A1E49D8A33E9823F1079738	OPEN	2024-03-29T08:21:09Z
+146920	New version: GolangCI.golangci-lint version 1.56.2	BiosPlus:GolangCI.golangci-lint-1.56.2-DB19757EFC054B958E64424F45EB83BD	OPEN	2024-03-29T08:21:01Z
+146919	New version: Google.Chrome.Canary version 125.0.6386.0	SpecterShell:Google.Chrome.Canary-125.0.6386.0-1830931651	OPEN	2024-03-29T08:11:10Z
+146918	New version: c0re100.qBittorrent-Enhanced-Edition version 4.6.4.10	c0re100:c0re100.qBittorrent-Enhanced-Edition-4.6.4.10-CFFF5C6BBCB0E71D732F2C7092B1BF81C451EF0F	OPEN	2024-03-29T07:47:40Z
+146917	New version: Unity.Unity.2023 version 2023.2.16f1	SpecterShell:Unity.Unity.2023-2023.2.16f1-1059466242	OPEN	2024-03-29T07:15:46Z
+146916	New version: danstis.rmstale version 1.12.1	danstis:danstis.rmstale-1.12.1-c978954b-9101-403b-b677-6c9b364cdb77	OPEN	2024-03-29T07:13:06Z
+146915	New version: Reqable.Reqable version 2.10.0	SpecterShell:Reqable.Reqable-2.10.0-1957644537	OPEN	2024-03-29T07:11:15Z
+146914	New version: Huawei.QuickAppIde version 14.0.1	SpecterShell:Huawei.QuickAppIde-14.0.1-B10E0EE0	OPEN	2024-03-29T06:37:13Z
+146913	eloston.ungoogled-chromium version 123.0.6312.86	Nifury:eloston.ungoogled-chromium-123.0.6312.86-2a222e81-0f5b-4658-a646-c90e2e7efbd5	OPEN	2024-03-29T06:34:02Z
 146912	New version: Jackett.Jackett version 0.21.2212	Jackett:Jackett.Jackett-0.21.2212-9E3C9A3C0A6A1F9D240F465D7D2654BAD518B1C9	OPEN	2024-03-29T06:08:49Z
 146911	New package: Yuejing.Kocard version 3.0.4	SpecterShell:Yueliu.Kocard-3.0.4-7E42C330	OPEN	2024-03-29T06:07:46Z
 146910	New version: h3poteto.fedistar version 1.9.1	TejasMate:h3poteto.fedistar-1.9.1-C279B87B43994EDD8CD97C0F263E0AC0	OPEN	2024-03-29T06:01:05Z
