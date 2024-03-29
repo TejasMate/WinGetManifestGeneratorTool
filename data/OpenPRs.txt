@@ -1,3 +1,7 @@
+146944	New version: Microsoft.PIX version 24.3.8.1	Dragon1573:issues/146860	OPEN	2024-03-29T14:24:37Z
+146943	New version: VirtusLab.ScalaCLI version 1.2.1	scala-steward:VirtusLab.ScalaCLI-1.2.1-04700ECD119C6EA615B4A595AE3C2C1E8968013E	OPEN	2024-03-29T14:00:56Z
+146942	New version: mar10.wsgidav version 4.3.2.0	mar10:mar10.wsgidav-4.3.2.0-9f24dd89-2bc7-4127-8f59-5e9b9a55490b	OPEN	2024-03-29T13:55:19Z
+146940	New version: Ruihu.Apifox version 2.5.14	SpecterShell:Ruihu.Apifox-2.5.14-738443813	OPEN	2024-03-29T13:11:44Z
 146939	Fix: Dell.CommandUpdate.Universal version 5.1.0	SpecterShell:Dell.CommandUpdate.Universal-5.1.0-Fix	OPEN	2024-03-29T12:19:52Z
 146938	Fix: Dell.CommandUpdate version 5.2.0	SpecterShell:Dell.CommandUpdate-5.2.0-Fix	OPEN	2024-03-29T12:18:59Z
 146937	New version: PaodingAI.Calliper version 1.1.88	SpecterShell:PaodingAI.Calliper-1.1.88-1112189338	OPEN	2024-03-29T12:13:50Z
@@ -21,7 +25,6 @@
 146915	New version: Reqable.Reqable version 2.10.0	SpecterShell:Reqable.Reqable-2.10.0-1957644537	OPEN	2024-03-29T07:11:15Z
 146914	New version: Huawei.QuickAppIde version 14.0.1	SpecterShell:Huawei.QuickAppIde-14.0.1-B10E0EE0	OPEN	2024-03-29T06:37:13Z
 146913	eloston.ungoogled-chromium version 123.0.6312.86	Nifury:eloston.ungoogled-chromium-123.0.6312.86-2a222e81-0f5b-4658-a646-c90e2e7efbd5	OPEN	2024-03-29T06:34:02Z
-146912	New version: Jackett.Jackett version 0.21.2212	Jackett:Jackett.Jackett-0.21.2212-9E3C9A3C0A6A1F9D240F465D7D2654BAD518B1C9	OPEN	2024-03-29T06:08:49Z
 146911	New package: Yuejing.Kocard version 3.0.4	SpecterShell:Yueliu.Kocard-3.0.4-7E42C330	OPEN	2024-03-29T06:07:46Z
 146910	New version: h3poteto.fedistar version 1.9.1	TejasMate:h3poteto.fedistar-1.9.1-C279B87B43994EDD8CD97C0F263E0AC0	OPEN	2024-03-29T06:01:05Z
 146908	Update Netron to 7.5.7	lutzroeder:master	OPEN	2024-03-29T04:49:44Z
