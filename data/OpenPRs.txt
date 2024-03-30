@@ -1,3 +1,20 @@
+147076	MiTeC.NetworkScanner version 5.7.0	Lachine1:MiTeC.NetworkScanner-5.7.0-495e142e-eb9f-470a-b6d5-504439c2080f	OPEN	2024-03-30T15:14:13Z
+147075	MiTeC.JsonViewer version 3.2.0	Lachine1:MiTeC.JsonViewer-3.2.0-ceacd67d-6b6f-4cff-98d1-3f046a33c59d	OPEN	2024-03-30T15:13:22Z
+147074	New version: Ruihu.Apifox version 2.5.15	SpecterShell:Ruihu.Apifox-2.5.15-1739950831	OPEN	2024-03-30T15:10:37Z
+147073	New package: MiTeC.NetworkMeter version 2.5.0	Lachine1:MiTeC.NetworkMeter-2.5.0-a19e80e0-78e9-4339-9b97-77ac91c53b6a	OPEN	2024-03-30T15:04:44Z
+147072	New package: MiTeC.HexEdit version 7.1.0	Lachine1:MiTeC.HexEdit-7.1.0-89a6f701-2bb8-46b8-9484-8dbecacffde5	OPEN	2024-03-30T15:01:27Z
+147071	TopalaSoftwareSolutions.SIW version 2024.02.15.10	gtopala:TopalaSoftwareSolutions.SIW-2024.02.15.10-79a0c2ba-4b4c-45ce-95b5-d2d9d5141d65	OPEN	2024-03-30T14:54:00Z
+147070	JanDeDobbeleer.OhMyPosh version 19.19.0	JanDeDobbeleer:JanDeDobbeleer.OhMyPosh-19.19.0-c00b56cd-4289-43be-bc90-daa6f86081e9	OPEN	2024-03-30T14:44:25Z
+147069	New Package: CXWorld.CapFrameX version 1.7.2	og-mrk:new-manifest/CXWorld.CapFrameX-version1.7.2	OPEN	2024-03-30T14:39:30Z
+147068	MiTeC.IconExplorer version 5.3.0	Lachine1:MiTeC.IconExplorer-5.3.0-21c1caa9-59db-4679-9353-36c6548daca1	OPEN	2024-03-30T14:35:25Z
+147067	MiTeC.SystemInformationX version 1	Lachine1:MiTeC.SystemInformationX-1-55569b97-097d-42df-9c47-ce32e5194f1a	OPEN	2024-03-30T14:24:15Z
+147066	MiTeC.WindowsFileAnalyzer version 2.10.0	Lachine1:MiTeC.WindowsFileAnalyzer-2.10.0-fe308be0-823b-4cee-98a5-14f5e03cfa69	OPEN	2024-03-30T14:23:32Z
+147065	New Version: SoftFever.OrcaSlicer version 2.0.0	og-mrk:new-manifest-version/SoftFever.OrcaSlicer-version2.0.0	OPEN	2024-03-30T14:04:44Z
+147064	Remove Version: IObit.DriverBooster version 11.2.0	TommyE123:RemoveDriverBooster11.2	OPEN	2024-03-30T13:49:29Z
+147063	FrankBijnen.ExifToolGUI version 6.3.0	Lachine1:FrankBijnen.ExifToolGUI-6.3.0-0737e959-740e-4125-97ad-a829574359d8	OPEN	2024-03-30T13:31:49Z
+147060	New Package: ntwind.AltTabTer version 6.4	og-mrk:new-manifest/ntwind.AltTabTer-version6.4	OPEN	2024-03-30T13:06:32Z
+147059	MultiMC.MultiMC version 0.7.0	Lachine1:MultiMC.MultiMC-0.7.0-602d1711-a913-48c7-bdd7-c70b10ce8afe	OPEN	2024-03-30T12:59:17Z
+147058	New Package: ntwind.VistaSwitcher version 1.1.5	og-mrk:new-manifest/ntwind.VistaSwitcher-version1.1.5	OPEN	2024-03-30T12:50:32Z
 147057	New version: huanghongxun.HelloMinecraftLauncher version 3.5.7.245	TejasMate:huanghongxun.HelloMinecraftLauncher-3.5.7.245-C19C7AF554FF4677A1FF48E2F61F585C	OPEN	2024-03-30T12:22:55Z
 147056	Remove Tixati.Tixati 3.19 to Tixati.Tixati.Portable 3.19	og-mrk:Remove-Tixati.Tixati-v3.19-61AA0F44	OPEN	2024-03-30T12:13:31Z
 147055	Move Tixati.Tixati 3.19 to Tixati.Tixati.Portable 3.19	og-mrk:Move-Tixati.Tixati-v3.19-61AA0F44	OPEN	2024-03-30T12:13:26Z
