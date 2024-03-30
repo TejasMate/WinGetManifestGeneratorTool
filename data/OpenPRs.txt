@@ -1,3 +1,10 @@
+147042	New version: Xiaoyaoyixia.KOOK version 0.82.1	SpecterShell:Xiaoyaoyixia.KOOK-0.82.1-1639251046	OPEN	2024-03-30T09:12:00Z
+147041	New package: Cloudflare.Warp version 24.3.409.0	Dragon1573:issues/147039	OPEN	2024-03-30T09:07:20Z
+147040	New version: Google.Chrome.Canary version 125.0.6388.0	SpecterShell:Google.Chrome.Canary-125.0.6388.0-707939718	OPEN	2024-03-30T08:11:25Z
+147038	CodingWondersSoftware.DISMTools.Preview version 0.5.0.2433	CodingWonders:CodingWondersSoftware.DISMTools.Preview-0.5.0.2433-c73fb3fd-5d4b-4cf1-a59f-030d522e962a	OPEN	2024-03-30T07:59:27Z
+147037	CodingWondersSoftware.DISMTools.Stable version 0.4.2.2434	CodingWonders:CodingWondersSoftware.DISMTools.Stable-0.4.2.2434-c63f04b8-6f0a-4e75-8042-fb43bac982a7	OPEN	2024-03-30T07:57:53Z
+147036	New version: Tonec.InternetDownloadManager version 6.42.7.1	Exorcism0666:Tonec.InternetDownloadManager-6.42.7.1-1037e2c5-032f-4692-985e-c2d70970960c	OPEN	2024-03-30T07:13:40Z
+147035	New version: danstis.rmstale version 1.14.0	danstis:danstis.rmstale-1.14.0-2a0840fb-bd66-4da4-a403-a7719e844c20	OPEN	2024-03-30T06:26:39Z
 147034	New version: Jackett.Jackett version 0.21.2219	Jackett:Jackett.Jackett-0.21.2219-62D5571EF98C0876EF8DFF036D9ECFDD57F34BCE	OPEN	2024-03-30T06:02:29Z
 147033	Modify: Telerik.Fiddler.Classic version 5.0.20242.10753	SpecterShell:Telerik.Fiddler.Classic-5.0.20242.10753-Modify	OPEN	2024-03-30T04:13:44Z
 147032	New version: monkeyWie.Gopeed version 1.5.6	SpecterShell:monkeyWie.Gopeed-1.5.6-470421815	OPEN	2024-03-30T04:11:24Z
