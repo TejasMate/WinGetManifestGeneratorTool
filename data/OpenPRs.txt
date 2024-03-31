@@ -1,3 +1,10 @@
+147137	update fujiapple852/trippy to 0.10.0	fujiapple852:fujiapple852-trippy-0.10.0	OPEN	2024-03-31T15:12:04Z
+147136	Revert "New version: Microsoft.VCRedist.2015+.x64 version 14.40.33617.1"	collinstevens:revert-144318-Microsoft.VCRedist.2015+.x64-14.40.33617.1-970C10A432824E5DA0D7286F2186EBE5	OPEN	2024-03-31T14:47:06Z
+147135	Revert "New version: Microsoft.VCRedist.2015+.x86 version 14.40.33617.1"	collinstevens:revert-144316-Microsoft.VCRedist.2015+.x86-14.40.33617.1-ABEF9F7D1E6D415285021CF95F96AC8C	OPEN	2024-03-31T14:46:58Z
+147132	Go musicfox 4.3.3	go-musicfox:go-musicfox-4.3.3	OPEN	2024-03-31T14:27:12Z
+147131	New version: FredEmmott.OpenKneeboard version 1.8.0	openkneeboard-bot:FredEmmott.OpenKneeboard-1.8.0-37BC079023DA4382BA390BF6C7231B96	OPEN	2024-03-31T13:35:35Z
+147130	Add Back CloudFlare WARP #147129	hanlim83:master	OPEN	2024-03-31T13:07:38Z
+147126	New version: Intel.PresentMon version 1.10.0	collinstevens:Intel.PresentMon2-1.10.0-ffa70101-722e-4f4c-88a8-da828f2f1c5a	DRAFT	2024-03-31T12:26:48Z
 147125	New version: FutureScholars.Paperlib version 3.0.7	SpecterShell:FutureScholars.Paperlib-3.0.7-875667487	OPEN	2024-03-31T12:11:44Z
 147124	valinet.ExplorerPatcher.Prerelease version 22621.3296.64.2	vedantmgoyal9:valinet.ExplorerPatcher.Prerelease-22621.3296.64.2-7101e3c5-a1a3-4ea8-9301-fb0f1d35ecad	OPEN	2024-03-31T11:28:31Z
 147123	New version: KDE.Kdenlive version 24.02.1	atilluF:KDE.Kdenlive-24.02.1-45EEF989C22B49FD87E0C60C156D6D5E	OPEN	2024-03-31T09:37:01Z
@@ -67,7 +74,6 @@
 147048	New version: Gramps.Gramps version 5.2.1	Okeanos:Gramps.Gramps-5.2.1-E19F3F5643024043BE041BFD24838118	OPEN	2024-03-30T11:10:01Z
 147047	New version: AquaSecurity.Trivy version 0.50.1	Okeanos:AquaSecurity.Trivy-0.50.1-EFF59D78571C43EBAD534C3FEBAB8032	OPEN	2024-03-30T11:04:50Z
 147046	MyMonero.MyMonero version 1.3.3	Lachine1:MyMonero.MyMonero-1.3.3-8acbdb55-8c09-4a57-93b5-77f5ae1a9b8c	OPEN	2024-03-30T11:01:01Z
-147045	Go musicfox 4.3.2	go-musicfox:go-musicfox-4.3.2	OPEN	2024-03-30T10:35:38Z
 147042	New version: Xiaoyaoyixia.KOOK version 0.82.1	SpecterShell:Xiaoyaoyixia.KOOK-0.82.1-1639251046	OPEN	2024-03-30T09:12:00Z
 147041	New package: Cloudflare.Warp version 24.3.409.0	Dragon1573:issues/147039	OPEN	2024-03-30T09:07:20Z
 147040	New version: Google.Chrome.Canary version 125.0.6388.0	SpecterShell:Google.Chrome.Canary-125.0.6388.0-707939718	OPEN	2024-03-30T08:11:25Z
