@@ -1,3 +1,10 @@
+147149	TopalaSoftwareSolutions.SIW version 2024.02.15.11	gtopala:TopalaSoftwareSolutions.SIW-2024.02.15.11-a395b87b-6faa-4a46-a7ad-53cc7aa8f469	OPEN	2024-03-31T20:58:13Z
+147148	New version: iZotope.ProductPortal version 1.4.8	Exorcism0666:iZotope.ProductPortal-1.4.8-DE9B6244D24A4587B3093A9FE30CF8D5	OPEN	2024-03-31T20:56:32Z
+147147	New version: PPSSPPTeam.PPSSPP version 1.17.1	Exorcism0666:PPSSPPTeam.PPSSPP-1.17.1-8EE429158AEF4E36A9540277E9E705AB	OPEN	2024-03-31T20:45:04Z
+147146	New package: Microsoft.VCRedist.2019.x64 version 14.38.33135.0	og-mrk:Microsoft.VCRedist.2019.x64-14.38.33135.0-3c6b90ca-f879-44ca-98ac-6e37ced4e848	OPEN	2024-03-31T20:26:30Z
+147145	New version: Google.Chrome.Canary version 125.0.6391.0	SpecterShell:Google.Chrome.Canary-125.0.6391.0-1082265314	OPEN	2024-03-31T20:10:10Z
+147144	New version: gokcehan.lf version r32	gokcehan:gokcehan.lf-r32-76C396520C9FC417ECBC1D1835A78BF4C44B4663	OPEN	2024-03-31T20:05:06Z
+147142	New version: twpayne.chezmoi 2.47.3	twpayne:chezmoi-2.47.3	OPEN	2024-03-31T18:49:39Z
 147141	New version: stnkl.EverythingToolbar version 1.3.3	srwi:stnkl.EverythingToolbar-1.3.3-4337cd90-36a8-4a66-aaa7-4e6ca97cc0c5	OPEN	2024-03-31T16:36:14Z
 147139	New version: WestWind.MarkdownMonster version 3.2.9.0	kkbruce:WestWind.MarkdownMonster-3.2.9.0-257BD822	OPEN	2024-03-31T16:06:28Z
 147138	Add testmyapp.io	Gjergj:master	OPEN	2024-03-31T16:04:45Z
@@ -54,12 +61,11 @@
 147074	New version: Ruihu.Apifox version 2.5.15	SpecterShell:Ruihu.Apifox-2.5.15-1739950831	OPEN	2024-03-30T15:10:37Z
 147073	New package: MiTeC.NetworkMeter version 2.5.0	Lachine1:MiTeC.NetworkMeter-2.5.0-a19e80e0-78e9-4339-9b97-77ac91c53b6a	OPEN	2024-03-30T15:04:44Z
 147072	New package: MiTeC.HexEdit version 7.1.0	Lachine1:MiTeC.HexEdit-7.1.0-89a6f701-2bb8-46b8-9484-8dbecacffde5	OPEN	2024-03-30T15:01:27Z
-147071	TopalaSoftwareSolutions.SIW version 2024.02.15.10	gtopala:TopalaSoftwareSolutions.SIW-2024.02.15.10-79a0c2ba-4b4c-45ce-95b5-d2d9d5141d65	OPEN	2024-03-30T14:54:00Z
 147069	New Package: CXWorld.CapFrameX version 1.7.2	og-mrk:new-manifest/CXWorld.CapFrameX-version1.7.2	OPEN	2024-03-30T14:39:30Z
 147068	MiTeC.IconExplorer version 5.3.0	Lachine1:MiTeC.IconExplorer-5.3.0-21c1caa9-59db-4679-9353-36c6548daca1	OPEN	2024-03-30T14:35:25Z
 147067	MiTeC.SystemInformationX version 1	Lachine1:MiTeC.SystemInformationX-1-55569b97-097d-42df-9c47-ce32e5194f1a	OPEN	2024-03-30T14:24:15Z
 147066	MiTeC.WindowsFileAnalyzer version 2.10.0	Lachine1:MiTeC.WindowsFileAnalyzer-2.10.0-fe308be0-823b-4cee-98a5-14f5e03cfa69	OPEN	2024-03-30T14:23:32Z
-147065	New Version: SoftFever.OrcaSlicer version 2.0.0	og-mrk:new-manifest-version/SoftFever.OrcaSlicer-version2.0.0	OPEN	2024-03-30T14:04:44Z
+147065	New Version: SoftFever.OrcaSlicer version 2.0.0	og-mrk:new-manifest-version/SoftFever.OrcaSlicer-version2.0.0	DRAFT	2024-03-30T14:04:44Z
 147064	Remove Version: IObit.DriverBooster version 11.2.0	TommyE123:RemoveDriverBooster11.2	OPEN	2024-03-30T13:49:29Z
 147063	FrankBijnen.ExifToolGUI version 6.3.0	Lachine1:FrankBijnen.ExifToolGUI-6.3.0-0737e959-740e-4125-97ad-a829574359d8	OPEN	2024-03-30T13:31:49Z
 147060	New Package: ntwind.AltTabTer version 6.4	og-mrk:new-manifest/ntwind.AltTabTer-version6.4	OPEN	2024-03-30T13:06:32Z
