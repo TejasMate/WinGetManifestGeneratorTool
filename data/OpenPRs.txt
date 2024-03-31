@@ -1,3 +1,6 @@
+147109	Moving: DiegoFernandes.jsdesign version 1.0.7	SpecterShell:DiegoFernandes.jsdesign-1.0.7-Moving	OPEN	2024-03-31T03:03:17Z
+147108	Change: Improve sf-yuzifu.bcm_convertor	CoolPlayLin:sf-yuzifu	OPEN	2024-03-31T02:21:46Z
+147107	New version: yt-dlp.yt-dlp.nightly version 2024.03.30.232704	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.03.30.232704-1834904730	OPEN	2024-03-31T01:26:52Z
 147106	Automatic update of niconico.nair.live from latest to 1.1.20240321-1	wingetbot:AutomaticUpdate_49bc4790-7f3e-4c1a-8af7-f795a2babd6e	OPEN	2024-03-31T00:50:14Z
 147105	New package: Meta.Oculus version 1.86.0.0	SpecterShell:Meta.Oculus-1.86.0.0-9367FC49	OPEN	2024-03-31T00:45:45Z
 147104	Automatic update of spacedrive.Spacedrive from 0.2.8 to 0.2.10	wingetbot:AutomaticUpdate_73cc912f-cf5f-4dcb-970f-0ebc045e41eb	OPEN	2024-03-31T00:37:44Z
@@ -11,7 +14,7 @@
 147096	Automatic deletion of HaystackSoftwareLLC.Arq7 7.27.3.0	wingetbot:AutomaticUpdate_2a24f0be-8ffe-49b2-8eba-4867cc9b0dc6	OPEN	2024-03-30T22:51:46Z
 147095	New package: XueyunRuiChuang.JsDesignAgent version 1.1	SpecterShell:XueyunRuiChuang.JsDesignAgent-1.1-ED5BF9D3	OPEN	2024-03-30T22:49:55Z
 147094	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_9911ad75-9ad8-4349-b374-88cae988caba	OPEN	2024-03-30T22:37:02Z
-147093	New package: XueyunRuiChuang.JsDesign version 1.0.7	SpecterShell:XueyunRuiChuang.JsDesign-1.0.7-635F4941	OPEN	2024-03-30T22:26:10Z
+147093	Moved: XueyunRuiChuang.JsDesign version 1.0.7	SpecterShell:XueyunRuiChuang.JsDesign-1.0.7-635F4941	OPEN	2024-03-30T22:26:10Z
 147092	Update-metadata-AdrienAllard.FileConverter	licon4812:Update-metadata-AdrienAllard.FileConverter	OPEN	2024-03-30T21:28:12Z
 147091	Automatic deletion of LingitAS.Lingdys4 4.5.128.0	wingetbot:AutomaticUpdate_9641ce0d-a419-4231-ae90-ccda74a95baf	OPEN	2024-03-30T21:25:59Z
 147090	Automatic deletion of PowerSoftware.AnyBurn 6.0.0.0	wingetbot:AutomaticUpdate_191fc314-f92e-48fa-8f11-b94ca0ef1d37	OPEN	2024-03-30T20:57:18Z
