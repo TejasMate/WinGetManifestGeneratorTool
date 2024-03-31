@@ -1,7 +1,14 @@
+147120	New version: Catsxp.Catsxp version 123.4.4.2	SpecterShell:Catsxp.Catsxp-123.4.4.2-1198512042	OPEN	2024-03-31T09:09:50Z
+147119	New version: EDRLab.Thorium version 2.4.1	atilluF:EDRLab.Thorium-2.4.1-EEBA82EECAF24C05889BC0AF80ACEE28	OPEN	2024-03-31T09:05:37Z
+147118	New version: VideoLAN.x264 version 3190	atilluF:VideoLAN.x264-3190-C02F85C14BA84B53AF071F2FAA54531C	OPEN	2024-03-31T09:01:27Z
+147117	New version: MediaArea.MediaInfo version 24.03	atilluF:MediaArea.MediaInfo-24.03-D068760F600A4B1D96F0299C21563824	OPEN	2024-03-31T08:48:37Z
+147116	New version: MediaArea.MediaInfo.GUI version 24.03	atilluF:MediaArea.MediaInfo.GUI-24.03-EE912A65DEF64C3F87AD219208B3B0AC	OPEN	2024-03-31T08:46:36Z
+147115	New version: Google.Chrome.Canary version 125.0.6390.0	SpecterShell:Google.Chrome.Canary-125.0.6390.0-307313948	OPEN	2024-03-31T08:11:21Z
+147114	Nelson v1.3.0.3872	Nelson-numerical-software:master	OPEN	2024-03-31T06:45:48Z
 147113	New version: Jackett.Jackett version 0.21.2232	Jackett:Jackett.Jackett-0.21.2232-D91C217DE8AC704848121836BA3D1F3B77AA0E41	OPEN	2024-03-31T05:59:45Z
 147112	New version: GarboMuffin.TurboWarp version 1.10.1	headquarter8302:GarboMuffin.TurboWarp-1.10.1-DC3F920429C44631A2E5DC6D287FCA5A	OPEN	2024-03-31T05:57:25Z
 147111	New version: Ferdium.Ferdium.Nightly version 6.7.3-nightly.5	Alphrag:Ferdium.Ferdium.Nightly-6.7.3-nightly.5-51f8cb45-c436-4146-ae28-799b8843a71d	OPEN	2024-03-31T05:03:06Z
-147110	Add version: Anydo.Anydo version 5.0.59	SpecterShell:Anydo.Anydo-5.0.59-8CB1FEDB	OPEN	2024-03-31T05:01:49Z
+147110	Modify: Anydo.Anydo version 5.0.59	SpecterShell:Anydo.Anydo-5.0.59-8CB1FEDB	OPEN	2024-03-31T05:01:49Z
 147109	Moving: DiegoFernandes.jsdesign version 1.0.7	SpecterShell:DiegoFernandes.jsdesign-1.0.7-Moving	OPEN	2024-03-31T03:03:17Z
 147108	Change: Improve sf-yuzifu.bcm_convertor	CoolPlayLin:sf-yuzifu	OPEN	2024-03-31T02:21:46Z
 147107	New version: yt-dlp.yt-dlp.nightly version 2024.03.30.232704	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.03.30.232704-1834904730	OPEN	2024-03-31T01:26:52Z
