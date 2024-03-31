@@ -1,3 +1,8 @@
+147125	New version: FutureScholars.Paperlib version 3.0.7	SpecterShell:FutureScholars.Paperlib-3.0.7-875667487	OPEN	2024-03-31T12:11:44Z
+147124	valinet.ExplorerPatcher.Prerelease version 22621.3296.64.2	vedantmgoyal9:valinet.ExplorerPatcher.Prerelease-22621.3296.64.2-7101e3c5-a1a3-4ea8-9301-fb0f1d35ecad	OPEN	2024-03-31T11:28:31Z
+147123	New version: KDE.Kdenlive version 24.02.1	atilluF:KDE.Kdenlive-24.02.1-45EEF989C22B49FD87E0C60C156D6D5E	OPEN	2024-03-31T09:37:01Z
+147122	New version: Streamlink.Streamlink version 6.7.1-1	fancybody:Streamlink.Streamlink-6.7.1-1-D8BCD8CB66ED4C959C55A07ACEBBFC72	OPEN	2024-03-31T09:34:07Z
+147121	New version: Anki.Anki version 24.04	atilluF:Anki.Anki-24.04-09C7F7FD4DDE450DACEE26BF11CEC0C1	OPEN	2024-03-31T09:19:27Z
 147120	New version: Catsxp.Catsxp version 123.4.4.2	SpecterShell:Catsxp.Catsxp-123.4.4.2-1198512042	OPEN	2024-03-31T09:09:50Z
 147119	New version: EDRLab.Thorium version 2.4.1	atilluF:EDRLab.Thorium-2.4.1-EEBA82EECAF24C05889BC0AF80ACEE28	OPEN	2024-03-31T09:05:37Z
 147118	New version: VideoLAN.x264 version 3190	atilluF:VideoLAN.x264-3190-C02F85C14BA84B53AF071F2FAA54531C	OPEN	2024-03-31T09:01:27Z
@@ -5,7 +10,6 @@
 147116	New version: MediaArea.MediaInfo.GUI version 24.03	atilluF:MediaArea.MediaInfo.GUI-24.03-EE912A65DEF64C3F87AD219208B3B0AC	OPEN	2024-03-31T08:46:36Z
 147115	New version: Google.Chrome.Canary version 125.0.6390.0	SpecterShell:Google.Chrome.Canary-125.0.6390.0-307313948	OPEN	2024-03-31T08:11:21Z
 147114	Nelson v1.3.0.3872	Nelson-numerical-software:master	OPEN	2024-03-31T06:45:48Z
-147113	New version: Jackett.Jackett version 0.21.2232	Jackett:Jackett.Jackett-0.21.2232-D91C217DE8AC704848121836BA3D1F3B77AA0E41	OPEN	2024-03-31T05:59:45Z
 147112	New version: GarboMuffin.TurboWarp version 1.10.1	headquarter8302:GarboMuffin.TurboWarp-1.10.1-DC3F920429C44631A2E5DC6D287FCA5A	OPEN	2024-03-31T05:57:25Z
 147111	New version: Ferdium.Ferdium.Nightly version 6.7.3-nightly.5	Alphrag:Ferdium.Ferdium.Nightly-6.7.3-nightly.5-51f8cb45-c436-4146-ae28-799b8843a71d	OPEN	2024-03-31T05:03:06Z
 147110	Modify: Anydo.Anydo version 5.0.59	SpecterShell:Anydo.Anydo-5.0.59-8CB1FEDB	OPEN	2024-03-31T05:01:49Z
@@ -19,18 +23,11 @@
 147102	New version: Huawei.IdeaShareProject version 6.19.0.39	SpecterShell:Huawei.IdeaShareProject-6.19.0.39-2FCBBCCF	OPEN	2024-03-30T23:31:50Z
 147101	Automatic update of SiberSystems.GoodSync from 12.6.1.1 to 12.6.2.2	wingetbot:AutomaticUpdate_f4f49053-e6db-434e-ab8e-b7a8aa451742	OPEN	2024-03-30T23:29:41Z
 147100	New version: Huawei.IdeaShare version 7.02.1.08	SpecterShell:Huawei.IdeaShare-7.02.1.08-AAC94214	OPEN	2024-03-30T23:15:15Z
-147099	Automatic deletion of Yandex.Messenger 2.192.0	wingetbot:AutomaticUpdate_3301d3ed-e9fd-47e2-82e5-125f99c1bab9	OPEN	2024-03-30T23:09:28Z
-147098	Automatic deletion of CMU.CLAN 7.95.00	wingetbot:AutomaticUpdate_f874e2ac-ba8b-4089-9d28-bc2c26374298	OPEN	2024-03-30T23:07:35Z
-147097	Automatic deletion of Microsoft.PowerBI 2.127.1080.0	wingetbot:AutomaticUpdate_19a53f9b-d873-409f-99e0-ae31d8eee776	OPEN	2024-03-30T23:06:09Z
-147096	Automatic deletion of HaystackSoftwareLLC.Arq7 7.27.3.0	wingetbot:AutomaticUpdate_2a24f0be-8ffe-49b2-8eba-4867cc9b0dc6	OPEN	2024-03-30T22:51:46Z
 147095	New package: XueyunRuiChuang.JsDesignAgent version 1.1	SpecterShell:XueyunRuiChuang.JsDesignAgent-1.1-ED5BF9D3	OPEN	2024-03-30T22:49:55Z
 147094	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_9911ad75-9ad8-4349-b374-88cae988caba	OPEN	2024-03-30T22:37:02Z
 147093	Moved: XueyunRuiChuang.JsDesign version 1.0.7	SpecterShell:XueyunRuiChuang.JsDesign-1.0.7-635F4941	OPEN	2024-03-30T22:26:10Z
 147092	Update-metadata-AdrienAllard.FileConverter	licon4812:Update-metadata-AdrienAllard.FileConverter	OPEN	2024-03-30T21:28:12Z
-147091	Automatic deletion of LingitAS.Lingdys4 4.5.128.0	wingetbot:AutomaticUpdate_9641ce0d-a419-4231-ae90-ccda74a95baf	OPEN	2024-03-30T21:25:59Z
-147090	Automatic deletion of PowerSoftware.AnyBurn 6.0.0.0	wingetbot:AutomaticUpdate_191fc314-f92e-48fa-8f11-b94ca0ef1d37	OPEN	2024-03-30T20:57:18Z
 147089	Automatic update of Piriform.CCleaner.ProTrial from 6.19.0.10858 to 6.22.0.10977	wingetbot:AutomaticUpdate_5d70bc95-320f-476e-877b-62e318768ff6	OPEN	2024-03-30T20:40:27Z
-147088	Automatic deletion of Argotronic.ArgusMonitor 7.0.4.2721	wingetbot:AutomaticUpdate_0ed5e2e3-f7cf-4749-ace9-e4d5488950b4	OPEN	2024-03-30T20:15:09Z
 147087	New version: blacktop.ipswd 3.1.463	blacktop:ipswd-3.1.463	OPEN	2024-03-30T20:08:41Z
 147086	New version: blacktop.ipsw 3.1.463	blacktop:ipsw-3.1.463	OPEN	2024-03-30T20:08:35Z
 147085	Automatic update of DWANGO.NAIR.experimental from unstable to 1.1.20240321-unstable.1	wingetbot:AutomaticUpdate_457c4c1c-dd4c-4634-aa09-c8ad01603732	OPEN	2024-03-30T19:43:50Z
@@ -179,9 +176,7 @@
 146079	New version: git-cola.git-cola version 4.6.1	vikingnope:git-cola.git-cola-4.6.1-43115CFB4B52482A803AC407159C203A	OPEN	2024-03-22T22:22:31Z
 146059	New version: AirDroid.AirDroid version 3.7.2.1	vikingnope:AirDroid.AirDroid-3.7.2.1-56AF2AD4F0F342AAB8FE2C9F6C1C8C63	OPEN	2024-03-22T20:20:21Z
 146058	New version: HulubuluSoftware.AdvancedRenamer version 3.94	vikingnope:HulubuluSoftware.AdvancedRenamer-3.94-141CCCB56B084C5AA64B7AEE8160069A	OPEN	2024-03-22T20:17:51Z
-146052	New version: Tetrate.wazero version 1.7.0	TejasMate:Tetrate.wazero-1.7.0-835B283649D64005912243D043F44E52	OPEN	2024-03-22T19:23:21Z
 146048	Fixes link issue regarding sandbox test PowerShell script	vikingnope:sandbox-doc-fix	OPEN	2024-03-22T18:46:54Z
-145998	clsid2.mpc-hc version 2.1.7	vedantmgoyal9:clsid2.mpc-hc-2.1.7-030a74f8-80b0-44b4-866f-0629f6666e3b	OPEN	2024-03-22T16:28:12Z
 145918	Microsoft.Edge.Beta version 123.0.2420.53	vedantmgoyal9:Microsoft.Edge.Beta-123.0.2420.53-57c3f951-8b8b-4c6a-993b-69500738f9df	OPEN	2024-03-21T23:29:52Z
 145914	Discord.Discord version 1.0.9036	vedantmgoyal9:Discord.Discord-1.0.9036-2997df81-b728-4466-9d16-548cf00cf012	OPEN	2024-03-21T23:27:08Z
 145880	New version: JetBrains.CLion.EAP version 241.14494.154	SpecterShell:JetBrains.CLion.EAP-241.14494.154-856982039	OPEN	2024-03-21T21:09:46Z
