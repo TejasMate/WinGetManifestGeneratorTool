@@ -1,3 +1,12 @@
+147172	Remove: TechPowerUp.NVCleanstall version 1.16.0	coolplaylinbot:TechPowerUp.NVCleanstall-1.16.0-4754283FA702EAC93AFF5D23F5F6E5D6957D78DF	OPEN	2024-04-01T02:47:32Z
+147171	Remove: TechPowerUp.GPU-Z version 2.57.0	coolplaylinbot:TechPowerUp.GPU-Z-2.57.0-AE86EC7F223FF64CD213C03FB96D303A727BF45E	OPEN	2024-04-01T02:47:32Z
+147170	New version: PerfectWorld.PerfectWorldArena version 1.0.24040112	SpecterShell:PerfectWorld.PerfectWorldArena-1.0.24040112-1859070894	OPEN	2024-04-01T02:22:56Z
+147169	New version: cURL.cURL version 8.7.1.6	szhu25:cURL.cURL-8.7.1.6-808C0B5211E24D5E95A0D730D4E34706	OPEN	2024-04-01T02:21:12Z
+147168	New version: nektos.act version 0.2.61	nektos:nektos.act-0.2.61-D3344821B1A5607F91B2AE6905B2AE41BB5E6CD6	OPEN	2024-04-01T02:20:33Z
+147167	New version: 360.360SE version 15.1.2040.64	SpecterShell:360.360SE-15.1.2040.64-2029379161	OPEN	2024-04-01T02:19:53Z
+147165	New version: yt-dlp.yt-dlp.nightly version 2024.03.31.232706	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.03.31.232706-79980379	OPEN	2024-04-01T01:26:52Z
+147164	New version: electerm.electerm version 1.38.43	Exorcism0666:electerm.electerm-1.38.43-CC7AC5989D324733B85C2F38E482C3D4	OPEN	2024-04-01T01:25:26Z
+147163	New version: GnuCash.GnuCash version 5.6	Exorcism0666:GnuCash.GnuCash-5.6-07B98BC5FF314CA0BE940CF79444713E	OPEN	2024-04-01T01:25:23Z
 147162	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_d0dc78f9-cbb2-4a8a-8a28-c40e5f65ecfe	OPEN	2024-04-01T00:36:46Z
 147161	Add VRCX version 2024.03.23	babo4d:update-vrcx-20240323	OPEN	2024-03-31T23:56:22Z
 147160	New version: PerfectWorld.PerfectWorldArena version 1.0.24040111	SpecterShell:PerfectWorld.PerfectWorldArena-1.0.24040111-1332750991	OPEN	2024-03-31T23:12:59Z
