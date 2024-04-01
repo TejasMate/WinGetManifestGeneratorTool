@@ -1,7 +1,15 @@
+147162	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_d0dc78f9-cbb2-4a8a-8a28-c40e5f65ecfe	OPEN	2024-04-01T00:36:46Z
+147161	Add VRCX version 2024.03.23	babo4d:update-vrcx-20240323	OPEN	2024-03-31T23:56:22Z
+147160	New version: PerfectWorld.PerfectWorldArena version 1.0.24040111	SpecterShell:PerfectWorld.PerfectWorldArena-1.0.24040111-1332750991	OPEN	2024-03-31T23:12:59Z
+147159	New version: Abdelrhman-AK.WinPaletter version 1.0.9.0	Abdelrhman-AK:Abdelrhman-AK.WinPaletter-1.0.9.0-1a13e019-4e81-4587-bd1b-4780dee8aac9	OPEN	2024-03-31T23:03:52Z
+147158	flyingpie/windows-terminal-quake-prerelease 6	flyingpie:windows-terminal-quake-prerelease-v2006	OPEN	2024-03-31T22:43:40Z
+147157	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_ed8ce031-7a3b-4972-95c0-caffbdae7d54	OPEN	2024-03-31T22:37:21Z
+147156	New version: Amazon.AWSCLI version 2.15.34	PckgrBot:Amazon.AWSCLI-2.15.34-199d8031-ef8f-4a8f-821c-9591eae6a481	OPEN	2024-03-31T22:14:04Z
+147155	New version: aquaproj.aqua 2.25.2	suzuki-shunsuke:aqua-2.25.2	OPEN	2024-03-31T22:04:04Z
+147154	New version: gokcehan.lf version r32	gokcehan:gokcehan.lf-r32-DC73A40DDE3F471FB255AF0AEB898B2B	OPEN	2024-03-31T21:27:56Z
 147149	TopalaSoftwareSolutions.SIW version 2024.02.15.11	gtopala:TopalaSoftwareSolutions.SIW-2024.02.15.11-a395b87b-6faa-4a46-a7ad-53cc7aa8f469	OPEN	2024-03-31T20:58:13Z
 147148	New version: iZotope.ProductPortal version 1.4.8	Exorcism0666:iZotope.ProductPortal-1.4.8-DE9B6244D24A4587B3093A9FE30CF8D5	OPEN	2024-03-31T20:56:32Z
 147147	New version: PPSSPPTeam.PPSSPP version 1.17.1	Exorcism0666:PPSSPPTeam.PPSSPP-1.17.1-8EE429158AEF4E36A9540277E9E705AB	OPEN	2024-03-31T20:45:04Z
-147146	New package: Microsoft.VCRedist.2019.x64 version 14.38.33135.0	og-mrk:Microsoft.VCRedist.2019.x64-14.38.33135.0-3c6b90ca-f879-44ca-98ac-6e37ced4e848	OPEN	2024-03-31T20:26:30Z
 147145	New version: Google.Chrome.Canary version 125.0.6391.0	SpecterShell:Google.Chrome.Canary-125.0.6391.0-1082265314	OPEN	2024-03-31T20:10:10Z
 147144	New version: gokcehan.lf version r32	gokcehan:gokcehan.lf-r32-76C396520C9FC417ECBC1D1835A78BF4C44B4663	OPEN	2024-03-31T20:05:06Z
 147142	New version: twpayne.chezmoi 2.47.3	twpayne:chezmoi-2.47.3	OPEN	2024-03-31T18:49:39Z
@@ -9,7 +17,6 @@
 147139	New version: WestWind.MarkdownMonster version 3.2.9.0	kkbruce:WestWind.MarkdownMonster-3.2.9.0-257BD822	OPEN	2024-03-31T16:06:28Z
 147138	Add testmyapp.io	Gjergj:master	OPEN	2024-03-31T16:04:45Z
 147137	update fujiapple852/trippy to 0.10.0	fujiapple852:fujiapple852-trippy-0.10.0	OPEN	2024-03-31T15:12:04Z
-147136	Revert "New version: Microsoft.VCRedist.2015+.x64 version 14.40.33617.1"	collinstevens:revert-144318-Microsoft.VCRedist.2015+.x64-14.40.33617.1-970C10A432824E5DA0D7286F2186EBE5	OPEN	2024-03-31T14:47:06Z
 147135	Revert "New version: Microsoft.VCRedist.2015+.x86 version 14.40.33617.1"	collinstevens:revert-144316-Microsoft.VCRedist.2015+.x86-14.40.33617.1-ABEF9F7D1E6D415285021CF95F96AC8C	OPEN	2024-03-31T14:46:58Z
 147132	Go musicfox 4.3.3	go-musicfox:go-musicfox-4.3.3	OPEN	2024-03-31T14:27:12Z
 147131	New version: FredEmmott.OpenKneeboard version 1.8.0	openkneeboard-bot:FredEmmott.OpenKneeboard-1.8.0-37BC079023DA4382BA390BF6C7231B96	OPEN	2024-03-31T13:35:35Z
@@ -36,12 +43,10 @@
 147106	Automatic update of niconico.nair.live from latest to 1.1.20240321-1	wingetbot:AutomaticUpdate_49bc4790-7f3e-4c1a-8af7-f795a2babd6e	OPEN	2024-03-31T00:50:14Z
 147105	New package: Meta.Oculus version 1.86.0.0	SpecterShell:Meta.Oculus-1.86.0.0-9367FC49	OPEN	2024-03-31T00:45:45Z
 147104	Automatic update of spacedrive.Spacedrive from 0.2.8 to 0.2.10	wingetbot:AutomaticUpdate_73cc912f-cf5f-4dcb-970f-0ebc045e41eb	OPEN	2024-03-31T00:37:44Z
-147103	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_5ca436a6-d101-4013-a16c-3b663bea070d	OPEN	2024-03-31T00:37:44Z
 147102	New version: Huawei.IdeaShareProject version 6.19.0.39	SpecterShell:Huawei.IdeaShareProject-6.19.0.39-2FCBBCCF	OPEN	2024-03-30T23:31:50Z
 147101	Automatic update of SiberSystems.GoodSync from 12.6.1.1 to 12.6.2.2	wingetbot:AutomaticUpdate_f4f49053-e6db-434e-ab8e-b7a8aa451742	OPEN	2024-03-30T23:29:41Z
 147100	New version: Huawei.IdeaShare version 7.02.1.08	SpecterShell:Huawei.IdeaShare-7.02.1.08-AAC94214	OPEN	2024-03-30T23:15:15Z
 147095	New package: XueyunRuiChuang.JsDesignAgent version 1.1	SpecterShell:XueyunRuiChuang.JsDesignAgent-1.1-ED5BF9D3	OPEN	2024-03-30T22:49:55Z
-147094	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_9911ad75-9ad8-4349-b374-88cae988caba	OPEN	2024-03-30T22:37:02Z
 147093	Moved: XueyunRuiChuang.JsDesign version 1.0.7	SpecterShell:XueyunRuiChuang.JsDesign-1.0.7-635F4941	OPEN	2024-03-30T22:26:10Z
 147092	Update-metadata-AdrienAllard.FileConverter	licon4812:Update-metadata-AdrienAllard.FileConverter	OPEN	2024-03-30T21:28:12Z
 147089	Automatic update of Piriform.CCleaner.ProTrial from 6.19.0.10858 to 6.22.0.10977	wingetbot:AutomaticUpdate_5d70bc95-320f-476e-877b-62e318768ff6	OPEN	2024-03-30T20:40:27Z
@@ -65,7 +70,7 @@
 147068	MiTeC.IconExplorer version 5.3.0	Lachine1:MiTeC.IconExplorer-5.3.0-21c1caa9-59db-4679-9353-36c6548daca1	OPEN	2024-03-30T14:35:25Z
 147067	MiTeC.SystemInformationX version 1	Lachine1:MiTeC.SystemInformationX-1-55569b97-097d-42df-9c47-ce32e5194f1a	OPEN	2024-03-30T14:24:15Z
 147066	MiTeC.WindowsFileAnalyzer version 2.10.0	Lachine1:MiTeC.WindowsFileAnalyzer-2.10.0-fe308be0-823b-4cee-98a5-14f5e03cfa69	OPEN	2024-03-30T14:23:32Z
-147065	New Version: SoftFever.OrcaSlicer version 2.0.0	og-mrk:new-manifest-version/SoftFever.OrcaSlicer-version2.0.0	DRAFT	2024-03-30T14:04:44Z
+147065	New Version: SoftFever.OrcaSlicer version 2.0.0	og-mrk:new-manifest-version/SoftFever.OrcaSlicer-version2.0.0	OPEN	2024-03-30T14:04:44Z
 147064	Remove Version: IObit.DriverBooster version 11.2.0	TommyE123:RemoveDriverBooster11.2	OPEN	2024-03-30T13:49:29Z
 147063	FrankBijnen.ExifToolGUI version 6.3.0	Lachine1:FrankBijnen.ExifToolGUI-6.3.0-0737e959-740e-4125-97ad-a829574359d8	OPEN	2024-03-30T13:31:49Z
 147060	New Package: ntwind.AltTabTer version 6.4	og-mrk:new-manifest/ntwind.AltTabTer-version6.4	OPEN	2024-03-30T13:06:32Z
@@ -469,7 +474,6 @@
 111879	New package: Nox.NoxPlayer version 7.0.5.8	SpecterShell:Nox.NoxPlayer-7.0.5.8-Newpackage	OPEN	2023-07-12T01:22:07Z
 111867	Apple.FaceTimeCameraUpdate version 1.0	upintheairsheep:autogenerated/Apple.FaceTimeCamerUpdate/bdc6b68f-5108-4459-a680-dca5cac9169f	OPEN	2023-07-11T22:24:48Z
 111864	Apple.BcUpdate version 1.1	upintheairsheep:autogenerated/Apple.BcUpdate/17e9f502-7199-4799-82d7-f529e66bab4c	OPEN	2023-07-11T22:18:08Z
-111530	New package: WinsiderSS.SystemInformer version 3.0.11299.6772	CoolPlayLin:WinsiderSS.SystemInformer-3.0.11299.6772-ec2e7c97-8617-4f6d-93a2-9bd1feeb4e0a	OPEN	2023-07-07T01:02:42Z
 110767	New package: PlantUML.PlantUML version v1.2023.9	seppeon:NewPackage-SupportPlantUml	OPEN	2023-06-27T14:03:32Z
 110618	New package: Nvidia.GeForceGameReadyDriver	WinkelCode:master	DRAFT	2023-06-24T22:23:30Z
 110299	mercedesclk320.SamsungRemote version 1.0	upintheairsheep:autogenerated/mercedesclk320.SamsungRemote/4b5c0f15-a2a8-4bf5-82ad-ae10f59d0184	OPEN	2023-06-20T22:35:20Z
