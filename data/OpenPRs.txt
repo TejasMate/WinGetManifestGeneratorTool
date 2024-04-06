@@ -1,3 +1,16 @@
+148037	Automatic update of FireAlpaca.FireAlpaca from 2.11.17.0 to 2.11.18.0	wingetbot:AutomaticUpdate_a9f94523-aab1-4161-9c94-b3931b5f9686	OPEN	2024-04-06T21:05:08Z
+148036	New version: SQLite.SQLite version 3.45.2	Dvd-Znf:master	OPEN	2024-04-06T20:55:19Z
+148035	Update version: LedgerHQ.LedgerLive version 2.75.0	RalfEs73:LedgerHQ.LedgerLive-2.75.0-b0fd8e4d-b6f1-45c6-bcad-5e67eb6f41f1	OPEN	2024-04-06T20:23:14Z
+148034	New version: Tyrrrz.LightBulb version 2.4.8	Exorcism0666:Tyrrrz.LightBulb-2.4.8-2072732814	OPEN	2024-04-06T20:21:25Z
+148033	Automatic deletion of Argotronic.ArgusMonitor 7.0.6.2740	wingetbot:AutomaticUpdate_43e16ff0-a079-4656-a1af-bea81069a6cc	OPEN	2024-04-06T20:16:30Z
+148032	New version: Google.Chrome.Canary version 125.0.6403.0	SpecterShell:Google.Chrome.Canary-125.0.6403.0-1602616841	OPEN	2024-04-06T20:10:05Z
+148031	Automatic update of AnalogDevices.LTspice from 24.0.9.0 to 24.0.11.0	wingetbot:AutomaticUpdate_0f03d5ef-0f47-4667-94d8-60046ec1bfe0	OPEN	2024-04-06T19:53:09Z
+148030	New package: PiotrMachowski.HomeAssistantTaskbarMenu version 1.3.0.0	RalfEs73:PiotrMachowski.HomeAssistantTaskbarMenu-1.3.0.0-9b2fd3c3-d459-4d8f-bdb8-e2de66dc25b4	OPEN	2024-04-06T19:38:36Z
+148029	VRCX 2024.03.23: Add metadata	babo4d:update-vrcx-metadata	OPEN	2024-04-06T19:32:38Z
+148028	New package: Aurelitec.Thumbico version 1.5.0.25	RalfEs73:Aurelitec.Thumbico-1.5.0.25-7ff585f1-1257-4ca3-ba53-aadc28a88dc8	OPEN	2024-04-06T19:31:43Z
+148027	Automatic update of AdGuard.AdGuardVPN.Nightly from 2.3.1364.0 to 2.3.1373.0	wingetbot:AutomaticUpdate_48a21f40-924e-4cd5-814a-fbd00422345c	OPEN	2024-04-06T19:09:03Z
+148026	Automatic deletion of AdGuard.AdGuard.Beta 7.17.4657.0	wingetbot:AutomaticUpdate_d1de6ccf-a29d-47ef-b359-3d4ea7bf69a9	OPEN	2024-04-06T19:05:09Z
+148025	New version: Ryujinx.Ryujinx version 1.1.1262	Exorcism0666:Ryujinx.Ryujinx-1.1.1262-1619212911	OPEN	2024-04-06T18:23:46Z
 148024	New version: CologneCodeCompany.XYplorerPortable version 25.80.0200	The-Running-Dev:CologneCodeCompany.XYplorerPortable-25.80.0200-D154565F	OPEN	2024-04-06T17:43:09Z
 148023	New version: Ryujinx.Ryujinx.Ava version 1.1.1261	Exorcism0666:Ryujinx.Ryujinx.Ava-1.1.1261-1467999988	OPEN	2024-04-06T17:19:56Z
 148022	Solidigm.StorageTool version 1.12	BigThunderSR:Solidigm.StorageTool-1.12-c06d0358-afc2-4adb-ba7a-73865bf42b97	OPEN	2024-04-06T17:16:04Z
@@ -34,7 +47,6 @@
 147986	New version: 8x8.Work version 8.11.3 (8.11.3.2)	SpecterShell:8x8.Work-8.11.3-1996296964	OPEN	2024-04-06T02:27:22Z
 147985	New version: Coder.Coder version 2.9.2	mdanish-kh:Coder.Coder-2.9.2-84006045-2bb0-43e3-abbc-820673a3aeef	OPEN	2024-04-06T02:22:41Z
 147984	New version: HomeBank.HomeBank version 5.7.4	Dragon1573:issues/147920	OPEN	2024-04-06T02:18:27Z
-147983	New version: Oven-sh.Bun version 1.1.2	mdanish-kh:Oven-sh.Bun-1.1.2-e441de95-786d-435c-a8ad-c718d7684718	OPEN	2024-04-06T02:17:38Z
 147982	New version: Oven-sh.Bun.Baseline version 1.1.2	mdanish-kh:Oven-sh.Bun.Baseline-1.1.2-8c50295f-9023-43d1-8ea6-6a42e5dd9fd1	OPEN	2024-04-06T02:16:09Z
 147981	Modify: Huawei.QuickAppIde version 14.0.1	SpecterShell:Huawei.QuickAppIde-14.0.1-Modify	OPEN	2024-04-06T01:26:36Z
 147980	SmartSoft.SmartFTP version 10.0.3213.0	vedantmgoyal9:SmartSoft.SmartFTP-10.0.3213.0-93136a8d-b415-4861-ba98-00b8dd4fe5c9	OPEN	2024-04-06T01:24:40Z
@@ -111,9 +123,6 @@
 147050	JackieLiu.NotepadsApp version 1.5.4.0	vedantmgoyal9:JackieLiu.NotepadsApp-1.5.4.0-ce6fe551-5191-434e-b4f3-2a327d2bb321	OPEN	2024-03-30T11:21:38Z
 147026	New version: SonicVisualiser.SonicVisualiser version 4.5.2	vyryls:SonicVisualiser.SonicVisualiser-4.5.2-158E67E6E27342FBB0AFD466321E9DAF	OPEN	2024-03-30T01:30:12Z
 147010	Min.Min version 1.31.2	vedantmgoyal9:Min.Min-1.31.2-8feb6d7c-2a18-49b1-b4c6-030646109a51	OPEN	2024-03-29T23:24:12Z
-146969	KurtZimmermann.RegCool version 1.361	Info445:KurtZimmermann.RegCool-1.361-5810d5fe-b3ed-4a1f-933e-f99759599ca7	OPEN	2024-03-29T18:40:25Z
-146968	KurtZimmermann.TweakPower version 2.052	Info445:KurtZimmermann.TweakPower-2.052-bab4ce50-11c6-4676-945e-f83ad5dedef3	OPEN	2024-03-29T18:39:03Z
-146967	KurtZimmermann.HDCleaner version 2.067	Info445:KurtZimmermann.HDCleaner-2.067-ffc91196-64dd-4f05-8ec5-8f1934b5c17b	OPEN	2024-03-29T18:23:09Z
 146956	New package: cjmurph.PlexService version 1.2.3	Exorcism0666:cjmurph.PlexService-1.2.3-49594e52-2bd9-4fd7-8b11-4d2c2f52b944	OPEN	2024-03-29T17:00:37Z
 146917	New version: Unity.Unity.2023 version 2023.2.16f1	SpecterShell:Unity.Unity.2023-2023.2.16f1-1059466242	OPEN	2024-03-29T07:15:46Z
 146910	New version: h3poteto.fedistar version 1.9.1	TejasMate:h3poteto.fedistar-1.9.1-C279B87B43994EDD8CD97C0F263E0AC0	OPEN	2024-03-29T06:01:05Z
