@@ -1,3 +1,11 @@
+148024	New version: CologneCodeCompany.XYplorerPortable version 25.80.0200	The-Running-Dev:CologneCodeCompany.XYplorerPortable-25.80.0200-D154565F	OPEN	2024-04-06T17:43:09Z
+148023	New version: Ryujinx.Ryujinx.Ava version 1.1.1261	Exorcism0666:Ryujinx.Ryujinx.Ava-1.1.1261-1467999988	OPEN	2024-04-06T17:19:56Z
+148022	Solidigm.StorageTool version 1.12	BigThunderSR:Solidigm.StorageTool-1.12-c06d0358-afc2-4adb-ba7a-73865bf42b97	OPEN	2024-04-06T17:16:04Z
+148021	New version: blacktop.ipswd 3.1.467	blacktop:ipswd-3.1.467	OPEN	2024-04-06T17:01:24Z
+148020	New version: blacktop.ipsw 3.1.467	blacktop:ipsw-3.1.467	OPEN	2024-04-06T17:01:18Z
+148019	IsWiX.IsWiX version 5.0.51.0	vedantmgoyal9:IsWiX.IsWiX-5.0.51.0-b7384ad9-a80f-42ee-9afb-400c6ebe9966	OPEN	2024-04-06T16:31:06Z
+148018	HeroicGamesLauncher.HeroicGamesLauncher version 2.14.1	vedantmgoyal9:HeroicGamesLauncher.HeroicGamesLauncher-2.14.1-49dceb6e-42f8-47ed-9ace-5eeeadf9d14a	OPEN	2024-04-06T16:30:42Z
+148016	New version: YouXiao.YXCalendar version 2.4.4.6	SpecterShell:YouXiao.YXCalendar-2.4.4.6-1039288273	OPEN	2024-04-06T16:12:06Z
 148015	New version: gjergj.testmyapp 0.0.33	Gjergj:testmyapp-v0.0.33	OPEN	2024-04-06T14:57:51Z
 148014	New version: TheBrowserCompany.Arc version 0.16.2.20369	Exorcism0666:TheBrowserCompany.Arc-0.16.2.20369-3443de94-7717-455d-810a-3381ff002e5b	OPEN	2024-04-06T14:52:23Z
 148013	New Version: Samsung.SamsungMagician version 8.1.0	og-mrk:new-manifest-version/Samsung.SamsungMagician-version8.1.0	OPEN	2024-04-06T14:09:12Z
