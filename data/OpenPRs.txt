@@ -1,3 +1,5 @@
+147996	New version: Kaedei.Dandanplay version 15.3.1	SpecterShell:Kaedei.Dandanplay-15.3.1-1889317765	OPEN	2024-04-06T09:11:02Z
+147995	New version: FelipeSantos.ClipboardSync version 0.11.2	TejasMate:FelipeSantos.ClipboardSync-0.11.2-80F88090BB4748DAA37E18E5958188B6	OPEN	2024-04-06T08:54:32Z
 147994	New version: Wasmer.Wasmer version 4.2.8	SpecterShell:Wasmer.Wasmer-4.2.8-1823135710	OPEN	2024-04-06T08:11:24Z
 147993	New version: Jackett.Jackett version 0.21.2296	Jackett:Jackett.Jackett-0.21.2296-92B5174243388D451EE5ED3E3B5ACB44984DBCFC	OPEN	2024-04-06T06:03:40Z
 147992	New package: Oven-sh.Bun.BaselineProfile version 1.1.0	CoolPlayLin:Oven-sh.Bun.BaselineProfile-1.1.0-A4BD596ADB3A49DF8B7A1EF007683E18	OPEN	2024-04-06T05:08:28Z
