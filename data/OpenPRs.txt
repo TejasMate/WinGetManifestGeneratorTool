@@ -1,3 +1,14 @@
+148107	New version: gjergj.testmyapp 0.0.36	Gjergj:testmyapp-v0.0.36	DRAFT	2024-04-07T21:13:48Z
+148106	New version: Posit.rig version 0.7.0	gaborcsardi:Posit.rig-0.7.0-6FB5C865747546B6850A9F9D89C3ACD3	OPEN	2024-04-07T21:09:37Z
+148105	New version: LGUG2Z.komokana version 0.1.3	LGUG2Z:LGUG2Z.komokana-0.1.3-A01431D93E51E3F6B05C90B54E72A9AFFE6323E1	OPEN	2024-04-07T21:01:59Z
+148104	New version: LGUG2Z.komorebi version 0.1.23	LGUG2Z:LGUG2Z.komorebi-0.1.23-604FFD881DBBF0BF0C7286656AF06E081823B5F2	OPEN	2024-04-07T20:51:00Z
+148103	New version: Ryujinx.Ryujinx.Ava version 1.1.1263	Exorcism0666:Ryujinx.Ryujinx.Ava-1.1.1263-1426735618	OPEN	2024-04-07T20:20:01Z
+148102	New version: Ryujinx.Ryujinx version 1.1.1263	Exorcism0666:Ryujinx.Ryujinx-1.1.1263-400332973	OPEN	2024-04-07T20:20:01Z
+148101	New Version: Telegram.TelegramDesktop version 4.16.4	og-mrk:new-manifest-version/Telegram.TelegramDesktop-version4.16.4	OPEN	2024-04-07T20:13:17Z
+148100	Automatic update of Jidifudi.GT4T from 8.43.240325 to 8.43.240407	wingetbot:AutomaticUpdate_8aa2b93f-7ca9-41fc-a22f-9435b92272fe	OPEN	2024-04-07T20:06:23Z
+148099	New version: IPEP.Scantailor-Experimental version 0.2024.04.06	plzombie:master	OPEN	2024-04-07T19:31:00Z
+148098	Remove version: WHTA.Tamara 2024.0.0.0	lars-whta:master	OPEN	2024-04-07T19:17:38Z
+148097	New version: Google.Chrome.Canary version 125.0.6405.0	SpecterShell:Google.Chrome.Canary-125.0.6405.0-1863552270	OPEN	2024-04-07T19:10:08Z
 148096	Tyrrrz.LightBulb version 2.4.9	vedantmgoyal9:Tyrrrz.LightBulb-2.4.9-81153be3-e666-487e-bb7b-bd56607729ff	OPEN	2024-04-07T16:28:32Z
 148095	Min.Min version 1.31.2	vedantmgoyal9:Min.Min-1.31.2-8f516053-3a68-4b97-844f-caa4cee2fb3b	OPEN	2024-04-07T16:28:07Z
 148094	Cybelsoft.DriversCloud version 12.0.23	vedantmgoyal9:Cybelsoft.DriversCloud-12.0.23-847a0bdd-4116-46b4-9bc5-a0bdffd7f011	OPEN	2024-04-07T16:27:46Z
@@ -108,7 +119,6 @@
 147973	Automatic update of spacedrive.Spacedrive from 0.2.10 to 0.2.11	wingetbot:AutomaticUpdate_bed4676c-5641-4a47-aa9d-b242b87a2ffd	OPEN	2024-04-06T00:46:56Z
 147967	New version: vim.vim.nightly version 9.1.0271	vim:vim.vim.nightly-9.1.0271-CFDB7F9CB462EE476EFC4F62D29C1D9CA476D1FA	OPEN	2024-04-05T23:33:33Z
 147964	Amazon.AWSCLI version 2.15.36	vedantmgoyal9:Amazon.AWSCLI-2.15.36-c65cde18-bcab-4080-af46-e02256304948	OPEN	2024-04-05T23:31:31Z
-147951	New version: 8x8.Work version 8.11.3.2	PckgrBot:8x8.Work-8.11.3.2-D62893D94AE24739B5321521F971ABE7	OPEN	2024-04-05T21:56:46Z
 147944	Automatic update of Tonec.InternetDownloadManager from 6.42.5 to 6.42.7.1	wingetbot:AutomaticUpdate_55d31b0e-80d3-43cf-ab63-ac836dc414f8	OPEN	2024-04-05T21:06:32Z
 147941	Automatic deletion of evernote.evernote 10.83.4.20240404123109	wingetbot:AutomaticUpdate_3703173f-a30a-47e9-b3d3-54749fced706	OPEN	2024-04-05T20:56:39Z
 147929	New version: Ryujinx.Ryujinx version 1.1.1254	Exorcism0666:Ryujinx.Ryujinx-1.1.1254-1109415892	OPEN	2024-04-05T19:18:00Z
