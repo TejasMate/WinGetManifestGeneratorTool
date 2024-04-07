@@ -1,7 +1,11 @@
+148096	Tyrrrz.LightBulb version 2.4.9	vedantmgoyal9:Tyrrrz.LightBulb-2.4.9-81153be3-e666-487e-bb7b-bd56607729ff	OPEN	2024-04-07T16:28:32Z
+148095	Min.Min version 1.31.2	vedantmgoyal9:Min.Min-1.31.2-8f516053-3a68-4b97-844f-caa4cee2fb3b	OPEN	2024-04-07T16:28:07Z
+148094	Cybelsoft.DriversCloud version 12.0.23	vedantmgoyal9:Cybelsoft.DriversCloud-12.0.23-847a0bdd-4116-46b4-9bc5-a0bdffd7f011	OPEN	2024-04-07T16:27:46Z
+148093	altair-graphql.altair version 6.4.1	vedantmgoyal9:altair-graphql.altair-6.4.1-79b3688b-7bef-4f20-bc8d-b61f8b69abe6	OPEN	2024-04-07T16:27:32Z
+148092	New version: Tyrrrz.LightBulb version 2.4.9	Exorcism0666:Tyrrrz.LightBulb-2.4.9-1849817756	OPEN	2024-04-07T15:21:08Z
 148091	New version: XmacsLabs.Mogan version 1.2.5.2	SpecterShell:XmacsLabs.Mogan-1.2.5.2-685482336	OPEN	2024-04-07T15:11:14Z
 148090	New version: CologneCodeCompany.XYplorerPortable version 25.80.0200	The-Running-Dev:CologneCodeCompany.XYplorerPortable-25.80.0200-3FC8A61B	OPEN	2024-04-07T15:02:01Z
 148089	New version: alexx2000.DoubleCommander version 1.1.12	doublecmd:alexx2000.DoubleCommander-1.1.12-7050C504B546E6CBD5B439062754F0A05E92E4A5	OPEN	2024-04-07T15:00:22Z
-148088	New version: AntoineAflalo.SoundSwitch version 6.10.2	Belphemur:AntoineAflalo.SoundSwitch-6.10.2-3CEEF522A0D549912BE021338254EFD1A4867EBA	OPEN	2024-04-07T14:17:48Z
 148087	New version: gjergj.testmyapp 0.0.34	Gjergj:testmyapp-v0.0.34	DRAFT	2024-04-07T13:44:38Z
 148086	New version: TableClothProject.TableCloth version 1.13.0	rkttu:TableClothProject.TableCloth-1.13.0-5ab0002c-3682-4f6e-a10d-010b75e6bff8	OPEN	2024-04-07T12:28:13Z
 148085	Wetransform.HaleStudio version 5.1.0	vedantmgoyal9:Wetransform.HaleStudio-5.1.0-d9563fbf-f681-42d4-bedb-3c2df8dc7709	OPEN	2024-04-07T11:23:50Z
@@ -17,7 +21,6 @@
 148074	New version: Google.Chrome.Canary version 125.0.6404.0	SpecterShell:Google.Chrome.Canary-125.0.6404.0-1158513561	OPEN	2024-04-07T08:12:13Z
 148073	New version: ByteDance.Lark version 7.14.5	SpecterShell:ByteDance.Lark-7.14.5-1143982288	OPEN	2024-04-07T08:11:24Z
 148072	New version: lin-ycv.EverythingPowerToys version 0.80.0	lin-ycv:lin-ycv.EverythingPowerToys-0.80.0-1b8b6240-7422-4fbf-a2cb-4c8e73a36ea1	OPEN	2024-04-07T07:46:34Z
-148071	New version: Jackett.Jackett version 0.21.2313	Jackett:Jackett.Jackett-0.21.2313-0357501BB9B77A3EFD55046E6406A925305F58F1	OPEN	2024-04-07T06:06:04Z
 148070	New version: Spicetify.Spicetify version 2.36.3	spicetify:Spicetify.Spicetify-2.36.3-285097518EEAFF6E0686314882ED891BFF10512A	OPEN	2024-04-07T05:11:58Z
 148069	New version: MPC-BE.MPC-BE version 1.7.0	SpecterShell:MPC-BE.MPC-BE-1.7.0-1519645884	OPEN	2024-04-07T05:11:15Z
 148068	Cemu.Cemu.Experimental version 2.0-75	kpd328:Cemu.Cemu.Experimental-2.0-75-075e1190-8d8d-4e3f-b80d-0d329ff0b135	OPEN	2024-04-07T04:46:35Z
