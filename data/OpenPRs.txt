@@ -1,3 +1,8 @@
+148071	New version: Jackett.Jackett version 0.21.2313	Jackett:Jackett.Jackett-0.21.2313-0357501BB9B77A3EFD55046E6406A925305F58F1	OPEN	2024-04-07T06:06:04Z
+148070	New version: Spicetify.Spicetify version 2.36.3	spicetify:Spicetify.Spicetify-2.36.3-285097518EEAFF6E0686314882ED891BFF10512A	OPEN	2024-04-07T05:11:58Z
+148069	New version: MPC-BE.MPC-BE version 1.7.0	SpecterShell:MPC-BE.MPC-BE-1.7.0-1519645884	OPEN	2024-04-07T05:11:15Z
+148068	Cemu.Cemu.Experimental version 2.0-75	kpd328:Cemu.Cemu.Experimental-2.0-75-075e1190-8d8d-4e3f-b80d-0d329ff0b135	OPEN	2024-04-07T04:46:35Z
+148067	New version: LizardByte.Sunshine version 0.23.0	LizardByte:LizardByte.Sunshine-0.23.0-B23CEE56968D6A6EE1F7E24C5CB08C8E1B390837	OPEN	2024-04-07T03:45:26Z
 148066	New version: Muye.FlickerList version 5.3.1	SpecterShell:Muye.FlickerList-5.3.1-1337490564	OPEN	2024-04-07T03:14:57Z
 148065	New version: Plex.PlexMediaServer version 1.40.1.8227	josemikkola:Plex.PlexMediaServer-1.40.1.8227-7B31C213467A493B93D201C4A722DB36	OPEN	2024-04-07T02:59:36Z
 148064	New package: Sailcut.SailcutCAD version 1.3.902	Dragon1573:issues/148007	OPEN	2024-04-07T02:43:16Z
