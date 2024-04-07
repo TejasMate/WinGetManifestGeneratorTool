@@ -1,3 +1,10 @@
+148085	Wetransform.HaleStudio version 5.1.0	vedantmgoyal9:Wetransform.HaleStudio-5.1.0-d9563fbf-f681-42d4-bedb-3c2df8dc7709	OPEN	2024-04-07T11:23:50Z
+148084	PurpleI2P.i2pd version 2.51.0	vedantmgoyal9:PurpleI2P.i2pd-2.51.0-e344b9e7-80ab-40c1-87e1-ca9337707372	OPEN	2024-04-07T11:23:14Z
+148082	ByteDance.Lark version 7.14.5	vedantmgoyal9:ByteDance.Lark-7.14.5-8ba186dc-9a1f-42a7-80c8-f643faf66cad	OPEN	2024-04-07T11:22:44Z
+148081	Regressi.Regressi version 4.8.13	TomRicci:regressi-4-8-13	OPEN	2024-04-07T10:53:07Z
+148080	New version: Wondershare.MobileTrans version 4.5.9	SpecterShell:Wondershare.MobileTrans-4.5.9-1528110721	OPEN	2024-04-07T10:12:17Z
+148079	New version: Anydo.Anydo version 5.0.68	SpecterShell:Anydo.Anydo-5.0.68-974978733	OPEN	2024-04-07T10:08:26Z
+148078	New package: NickGasson.NVC version 1.12.0001	nickg:NickGasson.NVC-1.12.0001-e39cb5c0-f5aa-4aca-bf3c-5a87421a35ad	OPEN	2024-04-07T09:57:54Z
 148077	New version: Tonec.InternetDownloadManager version 6.42.7 (642build7)	SpecterShell:Tonec.InternetDownloadManager-6.42.7-1812734538	OPEN	2024-04-07T08:57:45Z
 148076	New version: danstis.rmstale version 1.15.0	danstis:danstis.rmstale-1.15.0-5e681959-5200-4e9e-ada6-fb93afd631a6	OPEN	2024-04-07T08:44:03Z
 148075	New version: ByteDance.CapCut version 3.7.0.1358	SpecterShell:ByteDance.CapCut-3.7.0.1358-573869136	OPEN	2024-04-07T08:12:29Z
@@ -158,8 +165,6 @@
 147053	LibreWolf.LibreWolf version 124.0.1-1	Lachine1:LibreWolf.LibreWolf-124.0.1-1-f132fe9e-7320-454e-9e08-3bdf6c03a5d5	OPEN	2024-03-30T11:38:15Z
 147051	tibbo.ioninja version 5.5.1	vedantmgoyal9:tibbo.ioninja-5.5.1-f5331892-1a06-48b6-b640-a72e02574e55	OPEN	2024-03-30T11:22:15Z
 147050	JackieLiu.NotepadsApp version 1.5.4.0	vedantmgoyal9:JackieLiu.NotepadsApp-1.5.4.0-ce6fe551-5191-434e-b4f3-2a327d2bb321	OPEN	2024-03-30T11:21:38Z
-147026	New version: SonicVisualiser.SonicVisualiser version 4.5.2	vyryls:SonicVisualiser.SonicVisualiser-4.5.2-158E67E6E27342FBB0AFD466321E9DAF	OPEN	2024-03-30T01:30:12Z
-147010	Min.Min version 1.31.2	vedantmgoyal9:Min.Min-1.31.2-8feb6d7c-2a18-49b1-b4c6-030646109a51	OPEN	2024-03-29T23:24:12Z
 146956	New package: cjmurph.PlexService version 1.2.3	Exorcism0666:cjmurph.PlexService-1.2.3-49594e52-2bd9-4fd7-8b11-4d2c2f52b944	OPEN	2024-03-29T17:00:37Z
 146917	New version: Unity.Unity.2023 version 2023.2.16f1	SpecterShell:Unity.Unity.2023-2023.2.16f1-1059466242	OPEN	2024-03-29T07:15:46Z
 146910	New version: h3poteto.fedistar version 1.9.1	TejasMate:h3poteto.fedistar-1.9.1-C279B87B43994EDD8CD97C0F263E0AC0	OPEN	2024-03-29T06:01:05Z
@@ -207,9 +212,6 @@
 145025	Remove: Julialang.Julia version 1.4.2	SpecterShell:Julialang.Julia-1.4.2-Remove	DRAFT	2024-03-18T05:42:06Z
 145024	Remove: Julialang.Julia version 1.4.1	SpecterShell:Julialang.Julia-1.4.1-Remove	DRAFT	2024-03-18T05:41:57Z
 145023	Remove: Julialang.Julia version 1.10.0	SpecterShell:Julialang.Julia-1.10.0-Remove	DRAFT	2024-03-18T05:41:48Z
-145017	Prey.Prey version 1.12.3	vedantmgoyal9:Prey.Prey-1.12.3-a90f6e6f-3f0f-4c3a-be3e-748e7fbfc3d6	OPEN	2024-03-18T05:25:22Z
-144959	New version: Bostrot.WSLManager version 1.8.11.0	Exorcism0666:Bostrot.WSLManager-1.8.11.0-02D3965D	OPEN	2024-03-17T14:14:04Z
-144934	EpicGames.EpicGamesLauncher version 1.3.93.0: Remove InstallerLocale	StarsbySea:epic-1.3.93.0-remove-InstallerLocale	OPEN	2024-03-17T05:31:56Z
 144902	Kingsoft.KingsoftPDF 12.6.0.15502	stevenlele:wpspdf-15502	OPEN	2024-03-16T19:35:13Z
 144861	Add version: OpenJS.NodeJS.LTS version 6.12.2	coolplaylinbot:OpenJS.NodeJS.LTS-6.12.2-4D8B77085F734302BC4B6E319FC41870	OPEN	2024-03-16T06:18:33Z
 144855	Add version: OpenJS.NodeJS.LTS version 4.2.0	coolplaylinbot:OpenJS.NodeJS.LTS-4.2.0-C557841D9E8440CB9C1F308982BF6EBA	OPEN	2024-03-16T04:26:41Z
@@ -357,7 +359,6 @@
 142008	New version: OpslyCloud.opsly-cli version v0.0.1-alpha.18	Opsly:release-v0.0.1-alpha.18	OPEN	2024-03-04T09:08:11Z
 141815	New package: Microsoft.XboxApp version 1.0.1.30	rakleed:Microsoft.XboxApp-1.0.1.30-5c7b2f13-9e3c-4004-9c55-5a7c02702309	OPEN	2024-03-02T23:48:35Z
 141787	New package: NVIDIACorporation.NVIDIAapp version 1.0.14.0	Barradel:NVIDIACorporation.NVIDIAapp-1.0.14.0-8d56a3e1-6c5c-4083-ac50-56a0edd80fa6	OPEN	2024-03-02T17:02:10Z
-141769	New package: Geeks3D.FurMark2 version 2.1.0.2	Exorcism0666:Geeks3D.FurMark2-2.1.0.2-0EA24643	OPEN	2024-03-02T14:13:30Z
 141648	Automatic update of Getscreenme.Agent from 2.15.8 to 2.18.1	wingetbot:AutomaticUpdate_f9e15711-8cff-4f9b-b7d6-8e18a1470bd4	OPEN	2024-03-01T21:47:53Z
 141643	Automatic update of Getscreenme.Agent from 2.15.7 to 2.18.1	wingetbot:AutomaticUpdate_af8c7c43-8922-4a82-965a-fd0699dd89d0	OPEN	2024-03-01T21:37:55Z
 141520	New Package: Soundux.Soundux version 0.2.7	og-mrk:update-manifest/Soundux.Soundux	DRAFT	2024-02-29T21:00:07Z
