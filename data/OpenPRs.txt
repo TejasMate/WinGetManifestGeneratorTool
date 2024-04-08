@@ -1,208 +1,54 @@
-148194	Add MongoDB.Compass.Full 1.42.5.0	rodrigoborgesdeoliveira:compass/full/1.42.5	DRAFT	2024-04-08T15:02:03Z
-148193	New version: ErikAraojo.FintX version 2.1.0	namigop:ErikAraojo.FintX-2.1.0-65a0741a-32cf-41b2-98c3-79db0c3f9c03	OPEN	2024-04-08T15:00:05Z
+148208	New version: RemNote.RemNote version 1.15.11	SpecterShell:RemNote.RemNote-1.15.11-1570767747	OPEN	2024-04-08T18:13:49Z
+148207	New version: Oven-sh.Bun.Baseline version 1.1.3	mdanish-kh:Oven-sh.Bun.Baseline-1.1.3-9d87a31f-ad63-4176-a2d1-d15954a6a267	OPEN	2024-04-08T17:36:14Z
+148206	New version: Oven-sh.Bun version 1.1.3	mdanish-kh:Oven-sh.Bun-1.1.3-ac5a43c7-cd0f-49d1-bfa3-becd9e548f6a	OPEN	2024-04-08T17:34:10Z
+148205	New version: UnknownSKL.Greenlight version 2.2.1	GhoulBoii:UnknownSKL.Greenlight-2.2.1-26F5F9D15C5D4FDE8C203D2C610F153D	OPEN	2024-04-08T16:57:55Z
+148204	New version: UnknownSKL.Greenlight version 2.2.0	GhoulBoii:UnknownSKL.Greenlight-2.2.0-59F34ECBD08A4A3A95BA358C03DDD682	OPEN	2024-04-08T16:56:44Z
+148203	New version: chrisant996.Clink version 1.6.11	chrisant996:chrisant996.Clink-1.6.11-36344b24-59ef-4fad-948a-09afc1744468	OPEN	2024-04-08T16:42:48Z
+148202	WeMod.WeMod.Beta version 8.17.0-beta00	vedantmgoyal9:WeMod.WeMod.Beta-8.17.0-beta00-133369b3-3fdb-4fc2-8d25-71dd141bb300	OPEN	2024-04-08T16:33:50Z
+148201	New version: JetBrains.FleetLauncher.Preview version 1.33.88	SpecterShell:JetBrains.FleetLauncher.Preview-1.33.88-916262398	OPEN	2024-04-08T16:11:50Z
 148192	New version: Suwayomi.Tachidesk-JUI version 1.3.3	TejasMate:Suwayomi.Tachidesk-JUI-1.3.3-F913D8DCFA6D432ABA86F1D0CD244E61	OPEN	2024-04-08T14:41:20Z
-148191	ttu-base-suite-2000 20.00.10.00	tdclienttools:base-20.00.10.00	OPEN	2024-04-08T14:41:10Z
-148190	New version: FutureScholars.Paperlib version 3.0.9	SpecterShell:FutureScholars.Paperlib-3.0.9-2056907577	OPEN	2024-04-08T14:09:41Z
-148189	New version: Tyrrrz.LightBulb version 2.4.10	Exorcism0666:Tyrrrz.LightBulb-2.4.10-1661065673	OPEN	2024-04-08T13:21:44Z
-148188	New version: Spotify.Spotify version 1.2.35.663.gb699649e (1.2.35.663)	SpecterShell:Spotify.Spotify-1.2.35.663.gb699649e-326503948	OPEN	2024-04-08T13:12:18Z
-148187	New version: Tencent.TencentVideo version 11.91.9025.0	SpecterShell:Tencent.TencentVideo-11.91.9025.0-1018522338	OPEN	2024-04-08T12:14:43Z
-148186	New version: LLVM.LLVM version 18.1.3	SpecterShell:LLVM.LLVM-18.1.3-2017075387	OPEN	2024-04-08T12:13:49Z
 148185	New package: DonHOdon.h@free.fr.Notepad++ version 8.6.0.0	bjarnisveinsson:DonHOdon.h@free.fr.Notepad++-8.6.0.0-134e5ed3-e680-4fbc-8bd2-cef16d72219f	OPEN	2024-04-08T12:06:13Z
-148184	SmartSoft.SmartFTP version 10.0.3214.0	vedantmgoyal9:SmartSoft.SmartFTP-10.0.3214.0-7a6b0941-b834-4e19-814a-da1506831a9f	OPEN	2024-04-08T11:23:42Z
-148183	Fabio286.antares version 0.7.23	vedantmgoyal9:Fabio286.antares-0.7.23-4396e657-8402-4001-97b8-74d75d17db34	OPEN	2024-04-08T11:22:59Z
-148182	New version: stacklok.minder 0.0.41	stacklok:minder-0.0.41	OPEN	2024-04-08T11:15:43Z
-148181	live777-0.4.1	Yin-ZP:live777	OPEN	2024-04-08T11:12:46Z
-148180	Add AGSProjectTeam.AdventureGameStudio 3.6.1.23	rodrigoborgesdeoliveira:ags/3.6.1.23	OPEN	2024-04-08T11:11:38Z
 148178	New version: gjergj.testmyapp 0.0.38	Gjergj:testmyapp-v0.0.38	OPEN	2024-04-08T10:34:08Z
-148177	New version: Seewo.EasiNote version 5.2.4.6953	SpecterShell:Seewo.EasiNote-5.2.4.6953-847006589	OPEN	2024-04-08T10:17:15Z
-148176	New version: Google.Chrome.Canary version 125.0.6406.0	SpecterShell:Google.Chrome.Canary-125.0.6406.0-1197658575	OPEN	2024-04-08T10:12:56Z
 148175	New version: VMware.HorizonClient version 8.12.1.44700	PckgrBot:VMware.HorizonClient-8.12.1.44700-629a12a7-1761-4e6e-8975-f943a78f0e48	OPEN	2024-04-08T10:05:31Z
-148174	New version: RedHat.Podman-Desktop version 1.9.1	podman-desktop-bot:RedHat.Podman-Desktop-1.9.1-7d51f89c-c886-4eb6-928c-3d2f5412efec	OPEN	2024-04-08T09:53:31Z
-148173	JanDeDobbeleer.Aliae version 0.20.0	JanDeDobbeleer:JanDeDobbeleer.Aliae-0.20.0-6d92dbee-677d-4c66-89e1-d5bae250c4e0	OPEN	2024-04-08T09:47:42Z
 148172	New version: LinwoodCloud.Butterfly.Nightly version 2.1.0-beta.5	LinwoodDev:LinwoodCloud.Butterfly.Nightly-2.1.0-beta.5-538A24472F059FD590F87DF0C3F65E1C4FCBA197	OPEN	2024-04-08T09:42:56Z
-148170	New version: Nevcairiel.LAVFilters version 0.79.2	Exorcism0666:Nevcairiel.LAVFilters-0.79.2-113339801	OPEN	2024-04-08T08:25:49Z
-148169	JanDeDobbeleer.Aliae version 0.19.0	JanDeDobbeleer:JanDeDobbeleer.Aliae-0.19.0-962e3f0e-4eca-4b5a-9c5b-a547579a8a59	OPEN	2024-04-08T08:19:41Z
 148168	New version: Alibaba.UCCloudDrive version 1.3.2	SpecterShell:Alibaba.UCCloudDrive-1.3.2-1804389498	OPEN	2024-04-08T08:11:12Z
 148167	Microsoft.VisualStudioCode.Insiders.CLI_v1.89.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.Insiders.CLI_v1.89.0	OPEN	2024-04-08T08:07:12Z
-148164	SmartSoft.SmartFTP version 10.0.3214.0	matbech:SmartSoft.SmartFTP-10.0.3214.0-6400ec86-4069-4599-9135-ac66556ade19	OPEN	2024-04-08T07:31:12Z
-148163	New version: LamantineSoftware.StickyPassword version 8.8.5.1751	aleksandrspitsa:LamantineSoftware.StickyPassword-8.8.5.1751-983897B7	OPEN	2024-04-08T07:29:35Z
-148162	New package: Microsoft.Promptflow version 1.7.0	YingChen1996:Microsoft.Promptflow-1.7.0-d5cfc051-8c8e-4e88-a9fd-914c509e4914	OPEN	2024-04-08T06:53:36Z
-148160	New version: Jackett.Jackett version 0.21.2324	Jackett:Jackett.Jackett-0.21.2324-DD77DE8FABBC48DE8DCB308A7F6454EE7C6597D9	OPEN	2024-04-08T05:53:58Z
-148159	Remove: Alibaba.aDrive version 4.9.11	coolplaylinbot:Alibaba.aDrive-4.9.11-3B04A84F644B524C15CBCFEEFF3D1EBB688B2478	OPEN	2024-04-08T05:41:24Z
-148158	Remove: Alibaba.aDrive version 4.9.10	coolplaylinbot:Alibaba.aDrive-4.9.10-5C9FCDF3F995DB42881431F5C4DA62C36CF88B9B	OPEN	2024-04-08T05:39:13Z
-148157	Bosyun.BoardMix.CN version 1.6.1	vedantmgoyal9:Bosyun.BoardMix.CN-1.6.1-3963c879-2b38-4742-b7a4-81cd43965a62	OPEN	2024-04-08T05:34:03Z
-148156	Remove: AgileStudio.33ZiMu version 0.8.0	coolplaylinbot:AgileStudio.33ZiMu-0.8.0-FF9430BDF61E2046E6B02384C1A54EC429FB7754	OPEN	2024-04-08T04:54:50Z
-148155	Remove: AgileStudio.33ZiMu version 0.4.0	coolplaylinbot:AgileStudio.33ZiMu-0.4.0-9F21EF1DB281559E4F347F734C76C801E160D8B8	OPEN	2024-04-08T04:54:48Z
-148154	Remove: AgileStudio.33ZiMu version 0.5.0	coolplaylinbot:AgileStudio.33ZiMu-0.5.0-332505875C3242AA6FDC725788AC615D5CDAB968	OPEN	2024-04-08T04:54:46Z
-148153	Remove: AgileStudio.33ZiMu version 0.7.0	coolplaylinbot:AgileStudio.33ZiMu-0.7.0-D1E181540B5A550E24288EE03BA4921C0E93E27B	OPEN	2024-04-08T04:54:44Z
-148152	Remove: AgileStudio.33ZiMu version 0.7.1	coolplaylinbot:AgileStudio.33ZiMu-0.7.1-0245E90F819D2D903A39E65DA47A17DB9B30C9A7	OPEN	2024-04-08T04:53:42Z
 148151	Remove: AxisCommunicationsAB.AXISCameraStation version 5.57.22317	coolplaylinbot:AxisCommunicationsAB.AXISCameraStation-5.57.22317-D69A76EBA3B6BA274B820EEB0402F35D903288E6	OPEN	2024-04-08T04:44:16Z
-148150	New version: Thunder.Thunder version 12.0.11.2480	SpecterShell:Thunder.Thunder-12.0.11.2480-893184562	OPEN	2024-04-08T04:15:24Z
-148149	New version: Tencent.WeCom version 4.1.22.6009	SpecterShell:Tencent.WeCom-4.1.22.6009-650029570	OPEN	2024-04-08T04:13:11Z
-148148	Update: EuSoft.Frhelper version 13.0.0.0 (13.6.0)	SpecterShell:EuSoft.Frhelper-13.0.0.0-1670341207	OPEN	2024-04-08T04:10:38Z
-148147	Update: EuSoft.Dehelper version 13.0.0.0 (13.6.0)	SpecterShell:EuSoft.Dehelper-13.0.0.0-634431323	OPEN	2024-04-08T04:10:37Z
-148146	Update: EuSoft.Eshelper version 13.0.0.0 (13.6.0)	SpecterShell:EuSoft.Eshelper-13.0.0.0-1036792939	OPEN	2024-04-08T04:10:37Z
-148145	Remove: Appest.Dida version 5.3.0.0	coolplaylinbot:Appest.Dida-5.3.0.0-8E58F67167DF220D9BB4F09D450171DA47EA3AAB	OPEN	2024-04-08T03:44:53Z
 148144	Remove: ArchiMateTool.Archi version 5.2.0	coolplaylinbot:ArchiMateTool.Archi-5.2.0-F816122883296B76247D95F3D966E186AC579BE3	OPEN	2024-04-08T03:34:37Z
-148143	New version: Kingsoft.WPSOffice version 12.2.0.16731	SpecterShell:Kingsoft.WPSOffice-12.2.0.16731-1618742950	OPEN	2024-04-08T03:10:36Z
-148142	Remove: Dell.DisplayManager version 2.3.0.19	coolplaylinbot:Dell.DisplayManager-2.3.0.19-45A7069957FA7BFF2ACC1B283EE7E0515E111C05	OPEN	2024-04-08T03:02:04Z
-148141	Remove: Dell.DisplayManager version 2.1.1.17	coolplaylinbot:Dell.DisplayManager-2.1.1.17-3345A147A7EBA8D37FCF928A8EFAA0CE4C5B9981	OPEN	2024-04-08T03:02:00Z
-148140	Remove: DanielMcGuireCorporation.SimpleBrowser version 2.3.0	coolplaylinbot:DanielMcGuireCorporation.SimpleBrowser-2.3.0-49D2CF50D3AE69208A3E1D8928271045DCD1F8C0	OPEN	2024-04-08T02:25:55Z
-148139	Remove: DeepL.DeepL version 3.4.15088	coolplaylinbot:DeepL.DeepL-3.4.15088-C1FABDC90FF207A64DD17AB2E44F7B0320A09624	OPEN	2024-04-08T02:25:46Z
-148138	Remove: DeepL.DeepL version 3.1.13276	coolplaylinbot:DeepL.DeepL-3.1.13276-53CD9FD3A8D668F1691EA729D84D077CDB204514	OPEN	2024-04-08T02:25:45Z
-148137	Remove: DeepL.DeepL version 4.0.6052	coolplaylinbot:DeepL.DeepL-4.0.6052-0F70266BF9F1BF3D65D09B52DB938E1CB80D46DE	OPEN	2024-04-08T02:25:43Z
-148136	Remove: DeepL.DeepL version 3.5.25837	coolplaylinbot:DeepL.DeepL-3.5.25837-77E1F800D0CA6E20DF80E2818BFD7B4DA608DAA5	OPEN	2024-04-08T02:25:41Z
-148135	Remove: DeepL.DeepL version 2.9.12645	coolplaylinbot:DeepL.DeepL-2.9.12645-FFE7B8F2E04234599B9ADB789EB22A2B4497E530	OPEN	2024-04-08T02:25:39Z
-148134	Remove: DeepL.DeepL version 3.3.4484	coolplaylinbot:DeepL.DeepL-3.3.4484-0E769549D2670C9B27D5C74BA07D132CDB3A21F7	OPEN	2024-04-08T02:25:38Z
-148133	New version: Bosyun.BoardMix.CN version 1.6.1	SpecterShell:Bosyun.BoardMix.CN-1.6.1-107622275	OPEN	2024-04-08T02:16:58Z
 148132	Remove: Dropbox.Dash version 2.92.0	coolplaylinbot:Dropbox.Dash-2.92.0-A6AB7AAA850772161EEA0959FBF5D8B0E750F487	OPEN	2024-04-08T02:07:11Z
-148131	New version: yt-dlp.yt-dlp.nightly version 2024.04.07.232657	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.04.07.232657-970539717	OPEN	2024-04-08T01:21:54Z
-148130	New version: Ryujinx.Ryujinx.Ava version 1.1.1268	Exorcism0666:Ryujinx.Ryujinx.Ava-1.1.1268-438776254	OPEN	2024-04-08T01:21:52Z
 148129	New version: Ryujinx.Ryujinx version 1.1.1268	Exorcism0666:Ryujinx.Ryujinx-1.1.1268-1533998728	OPEN	2024-04-08T01:21:52Z
-148128	New version: electerm.electerm version 1.38.60	Exorcism0666:electerm.electerm-1.38.60-FC951579AAB04AC78C4D8450C0420E1B	OPEN	2024-04-08T01:21:23Z
 148127	New version: JohnMacFarlane.Pandoc version 3.1.13	Exorcism0666:JohnMacFarlane.Pandoc-3.1.13-7C5415F0B2444843988158DAC150BFA3	OPEN	2024-04-08T01:21:19Z
-148126	Remove: Datronicsoft.SpacedeskDriver.Server version 2.1.13.0	coolplaylinbot:Datronicsoft.SpacedeskDriver.Server-2.1.13.0-E19C98A8796D2E841AC36A22F9A6BE35446D0557	OPEN	2024-04-08T01:00:33Z
-148125	Remove: Datronicsoft.SpacedeskDriver.Server version 2.1.14.0	coolplaylinbot:Datronicsoft.SpacedeskDriver.Server-2.1.14.0-C72E38DD5D046F8BA08F856BE794EBB6C841AC00	OPEN	2024-04-08T01:00:21Z
 148124	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_afa7b632-c476-4653-be80-3eea8c9a5751	OPEN	2024-04-08T00:48:29Z
 148123	New Package: odin-lang.Odin version dev-2024-03	og-mrk:new-manifest/odin-lang.Odin-version-dev-2024-03	OPEN	2024-04-08T00:38:23Z
 148122	New version: ImageMagick.ImageMagick version 7.1.1.30	SpecterShell:ImageMagick.ImageMagick-7.1.1.30-998682782	OPEN	2024-04-08T00:27:07Z
 148121	New version: Caphyon.AdvancedInstaller version 21.6	SpecterShell:Caphyon.AdvancedInstaller-21.6-3F1A298A	OPEN	2024-04-07T23:46:01Z
-148118	New version: vim.vim.nightly version 9.1.0274	vim:vim.vim.nightly-9.1.0274-AD371787C30EE4CB8927ABFDA3D80C47BB5312D3	OPEN	2024-04-07T23:34:06Z
-148117	New version: Nvidia.Omniverse version 1.9.11	SpecterShell:Nvidia.Omniverse-1.9.11-7DFEC2A9	OPEN	2024-04-07T23:06:12Z
-148116	Modify: TunnelBear.TunnelBear version 4.9.2.0	SpecterShell:TunnelBear.TunnelBear-4.9.2.0-DA24C3DA	OPEN	2024-04-07T22:55:19Z
-148115	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_2292e798-fbe6-4a95-aab4-87175549aad1	OPEN	2024-04-07T22:48:33Z
 148114	New package: hickford.git-credential-azure version 0.3.0	hickford:hickford.git-credential-azure-0.3.0-2bc88ea4-f8f1-4b61-857f-9f146676b714	OPEN	2024-04-07T22:43:25Z
-148113	Update: Sohu.SHPlayer version 7.1.10.0	SpecterShell:Sohu.SHPlayer-7.1.10.0-Update	OPEN	2024-04-07T22:35:16Z
 148112	New version: RustDesk.RustDesk version 1.2.3-2	SpecterShell:RustDesk.RustDesk-1.2.3-2-644325093	OPEN	2024-04-07T22:31:14Z
-148110	New version: AntoineAflalo.SoundSwitch version 6.10.3	Belphemur:AntoineAflalo.SoundSwitch-6.10.3-0F0F385E473AB1F5A96AEC7B837D94C69D7E7BF1	OPEN	2024-04-07T22:27:21Z
 148109	New version: Ryujinx.Ryujinx version 1.1.1267	Exorcism0666:Ryujinx.Ryujinx-1.1.1267-2043430351	OPEN	2024-04-07T22:18:33Z
 148106	New version: Posit.rig version 0.7.0	gaborcsardi:Posit.rig-0.7.0-6FB5C865747546B6850A9F9D89C3ACD3	OPEN	2024-04-07T21:09:37Z
 148105	New version: LGUG2Z.komokana version 0.1.3	LGUG2Z:LGUG2Z.komokana-0.1.3-A01431D93E51E3F6B05C90B54E72A9AFFE6323E1	OPEN	2024-04-07T21:01:59Z
-148104	New version: LGUG2Z.komorebi version 0.1.23	LGUG2Z:LGUG2Z.komorebi-0.1.23-604FFD881DBBF0BF0C7286656AF06E081823B5F2	OPEN	2024-04-07T20:51:00Z
 148103	New version: Ryujinx.Ryujinx.Ava version 1.1.1263	Exorcism0666:Ryujinx.Ryujinx.Ava-1.1.1263-1426735618	OPEN	2024-04-07T20:20:01Z
 148102	New version: Ryujinx.Ryujinx version 1.1.1263	Exorcism0666:Ryujinx.Ryujinx-1.1.1263-400332973	OPEN	2024-04-07T20:20:01Z
-148101	New Version: Telegram.TelegramDesktop version 4.16.4	og-mrk:new-manifest-version/Telegram.TelegramDesktop-version4.16.4	OPEN	2024-04-07T20:13:17Z
-148100	Automatic update of Jidifudi.GT4T from 8.43.240325 to 8.43.240407	wingetbot:AutomaticUpdate_8aa2b93f-7ca9-41fc-a22f-9435b92272fe	OPEN	2024-04-07T20:06:23Z
-148099	New version: IPEP.Scantailor-Experimental version 0.2024.04.06	plzombie:master	OPEN	2024-04-07T19:31:00Z
-148098	Remove version: WHTA.Tamara 2024.0.0.0	lars-whta:master	OPEN	2024-04-07T19:17:38Z
-148097	New version: Google.Chrome.Canary version 125.0.6405.0	SpecterShell:Google.Chrome.Canary-125.0.6405.0-1863552270	OPEN	2024-04-07T19:10:08Z
-148096	Tyrrrz.LightBulb version 2.4.9	vedantmgoyal9:Tyrrrz.LightBulb-2.4.9-81153be3-e666-487e-bb7b-bd56607729ff	OPEN	2024-04-07T16:28:32Z
 148095	Min.Min version 1.31.2	vedantmgoyal9:Min.Min-1.31.2-8f516053-3a68-4b97-844f-caa4cee2fb3b	OPEN	2024-04-07T16:28:07Z
 148094	Cybelsoft.DriversCloud version 12.0.23	vedantmgoyal9:Cybelsoft.DriversCloud-12.0.23-847a0bdd-4116-46b4-9bc5-a0bdffd7f011	OPEN	2024-04-07T16:27:46Z
-148093	altair-graphql.altair version 6.4.1	vedantmgoyal9:altair-graphql.altair-6.4.1-79b3688b-7bef-4f20-bc8d-b61f8b69abe6	OPEN	2024-04-07T16:27:32Z
-148092	New version: Tyrrrz.LightBulb version 2.4.9	Exorcism0666:Tyrrrz.LightBulb-2.4.9-1849817756	OPEN	2024-04-07T15:21:08Z
-148091	New version: XmacsLabs.Mogan version 1.2.5.2	SpecterShell:XmacsLabs.Mogan-1.2.5.2-685482336	OPEN	2024-04-07T15:11:14Z
-148090	New version: CologneCodeCompany.XYplorerPortable version 25.80.0200	The-Running-Dev:CologneCodeCompany.XYplorerPortable-25.80.0200-3FC8A61B	OPEN	2024-04-07T15:02:01Z
-148089	New version: alexx2000.DoubleCommander version 1.1.12	doublecmd:alexx2000.DoubleCommander-1.1.12-7050C504B546E6CBD5B439062754F0A05E92E4A5	OPEN	2024-04-07T15:00:22Z
 148086	New version: TableClothProject.TableCloth version 1.13.0	rkttu:TableClothProject.TableCloth-1.13.0-5ab0002c-3682-4f6e-a10d-010b75e6bff8	OPEN	2024-04-07T12:28:13Z
-148085	Wetransform.HaleStudio version 5.1.0	vedantmgoyal9:Wetransform.HaleStudio-5.1.0-d9563fbf-f681-42d4-bedb-3c2df8dc7709	OPEN	2024-04-07T11:23:50Z
-148084	PurpleI2P.i2pd version 2.51.0	vedantmgoyal9:PurpleI2P.i2pd-2.51.0-e344b9e7-80ab-40c1-87e1-ca9337707372	OPEN	2024-04-07T11:23:14Z
-148082	ByteDance.Lark version 7.14.5	vedantmgoyal9:ByteDance.Lark-7.14.5-8ba186dc-9a1f-42a7-80c8-f643faf66cad	OPEN	2024-04-07T11:22:44Z
-148081	Regressi.Regressi version 4.8.13	TomRicci:regressi-4-8-13	OPEN	2024-04-07T10:53:07Z
-148080	New version: Wondershare.MobileTrans version 4.5.9	SpecterShell:Wondershare.MobileTrans-4.5.9-1528110721	OPEN	2024-04-07T10:12:17Z
-148079	New version: Anydo.Anydo version 5.0.68	SpecterShell:Anydo.Anydo-5.0.68-974978733	OPEN	2024-04-07T10:08:26Z
 148078	New package: NickGasson.NVC version 1.12.0001	nickg:NickGasson.NVC-1.12.0001-e39cb5c0-f5aa-4aca-bf3c-5a87421a35ad	OPEN	2024-04-07T09:57:54Z
-148077	New version: Tonec.InternetDownloadManager version 6.42.7 (642build7)	SpecterShell:Tonec.InternetDownloadManager-6.42.7-1812734538	OPEN	2024-04-07T08:57:45Z
 148076	New version: danstis.rmstale version 1.15.0	danstis:danstis.rmstale-1.15.0-5e681959-5200-4e9e-ada6-fb93afd631a6	OPEN	2024-04-07T08:44:03Z
-148075	New version: ByteDance.CapCut version 3.7.0.1358	SpecterShell:ByteDance.CapCut-3.7.0.1358-573869136	OPEN	2024-04-07T08:12:29Z
-148074	New version: Google.Chrome.Canary version 125.0.6404.0	SpecterShell:Google.Chrome.Canary-125.0.6404.0-1158513561	OPEN	2024-04-07T08:12:13Z
-148073	New version: ByteDance.Lark version 7.14.5	SpecterShell:ByteDance.Lark-7.14.5-1143982288	OPEN	2024-04-07T08:11:24Z
-148072	New version: lin-ycv.EverythingPowerToys version 0.80.0	lin-ycv:lin-ycv.EverythingPowerToys-0.80.0-1b8b6240-7422-4fbf-a2cb-4c8e73a36ea1	OPEN	2024-04-07T07:46:34Z
-148070	New version: Spicetify.Spicetify version 2.36.3	spicetify:Spicetify.Spicetify-2.36.3-285097518EEAFF6E0686314882ED891BFF10512A	OPEN	2024-04-07T05:11:58Z
 148069	New version: MPC-BE.MPC-BE version 1.7.0	SpecterShell:MPC-BE.MPC-BE-1.7.0-1519645884	OPEN	2024-04-07T05:11:15Z
-148068	Cemu.Cemu.Experimental version 2.0-75	kpd328:Cemu.Cemu.Experimental-2.0-75-075e1190-8d8d-4e3f-b80d-0d329ff0b135	OPEN	2024-04-07T04:46:35Z
-148067	New version: LizardByte.Sunshine version 0.23.0	LizardByte:LizardByte.Sunshine-0.23.0-B23CEE56968D6A6EE1F7E24C5CB08C8E1B390837	OPEN	2024-04-07T03:45:26Z
-148066	New version: Muye.FlickerList version 5.3.1	SpecterShell:Muye.FlickerList-5.3.1-1337490564	OPEN	2024-04-07T03:14:57Z
-148065	New version: Plex.PlexMediaServer version 1.40.1.8227	josemikkola:Plex.PlexMediaServer-1.40.1.8227-7B31C213467A493B93D201C4A722DB36	OPEN	2024-04-07T02:59:36Z
-148064	New package: Sailcut.SailcutCAD version 1.3.902	Dragon1573:issues/148007	OPEN	2024-04-07T02:43:16Z
-148063	New version: schollz.croc version 9.6.15	sitiom:schollz.croc-9.6.15-E0E8FB7407F54F419D98E627BDA38DCF	OPEN	2024-04-07T02:38:05Z
-148062	New version: Glodon.CADReader.CN version 6.2.0.96	SpecterShell:Glodon.CADReader.CN-6.2.0.96-1333880221	OPEN	2024-04-07T02:17:55Z
-148061	New version: Ferdium.Ferdium.Nightly version 6.7.3-nightly.7	Alphrag:Ferdium.Ferdium.Nightly-6.7.3-nightly.7-fd837ce1-005a-40f4-9809-4d9b82dc78cf	OPEN	2024-04-07T01:47:53Z
-148060	New version: Catsxp.Catsxp version 123.4.4.4	SpecterShell:Catsxp.Catsxp-123.4.4.4-1676587271	OPEN	2024-04-07T01:33:41Z
 148059	New version: HiroshibaKazuyuki.VOICEVOX.CPU version 0.18.1	Exorcism0666:HiroshibaKazuyuki.VOICEVOX.CPU-0.18.1-187DE68B24204C0A921870823F830FE2	OPEN	2024-04-07T01:28:03Z
 148058	New version: HiroshibaKazuyuki.VOICEVOX version 0.18.1	Exorcism0666:HiroshibaKazuyuki.VOICEVOX-0.18.1-6680E84751194D4E812D930FE26D6361	OPEN	2024-04-07T01:27:35Z
 148057	New version: gopass.gopass-jsonapi version 1.15.13	Exorcism0666:gopass.gopass-jsonapi-1.15.13-E7FFE7329A294305AA804B6944837C0A	OPEN	2024-04-07T01:27:00Z
 148056	New version: gopass.gopass version 1.15.13	Exorcism0666:gopass.gopass-1.15.13-F1F9EAFF89B34C09B557B6FEAFDE3629	OPEN	2024-04-07T01:26:56Z
-148055	New version: AppbyTroye.KoodoReader version 1.6.6	Exorcism0666:AppbyTroye.KoodoReader-1.6.6-5E4F4340E9A34F42829F8F02308FFC7B	OPEN	2024-04-07T01:26:51Z
-148054	New version: yt-dlp.yt-dlp.nightly version 2024.04.06.232655	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.04.06.232655-1996668808	OPEN	2024-04-07T01:26:15Z
 148053	Automatic update of Stardock.Start10 from 1.9.7 to 9.5.3.0	wingetbot:AutomaticUpdate_b4254be3-59f5-4028-b688-b9ee05da6fe0	OPEN	2024-04-07T00:48:34Z
-148051	New version: VirtualHere.USBClient version 5.6.1	Teknoshark:VirtualHere.USBClient-5.6.1-D39D777454D84C38B6D9D9E5513F2CC0	OPEN	2024-04-07T00:42:06Z
-148050	Automatic update of PLaSK to 2024.04.06	macdems:2024.04.06	OPEN	2024-04-07T00:37:44Z
-148049	Update: UweSieber.UsbTreeView version 4.0.6	weberphilipp:UweSieber.UsbTreeView_4.0.6	OPEN	2024-04-07T00:26:49Z
-148048	New version: blacktop.ipsw 3.1.468	blacktop:ipsw-3.1.468	OPEN	2024-04-07T00:03:04Z
-148047	New version: blacktop.ipswd 3.1.468	blacktop:ipswd-3.1.468	OPEN	2024-04-07T00:02:58Z
-148046	New version: UweSieber.UsbTreeView version 4.1.1	weberphilipp:UweSieber.UsbTreeView_4.1.1	OPEN	2024-04-07T00:00:26Z
-148045	Tyrrrz.LightBulb version 2.4.8	vedantmgoyal9:Tyrrrz.LightBulb-2.4.8-0c129e54-9a3a-447c-8c38-6c99cdbc7338	OPEN	2024-04-06T23:24:52Z
-148044	New version: FutureScholars.Paperlib version 3.0.8	SpecterShell:FutureScholars.Paperlib-3.0.8-1400515992	OPEN	2024-04-06T23:09:31Z
-148042	Automatic update of CABS.SalesPrix 6.18.3	wingetbot:AutomaticUpdate_c30bdb06-cca9-4080-a275-dde35d0d60ec	OPEN	2024-04-06T22:21:27Z
-148041	Automatic update of CABS.ScanPrix 6.18.3	wingetbot:AutomaticUpdate_4d85cfc0-fe70-4655-a9f6-78c6ada44e0f	OPEN	2024-04-06T22:21:23Z
-148040	Automatic deletion of CABS.SalesPrix 6.18.2	wingetbot:AutomaticUpdate_383302c9-91ba-4602-a88e-34a4ae1d3f2b	OPEN	2024-04-06T22:16:53Z
-148039	Automatic deletion of CABS.ScanPrix 6.18.2	wingetbot:AutomaticUpdate_7d163dd8-252a-4994-80cd-466676992609	OPEN	2024-04-06T22:16:53Z
-148038	Automatic update of BitSum.ParkControl from 5.0.2.18 to 5.0.3.4	wingetbot:AutomaticUpdate_98ce1479-73e3-4d35-b6af-b1016454fea5	OPEN	2024-04-06T21:40:05Z
-148037	Automatic update of FireAlpaca.FireAlpaca from 2.11.17.0 to 2.11.18.0	wingetbot:AutomaticUpdate_a9f94523-aab1-4161-9c94-b3931b5f9686	OPEN	2024-04-06T21:05:08Z
-148036	New version: SQLite.SQLite version 3.45.2	Dvd-Znf:master	OPEN	2024-04-06T20:55:19Z
-148035	Update version: LedgerHQ.LedgerLive version 2.75.0	RalfEs73:LedgerHQ.LedgerLive-2.75.0-b0fd8e4d-b6f1-45c6-bcad-5e67eb6f41f1	OPEN	2024-04-06T20:23:14Z
-148034	New version: Tyrrrz.LightBulb version 2.4.8	Exorcism0666:Tyrrrz.LightBulb-2.4.8-2072732814	OPEN	2024-04-06T20:21:25Z
-148033	Automatic deletion of Argotronic.ArgusMonitor 7.0.6.2740	wingetbot:AutomaticUpdate_43e16ff0-a079-4656-a1af-bea81069a6cc	OPEN	2024-04-06T20:16:30Z
-148032	New version: Google.Chrome.Canary version 125.0.6403.0	SpecterShell:Google.Chrome.Canary-125.0.6403.0-1602616841	OPEN	2024-04-06T20:10:05Z
-148031	Automatic update of AnalogDevices.LTspice from 24.0.9.0 to 24.0.11.0	wingetbot:AutomaticUpdate_0f03d5ef-0f47-4667-94d8-60046ec1bfe0	OPEN	2024-04-06T19:53:09Z
-148030	New package: PiotrMachowski.HomeAssistantTaskbarMenu version 1.3.0.0	RalfEs73:PiotrMachowski.HomeAssistantTaskbarMenu-1.3.0.0-9b2fd3c3-d459-4d8f-bdb8-e2de66dc25b4	OPEN	2024-04-06T19:38:36Z
-148029	VRCX 2024.03.23: Add metadata	babo4d:update-vrcx-metadata	OPEN	2024-04-06T19:32:38Z
 148028	New package: Aurelitec.Thumbico version 1.5.0.25	RalfEs73:Aurelitec.Thumbico-1.5.0.25-7ff585f1-1257-4ca3-ba53-aadc28a88dc8	OPEN	2024-04-06T19:31:43Z
-148027	Automatic update of AdGuard.AdGuardVPN.Nightly from 2.3.1364.0 to 2.3.1373.0	wingetbot:AutomaticUpdate_48a21f40-924e-4cd5-814a-fbd00422345c	OPEN	2024-04-06T19:09:03Z
-148026	Automatic deletion of AdGuard.AdGuard.Beta 7.17.4657.0	wingetbot:AutomaticUpdate_d1de6ccf-a29d-47ef-b359-3d4ea7bf69a9	OPEN	2024-04-06T19:05:09Z
 148025	New version: Ryujinx.Ryujinx version 1.1.1262	Exorcism0666:Ryujinx.Ryujinx-1.1.1262-1619212911	OPEN	2024-04-06T18:23:46Z
-148023	New version: Ryujinx.Ryujinx.Ava version 1.1.1261	Exorcism0666:Ryujinx.Ryujinx.Ava-1.1.1261-1467999988	OPEN	2024-04-06T17:19:56Z
-148022	Solidigm.StorageTool version 1.12	BigThunderSR:Solidigm.StorageTool-1.12-c06d0358-afc2-4adb-ba7a-73865bf42b97	OPEN	2024-04-06T17:16:04Z
-148019	IsWiX.IsWiX version 5.0.51.0	vedantmgoyal9:IsWiX.IsWiX-5.0.51.0-b7384ad9-a80f-42ee-9afb-400c6ebe9966	OPEN	2024-04-06T16:31:06Z
-148018	HeroicGamesLauncher.HeroicGamesLauncher version 2.14.1	vedantmgoyal9:HeroicGamesLauncher.HeroicGamesLauncher-2.14.1-49dceb6e-42f8-47ed-9ace-5eeeadf9d14a	OPEN	2024-04-06T16:30:42Z
-148016	New version: YouXiao.YXCalendar version 2.4.4.6	SpecterShell:YouXiao.YXCalendar-2.4.4.6-1039288273	OPEN	2024-04-06T16:12:06Z
 148015	New version: gjergj.testmyapp 0.0.33	Gjergj:testmyapp-v0.0.33	OPEN	2024-04-06T14:57:51Z
-148014	New version: TheBrowserCompany.Arc version 0.16.2.20369	Exorcism0666:TheBrowserCompany.Arc-0.16.2.20369-3443de94-7717-455d-810a-3381ff002e5b	OPEN	2024-04-06T14:52:23Z
 148013	New Version: Samsung.SamsungMagician version 8.1.0	og-mrk:new-manifest-version/Samsung.SamsungMagician-version8.1.0	OPEN	2024-04-06T14:09:12Z
-148011	New version: flxzt.rnote 0.10.2	kbdharun:rnote0102	OPEN	2024-04-06T13:18:00Z
 148009	New version: Ryujinx.Ryujinx version 1.1.1258	Exorcism0666:Ryujinx.Ryujinx-1.1.1258-645729330	OPEN	2024-04-06T12:33:13Z
-148008	[CODEOWNERS] its `doc/`, not `.doc/*`	vedantmgoyal9:patch-15	OPEN	2024-04-06T12:22:40Z
-148006	Update FAQ.md	vedantmgoyal9:patch-14	OPEN	2024-04-06T12:17:14Z
-148005	Add version: CologneCodeCompany.XYplorer version 25.30.0000	The-Running-Dev:CologneCodeCompany.XYplorer-25.30.0000-95922f5f-821c-4f02-9c13-8527a6f8252f	OPEN	2024-04-06T12:11:13Z
-148004	Add version: CologneCodeCompany.XYplorer version 25.20.0100	The-Running-Dev:CologneCodeCompany.XYplorer-25.20.0100-14da5f17-4622-451d-93fe-9449ca3c99aa	OPEN	2024-04-06T12:09:56Z
-148003	Update version: CologneCodeCompany.XYplorer version 25.80.0200	The-Running-Dev:CologneCodeCompany.XYplorer-25.80.0200-a15a32aa-830b-4b93-a4e1-54a5c014870b	OPEN	2024-04-06T12:03:28Z
-148002	Update: Gyan.FFmpeg.Shared version 7.0	SpecterShell:Gyan.FFmpeg.Shared-7.0-Update	OPEN	2024-04-06T11:54:02Z
-148001	Wasmer.Wasmer version 4.2.8	vedantmgoyal9:Wasmer.Wasmer-4.2.8-738dc838-6780-4ae3-97ee-f48fdc2c9f16	OPEN	2024-04-06T11:21:17Z
-148000	New version: aquaproj.aqua 2.27.0	suzuki-shunsuke:aqua-2.27.0	OPEN	2024-04-06T10:43:31Z
-147999	New version: Google.Chrome.Canary version 125.0.6402.0	SpecterShell:Google.Chrome.Canary-125.0.6402.0-593362590	OPEN	2024-04-06T10:10:09Z
-147998	Update: Selur.Hybrid version 0.2.6 (2024.04.06.1)	SpecterShell:Selur.Hybrid-0.2.6-955908958	OPEN	2024-04-06T09:26:49Z
-147997	New version: UniversalMediaServer.UniversalMediaServer version 13.9.0	Exorcism0666:UniversalMediaServer.UniversalMediaServer-13.9.0-1238136085	OPEN	2024-04-06T09:19:40Z
-147996	New version: Kaedei.Dandanplay version 15.3.1	SpecterShell:Kaedei.Dandanplay-15.3.1-1889317765	OPEN	2024-04-06T09:11:02Z
-147995	New version: FelipeSantos.ClipboardSync version 0.11.2	TejasMate:FelipeSantos.ClipboardSync-0.11.2-80F88090BB4748DAA37E18E5958188B6	OPEN	2024-04-06T08:54:32Z
-147994	New version: Wasmer.Wasmer version 4.2.8	SpecterShell:Wasmer.Wasmer-4.2.8-1823135710	OPEN	2024-04-06T08:11:24Z
-147992	New package: Oven-sh.Bun.BaselineProfile version 1.1.0	CoolPlayLin:Oven-sh.Bun.BaselineProfile-1.1.0-A4BD596ADB3A49DF8B7A1EF007683E18	OPEN	2024-04-06T05:08:28Z
-147991	New package: Oven-sh.Bun.Profile version 1.1.0	CoolPlayLin:Oven-sh.Bun.Profile-1.1.0-4CD5CE0CF0E54DA0BBD13F43DC325BDA	OPEN	2024-04-06T04:51:24Z
-147990	Update Netron to 7.5.8	lutzroeder:master	OPEN	2024-04-06T04:43:45Z
-147989	Modify: ElectronicArts.EADesktop version 13.166.0.5679	SpecterShell:ElectronicArts.EADesktop-13.166.0.5679-ED2625AE	OPEN	2024-04-06T04:07:28Z
-147988	Add Soup Version 0.38.1	mwasplund:masplund/update-soup	OPEN	2024-04-06T03:36:57Z
-147987	New package: freifunkMUC.FreifunkMeet version 2024.3.0	Dragon1573:issues/147935	OPEN	2024-04-06T03:16:51Z
-147986	New version: 8x8.Work version 8.11.3 (8.11.3.2)	SpecterShell:8x8.Work-8.11.3-1996296964	OPEN	2024-04-06T02:27:22Z
-147985	New version: Coder.Coder version 2.9.2	mdanish-kh:Coder.Coder-2.9.2-84006045-2bb0-43e3-abbc-820673a3aeef	OPEN	2024-04-06T02:22:41Z
-147984	New version: HomeBank.HomeBank version 5.7.4	Dragon1573:issues/147920	OPEN	2024-04-06T02:18:27Z
-147982	New version: Oven-sh.Bun.Baseline version 1.1.2	mdanish-kh:Oven-sh.Bun.Baseline-1.1.2-8c50295f-9023-43d1-8ea6-6a42e5dd9fd1	OPEN	2024-04-06T02:16:09Z
-147981	Modify: Huawei.QuickAppIde version 14.0.1	SpecterShell:Huawei.QuickAppIde-14.0.1-Modify	OPEN	2024-04-06T01:26:36Z
-147980	SmartSoft.SmartFTP version 10.0.3213.0	vedantmgoyal9:SmartSoft.SmartFTP-10.0.3213.0-93136a8d-b415-4861-ba98-00b8dd4fe5c9	OPEN	2024-04-06T01:24:40Z
-147979	OBSProject.OBSStudio version 30.1.2	vedantmgoyal9:OBSProject.OBSStudio-30.1.2-83197db6-d366-4056-ac67-45e50b18d5f4	OPEN	2024-04-06T01:24:13Z
-147978	New version: AdGuard.AdGuardHome version 0.107.48	Exorcism0666:AdGuard.AdGuardHome-0.107.48-12FE0BC0DEA64F5E9095AC16BC8626FE	OPEN	2024-04-06T01:19:12Z
-147973	Automatic update of spacedrive.Spacedrive from 0.2.10 to 0.2.11	wingetbot:AutomaticUpdate_bed4676c-5641-4a47-aa9d-b242b87a2ffd	OPEN	2024-04-06T00:46:56Z
 147967	New version: vim.vim.nightly version 9.1.0271	vim:vim.vim.nightly-9.1.0271-CFDB7F9CB462EE476EFC4F62D29C1D9CA476D1FA	OPEN	2024-04-05T23:33:33Z
-147964	Amazon.AWSCLI version 2.15.36	vedantmgoyal9:Amazon.AWSCLI-2.15.36-c65cde18-bcab-4080-af46-e02256304948	OPEN	2024-04-05T23:31:31Z
-147944	Automatic update of Tonec.InternetDownloadManager from 6.42.5 to 6.42.7.1	wingetbot:AutomaticUpdate_55d31b0e-80d3-43cf-ab63-ac836dc414f8	OPEN	2024-04-05T21:06:32Z
 147941	Automatic deletion of evernote.evernote 10.83.4.20240404123109	wingetbot:AutomaticUpdate_3703173f-a30a-47e9-b3d3-54749fced706	OPEN	2024-04-05T20:56:39Z
-147929	New version: Ryujinx.Ryujinx version 1.1.1254	Exorcism0666:Ryujinx.Ryujinx-1.1.1254-1109415892	OPEN	2024-04-05T19:18:00Z
 147928	NDI5 Runtime Publisher Name Change	Trouffman:NDIPublisherMigration	OPEN	2024-04-05T19:15:28Z
 147925	Add NDI 6 Runtime (incl. publisher nema change)	Trouffman:NDI-6-Runtime	OPEN	2024-04-05T18:16:38Z
-147918	Update: Intel.PresentMon.Beta 1.10.0	ezhil56x:Intel.PresentMon.Beta-1.10.0	OPEN	2024-04-05T16:44:23Z
-147917	New version: Ryujinx.Ryujinx version 1.1.1252	rakleed:Ryujinx.Ryujinx-1.1.1252-36c1fdcb-f310-408b-a547-2af0037f5f34	OPEN	2024-04-05T16:31:54Z
-147916	Update: OpenSC.OpenSC 0.25.1	ezhil56x:OpenSC.OpenSC-0.25.1	OPEN	2024-04-05T16:29:59Z
-147915	New version: Ryujinx.Ryujinx.Ava version 1.1.1252	Exorcism0666:Ryujinx.Ryujinx.Ava-1.1.1252-1613176498	OPEN	2024-04-05T16:26:59Z
-147908	New version: Initex.YogaDNS version 1.45	Trenly:Initex.YogaDNS-1.45-C77B5D58	OPEN	2024-04-05T15:21:40Z
 147901	New version: GOMLab.GOMPlayer version 2.3.95.5365	Trenly:GOMLab.GOMPlayer-2.3.95.5365-9A9B8F6D	OPEN	2024-04-05T14:31:39Z
 147898	New version: Ubisoft.Connect version 151.2.11050	Trenly:Ubisoft.Connect-151.2.11050-E4B28445	OPEN	2024-04-05T14:25:27Z
 147897	New version: Sigil-Ebook.PageEdit version 2.1.0	Trenly:Sigil-Ebook.PageEdit-2.1.0-7111490	OPEN	2024-04-05T14:21:53Z
@@ -211,11 +57,8 @@
 147882	New Version: tsl0922.ttyd version 1.7.7	og-mrk:new-manifest-version/tsl0922.ttyd-version-1.7.7	OPEN	2024-04-05T11:16:34Z
 147881	New Version: tsl0922.ttyd version 1.7.6	og-mrk:new-manifest-version/tsl0922.ttyd-version-1.7.6	OPEN	2024-04-05T11:10:17Z
 147879	New Version: tsl0922.ttyd version 1.7.5	og-mrk:new-manifest-version/tsl0922.ttyd-version-1.7.5	OPEN	2024-04-05T11:05:58Z
-147867	New package: OCBase.OCCT.Personal version 12.1.18	Dragon1573:issues/147718	OPEN	2024-04-05T08:32:25Z
-147835	New package: Google.GoogleUpdate version 1.3.36.372	SpecterShell:Google.GoogleUpdate-1.3.36.372-B26C1ED3	OPEN	2024-04-05T03:47:17Z
 147829	Automatic update of Nvidia.Omniverse from 1.9.8 to 1.9.11.2724	wingetbot:AutomaticUpdate_659919ff-e91a-4ac7-8f6c-a69f033090e3	OPEN	2024-04-05T01:27:34Z
 147821	New version: AdGuard.dnsproxy version 0.68.0	Exorcism0666:AdGuard.dnsproxy-0.68.0-8693235B19A740389ACBF0F01F9B2E43	OPEN	2024-04-05T01:20:00Z
-147794	Automatic update of Caphyon.AdvancedInstaller from 21.5.1 to 21.6	wingetbot:AutomaticUpdate_2dcb0661-ba4d-4d1f-a768-159341d69909	OPEN	2024-04-04T22:26:14Z
 147766	Automatic deletion of evernote.evernote 10.82.2.20240327123857	wingetbot:AutomaticUpdate_24724e48-84da-40f9-9455-515f7f06ee64	OPEN	2024-04-04T20:45:36Z
 147758	Microsoft.VisualStudioCode.Insiders_v1.89.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.89.0	OPEN	2024-04-04T20:05:02Z
 147753	Automatic deletion of AdGuard.AdGuard.Nightly 7.17.4684.0	wingetbot:AutomaticUpdate_22cf721b-bd3a-4530-ab5c-4bd5ecc923d0	OPEN	2024-04-04T19:20:00Z
@@ -233,7 +76,6 @@
 147622	Automatic deletion of RiotGames.Valorant.LATAM 82.0.1.1194	wingetbot:AutomaticUpdate_3c0cc54d-39d9-4d81-a5a5-3f8310a34f4c	OPEN	2024-04-03T22:37:45Z
 147621	Automatic deletion of RiotGames.LegendsOfRuneterra.Americas 82.0.1.1194	wingetbot:AutomaticUpdate_2c12cc1b-0f9f-4009-9dae-a97b4c099477	OPEN	2024-04-03T22:32:52Z
 147569	New version: github.com.benny93.kafui 0.1.23	Benny93:master	OPEN	2024-04-03T20:51:13Z
-147534	New version: DelineaInc.ThycoticAgent version 12.0.1016	jnichols35:DelineaInc.ThycoticAgent-12.0.1016-D2C3FA7FD50A42549546510460BBAE64	OPEN	2024-04-03T18:24:58Z
 147490	New version: JetBrains.DataGrip version 2024.1	SpecterShell:JetBrains.DataGrip-2024.1-1290722945	OPEN	2024-04-03T15:10:39Z
 147465	New version: Unity.Unity.2021 version 2021.3.37f1	SpecterShell:Unity.Unity.2021-2021.3.37f1-1053519802	OPEN	2024-04-03T09:16:50Z
 147407	OpenRCT2.OpenRCT2 version 0.4.10	vedantmgoyal9:OpenRCT2.OpenRCT2-0.4.10-4c4c1a2f-20c4-4ef0-9fd6-a6ea2fb7eba2	OPEN	2024-04-02T23:27:05Z
@@ -242,11 +84,6 @@
 147372	Delete manifests/m/Malwarebytes/Malwarebytes/4.6.12.399 directory	jpdoherty:patch-1	OPEN	2024-04-02T18:14:10Z
 147354	[PHP] Add PHP 8.0, 8.1, 8.2, and 8.3	PHPWatch:php	OPEN	2024-04-02T13:29:46Z
 147205	Version Update: TeamSonarr.Sonarr version 4.0.3.1413	babblebauble:TeamSonarr.Sonarr-4.0.3.1413-1e4c7860-586f-44a6-9a60-8e98bbdb28a6	OPEN	2024-04-01T11:23:16Z
-147190	Remove: TexasInstruments.TI-SmartView.TI-84Plus version 5.6.0.2092	coolplaylinbot:TexasInstruments.TI-SmartView.TI-84Plus-5.6.0.2092-15ECBAB86C409B109705B09EFCFE02EA7268B2D0	OPEN	2024-04-01T04:07:59Z
-147189	Remove: Tenable.Nessus version 10.6.1	coolplaylinbot:Tenable.Nessus-10.6.1-D54EBE23DAED45606B904962CD36C44CCD3D593E	OPEN	2024-04-01T04:06:59Z
-147174	Remove: TuxGuitar.TuxGuitar version 1.6.1	coolplaylinbot:TuxGuitar.TuxGuitar-1.6.1-3989B4380AB193C2971B7680274CC42C3A074739	OPEN	2024-04-01T04:01:17Z
-147172	Remove: TechPowerUp.NVCleanstall version 1.16.0	coolplaylinbot:TechPowerUp.NVCleanstall-1.16.0-4754283FA702EAC93AFF5D23F5F6E5D6957D78DF	OPEN	2024-04-01T02:47:32Z
-147171	Remove: TechPowerUp.GPU-Z version 2.57.0	coolplaylinbot:TechPowerUp.GPU-Z-2.57.0-AE86EC7F223FF64CD213C03FB96D303A727BF45E	OPEN	2024-04-01T02:47:32Z
 147126	New version: Intel.PresentMon version 1.10.0	collinstevens:Intel.PresentMon2-1.10.0-ffa70101-722e-4f4c-88a8-da828f2f1c5a	DRAFT	2024-03-31T12:26:48Z
 147089	Automatic update of Piriform.CCleaner.ProTrial from 6.19.0.10858 to 6.22.0.10977	wingetbot:AutomaticUpdate_5d70bc95-320f-476e-877b-62e318768ff6	OPEN	2024-03-30T20:40:27Z
 147077	TranslucentTB.TranslucentTB version 2024.1	Lachine1:TranslucentTB.TranslucentTB-2024.1-e4afcac8-cd31-4e62-950f-5991653d1cb3	OPEN	2024-03-30T15:19:29Z
@@ -257,8 +94,6 @@
 147051	tibbo.ioninja version 5.5.1	vedantmgoyal9:tibbo.ioninja-5.5.1-f5331892-1a06-48b6-b640-a72e02574e55	OPEN	2024-03-30T11:22:15Z
 147050	JackieLiu.NotepadsApp version 1.5.4.0	vedantmgoyal9:JackieLiu.NotepadsApp-1.5.4.0-ce6fe551-5191-434e-b4f3-2a327d2bb321	OPEN	2024-03-30T11:21:38Z
 146956	New package: cjmurph.PlexService version 1.2.3	Exorcism0666:cjmurph.PlexService-1.2.3-49594e52-2bd9-4fd7-8b11-4d2c2f52b944	OPEN	2024-03-29T17:00:37Z
-146917	New version: Unity.Unity.2023 version 2023.2.16f1	SpecterShell:Unity.Unity.2023-2023.2.16f1-1059466242	OPEN	2024-03-29T07:15:46Z
-146910	New version: h3poteto.fedistar version 1.9.1	TejasMate:h3poteto.fedistar-1.9.1-C279B87B43994EDD8CD97C0F263E0AC0	OPEN	2024-03-29T06:01:05Z
 146902	Automatic update of Parsec.Parsec from 150-92a to 150.93.2.0	wingetbot:AutomaticUpdate_d22961f1-19ef-437e-a636-2ec8440870fe	OPEN	2024-03-29T02:20:32Z
 146880	New version: Beeper.Beeper version 3.102.10	SpecterShell:Beeper.Beeper-3.102.10-F8876EB6	OPEN	2024-03-28T23:41:54Z
 146873	Automatic update of ServerData.Elevate from 2.15.15 to 2.15.165.0	wingetbot:AutomaticUpdate_a7757f9c-8a20-4385-8617-a55ea35c52af	OPEN	2024-03-28T23:18:23Z
@@ -503,6 +338,7 @@
 118484	New version: DSGT-DLP.dlp-cli 0.0.10	DSGT-DLP:master	DRAFT	2023-08-30T16:33:55Z
 117767	CrystalIDEASoftware.MacsFanControl version 1.5.15	stek29:CrystalIDEASoftware.MacsFanControl-1.5.15-caaf53fc-b14f-4c00-aaed-afe0f0e19fa2	OPEN	2023-08-23T02:31:41Z
 117597	New package: ISC.BIND version 9.16.43	honahuku:master	OPEN	2023-08-21T15:02:34Z
+116546	New package COAA.PlanePlotter	blackzafiqz:planeplotter	OPEN	2023-08-13T00:23:02Z
 115283	New version: SAGAUserGroupAssociation.SAGAGIS version 9.1.1	xyzallan:SAGAUserGroupAssociation.SAGAGIS-9.1.1-ABD2CA8DFAE135	DRAFT	2023-08-04T10:36:19Z
 115062	New package: FreakinSoftMania.WinUEFI version 1.9.3	Minionguyjpro:FreakinSoftMania.WinUEFI-1.9.3-345e5f16-92b2-4984-914a-9fe717a14acb	OPEN	2023-08-03T13:43:28Z
 114001	Add the Devicetree compiler (`dtc`)	carlescufi:add-dtc	OPEN	2023-08-01T15:08:30Z
