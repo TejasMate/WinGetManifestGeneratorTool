@@ -1,4 +1,19 @@
-148171	New version: gjergj.testmyapp 0.0.37	Gjergj:testmyapp-v0.0.37	OPEN	2024-04-08T09:00:14Z
+148187	New version: Tencent.TencentVideo version 11.91.9025.0	SpecterShell:Tencent.TencentVideo-11.91.9025.0-1018522338	OPEN	2024-04-08T12:14:43Z
+148186	New version: LLVM.LLVM version 18.1.3	SpecterShell:LLVM.LLVM-18.1.3-2017075387	OPEN	2024-04-08T12:13:49Z
+148185	New package: DonHOdon.h@free.fr.Notepad++ version 8.6.0.0	bjarnisveinsson:DonHOdon.h@free.fr.Notepad++-8.6.0.0-134e5ed3-e680-4fbc-8bd2-cef16d72219f	OPEN	2024-04-08T12:06:13Z
+148184	SmartSoft.SmartFTP version 10.0.3214.0	vedantmgoyal9:SmartSoft.SmartFTP-10.0.3214.0-7a6b0941-b834-4e19-814a-da1506831a9f	OPEN	2024-04-08T11:23:42Z
+148183	Fabio286.antares version 0.7.23	vedantmgoyal9:Fabio286.antares-0.7.23-4396e657-8402-4001-97b8-74d75d17db34	OPEN	2024-04-08T11:22:59Z
+148182	New version: stacklok.minder 0.0.41	stacklok:minder-0.0.41	OPEN	2024-04-08T11:15:43Z
+148181	live777-0.4.1	Yin-ZP:live777	OPEN	2024-04-08T11:12:46Z
+148180	Add AGSProjectTeam.AdventureGameStudio 3.6.1.23	rodrigoborgesdeoliveira:ags/3.6.1.23	OPEN	2024-04-08T11:11:38Z
+148179	New version: WHTA.Tamara version 2024.0.0.14	lars-whta:WHTA.Tamara-2024.0.0.14-93e09aba-7e99-4101-a074-6cb8326e3a5e	OPEN	2024-04-08T11:09:56Z
+148178	New version: gjergj.testmyapp 0.0.38	Gjergj:testmyapp-v0.0.38	OPEN	2024-04-08T10:34:08Z
+148177	New version: Seewo.EasiNote version 5.2.4.6953	SpecterShell:Seewo.EasiNote-5.2.4.6953-847006589	OPEN	2024-04-08T10:17:15Z
+148176	New version: Google.Chrome.Canary version 125.0.6406.0	SpecterShell:Google.Chrome.Canary-125.0.6406.0-1197658575	OPEN	2024-04-08T10:12:56Z
+148175	New version: VMware.HorizonClient version 8.12.1.44700	PckgrBot:VMware.HorizonClient-8.12.1.44700-629a12a7-1761-4e6e-8975-f943a78f0e48	OPEN	2024-04-08T10:05:31Z
+148174	New version: RedHat.Podman-Desktop version 1.9.1	podman-desktop-bot:RedHat.Podman-Desktop-1.9.1-7d51f89c-c886-4eb6-928c-3d2f5412efec	OPEN	2024-04-08T09:53:31Z
+148173	JanDeDobbeleer.Aliae version 0.20.0	JanDeDobbeleer:JanDeDobbeleer.Aliae-0.20.0-6d92dbee-677d-4c66-89e1-d5bae250c4e0	OPEN	2024-04-08T09:47:42Z
+148172	New version: LinwoodCloud.Butterfly.Nightly version 2.1.0-beta.5	LinwoodDev:LinwoodCloud.Butterfly.Nightly-2.1.0-beta.5-538A24472F059FD590F87DF0C3F65E1C4FCBA197	OPEN	2024-04-08T09:42:56Z
 148170	New version: Nevcairiel.LAVFilters version 0.79.2	Exorcism0666:Nevcairiel.LAVFilters-0.79.2-113339801	OPEN	2024-04-08T08:25:49Z
 148169	JanDeDobbeleer.Aliae version 0.19.0	JanDeDobbeleer:JanDeDobbeleer.Aliae-0.19.0-962e3f0e-4eca-4b5a-9c5b-a547579a8a59	OPEN	2024-04-08T08:19:41Z
 148168	New version: Alibaba.UCCloudDrive version 1.3.2	SpecterShell:Alibaba.UCCloudDrive-1.3.2-1804389498	OPEN	2024-04-08T08:11:12Z
@@ -220,7 +235,6 @@
 147376	New package: FrenchGithubUser.Hatt version 0.3.5	soredake:FrenchGithubUser.Hatt-0.3.5-725E156C080F4C598A9DD6622D522FB2	OPEN	2024-04-02T19:45:10Z
 147372	Delete manifests/m/Malwarebytes/Malwarebytes/4.6.12.399 directory	jpdoherty:patch-1	OPEN	2024-04-02T18:14:10Z
 147354	[PHP] Add PHP 8.0, 8.1, 8.2, and 8.3	PHPWatch:php	OPEN	2024-04-02T13:29:46Z
-147206	New version: LinwoodCloud.Butterfly.Nightly version 2.1.0-beta.4	LinwoodDev:LinwoodCloud.Butterfly.Nightly-2.1.0-beta.4-42E7B41BA92752590EE407A130882E92FFD1071C	OPEN	2024-04-01T12:45:42Z
 147205	Version Update: TeamSonarr.Sonarr version 4.0.3.1413	babblebauble:TeamSonarr.Sonarr-4.0.3.1413-1e4c7860-586f-44a6-9a60-8e98bbdb28a6	OPEN	2024-04-01T11:23:16Z
 147190	Remove: TexasInstruments.TI-SmartView.TI-84Plus version 5.6.0.2092	coolplaylinbot:TexasInstruments.TI-SmartView.TI-84Plus-5.6.0.2092-15ECBAB86C409B109705B09EFCFE02EA7268B2D0	OPEN	2024-04-01T04:07:59Z
 147189	Remove: Tenable.Nessus version 10.6.1	coolplaylinbot:Tenable.Nessus-10.6.1-D54EBE23DAED45606B904962CD36C44CCD3D593E	OPEN	2024-04-01T04:06:59Z
