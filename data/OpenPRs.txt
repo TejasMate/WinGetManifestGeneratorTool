@@ -1,3 +1,20 @@
+148143	New version: Kingsoft.WPSOffice version 12.2.0.16731	SpecterShell:Kingsoft.WPSOffice-12.2.0.16731-1618742950	OPEN	2024-04-08T03:10:36Z
+148142	Remove: Dell.DisplayManager version 2.3.0.19	coolplaylinbot:Dell.DisplayManager-2.3.0.19-45A7069957FA7BFF2ACC1B283EE7E0515E111C05	OPEN	2024-04-08T03:02:04Z
+148141	Remove: Dell.DisplayManager version 2.1.1.17	coolplaylinbot:Dell.DisplayManager-2.1.1.17-3345A147A7EBA8D37FCF928A8EFAA0CE4C5B9981	OPEN	2024-04-08T03:02:00Z
+148140	Remove: DanielMcGuireCorporation.SimpleBrowser version 2.3.0	coolplaylinbot:DanielMcGuireCorporation.SimpleBrowser-2.3.0-49D2CF50D3AE69208A3E1D8928271045DCD1F8C0	OPEN	2024-04-08T02:25:55Z
+148139	Remove: DeepL.DeepL version 3.4.15088	coolplaylinbot:DeepL.DeepL-3.4.15088-C1FABDC90FF207A64DD17AB2E44F7B0320A09624	OPEN	2024-04-08T02:25:46Z
+148138	Remove: DeepL.DeepL version 3.1.13276	coolplaylinbot:DeepL.DeepL-3.1.13276-53CD9FD3A8D668F1691EA729D84D077CDB204514	OPEN	2024-04-08T02:25:45Z
+148137	Remove: DeepL.DeepL version 4.0.6052	coolplaylinbot:DeepL.DeepL-4.0.6052-0F70266BF9F1BF3D65D09B52DB938E1CB80D46DE	OPEN	2024-04-08T02:25:43Z
+148136	Remove: DeepL.DeepL version 3.5.25837	coolplaylinbot:DeepL.DeepL-3.5.25837-77E1F800D0CA6E20DF80E2818BFD7B4DA608DAA5	OPEN	2024-04-08T02:25:41Z
+148135	Remove: DeepL.DeepL version 2.9.12645	coolplaylinbot:DeepL.DeepL-2.9.12645-FFE7B8F2E04234599B9ADB789EB22A2B4497E530	OPEN	2024-04-08T02:25:39Z
+148134	Remove: DeepL.DeepL version 3.3.4484	coolplaylinbot:DeepL.DeepL-3.3.4484-0E769549D2670C9B27D5C74BA07D132CDB3A21F7	OPEN	2024-04-08T02:25:38Z
+148133	New version: Bosyun.BoardMix.CN version 1.6.1	SpecterShell:Bosyun.BoardMix.CN-1.6.1-107622275	OPEN	2024-04-08T02:16:58Z
+148132	Remove: Dropbox.Dash version 2.92.0	coolplaylinbot:Dropbox.Dash-2.92.0-A6AB7AAA850772161EEA0959FBF5D8B0E750F487	OPEN	2024-04-08T02:07:11Z
+148131	New version: yt-dlp.yt-dlp.nightly version 2024.04.07.232657	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.04.07.232657-970539717	OPEN	2024-04-08T01:21:54Z
+148130	New version: Ryujinx.Ryujinx.Ava version 1.1.1268	Exorcism0666:Ryujinx.Ryujinx.Ava-1.1.1268-438776254	OPEN	2024-04-08T01:21:52Z
+148129	New version: Ryujinx.Ryujinx version 1.1.1268	Exorcism0666:Ryujinx.Ryujinx-1.1.1268-1533998728	OPEN	2024-04-08T01:21:52Z
+148128	New version: electerm.electerm version 1.38.60	Exorcism0666:electerm.electerm-1.38.60-FC951579AAB04AC78C4D8450C0420E1B	OPEN	2024-04-08T01:21:23Z
+148127	New version: JohnMacFarlane.Pandoc version 3.1.13	Exorcism0666:JohnMacFarlane.Pandoc-3.1.13-7C5415F0B2444843988158DAC150BFA3	OPEN	2024-04-08T01:21:19Z
 148126	Remove: Datronicsoft.SpacedeskDriver.Server version 2.1.13.0	coolplaylinbot:Datronicsoft.SpacedeskDriver.Server-2.1.13.0-E19C98A8796D2E841AC36A22F9A6BE35446D0557	OPEN	2024-04-08T01:00:33Z
 148125	Remove: Datronicsoft.SpacedeskDriver.Server version 2.1.14.0	coolplaylinbot:Datronicsoft.SpacedeskDriver.Server-2.1.14.0-C72E38DD5D046F8BA08F856BE794EBB6C841AC00	OPEN	2024-04-08T01:00:21Z
 148124	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_afa7b632-c476-4653-be80-3eea8c9a5751	OPEN	2024-04-08T00:48:29Z
