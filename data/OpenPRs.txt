@@ -1,3 +1,20 @@
+148160	New version: Jackett.Jackett version 0.21.2324	Jackett:Jackett.Jackett-0.21.2324-DD77DE8FABBC48DE8DCB308A7F6454EE7C6597D9	OPEN	2024-04-08T05:53:58Z
+148159	Remove: Alibaba.aDrive version 4.9.11	coolplaylinbot:Alibaba.aDrive-4.9.11-3B04A84F644B524C15CBCFEEFF3D1EBB688B2478	OPEN	2024-04-08T05:41:24Z
+148158	Remove: Alibaba.aDrive version 4.9.10	coolplaylinbot:Alibaba.aDrive-4.9.10-5C9FCDF3F995DB42881431F5C4DA62C36CF88B9B	OPEN	2024-04-08T05:39:13Z
+148157	Bosyun.BoardMix.CN version 1.6.1	vedantmgoyal9:Bosyun.BoardMix.CN-1.6.1-3963c879-2b38-4742-b7a4-81cd43965a62	OPEN	2024-04-08T05:34:03Z
+148156	Remove: AgileStudio.33ZiMu version 0.8.0	coolplaylinbot:AgileStudio.33ZiMu-0.8.0-FF9430BDF61E2046E6B02384C1A54EC429FB7754	OPEN	2024-04-08T04:54:50Z
+148155	Remove: AgileStudio.33ZiMu version 0.4.0	coolplaylinbot:AgileStudio.33ZiMu-0.4.0-9F21EF1DB281559E4F347F734C76C801E160D8B8	OPEN	2024-04-08T04:54:48Z
+148154	Remove: AgileStudio.33ZiMu version 0.5.0	coolplaylinbot:AgileStudio.33ZiMu-0.5.0-332505875C3242AA6FDC725788AC615D5CDAB968	OPEN	2024-04-08T04:54:46Z
+148153	Remove: AgileStudio.33ZiMu version 0.7.0	coolplaylinbot:AgileStudio.33ZiMu-0.7.0-D1E181540B5A550E24288EE03BA4921C0E93E27B	OPEN	2024-04-08T04:54:44Z
+148152	Remove: AgileStudio.33ZiMu version 0.7.1	coolplaylinbot:AgileStudio.33ZiMu-0.7.1-0245E90F819D2D903A39E65DA47A17DB9B30C9A7	OPEN	2024-04-08T04:53:42Z
+148151	Remove: AxisCommunicationsAB.AXISCameraStation version 5.57.22317	coolplaylinbot:AxisCommunicationsAB.AXISCameraStation-5.57.22317-D69A76EBA3B6BA274B820EEB0402F35D903288E6	OPEN	2024-04-08T04:44:16Z
+148150	New version: Thunder.Thunder version 12.0.11.2480	SpecterShell:Thunder.Thunder-12.0.11.2480-893184562	OPEN	2024-04-08T04:15:24Z
+148149	New version: Tencent.WeCom version 4.1.22.6009	SpecterShell:Tencent.WeCom-4.1.22.6009-650029570	OPEN	2024-04-08T04:13:11Z
+148148	Update: EuSoft.Frhelper version 13.0.0.0 (13.6.0)	SpecterShell:EuSoft.Frhelper-13.0.0.0-1670341207	OPEN	2024-04-08T04:10:38Z
+148147	Update: EuSoft.Dehelper version 13.0.0.0 (13.6.0)	SpecterShell:EuSoft.Dehelper-13.0.0.0-634431323	OPEN	2024-04-08T04:10:37Z
+148146	Update: EuSoft.Eshelper version 13.0.0.0 (13.6.0)	SpecterShell:EuSoft.Eshelper-13.0.0.0-1036792939	OPEN	2024-04-08T04:10:37Z
+148145	Remove: Appest.Dida version 5.3.0.0	coolplaylinbot:Appest.Dida-5.3.0.0-8E58F67167DF220D9BB4F09D450171DA47EA3AAB	OPEN	2024-04-08T03:44:53Z
+148144	Remove: ArchiMateTool.Archi version 5.2.0	coolplaylinbot:ArchiMateTool.Archi-5.2.0-F816122883296B76247D95F3D966E186AC579BE3	OPEN	2024-04-08T03:34:37Z
 148143	New version: Kingsoft.WPSOffice version 12.2.0.16731	SpecterShell:Kingsoft.WPSOffice-12.2.0.16731-1618742950	OPEN	2024-04-08T03:10:36Z
 148142	Remove: Dell.DisplayManager version 2.3.0.19	coolplaylinbot:Dell.DisplayManager-2.3.0.19-45A7069957FA7BFF2ACC1B283EE7E0515E111C05	OPEN	2024-04-08T03:02:04Z
 148141	Remove: Dell.DisplayManager version 2.1.1.17	coolplaylinbot:Dell.DisplayManager-2.1.1.17-3345A147A7EBA8D37FCF928A8EFAA0CE4C5B9981	OPEN	2024-04-08T03:02:00Z
@@ -409,7 +426,6 @@
 141643	Automatic update of Getscreenme.Agent from 2.15.7 to 2.18.1	wingetbot:AutomaticUpdate_af8c7c43-8922-4a82-965a-fd0699dd89d0	OPEN	2024-03-01T21:37:55Z
 141520	New Package: Soundux.Soundux version 0.2.7	og-mrk:update-manifest/Soundux.Soundux	DRAFT	2024-02-29T21:00:07Z
 141474	New version: charmbracelet.confettysh 1.1.1	charmbracelet:confettysh-1.1.1	OPEN	2024-02-29T15:34:01Z
-141294	Add version: shirowanisan.COEIROINK version 1.0.1	Exorcism0666:shirowanisan.COEIROINK-1.0.1-D883C85E0FCD445692F5D91B51BE79C3	OPEN	2024-02-28T09:54:16Z
 141230	Automatic update of NAVER.Vaccine from 2021.5.7.1 to 2023.6.12.2	wingetbot:AutomaticUpdate_415ea5e7-83af-48b8-badf-d01279dbc3b8	OPEN	2024-02-27T23:56:39Z
 141183	New Version: VMware.WorkstationPro version 17.5.1.23298084	virtualex-itv:VMware.WorkstationPro-17.5.1	OPEN	2024-02-27T19:34:52Z
 141182	New Version: VMware.WorkstationPlayer version 17.5.1.23298084	virtualex-itv:VMware.WorkstationPlayer-17.5.1	OPEN	2024-02-27T19:34:37Z
