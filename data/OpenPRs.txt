@@ -1,3 +1,10 @@
+148194	Add MongoDB.Compass.Full 1.42.5.0	rodrigoborgesdeoliveira:compass/full/1.42.5	DRAFT	2024-04-08T15:02:03Z
+148193	New version: ErikAraojo.FintX version 2.1.0	namigop:ErikAraojo.FintX-2.1.0-65a0741a-32cf-41b2-98c3-79db0c3f9c03	OPEN	2024-04-08T15:00:05Z
+148192	New version: Suwayomi.Tachidesk-JUI version 1.3.3	TejasMate:Suwayomi.Tachidesk-JUI-1.3.3-F913D8DCFA6D432ABA86F1D0CD244E61	OPEN	2024-04-08T14:41:20Z
+148191	ttu-base-suite-2000 20.00.10.00	tdclienttools:base-20.00.10.00	OPEN	2024-04-08T14:41:10Z
+148190	New version: FutureScholars.Paperlib version 3.0.9	SpecterShell:FutureScholars.Paperlib-3.0.9-2056907577	OPEN	2024-04-08T14:09:41Z
+148189	New version: Tyrrrz.LightBulb version 2.4.10	Exorcism0666:Tyrrrz.LightBulb-2.4.10-1661065673	OPEN	2024-04-08T13:21:44Z
+148188	New version: Spotify.Spotify version 1.2.35.663.gb699649e (1.2.35.663)	SpecterShell:Spotify.Spotify-1.2.35.663.gb699649e-326503948	OPEN	2024-04-08T13:12:18Z
 148187	New version: Tencent.TencentVideo version 11.91.9025.0	SpecterShell:Tencent.TencentVideo-11.91.9025.0-1018522338	OPEN	2024-04-08T12:14:43Z
 148186	New version: LLVM.LLVM version 18.1.3	SpecterShell:LLVM.LLVM-18.1.3-2017075387	OPEN	2024-04-08T12:13:49Z
 148185	New package: DonHOdon.h@free.fr.Notepad++ version 8.6.0.0	bjarnisveinsson:DonHOdon.h@free.fr.Notepad++-8.6.0.0-134e5ed3-e680-4fbc-8bd2-cef16d72219f	OPEN	2024-04-08T12:06:13Z
@@ -6,7 +13,6 @@
 148182	New version: stacklok.minder 0.0.41	stacklok:minder-0.0.41	OPEN	2024-04-08T11:15:43Z
 148181	live777-0.4.1	Yin-ZP:live777	OPEN	2024-04-08T11:12:46Z
 148180	Add AGSProjectTeam.AdventureGameStudio 3.6.1.23	rodrigoborgesdeoliveira:ags/3.6.1.23	OPEN	2024-04-08T11:11:38Z
-148179	New version: WHTA.Tamara version 2024.0.0.14	lars-whta:WHTA.Tamara-2024.0.0.14-93e09aba-7e99-4101-a074-6cb8326e3a5e	OPEN	2024-04-08T11:09:56Z
 148178	New version: gjergj.testmyapp 0.0.38	Gjergj:testmyapp-v0.0.38	OPEN	2024-04-08T10:34:08Z
 148177	New version: Seewo.EasiNote version 5.2.4.6953	SpecterShell:Seewo.EasiNote-5.2.4.6953-847006589	OPEN	2024-04-08T10:17:15Z
 148176	New version: Google.Chrome.Canary version 125.0.6406.0	SpecterShell:Google.Chrome.Canary-125.0.6406.0-1197658575	OPEN	2024-04-08T10:12:56Z
