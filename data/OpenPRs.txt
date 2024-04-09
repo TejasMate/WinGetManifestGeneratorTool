@@ -1,4 +1,25 @@
-148293	New version: Seewo.EasiClass version 2.1.22.6389	SpecterShell:Seewo.EasiClass-2.1.22.6389-323050751	OPEN	2024-04-09T09:12:21Z
+148317	SFProc.SFProcApp version 3.12.86	NativeTeamVenn:SFProc.SFProcApp-3.12.86-c6501e9f-d2f7-4de5-b2d2-3d023a2bd10c	OPEN	2024-04-09T12:15:07Z
+148316	New package: aome510.spotify-player version 0.17.1	250h:250h-patch-1	OPEN	2024-04-09T12:13:37Z
+148315	New version: Bilibili.Livehime version 5.2.0.6685	SpecterShell:Bilibili.Livehime-5.2.0.6685-515377587	OPEN	2024-04-09T12:12:10Z
+148314	New version: stacklok.minder 0.0.42	stacklok:minder-0.0.42	OPEN	2024-04-09T11:46:40Z
+148313	Modify: Microsoft.RemoteDesktopClient version 1.2.5326.0	SpecterShell:Microsoft.RemoteDesktopClient-1.2.5326.0-Modify	OPEN	2024-04-09T11:39:15Z
+148312	New version: Element.Element version 1.11.64	SpecterShell:Element.Element-1.11.64-320388078	OPEN	2024-04-09T11:34:41Z
+148311	VoyagerX.Vrew version 1.17.3	vedantmgoyal9:VoyagerX.Vrew-1.17.3-8c06ed8e-f8f0-4547-93d5-83229e64c729	OPEN	2024-04-09T11:23:39Z
+148310	ByteDance.StreamingTool version 7.3.2	vedantmgoyal9:ByteDance.StreamingTool-7.3.2-0553bf37-b6d3-411f-90b5-ffae5315bd11	OPEN	2024-04-09T11:22:53Z
+148309	BinanceTech.Binance version 1.52.0	vedantmgoyal9:BinanceTech.Binance-1.52.0-ed189089-3654-4688-8b1e-d13c0178347f	OPEN	2024-04-09T11:22:00Z
+148308	New version: Toit.Jaguar version 1.32.1	LeonGungadinMogensen:Toit.Jaguar-1.32.1-bd63504e-2bab-41bc-8c1f-d39dfd3aa0eb	OPEN	2024-04-09T11:15:59Z
+148307	New version: Reqable.Reqable version 2.11.1	SpecterShell:Reqable.Reqable-2.11.1-1224129274	OPEN	2024-04-09T11:11:14Z
+148306	Reverting the postman app version to 10.24.16 as v11 version is not available/working as expected	manavbharambe:revertingPostmanAppVersion	OPEN	2024-04-09T10:53:23Z
+148305	Added ImageMagick version 7.1.1-30 that uses an msix installer instead.	dlemstra:imagemagick-msix	OPEN	2024-04-09T10:31:23Z
+148304	Modify: PDFArranger.PDFArranger version 1.10.0	SpecterShell:PDFArranger.PDFArranger-1.10.0-21E8CC78	OPEN	2024-04-09T10:24:26Z
+148303	New version: Nutstore.Nutstore version 7.1.5	SpecterShell:Nutstore.Nutstore-7.1.5-1020943719	OPEN	2024-04-09T10:10:47Z
+148302	New version: ByteDance.StreamingTool version 7.3.2	SpecterShell:ByteDance.StreamingTool-7.3.2-2144297716	OPEN	2024-04-09T10:09:50Z
+148301	Update: Seewo.EasiClass version 1.0.0.2 (2.1.22.6389)	SpecterShell:Seewo.EasiClass-1.0.0.2-59186874	OPEN	2024-04-09T10:09:02Z
+148299	New version: gjergj.testmyapp 0.0.40	Gjergj:testmyapp-v0.0.40	OPEN	2024-04-09T10:01:21Z
+148297	Update: Hitencent.JisuPDFEditor version 3.0 (3.0.5.7)	SpecterShell:Hitencent.JisuPDFEditor-3.0-279769638	OPEN	2024-04-09T09:48:19Z
+148296	ReleaseNotes: XmacsLabs.Mogan version 1.2.5.2	SpecterShell:XmacsLabs.Mogan-1.2.5.2-ReleaseNotes	OPEN	2024-04-09T09:47:33Z
+148295	ReleaseNotes: Tencent.WeCom version 4.1.22.6009	SpecterShell:Tencent.WeCom-4.1.22.6009-ReleaseNotes	OPEN	2024-04-09T09:42:55Z
+148294	New version: Alibaba.DingTalk version 7.5.11-Release.3179106	SpecterShell:Alibaba.DingTalk-7.5.11-Release.3179106-1428273366	OPEN	2024-04-09T09:36:20Z
 148292	New version: evilmartians.lefthook version 1.6.9	mrexox:evilmartians.lefthook-1.6.9-827F860434CD2D160C8E4EBF851890917EDCC383	OPEN	2024-04-09T08:43:26Z
 148291	ShareFile For Windows 24.3.3.0	ravager-dk:SharefileForWindows24.3.3.0	OPEN	2024-04-09T08:27:54Z
 148289	New version: Ruihu.Apifox version 2.5.19	SpecterShell:Ruihu.Apifox-2.5.19-923171419	OPEN	2024-04-09T08:12:03Z
