@@ -1,3 +1,15 @@
+148266	New version: Hitencent.JisuTodo version 3.0.0.1	SpecterShell:Hitencent.JisuTodo-3.0.0.1-107297072	OPEN	2024-04-09T03:10:29Z
+148265	MicrosoftCorporation.PowerToys(Preview)x64 version 0.80.0	AyaanMAG:MicrosoftCorporation.PowerToys(Preview)x64-0.80.0-b0af5346-bdd4-4fb6-b829-2d96cb70503d	OPEN	2024-04-09T02:49:06Z
+148264	New version: B3log.SiYuan version 3.0.8	SpecterShell:B3log.SiYuan-3.0.8-1028361243	OPEN	2024-04-09T02:15:39Z
+148263	WeMod.WeMod version 8.18.0	vedantmgoyal9:WeMod.WeMod-8.18.0-4825dfab-669a-4df6-995f-0b38a2c4a4f0	OPEN	2024-04-09T01:26:44Z
+148262	New version: divVerent.AAAAXY version 1.5.54	Exorcism0666:divVerent.AAAAXY-1.5.54-31DE77896BBC46FC9990C8F39F5E88F0	OPEN	2024-04-09T01:20:48Z
+148261	New version: Oxen.Session version 1.12.1	Exorcism0666:Oxen.Session-1.12.1-F212623066B94244ADB85856BE7FF6E2	OPEN	2024-04-09T01:20:45Z
+148260	New version: Task.Task version 3.36.0	Exorcism0666:Task.Task-3.36.0-F04AECACFF1B4BAEB615F76F63DC0494	OPEN	2024-04-09T01:20:41Z
+148259	New version: errata-ai.Vale version 3.4.1	Exorcism0666:errata-ai.Vale-3.4.1-7E5155F2D7014AF29EB6F01FF383594D	OPEN	2024-04-09T01:20:38Z
+148258	New version: yt-dlp.yt-dlp.nightly version 2024.04.08.232708	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.04.08.232708-824005905	OPEN	2024-04-09T01:20:37Z
+148257	New version: Ryujinx.Ryujinx version 1.1.1269	Exorcism0666:Ryujinx.Ryujinx-1.1.1269-1938711612	OPEN	2024-04-09T01:20:36Z
+148256	New version: SagerNet.sing-box version 1.8.11	Exorcism0666:SagerNet.sing-box-1.8.11-14D83DB816604A1B9183F3AE5A22EA9A	OPEN	2024-04-09T01:20:35Z
+148255	New version: Barry-ran.QtScrcpy version 2.2.1	Exorcism0666:Barry-ran.QtScrcpy-2.2.1-C7DC9E07BE9641C9B9F5162C67D8EF3D	OPEN	2024-04-09T01:20:31Z
 148254	Automatic deletion of spacedrive.Spacedrive 0.2.10	wingetbot:AutomaticUpdate_c2926473-91ec-4113-9a6e-3fbbce2c70b2	OPEN	2024-04-09T00:50:56Z
 148253	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_4965b2ca-d544-4219-a71c-6653cd1392aa	OPEN	2024-04-09T00:50:42Z
 148252	Automatic update of Soundly.Soundly from 2024.03.0.118 to 2024.04.0.123	wingetbot:AutomaticUpdate_5b87857f-0e3e-4b12-80d5-9bc3e8ac9479	OPEN	2024-04-09T00:49:51Z
@@ -10,15 +22,7 @@
 148245	New version: Spicetify.Spicetify version 2.36.4	spicetify:Spicetify.Spicetify-2.36.4-1EE2FB177F145D312B0AECBC86E70051B7FCAA30	OPEN	2024-04-08T23:24:49Z
 148244	New version: vim.vim.nightly version 9.1.0282	vim:vim.vim.nightly-9.1.0282-06B5EB6F1A0F8600A83788BADA615C05392F0AC3	OPEN	2024-04-08T23:24:44Z
 148243	New version: Malwarebytes.Malwarebytes version 4.6.12.323	PckgrBot:Malwarebytes.Malwarebytes-4.6.12.323-4a735eb9-f289-4cce-9ad8-48d5bff4cc6c	OPEN	2024-04-08T23:24:17Z
-148242	New version: Krisp.Krisp version 2.35.5	PckgrBot:Krisp.Krisp-2.35.5-654adab2-fe1f-4d81-a5d5-c9c17388461b	OPEN	2024-04-08T23:23:50Z
 148241	Automatic update of Microsoft.PowerBI from 2.127.1327.0 to 2.128.751.0	wingetbot:AutomaticUpdate_6a2eeecd-5bc1-4805-9f77-975a92f1c302	OPEN	2024-04-08T23:11:08Z
-148240	Automatic update of HiBitSoftware.HiBitUninstaller from 3.1.95.100 to 3.2.10.100	wingetbot:AutomaticUpdate_db8ed9e1-c995-4140-958a-18307147bf84	OPEN	2024-04-08T23:11:07Z
-148239	Automatic update of HiBitSoftware.StartUpManager from 2.6.35.100 to 2.6.40.100	wingetbot:AutomaticUpdate_a8c704c1-bf0d-4726-b973-650a4ad6bba1	OPEN	2024-04-08T23:11:07Z
-148238	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_3924c0b6-8279-40c2-b676-ca3c96013f14	OPEN	2024-04-08T22:55:38Z
-148237	New version: Docker.DockerDesktop version 4.29.0	PckgrBot:Docker.DockerDesktop-4.29.0-e5401c40-d5fe-4f51-a11f-2d3ec802ad0e	OPEN	2024-04-08T22:49:56Z
-148236	New version: SlackTechnologies.Slack version 4.37.101	PckgrBot:SlackTechnologies.Slack-4.37.101-04b2c9f3-1514-4203-9319-ee9eebb98b1d	OPEN	2024-04-08T22:49:24Z
-148235	New version: Iterate.Cyberduck version 8.8.2.41344	PckgrBot:Iterate.Cyberduck-8.8.2.41344-370f5ef0-0edb-46b1-869b-6bc7ee62880e	OPEN	2024-04-08T22:48:35Z
-148234	New version: OliverBetz.ExifTool version 12.82	MaanuelMM:exiftool-12.82	OPEN	2024-04-08T22:42:19Z
 148233	New version: ente-io.photos-desktop version 1.6.63	Trenly:ente-io.photos-desktop-1.6.63-96847677	OPEN	2024-04-08T22:41:02Z
 148232	Fix AGSProjectTeam.AdventureGameStudio 3.6.1.23 hash	rodrigoborgesdeoliveira:ags/3.6.1.23	OPEN	2024-04-08T22:35:50Z
 148231	New package: ente-io.ente.CLI version 0.1.13	Trenly:ente-io.ente.CLI-0.1.13-5D0DE617	OPEN	2024-04-08T22:34:11Z
