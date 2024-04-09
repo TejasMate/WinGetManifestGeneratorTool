@@ -1,45 +1,25 @@
+148277	New version: YY.YY version 9.33.0.0	SpecterShell:YY.YY-9.33.0.0-1051289897	OPEN	2024-04-09T06:13:42Z
+148276	New version: Wondershare.Repairit.CN version 4.0.4.2 (4.0.4)	SpecterShell:Wondershare.Repairit.CN-4.0.4.2-245096610	OPEN	2024-04-09T06:13:38Z
+148275	New version: Alibaba.UCCloudDrive version 1.3.3	SpecterShell:Alibaba.UCCloudDrive-1.3.3-1190157363	OPEN	2024-04-09T06:10:03Z
+148274	New version: Jackett.Jackett version 0.21.2329	Jackett:Jackett.Jackett-0.21.2329-4BF079041DF5E31056462881A22B9C50340A11AF	OPEN	2024-04-09T05:57:57Z
+148273	webrecorder.replayweb-page version 1.8.17	vedantmgoyal9:webrecorder.replayweb-page-1.8.17-173dbc8c-68aa-4a93-ab61-19bc0b89c189	OPEN	2024-04-09T05:26:16Z
+148272	SmartSoft.SmartFTP version 10.0.3215.0	vedantmgoyal9:SmartSoft.SmartFTP-10.0.3215.0-6548de4b-2dd5-4de4-aa61-0adc1b35e0ad	OPEN	2024-04-09T05:26:04Z
+148271	New version: Seewo.AirTeach version 2.0.9.16584	SpecterShell:Seewo.AirTeach-2.0.9.16584-1250810042	OPEN	2024-04-09T05:15:57Z
+148270	whepfrom 0.4.1	Yin-ZP:live777	OPEN	2024-04-09T04:41:21Z
+148269	New version: Ximalaya.XimalayaLive version 4.24.721	SpecterShell:Ximalaya.XimalayaLive-4.24.721-538743550	OPEN	2024-04-09T04:14:14Z
+148268	New version: FarManager.FarManager version 3.0.6300	TheEragon:FarManager.FarManager-3.0.6300-8a877552-f5f8-4b55-ab0a-9e0729b9b001	OPEN	2024-04-09T03:46:32Z
+148267	SmartSoft.SmartFTP version 10.0.3215.0	matbech:SmartSoft.SmartFTP-10.0.3215.0-754d98b4-18d8-4cf5-a652-3a670218824e	OPEN	2024-04-09T03:42:23Z
 148266	New version: Hitencent.JisuTodo version 3.0.0.1	SpecterShell:Hitencent.JisuTodo-3.0.0.1-107297072	OPEN	2024-04-09T03:10:29Z
 148265	MicrosoftCorporation.PowerToys(Preview)x64 version 0.80.0	AyaanMAG:MicrosoftCorporation.PowerToys(Preview)x64-0.80.0-b0af5346-bdd4-4fb6-b829-2d96cb70503d	OPEN	2024-04-09T02:49:06Z
-148264	New version: B3log.SiYuan version 3.0.8	SpecterShell:B3log.SiYuan-3.0.8-1028361243	OPEN	2024-04-09T02:15:39Z
-148263	WeMod.WeMod version 8.18.0	vedantmgoyal9:WeMod.WeMod-8.18.0-4825dfab-669a-4df6-995f-0b38a2c4a4f0	OPEN	2024-04-09T01:26:44Z
-148262	New version: divVerent.AAAAXY version 1.5.54	Exorcism0666:divVerent.AAAAXY-1.5.54-31DE77896BBC46FC9990C8F39F5E88F0	OPEN	2024-04-09T01:20:48Z
-148261	New version: Oxen.Session version 1.12.1	Exorcism0666:Oxen.Session-1.12.1-F212623066B94244ADB85856BE7FF6E2	OPEN	2024-04-09T01:20:45Z
-148260	New version: Task.Task version 3.36.0	Exorcism0666:Task.Task-3.36.0-F04AECACFF1B4BAEB615F76F63DC0494	OPEN	2024-04-09T01:20:41Z
-148259	New version: errata-ai.Vale version 3.4.1	Exorcism0666:errata-ai.Vale-3.4.1-7E5155F2D7014AF29EB6F01FF383594D	OPEN	2024-04-09T01:20:38Z
-148258	New version: yt-dlp.yt-dlp.nightly version 2024.04.08.232708	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.04.08.232708-824005905	OPEN	2024-04-09T01:20:37Z
-148257	New version: Ryujinx.Ryujinx version 1.1.1269	Exorcism0666:Ryujinx.Ryujinx-1.1.1269-1938711612	OPEN	2024-04-09T01:20:36Z
-148256	New version: SagerNet.sing-box version 1.8.11	Exorcism0666:SagerNet.sing-box-1.8.11-14D83DB816604A1B9183F3AE5A22EA9A	OPEN	2024-04-09T01:20:35Z
-148255	New version: Barry-ran.QtScrcpy version 2.2.1	Exorcism0666:Barry-ran.QtScrcpy-2.2.1-C7DC9E07BE9641C9B9F5162C67D8EF3D	OPEN	2024-04-09T01:20:31Z
-148254	Automatic deletion of spacedrive.Spacedrive 0.2.10	wingetbot:AutomaticUpdate_c2926473-91ec-4113-9a6e-3fbbce2c70b2	OPEN	2024-04-09T00:50:56Z
 148253	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_4965b2ca-d544-4219-a71c-6653cd1392aa	OPEN	2024-04-09T00:50:42Z
-148252	Automatic update of Soundly.Soundly from 2024.03.0.118 to 2024.04.0.123	wingetbot:AutomaticUpdate_5b87857f-0e3e-4b12-80d5-9bc3e8ac9479	OPEN	2024-04-09T00:49:51Z
-148251	New version: dbeaver.dbeaver version 24.0.2	PckgrBot:dbeaver.dbeaver-24.0.2-cce9c0ae-ee9f-4825-b988-e46444f3bbfb	OPEN	2024-04-08T23:27:16Z
-148250	Microsoft.Edge.Beta version 124.0.2478.27	vedantmgoyal9:Microsoft.Edge.Beta-124.0.2478.27-1582f297-f2a6-48a1-adf5-24290371ba8d	OPEN	2024-04-08T23:27:13Z
-148249	KirillOsenkov.MSBuildStructuredLogViewer version 2.2.226	vedantmgoyal9:KirillOsenkov.MSBuildStructuredLogViewer-2.2.226-de76bb46-2a80-4fe4-80ff-4f83b2e05cb3	OPEN	2024-04-08T23:26:10Z
-148248	Discord.Discord.Canary version 1.0.212	vedantmgoyal9:Discord.Discord.Canary-1.0.212-b6dc4e57-9f01-45cc-b908-42c0e33d061f	OPEN	2024-04-08T23:25:55Z
 148247	Appest.Dida version 5.3.0.0	vedantmgoyal9:Appest.Dida-5.3.0.0-9d38f70f-7ee5-44fc-90c6-cef15a84ef2f	OPEN	2024-04-08T23:25:45Z
-148246	AAAInternetPublishing.WTFast version 5.5.10.0	vedantmgoyal9:AAAInternetPublishing.WTFast-5.5.10.0-fe7b0e43-d21c-4c32-aadf-aa31827795fe	OPEN	2024-04-08T23:25:14Z
-148245	New version: Spicetify.Spicetify version 2.36.4	spicetify:Spicetify.Spicetify-2.36.4-1EE2FB177F145D312B0AECBC86E70051B7FCAA30	OPEN	2024-04-08T23:24:49Z
-148244	New version: vim.vim.nightly version 9.1.0282	vim:vim.vim.nightly-9.1.0282-06B5EB6F1A0F8600A83788BADA615C05392F0AC3	OPEN	2024-04-08T23:24:44Z
-148243	New version: Malwarebytes.Malwarebytes version 4.6.12.323	PckgrBot:Malwarebytes.Malwarebytes-4.6.12.323-4a735eb9-f289-4cce-9ad8-48d5bff4cc6c	OPEN	2024-04-08T23:24:17Z
-148241	Automatic update of Microsoft.PowerBI from 2.127.1327.0 to 2.128.751.0	wingetbot:AutomaticUpdate_6a2eeecd-5bc1-4805-9f77-975a92f1c302	OPEN	2024-04-08T23:11:08Z
 148233	New version: ente-io.photos-desktop version 1.6.63	Trenly:ente-io.photos-desktop-1.6.63-96847677	OPEN	2024-04-08T22:41:02Z
-148232	Fix AGSProjectTeam.AdventureGameStudio 3.6.1.23 hash	rodrigoborgesdeoliveira:ags/3.6.1.23	OPEN	2024-04-08T22:35:50Z
-148231	New package: ente-io.ente.CLI version 0.1.13	Trenly:ente-io.ente.CLI-0.1.13-5D0DE617	OPEN	2024-04-08T22:34:11Z
-148230	Automatic update of Google.ChromeRemoteDesktop from 123.0.6312.16 to 124.0.6367.18	wingetbot:AutomaticUpdate_12093249-26e2-44bb-b175-c571e567e2e9	OPEN	2024-04-08T22:27:33Z
-148229	Remove ente-io.ente 1.4.1 to ente-io.photos-desktop 1.4.1	Trenly:Remove-ente-io.ente-v1.4.1-F7519C0E	OPEN	2024-04-08T22:27:06Z
-148228	Move ente-io.ente 1.4.1 to ente-io.photos-desktop 1.4.1	Trenly:Move-ente-io.ente-v1.4.1-F7519C0E	OPEN	2024-04-08T22:27:03Z
-148227	New version: Bitwarden.Bitwarden version 2024.3.2	MaanuelMM:bitwarden-client-2024.3.2	OPEN	2024-04-08T22:22:18Z
 148226	New Package: ente-io.ente.Auth version 2.0.50+250	Trenly:ente-io.ente-2.0.50-DD5DCF68	OPEN	2024-04-08T22:20:18Z
-148225	New package: MeinbergGlobal.NTP version 4.2.8p15a	Trenly:MeinbergGlobal.NTP-4.2.8p15a-BFC5A893	OPEN	2024-04-08T22:08:00Z
 148224	New package: YAHB version 1.0.8.0	asdfjkl:asdfjkl.YAHB-1.0.8.0-ca659125-ff7b-4599-8491-84c51151707d	OPEN	2024-04-08T21:45:27Z
-148221	Remove: GnuWin32.Grep version 3.5.0	Trenly:GnuWin32.Grep-3.5.0-B33D6B15	OPEN	2024-04-08T21:10:28Z
 148219	New version: Microsoft.VisualStudio.2022.Community version 17.9.5	Trenly:Microsoft.VisualStudio.2022.Community-17.9.5-0A73C432	OPEN	2024-04-08T20:56:59Z
-148211	New version: WHTA.Tamara version 2024.0.0.15	lars-whta:WHTA.Tamara-2024.0.0.15-525c4885-276d-4d83-a248-ab301d866166	OPEN	2024-04-08T20:02:18Z
 148207	New version: Oven-sh.Bun.Baseline version 1.1.3	mdanish-kh:Oven-sh.Bun.Baseline-1.1.3-9d87a31f-ad63-4176-a2d1-d15954a6a267	OPEN	2024-04-08T17:36:14Z
 148192	New version: Suwayomi.Tachidesk-JUI version 1.3.3	TejasMate:Suwayomi.Tachidesk-JUI-1.3.3-F913D8DCFA6D432ABA86F1D0CD244E61	OPEN	2024-04-08T14:41:20Z
 148185	New package: DonHOdon.h@free.fr.Notepad++ version 8.6.0.0	bjarnisveinsson:DonHOdon.h@free.fr.Notepad++-8.6.0.0-134e5ed3-e680-4fbc-8bd2-cef16d72219f	OPEN	2024-04-08T12:06:13Z
-148168	New version: Alibaba.UCCloudDrive version 1.3.2	SpecterShell:Alibaba.UCCloudDrive-1.3.2-1804389498	OPEN	2024-04-08T08:11:12Z
 148151	Remove: AxisCommunicationsAB.AXISCameraStation version 5.57.22317	coolplaylinbot:AxisCommunicationsAB.AXISCameraStation-5.57.22317-D69A76EBA3B6BA274B820EEB0402F35D903288E6	OPEN	2024-04-08T04:44:16Z
 148144	Remove: ArchiMateTool.Archi version 5.2.0	coolplaylinbot:ArchiMateTool.Archi-5.2.0-F816122883296B76247D95F3D966E186AC579BE3	OPEN	2024-04-08T03:34:37Z
 148132	Remove: Dropbox.Dash version 2.92.0	coolplaylinbot:Dropbox.Dash-2.92.0-A6AB7AAA850772161EEA0959FBF5D8B0E750F487	OPEN	2024-04-08T02:07:11Z
