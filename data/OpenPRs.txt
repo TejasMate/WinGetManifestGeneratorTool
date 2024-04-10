@@ -1,23 +1,22 @@
-148413	Automatic deletion of eVenture.HideMe 3.16.3	wingetbot:AutomaticUpdate_d3fecdb2-a508-4ef4-8ffa-8d7f9f7a20dc	OPEN	2024-04-09T20:51:42Z
-148412	New version: Telegram.TelegramDesktop version 4.16.6	PckgrBot:Telegram.TelegramDesktop-4.16.6-f8c3c25d-ae1c-4940-9615-1830e145b162	OPEN	2024-04-09T20:50:31Z
-148411	New version: 64Gram.64Gram version 1.1.17	hlqviet:64Gram.64Gram-1.1.17-C6375912E5E04CDD9E5B2D84323A3506	OPEN	2024-04-09T20:49:36Z
-148410	New version: Cisco.CiscoWebexMeetings version 44.4.0.159	PckgrBot:Cisco.CiscoWebexMeetings-44.4.0.159-ab027634-bb91-4b36-9b25-f7c3d22bb097	OPEN	2024-04-09T20:49:35Z
-148409	Automatic update of eVenture.HideMe from 3.16.3 to 3.17.0	wingetbot:AutomaticUpdate_232df066-2e4e-4850-b907-ae888f789a5f	OPEN	2024-04-09T20:45:49Z
-148408	Automatic update of Automox.AutomoxAgent from 1.42.22 to 1.43.135	wingetbot:AutomaticUpdate_596a1f6f-0ec6-45c8-bc04-950b373a12ca	OPEN	2024-04-09T20:41:24Z
+148453	New version: CologneCodeCompany.XYplorer version 25.80.0300	The-Running-Dev:CologneCodeCompany.XYplorer-25.80.0300-bd971278-52de-4b6d-9a45-dc0e3b7f2046	OPEN	2024-04-10T01:00:09Z
+148452	Update Google.GoogleUpdate 1.3.36.372	Trenly:GoogleUpdate	OPEN	2024-04-10T00:59:20Z
+148451	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_31c4e895-d817-4a1b-b320-d282eb45a96c	OPEN	2024-04-10T00:54:04Z
+148450	Automatic deletion of Soundly.Soundly 2024.03.0.118	wingetbot:AutomaticUpdate_1f058426-5ed7-471d-b9d6-a861733abfd2	OPEN	2024-04-10T00:54:02Z
+148449	Automatic update of Datto.CloudContinuityAgent from 3.0.17.5 to 3.0.19.1	wingetbot:AutomaticUpdate_c29a1a46-3714-481c-9b94-ba050162c656	OPEN	2024-04-10T00:05:18Z
+148448	New version: LGUG2Z.whkd version 0.2.1	LGUG2Z:LGUG2Z.whkd-0.2.1-6D2BB58129814BF509FE49F04AFB9B60AECD66C4	OPEN	2024-04-10T00:04:42Z
+148446	New version: Unibo.Alchemist version 33.0.7	DanySK:Unibo.Alchemist-33.0.7-d28cecf0-a0dc-4232-9f5a-68fa7709a56c	OPEN	2024-04-09T23:58:25Z
+148443	Microsoft.Edge.Dev version 125.0.2506.0	vedantmgoyal9:Microsoft.Edge.Dev-125.0.2506.0-d85982fd-e4d5-435b-9731-6e3a67aa2bc9	OPEN	2024-04-09T23:28:38Z
+148442	Erlang.ErlangOTP version 24.3.4.17	vedantmgoyal9:Erlang.ErlangOTP-24.3.4.17-5900a303-6405-4b83-b3d8-1ba73d05bf17	OPEN	2024-04-09T23:26:22Z
+148436	Automatic deletion of Cisco.CiscoWebexMeetings 44.3.0.146	wingetbot:AutomaticUpdate_8d70cd21-2666-4059-815b-9d083ac64ab5	OPEN	2024-04-09T23:05:05Z
+148434	Add TheDocumentFoundation.LibreOffice.LTS 7.6.6.3	rodrigoborgesdeoliveira:libreoffice/7.6.6.3	OPEN	2024-04-09T23:03:26Z
+148432	New version: Bluebeam.Revu.21 version 21.1.0	PckgrBot:Bluebeam.Revu.21-21.1.0-4245b4c1-e1ac-403f-89a0-b8b72431ea2f	OPEN	2024-04-09T22:42:50Z
+148422	Automatic update of UweSieber.USBDLM from 5.5.11.0 to 5.6.0.0	wingetbot:AutomaticUpdate_00ee000e-3745-44e7-91ea-c1e7558bd018	OPEN	2024-04-09T22:09:21Z
+148421	New version: JetBrains.dotUltimate version 2024.1	SpecterShell:JetBrains.dotUltimate-2024.1-1766961815	OPEN	2024-04-09T22:07:25Z
+148418	New version: ThePandemoniumInstitute.BloodontheClocktowerOnline version 3.23.2	pikcube:ThePandemoniumInstitute.BloodontheClocktowerOnline-3.23.2-e4ab9682-b20c-4855-885a-e3ea1d7c7578	OPEN	2024-04-09T21:48:26Z
 148407	Automatic update of ArobasMusic.GuitarPro.8 from 8.1.1-17 to 8.1.2.27	wingetbot:AutomaticUpdate_f7eea850-4b9d-43e1-901d-9665fd98d324	OPEN	2024-04-09T20:23:10Z
-148406	New version: dnGrep.dnGrep version 4.1.92.0	dnGrep:dnGrep.dnGrep-4.1.92.0-8D7F969241D338753583D3EA4576564AB08134EB	OPEN	2024-04-09T20:19:52Z
 148405	Automatic update of Argotronic.ArgusMonitor from 7.0.6.2741 to 7.0.6.2742	wingetbot:AutomaticUpdate_73e3e7d3-1eab-4aeb-a012-b9d74edb4303	OPEN	2024-04-09T20:17:16Z
-148404	Remove version: WHTA.Tamara 2024.0.0.5	lars-whta:master	OPEN	2024-04-09T20:14:34Z
-148403	New version: Google.Chrome.Canary version 125.0.6409.0	SpecterShell:Google.Chrome.Canary-125.0.6409.0-677463376	OPEN	2024-04-09T20:11:05Z
-148402	New version: ElectronicArts.EADesktop version 13.173.0.5686	SpecterShell:ElectronicArts.EADesktop-13.173.0.5686-921269241	OPEN	2024-04-09T20:10:40Z
 148399	Automatic deletion of DuoSecurity.Duo2FAAuthenticationforWindows 4.3.0.4367	wingetbot:AutomaticUpdate_723df426-c805-4ca2-accd-ceb585242a26	OPEN	2024-04-09T19:50:31Z
-148398	Automatic update of DuoSecurity.Duo2FAAuthenticationforWindows from 4.3.0.4367 to 4.3.1.4861	wingetbot:AutomaticUpdate_022169dc-bbf0-468c-a11b-a96fcbf7bf13	OPEN	2024-04-09T19:45:49Z
 148396	Automatic deletion of Doist.Todoist 9.1.1	wingetbot:AutomaticUpdate_91464777-7e93-471b-b0b2-596a11b7ea77	OPEN	2024-04-09T19:38:14Z
-148394	Automatic update of Doist.Todoist from 9.1.1 to 9.1.3	wingetbot:AutomaticUpdate_51d00f7b-2404-400d-b1bc-ee8286ec43d1	OPEN	2024-04-09T19:33:41Z
-148392	New version: BestNotes.BestNotes version 3.1.0	pikcube:BestNotes.BestNotes-3.1.0-3e6566f9-7c5e-48fa-b37b-d0238e3f97c3	OPEN	2024-04-09T19:14:41Z
-148389	New version: Microsoft.Teams version 24060.2623.2790.8046	SpecterShell:Microsoft.Teams-24060.2623.2790.8046-1501237876	OPEN	2024-04-09T19:11:46Z
-148386	New version: BartoszCichecki.LenovoLegionToolkit version 2.21.0	SpecterShell:BartoszCichecki.LenovoLegionToolkit-2.21.0-1473827249	OPEN	2024-04-09T19:09:03Z
-148384	New version: ThePandemoniumInstitute.BloodontheClocktowerOnline version 3.23.2	pikcube:ThePandemoniumInstitute.BloodontheClocktowerOnline-3.23.2-7802e0ad-8229-42b3-9dbc-64e7a27432bd	OPEN	2024-04-09T18:51:50Z
 148381	Microsoft.VisualStudio.2022.Community.Preview version 17.10.0	edwardskrod:autogenerated/Microsoft.VisualStudio.2022.Community.Preview/2651d553-7719-4cb3-be61-6323610a395f	OPEN	2024-04-09T18:02:19Z
 148380	Microsoft.VisualStudio.2022.Professional.Preview version 17.10.0	edwardskrod:autogenerated/Microsoft.VisualStudio.2022.Professional.Preview/64217eeb-2a59-4aa9-99c6-8eddae18b18e	OPEN	2024-04-09T18:02:08Z
 148379	Microsoft.VisualStudio.2022.Enterprise.Preview version 17.10.0	edwardskrod:autogenerated/Microsoft.VisualStudio.2022.Enterprise.Preview/4b52f1a0-c916-42af-9c7b-bccd41d59848	OPEN	2024-04-09T18:01:57Z
@@ -25,7 +24,6 @@
 148372	Microsoft.VisualStudio.2022.Community version 17.9.6	edwardskrod:autogenerated/Microsoft.VisualStudio.2022.Community/6c2ca371-ce27-4fcd-869a-37939a15d4e8	OPEN	2024-04-09T17:21:41Z
 148351	New version: Tencent.QQ version 9.7.23.240409	SpecterShell:Tencent.QQ-9.7.23.240409-1490332211	OPEN	2024-04-09T14:13:46Z
 148292	New version: evilmartians.lefthook version 1.6.9	mrexox:evilmartians.lefthook-1.6.9-827F860434CD2D160C8E4EBF851890917EDCC383	OPEN	2024-04-09T08:43:26Z
-148253	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_4965b2ca-d544-4219-a71c-6653cd1392aa	OPEN	2024-04-09T00:50:42Z
 148247	Appest.Dida version 5.3.0.0	vedantmgoyal9:Appest.Dida-5.3.0.0-9d38f70f-7ee5-44fc-90c6-cef15a84ef2f	OPEN	2024-04-08T23:25:45Z
 148233	New version: ente-io.photos-desktop version 1.6.63	Trenly:ente-io.photos-desktop-1.6.63-96847677	OPEN	2024-04-08T22:41:02Z
 148226	New Package: ente-io.ente.Auth version 2.0.50+250	Trenly:ente-io.ente-2.0.50-DD5DCF68	OPEN	2024-04-08T22:20:18Z
