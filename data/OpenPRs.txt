@@ -1,44 +1,32 @@
-148514	New version: Tencent.QQ.NT version 9.9.9.22868 (9.9.9)	SpecterShell:Tencent.QQ.NT-9.9.9.22868-245786328	OPEN	2024-04-10T15:14:08Z
+148535	New version: Google.Chrome.EXE version 123.0.6312.123	SpecterShell:Google.Chrome.EXE-123.0.6312.123-229636075	OPEN	2024-04-10T18:11:18Z
+148534	New version: Google.Chrome version 123.0.6312.122	SpecterShell:Google.Chrome-123.0.6312.122-211826135	OPEN	2024-04-10T18:11:11Z
+148533	New version: Kitware.ParaView version 5.12.0	Exorcism0666:Kitware.ParaView-5.12.0-576259D7EC364C9E82844BE3898033E8	OPEN	2024-04-10T17:52:04Z
+148532	FireDaemon OpenSSL 3.2.1	firedaemon-ceo:FireDaemon.OpenSSL-3.2.1-6e4406f8-e081-4762-a255-0a739eea575e	OPEN	2024-04-10T17:38:57Z
+148531	Add version: OpenJS.NodeJS.LTS version 18.20.2	coolplaylinbot:OpenJS.NodeJS.LTS-18.20.2-0103B8D0FE014BD780D7DF8F06F9D47A	OPEN	2024-04-10T17:11:55Z
+148530	New version: OpenJS.NodeJS.LTS version 20.12.2	coolplaylinbot:OpenJS.NodeJS.LTS-20.12.2-9B4C4D6350CF4740974786C5DFE21638	OPEN	2024-04-10T17:11:48Z
+148529	New version: JetBrains.WebStorm.EAP version 241.15989.9	SpecterShell:JetBrains.WebStorm.EAP-241.15989.9-296251241	OPEN	2024-04-10T17:10:05Z
+148528	New version: Nvidia.CUDA version 12.4.1	Exorcism0666:Nvidia.CUDA-12.4.1-F97D5DD48EB64DA08316E07B485E627B	OPEN	2024-04-10T16:54:01Z
+148527	New package: CoreFTP.CoreFTP version 2.2.1960	Exorcism0666:CoreFTP.CoreFTP-2.2.1960-24ed8e04-1a23-478a-82ef-ea992b23b1d7	OPEN	2024-04-10T16:51:04Z
+148526	New package: XlightFTP.XlightFTP version 3.9.4.1	Exorcism0666:XlightFTP.XlightFTP-3.9.4.1-946ec51d-bd2b-41b5-bb8a-f82c882ebbc0	OPEN	2024-04-10T16:40:27Z
+148524	Prey.Prey version 1.12.5	vedantmgoyal9:Prey.Prey-1.12.5-1d628816-154f-407b-9eb8-a70fccb7aa71	OPEN	2024-04-10T16:33:53Z
+148523	JackieLiu.NotepadsApp version 1.5.4.0	vedantmgoyal9:JackieLiu.NotepadsApp-1.5.4.0-0701032e-9308-4173-ae8c-be84a6029403	OPEN	2024-04-10T16:33:36Z
+148522	New version: Microsoft.PowerToys version 0.80.1	crutkas:Microsoft.PowerToys-0.80.1-e668f4f8-cf2e-4833-911e-419a83f1c289	OPEN	2024-04-10T16:33:36Z
+148521	Cloudflare.cloudflared version 2024.4.0	vedantmgoyal9:Cloudflare.cloudflared-2024.4.0-940587a3-acd2-4403-bbe0-c747d1bc2a5d	OPEN	2024-04-10T16:33:13Z
+148516	New package: Microsoft.AzureInformationProtection version 2.18.26.0	Exorcism0666:Microsoft.AzureInformationProtection-2.18.26.0-48b448c6-6a0f-4b18-b2e0-220c4d2b89ba	OPEN	2024-04-10T15:25:55Z
+148515	New version: Ryujinx.Ryujinx version 1.1.1273	Exorcism0666:Ryujinx.Ryujinx-1.1.1273-891333321	OPEN	2024-04-10T15:22:10Z
 148513	New version: Unity.Unity.2022 version 2022.3.24f1	SpecterShell:Unity.Unity.2022-2022.3.24f1-1822660226	OPEN	2024-04-10T15:13:43Z
-148512	New version: Huawei.KooCLI version 5.1.14	SpecterShell:Huawei.KooCLI-5.1.14-1191910868	OPEN	2024-04-10T15:10:42Z
 148510	OneScript 1.9.1	dmpas:feature/onescript-1.9.1	OPEN	2024-04-10T15:01:09Z
-148509	New version: Spyder.Spyder version 5.5.4	drshtmstry:Spyder.Spyder-5.5.4-b857a5ae-490c-456b-9730-0bcb00dcd6fd	OPEN	2024-04-10T14:58:53Z
-148508	Applet Runner Pro version 2.10	japplis:applet-runner-pro-2.10	OPEN	2024-04-10T14:31:22Z
-148507	New version: Nvidia.GeForceNow version 2.0.61.156	SpecterShell:Nvidia.GeForceNow-2.0.61.156-1327942118	OPEN	2024-04-10T14:10:24Z
-148506	New version: Cisco.Webex version 44.4.0.29298	PckgrBot:Cisco.Webex-44.4.0.29298-c4f3b1be-beb6-46ff-b0da-348f09cd2541	OPEN	2024-04-10T13:56:33Z
 148505	New version: Genivia.ugrep version 5.1.4	Genivia:Genivia.ugrep-5.1.4-2A11245AB29E081506A1C89E1A8FAA53C8410055	OPEN	2024-04-10T13:37:36Z
 148503	New version: TheBrowserCompany.Arc version 0.17.2.21183	Exorcism0666:TheBrowserCompany.Arc-0.17.2.21183-8BC010238C294984AD3AF91776614F9C	OPEN	2024-04-10T13:18:21Z
 148502	New version: JetBrains.FleetLauncher.Preview version 1.33.90	SpecterShell:JetBrains.FleetLauncher.Preview-1.33.90-1316652358	OPEN	2024-04-10T13:09:53Z
 148501	New version: evilmartians.lefthook version 1.6.10	mrexox:evilmartians.lefthook-1.6.10-ABF49BE6CDAF34DE1BA1F44E019B1E9FAA2C8F47	OPEN	2024-04-10T12:56:48Z
-148500	New version: Governikus.AusweisApp version 2.1.1	Exorcism0666:Governikus.AusweisApp-2.1.1-1809004464	OPEN	2024-04-10T12:35:41Z
-148499	Add GitQL Version 0.17.0	AmrDeveloper:add_version_0_17	OPEN	2024-04-10T12:33:50Z
-148498	New version: Cloudflare.cloudflared version 2024.4.0	coolplaylinbot:Cloudflare.cloudflared-2024.4.0-AFA56F56C12B4D59A0750BF5FF7A06B8	OPEN	2024-04-10T12:21:27Z
 148496	New version: prefix-dev.pixi version 0.19.0	prefix-dev:prefix-dev.pixi-0.19.0-9B2E91DA6AF99B310AE4A2E05EE9BB2B91C40A5E	OPEN	2024-04-10T11:26:16Z
-148495	SmartSoft.SmartFTP version 10.0.3216.0	vedantmgoyal9:SmartSoft.SmartFTP-10.0.3216.0-1a216716-b9d5-4640-94b2-0e82cf78afe2	OPEN	2024-04-10T11:23:53Z
-148494	New version: Readdle.Spark version 3.15.1 (3.15.1.70843)	SpecterShell:Readdle.Spark-3.15.1-968742228	OPEN	2024-04-10T11:10:01Z
-148493	New version: Google.Chrome.Canary version 125.0.6410.0	SpecterShell:Google.Chrome.Canary-125.0.6410.0-1739998083	OPEN	2024-04-10T11:09:15Z
-148492	New version: Cisco.Webex version 44.4.0.29298	SpecterShell:Cisco.Webex-44.4.0.29298-33E46A2E	OPEN	2024-04-10T09:45:50Z
-148491	VR Photo Converter version 2.2	japplis:vr-photo-converter-2.2	OPEN	2024-04-10T08:49:59Z
-148490	Fix: Bisq.Bisq version 1.9.15	aisgbnok:fix-bisq-1.9.15	OPEN	2024-04-10T08:47:56Z
-148489	Falcosoft.VSTMidiDriver version 2.4.0.1	Falcosoft:Falcosoft.VSTMidiDriver-2.4.0.1-7bf4296d-545d-46a2-b879-49fa967c7404	OPEN	2024-04-10T08:46:32Z
-148488	New version: eTeks.SweetHome3D version 7.3	Exorcism0666:eTeks.SweetHome3D-7.3-1598D71FDCFE47CBAA0B9FE1D07FD2BA	OPEN	2024-04-10T08:24:44Z
-148487	New version: Zettlr.Zettlr version 3.0.5	Exorcism0666:Zettlr.Zettlr-3.0.5-381A30EED9784B53A3F6C738634069E4	OPEN	2024-04-10T08:19:17Z
-148486	New version: TheDocumentFoundation.LibreOffice.HelpPack version 24.2.2.2	Exorcism0666:TheDocumentFoundation.LibreOffice.HelpPack-24.2.2.2-E6CB42A6EEFF4C76B21234EF57C5063D	OPEN	2024-04-10T08:17:10Z
-148485	SmartSoft.SmartFTP version 10.0.3216.0	matbech:SmartSoft.SmartFTP-10.0.3216.0-85fca8d6-d618-4847-aa6f-0c498c4630e5	OPEN	2024-04-10T08:14:45Z
-148484	New version: Termius.Termius version 8.11.0	SpecterShell:Termius.Termius-8.11.0-1470566492	OPEN	2024-04-10T08:12:15Z
-148483	New version: CodecGuide.K-LiteCodecPack.Mega version 18.2.6	Exorcism0666:CodecGuide.K-LiteCodecPack.Mega-18.2.6-C1C3993A2AA94474A817BBE96F2ECB1F	OPEN	2024-04-10T08:12:05Z
 148482	New version: gjergj.testmyapp 0.0.51	Gjergj:testmyapp-v0.0.51	OPEN	2024-04-10T07:35:34Z
 148480	New version: uazo.cromite version 123.0.6312.106	Exorcism0666:uazo.cromite-123.0.6312.106-1724037824	OPEN	2024-04-10T07:21:54Z
-148479	New version: Tencent.TencentMeetingRooms version 3.23.270.598	SpecterShell:Tencent.TencentMeetingRooms-3.23.270.598-1521268249	OPEN	2024-04-10T07:12:29Z
-148478	New version: Tencent.TencentMeeting version 3.25.10.403	SpecterShell:Tencent.TencentMeeting-3.25.10.403-271906673	OPEN	2024-04-10T07:12:19Z
 148476	Microsoft.VisualStudioCode.Insiders.CLI_v1.89.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.Insiders.CLI_v1.89.0	OPEN	2024-04-10T07:06:53Z
-148473	Discord.Discord.Canary version 1.0.214	vedantmgoyal9:Discord.Discord.Canary-1.0.214-7e7a072c-b50f-4f6d-a0be-ea668465eef9	OPEN	2024-04-10T05:25:18Z
 148472	New version: yt-dlp.yt-dlp version 2024.04.09	aisgbnok:yt-dlp-2024.04.09	OPEN	2024-04-10T05:06:49Z
 148471	New version: Caprine.Caprine version 2.60.1	devCKVargas:Caprine.Caprine-2.60.1-1DB4F74D8B8A428BBD69A0414F703AF0	OPEN	2024-04-10T05:01:39Z
 148470	procgov v2.12.2363.8	lowleveldesign:LowLevelDesign.ProcessGovernor-2.12.2363.8-bcd23c9d-54a7-46f8-b427-9e6ec63a0b8d	OPEN	2024-04-10T04:27:50Z
-148469	New version: Redisant.KafkaAssistant version 1.2.8.0	SpecterShell:Redisant.KafkaAssistant-1.2.8.0-940440200	OPEN	2024-04-10T03:11:19Z
-148468	New version: Huawei.Welink version 7.39.5	SpecterShell:Huawei.Welink-7.39.5-1516691955	OPEN	2024-04-10T03:10:31Z
-148466	whipinto 0.4.1	Yin-ZP:live777	OPEN	2024-04-10T02:34:53Z
 148465	New version: BookxSoftware.BookxNotePro version 2.0.0.1122	SpecterShell:BookxSoftware.BookxNotePro-2.0.0.1122-200946065	OPEN	2024-04-10T02:20:50Z
 148464	New version: vim.vim.nightly version 9.1.0296	vim:vim.vim.nightly-9.1.0296-6B02930320A3BAE3F8C80BC6B40E7538EA4AE519	OPEN	2024-04-10T01:55:35Z
 148462	New version: StandardNotes.StandardNotes version 3.192.13	Exorcism0666:StandardNotes.StandardNotes-3.192.13-4E5D28E04F4F4D32A0C56E3F51AED8D9	OPEN	2024-04-10T01:20:16Z
@@ -47,7 +35,6 @@
 148448	New version: LGUG2Z.whkd version 0.2.1	LGUG2Z:LGUG2Z.whkd-0.2.1-6D2BB58129814BF509FE49F04AFB9B60AECD66C4	OPEN	2024-04-10T00:04:42Z
 148442	Erlang.ErlangOTP version 24.3.4.17	vedantmgoyal9:Erlang.ErlangOTP-24.3.4.17-5900a303-6405-4b83-b3d8-1ba73d05bf17	OPEN	2024-04-09T23:26:22Z
 148436	Automatic deletion of Cisco.CiscoWebexMeetings 44.3.0.146	wingetbot:AutomaticUpdate_8d70cd21-2666-4059-815b-9d083ac64ab5	OPEN	2024-04-09T23:05:05Z
-148434	Add TheDocumentFoundation.LibreOffice.LTS 7.6.6.3	rodrigoborgesdeoliveira:libreoffice/7.6.6.3	OPEN	2024-04-09T23:03:26Z
 148432	New version: Bluebeam.Revu.21 version 21.1.0	PckgrBot:Bluebeam.Revu.21-21.1.0-4245b4c1-e1ac-403f-89a0-b8b72431ea2f	OPEN	2024-04-09T22:42:50Z
 148422	Automatic update of UweSieber.USBDLM from 5.5.11.0 to 5.6.0.0	wingetbot:AutomaticUpdate_00ee000e-3745-44e7-91ea-c1e7558bd018	OPEN	2024-04-09T22:09:21Z
 148421	New version: JetBrains.dotUltimate version 2024.1	SpecterShell:JetBrains.dotUltimate-2024.1-1766961815	OPEN	2024-04-09T22:07:25Z
@@ -82,7 +69,6 @@
 147901	New version: GOMLab.GOMPlayer version 2.3.95.5365	Trenly:GOMLab.GOMPlayer-2.3.95.5365-9A9B8F6D	OPEN	2024-04-05T14:31:39Z
 147898	New version: Ubisoft.Connect version 151.2.11050	Trenly:Ubisoft.Connect-151.2.11050-E4B28445	OPEN	2024-04-05T14:25:27Z
 147897	New version: Sigil-Ebook.PageEdit version 2.1.0	Trenly:Sigil-Ebook.PageEdit-2.1.0-7111490	OPEN	2024-04-05T14:21:53Z
-147896	New version: Baulk.Baulk version 4.3.3.1068	SpecterShell:Baulk.Baulk-4.3.3-207754772	OPEN	2024-04-05T14:10:38Z
 147829	Automatic update of Nvidia.Omniverse from 1.9.8 to 1.9.11.2724	wingetbot:AutomaticUpdate_659919ff-e91a-4ac7-8f6c-a69f033090e3	OPEN	2024-04-05T01:27:34Z
 147766	Automatic deletion of evernote.evernote 10.82.2.20240327123857	wingetbot:AutomaticUpdate_24724e48-84da-40f9-9455-515f7f06ee64	OPEN	2024-04-04T20:45:36Z
 147758	Microsoft.VisualStudioCode.Insiders_v1.89.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.89.0	OPEN	2024-04-04T20:05:02Z
