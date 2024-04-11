@@ -1,92 +1,119 @@
-148678	New version: Grammarly.Grammarly version 1.2.72.1368	SpecterShell:Grammarly.Grammarly-1.2.72.1368-875507712	OPEN	2024-04-11T15:10:00Z
+148771	New version: Unity.Unity.2023 version 2023.2.18f1	SpecterShell:Unity.Unity.2023-2023.2.18f1-866392623	OPEN	2024-04-11T18:16:42Z
+148770	Update version: Gitbutler.GitButler version 0.11.1	damn-b0t:GitButler.GitButler-0.11.1-a339d75b-d15e-4901-a041-376c58fe3f00	OPEN	2024-04-11T18:15:45Z
+148769	Microsoft.VisualStudioCode.CLI_v1.88.1 cli	lszomoru:cliMicrosoft.VisualStudioCode.CLI_v1.88.1	OPEN	2024-04-11T18:07:41Z
+148768	Microsoft.VisualStudioCode_v1.88.1 desktop	lszomoru:desktopMicrosoft.VisualStudioCode_v1.88.1	OPEN	2024-04-11T18:06:31Z
+148767	Remove version: CheatBreaker.CheatBreaker version 2.4.2	Exorcism0666:CheatBreaker.CheatBreaker-2.4.2-961FEAADEB04C06FB7E73BD92909657B36474C20	OPEN	2024-04-11T18:04:20Z
+148766	New version: SteelSeries.GG version 60.1.0	doms9:SteelSeries.GG-60.1.0-5039891D86474B279161C29382CBB4BB	OPEN	2024-04-11T18:00:02Z
+148765	Remove version: calibre.calibre version 7.7.0	Exorcism0666:calibre.calibre-7.7.0-6A234F31EA64B18E812FDFE6DBA30EC9DB207C11	OPEN	2024-04-11T17:38:59Z
+148764	Remove version: calibre.calibre.portable version 7.7.0.0	Exorcism0666:calibre.calibre.portable-7.7.0.0-DD9A16E54D574FC6DB1D7B78C4FC833309706ACE	OPEN	2024-04-11T17:37:44Z
+148763	Update URLs for Microsoft.AzureCLI version 2.58.0	mdanish-kh:Microsoft.AzureCLI-2.58.0-update404Urls	OPEN	2024-04-11T17:35:37Z
+148762	Update URLs for Microsoft.AzureCLI version 2.57.0	mdanish-kh:Microsoft.AzureCLI-2.57.0-update404Urls	OPEN	2024-04-11T17:35:21Z
+148761	Update URLs for Microsoft.AzureCLI version 2.56.0	mdanish-kh:Microsoft.AzureCLI-2.56.0-update404Urls	OPEN	2024-04-11T17:35:03Z
+148760	Update URLs for Microsoft.AzureCLI version 2.55.0	mdanish-kh:Microsoft.AzureCLI-2.55.0-update404Urls	OPEN	2024-04-11T17:34:47Z
+148759	Update URLs for Microsoft.AzureCLI version 2.54.0	mdanish-kh:Microsoft.AzureCLI-2.54.0-update404Urls	OPEN	2024-04-11T17:34:30Z
+148758	Update URLs for Microsoft.AzureCLI version 2.53.1	mdanish-kh:Microsoft.AzureCLI-2.53.1-update404Urls	OPEN	2024-04-11T17:34:14Z
+148757	Update URLs for Microsoft.AzureCLI version 2.53.0	mdanish-kh:Microsoft.AzureCLI-2.53.0-update404Urls	OPEN	2024-04-11T17:33:56Z
+148756	Update URLs for Microsoft.AzureCLI version 2.52.0	mdanish-kh:Microsoft.AzureCLI-2.52.0-update404Urls	OPEN	2024-04-11T17:33:40Z
+148755	Update URLs for Microsoft.AzureCLI version 2.51.0	mdanish-kh:Microsoft.AzureCLI-2.51.0-update404Urls	OPEN	2024-04-11T17:33:24Z
+148754	Update URLs for Microsoft.AzureCLI version 2.50.0	mdanish-kh:Microsoft.AzureCLI-2.50.0-update404Urls	OPEN	2024-04-11T17:33:07Z
+148753	Update URLs for Microsoft.AzureCLI version 2.49.0	mdanish-kh:Microsoft.AzureCLI-2.49.0-update404Urls	OPEN	2024-04-11T17:32:51Z
+148752	Update URLs for Microsoft.AzureCLI version 2.48.1	mdanish-kh:Microsoft.AzureCLI-2.48.1-update404Urls	OPEN	2024-04-11T17:32:35Z
+148751	Update URLs for Microsoft.AzureCLI version 2.48.0	mdanish-kh:Microsoft.AzureCLI-2.48.0-update404Urls	OPEN	2024-04-11T17:32:19Z
+148750	Add Devolutions RemoteDesktopManager version 2024.1.24.0	Devolutions:RDM-WinGet-2024.1.24.0	OPEN	2024-04-11T17:32:16Z
+148749	Add Devolutions Launcher version 2024.1.24.0	Devolutions:Launcher-WinGet-2024.1.24.0	OPEN	2024-04-11T17:32:10Z
+148748	Add Devolutions RemoteDesktopManagerAgent version 2024.1.24.0	Devolutions:RDMAgent-WinGet-2024.1.24.0	OPEN	2024-04-11T17:32:08Z
+148747	Update URLs for Microsoft.AzureCLI version 2.47.0	mdanish-kh:Microsoft.AzureCLI-2.47.0-update404Urls	OPEN	2024-04-11T17:32:02Z
+148746	Update URLs for Microsoft.AzureCLI version 2.46.0	mdanish-kh:Microsoft.AzureCLI-2.46.0-update404Urls	OPEN	2024-04-11T17:31:46Z
+148745	Update URLs for Microsoft.AzureCLI version 2.45.0	mdanish-kh:Microsoft.AzureCLI-2.45.0-update404Urls	OPEN	2024-04-11T17:31:29Z
+148744	Update URLs for Microsoft.AzureCLI version 2.44.1	mdanish-kh:Microsoft.AzureCLI-2.44.1-update404Urls	OPEN	2024-04-11T17:31:13Z
+148743	Update URLs for Microsoft.AzureCLI version 2.44.0	mdanish-kh:Microsoft.AzureCLI-2.44.0-update404Urls	OPEN	2024-04-11T17:30:56Z
+148742	Update URLs for Microsoft.AzureCLI version 2.43.0	mdanish-kh:Microsoft.AzureCLI-2.43.0-update404Urls	OPEN	2024-04-11T17:30:40Z
+148741	Update URLs for Microsoft.AzureCLI version 2.42.0	mdanish-kh:Microsoft.AzureCLI-2.42.0-update404Urls	OPEN	2024-04-11T17:30:23Z
+148740	Update URLs for Microsoft.AzureCLI version 2.41.0	mdanish-kh:Microsoft.AzureCLI-2.41.0-update404Urls	OPEN	2024-04-11T17:30:03Z
+148739	Update URLs for Microsoft.AzureCLI version 2.40.0	mdanish-kh:Microsoft.AzureCLI-2.40.0-update404Urls	OPEN	2024-04-11T17:29:46Z
+148738	Update URLs for Microsoft.AzureCLI version 2.39.0	mdanish-kh:Microsoft.AzureCLI-2.39.0-update404Urls	OPEN	2024-04-11T17:29:29Z
+148737	Update URLs for Microsoft.AzureCLI version 2.38.0	mdanish-kh:Microsoft.AzureCLI-2.38.0-update404Urls	OPEN	2024-04-11T17:28:57Z
+148736	Update URLs for Microsoft.AzureCLI version 2.37.0	mdanish-kh:Microsoft.AzureCLI-2.37.0-update404Urls	OPEN	2024-04-11T17:28:32Z
+148735	Update URLs for Microsoft.AzureCLI version 2.36.0	mdanish-kh:Microsoft.AzureCLI-2.36.0-update404Urls	OPEN	2024-04-11T17:28:11Z
+148734	Update URLs for Microsoft.AzureCLI version 2.35.0	mdanish-kh:Microsoft.AzureCLI-2.35.0-update404Urls	OPEN	2024-04-11T17:27:55Z
+148733	Update URLs for Microsoft.AzureCLI version 2.34.1	mdanish-kh:Microsoft.AzureCLI-2.34.1-update404Urls	OPEN	2024-04-11T17:27:38Z
+148732	Update URLs for Microsoft.AzureCLI version 2.34.0	mdanish-kh:Microsoft.AzureCLI-2.34.0-update404Urls	OPEN	2024-04-11T17:27:22Z
+148731	Update URLs for Microsoft.AzureCLI version 2.33.1	mdanish-kh:Microsoft.AzureCLI-2.33.1-update404Urls	OPEN	2024-04-11T17:27:05Z
+148730	Update URLs for Microsoft.AzureCLI version 2.33.0	mdanish-kh:Microsoft.AzureCLI-2.33.0-update404Urls	OPEN	2024-04-11T17:26:49Z
+148729	Update URLs for Microsoft.AzureCLI version 2.32.0	mdanish-kh:Microsoft.AzureCLI-2.32.0-update404Urls	OPEN	2024-04-11T17:26:33Z
+148728	Update URLs for Microsoft.AzureCLI version 2.31.0	mdanish-kh:Microsoft.AzureCLI-2.31.0-update404Urls	OPEN	2024-04-11T17:26:17Z
+148727	Update URLs for Microsoft.AzureCLI version 2.30.0	mdanish-kh:Microsoft.AzureCLI-2.30.0-update404Urls	OPEN	2024-04-11T17:26:02Z
+148726	Update URLs for Microsoft.AzureCLI version 2.29.2	mdanish-kh:Microsoft.AzureCLI-2.29.2-update404Urls	OPEN	2024-04-11T17:25:46Z
+148725	Update URLs for Microsoft.AzureCLI version 2.29.1	mdanish-kh:Microsoft.AzureCLI-2.29.1-update404Urls	OPEN	2024-04-11T17:25:30Z
+148724	Update URLs for Microsoft.AzureCLI version 2.29.0	mdanish-kh:Microsoft.AzureCLI-2.29.0-update404Urls	OPEN	2024-04-11T17:25:16Z
+148723	Update URLs for Microsoft.AzureCLI version 2.28.0	mdanish-kh:Microsoft.AzureCLI-2.28.0-update404Urls	OPEN	2024-04-11T17:25:01Z
+148722	Update URLs for Microsoft.AzureCLI version 2.27.2	mdanish-kh:Microsoft.AzureCLI-2.27.2-update404Urls	OPEN	2024-04-11T17:24:44Z
+148721	Update URLs for Microsoft.AzureCLI version 2.27.1	mdanish-kh:Microsoft.AzureCLI-2.27.1-update404Urls	OPEN	2024-04-11T17:24:28Z
+148720	Update URLs for Microsoft.AzureCLI version 2.27.0	mdanish-kh:Microsoft.AzureCLI-2.27.0-update404Urls	OPEN	2024-04-11T17:24:12Z
+148719	Update URLs for Microsoft.AzureCLI version 2.26.1	mdanish-kh:Microsoft.AzureCLI-2.26.1-update404Urls	OPEN	2024-04-11T17:23:56Z
+148718	Update URLs for Microsoft.AzureCLI version 2.26.0	mdanish-kh:Microsoft.AzureCLI-2.26.0-update404Urls	OPEN	2024-04-11T17:23:40Z
+148717	Update URLs for Microsoft.AzureCLI version 2.25.0	mdanish-kh:Microsoft.AzureCLI-2.25.0-update404Urls	OPEN	2024-04-11T17:23:24Z
+148716	Update URLs for Microsoft.AzureCLI version 2.24.1	mdanish-kh:Microsoft.AzureCLI-2.24.1-update404Urls	OPEN	2024-04-11T17:23:09Z
+148715	Update URLs for Microsoft.AzureCLI version 2.24.0	mdanish-kh:Microsoft.AzureCLI-2.24.0-update404Urls	OPEN	2024-04-11T17:22:53Z
+148714	Update URLs for Microsoft.AzureCLI version 2.23.0	mdanish-kh:Microsoft.AzureCLI-2.23.0-update404Urls	OPEN	2024-04-11T17:22:38Z
+148713	Update URLs for Microsoft.AzureCLI version 2.22.1	mdanish-kh:Microsoft.AzureCLI-2.22.1-update404Urls	OPEN	2024-04-11T17:22:21Z
+148712	Update URLs for Microsoft.AzureCLI version 2.22.0	mdanish-kh:Microsoft.AzureCLI-2.22.0-update404Urls	OPEN	2024-04-11T17:22:06Z
+148711	Update URLs for Microsoft.AzureCLI version 2.21.0	mdanish-kh:Microsoft.AzureCLI-2.21.0-update404Urls	OPEN	2024-04-11T17:21:50Z
+148710	Update URLs for Microsoft.AzureCLI version 2.20.0	mdanish-kh:Microsoft.AzureCLI-2.20.0-update404Urls	OPEN	2024-04-11T17:21:34Z
+148709	Update URLs for Microsoft.AzureCLI version 2.19.1	mdanish-kh:Microsoft.AzureCLI-2.19.1-update404Urls	OPEN	2024-04-11T17:21:18Z
+148708	Update URLs for Microsoft.AzureCLI version 2.19.0	mdanish-kh:Microsoft.AzureCLI-2.19.0-update404Urls	OPEN	2024-04-11T17:21:01Z
+148707	Update URLs for Microsoft.AzureCLI version 2.18.0	mdanish-kh:Microsoft.AzureCLI-2.18.0-update404Urls	OPEN	2024-04-11T17:20:44Z
+148706	Update URLs for Microsoft.AzureCLI version 2.17.1	mdanish-kh:Microsoft.AzureCLI-2.17.1-update404Urls	OPEN	2024-04-11T17:20:28Z
+148705	Update URLs for Microsoft.AzureCLI version 2.17.0	mdanish-kh:Microsoft.AzureCLI-2.17.0-update404Urls	OPEN	2024-04-11T17:20:11Z
+148704	Update URLs for Microsoft.AzureCLI version 2.16.0	mdanish-kh:Microsoft.AzureCLI-2.16.0-update404Urls	OPEN	2024-04-11T17:19:51Z
+148703	Update URLs for Microsoft.AzureCLI version 2.15.1	mdanish-kh:Microsoft.AzureCLI-2.15.1-update404Urls	OPEN	2024-04-11T17:19:14Z
+148702	Update URLs for Microsoft.AzureCLI version 2.15.0	mdanish-kh:Microsoft.AzureCLI-2.15.0-update404Urls	OPEN	2024-04-11T17:18:50Z
+148701	Update URLs for Microsoft.AzureCLI version 2.14.2	mdanish-kh:Microsoft.AzureCLI-2.14.2-update404Urls	OPEN	2024-04-11T17:18:34Z
+148700	Update URLs for Microsoft.AzureCLI version 2.14.1	mdanish-kh:Microsoft.AzureCLI-2.14.1-update404Urls	OPEN	2024-04-11T17:18:15Z
+148699	Update URLs for Microsoft.AzureCLI version 2.14.0	mdanish-kh:Microsoft.AzureCLI-2.14.0-update404Urls	OPEN	2024-04-11T17:17:59Z
+148698	Update URLs for Microsoft.AzureCLI version 2.13.0	mdanish-kh:Microsoft.AzureCLI-2.13.0-update404Urls	OPEN	2024-04-11T17:17:42Z
+148697	Update URLs for Microsoft.AzureCLI version 2.12.1	mdanish-kh:Microsoft.AzureCLI-2.12.1-update404Urls	OPEN	2024-04-11T17:17:26Z
+148696	Update URLs for Microsoft.AzureCLI version 2.12.0	mdanish-kh:Microsoft.AzureCLI-2.12.0-update404Urls	OPEN	2024-04-11T17:17:08Z
+148695	Update URLs for Microsoft.AzureCLI version 2.11.1	mdanish-kh:Microsoft.AzureCLI-2.11.1-update404Urls	OPEN	2024-04-11T17:16:52Z
+148694	Update URLs for Microsoft.AzureCLI version 2.11.0	mdanish-kh:Microsoft.AzureCLI-2.11.0-update404Urls	OPEN	2024-04-11T17:16:36Z
+148693	Update URLs for Microsoft.AzureCLI version 2.10.1	mdanish-kh:Microsoft.AzureCLI-2.10.1-update404Urls	OPEN	2024-04-11T17:16:19Z
+148692	New version: Abdelrhman-AK.WinPaletter version 1.0.9.1	Abdelrhman-AK:Abdelrhman-AK.WinPaletter-1.0.9.1-91d80504-d07f-40e9-9f37-c8a5e9734375	OPEN	2024-04-11T17:15:56Z
+148691	Ares commander 2025 sp0	graebertgmbh:AresCommander_2025_SP0	OPEN	2024-04-11T16:44:53Z
+148690	New version: IronmanSoftware.PowerShellUniversal version 4.2.17	adamdriscoll:IronmanSoftware.PowerShellUniversal-4.2.17-cdb7184f-b7fa-40d9-b13a-4927cc5467e8	OPEN	2024-04-11T16:39:32Z
+148689	chore: add latest HashiCorp Vault	dugandarinPFG:HashiCorp.Vault-1.16.1	OPEN	2024-04-11T16:27:49Z
+148688	ProtonTechnologies.ProtonVPN version 3.2.11	vedantmgoyal9:ProtonTechnologies.ProtonVPN-3.2.11-4d78d3da-2181-4e51-9c7b-798df58311c7	OPEN	2024-04-11T16:27:46Z
+148687	OpenRCT2.OpenRCT2 version 0.4.10	vedantmgoyal9:OpenRCT2.OpenRCT2-0.4.10-f83b6d57-7b5e-4c0c-aa3c-cdc283b58e9f	OPEN	2024-04-11T16:27:37Z
+148686	New version. Bitwarden.Bitwarden version 2024.4.0	MaanuelMM:bw-2024.4.0	OPEN	2024-04-11T16:26:02Z
+148685	Testmyapp v0.0.64	Gjergj:testmyapp-v0.0.64	OPEN	2024-04-11T16:11:52Z
+148684	New version: Brave.Brave version 123.1.64.122	SpecterShell:Brave.Brave-123.1.64.122-651033388	OPEN	2024-04-11T16:09:47Z
+148682	Remove version: P-StSoftware.WinSSHTerm version 2.28.0	Exorcism0666:P-StSoftware.WinSSHTerm-2.28.0-8BE0E24CA7CD7986FD3EBCF0886D9F99C98989ED	OPEN	2024-04-11T15:19:37Z
 148677	Remove version: PaddiM8.kalker version 2.0.4	Exorcism0666:PaddiM8.kalker-2.0.4-603B724BE8DC7A85305B3EA9762636C929EAFAD0	OPEN	2024-04-11T15:01:30Z
 148676	Remove version: pnpm.pnpm version 8.15.6	Exorcism0666:pnpm.pnpm-8.15.6-C1F8082B5C7623DF7C6EC0A6E285DB7C81DF601F	OPEN	2024-04-11T14:55:31Z
-148675	New version: SomePythonThings.WingetUIStore version 3.0.2	marticliment:SomePythonThings.WingetUIStore-3.0.2-174E02A41749BBE29890D380AC72B5B7A023AB0A	OPEN	2024-04-11T14:40:08Z
-148674	New version: LanguageTool.LanguageToolforDesktop version 0.7.1.0	boergegrunicke:LanguageTool.LanguageToolforDesktop-0.7.1.0-61c03bbd-e3c1-44bd-95fd-1ad5704baca9	OPEN	2024-04-11T14:30:59Z
-148673	Microsoft.DotNet.SDK.Preview version 9.0.100-preview.3.24204.13	dotnet-winget-bot:autogenerated/Microsoft.DotNet.SDK.Preview/0fa17ffe-17de-4bac-aaa6-6c2f7192f6b7	OPEN	2024-04-11T14:21:07Z
-148672	Microsoft.DotNet.DesktopRuntime.Preview version 9.0.0-preview.3.24175.3	dotnet-winget-bot:autogenerated/Microsoft.DotNet.DesktopRuntime.Preview/076fd9c9-7c2f-454e-b2b2-d2d3576c073b	OPEN	2024-04-11T14:21:00Z
-148671	Microsoft.DotNet.HostingBundle.Preview version 9.0.0-preview.3.24172.13	dotnet-winget-bot:autogenerated/Microsoft.DotNet.HostingBundle.Preview/3f0ae2a3-9809-4256-be60-0e66178b235b	OPEN	2024-04-11T14:20:53Z
-148670	Microsoft.DotNet.AspNetCore.Preview version 9.0.0-preview.3.24172.13	dotnet-winget-bot:autogenerated/Microsoft.DotNet.AspNetCore.Preview/da8d198a-fcbf-40e4-9acb-947405088706	OPEN	2024-04-11T14:20:47Z
-148669	Microsoft.DotNet.Runtime.Preview version 9.0.0-preview.3.24172.9	dotnet-winget-bot:autogenerated/Microsoft.DotNet.Runtime.Preview/47b9a11d-ad09-4dab-94a1-e39e299252cc	OPEN	2024-04-11T14:20:40Z
-148668	New version: Hibbiki.Chromium version 123.0.6312.123	Exorcism0666:Hibbiki.Chromium-123.0.6312.123-1921399387	OPEN	2024-04-11T14:20:23Z
-148666	New version: PortSwigger.BurpSuite.Professional version 2024.2.1.4	SpecterShell:PortSwigger.BurpSuite.Professional-2024.2.1.4-1235656387	OPEN	2024-04-11T14:10:33Z
-148665	New version: PortSwigger.BurpSuite.Community version 2024.2.1.4	SpecterShell:PortSwigger.BurpSuite.Community-2024.2.1.4-466215881	OPEN	2024-04-11T14:10:29Z
-148664	New version: JetBrains.PhpStorm.EAP version 241.15989.22	SpecterShell:JetBrains.PhpStorm.EAP-241.15989.22-1871941560	OPEN	2024-04-11T14:09:48Z
-148663	New version: JetBrains.RubyMine.EAP version 241.15989.10	SpecterShell:JetBrains.RubyMine.EAP-241.15989.10-1545474465	OPEN	2024-04-11T14:09:45Z
 148662	New version: Kingston.SSDManager version 1.5.4.5	MaanuelMM:ksm-v1.5.4.5	OPEN	2024-04-11T13:45:10Z
-148661	New version: prefix-dev.pixi version 0.19.1	prefix-dev:prefix-dev.pixi-0.19.1-23A6537279ABCF77B6D876B6AE4C89F9C88A6633	OPEN	2024-04-11T13:41:27Z
-148660	New version: stacklok.minder 0.0.44	stacklok:minder-0.0.44	OPEN	2024-04-11T13:23:30Z
-148659	New version: Ryujinx.Ryujinx version 1.1.1278	Exorcism0666:Ryujinx.Ryujinx-1.1.1278-1043639535	OPEN	2024-04-11T13:22:24Z
-148658	New version: Ryujinx.Ryujinx.Ava version 1.1.1278	Exorcism0666:Ryujinx.Ryujinx.Ava-1.1.1278-1933460643	OPEN	2024-04-11T13:22:23Z
-148656	New version: Wondershare.PDFelement.10 version 10.3.7	SpecterShell:Wondershare.PDFelement.10-10.3.7-1926977533	OPEN	2024-04-11T13:11:23Z
-148655	New version: Bitvise.SSH.Client version 9.34	PckgrBot:Bitvise.SSH.Client-9.34-76544e29-c214-4256-b7cb-c1a045150e0a	OPEN	2024-04-11T12:56:50Z
-148654	New version: Microsoft.Azure.StorageExplorer version 1.33.1	PckgrBot:Microsoft.Azure.StorageExplorer-1.33.1-c88f47ea-33a0-4fd6-b47c-57ab448dac39	OPEN	2024-04-11T12:56:29Z
-148652	New version: danstis.rmstale version 1.15.2	danstis:danstis.rmstale-1.15.2-ed8ea13e-c3eb-4e7d-939a-a779e7164b12	OPEN	2024-04-11T12:33:29Z
 148650	New version: Anaconda.Anaconda3 version 2024.02-1	einar-prod:Anaconda.Anaconda3-2024.02-1-E7FEFF58	OPEN	2024-04-11T12:21:23Z
-148649	New version: Tencent.WeChat version 3.9.10.19	SpecterShell:Tencent.WeChat-3.9.10.19-1053841034	OPEN	2024-04-11T12:18:46Z
-148648	New version: DeepL.DeepL version 24.4.1.12205	SpecterShell:DeepL.DeepL-24.4.1.12205-674676894	OPEN	2024-04-11T12:12:06Z
-148646	ReleaseNotes: Tencent.QQ.NT version 9.9.9.22868	SpecterShell:Tencent.QQ.NT-9.9.9.22868-ReleaseNotes	OPEN	2024-04-11T11:46:15Z
-148644	OctopusDeploy.Server version 2024.1.12401	vedantmgoyal9:OctopusDeploy.Server-2024.1.12401-828f3d5b-dbdc-42ff-9809-b46a2b173636	OPEN	2024-04-11T11:22:51Z
-148643	New version: JLC.LCEDA.Pro version 2.1.56	SpecterShell:JLC.LCEDA.Pro-2.1.56-253241811	OPEN	2024-04-11T11:10:50Z
-148642	New version: Microsoft.Skype version 8.117 (8.117.0.202)	SpecterShell:Microsoft.Skype-8.117-1453676991	OPEN	2024-04-11T11:09:52Z
-148641	New version: LanguageTool.LanguageToolforDesktop version 0.7.0.0	boergegrunicke:LanguageTool.LanguageToolforDesktop-0.7.0.0-4f12c1d3-8595-4bfb-bfd2-406611b603fc	OPEN	2024-04-11T11:04:20Z
-148640	New version: stacklok.minder 0.0.43	stacklok:minder-0.0.43	OPEN	2024-04-11T10:52:01Z
-148639	New version: Vivaldi.Vivaldi.Snapshot version 6.7.3319.12	SpecterShell:Vivaldi.Vivaldi.Snapshot-6.7.3319.12-855689892	OPEN	2024-04-11T10:11:42Z
-148638	New version: Microsoft.VSTOR version 10.0.60917	Exorcism0666:Microsoft.VSTOR-10.0.60917-17E2B764	OPEN	2024-04-11T10:11:33Z
-148637	Update metadata for Microsoft.Promptflow 1.8.0	mdanish-kh:promptflow-metadata	OPEN	2024-04-11T10:09:12Z
 148636	New package: Lime3DS.Lime3DS version 2107	Exorcism0666:Lime3DS.Lime3DS-2107-3DDD0B2E	OPEN	2024-04-11T10:04:42Z
-148635	New version: VirtusLab.ScalaCLI version 1.2.2	scala-steward:VirtusLab.ScalaCLI-1.2.2-451A7204C4D2BDC8AAFDF9E93107BD3BA5E375E4	OPEN	2024-04-11T09:56:24Z
 148634	New package: KPN.HIPINv4 version 4.3.2.6316	xhoy:KPN.HIPINv4-4.3.2.6316-df12606b-9272-473d-91d9-fa6ecc65a284	OPEN	2024-04-11T09:55:13Z
 148633	New package: LibNyanpasu.clash-nyanpasu version 1.5.1	keiko233:moe.elaina.clash.nyanpasu-1.5.1-D4F22066A9854D60BF4C02967994EF50	OPEN	2024-04-11T09:41:21Z
-148632	Remove Manifest-Path-Error on PR re-run and changes pushed	mdanish-kh:manifest-path-error	OPEN	2024-04-11T09:33:13Z
-148631	New version: Bosyun.BoardMix version 1.6.3	SpecterShell:Bosyun.BoardMix-1.6.3-1438063754	OPEN	2024-04-11T09:08:52Z
-148627	New version: DenoLand.Deno version 1.42.2	coolplaylinbot:DenoLand.Deno-1.42.2-E617EFEA5A7F4223B8B912AE21D41F10	OPEN	2024-04-11T08:18:41Z
-148626	New version: DenoLand.Deno version 1.42.2	coolplaylinbot:DenoLand.Deno-1.42.2-251E147801FD4B439C4569E80D732744	OPEN	2024-04-11T08:18:35Z
-148625	New version: Youku.Youku version 9.2.42.1001 (9.2.42)	SpecterShell:Youku.Youku-9.2.42.1001-256841902	OPEN	2024-04-11T08:12:54Z
-148624	New version: Google.Chrome.Canary version 125.0.6412.0	SpecterShell:Google.Chrome.Canary-125.0.6412.0-600421321	OPEN	2024-04-11T08:10:19Z
 148623	New package: Amazon.AmazonCorretto(x64) version 21.0.2.13	antongrizli:Amazon.AmazonCorretto(x64)-21.0.2.13-2bb6ec1d-62ca-4cdb-98e3-ad80ea7f4fef	OPEN	2024-04-11T07:38:10Z
-148622	New version: TeamIDE.TeamIDE version 2.6.20	SpecterShell:TeamIDE.TeamIDE-2.6.20-1153703814	OPEN	2024-04-11T07:11:38Z
-148621	New version: gjergj.testmyapp 0.0.54	Gjergj:testmyapp-v0.0.54	OPEN	2024-04-11T07:10:40Z
 148620	Microsoft.VisualStudioCode.Insiders.CLI_v1.89.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.Insiders.CLI_v1.89.0	OPEN	2024-04-11T07:07:10Z
-148617	webrecorder.replayweb-page version 2.0.0	vedantmgoyal9:webrecorder.replayweb-page-2.0.0-c6311ecc-7f26-4e65-89af-b6c922d3040c	OPEN	2024-04-11T05:29:30Z
-148616	Update: THS.THS version 9.30.10	SpecterShell:THS.THS-9.30.10-112537586	OPEN	2024-04-11T05:29:11Z
-148615	Kingsoft.KDocs version 3.9.9	vedantmgoyal9:Kingsoft.KDocs-3.9.9-86b98da7-97ae-4767-9cb9-941ff888354b	OPEN	2024-04-11T05:29:00Z
-148614	Gridcoin.Client version 5.4.8	vedantmgoyal9:Gridcoin.Client-5.4.8-c7bb8ae6-6e5d-4a3f-879d-12c45ad85cce	OPEN	2024-04-11T05:28:30Z
-148613	Douyu.DouyuLive version 8.6.9.0	vedantmgoyal9:Douyu.DouyuLive-8.6.9.0-d536ee6e-6860-4dde-a361-cd66ed54cbdc	OPEN	2024-04-11T05:28:18Z
-148612	Discord.Discord.Canary version 1.0.215	vedantmgoyal9:Discord.Discord.Canary-1.0.215-efb2614a-83ae-4ce5-b547-8938b3911f83	OPEN	2024-04-11T05:27:25Z
-148611	New version: eza-community.eza version 0.18.10	eza-community:eza-community.eza-0.18.10-E86DFB59C68D515016EFB79D935FE2B099D6EB38	OPEN	2024-04-11T05:12:27Z
-148610	Aserto.Topaz.v0.31.11	gertd:Aserto.Topaz-0.31.11-f86f543a-f557-44af-ae54-d31f871b0dfe	OPEN	2024-04-11T05:02:16Z
-148609	New version: Hashicorp.Terraform version 1.8.0	kdpuvvadi:Hashicorp.Terraform-1.8.0-ED0976CFD8A3477F902B959FBFCBD181	OPEN	2024-04-11T04:54:12Z
-148607	New version: Kiraku.AudioJam version 2.7.1-527	SpecterShell:Kiraku.AudioJam-2.7.1-527-801625608	OPEN	2024-04-11T04:12:35Z
-148604	New version: Douyu.DouyuLive version 8.6.9.0	SpecterShell:Douyu.DouyuLive-8.6.9.0-1789256086	OPEN	2024-04-11T03:09:08Z
-148603	New version: B3log.SiYuan version 3.0.9	SpecterShell:B3log.SiYuan-3.0.9-287491491	OPEN	2024-04-11T03:08:30Z
 148589	Automatic deletion of SFLinux.Jami.Beta 1.0.8838.242	wingetbot:AutomaticUpdate_8f763545-51f3-4211-83cf-4f65f08cc738	OPEN	2024-04-10T23:56:43Z
 148588	Automatic update of PLaSK to 2024.04.10	macdems:2024.04.10	OPEN	2024-04-10T23:53:44Z
-148581	Modify: Cisco.Webex version 44.4.0.29298	SpecterShell:Cisco.Webex-44.4.0.29298-33E46A2E	OPEN	2024-04-10T23:31:04Z
 148577	Automatic update of Cisco.Webex 44.3.0.28993	wingetbot:AutomaticUpdate_8cdf9be9-d790-4799-910c-8eb73015e7a1	OPEN	2024-04-10T23:01:54Z
 148571	Automatic update of GiulioSorrentino.WinDateFrom 4.6	wingetbot:AutomaticUpdate_cd10268a-b644-4918-936e-1fb9b86862db	OPEN	2024-04-10T22:05:53Z
 148569	Automatic update of GiulioSorrentino.Latorredibabele 3.0	wingetbot:AutomaticUpdate_96e737dd-4351-4e1e-acef-5ec815a9260f	OPEN	2024-04-10T22:05:41Z
 148568	New version: Nushell.Nushell version 0.92.2	fdncred:Nushell.Nushell-0.92.2-79FA1BCF8F64083AD0917FA8FCC56E1A13BE716D	OPEN	2024-04-10T21:57:21Z
-148564	New package: Gitbutler.GitButler version 0.11.0	IndyV:Gitbutler.GitButler-0.11.0-d4582f80-67c4-4cae-ba8a-19ad933f2f5d	OPEN	2024-04-10T21:43:14Z
 148555	Update version: GiulioSorrentino.Latorredibabele version 3.0	numerunix:GiulioSorrentino.Latorredibabele-3.0-b20982ca-b94e-42b4-b0f8-8c383c1539d5	OPEN	2024-04-10T21:06:52Z
 148551	Update version: GiulioSorrentino.WinDateFrom version 4.6	numerunix:GiulioSorrentino.WinDateFrom-4.6-c742c326-c867-4c12-bb77-e379ba6f2232	OPEN	2024-04-10T21:02:18Z
-148537	New version: gjergj.testmyapp 0.0.52	Gjergj:testmyapp-v0.0.52	OPEN	2024-04-10T19:01:03Z
-148532	FireDaemon OpenSSL 3.2.1	firedaemon-ceo:FireDaemon.OpenSSL-3.2.1-6e4406f8-e081-4762-a255-0a739eea575e	OPEN	2024-04-10T17:38:57Z
-148528	New version: Nvidia.CUDA version 12.4.1	Exorcism0666:Nvidia.CUDA-12.4.1-F97D5DD48EB64DA08316E07B485E627B	OPEN	2024-04-10T16:54:01Z
 148526	New package: XlightFTP.XlightFTP version 3.9.4.1	Exorcism0666:XlightFTP.XlightFTP-3.9.4.1-946ec51d-bd2b-41b5-bb8a-f82c882ebbc0	OPEN	2024-04-10T16:40:27Z
 148523	JackieLiu.NotepadsApp version 1.5.4.0	vedantmgoyal9:JackieLiu.NotepadsApp-1.5.4.0-0701032e-9308-4173-ae8c-be84a6029403	OPEN	2024-04-10T16:33:36Z
-148522	New version: Microsoft.PowerToys version 0.80.1	crutkas:Microsoft.PowerToys-0.80.1-e668f4f8-cf2e-4833-911e-419a83f1c289	OPEN	2024-04-10T16:33:36Z
 148516	New package: Microsoft.AzureInformationProtection version 2.18.26.0	Exorcism0666:Microsoft.AzureInformationProtection-2.18.26.0-48b448c6-6a0f-4b18-b2e0-220c4d2b89ba	OPEN	2024-04-10T15:25:55Z
 148513	New version: Unity.Unity.2022 version 2022.3.24f1	SpecterShell:Unity.Unity.2022-2022.3.24f1-1822660226	OPEN	2024-04-10T15:13:43Z
-148503	New version: TheBrowserCompany.Arc version 0.17.2.21183	Exorcism0666:TheBrowserCompany.Arc-0.17.2.21183-8BC010238C294984AD3AF91776614F9C	OPEN	2024-04-10T13:18:21Z
-148501	New version: evilmartians.lefthook version 1.6.10	mrexox:evilmartians.lefthook-1.6.10-ABF49BE6CDAF34DE1BA1F44E019B1E9FAA2C8F47	OPEN	2024-04-10T12:56:48Z
 148465	New version: BookxSoftware.BookxNotePro version 2.0.0.1122	SpecterShell:BookxSoftware.BookxNotePro-2.0.0.1122-200946065	OPEN	2024-04-10T02:20:50Z
 148451	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_31c4e895-d817-4a1b-b320-d282eb45a96c	OPEN	2024-04-10T00:54:04Z
 148448	New version: LGUG2Z.whkd version 0.2.1	LGUG2Z:LGUG2Z.whkd-0.2.1-6D2BB58129814BF509FE49F04AFB9B60AECD66C4	OPEN	2024-04-10T00:04:42Z
 148442	Erlang.ErlangOTP version 24.3.4.17	vedantmgoyal9:Erlang.ErlangOTP-24.3.4.17-5900a303-6405-4b83-b3d8-1ba73d05bf17	OPEN	2024-04-09T23:26:22Z
 148436	Automatic deletion of Cisco.CiscoWebexMeetings 44.3.0.146	wingetbot:AutomaticUpdate_8d70cd21-2666-4059-815b-9d083ac64ab5	OPEN	2024-04-09T23:05:05Z
 148407	Automatic update of ArobasMusic.GuitarPro.8 from 8.1.1-17 to 8.1.2.27	wingetbot:AutomaticUpdate_f7eea850-4b9d-43e1-901d-9665fd98d324	OPEN	2024-04-09T20:23:10Z
-148405	Automatic update of Argotronic.ArgusMonitor from 7.0.6.2741 to 7.0.6.2742	wingetbot:AutomaticUpdate_73e3e7d3-1eab-4aeb-a012-b9d74edb4303	OPEN	2024-04-09T20:17:16Z
 148399	Automatic deletion of DuoSecurity.Duo2FAAuthenticationforWindows 4.3.0.4367	wingetbot:AutomaticUpdate_723df426-c805-4ca2-accd-ceb585242a26	OPEN	2024-04-09T19:50:31Z
 148396	Automatic deletion of Doist.Todoist 9.1.1	wingetbot:AutomaticUpdate_91464777-7e93-471b-b0b2-596a11b7ea77	OPEN	2024-04-09T19:38:14Z
 148381	Microsoft.VisualStudio.2022.Community.Preview version 17.10.0	edwardskrod:autogenerated/Microsoft.VisualStudio.2022.Community.Preview/2651d553-7719-4cb3-be61-6323610a395f	OPEN	2024-04-09T18:02:19Z
@@ -114,22 +141,9 @@
 147898	New version: Ubisoft.Connect version 151.2.11050	Trenly:Ubisoft.Connect-151.2.11050-E4B28445	OPEN	2024-04-05T14:25:27Z
 147897	New version: Sigil-Ebook.PageEdit version 2.1.0	Trenly:Sigil-Ebook.PageEdit-2.1.0-7111490	OPEN	2024-04-05T14:21:53Z
 147829	Automatic update of Nvidia.Omniverse from 1.9.8 to 1.9.11.2724	wingetbot:AutomaticUpdate_659919ff-e91a-4ac7-8f6c-a69f033090e3	OPEN	2024-04-05T01:27:34Z
-147766	Automatic deletion of evernote.evernote 10.82.2.20240327123857	wingetbot:AutomaticUpdate_24724e48-84da-40f9-9455-515f7f06ee64	OPEN	2024-04-04T20:45:36Z
 147758	Microsoft.VisualStudioCode.Insiders_v1.89.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.89.0	OPEN	2024-04-04T20:05:02Z
-147753	Automatic deletion of AdGuard.AdGuard.Nightly 7.17.4684.0	wingetbot:AutomaticUpdate_22cf721b-bd3a-4530-ab5c-4bd5ecc923d0	OPEN	2024-04-04T19:20:00Z
-147722	Remove version: BigBangenterprises.DoubleKiller version 1.6.2.82	Exorcism0666:BigBangenterprises.DoubleKiller-1.6.2.82-E87F862F3B78269AE47603AE4502FE017F769F99	OPEN	2024-04-04T15:44:15Z
-147721	Remove version: BrightSign.BrightAuthorConfigurator version 1.02	Exorcism0666:BrightSign.BrightAuthorConfigurator-1.02-953DF6B8085FEBC682417B6DF524ADC8BBBE7120	OPEN	2024-04-04T15:42:13Z
 147679	New version: ente-io.ente version 2.0.50	Exorcism0666:ente-io.ente-2.0.50-81718C2F59994150A4E2BEDA24EE5C4A	OPEN	2024-04-04T08:24:17Z
-147676	Remove version: Codemao.kitten version 3.8.2	CoolPlayLin:Codemao.kitten-3.8.2-27CA28B8C97C48E8BE8E08CA9287502C	OPEN	2024-04-04T07:08:01Z
 147672	New package: tacitdynamics.foldersync-desktop-production version 1.1.0	Exorcism0666:tacitdynamics.foldersync-desktop-production-1.1.0-D9E8D7D0641B4DFAADD068D1471218ED	OPEN	2024-04-04T06:52:14Z
-147628	Automatic deletion of RiotGames.Valorant.NA 82.0.1.1194	wingetbot:AutomaticUpdate_1bcda7b5-91d5-448c-9c10-a5f1ffd0be26	OPEN	2024-04-03T22:37:49Z
-147627	Automatic deletion of RiotGames.LegendsOfRuneterra.SEA 82.0.1.1194	wingetbot:AutomaticUpdate_250ce182-47a3-4e33-ba7f-18f82c24ec37	OPEN	2024-04-03T22:37:46Z
-147626	Automatic deletion of RiotGames.Valorant.AP 82.0.1.1194	wingetbot:AutomaticUpdate_b0ed6d0b-fe9a-4858-a7e3-e68d533ed23e	OPEN	2024-04-03T22:37:45Z
-147625	Automatic deletion of RiotGames.Valorant.BR 82.0.1.1194	wingetbot:AutomaticUpdate_abcc0ead-62ef-4e47-9ea5-37bdf7f30e9c	OPEN	2024-04-03T22:37:45Z
-147624	Automatic deletion of RiotGames.LegendsOfRuneterra.Europe 82.0.1.1194	wingetbot:AutomaticUpdate_b955360d-af9a-4459-989a-a7b45985e423	OPEN	2024-04-03T22:37:45Z
-147623	Automatic deletion of RiotGames.Valorant.EU 82.0.1.1194	wingetbot:AutomaticUpdate_4d51c145-e2c1-49e6-a2c1-e0b4b8a44e44	OPEN	2024-04-03T22:37:45Z
-147622	Automatic deletion of RiotGames.Valorant.LATAM 82.0.1.1194	wingetbot:AutomaticUpdate_3c0cc54d-39d9-4d81-a5a5-3f8310a34f4c	OPEN	2024-04-03T22:37:45Z
-147621	Automatic deletion of RiotGames.LegendsOfRuneterra.Americas 82.0.1.1194	wingetbot:AutomaticUpdate_2c12cc1b-0f9f-4009-9dae-a97b4c099477	OPEN	2024-04-03T22:32:52Z
 147569	New version: github.com.benny93.kafui 0.1.23	Benny93:master	OPEN	2024-04-03T20:51:13Z
 147377	New version: Microsoft.VisualStudio.2022.Community version 17.9.5	ccorrion:Microsoft.VisualStudio.2022.Community-17.9.5-37f868ac-f6d6-486a-8bd5-0fde19a15ca0	OPEN	2024-04-02T19:46:09Z
 147376	New package: FrenchGithubUser.Hatt version 0.3.5	soredake:FrenchGithubUser.Hatt-0.3.5-725E156C080F4C598A9DD6622D522FB2	OPEN	2024-04-02T19:45:10Z
@@ -144,7 +158,6 @@
 146786	New package: Teclib'.GLPIAgent1.7.2 version 1.7.2	MaxKoerck:Teclib'.GLPIAgent1.7.2-1.7.2-90ba4a94-3b18-4d89-8b5d-d8425a01196f	OPEN	2024-03-28T10:08:43Z
 146751	Update version: Aserto.Topaz version 0.31.10	Exorcism0666:Aserto.Topaz-0.31.10-3C4BC16B9E81403DA659567D607BF9BC	OPEN	2024-03-28T01:18:44Z
 146417	New package: CelestialCartoGraphers.Loenn version 0.7.8	vikingnope:CelestialCartoGraphers.Loenn-0.7.8-4810378C84954B81BDBCA6579F473D31	OPEN	2024-03-25T20:06:48Z
-146354	New package: hoppscotch.Hoppscotch version 23.12.6.1	xVemu:hoppscotch.Hoppscotch-23.12.6.1-39d69fb2-e5f6-41ca-9b78-a62dc768c90d	OPEN	2024-03-25T08:17:27Z
 146251	New version: Apache.Groovy.4 version 4.0.20	vikingnope:Apache.Groovy.4-4.0.20-43CAF96EF6A84E7793BB3D3DB860BF55	OPEN	2024-03-24T21:03:35Z
 146088	New package: Teclib'.GLPIAgent1.7.1 version 1.7.1	MaxKoerck:Teclib'.GLPIAgent1.7.1-1.7.1-db39a5f4-4fbf-402e-9f7c-568446233bf6	OPEN	2024-03-22T23:13:58Z
 146059	New version: AirDroid.AirDroid version 3.7.2.1	vikingnope:AirDroid.AirDroid-3.7.2.1-56AF2AD4F0F342AAB8FE2C9F6C1C8C63	OPEN	2024-03-22T20:20:21Z
