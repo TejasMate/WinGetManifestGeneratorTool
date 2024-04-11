@@ -1,16 +1,11 @@
-148594	Modify: RingCentral.RingCentral version 24.1.32.9774	SpecterShell:RingCentral.RingCentral-24.1.32.9774-C826BAF7	OPEN	2024-04-11T00:50:51Z
-148593	Automatic deletion of Dialpad.Dialpad 2403.2.4	wingetbot:AutomaticUpdate_eceeb069-0bef-4571-839f-67849c4bd887	OPEN	2024-04-11T00:30:33Z
-148592	Automatic update of Dialpad.Dialpad from 2403.2.4 to 2404.1.0	wingetbot:AutomaticUpdate_86a2dccc-9072-453f-a042-73f21a488eb2	OPEN	2024-04-11T00:25:28Z
+148604	New version: Douyu.DouyuLive version 8.6.9.0	SpecterShell:Douyu.DouyuLive-8.6.9.0-1789256086	OPEN	2024-04-11T03:09:08Z
+148603	New version: B3log.SiYuan version 3.0.9	SpecterShell:B3log.SiYuan-3.0.9-287491491	OPEN	2024-04-11T03:08:30Z
+148601	New version: Kingsoft.KDocs version 3.9.9	SpecterShell:Kingsoft.KDocs-3.9.9-1136677190	OPEN	2024-04-11T02:16:52Z
 148591	Update: Doist.Todoist version 9.1.4	SpecterShell:Doist.Todoist-9.1.4-367735E5	OPEN	2024-04-11T00:09:44Z
 148589	Automatic deletion of SFLinux.Jami.Beta 1.0.8838.242	wingetbot:AutomaticUpdate_8f763545-51f3-4211-83cf-4f65f08cc738	OPEN	2024-04-10T23:56:43Z
 148588	Automatic update of PLaSK to 2024.04.10	macdems:2024.04.10	OPEN	2024-04-10T23:53:44Z
-148587	Automatic update of SFLinux.Jami.Beta from 1.0.8838.242 to 1.0.8866.40388	wingetbot:AutomaticUpdate_820efbd1-9bf9-4356-a4d7-e2680b1a54eb	OPEN	2024-04-10T23:52:32Z
-148586	New version: Alibaba.UCCloudDrive version 1.3.4	SpecterShell:Alibaba.UCCloudDrive-1.3.4-C4D47E77	OPEN	2024-04-10T23:44:06Z
-148584	Automatic update of CrashPlan.CrashPlanSMB from 11.2.1.23 to 11.3.0.754	wingetbot:AutomaticUpdate_65b33da9-e88b-48d7-823b-09f323545704	OPEN	2024-04-10T23:41:46Z
 148581	Modify: Cisco.Webex version 44.4.0.29298	SpecterShell:Cisco.Webex-44.4.0.29298-33E46A2E	OPEN	2024-04-10T23:31:04Z
-148579	Amazon.AWSCLI version 2.15.37	vedantmgoyal9:Amazon.AWSCLI-2.15.37-c8f9afde-91d7-457c-bd17-ef02d6a7741e	OPEN	2024-04-10T23:26:23Z
 148577	Automatic update of Cisco.Webex 44.3.0.28993	wingetbot:AutomaticUpdate_8cdf9be9-d790-4799-910c-8eb73015e7a1	OPEN	2024-04-10T23:01:54Z
-148573	New version: Ryujinx.Ryujinx version 1.1.1276	Exorcism0666:Ryujinx.Ryujinx-1.1.1276-2084205394	OPEN	2024-04-10T22:22:02Z
 148571	Automatic update of GiulioSorrentino.WinDateFrom 4.6	wingetbot:AutomaticUpdate_cd10268a-b644-4918-936e-1fb9b86862db	OPEN	2024-04-10T22:05:53Z
 148569	Automatic update of GiulioSorrentino.Latorredibabele 3.0	wingetbot:AutomaticUpdate_96e737dd-4351-4e1e-acef-5ec815a9260f	OPEN	2024-04-10T22:05:41Z
 148568	New version: Nushell.Nushell version 0.92.2	fdncred:Nushell.Nushell-0.92.2-79FA1BCF8F64083AD0917FA8FCC56E1A13BE716D	OPEN	2024-04-10T21:57:21Z
@@ -26,24 +21,14 @@
 148523	JackieLiu.NotepadsApp version 1.5.4.0	vedantmgoyal9:JackieLiu.NotepadsApp-1.5.4.0-0701032e-9308-4173-ae8c-be84a6029403	OPEN	2024-04-10T16:33:36Z
 148522	New version: Microsoft.PowerToys version 0.80.1	crutkas:Microsoft.PowerToys-0.80.1-e668f4f8-cf2e-4833-911e-419a83f1c289	OPEN	2024-04-10T16:33:36Z
 148516	New package: Microsoft.AzureInformationProtection version 2.18.26.0	Exorcism0666:Microsoft.AzureInformationProtection-2.18.26.0-48b448c6-6a0f-4b18-b2e0-220c4d2b89ba	OPEN	2024-04-10T15:25:55Z
-148515	New version: Ryujinx.Ryujinx version 1.1.1273	Exorcism0666:Ryujinx.Ryujinx-1.1.1273-891333321	OPEN	2024-04-10T15:22:10Z
 148513	New version: Unity.Unity.2022 version 2022.3.24f1	SpecterShell:Unity.Unity.2022-2022.3.24f1-1822660226	OPEN	2024-04-10T15:13:43Z
-148505	New version: Genivia.ugrep version 5.1.4	Genivia:Genivia.ugrep-5.1.4-2A11245AB29E081506A1C89E1A8FAA53C8410055	OPEN	2024-04-10T13:37:36Z
 148503	New version: TheBrowserCompany.Arc version 0.17.2.21183	Exorcism0666:TheBrowserCompany.Arc-0.17.2.21183-8BC010238C294984AD3AF91776614F9C	OPEN	2024-04-10T13:18:21Z
-148502	New version: JetBrains.FleetLauncher.Preview version 1.33.90	SpecterShell:JetBrains.FleetLauncher.Preview-1.33.90-1316652358	OPEN	2024-04-10T13:09:53Z
 148501	New version: evilmartians.lefthook version 1.6.10	mrexox:evilmartians.lefthook-1.6.10-ABF49BE6CDAF34DE1BA1F44E019B1E9FAA2C8F47	OPEN	2024-04-10T12:56:48Z
-148496	New version: prefix-dev.pixi version 0.19.0	prefix-dev:prefix-dev.pixi-0.19.0-9B2E91DA6AF99B310AE4A2E05EE9BB2B91C40A5E	OPEN	2024-04-10T11:26:16Z
-148480	New version: uazo.cromite version 123.0.6312.106	Exorcism0666:uazo.cromite-123.0.6312.106-1724037824	OPEN	2024-04-10T07:21:54Z
-148476	Microsoft.VisualStudioCode.Insiders.CLI_v1.89.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.Insiders.CLI_v1.89.0	OPEN	2024-04-10T07:06:53Z
-148472	New version: yt-dlp.yt-dlp version 2024.04.09	aisgbnok:yt-dlp-2024.04.09	OPEN	2024-04-10T05:06:49Z
 148465	New version: BookxSoftware.BookxNotePro version 2.0.0.1122	SpecterShell:BookxSoftware.BookxNotePro-2.0.0.1122-200946065	OPEN	2024-04-10T02:20:50Z
-148457	New version: AdGuard.dnsproxy version 0.69.0	Exorcism0666:AdGuard.dnsproxy-0.69.0-8FC9CA115B92467999A28835E4FD7394	OPEN	2024-04-10T01:19:51Z
 148451	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_31c4e895-d817-4a1b-b320-d282eb45a96c	OPEN	2024-04-10T00:54:04Z
 148448	New version: LGUG2Z.whkd version 0.2.1	LGUG2Z:LGUG2Z.whkd-0.2.1-6D2BB58129814BF509FE49F04AFB9B60AECD66C4	OPEN	2024-04-10T00:04:42Z
 148442	Erlang.ErlangOTP version 24.3.4.17	vedantmgoyal9:Erlang.ErlangOTP-24.3.4.17-5900a303-6405-4b83-b3d8-1ba73d05bf17	OPEN	2024-04-09T23:26:22Z
 148436	Automatic deletion of Cisco.CiscoWebexMeetings 44.3.0.146	wingetbot:AutomaticUpdate_8d70cd21-2666-4059-815b-9d083ac64ab5	OPEN	2024-04-09T23:05:05Z
-148422	Automatic update of UweSieber.USBDLM from 5.5.11.0 to 5.6.0.0	wingetbot:AutomaticUpdate_00ee000e-3745-44e7-91ea-c1e7558bd018	OPEN	2024-04-09T22:09:21Z
-148421	New version: JetBrains.dotUltimate version 2024.1	SpecterShell:JetBrains.dotUltimate-2024.1-1766961815	OPEN	2024-04-09T22:07:25Z
 148407	Automatic update of ArobasMusic.GuitarPro.8 from 8.1.1-17 to 8.1.2.27	wingetbot:AutomaticUpdate_f7eea850-4b9d-43e1-901d-9665fd98d324	OPEN	2024-04-09T20:23:10Z
 148405	Automatic update of Argotronic.ArgusMonitor from 7.0.6.2741 to 7.0.6.2742	wingetbot:AutomaticUpdate_73e3e7d3-1eab-4aeb-a012-b9d74edb4303	OPEN	2024-04-09T20:17:16Z
 148399	Automatic deletion of DuoSecurity.Duo2FAAuthenticationforWindows 4.3.0.4367	wingetbot:AutomaticUpdate_723df426-c805-4ca2-accd-ceb585242a26	OPEN	2024-04-09T19:50:31Z
@@ -65,7 +50,6 @@
 148132	Remove: Dropbox.Dash version 2.92.0	coolplaylinbot:Dropbox.Dash-2.92.0-A6AB7AAA850772161EEA0959FBF5D8B0E750F487	OPEN	2024-04-08T02:07:11Z
 148112	New version: RustDesk.RustDesk version 1.2.3-2	SpecterShell:RustDesk.RustDesk-1.2.3-2-644325093	OPEN	2024-04-07T22:31:14Z
 148086	New version: TableClothProject.TableCloth version 1.13.0	rkttu:TableClothProject.TableCloth-1.13.0-5ab0002c-3682-4f6e-a10d-010b75e6bff8	OPEN	2024-04-07T12:28:13Z
-148078	New package: NickGasson.NVC version 1.12.0001	nickg:NickGasson.NVC-1.12.0001-e39cb5c0-f5aa-4aca-bf3c-5a87421a35ad	OPEN	2024-04-07T09:57:54Z
 148053	Automatic update of Stardock.Start10 from 1.9.7 to 9.5.3.0	wingetbot:AutomaticUpdate_b4254be3-59f5-4028-b688-b9ee05da6fe0	OPEN	2024-04-07T00:48:34Z
 148028	New package: Aurelitec.Thumbico version 1.5.0.25	RalfEs73:Aurelitec.Thumbico-1.5.0.25-7ff585f1-1257-4ca3-ba53-aadc28a88dc8	OPEN	2024-04-06T19:31:43Z
 148013	New Version: Samsung.SamsungMagician version 8.1.0	og-mrk:new-manifest-version/Samsung.SamsungMagician-version8.1.0	DRAFT	2024-04-06T14:09:12Z
