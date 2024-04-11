@@ -1,40 +1,33 @@
-148556	Automatic deletion of evernote.evernote 10.83.5.20240405130859	wingetbot:AutomaticUpdate_1d87c47c-bffe-4a03-91fd-5f5d2109d9dc	OPEN	2024-04-10T21:11:06Z
+148594	Modify: RingCentral.RingCentral version 24.1.32.9774	SpecterShell:RingCentral.RingCentral-24.1.32.9774-C826BAF7	OPEN	2024-04-11T00:50:51Z
+148593	Automatic deletion of Dialpad.Dialpad 2403.2.4	wingetbot:AutomaticUpdate_eceeb069-0bef-4571-839f-67849c4bd887	OPEN	2024-04-11T00:30:33Z
+148592	Automatic update of Dialpad.Dialpad from 2403.2.4 to 2404.1.0	wingetbot:AutomaticUpdate_86a2dccc-9072-453f-a042-73f21a488eb2	OPEN	2024-04-11T00:25:28Z
+148591	Update: Doist.Todoist version 9.1.4	SpecterShell:Doist.Todoist-9.1.4-367735E5	OPEN	2024-04-11T00:09:44Z
+148589	Automatic deletion of SFLinux.Jami.Beta 1.0.8838.242	wingetbot:AutomaticUpdate_8f763545-51f3-4211-83cf-4f65f08cc738	OPEN	2024-04-10T23:56:43Z
+148588	Automatic update of PLaSK to 2024.04.10	macdems:2024.04.10	OPEN	2024-04-10T23:53:44Z
+148587	Automatic update of SFLinux.Jami.Beta from 1.0.8838.242 to 1.0.8866.40388	wingetbot:AutomaticUpdate_820efbd1-9bf9-4356-a4d7-e2680b1a54eb	OPEN	2024-04-10T23:52:32Z
+148586	New version: Alibaba.UCCloudDrive version 1.3.4	SpecterShell:Alibaba.UCCloudDrive-1.3.4-C4D47E77	OPEN	2024-04-10T23:44:06Z
+148584	Automatic update of CrashPlan.CrashPlanSMB from 11.2.1.23 to 11.3.0.754	wingetbot:AutomaticUpdate_65b33da9-e88b-48d7-823b-09f323545704	OPEN	2024-04-10T23:41:46Z
+148581	Modify: Cisco.Webex version 44.4.0.29298	SpecterShell:Cisco.Webex-44.4.0.29298-33E46A2E	OPEN	2024-04-10T23:31:04Z
+148579	Amazon.AWSCLI version 2.15.37	vedantmgoyal9:Amazon.AWSCLI-2.15.37-c8f9afde-91d7-457c-bd17-ef02d6a7741e	OPEN	2024-04-10T23:26:23Z
+148577	Automatic update of Cisco.Webex 44.3.0.28993	wingetbot:AutomaticUpdate_8cdf9be9-d790-4799-910c-8eb73015e7a1	OPEN	2024-04-10T23:01:54Z
+148573	New version: Ryujinx.Ryujinx version 1.1.1276	Exorcism0666:Ryujinx.Ryujinx-1.1.1276-2084205394	OPEN	2024-04-10T22:22:02Z
+148571	Automatic update of GiulioSorrentino.WinDateFrom 4.6	wingetbot:AutomaticUpdate_cd10268a-b644-4918-936e-1fb9b86862db	OPEN	2024-04-10T22:05:53Z
+148569	Automatic update of GiulioSorrentino.Latorredibabele 3.0	wingetbot:AutomaticUpdate_96e737dd-4351-4e1e-acef-5ec815a9260f	OPEN	2024-04-10T22:05:41Z
+148568	New version: Nushell.Nushell version 0.92.2	fdncred:Nushell.Nushell-0.92.2-79FA1BCF8F64083AD0917FA8FCC56E1A13BE716D	OPEN	2024-04-10T21:57:21Z
+148564	New package: Gitbutler.GitButler version 0.11.0	IndyV:Gitbutler.GitButler-0.11.0-d4582f80-67c4-4cae-ba8a-19ad933f2f5d	OPEN	2024-04-10T21:43:14Z
 148555	Update version: GiulioSorrentino.Latorredibabele version 3.0	numerunix:GiulioSorrentino.Latorredibabele-3.0-b20982ca-b94e-42b4-b0f8-8c383c1539d5	OPEN	2024-04-10T21:06:52Z
-148554	Automatic update of evernote.evernote from 10.83.5.20240405130859 to 10.84.3.20240409145102	wingetbot:AutomaticUpdate_5f219ba5-bf40-4911-88c3-fd08dae7ca6d	OPEN	2024-04-10T21:05:41Z
-148553	Update version: GiulioSorrentino.numeronesoeminformations version 1.1.1	numerunix:GiulioSorrentino.numeronesoeminformations-1.1.1-d302ef52-0c62-4c11-b7c1-558e60865aac	OPEN	2024-04-10T21:04:59Z
-148552	Update version: GiulioSorrentino.CBriscola.WPF version 0.7.0	numerunix:GiulioSorrentino.CBriscola.WPF-0.7.0-dfb3db8e-3b2c-4ecb-9037-595e461ce732	OPEN	2024-04-10T21:03:33Z
 148551	Update version: GiulioSorrentino.WinDateFrom version 4.6	numerunix:GiulioSorrentino.WinDateFrom-4.6-c742c326-c867-4c12-bb77-e379ba6f2232	OPEN	2024-04-10T21:02:18Z
-148550	Update version: GiulioSorrentino.CBriscola.Avalonia version 0.8.0	numerunix:GiulioSorrentino.CBriscola.Avalonia-0.8.0-fdb62426-1bfa-4939-b2b4-27e0740e6daf	OPEN	2024-04-10T21:00:43Z
-148549	Update version: GiulioSorrentino.numeronesfortuneinavalonia version 2.0.3	numerunix:GiulioSorrentino.numeronesfortuneinavalonia-2.0.3-addaa130-c89d-4598-b3b1-89bc6e31e82b	OPEN	2024-04-10T20:58:28Z
-148548	Automatic update of evernote.evernote from 10.83.4.20240404123109 to 10.84.3.20240409145102	wingetbot:AutomaticUpdate_eb852593-5a16-48c5-b66d-911ef53d10b9	OPEN	2024-04-10T20:56:01Z
-148547	New version: Helm.Helm version 3.14.4	ste93cry:Helm.Helm-3.14.4-F5FB9929	OPEN	2024-04-10T20:54:46Z
-148546	Automatic update of evernote.evernote from 10.82.2.20240327123857 to 10.84.3.20240409145102	wingetbot:AutomaticUpdate_20b081c6-a648-4cd8-8377-2909b3008867	OPEN	2024-04-10T20:46:04Z
-148545	Automatic deletion of Automox.AutomoxAgent 1.42.22	wingetbot:AutomaticUpdate_79b41ed4-362e-4d8c-a542-e811a78fc56e	OPEN	2024-04-10T20:40:30Z
-148544	Automatic update of AtomicJar.Testcontainers from 1.9.0 to 1.10.0	wingetbot:AutomaticUpdate_5763d12f-e754-4cf6-bfcc-bc948f57b657	OPEN	2024-04-10T20:32:44Z
-148543	New version: Notion.Notion version 3.4.1	coolplaylinbot:Notion.Notion-3.4.1-EBC3972A11A143D78A60D96343FB230C	OPEN	2024-04-10T20:16:09Z
-148542	Automatic deletion of Doist.Todoist 9.1.3	wingetbot:AutomaticUpdate_1c224296-4c05-4049-b194-d37d6b47ac46	OPEN	2024-04-10T19:48:33Z
-148541	Automatic update of Doist.Todoist from 9.1.3 to 9.1.4	wingetbot:AutomaticUpdate_850f1f89-f3bc-4a97-a997-af26b38f9319	OPEN	2024-04-10T19:43:19Z
-148540	Automatic update of Doist.Todoist from 9.1.1 to 9.1.4	wingetbot:AutomaticUpdate_f7fd2476-ebda-4e97-aeb6-655460a4f953	OPEN	2024-04-10T19:33:37Z
-148539	New version: clsid2.mpc-hc version 2.2.1	Exorcism0666:clsid2.mpc-hc-2.2.1-736703360	OPEN	2024-04-10T19:17:22Z
-148538	New version: BartoszCichecki.LenovoLegionToolkit version 2.21.1	SpecterShell:BartoszCichecki.LenovoLegionToolkit-2.21.1-244762011	OPEN	2024-04-10T19:08:23Z
 148537	New version: gjergj.testmyapp 0.0.52	Gjergj:testmyapp-v0.0.52	OPEN	2024-04-10T19:01:03Z
-148535	New version: Google.Chrome.EXE version 123.0.6312.123	SpecterShell:Google.Chrome.EXE-123.0.6312.123-229636075	OPEN	2024-04-10T18:11:18Z
-148534	New version: Google.Chrome version 123.0.6312.122	SpecterShell:Google.Chrome-123.0.6312.122-211826135	OPEN	2024-04-10T18:11:11Z
 148533	New version: Kitware.ParaView version 5.12.0	Exorcism0666:Kitware.ParaView-5.12.0-576259D7EC364C9E82844BE3898033E8	OPEN	2024-04-10T17:52:04Z
 148532	FireDaemon OpenSSL 3.2.1	firedaemon-ceo:FireDaemon.OpenSSL-3.2.1-6e4406f8-e081-4762-a255-0a739eea575e	OPEN	2024-04-10T17:38:57Z
-148531	Add version: OpenJS.NodeJS.LTS version 18.20.2	coolplaylinbot:OpenJS.NodeJS.LTS-18.20.2-0103B8D0FE014BD780D7DF8F06F9D47A	OPEN	2024-04-10T17:11:55Z
-148530	New version: OpenJS.NodeJS.LTS version 20.12.2	coolplaylinbot:OpenJS.NodeJS.LTS-20.12.2-9B4C4D6350CF4740974786C5DFE21638	OPEN	2024-04-10T17:11:48Z
-148529	New version: JetBrains.WebStorm.EAP version 241.15989.9	SpecterShell:JetBrains.WebStorm.EAP-241.15989.9-296251241	OPEN	2024-04-10T17:10:05Z
 148528	New version: Nvidia.CUDA version 12.4.1	Exorcism0666:Nvidia.CUDA-12.4.1-F97D5DD48EB64DA08316E07B485E627B	OPEN	2024-04-10T16:54:01Z
 148527	New package: CoreFTP.CoreFTP version 2.2.1960	Exorcism0666:CoreFTP.CoreFTP-2.2.1960-24ed8e04-1a23-478a-82ef-ea992b23b1d7	OPEN	2024-04-10T16:51:04Z
 148526	New package: XlightFTP.XlightFTP version 3.9.4.1	Exorcism0666:XlightFTP.XlightFTP-3.9.4.1-946ec51d-bd2b-41b5-bb8a-f82c882ebbc0	OPEN	2024-04-10T16:40:27Z
-148524	Prey.Prey version 1.12.5	vedantmgoyal9:Prey.Prey-1.12.5-1d628816-154f-407b-9eb8-a70fccb7aa71	OPEN	2024-04-10T16:33:53Z
 148523	JackieLiu.NotepadsApp version 1.5.4.0	vedantmgoyal9:JackieLiu.NotepadsApp-1.5.4.0-0701032e-9308-4173-ae8c-be84a6029403	OPEN	2024-04-10T16:33:36Z
 148522	New version: Microsoft.PowerToys version 0.80.1	crutkas:Microsoft.PowerToys-0.80.1-e668f4f8-cf2e-4833-911e-419a83f1c289	OPEN	2024-04-10T16:33:36Z
 148516	New package: Microsoft.AzureInformationProtection version 2.18.26.0	Exorcism0666:Microsoft.AzureInformationProtection-2.18.26.0-48b448c6-6a0f-4b18-b2e0-220c4d2b89ba	OPEN	2024-04-10T15:25:55Z
 148515	New version: Ryujinx.Ryujinx version 1.1.1273	Exorcism0666:Ryujinx.Ryujinx-1.1.1273-891333321	OPEN	2024-04-10T15:22:10Z
 148513	New version: Unity.Unity.2022 version 2022.3.24f1	SpecterShell:Unity.Unity.2022-2022.3.24f1-1822660226	OPEN	2024-04-10T15:13:43Z
-148510	OneScript 1.9.1	dmpas:feature/onescript-1.9.1	OPEN	2024-04-10T15:01:09Z
 148505	New version: Genivia.ugrep version 5.1.4	Genivia:Genivia.ugrep-5.1.4-2A11245AB29E081506A1C89E1A8FAA53C8410055	OPEN	2024-04-10T13:37:36Z
 148503	New version: TheBrowserCompany.Arc version 0.17.2.21183	Exorcism0666:TheBrowserCompany.Arc-0.17.2.21183-8BC010238C294984AD3AF91776614F9C	OPEN	2024-04-10T13:18:21Z
 148502	New version: JetBrains.FleetLauncher.Preview version 1.33.90	SpecterShell:JetBrains.FleetLauncher.Preview-1.33.90-1316652358	OPEN	2024-04-10T13:09:53Z
@@ -43,17 +36,12 @@
 148480	New version: uazo.cromite version 123.0.6312.106	Exorcism0666:uazo.cromite-123.0.6312.106-1724037824	OPEN	2024-04-10T07:21:54Z
 148476	Microsoft.VisualStudioCode.Insiders.CLI_v1.89.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.Insiders.CLI_v1.89.0	OPEN	2024-04-10T07:06:53Z
 148472	New version: yt-dlp.yt-dlp version 2024.04.09	aisgbnok:yt-dlp-2024.04.09	OPEN	2024-04-10T05:06:49Z
-148471	New version: Caprine.Caprine version 2.60.1	devCKVargas:Caprine.Caprine-2.60.1-1DB4F74D8B8A428BBD69A0414F703AF0	OPEN	2024-04-10T05:01:39Z
-148470	procgov v2.12.2363.8	lowleveldesign:LowLevelDesign.ProcessGovernor-2.12.2363.8-bcd23c9d-54a7-46f8-b427-9e6ec63a0b8d	OPEN	2024-04-10T04:27:50Z
 148465	New version: BookxSoftware.BookxNotePro version 2.0.0.1122	SpecterShell:BookxSoftware.BookxNotePro-2.0.0.1122-200946065	OPEN	2024-04-10T02:20:50Z
-148464	New version: vim.vim.nightly version 9.1.0296	vim:vim.vim.nightly-9.1.0296-6B02930320A3BAE3F8C80BC6B40E7538EA4AE519	OPEN	2024-04-10T01:55:35Z
-148462	New version: StandardNotes.StandardNotes version 3.192.13	Exorcism0666:StandardNotes.StandardNotes-3.192.13-4E5D28E04F4F4D32A0C56E3F51AED8D9	OPEN	2024-04-10T01:20:16Z
 148457	New version: AdGuard.dnsproxy version 0.69.0	Exorcism0666:AdGuard.dnsproxy-0.69.0-8FC9CA115B92467999A28835E4FD7394	OPEN	2024-04-10T01:19:51Z
 148451	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_31c4e895-d817-4a1b-b320-d282eb45a96c	OPEN	2024-04-10T00:54:04Z
 148448	New version: LGUG2Z.whkd version 0.2.1	LGUG2Z:LGUG2Z.whkd-0.2.1-6D2BB58129814BF509FE49F04AFB9B60AECD66C4	OPEN	2024-04-10T00:04:42Z
 148442	Erlang.ErlangOTP version 24.3.4.17	vedantmgoyal9:Erlang.ErlangOTP-24.3.4.17-5900a303-6405-4b83-b3d8-1ba73d05bf17	OPEN	2024-04-09T23:26:22Z
 148436	Automatic deletion of Cisco.CiscoWebexMeetings 44.3.0.146	wingetbot:AutomaticUpdate_8d70cd21-2666-4059-815b-9d083ac64ab5	OPEN	2024-04-09T23:05:05Z
-148432	New version: Bluebeam.Revu.21 version 21.1.0	PckgrBot:Bluebeam.Revu.21-21.1.0-4245b4c1-e1ac-403f-89a0-b8b72431ea2f	OPEN	2024-04-09T22:42:50Z
 148422	Automatic update of UweSieber.USBDLM from 5.5.11.0 to 5.6.0.0	wingetbot:AutomaticUpdate_00ee000e-3745-44e7-91ea-c1e7558bd018	OPEN	2024-04-09T22:09:21Z
 148421	New version: JetBrains.dotUltimate version 2024.1	SpecterShell:JetBrains.dotUltimate-2024.1-1766961815	OPEN	2024-04-09T22:07:25Z
 148407	Automatic update of ArobasMusic.GuitarPro.8 from 8.1.1-17 to 8.1.2.27	wingetbot:AutomaticUpdate_f7eea850-4b9d-43e1-901d-9665fd98d324	OPEN	2024-04-09T20:23:10Z
@@ -72,7 +60,6 @@
 148226	New Package: ente-io.ente.Auth version 2.0.50+250	Trenly:ente-io.ente-2.0.50-DD5DCF68	OPEN	2024-04-08T22:20:18Z
 148219	New version: Microsoft.VisualStudio.2022.Community version 17.9.5	Trenly:Microsoft.VisualStudio.2022.Community-17.9.5-0A73C432	OPEN	2024-04-08T20:56:59Z
 148192	New version: Suwayomi.Tachidesk-JUI version 1.3.3	TejasMate:Suwayomi.Tachidesk-JUI-1.3.3-F913D8DCFA6D432ABA86F1D0CD244E61	OPEN	2024-04-08T14:41:20Z
-148185	New package: DonHOdon.h@free.fr.Notepad++ version 8.6.0.0	bjarnisveinsson:DonHOdon.h@free.fr.Notepad++-8.6.0.0-134e5ed3-e680-4fbc-8bd2-cef16d72219f	OPEN	2024-04-08T12:06:13Z
 148151	Remove: AxisCommunicationsAB.AXISCameraStation version 5.57.22317	coolplaylinbot:AxisCommunicationsAB.AXISCameraStation-5.57.22317-D69A76EBA3B6BA274B820EEB0402F35D903288E6	OPEN	2024-04-08T04:44:16Z
 148144	Remove: ArchiMateTool.Archi version 5.2.0	coolplaylinbot:ArchiMateTool.Archi-5.2.0-F816122883296B76247D95F3D966E186AC579BE3	OPEN	2024-04-08T03:34:37Z
 148132	Remove: Dropbox.Dash version 2.92.0	coolplaylinbot:Dropbox.Dash-2.92.0-A6AB7AAA850772161EEA0959FBF5D8B0E750F487	OPEN	2024-04-08T02:07:11Z
@@ -104,27 +91,20 @@
 147622	Automatic deletion of RiotGames.Valorant.LATAM 82.0.1.1194	wingetbot:AutomaticUpdate_3c0cc54d-39d9-4d81-a5a5-3f8310a34f4c	OPEN	2024-04-03T22:37:45Z
 147621	Automatic deletion of RiotGames.LegendsOfRuneterra.Americas 82.0.1.1194	wingetbot:AutomaticUpdate_2c12cc1b-0f9f-4009-9dae-a97b4c099477	OPEN	2024-04-03T22:32:52Z
 147569	New version: github.com.benny93.kafui 0.1.23	Benny93:master	OPEN	2024-04-03T20:51:13Z
-147465	New version: Unity.Unity.2021 version 2021.3.37f1	SpecterShell:Unity.Unity.2021-2021.3.37f1-1053519802	OPEN	2024-04-03T09:16:50Z
 147407	OpenRCT2.OpenRCT2 version 0.4.10	vedantmgoyal9:OpenRCT2.OpenRCT2-0.4.10-4c4c1a2f-20c4-4ef0-9fd6-a6ea2fb7eba2	OPEN	2024-04-02T23:27:05Z
 147377	New version: Microsoft.VisualStudio.2022.Community version 17.9.5	ccorrion:Microsoft.VisualStudio.2022.Community-17.9.5-37f868ac-f6d6-486a-8bd5-0fde19a15ca0	OPEN	2024-04-02T19:46:09Z
 147376	New package: FrenchGithubUser.Hatt version 0.3.5	soredake:FrenchGithubUser.Hatt-0.3.5-725E156C080F4C598A9DD6622D522FB2	OPEN	2024-04-02T19:45:10Z
 147354	[PHP] Add PHP 8.0, 8.1, 8.2, and 8.3	PHPWatch:php	OPEN	2024-04-02T13:29:46Z
 147205	Version Update: TeamSonarr.Sonarr version 4.0.3.1413	babblebauble:TeamSonarr.Sonarr-4.0.3.1413-1e4c7860-586f-44a6-9a60-8e98bbdb28a6	OPEN	2024-04-01T11:23:16Z
 147089	Automatic update of Piriform.CCleaner.ProTrial from 6.19.0.10858 to 6.22.0.10977	wingetbot:AutomaticUpdate_5d70bc95-320f-476e-877b-62e318768ff6	OPEN	2024-03-30T20:40:27Z
-147077	TranslucentTB.TranslucentTB version 2024.1	Lachine1:TranslucentTB.TranslucentTB-2024.1-e4afcac8-cd31-4e62-950f-5991653d1cb3	OPEN	2024-03-30T15:19:29Z
-147067	MiTeC.SystemInformationX version 1	Lachine1:MiTeC.SystemInformationX-1-55569b97-097d-42df-9c47-ce32e5194f1a	OPEN	2024-03-30T14:24:15Z
 147057	New version: huanghongxun.HelloMinecraftLauncher version 3.5.7.245	TejasMate:huanghongxun.HelloMinecraftLauncher-3.5.7.245-C19C7AF554FF4677A1FF48E2F61F585C	OPEN	2024-03-30T12:22:55Z
-147054	Update XpdfReader to 4.05	Lachine1:XpdfReader.XpdfReader-4.05-2d999dbc-b3fd-40ac-a330-9fdda77b065d	OPEN	2024-03-30T11:54:15Z
 147051	tibbo.ioninja version 5.5.1	vedantmgoyal9:tibbo.ioninja-5.5.1-f5331892-1a06-48b6-b640-a72e02574e55	OPEN	2024-03-30T11:22:15Z
 146956	New package: cjmurph.PlexService version 1.2.3	Exorcism0666:cjmurph.PlexService-1.2.3-49594e52-2bd9-4fd7-8b11-4d2c2f52b944	OPEN	2024-03-29T17:00:37Z
 146902	Automatic update of Parsec.Parsec from 150-92a to 150.93.2.0	wingetbot:AutomaticUpdate_d22961f1-19ef-437e-a636-2ec8440870fe	OPEN	2024-03-29T02:20:32Z
 146880	New version: Beeper.Beeper version 3.102.10	SpecterShell:Beeper.Beeper-3.102.10-F8876EB6	OPEN	2024-03-28T23:41:54Z
-146873	Automatic update of ServerData.Elevate from 2.15.15 to 2.15.165.0	wingetbot:AutomaticUpdate_a7757f9c-8a20-4385-8617-a55ea35c52af	OPEN	2024-03-28T23:18:23Z
 146786	New package: Teclib'.GLPIAgent1.7.2 version 1.7.2	MaxKoerck:Teclib'.GLPIAgent1.7.2-1.7.2-90ba4a94-3b18-4d89-8b5d-d8425a01196f	OPEN	2024-03-28T10:08:43Z
 146751	Update version: Aserto.Topaz version 0.31.10	Exorcism0666:Aserto.Topaz-0.31.10-3C4BC16B9E81403DA659567D607BF9BC	OPEN	2024-03-28T01:18:44Z
 146669	Cybelsoft.DriversCloud version 12.0.21	vedantmgoyal9:Cybelsoft.DriversCloud-12.0.21-feb01319-5b22-444e-b7e2-7ace1e020842	OPEN	2024-03-27T16:31:38Z
-146625	New package: Hashicorp.Terraform.RC version 1.8.0-rc1	kdpuvvadi:Hashicorp.Terraform.RC-1.8.0-rc1-7467AE2D69CE40C4B524BBF7D9727B1B	OPEN	2024-03-27T05:51:52Z
-146569	azurejoga.aurora version 16.0	azurejoga:azurejoga.aurora-16.0-c49b0638-5f0f-4344-b392-b84baecdd420	OPEN	2024-03-27T00:21:43Z
 146417	New package: CelestialCartoGraphers.Loenn version 0.7.8	vikingnope:CelestialCartoGraphers.Loenn-0.7.8-4810378C84954B81BDBCA6579F473D31	OPEN	2024-03-25T20:06:48Z
 146354	New package: hoppscotch.Hoppscotch version 23.12.6.1	xVemu:hoppscotch.Hoppscotch-23.12.6.1-39d69fb2-e5f6-41ca-9b78-a62dc768c90d	OPEN	2024-03-25T08:17:27Z
 146251	New version: Apache.Groovy.4 version 4.0.20	vikingnope:Apache.Groovy.4-4.0.20-43CAF96EF6A84E7793BB3D3DB860BF55	OPEN	2024-03-24T21:03:35Z
