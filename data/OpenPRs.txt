@@ -1,5 +1,19 @@
+148864	New version: Tutanota.Tutanota version 220.240411.0	Exorcism0666:Tutanota.Tutanota-220.240411.0-0B994F77108B4118AED10758770E9278	OPEN	2024-04-12T09:00:02Z
+148863	New version: Toit.Jaguar version 1.33.0	LeonGungadinMogensen:Toit.Jaguar-1.33.0-331db640-f077-4243-908f-6da8cdbba905	OPEN	2024-04-12T08:53:20Z
+148862	Modify: Tencent.WeChat version 3.9.10.19	SpecterShell:Tencent.WeChat-3.9.10.19-Modify	OPEN	2024-04-12T08:24:11Z
+148861	Modify: Tencent.WeChat version 3.9.10.16	SpecterShell:Tencent.WeChat-3.9.10.16-Modify	OPEN	2024-04-12T08:23:55Z
+148859	New version: ByteDance.SodaMusic version 1.6.2	SpecterShell:ByteDance.SodaMusic-1.6.2-1324982172	OPEN	2024-04-12T08:09:31Z
+148858	Update SQLiteStudio	JanWerder:sqlitestudio	OPEN	2024-04-12T07:48:58Z
+148857	New version: UnknownSKL.Greenlight version 2.3.1	GhoulBoii:UnknownSKL.Greenlight-2.3.1-438D92CE616D49AC89EC08E8A089AC7A	OPEN	2024-04-12T07:39:03Z
+148856	Remove version: GoXLR-on-Linux.GoXLR-Utility version 1.1.0	parzival-space:remove-release/goxlr-utility-1.1.0	OPEN	2024-04-12T07:32:23Z
+148855	opam 2.2.0-beta2	jonahbeckford:opam-2.2.0-beta2	OPEN	2024-04-12T07:31:52Z
+148854	CloudImperiumGames.RSILauncher 2.0.0	DeusMaximus:rsi-launcher-2.0.0	OPEN	2024-04-12T07:26:52Z
+148853	New version: WHTA.Tamara version 2024.0.0.16	lars-whta:WHTA.Tamara-2024.0.0.16-846daf51-4fce-4edf-879b-2f04bbc43c14	OPEN	2024-04-12T07:24:42Z
+148852	New Version: Gruntwork.Terragrunt version 0.56.5	KaiKorla:master	OPEN	2024-04-12T07:22:37Z
+148851	Add version: GoXLR-on-Linux.GoXLR-Utility version 1.0.6	parzival-space:GoXLR-on-Linux.GoXLR-Utility-1.0.6-81cf96c3-98b7-4619-9414-b141623922de	OPEN	2024-04-12T07:16:23Z
+148850	New version: Redisant.MQTTAssistant version 2.0.3.0	SpecterShell:Redisant.MQTTAssistant-2.0.3.0-1018095150	OPEN	2024-04-12T07:11:06Z
+148849	New version: Alibaba.AlibabaCloudCLI version 3.0.202	SpecterShell:Alibaba.AlibabaCloudCLI-3.0.202-521899830	OPEN	2024-04-12T07:08:44Z
 148846	New version: RingCentral.RingCentral version 24.1.33.9929 (24.1.33)	SpecterShell:RingCentral.RingCentral-24.1.33.9929-336907460	OPEN	2024-04-12T06:12:23Z
-148845	New version: Jackett.Jackett version 0.21.2354	Jackett:Jackett.Jackett-0.21.2354-D98270CBF9BEE699A47965AC20739030502C02B5	OPEN	2024-04-12T06:10:50Z
 148844	Update studio-cli version 24.3.0	TotTheMax:24.3.0-update-1	OPEN	2024-04-12T05:53:15Z
 148842	- Updated oleg-shilo/cs-script (v4.8.15.0)	oleg-shilo:oleg-shilo_cs-script_4.8.15.0	OPEN	2024-04-12T05:16:14Z
 148841	New version: Lenovo.LeAppStore version 9.0.1430.407	SpecterShell:Lenovo.LeAppStore-9.0.1430.407-906555180	OPEN	2024-04-12T05:10:27Z
