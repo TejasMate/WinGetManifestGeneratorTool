@@ -1,3 +1,14 @@
+148875	New version: Baidu.BaiduPinyin version 6.1.6.29	SpecterShell:Baidu.BaiduPinyin-6.1.6.29-295042334	OPEN	2024-04-12T12:11:01Z
+148874	ByteDance.StreamingTool version 7.3.3	vedantmgoyal9:ByteDance.StreamingTool-7.3.3-8ce2b123-65da-4070-ad22-d542f18ee0ea	OPEN	2024-04-12T11:24:52Z
+148873	115.115Chrome version 26.0.6.6	vedantmgoyal9:115.115Chrome-26.0.6.6-05fb86cd-e696-43dd-8ae4-87d7b5d76e29	OPEN	2024-04-12T11:23:31Z
+148872	New version: stacklok.minder 0.0.45	stacklok:minder-0.0.45	OPEN	2024-04-12T11:16:54Z
+148871	Diladele Web Filtering Proxy 3.3.0	diladele:master	OPEN	2024-04-12T11:05:24Z
+148870	New package: viarotel.Escrcpy version 1.18.2	SpecterShell:viarotel.Escrcpy-1.18.2-65C85DFE	OPEN	2024-04-12T10:52:56Z
+148869	Update README.md	skanda890:master	OPEN	2024-04-12T10:51:58Z
+148868	New version: 115.115Chrome version 26.0.6.6	SpecterShell:115.115Chrome-26.0.6.6-1284960596	OPEN	2024-04-12T10:08:07Z
+148867	New version: Kingsoft.WPSOffice.CN version 12.1.0.16729	SpecterShell:Kingsoft.WPSOffice.CN-12.1.0.16729-1715898517	OPEN	2024-04-12T09:49:43Z
+148866	New version: IndigoByte.DrExplain version 6.7.1299	VD42:IndigoByte.DrExplain-6.7.1299-8976a961-a56a-4cbc-9fcf-0d178d27acb1	OPEN	2024-04-12T09:21:05Z
+148865	New version: ByteDance.StreamingTool version 7.3.3	SpecterShell:ByteDance.StreamingTool-7.3.3-1294584294	OPEN	2024-04-12T09:19:08Z
 148864	New version: Tutanota.Tutanota version 220.240411.0	Exorcism0666:Tutanota.Tutanota-220.240411.0-0B994F77108B4118AED10758770E9278	OPEN	2024-04-12T09:00:02Z
 148863	New version: Toit.Jaguar version 1.33.0	LeonGungadinMogensen:Toit.Jaguar-1.33.0-331db640-f077-4243-908f-6da8cdbba905	OPEN	2024-04-12T08:53:20Z
 148862	Modify: Tencent.WeChat version 3.9.10.19	SpecterShell:Tencent.WeChat-3.9.10.19-Modify	OPEN	2024-04-12T08:24:11Z
