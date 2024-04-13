@@ -1,3 +1,36 @@
+148979	New version: BytecodeAlliance.Wasmtime version 19.0.2	SpecterShell:BytecodeAlliance.Wasmtime-19.0.2-1978458516	OPEN	2024-04-13T00:22:05Z
+148978	Automatic deletion of CrashPlan.CrashPlanSMB 11.3.0.754	wingetbot:AutomaticUpdate_a2e6de6c-6de2-4d4b-bbb6-32435e0b5584	OPEN	2024-04-12T23:56:12Z
+148977	Automatic deletion of SiberSystems.GoodSync 12.6.2.2	wingetbot:AutomaticUpdate_877865a7-90d3-4e22-a2a7-bba558dc1a3d	OPEN	2024-04-12T23:54:30Z
+148976	Automatic update of CrashPlan.CrashPlanSMB from 11.3.0.754 to 11.3.1.3	wingetbot:AutomaticUpdate_da89311e-d7cf-469d-b207-79ee5c2a4cdf	OPEN	2024-04-12T23:51:20Z
+148975	Automatic deletion of Yandex.Messenger 2.194.0	wingetbot:AutomaticUpdate_ba359690-e25d-44ea-859a-88e07ce706f2	OPEN	2024-04-12T23:48:53Z
+148974	Automatic deletion of CrashPlan.CrashPlanSMB 11.2.1.23	wingetbot:AutomaticUpdate_d240b7ef-19d0-45d2-b36b-313a8f779923	OPEN	2024-04-12T23:46:17Z
+148973	Automatic deletion of ServerData.Elevate 2.15.15	wingetbot:AutomaticUpdate_3c8ac9ce-2e11-4981-87f3-f40f830240ee	OPEN	2024-04-12T23:42:31Z
+148972	Automatic update of CrashPlan.CrashPlanSMB from 11.2.1.23 to 11.3.1.3	wingetbot:AutomaticUpdate_4ab29c55-edf8-46a3-8fbb-e7f8a88cf8c0	OPEN	2024-04-12T23:41:14Z
+148971	New version: vim.vim version 9.1.0312	vim:vim.vim-9.1.0312-C6BD37E951FB711181A83207F37E20B13539050E	OPEN	2024-04-12T23:34:25Z
+148970	New version: vim.vim.nightly version 9.1.0312	vim:vim.vim.nightly-9.1.0312-03C01D2A1A74769C73736264B8239FA424062D5E	OPEN	2024-04-12T23:33:55Z
+148969	Prey.Prey version 1.12.7	vedantmgoyal9:Prey.Prey-1.12.7-37acb5a6-d927-4f8c-af6c-8fbaeacab6b3	OPEN	2024-04-12T23:22:22Z
+148968	Microsoft.Edge version 123.0.2420.97	vedantmgoyal9:Microsoft.Edge-123.0.2420.97-34785dbd-2f12-4df0-9599-5c4fbc007594	OPEN	2024-04-12T23:22:13Z
+148967	Microsoft.Edge.Beta version 124.0.2478.39	vedantmgoyal9:Microsoft.Edge.Beta-124.0.2478.39-02a0bc17-8222-459c-9e9a-cdd461353081	OPEN	2024-04-12T23:21:58Z
+148966	JohannesMillan.superProductivity version 8.0.5	vedantmgoyal9:JohannesMillan.superProductivity-8.0.5-6775a73a-941f-48eb-abd7-fb81373cff81	OPEN	2024-04-12T23:20:36Z
+148965	Discord.Discord.PTB version 1.0.1066	vedantmgoyal9:Discord.Discord.PTB-1.0.1066-0d90fe7d-b5bc-4507-9ce9-73056aeb7c0a	OPEN	2024-04-12T23:20:24Z
+148964	Amazon.AWSCLI version 2.15.38	vedantmgoyal9:Amazon.AWSCLI-2.15.38-18fd1218-664f-4ebb-a044-d3fef4de371d	OPEN	2024-04-12T23:20:11Z
+148963	Automatic update of CMU.CLAN from 7.97.00 to 7.98.00	wingetbot:AutomaticUpdate_346f8668-cf83-406f-b47b-166f2e126a02	OPEN	2024-04-12T23:10:35Z
+148962	Automatic update of Clockify.Clockify from 1.7.86 to 1.7.87	wingetbot:AutomaticUpdate_10c4e9a8-9ab0-4895-a832-44140b640bc6	OPEN	2024-04-12T23:10:30Z
+148961	New version: Microsoft.EdgeDriver version 123.0.2420.97	SpecterShell:Microsoft.EdgeDriver-123.0.2420.97-576733292	OPEN	2024-04-12T23:10:21Z
+148960	New version: twpayne.chezmoi 2.47.4	twpayne:chezmoi-2.47.4	OPEN	2024-04-12T23:06:15Z
+148959	Update: bitwig.bitwig version 5.1.7.143754	JamesDBartlett3:bitwig.bitwig-5.1.7.143754-54830E44	OPEN	2024-04-12T23:01:59Z
+148958	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_69d8aaeb-709f-40d7-887c-d7f62418c299	OPEN	2024-04-12T23:00:46Z
+148957	New package: Lenovo.SLBrowser version 9.0.3.1311	SpecterShell:Lenovo.SLBrowser-9.0.3.1311-1470CB43	OPEN	2024-04-12T22:51:25Z
+148956	New package: NVIDIA.app.Beta version 10.0.0.535	aisgbnok:new-NVIDIA.app.Beta-10.0.0.535	DRAFT	2024-04-12T22:42:52Z
+148955	New version: StandardNotes.StandardNotes version 3.192.17	russellbanks:StandardNotes.StandardNotes-3.192.17-D2D4E48A91074FC7A8A7BB35D0AB7667	OPEN	2024-04-12T22:41:45Z
+148954	Automatic deletion of MaestroSoft.MaestroAarsoppgjoer.2023 36.03.26	wingetbot:AutomaticUpdate_e9cccdc2-b3fe-4c4a-89b4-8751649d9bf9	OPEN	2024-04-12T22:07:55Z
+148953	New version: goplus.gop 1.2.6	goplus:gop-v1.2.6	OPEN	2024-04-12T22:03:48Z
+148952	Automatic deletion of Box.BoxTools 4.24.0.1029	wingetbot:AutomaticUpdate_9d9f8850-7d54-408f-8a8d-90ea9eace1bc	OPEN	2024-04-12T21:57:52Z
+148951	New version: Microsoft.PowerShell version 7.4.2.0	anamnavi:Microsoft.PowerShell-7.4.2.0-806CC2	OPEN	2024-04-12T21:53:08Z
+148950	Automatic update of Quicken.Quicken from 27.1.52.28 to 27.1.55.26	wingetbot:AutomaticUpdate_d51710af-3f29-4a58-b4d3-dc60cbf4924f	OPEN	2024-04-12T21:50:20Z
+148949	Automatic update of BitSum.ProcessLasso.Beta from 14.0.2.5 to 14.0.2.7	wingetbot:AutomaticUpdate_f3393187-895d-4608-87b2-658bb21d6d30	OPEN	2024-04-12T21:41:51Z
+148948	Automatic deletion of BitSum.ParkControl 5.0.3.4	wingetbot:AutomaticUpdate_1d7f9da3-acfe-4a8d-82f4-a152312bf99c	OPEN	2024-04-12T21:41:49Z
+148947	Automatic update of BiniSoft.WindowsFirewallControl from 6.9.9.6 to 6.9.9.7	wingetbot:AutomaticUpdate_69308fb8-ae39-4f3b-92e5-61088a9c944a	OPEN	2024-04-12T21:33:37Z
 148946	Automatic update of Fiorilli.FiorilliWebExtensionClient 1.33.0.0	wingetbot:AutomaticUpdate_45d1c0b8-0e66-4146-8de1-5d8d0440db29	OPEN	2024-04-12T21:10:25Z
 148945	New version: Google.Chrome.Canary version 125.0.6415.0	SpecterShell:Google.Chrome.Canary-125.0.6415.0-333426086	OPEN	2024-04-12T21:10:20Z
 148944	New version: gptscript-ai.gptscript version v0.5.0	acorn-io-bot:gptscript-ai.gptscript-v0.5.0-1ac7227c-c9db-45f3-b1a2-9197466ba56d	OPEN	2024-04-12T21:09:04Z
@@ -23,7 +56,6 @@
 148921	New package: squidowl.halloy version 2024.6	KaiKorla:squidowl.halloy-2024.6	OPEN	2024-04-12T18:47:37Z
 148910	New version: Abdelrhman-AK.WinPaletter version 1.0.9.2	Abdelrhman-AK:Abdelrhman-AK.WinPaletter-1.0.9.2-e2b09aa1-211f-4722-be95-97bb26a9199d	OPEN	2024-04-12T15:38:15Z
 148906	Add Microsoft.DevProxy version 0.16.2	garrytrinder:dev-proxy-0-16-2	OPEN	2024-04-12T15:06:10Z
-148886	New version: WatchGuardTechnologies.WatchGuardSystemManager version 1…	1eyeITguy:WatchGuardTechnologies.WatchGuardSystemManager-12.10.3-236BE0A4	OPEN	2024-04-12T13:32:50Z
 148871	Diladele Web Filtering Proxy 3.3.0	diladele:master	OPEN	2024-04-12T11:05:24Z
 148858	Update SQLiteStudio	JanWerder:sqlitestudio	OPEN	2024-04-12T07:48:58Z
 148856	Remove version: GoXLR-on-Linux.GoXLR-Utility version 1.1.0	parzival-space:remove-release/goxlr-utility-1.1.0	OPEN	2024-04-12T07:32:23Z
@@ -95,7 +127,6 @@
 147089	Automatic update of Piriform.CCleaner.ProTrial from 6.19.0.10858 to 6.22.0.10977	wingetbot:AutomaticUpdate_5d70bc95-320f-476e-877b-62e318768ff6	OPEN	2024-03-30T20:40:27Z
 147057	New version: huanghongxun.HelloMinecraftLauncher version 3.5.7.245	TejasMate:huanghongxun.HelloMinecraftLauncher-3.5.7.245-C19C7AF554FF4677A1FF48E2F61F585C	OPEN	2024-03-30T12:22:55Z
 146956	New package: cjmurph.PlexService version 1.2.3	Exorcism0666:cjmurph.PlexService-1.2.3-49594e52-2bd9-4fd7-8b11-4d2c2f52b944	OPEN	2024-03-29T17:00:37Z
-146902	Automatic update of Parsec.Parsec from 150-92a to 150.93.2.0	wingetbot:AutomaticUpdate_d22961f1-19ef-437e-a636-2ec8440870fe	OPEN	2024-03-29T02:20:32Z
 146880	New version: Beeper.Beeper version 3.102.10	SpecterShell:Beeper.Beeper-3.102.10-F8876EB6	OPEN	2024-03-28T23:41:54Z
 146786	New package: Teclib'.GLPIAgent1.7.2 version 1.7.2	MaxKoerck:Teclib'.GLPIAgent1.7.2-1.7.2-90ba4a94-3b18-4d89-8b5d-d8425a01196f	OPEN	2024-03-28T10:08:43Z
 146751	Update version: Aserto.Topaz version 0.31.10	Exorcism0666:Aserto.Topaz-0.31.10-3C4BC16B9E81403DA659567D607BF9BC	OPEN	2024-03-28T01:18:44Z
