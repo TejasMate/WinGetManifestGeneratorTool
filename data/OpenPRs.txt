@@ -1,3 +1,18 @@
+149075	New version: Discord.Discord version 1.0.9039	sharunkumar:Discord.Discord-1.0.9039-243be300-b4d9-42d0-ba30-c8a732509c11	OPEN	2024-04-14T07:08:48Z
+149074	New version: Muye.FlickerList version 5.3.2	SpecterShell:Muye.FlickerList-5.3.2-848490328	OPEN	2024-04-14T06:37:37Z
+149073	Fix: PortSwigger.BurpSuite.Community version 2023.1.2	SpecterShell:PortSwigger.BurpSuite.Community-2023.1.2-Fix	OPEN	2024-04-14T06:33:41Z
+149072	Fix: PortSwigger.BurpSuite.Community version 2022.9.6	SpecterShell:PortSwigger.BurpSuite.Community-2022.9.6-Fix	OPEN	2024-04-14T06:33:30Z
+149071	Fix: PortSwigger.BurpSuite.Community version 2022.9.5	SpecterShell:PortSwigger.BurpSuite.Community-2022.9.5-Fix	OPEN	2024-04-14T06:33:20Z
+149070	Fix: PortSwigger.BurpSuite.Community version 2022.8.5	SpecterShell:PortSwigger.BurpSuite.Community-2022.8.5-Fix	OPEN	2024-04-14T06:33:10Z
+149069	Fix: PortSwigger.BurpSuite.Community version 2022.8.4	SpecterShell:PortSwigger.BurpSuite.Community-2022.8.4-Fix	OPEN	2024-04-14T06:32:59Z
+149068	Fix: PortSwigger.BurpSuite.Community version 2022.8.3	SpecterShell:PortSwigger.BurpSuite.Community-2022.8.3-Fix	OPEN	2024-04-14T06:32:48Z
+149067	Fix: PortSwigger.BurpSuite.Community version 2022.8.2	SpecterShell:PortSwigger.BurpSuite.Community-2022.8.2-Fix	OPEN	2024-04-14T06:32:38Z
+149066	Fix: PortSwigger.BurpSuite.Community version 2022.8.1	SpecterShell:PortSwigger.BurpSuite.Community-2022.8.1-Fix	OPEN	2024-04-14T06:32:28Z
+149065	Fix: PortSwigger.BurpSuite.Community version 2022.7.1	SpecterShell:PortSwigger.BurpSuite.Community-2022.7.1-Fix	OPEN	2024-04-14T06:32:17Z
+149064	Fix: PortSwigger.BurpSuite.Community version 2022.6.1	SpecterShell:PortSwigger.BurpSuite.Community-2022.6.1-Fix	OPEN	2024-04-14T06:32:06Z
+149063	New version: Jackett.Jackett version 0.21.2371	Jackett:Jackett.Jackett-0.21.2371-4C5E555CC85777FA9A9CC7F642072831AC345BD7	OPEN	2024-04-14T05:56:18Z
+149062	New version: robinovitch61.webtoon-dl 0.0.9	robinovitch61:webtoon-dl-0.0.9	OPEN	2024-04-14T05:48:41Z
+149061	eloston.ungoogled-chromium version 123.0.6312.122	Nifury:eloston.ungoogled-chromium-123.0.6312.122-3ec4e7d6-ed1d-4aa6-8451-4a97d89ce2d1	OPEN	2024-04-14T04:46:15Z
 149060	New version: Rizin.Rizin version 0.7.3	Exorcism0666:Rizin.Rizin-0.7.3-569807761	OPEN	2024-04-14T03:19:54Z
 149059	New version: Ferdium.Ferdium.Nightly version 6.7.3-nightly.9	Alphrag:Ferdium.Ferdium.Nightly-6.7.3-nightly.9-d1dca690-5fe5-4700-8e34-b1d276f96e46	OPEN	2024-04-14T01:52:57Z
 149058	New version: yt-dlp.yt-dlp.nightly version 2024.04.13.232802	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.04.13.232802-787354883	OPEN	2024-04-14T01:52:04Z
@@ -68,7 +83,6 @@
 148964	Amazon.AWSCLI version 2.15.38	vedantmgoyal9:Amazon.AWSCLI-2.15.38-18fd1218-664f-4ebb-a044-d3fef4de371d	OPEN	2024-04-12T23:20:11Z
 148956	New package: NVIDIA.app.Beta version 10.0.0.535	aisgbnok:new-NVIDIA.app.Beta-10.0.0.535	DRAFT	2024-04-12T22:42:52Z
 148940	Automatic deletion of AtomicJar.Testcontainers 1.10.0	wingetbot:AutomaticUpdate_6bd8251f-61c0-4b7a-8f31-4377061cd12d	OPEN	2024-04-12T20:47:48Z
-148927	Testmyapp v0.0.69	Gjergj:testmyapp-v0.0.69	OPEN	2024-04-12T19:32:10Z
 148926	Add version: Telegram.Unigram version 10.7.0.9893	rakleed:Telegram.Unigram-10.7.0.9893-3E0F92CC09F24C21B66E20475D9CA0D5	OPEN	2024-04-12T19:28:24Z
 148923	New package: Intel.PresentMon version 2.0.0.0	aisgbnok:new-intel.presentmon-2.0.0	DRAFT	2024-04-12T18:52:48Z
 148910	New version: Abdelrhman-AK.WinPaletter version 1.0.9.2	Abdelrhman-AK:Abdelrhman-AK.WinPaletter-1.0.9.2-e2b09aa1-211f-4722-be95-97bb26a9199d	OPEN	2024-04-12T15:38:15Z
@@ -281,7 +295,6 @@
 144719	Add version: OpenJS.NodeJS.LTS version 18.18.2	coolplaylinbot:OpenJS.NodeJS.LTS-18.18.2-3445F8BC469F470088C7A8BD80A9216E	OPEN	2024-03-16T04:19:06Z
 144718	Add version: OpenJS.NodeJS.LTS version 18.19.1	coolplaylinbot:OpenJS.NodeJS.LTS-18.19.1-3B26849FC8DF4A709A7A2A2F2FDA5DFB	OPEN	2024-03-16T04:19:01Z
 144312	Autodesk.Meshmixer version 3.5	Rotzbua:Autodesk.Meshmixer-3.5-2a7131a1-7997-440b-b363-167d6dfe4c56	OPEN	2024-03-14T15:12:27Z
-144305	New version: martinrotter.RSSGuard version 4.6.4	Exorcism0666:martinrotter.RSSGuard-4.6.4-8A80CBF7310A41F8B4829E29B5B98817	OPEN	2024-03-14T12:42:56Z
 144264	New version: Daytonaio.Daytona version 0.3.1	harkiratsm:update-daytona	OPEN	2024-03-14T05:55:58Z
 144081	New package: Jigsaw.OutlineClient version 1.12.1	rakleed:Jigsaw.OutlineClient-1.12.1-99b13a86-76be-4bc2-ada7-91cd24084fc8	OPEN	2024-03-12T22:36:50Z
 143402	New package: SaleaeInc.Logic version 2.4.14	Exorcism0666:SaleaeInc.Logic-2.4.14-3e70270c-1b48-4491-b2ae-3c10b3e31d0d	OPEN	2024-03-09T15:03:25Z
