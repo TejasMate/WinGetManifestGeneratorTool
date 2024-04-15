@@ -1,157 +1,28 @@
-149302	New version: ButterflyEffect.Monica version 2.0.3	SpecterShell:ButterflyEffect.Monica-2.0.3-1862238131	OPEN	2024-04-15T12:11:49Z
+149321	New version: charmbracelet.vhs 0.7.2	charmbracelet:vhs-0.7.2	OPEN	2024-04-15T15:12:37Z
+149320	New version: PortSwigger.BurpSuite.Professional version 2024.2.1.5	SpecterShell:PortSwigger.BurpSuite.Professional-2024.2.1.5-965080988	OPEN	2024-04-15T15:12:00Z
+149319	New version: PortSwigger.BurpSuite.Community version 2024.2.1.5	SpecterShell:PortSwigger.BurpSuite.Community-2024.2.1.5-944579029	OPEN	2024-04-15T15:12:00Z
+149318	New version: Jabra.Direct version 6.14.8801 (6.14.08801)	SpecterShell:Jabra.Direct-6.14.8801-941386930	OPEN	2024-04-15T15:11:36Z
+149317	New package: CryopakDigital.ConsolePlus version 1.16.59	vikingnope:CryopakDigital.ConsolePlus-1.16.59-C56879F8B30C452EB5350CA6680B224E	OPEN	2024-04-15T15:09:02Z
+149316	New version: ThaUnknown.Miru version 5.0.9	ThaUnknown:ThaUnknown.Miru-5.0.9-B702B092F5B4714FCC86F807BA6FFD44811E61ED	OPEN	2024-04-15T14:55:47Z
+149315	Tx ndi	Trouffman:TxNDI	OPEN	2024-04-15T14:51:50Z
+149314	New version: gjergj.testmyapp 0.0.72	Gjergj:testmyapp-v0.0.72	OPEN	2024-04-15T14:50:19Z
+149313	New version: TheBrowserCompany.Arc version 0.18.0.22124	Exorcism0666:TheBrowserCompany.Arc-0.18.0.22124-729564435	OPEN	2024-04-15T14:18:45Z
+149312	New version: KRTirtho.Spotube version 3.6.0	KRTirtho:KRTirtho.Spotube-3.6.0-2E91D554B2ABCCD57B8A65D9530C8AB0A04A535F	OPEN	2024-04-15T14:12:35Z
+149311	New version: Vivaldi.Vivaldi.Snapshot version 6.7.3327.3	SpecterShell:Vivaldi.Vivaldi.Snapshot-6.7.3327.3-393952181	OPEN	2024-04-15T14:12:12Z
+149310	New version: HiroSystems.Clarinet version 2.5.0	blockstack-devops:HiroSystems.Clarinet-2.5.0-b1c66282-dd41-4816-a490-e421ccb73aaa	OPEN	2024-04-15T14:08:10Z
+149306	New version: JetBrains.IntelliJIDEA.Community.EAP version 241.15989.21	SpecterShell:JetBrains.IntelliJIDEA.Community.EAP-241.15989.21-16104809	OPEN	2024-04-15T13:11:30Z
+149303	New version: WHTA.Tamara version 2024.0.1.0	lars-whta:WHTA.Tamara-2024.0.1.0-4a2e7394-3c8e-4afc-a0c3-b2b53a2e47f9	OPEN	2024-04-15T12:49:09Z
 149301	New version: NI.ni-systemconfiguration version 24.3.0	lars-whta:NI.ni-systemconfiguration-24.3.0-400abe82-01a4-4b29-9dfe-b31ce4e7c5c2	OPEN	2024-04-15T11:42:41Z
 149300	New version: NI.ni-xnet version 24.3.0	lars-whta:NI.ni-xnet-24.3.0-d49bcc0b-4367-4d23-a484-976e39c35870	OPEN	2024-04-15T11:35:08Z
 149299	New version: NI.ni-daqmx version 24.3.0	lars-whta:NI.ni-daqmx-24.3.0-82fc5323-903d-42c6-826e-805297d67e23	OPEN	2024-04-15T11:33:26Z
-149298	New version: NetEase.CloudMusic.Beta version 3.0.11.202739	SpecterShell:NetEase.CloudMusic.Beta-3.0.11.202739-1397852767	OPEN	2024-04-15T11:32:47Z
-149297	Add Devolutions Launcher version 2024.1.25.0	Devolutions:Launcher-WinGet-2024.1.25.0	OPEN	2024-04-15T11:31:04Z
-149296	New version: NI.ni-pxiplatformservices version 24.3.0	lars-whta:NI.ni-pxiplatformservices-24.3.0-2cf26b5d-7ab6-4755-a8c8-84c4420712eb	OPEN	2024-04-15T11:30:53Z
-149295	Add Devolutions RemoteDesktopManager version 2024.1.25.0	Devolutions:RDM-WinGet-2024.1.25.0	OPEN	2024-04-15T11:30:51Z
-149294	Add Devolutions RemoteDesktopManagerAgent version 2024.1.25.0	Devolutions:RDMAgent-WinGet-2024.1.25.0	OPEN	2024-04-15T11:30:37Z
-149293	New version: PushPlayLabs.Sidekick version 122.59.1.38681	SpecterShell:PushPlayLabs.Sidekick-122.59.1.38681-1806886178	OPEN	2024-04-15T11:10:24Z
-149292	New version: Bandisoft.BandiView version 7.01 (24343)	SpecterShell:Bandisoft.BandiView-7.01-1741568532	OPEN	2024-04-15T11:08:30Z
 149291	New version: JetBrains.QodanaCLI version 2024.1.0	qodana-bot:JetBrains.QodanaCLI-2024.1.0-D3F833F6BCA7D8E86F405B1A83A74C11	OPEN	2024-04-15T11:04:55Z
-149290	New Version: aimotrens.impulsar 0.11.3	aimotrens:aimotrens/impulsar	OPEN	2024-04-15T10:49:39Z
 149289	New version: gjergj.testmyapp 0.0.71	Gjergj:testmyapp-v0.0.71	OPEN	2024-04-15T10:17:22Z
-149288	New version: Wondershare.Recoverit.CN version 8.0.3.6 (8.0.3)	SpecterShell:Wondershare.Recoverit.CN-8.0.3.6-494161916	OPEN	2024-04-15T10:12:56Z
-149287	New version: Zoom.Zoom version 6.0.0.37205	SpecterShell:Zoom.Zoom-6.0.0.37205-1365014808	OPEN	2024-04-15T10:12:38Z
-149286	New version: Xiaomi.XiaomiCloud version 2.6.2	SpecterShell:Xiaomi.XiaomiCloud-2.6.2-1099727882	OPEN	2024-04-15T10:11:57Z
-149285	New version: Reqable.Reqable version 2.12.0	SpecterShell:Reqable.Reqable-2.12.0-709020508	OPEN	2024-04-15T10:11:07Z
-149284	New version: Lenovo.SLBrowser version 9.0.3.4111	SpecterShell:Lenovo.SLBrowser-9.0.3.4111-1218842332	OPEN	2024-04-15T10:10:22Z
-149283	New version: Google.Chrome.Canary version 125.0.6420.0	SpecterShell:Google.Chrome.Canary-125.0.6420.0-2025682447	OPEN	2024-04-15T10:09:54Z
-149282	New version: 7S2P.Effie version 3.8.5	SpecterShell:7S2P.Effie-3.8.5-1953037546	OPEN	2024-04-15T10:08:15Z
 149281	New version: Microsoft.NuGet version 6.9.1	mdanish-kh:Microsoft.NuGet-6.9.1-79fa720f-5993-4ca8-b96c-14c5f93d0a88	OPEN	2024-04-15T10:05:55Z
-149279	New version: Wondershare.PDFelement.CN version 10.3.7	SpecterShell:Wondershare.PDFelement.CN-10.3.7-1325649243	OPEN	2024-04-15T09:12:57Z
-149278	New version: octobuild.octobuild version 1.2.0	slonopotamus:octobuild.octobuild-1.2.0-cd4286df-8002-4450-a680-179bffaaa38e	OPEN	2024-04-15T08:22:52Z
-149277	New version: stacklok.frizbee 0.0.15	stacklok:frizbee-0.0.15	OPEN	2024-04-15T08:12:44Z
-149276	New version: ByteDance.SodaMusic version 1.6.3	SpecterShell:ByteDance.SodaMusic-1.6.3-1108074324	OPEN	2024-04-15T08:09:55Z
-149275	New version: Alibaba.Yuque version 3.4.2	SpecterShell:Alibaba.Yuque-3.4.2-1396239569	OPEN	2024-04-15T08:09:38Z
-149274	New version: 7S2P.Effie.CN version 3.8.5	SpecterShell:7S2P.Effie.CN-3.8.5-2020978484	OPEN	2024-04-15T08:09:14Z
-149273	New version: Ablaze.Floorp.Daylight version 11.12.0	Hibi-10000:Ablaze.Floorp.Daylight-11.12.0	OPEN	2024-04-15T07:57:01Z
 149272	New version: WestWind.MarkdownMonster version 3.2.10.0	kkbruce:WestWind.MarkdownMonster-3.2.10.0-F07EE2F1	OPEN	2024-04-15T07:50:59Z
 149271	New version: astral-sh.ruff version 0.3.7	frazar:astral-sh.ruff-0.3.7-06C01F79	OPEN	2024-04-15T07:19:01Z
-149270	Remove: Microsoft.Edge version 122.0.2365.63	coolplaylinbot:Microsoft.Edge-122.0.2365.63-A632D9203E5B09F6F9E59876E4559F157EC3052F	OPEN	2024-04-15T07:15:53Z
-149269	Remove: Microsoft.Edge version 112.0.1722.34	coolplaylinbot:Microsoft.Edge-112.0.1722.34-CB17842993755672C827FDAF7FAB83659038A14C	OPEN	2024-04-15T07:15:51Z
-149268	New version: astral-sh.ruff version 0.3.6	frazar:astral-sh.ruff-0.3.6-F9F4E026	OPEN	2024-04-15T07:13:36Z
-149267	New version: Tencent.QQ.NT version 9.9.9.22961 (9.9.9)	SpecterShell:Tencent.QQ.NT-9.9.9.22961-1373006149	OPEN	2024-04-15T07:13:01Z
-149266	Remove: Microsoft.Edge version 110.0.1587.69	coolplaylinbot:Microsoft.Edge-110.0.1587.69-2F046C6B00BD861683F0A7A2C98DDBF972EB5504	OPEN	2024-04-15T07:11:52Z
-149265	Remove: Microsoft.Edge.Beta version 120.0.2210.22	coolplaylinbot:Microsoft.Edge.Beta-120.0.2210.22-8BAE41828701253661DDCDCEEF34422C6C36E202	OPEN	2024-04-15T07:09:26Z
-149264	Remove: Microsoft.Edge.Beta version 119.0.2151.44	coolplaylinbot:Microsoft.Edge.Beta-119.0.2151.44-35B23820D6D94208A7502ADC16181F61D0D7AA7A	OPEN	2024-04-15T07:07:26Z
-149263	Remove: Microsoft.Edge.Beta version 121.0.2277.4	coolplaylinbot:Microsoft.Edge.Beta-121.0.2277.4-43F6E8287292CA98528E9951F07917C6008935DA	OPEN	2024-04-15T07:04:28Z
-149262	Remove: Microsoft.Edge.Beta version 120.0.2210.7	coolplaylinbot:Microsoft.Edge.Beta-120.0.2210.7-89C7128AE229A27CA641FCCFA1B3BD2AC5952F38	OPEN	2024-04-15T07:04:26Z
-149261	Remove: Microsoft.Edge version 111.0.1661.54	coolplaylinbot:Microsoft.Edge-111.0.1661.54-476C30CC4DAC2DA4D5A73383AE0CD2F0BA783305	OPEN	2024-04-15T06:59:01Z
-149260	Remove: Microsoft.Edge version 111.0.1661.43	coolplaylinbot:Microsoft.Edge-111.0.1661.43-8C025753B4C8421BAF95696BC895C6D704132323	OPEN	2024-04-15T06:58:00Z
-149259	Remove: Microsoft.Edge version 110.0.1587.41	coolplaylinbot:Microsoft.Edge-110.0.1587.41-2C4AA98F817DFADF22D4032516BF222CC1D654BF	OPEN	2024-04-15T06:57:58Z
-149258	New version: Canva.Canva version 1.85.0	PckgrBot:Canva.Canva-1.85.0-f267b991-402a-404a-80ea-0466dc9b3dc9	OPEN	2024-04-15T06:56:22Z
-149257	Remove: Microsoft.Edge version 110.0.1587.49	coolplaylinbot:Microsoft.Edge-110.0.1587.49-6A012EF59E2DDD3377A047878349167A823D819F	OPEN	2024-04-15T06:49:59Z
-149256	Remove: Microsoft.Edge version 110.0.1587.46	coolplaylinbot:Microsoft.Edge-110.0.1587.46-74B246B78C6052F5DBD685EC58BD4D379C6E1942	OPEN	2024-04-15T06:49:56Z
-149255	Remove: Microsoft.Edge version 111.0.1661.62	coolplaylinbot:Microsoft.Edge-111.0.1661.62-32F1BC38E50EAE0C1FC06F801E4F8C071954BE75	OPEN	2024-04-15T06:39:59Z
-149254	Remove: Microsoft.Edge.Dev version 120.0.2210.1	coolplaylinbot:Microsoft.Edge.Dev-120.0.2210.1-602AB3389BE33EA0118450CB9030FB4066D90165	OPEN	2024-04-15T06:37:00Z
-149253	Remove: Microsoft.Edge.Dev version 121.0.2248.1	coolplaylinbot:Microsoft.Edge.Dev-121.0.2248.1-70125F8EA825B4D9974A397389410BB74D92AA4D	OPEN	2024-04-15T06:35:00Z
-149252	Remove: Microsoft.Edge.Dev version 121.0.2256.2	coolplaylinbot:Microsoft.Edge.Dev-121.0.2256.2-39CC191F5BD3030DC5BCDF6FEE658D278EDC50D3	OPEN	2024-04-15T06:34:58Z
-149251	Remove: Microsoft.Edge.Dev version 120.0.2210.4	coolplaylinbot:Microsoft.Edge.Dev-120.0.2210.4-FCFC76B753DC59DA98CC60A34C0CF6FCF4BDFC4D	OPEN	2024-04-15T06:33:57Z
-149250	Remove: Microsoft.Edge.Dev version 121.0.2220.3	coolplaylinbot:Microsoft.Edge.Dev-121.0.2220.3-34A14A7DA451162666CFE7603C75082C9D4B41BE	OPEN	2024-04-15T06:33:55Z
-149249	Remove: Microsoft.Edge.Dev version 121.0.2277.4	coolplaylinbot:Microsoft.Edge.Dev-121.0.2277.4-23D6DCD50B8F0848776A93EA4845B934354FE74C	OPEN	2024-04-15T06:32:54Z
-149248	Remove: Microsoft.Edge.Dev version 120.0.2186.2	coolplaylinbot:Microsoft.Edge.Dev-120.0.2186.2-715905D4803389BDA4C11BE44B71F5DAB28E78D3	OPEN	2024-04-15T06:32:53Z
-149247	Remove: Microsoft.Edge.Dev version 120.0.2210.7	coolplaylinbot:Microsoft.Edge.Dev-120.0.2210.7-53B0D9DE3076AFAE63F6E264869CC2A1CB74BD67	OPEN	2024-04-15T06:32:50Z
-149246	Remove: Microsoft.Edge version 109.0.1518.78	coolplaylinbot:Microsoft.Edge-109.0.1518.78-D045EB5249AE4B1405CB18EC2B6B779FF9901DF5	OPEN	2024-04-15T06:27:54Z
-149245	Remove: Microsoft.Edge version 111.0.1661.44	coolplaylinbot:Microsoft.Edge-111.0.1661.44-8A8AD37BBC0A780860124EA9015CFFAF19A50213	OPEN	2024-04-15T06:23:56Z
-149244	Remove: Microsoft.Edge version 110.0.1587.63	coolplaylinbot:Microsoft.Edge-110.0.1587.63-9889B862DF4DEBB4797E8BA5500213A14F34739F	OPEN	2024-04-15T06:19:08Z
-149243	Remove: Microsoft.Edge version 110.0.1587.57	coolplaylinbot:Microsoft.Edge-110.0.1587.57-58315DA4233600E8E648F85A1C41849AB633A737	OPEN	2024-04-15T06:19:06Z
-149242	New version: Youqu.ToDesk version 4.7.3.0	SpecterShell:Youqu.ToDesk-4.7.3.0-281820681	OPEN	2024-04-15T06:14:39Z
 149240	New package Akko.CloudDriver in version 370.1.3	FaserF:new-package-akko-cloud-driver	OPEN	2024-04-15T05:40:24Z
-149239	Modify: Google.Chrome.Beta version 124.0.6367.49	SpecterShell:Google.Chrome.Beta-124.0.6367.49-Modify	OPEN	2024-04-15T04:52:36Z
-149237	Move Google.Chrome.Beta 124.0.6367.8 to Google.Chrome.Beta.EXE 124.0.6367.8	SpecterShell:Move-Google.Chrome.Beta-v124.0.6367.8-A872E273	OPEN	2024-04-15T04:31:01Z
 149236	Remove Google.Chrome.Beta 124.0.6367.49 to Google.Chrome.Beta.EXE 124.0.6367.49	SpecterShell:Remove-Google.Chrome.Beta-v124.0.6367.49-A872E273	OPEN	2024-04-15T04:29:51Z
-149235	Move Google.Chrome.Beta 124.0.6367.49 to Google.Chrome.Beta.EXE 124.0.6367.49	SpecterShell:Move-Google.Chrome.Beta-v124.0.6367.49-A872E273	OPEN	2024-04-15T04:29:42Z
-149234	Remove Google.Chrome.Beta 124.0.6367.29 to Google.Chrome.Beta.EXE 124.0.6367.29	SpecterShell:Remove-Google.Chrome.Beta-v124.0.6367.29-A872E273	OPEN	2024-04-15T04:26:14Z
-149233	Move Google.Chrome.Beta 124.0.6367.29 to Google.Chrome.Beta.EXE 124.0.6367.29	SpecterShell:Move-Google.Chrome.Beta-v124.0.6367.29-A872E273	OPEN	2024-04-15T04:26:04Z
-149232	Remove Google.Chrome.Beta 124.0.6367.18 to Google.Chrome.Beta.EXE 124.0.6367.18	SpecterShell:Remove-Google.Chrome.Beta-v124.0.6367.18-A872E273	OPEN	2024-04-15T04:25:22Z
-149231	Move Google.Chrome.Beta 124.0.6367.18 to Google.Chrome.Beta.EXE 124.0.6367.18	SpecterShell:Move-Google.Chrome.Beta-v124.0.6367.18-A872E273	OPEN	2024-04-15T04:25:13Z
-149230	Remove Google.Chrome.Beta 123.0.6312.46 to Google.Chrome.Beta.EXE 123.0.6312.46	SpecterShell:Remove-Google.Chrome.Beta-v123.0.6312.46-A872E273	OPEN	2024-04-15T04:24:22Z
-149229	Move Google.Chrome.Beta 123.0.6312.46 to Google.Chrome.Beta.EXE 123.0.6312.46	SpecterShell:Move-Google.Chrome.Beta-v123.0.6312.46-A872E273	OPEN	2024-04-15T04:24:13Z
-149228	Remove Google.Chrome.Beta 123.0.6312.4 to Google.Chrome.Beta.EXE 123.0.6312.4	SpecterShell:Remove-Google.Chrome.Beta-v123.0.6312.4-A872E273	OPEN	2024-04-15T04:23:41Z
-149227	Move Google.Chrome.Beta 123.0.6312.4 to Google.Chrome.Beta.EXE 123.0.6312.4	SpecterShell:Move-Google.Chrome.Beta-v123.0.6312.4-A872E273	OPEN	2024-04-15T04:23:31Z
-149226	Remove Google.Chrome.Beta 123.0.6312.28 to Google.Chrome.Beta.EXE 123.0.6312.28	SpecterShell:Remove-Google.Chrome.Beta-v123.0.6312.28-A872E273	OPEN	2024-04-15T04:21:15Z
-149225	Move Google.Chrome.Beta 123.0.6312.28 to Google.Chrome.Beta.EXE 123.0.6312.28	SpecterShell:Move-Google.Chrome.Beta-v123.0.6312.28-A872E273	OPEN	2024-04-15T04:21:05Z
-149224	Remove Google.Chrome.Beta 123.0.6312.22 to Google.Chrome.Beta.EXE 123.0.6312.22	SpecterShell:Remove-Google.Chrome.Beta-v123.0.6312.22-A872E273	OPEN	2024-04-15T04:20:34Z
-149223	Move Google.Chrome.Beta 123.0.6312.22 to Google.Chrome.Beta.EXE 123.0.6312.22	SpecterShell:Move-Google.Chrome.Beta-v123.0.6312.22-A872E273	OPEN	2024-04-15T04:20:24Z
-149222	Fix: PortSwigger.BurpSuite.Professional version 2024.2.1.4	SpecterShell:PortSwigger.BurpSuite.Professional-2024.2.1.4-Fix	OPEN	2024-04-15T04:14:30Z
-149221	Fix: PortSwigger.BurpSuite.Professional version 2024.2.1.3	SpecterShell:PortSwigger.BurpSuite.Professional-2024.2.1.3-Fix	OPEN	2024-04-15T04:14:20Z
-149220	Fix: PortSwigger.BurpSuite.Professional version 2024.1.1.6	SpecterShell:PortSwigger.BurpSuite.Professional-2024.1.1.6-Fix	OPEN	2024-04-15T04:14:10Z
-149219	Fix: PortSwigger.BurpSuite.Professional version 2024.1.1.5	SpecterShell:PortSwigger.BurpSuite.Professional-2024.1.1.5-Fix	OPEN	2024-04-15T04:13:54Z
-149218	Fix: PortSwigger.BurpSuite.Professional version 2024.1.1.4	SpecterShell:PortSwigger.BurpSuite.Professional-2024.1.1.4-Fix	OPEN	2024-04-15T04:13:44Z
-149217	Fix: PortSwigger.BurpSuite.Professional version 2023.9.4	SpecterShell:PortSwigger.BurpSuite.Professional-2023.9.4-Fix	OPEN	2024-04-15T04:13:34Z
-149216	Fix: PortSwigger.BurpSuite.Professional version 2023.9.3	SpecterShell:PortSwigger.BurpSuite.Professional-2023.9.3-Fix	OPEN	2024-04-15T04:13:25Z
-149215	Fix: PortSwigger.BurpSuite.Professional version 2023.9.2	SpecterShell:PortSwigger.BurpSuite.Professional-2023.9.2-Fix	OPEN	2024-04-15T04:13:14Z
-149214	Fix: PortSwigger.BurpSuite.Professional version 2023.9.1	SpecterShell:PortSwigger.BurpSuite.Professional-2023.9.1-Fix	OPEN	2024-04-15T04:13:05Z
-149213	Fix: PortSwigger.BurpSuite.Professional version 2023.9	SpecterShell:PortSwigger.BurpSuite.Professional-2023.9-Fix	OPEN	2024-04-15T04:12:55Z
-149212	Fix: PortSwigger.BurpSuite.Professional version 2023.7.3	SpecterShell:PortSwigger.BurpSuite.Professional-2023.7.3-Fix	OPEN	2024-04-15T04:12:46Z
-149211	Fix: PortSwigger.BurpSuite.Professional version 2023.7.2	SpecterShell:PortSwigger.BurpSuite.Professional-2023.7.2-Fix	OPEN	2024-04-15T04:12:36Z
-149210	Fix: PortSwigger.BurpSuite.Professional version 2023.7.1	SpecterShell:PortSwigger.BurpSuite.Professional-2023.7.1-Fix	OPEN	2024-04-15T04:12:26Z
-149209	Fix: PortSwigger.BurpSuite.Professional version 2023.6.2	SpecterShell:PortSwigger.BurpSuite.Professional-2023.6.2-Fix	OPEN	2024-04-15T04:11:47Z
-149208	Fix: PortSwigger.BurpSuite.Professional version 2023.5.4	SpecterShell:PortSwigger.BurpSuite.Professional-2023.5.4-Fix	OPEN	2024-04-15T04:11:37Z
-149207	Fix: PortSwigger.BurpSuite.Professional version 2023.5.3	SpecterShell:PortSwigger.BurpSuite.Professional-2023.5.3-Fix	OPEN	2024-04-15T04:11:28Z
-149206	Fix: PortSwigger.BurpSuite.Professional version 2023.5.2	SpecterShell:PortSwigger.BurpSuite.Professional-2023.5.2-Fix	OPEN	2024-04-15T04:11:18Z
-149205	New version: zhanglun.Lettura version 0.1.16	SpecterShell:zhanglun.Lettura-0.1.16-1935233929	OPEN	2024-04-15T04:03:02Z
-149204	New version: Proxyman.Proxyman version 2.14.0	SpecterShell:Proxyman.Proxyman-2.14.0-1430903078	OPEN	2024-04-15T04:02:02Z
-149203	Fix: CheatBreaker.CheatBreaker version 2.4.3	vvirtues:master	OPEN	2024-04-15T03:56:37Z
-149202	Fix: PortSwigger.BurpSuite.Professional version 2023.4.5	SpecterShell:PortSwigger.BurpSuite.Professional-2023.4.5-Fix	OPEN	2024-04-15T03:54:20Z
-149201	Added release 2.7.3 of Trusted QSL	penguin359:trusted-qsl	OPEN	2024-04-15T03:54:11Z
-149200	Fix: PortSwigger.BurpSuite.Professional version 2023.4.4	SpecterShell:PortSwigger.BurpSuite.Professional-2023.4.4-Fix	OPEN	2024-04-15T03:54:10Z
-149199	Fix: PortSwigger.BurpSuite.Professional version 2023.4.3	SpecterShell:PortSwigger.BurpSuite.Professional-2023.4.3-Fix	OPEN	2024-04-15T03:54:00Z
-149198	Fix: PortSwigger.BurpSuite.Professional version 2023.3.5	SpecterShell:PortSwigger.BurpSuite.Professional-2023.3.5-Fix	OPEN	2024-04-15T03:53:50Z
-149197	Fix: PortSwigger.BurpSuite.Professional version 2023.3.4	SpecterShell:PortSwigger.BurpSuite.Professional-2023.3.4-Fix	OPEN	2024-04-15T03:53:39Z
-149196	Fix: PortSwigger.BurpSuite.Professional version 2023.3.3	SpecterShell:PortSwigger.BurpSuite.Professional-2023.3.3-Fix	OPEN	2024-04-15T03:53:29Z
-149195	Fix: PortSwigger.BurpSuite.Professional version 2023.3.2	SpecterShell:PortSwigger.BurpSuite.Professional-2023.3.2-Fix	OPEN	2024-04-15T03:48:05Z
-149194	Fix: PortSwigger.BurpSuite.Professional version 2023.2.4	SpecterShell:PortSwigger.BurpSuite.Professional-2023.2.4-Fix	OPEN	2024-04-15T03:47:53Z
-149193	Fix: PortSwigger.BurpSuite.Professional version 2023.2.3	SpecterShell:PortSwigger.BurpSuite.Professional-2023.2.3-Fix	OPEN	2024-04-15T03:47:42Z
-149192	Fix: PortSwigger.BurpSuite.Professional version 2023.12.1.5	SpecterShell:PortSwigger.BurpSuite.Professional-2023.12.1.5-Fix	OPEN	2024-04-15T03:47:30Z
-149191	Fix: PortSwigger.BurpSuite.Professional version 2023.12.1.4	SpecterShell:PortSwigger.BurpSuite.Professional-2023.12.1.4-Fix	OPEN	2024-04-15T03:47:19Z
-149190	Fix: PortSwigger.BurpSuite.Professional version 2023.12.1.3	SpecterShell:PortSwigger.BurpSuite.Professional-2023.12.1.3-Fix	OPEN	2024-04-15T03:47:07Z
-149189	Fix: PortSwigger.BurpSuite.Professional version 2023.11.1.5	SpecterShell:PortSwigger.BurpSuite.Professional-2023.11.1.5-Fix	OPEN	2024-04-15T03:46:56Z
-149188	Fix: PortSwigger.BurpSuite.Professional version 2023.11.1.4	SpecterShell:PortSwigger.BurpSuite.Professional-2023.11.1.4-Fix	OPEN	2024-04-15T03:46:44Z
-149187	Fix: PortSwigger.BurpSuite.Professional version 2023.11.1.3	SpecterShell:PortSwigger.BurpSuite.Professional-2023.11.1.3-Fix	OPEN	2024-04-15T03:46:33Z
-149186	Fix: PortSwigger.BurpSuite.Professional version 2023.10.3.7	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.3.7-Fix	OPEN	2024-04-15T03:46:22Z
-149185	New version: f4exb.sdrangel version 7.20.0	Exorcism0666:f4exb.sdrangel-7.20.0-7321BBD6B14B4A10B1A44DCD9CDA5F26	OPEN	2024-04-15T03:37:56Z
-149184	New version: ossia.score version 3.1.14	Exorcism0666:ossia.score-3.1.14-094A9475F89C4A11AE8CF4336EBE2331	OPEN	2024-04-15T03:37:49Z
-149183	Fix: PortSwigger.BurpSuite.Professional version 2023.10.3.6	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.3.6-Fix	OPEN	2024-04-15T02:29:57Z
-149182	Fix: PortSwigger.BurpSuite.Professional version 2023.10.3.5	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.3.5-Fix	OPEN	2024-04-15T02:29:46Z
-149181	Fix: PortSwigger.BurpSuite.Professional version 2023.10.3.4	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.3.4-Fix	OPEN	2024-04-15T02:29:35Z
-149180	Fix: PortSwigger.BurpSuite.Professional version 2023.10.2.5	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.2.5-Fix	OPEN	2024-04-15T02:29:24Z
-149179	Fix: PortSwigger.BurpSuite.Professional version 2023.10.2.4	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.2.4-Fix	OPEN	2024-04-15T02:29:12Z
-149178	Fix: PortSwigger.BurpSuite.Professional version 2023.10.2.3	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.2.3-Fix	OPEN	2024-04-15T02:29:00Z
-149177	Fix: PortSwigger.BurpSuite.Professional version 2023.10.2.2	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.2.2-Fix	OPEN	2024-04-15T02:28:49Z
-149176	Fix: PortSwigger.BurpSuite.Professional version 2023.10.1.2	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.1.2-Fix	OPEN	2024-04-15T02:28:38Z
-149175	Fix: PortSwigger.BurpSuite.Professional version 2023.10.1.1	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.1.1-Fix	OPEN	2024-04-15T02:28:26Z
-149174	Fix: PortSwigger.BurpSuite.Professional version 2023.1.3	SpecterShell:PortSwigger.BurpSuite.Professional-2023.1.3-Fix	OPEN	2024-04-15T02:28:15Z
-149173	SmartSoft.SmartFTP version 10.0.3218.0	matbech:SmartSoft.SmartFTP-10.0.3218.0-8f2ce1aa-1bc8-4259-a704-55cd46e67702	OPEN	2024-04-15T01:35:28Z
-149172	Fix: PortSwigger.BurpSuite.Professional version 2023.1.2	SpecterShell:PortSwigger.BurpSuite.Professional-2023.1.2-Fix	OPEN	2024-04-15T01:13:24Z
-149171	Fix: PortSwigger.BurpSuite.Professional version 2022.9.6	SpecterShell:PortSwigger.BurpSuite.Professional-2022.9.6-Fix	OPEN	2024-04-15T01:13:14Z
-149170	Fix: PortSwigger.BurpSuite.Professional version 2022.9.5	SpecterShell:PortSwigger.BurpSuite.Professional-2022.9.5-Fix	OPEN	2024-04-15T01:13:04Z
-149169	Fix: PortSwigger.BurpSuite.Professional version 2022.8.5	SpecterShell:PortSwigger.BurpSuite.Professional-2022.8.5-Fix	OPEN	2024-04-15T01:12:54Z
-149168	Fix: PortSwigger.BurpSuite.Professional version 2022.8.4	SpecterShell:PortSwigger.BurpSuite.Professional-2022.8.4-Fix	OPEN	2024-04-15T01:12:44Z
-149167	Fix: PortSwigger.BurpSuite.Professional version 2022.8.3	SpecterShell:PortSwigger.BurpSuite.Professional-2022.8.3-Fix	OPEN	2024-04-15T01:12:34Z
-149166	Fix: PortSwigger.BurpSuite.Professional version 2022.8.2	SpecterShell:PortSwigger.BurpSuite.Professional-2022.8.2-Fix	OPEN	2024-04-15T01:12:24Z
-149165	Fix: PortSwigger.BurpSuite.Professional version 2022.8.1	SpecterShell:PortSwigger.BurpSuite.Professional-2022.8.1-Fix	OPEN	2024-04-15T01:12:15Z
-149164	Fix: PortSwigger.BurpSuite.Professional version 2022.7.1	SpecterShell:PortSwigger.BurpSuite.Professional-2022.7.1-Fix	OPEN	2024-04-15T01:12:05Z
-149163	Fix: PortSwigger.BurpSuite.Professional version 2022.6.1	SpecterShell:PortSwigger.BurpSuite.Professional-2022.6.1-Fix	OPEN	2024-04-15T01:11:55Z
 149162	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_daf3e65e-2a01-4a96-93b8-68dba544754c	OPEN	2024-04-15T00:52:57Z
-149161	New version: vim.vim.nightly version 9.1.0330	vim:vim.vim.nightly-9.1.0330-577743938436A14160E0B3A4AA2BB9DEC9A034A3	OPEN	2024-04-14T23:49:50Z
-149160	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_c9f33a6d-2168-4ad8-b45f-663a35392836	OPEN	2024-04-14T22:58:19Z
-149159	New version: tailscale.tailscale version 1.64.0	PckgrBot:tailscale.tailscale-1.64.0-f5f569c6-e34f-4d44-a499-383521446b7b	OPEN	2024-04-14T22:56:19Z
-149158	Fix: PortSwigger.BurpSuite.Professional version 2022.5.2	SpecterShell:PortSwigger.BurpSuite.Professional-2022.5.2-Fix	OPEN	2024-04-14T22:35:26Z
-149157	Fix: PortSwigger.BurpSuite.Professional version 2022.5.1	SpecterShell:PortSwigger.BurpSuite.Professional-2022.5.1-Fix	OPEN	2024-04-14T22:35:16Z
-149156	Fix: PortSwigger.BurpSuite.Professional version 2022.3.9	SpecterShell:PortSwigger.BurpSuite.Professional-2022.3.9-Fix	OPEN	2024-04-14T22:35:06Z
-149155	Fix: PortSwigger.BurpSuite.Professional version 2022.12.7	SpecterShell:PortSwigger.BurpSuite.Professional-2022.12.7-Fix	OPEN	2024-04-14T22:34:55Z
-149154	Fix: PortSwigger.BurpSuite.Professional 2022.12.6	SpecterShell:PortSwigger.BurpSuite.Professional-2022.12.6-Fix	OPEN	2024-04-14T22:34:45Z
-149153	Fix: PortSwigger.BurpSuite.Professional version 2022.12.5	SpecterShell:PortSwigger.BurpSuite.Professional-2022.12.5-Fix	OPEN	2024-04-14T22:34:35Z
-149152	Fix: PortSwigger.BurpSuite.Professional version 2022.12.4	SpecterShell:PortSwigger.BurpSuite.Professional-2022.12.4-Fix	OPEN	2024-04-14T22:34:25Z
-149151	Fix: PortSwigger.BurpSuite.Professional version 2022.11.4	SpecterShell:PortSwigger.BurpSuite.Professional-2022.11.4-Fix	OPEN	2024-04-14T22:34:15Z
-149150	Fix: PortSwigger.BurpSuite.Professional version 2022.11.3	SpecterShell:PortSwigger.BurpSuite.Professional-2022.11.3-Fix	OPEN	2024-04-14T22:34:05Z
-149149	Fix: PortSwigger.BurpSuite.Professional version 2022.11.2	SpecterShell:PortSwigger.BurpSuite.Professional-2022.11.2-Fix	OPEN	2024-04-14T22:33:54Z
-149147	Fix: PortSwigger.BurpSuite.Community version 2024.2.1.4	SpecterShell:PortSwigger.BurpSuite.Community-2024.2.1.4-Fix	OPEN	2024-04-14T22:33:02Z
-149146	Fix: PortSwigger.BurpSuite.Community version 2024.2.1.3	SpecterShell:PortSwigger.BurpSuite.Community-2024.2.1.3-Fix	OPEN	2024-04-14T22:32:52Z
-149145	Fix: PortSwigger.BurpSuite.Community version 2024.1.1.6	SpecterShell:PortSwigger.BurpSuite.Community-2024.1.1.6-Fix	OPEN	2024-04-14T22:32:42Z
 149144	Automatic update of CatoNetworks.CatoClient from 5.10.23.1205 to 5.10.26.1458	wingetbot:AutomaticUpdate_64780e65-d399-4ee0-8af7-2bc381794be7	OPEN	2024-04-14T22:28:26Z
 149143	New version: Ryujinx.Ryujinx version 1.1.1280	Exorcism0666:Ryujinx.Ryujinx-1.1.1280-129928408	OPEN	2024-04-14T22:13:03Z
 149142	New version: Google.Chrome.Canary version 125.0.6419.0	SpecterShell:Google.Chrome.Canary-125.0.6419.0-1855149763	OPEN	2024-04-14T21:46:04Z
@@ -160,7 +31,6 @@
 149139	New version: Wagnardsoft.DisplayDriverUninstaller version 18.0.7.5	OfficialEsco:Wagnardsoft.DisplayDriverUninstaller-18.0.7.5-E6BF68F3CD314355A268E18CDCDE31CD	OPEN	2024-04-14T20:07:54Z
 149138	New version: RobertFFrasca.PDFKeeper version 9.1.4	rffrasca:RobertFFrasca.PDFKeeper-9.1.4-e4030519-f329-49ca-bf23-3653225f6c54	OPEN	2024-04-14T19:28:04Z
 149137	TopalaSoftwareSolutions.SIW version 2024.02.15.14	gtopala:TopalaSoftwareSolutions.SIW-2024.02.15.14-d12d793a-b766-40cf-b308-1fbb07c2b819	OPEN	2024-04-14T19:14:15Z
-149135	Add Bredbandskollen CLI manifest	FaffeF:dotse.bredbandskollen-1.2-778b01c5-d18b-4e7e-ad08-72d374f8642a	OPEN	2024-04-14T19:04:31Z
 149134	New version: Abdelrhman-AK.WinPaletter version 1.0.9.2	Abdelrhman-AK:Abdelrhman-AK.WinPaletter-1.0.9.2-861f0a24-44e9-418c-91f6-28caa22b1293	OPEN	2024-04-14T18:11:44Z
 149132	Remove version: rsteube.Carapace version 0.28.5	rsteube-bot:rsteube.Carapace-0.28.5-8D9C887A46E0ED5F6A41055A7C0E2DB310A23EE5	OPEN	2024-04-14T17:23:01Z
 149131	Remove version: rsteube.Carapace version 0.29.0	rsteube-bot:rsteube.Carapace-0.29.0-BCC26F90FA579225CA636F56A7EE6DE461AC9371	OPEN	2024-04-14T17:22:55Z
@@ -170,86 +40,24 @@
 149126	New version: junegunn.fzf version 0.50.0	junegunn:junegunn.fzf-0.50.0-13AD0AF9641E0A984A7FE4DDCB2B399980957FAF	OPEN	2024-04-14T15:06:59Z
 149125	New version: Bin-Huang.Chatbox version 1.3.4	SpecterShell:Bin-Huang.Chatbox-1.3.4-824794751	OPEN	2024-04-14T14:24:06Z
 149124	Version Update: TeamSonarr.Sonarr version 4.0.4.1491	babblebauble:TeamSonarr.Sonarr-4.0.4.1491-c3bd0e11-2aad-4021-9c48-91837cadd8ee	OPEN	2024-04-14T13:51:06Z
-149123	Fix: PortSwigger.BurpSuite.Community version 2024.1.1.5	SpecterShell:PortSwigger.BurpSuite.Community-2024.1.1.5-Fix	OPEN	2024-04-14T13:27:00Z
-149122	Fix: PortSwigger.BurpSuite.Community version 2024.1.1.4	SpecterShell:PortSwigger.BurpSuite.Community-2024.1.1.4-Fix	OPEN	2024-04-14T13:26:47Z
-149121	Fix: PortSwigger.BurpSuite.Community version 2023.9.4	SpecterShell:PortSwigger.BurpSuite.Community-2023.9.4-Fix	OPEN	2024-04-14T13:26:37Z
-149120	Fix: PortSwigger.BurpSuite.Community version 2023.9.3	SpecterShell:PortSwigger.BurpSuite.Community-2023.9.3-Fix	OPEN	2024-04-14T13:26:27Z
-149119	Fix: PortSwigger.BurpSuite.Community version 2023.9.2	SpecterShell:PortSwigger.BurpSuite.Community-2023.9.2-Fix	OPEN	2024-04-14T13:26:17Z
-149118	Fix: PortSwigger.BurpSuite.Community version 2023.9.1	SpecterShell:PortSwigger.BurpSuite.Community-2023.9.1-Fix	OPEN	2024-04-14T13:26:07Z
-149117	Fix: PortSwigger.BurpSuite.Community version 2023.9	SpecterShell:PortSwigger.BurpSuite.Community-2023.9-Fix	OPEN	2024-04-14T13:25:57Z
-149116	Fix: PortSwigger.BurpSuite.Community version 2023.7.3	SpecterShell:PortSwigger.BurpSuite.Community-2023.7.3-Fix	OPEN	2024-04-14T13:25:47Z
-149115	Fix: PortSwigger.BurpSuite.Community version 2023.7.2	SpecterShell:PortSwigger.BurpSuite.Community-2023.7.2-Fix	OPEN	2024-04-14T13:25:37Z
-149114	Fix: PortSwigger.BurpSuite.Community version 2023.7.1	SpecterShell:PortSwigger.BurpSuite.Community-2023.7.1-Fix	OPEN	2024-04-14T13:25:27Z
-149113	Fix: PortSwigger.BurpSuite.Community version 2023.6.2	SpecterShell:PortSwigger.BurpSuite.Community-2023.6.2-Fix	OPEN	2024-04-14T13:24:52Z
-149112	Fix: PortSwigger.BurpSuite.Community version 2023.5.4	SpecterShell:PortSwigger.BurpSuite.Community-2023.5.4-Fix	OPEN	2024-04-14T13:24:42Z
-149111	Fix: PortSwigger.BurpSuite.Community version 2023.5.3	SpecterShell:PortSwigger.BurpSuite.Community-2023.5.3-Fix	OPEN	2024-04-14T13:24:31Z
-149110	Fix: PortSwigger.BurpSuite.Community version 2023.5.2	SpecterShell:PortSwigger.BurpSuite.Community-2023.5.2-Fix	OPEN	2024-04-14T13:24:21Z
-149109	Fix: PortSwigger.BurpSuite.Community version 2023.4.5	SpecterShell:PortSwigger.BurpSuite.Community-2023.4.5-Fix	OPEN	2024-04-14T13:24:11Z
-149108	Fix: PortSwigger.BurpSuite.Community version 2023.4.4	SpecterShell:PortSwigger.BurpSuite.Community-2023.4.4-Fix	OPEN	2024-04-14T13:24:01Z
-149107	Fix: PortSwigger.BurpSuite.Community version 2023.4.3	SpecterShell:PortSwigger.BurpSuite.Community-2023.4.3-Fix	OPEN	2024-04-14T13:23:50Z
-149106	Fix: PortSwigger.BurpSuite.Community version 2023.3.5	SpecterShell:PortSwigger.BurpSuite.Community-2023.3.5-Fix	OPEN	2024-04-14T13:23:40Z
 149105	Fix: PortSwigger.BurpSuite.Community version 2023.3.4	SpecterShell:PortSwigger.BurpSuite.Community-2023.3.4-Fix	OPEN	2024-04-14T13:23:29Z
-149104	Fix: PortSwigger.BurpSuite.Community version 2023.3.3	SpecterShell:PortSwigger.BurpSuite.Community-2023.3.3-Fix	OPEN	2024-04-14T13:23:19Z
 149103	New package: KeyWorks.wxUiEditor version 1.2.1	KeyWorksRW:KeyWorks.wxUiEditor-1.2.1-61602dbc-17d7-4d50-a43f-46b2c1badbe5	OPEN	2024-04-14T12:36:12Z
 149101	New version: XmacsLabs.Mogan version 1.2.5.3	SpecterShell:XmacsLabs.Mogan-1.2.5.3-1182304923	OPEN	2024-04-14T12:13:55Z
 149100	New version: Google.Chrome.Canary version 125.0.6418.0	SpecterShell:Google.Chrome.Canary-125.0.6418.0-1656201584	OPEN	2024-04-14T12:12:16Z
-149099	Fix: PortSwigger.BurpSuite.Community version 2023.3.2	SpecterShell:PortSwigger.BurpSuite.Community-2023.3.2-Fix	OPEN	2024-04-14T10:34:33Z
-149098	Fix: PortSwigger.BurpSuite.Community version 2023.2.4	SpecterShell:PortSwigger.BurpSuite.Community-2023.2.4-Fix	OPEN	2024-04-14T10:34:22Z
-149097	Fix: PortSwigger.BurpSuite.Community version 2023.2.3	SpecterShell:PortSwigger.BurpSuite.Community-2023.2.3-Fix	OPEN	2024-04-14T10:34:12Z
-149096	Fix: PortSwigger.BurpSuite.Community version 2023.12.1.5	SpecterShell:PortSwigger.BurpSuite.Community-2023.12.1.5-Fix	OPEN	2024-04-14T10:34:01Z
-149095	Fix: PortSwigger.BurpSuite.Community version 2023.12.1.4	SpecterShell:PortSwigger.BurpSuite.Community-2023.12.1.4-Fix	OPEN	2024-04-14T10:33:51Z
-149094	Fix: PortSwigger.BurpSuite.Community version 2023.12.1.3	SpecterShell:PortSwigger.BurpSuite.Community-2023.12.1.3-Fix	OPEN	2024-04-14T10:33:41Z
-149093	Fix: PortSwigger.BurpSuite.Community version 2023.11.1.5	SpecterShell:PortSwigger.BurpSuite.Community-2023.11.1.5-Fix	OPEN	2024-04-14T10:33:31Z
-149092	Fix: PortSwigger.BurpSuite.Community version 2023.11.1.4	SpecterShell:PortSwigger.BurpSuite.Community-2023.11.1.4-Fix	OPEN	2024-04-14T10:33:21Z
-149091	Fix: PortSwigger.BurpSuite.Community version 2023.11.1.3	SpecterShell:PortSwigger.BurpSuite.Community-2023.11.1.3-Fix	OPEN	2024-04-14T10:33:11Z
-149090	Fix: PortSwigger.BurpSuite.Community version 2023.10.3.7	SpecterShell:PortSwigger.BurpSuite.Community-2023.10.3.7-Fix	OPEN	2024-04-14T10:33:01Z
 149089	New version: Catsxp.Catsxp version 124.4.4.6	SpecterShell:Catsxp.Catsxp-124.4.4.6-874224912	OPEN	2024-04-14T10:29:56Z
 149088	pixivInc.VRoidStudio version 1.27.0	conjLob:pixivInc.VRoidStudio-1.27.0-4412789c-b7ac-4d6c-82c4-b3f1effa8927	OPEN	2024-04-14T10:23:57Z
 149087	New version: Cyanfish.NAPS2 version 7.4.2	krystofkrticka:Cyanfish.NAPS2-7.4.2-B37EACE75358482EAAEE9108B16AA04C	OPEN	2024-04-14T09:19:20Z
-149086	Fix: PortSwigger.BurpSuite.Community version 2023.10.3.6	SpecterShell:PortSwigger.BurpSuite.Community-2023.10.3.6-Fix	OPEN	2024-04-14T08:20:52Z
-149085	Fix: PortSwigger.BurpSuite.Community version 2023.10.3.5	SpecterShell:PortSwigger.BurpSuite.Community-2023.10.3.5-Fix	OPEN	2024-04-14T08:20:42Z
-149084	Fix: PortSwigger.BurpSuite.Community version 2023.10.3.4	SpecterShell:PortSwigger.BurpSuite.Community-2023.10.3.4-Fix	OPEN	2024-04-14T08:20:32Z
-149083	Fix: PortSwigger.BurpSuite.Community version 2023.10.2.5	SpecterShell:PortSwigger.BurpSuite.Community-2023.10.2.5-Fix	OPEN	2024-04-14T08:20:22Z
-149082	Fix: PortSwigger.BurpSuite.Community version 2023.10.2.4	SpecterShell:PortSwigger.BurpSuite.Community-2023.10.2.4-Fix	OPEN	2024-04-14T08:20:11Z
-149081	Fix: PortSwigger.BurpSuite.Community version 2023.10.2.3	SpecterShell:PortSwigger.BurpSuite.Community-2023.10.2.3-Fix	OPEN	2024-04-14T08:20:01Z
-149080	Fix: PortSwigger.BurpSuite.Community version 2023.10.2.2	SpecterShell:PortSwigger.BurpSuite.Community-2023.10.2.2-Fix	OPEN	2024-04-14T08:19:50Z
-149079	Fix: PortSwigger.BurpSuite.Community version 2023.10.1.2	SpecterShell:PortSwigger.BurpSuite.Community-2023.10.1.2-Fix	OPEN	2024-04-14T08:19:39Z
-149078	Fix: PortSwigger.BurpSuite.Community version 2023.10.1.1	SpecterShell:PortSwigger.BurpSuite.Community-2023.10.1.1-Fix	OPEN	2024-04-14T08:19:29Z
-149077	Fix: PortSwigger.BurpSuite.Community version 2023.1.3	SpecterShell:PortSwigger.BurpSuite.Community-2023.1.3-Fix	OPEN	2024-04-14T08:19:19Z
 149076	New version: Pylogmon.pot version 2.7.10	Pylogmon:Pylogmon.pot-2.7.10-28AB0BF01A253973F5FE70D59AF63FBC6B0323CF	OPEN	2024-04-14T08:07:12Z
 149075	New version: Discord.Discord version 1.0.9039	sharunkumar:Discord.Discord-1.0.9039-243be300-b4d9-42d0-ba30-c8a732509c11	OPEN	2024-04-14T07:08:48Z
 149074	New version: Muye.FlickerList version 5.3.2	SpecterShell:Muye.FlickerList-5.3.2-848490328	OPEN	2024-04-14T06:37:37Z
-149073	Fix: PortSwigger.BurpSuite.Community version 2023.1.2	SpecterShell:PortSwigger.BurpSuite.Community-2023.1.2-Fix	OPEN	2024-04-14T06:33:41Z
-149072	Fix: PortSwigger.BurpSuite.Community version 2022.9.6	SpecterShell:PortSwigger.BurpSuite.Community-2022.9.6-Fix	OPEN	2024-04-14T06:33:30Z
-149071	Fix: PortSwigger.BurpSuite.Community version 2022.9.5	SpecterShell:PortSwigger.BurpSuite.Community-2022.9.5-Fix	OPEN	2024-04-14T06:33:20Z
-149070	Fix: PortSwigger.BurpSuite.Community version 2022.8.5	SpecterShell:PortSwigger.BurpSuite.Community-2022.8.5-Fix	OPEN	2024-04-14T06:33:10Z
-149069	Fix: PortSwigger.BurpSuite.Community version 2022.8.4	SpecterShell:PortSwigger.BurpSuite.Community-2022.8.4-Fix	OPEN	2024-04-14T06:32:59Z
-149068	Fix: PortSwigger.BurpSuite.Community version 2022.8.3	SpecterShell:PortSwigger.BurpSuite.Community-2022.8.3-Fix	OPEN	2024-04-14T06:32:48Z
-149067	Fix: PortSwigger.BurpSuite.Community version 2022.8.2	SpecterShell:PortSwigger.BurpSuite.Community-2022.8.2-Fix	OPEN	2024-04-14T06:32:38Z
-149066	Fix: PortSwigger.BurpSuite.Community version 2022.8.1	SpecterShell:PortSwigger.BurpSuite.Community-2022.8.1-Fix	OPEN	2024-04-14T06:32:28Z
-149065	Fix: PortSwigger.BurpSuite.Community version 2022.7.1	SpecterShell:PortSwigger.BurpSuite.Community-2022.7.1-Fix	OPEN	2024-04-14T06:32:17Z
-149064	Fix: PortSwigger.BurpSuite.Community version 2022.6.1	SpecterShell:PortSwigger.BurpSuite.Community-2022.6.1-Fix	OPEN	2024-04-14T06:32:06Z
 149062	New version: robinovitch61.webtoon-dl 0.0.9	robinovitch61:webtoon-dl-0.0.9	OPEN	2024-04-14T05:48:41Z
 149061	eloston.ungoogled-chromium version 123.0.6312.122	Nifury:eloston.ungoogled-chromium-123.0.6312.122-3ec4e7d6-ed1d-4aa6-8451-4a97d89ce2d1	OPEN	2024-04-14T04:46:15Z
 149060	New version: Rizin.Rizin version 0.7.3	Exorcism0666:Rizin.Rizin-0.7.3-569807761	OPEN	2024-04-14T03:19:54Z
 149059	New version: Ferdium.Ferdium.Nightly version 6.7.3-nightly.9	Alphrag:Ferdium.Ferdium.Nightly-6.7.3-nightly.9-d1dca690-5fe5-4700-8e34-b1d276f96e46	OPEN	2024-04-14T01:52:57Z
 149058	New version: yt-dlp.yt-dlp.nightly version 2024.04.13.232802	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.04.13.232802-787354883	OPEN	2024-04-14T01:52:04Z
 149057	New package: SebastionStoff.Orbitron version 3.71	CoolPlayLin:SebastionStoff.Orbitron-3.71-7BA012F1C07C44B3A026FF28BF7E9ACC	OPEN	2024-04-14T01:32:26Z
-149056	Fix: PortSwigger.BurpSuite.Community version 2022.5.2	SpecterShell:PortSwigger.BurpSuite.Community-2022.5.2-Fix	OPEN	2024-04-14T00:49:51Z
-149055	Fix: PortSwigger.BurpSuite.Community version 2022.5.1	SpecterShell:PortSwigger.BurpSuite.Community-2022.5.1-Fix	OPEN	2024-04-14T00:49:41Z
-149054	Fix: PortSwigger.BurpSuite.Community version 2022.3.9	SpecterShell:PortSwigger.BurpSuite.Community-2022.3.9-Fix	OPEN	2024-04-14T00:49:31Z
-149052	Fix: PortSwigger.BurpSuite.Community version 2022.12.7	SpecterShell:PortSwigger.BurpSuite.Community-2022.12.7-Fix	OPEN	2024-04-14T00:49:21Z
-149051	Fix: PortSwigger.BurpSuite.Community version 2022.12.6	SpecterShell:PortSwigger.BurpSuite.Community-2022.12.6-Fix	OPEN	2024-04-14T00:49:09Z
-149050	Fix: PortSwigger.BurpSuite.Community version 2022.12.5	SpecterShell:PortSwigger.BurpSuite.Community-2022.12.5-Fix	OPEN	2024-04-14T00:48:59Z
-149049	Fix: PortSwigger.BurpSuite.Community version 2022.12.4	SpecterShell:PortSwigger.BurpSuite.Community-2022.12.4-Fix	OPEN	2024-04-14T00:48:49Z
-149048	Fix: PortSwigger.BurpSuite.Community version 2022.11.4	SpecterShell:PortSwigger.BurpSuite.Community-2022.11.4-Fix	OPEN	2024-04-14T00:48:39Z
-149047	Fix: PortSwigger.BurpSuite.Community version 2022.11.3	SpecterShell:PortSwigger.BurpSuite.Community-2022.11.3-Fix	OPEN	2024-04-14T00:48:28Z
-149046	Fix: PortSwigger.BurpSuite.Community version 2022.11.2	SpecterShell:PortSwigger.BurpSuite.Community-2022.11.2-Fix	OPEN	2024-04-14T00:48:17Z
-149045	Automatic deletion of CMU.CLAN 7.97.00	wingetbot:AutomaticUpdate_bed64ee8-85f6-4c1d-9f7a-e8dc8d5fedc8	OPEN	2024-04-13T23:08:32Z
-149044	Automatic deletion of Clockify.Clockify 1.7.86	wingetbot:AutomaticUpdate_5eb5e4e5-ac79-4c47-bd1c-d02c01dfc433	OPEN	2024-04-13T23:07:49Z
 149042	New version: vim.vim.nightly version 9.1.0318	vim:vim.vim.nightly-9.1.0318-439594CE383CCBA9B448A90F107E1FE40847E311	OPEN	2024-04-13T22:54:54Z
 149041	New version: ThaUnknown.Miru version 5.0.6	ThaUnknown:ThaUnknown.Miru-5.0.6-FB412BA22992495A37488DD0B396FA04EEFDA203	OPEN	2024-04-13T22:11:11Z
-149039	Automatic deletion of Quicken.Quicken 27.1.52.28	wingetbot:AutomaticUpdate_6bc1a702-c96c-4e7f-9b05-b051d6c16e4d	OPEN	2024-04-13T21:50:05Z
 149038	FileVoyager.FileVoyager version 24.4.13.0	LihemdiRachid:FileVoyager.FileVoyager-24.4.13.0-267c442a-eff5-42c3-9041-3daa0585b5f8	OPEN	2024-04-13T21:43:31Z
 149037	Automatic deletion of BitSum.ProcessLasso.Beta 14.0.2.5	wingetbot:AutomaticUpdate_53e4b16d-0094-4a1f-ad0f-f7bfe6377c7e	OPEN	2024-04-13T21:40:27Z
 149036	Automatic deletion of BiniSoft.WindowsFirewallControl 6.9.9.6	wingetbot:AutomaticUpdate_2230ebe3-7aae-4d20-a4f2-3a17504332e2	OPEN	2024-04-13T21:32:18Z
@@ -316,8 +124,6 @@
 148577	Automatic update of Cisco.Webex 44.3.0.28993	wingetbot:AutomaticUpdate_8cdf9be9-d790-4799-910c-8eb73015e7a1	OPEN	2024-04-10T23:01:54Z
 148571	Automatic update of GiulioSorrentino.WinDateFrom 4.6	wingetbot:AutomaticUpdate_cd10268a-b644-4918-936e-1fb9b86862db	OPEN	2024-04-10T22:05:53Z
 148569	Automatic update of GiulioSorrentino.Latorredibabele 3.0	wingetbot:AutomaticUpdate_96e737dd-4351-4e1e-acef-5ec815a9260f	OPEN	2024-04-10T22:05:41Z
-148555	Update version: GiulioSorrentino.Latorredibabele version 3.0	numerunix:GiulioSorrentino.Latorredibabele-3.0-b20982ca-b94e-42b4-b0f8-8c383c1539d5	OPEN	2024-04-10T21:06:52Z
-148551	Update version: GiulioSorrentino.WinDateFrom version 4.6	numerunix:GiulioSorrentino.WinDateFrom-4.6-c742c326-c867-4c12-bb77-e379ba6f2232	OPEN	2024-04-10T21:02:18Z
 148523	JackieLiu.NotepadsApp version 1.5.4.0	vedantmgoyal9:JackieLiu.NotepadsApp-1.5.4.0-0701032e-9308-4173-ae8c-be84a6029403	OPEN	2024-04-10T16:33:36Z
 148516	New package: Microsoft.AzureInformationProtection version 2.18.26.0	Exorcism0666:Microsoft.AzureInformationProtection-2.18.26.0-48b448c6-6a0f-4b18-b2e0-220c4d2b89ba	OPEN	2024-04-10T15:25:55Z
 148442	Erlang.ErlangOTP version 24.3.4.17	vedantmgoyal9:Erlang.ErlangOTP-24.3.4.17-5900a303-6405-4b83-b3d8-1ba73d05bf17	OPEN	2024-04-09T23:26:22Z
