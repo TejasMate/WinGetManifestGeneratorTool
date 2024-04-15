@@ -1,7 +1,41 @@
+149279	New version: Wondershare.PDFelement.CN version 10.3.7	SpecterShell:Wondershare.PDFelement.CN-10.3.7-1325649243	OPEN	2024-04-15T09:12:57Z
+149278	New version: octobuild.octobuild version 1.2.0	slonopotamus:octobuild.octobuild-1.2.0-cd4286df-8002-4450-a680-179bffaaa38e	OPEN	2024-04-15T08:22:52Z
+149277	New version: stacklok.frizbee 0.0.15	stacklok:frizbee-0.0.15	OPEN	2024-04-15T08:12:44Z
+149276	New version: ByteDance.SodaMusic version 1.6.3	SpecterShell:ByteDance.SodaMusic-1.6.3-1108074324	OPEN	2024-04-15T08:09:55Z
+149275	New version: Alibaba.Yuque version 3.4.2	SpecterShell:Alibaba.Yuque-3.4.2-1396239569	OPEN	2024-04-15T08:09:38Z
+149274	New version: 7S2P.Effie.CN version 3.8.5	SpecterShell:7S2P.Effie.CN-3.8.5-2020978484	OPEN	2024-04-15T08:09:14Z
+149273	New version: Ablaze.Floorp.Daylight version 11.12.0	Hibi-10000:Ablaze.Floorp.Daylight-11.12.0	OPEN	2024-04-15T07:57:01Z
+149272	New version: WestWind.MarkdownMonster version 3.2.10.0	kkbruce:WestWind.MarkdownMonster-3.2.10.0-F07EE2F1	OPEN	2024-04-15T07:50:59Z
+149271	New version: astral-sh.ruff version 0.3.7	frazar:astral-sh.ruff-0.3.7-06C01F79	OPEN	2024-04-15T07:19:01Z
+149270	Remove: Microsoft.Edge version 122.0.2365.63	coolplaylinbot:Microsoft.Edge-122.0.2365.63-A632D9203E5B09F6F9E59876E4559F157EC3052F	OPEN	2024-04-15T07:15:53Z
+149269	Remove: Microsoft.Edge version 112.0.1722.34	coolplaylinbot:Microsoft.Edge-112.0.1722.34-CB17842993755672C827FDAF7FAB83659038A14C	OPEN	2024-04-15T07:15:51Z
+149268	New version: astral-sh.ruff version 0.3.6	frazar:astral-sh.ruff-0.3.6-F9F4E026	OPEN	2024-04-15T07:13:36Z
+149267	New version: Tencent.QQ.NT version 9.9.9.22961 (9.9.9)	SpecterShell:Tencent.QQ.NT-9.9.9.22961-1373006149	OPEN	2024-04-15T07:13:01Z
+149266	Remove: Microsoft.Edge version 110.0.1587.69	coolplaylinbot:Microsoft.Edge-110.0.1587.69-2F046C6B00BD861683F0A7A2C98DDBF972EB5504	OPEN	2024-04-15T07:11:52Z
+149265	Remove: Microsoft.Edge.Beta version 120.0.2210.22	coolplaylinbot:Microsoft.Edge.Beta-120.0.2210.22-8BAE41828701253661DDCDCEEF34422C6C36E202	OPEN	2024-04-15T07:09:26Z
+149264	Remove: Microsoft.Edge.Beta version 119.0.2151.44	coolplaylinbot:Microsoft.Edge.Beta-119.0.2151.44-35B23820D6D94208A7502ADC16181F61D0D7AA7A	OPEN	2024-04-15T07:07:26Z
+149263	Remove: Microsoft.Edge.Beta version 121.0.2277.4	coolplaylinbot:Microsoft.Edge.Beta-121.0.2277.4-43F6E8287292CA98528E9951F07917C6008935DA	OPEN	2024-04-15T07:04:28Z
+149262	Remove: Microsoft.Edge.Beta version 120.0.2210.7	coolplaylinbot:Microsoft.Edge.Beta-120.0.2210.7-89C7128AE229A27CA641FCCFA1B3BD2AC5952F38	OPEN	2024-04-15T07:04:26Z
+149261	Remove: Microsoft.Edge version 111.0.1661.54	coolplaylinbot:Microsoft.Edge-111.0.1661.54-476C30CC4DAC2DA4D5A73383AE0CD2F0BA783305	OPEN	2024-04-15T06:59:01Z
+149260	Remove: Microsoft.Edge version 111.0.1661.43	coolplaylinbot:Microsoft.Edge-111.0.1661.43-8C025753B4C8421BAF95696BC895C6D704132323	OPEN	2024-04-15T06:58:00Z
+149259	Remove: Microsoft.Edge version 110.0.1587.41	coolplaylinbot:Microsoft.Edge-110.0.1587.41-2C4AA98F817DFADF22D4032516BF222CC1D654BF	OPEN	2024-04-15T06:57:58Z
+149258	New version: Canva.Canva version 1.85.0	PckgrBot:Canva.Canva-1.85.0-f267b991-402a-404a-80ea-0466dc9b3dc9	OPEN	2024-04-15T06:56:22Z
+149257	Remove: Microsoft.Edge version 110.0.1587.49	coolplaylinbot:Microsoft.Edge-110.0.1587.49-6A012EF59E2DDD3377A047878349167A823D819F	OPEN	2024-04-15T06:49:59Z
+149256	Remove: Microsoft.Edge version 110.0.1587.46	coolplaylinbot:Microsoft.Edge-110.0.1587.46-74B246B78C6052F5DBD685EC58BD4D379C6E1942	OPEN	2024-04-15T06:49:56Z
+149255	Remove: Microsoft.Edge version 111.0.1661.62	coolplaylinbot:Microsoft.Edge-111.0.1661.62-32F1BC38E50EAE0C1FC06F801E4F8C071954BE75	OPEN	2024-04-15T06:39:59Z
+149254	Remove: Microsoft.Edge.Dev version 120.0.2210.1	coolplaylinbot:Microsoft.Edge.Dev-120.0.2210.1-602AB3389BE33EA0118450CB9030FB4066D90165	OPEN	2024-04-15T06:37:00Z
+149253	Remove: Microsoft.Edge.Dev version 121.0.2248.1	coolplaylinbot:Microsoft.Edge.Dev-121.0.2248.1-70125F8EA825B4D9974A397389410BB74D92AA4D	OPEN	2024-04-15T06:35:00Z
+149252	Remove: Microsoft.Edge.Dev version 121.0.2256.2	coolplaylinbot:Microsoft.Edge.Dev-121.0.2256.2-39CC191F5BD3030DC5BCDF6FEE658D278EDC50D3	OPEN	2024-04-15T06:34:58Z
+149251	Remove: Microsoft.Edge.Dev version 120.0.2210.4	coolplaylinbot:Microsoft.Edge.Dev-120.0.2210.4-FCFC76B753DC59DA98CC60A34C0CF6FCF4BDFC4D	OPEN	2024-04-15T06:33:57Z
+149250	Remove: Microsoft.Edge.Dev version 121.0.2220.3	coolplaylinbot:Microsoft.Edge.Dev-121.0.2220.3-34A14A7DA451162666CFE7603C75082C9D4B41BE	OPEN	2024-04-15T06:33:55Z
+149249	Remove: Microsoft.Edge.Dev version 121.0.2277.4	coolplaylinbot:Microsoft.Edge.Dev-121.0.2277.4-23D6DCD50B8F0848776A93EA4845B934354FE74C	OPEN	2024-04-15T06:32:54Z
+149248	Remove: Microsoft.Edge.Dev version 120.0.2186.2	coolplaylinbot:Microsoft.Edge.Dev-120.0.2186.2-715905D4803389BDA4C11BE44B71F5DAB28E78D3	OPEN	2024-04-15T06:32:53Z
+149247	Remove: Microsoft.Edge.Dev version 120.0.2210.7	coolplaylinbot:Microsoft.Edge.Dev-120.0.2210.7-53B0D9DE3076AFAE63F6E264869CC2A1CB74BD67	OPEN	2024-04-15T06:32:50Z
+149246	Remove: Microsoft.Edge version 109.0.1518.78	coolplaylinbot:Microsoft.Edge-109.0.1518.78-D045EB5249AE4B1405CB18EC2B6B779FF9901DF5	OPEN	2024-04-15T06:27:54Z
+149245	Remove: Microsoft.Edge version 111.0.1661.44	coolplaylinbot:Microsoft.Edge-111.0.1661.44-8A8AD37BBC0A780860124EA9015CFFAF19A50213	OPEN	2024-04-15T06:23:56Z
 149244	Remove: Microsoft.Edge version 110.0.1587.63	coolplaylinbot:Microsoft.Edge-110.0.1587.63-9889B862DF4DEBB4797E8BA5500213A14F34739F	OPEN	2024-04-15T06:19:08Z
 149243	Remove: Microsoft.Edge version 110.0.1587.57	coolplaylinbot:Microsoft.Edge-110.0.1587.57-58315DA4233600E8E648F85A1C41849AB633A737	OPEN	2024-04-15T06:19:06Z
 149242	New version: Youqu.ToDesk version 4.7.3.0	SpecterShell:Youqu.ToDesk-4.7.3.0-281820681	OPEN	2024-04-15T06:14:39Z
-149241	New version: Jackett.Jackett version 0.21.2387	Jackett:Jackett.Jackett-0.21.2387-E05F63F89697CE486DC9CBFB5FE6E3AF71CF76A0	OPEN	2024-04-15T05:52:57Z
 149240	New package Akko.CloudDriver in version 370.1.3	FaserF:new-package-akko-cloud-driver	OPEN	2024-04-15T05:40:24Z
 149239	Modify: Google.Chrome.Beta version 124.0.6367.49	SpecterShell:Google.Chrome.Beta-124.0.6367.49-Modify	OPEN	2024-04-15T04:52:36Z
 149237	Move Google.Chrome.Beta 124.0.6367.8 to Google.Chrome.Beta.EXE 124.0.6367.8	SpecterShell:Move-Google.Chrome.Beta-v124.0.6367.8-A872E273	OPEN	2024-04-15T04:31:01Z
