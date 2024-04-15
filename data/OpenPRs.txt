@@ -1,3 +1,25 @@
+149302	New version: ButterflyEffect.Monica version 2.0.3	SpecterShell:ButterflyEffect.Monica-2.0.3-1862238131	OPEN	2024-04-15T12:11:49Z
+149301	New version: NI.ni-systemconfiguration version 24.3.0	lars-whta:NI.ni-systemconfiguration-24.3.0-400abe82-01a4-4b29-9dfe-b31ce4e7c5c2	OPEN	2024-04-15T11:42:41Z
+149300	New version: NI.ni-xnet version 24.3.0	lars-whta:NI.ni-xnet-24.3.0-d49bcc0b-4367-4d23-a484-976e39c35870	OPEN	2024-04-15T11:35:08Z
+149299	New version: NI.ni-daqmx version 24.3.0	lars-whta:NI.ni-daqmx-24.3.0-82fc5323-903d-42c6-826e-805297d67e23	OPEN	2024-04-15T11:33:26Z
+149298	New version: NetEase.CloudMusic.Beta version 3.0.11.202739	SpecterShell:NetEase.CloudMusic.Beta-3.0.11.202739-1397852767	OPEN	2024-04-15T11:32:47Z
+149297	Add Devolutions Launcher version 2024.1.25.0	Devolutions:Launcher-WinGet-2024.1.25.0	OPEN	2024-04-15T11:31:04Z
+149296	New version: NI.ni-pxiplatformservices version 24.3.0	lars-whta:NI.ni-pxiplatformservices-24.3.0-2cf26b5d-7ab6-4755-a8c8-84c4420712eb	OPEN	2024-04-15T11:30:53Z
+149295	Add Devolutions RemoteDesktopManager version 2024.1.25.0	Devolutions:RDM-WinGet-2024.1.25.0	OPEN	2024-04-15T11:30:51Z
+149294	Add Devolutions RemoteDesktopManagerAgent version 2024.1.25.0	Devolutions:RDMAgent-WinGet-2024.1.25.0	OPEN	2024-04-15T11:30:37Z
+149293	New version: PushPlayLabs.Sidekick version 122.59.1.38681	SpecterShell:PushPlayLabs.Sidekick-122.59.1.38681-1806886178	OPEN	2024-04-15T11:10:24Z
+149292	New version: Bandisoft.BandiView version 7.01 (24343)	SpecterShell:Bandisoft.BandiView-7.01-1741568532	OPEN	2024-04-15T11:08:30Z
+149291	New version: JetBrains.QodanaCLI version 2024.1.0	qodana-bot:JetBrains.QodanaCLI-2024.1.0-D3F833F6BCA7D8E86F405B1A83A74C11	OPEN	2024-04-15T11:04:55Z
+149290	New Version: aimotrens.impulsar 0.11.3	aimotrens:aimotrens/impulsar	OPEN	2024-04-15T10:49:39Z
+149289	New version: gjergj.testmyapp 0.0.71	Gjergj:testmyapp-v0.0.71	OPEN	2024-04-15T10:17:22Z
+149288	New version: Wondershare.Recoverit.CN version 8.0.3.6 (8.0.3)	SpecterShell:Wondershare.Recoverit.CN-8.0.3.6-494161916	OPEN	2024-04-15T10:12:56Z
+149287	New version: Zoom.Zoom version 6.0.0.37205	SpecterShell:Zoom.Zoom-6.0.0.37205-1365014808	OPEN	2024-04-15T10:12:38Z
+149286	New version: Xiaomi.XiaomiCloud version 2.6.2	SpecterShell:Xiaomi.XiaomiCloud-2.6.2-1099727882	OPEN	2024-04-15T10:11:57Z
+149285	New version: Reqable.Reqable version 2.12.0	SpecterShell:Reqable.Reqable-2.12.0-709020508	OPEN	2024-04-15T10:11:07Z
+149284	New version: Lenovo.SLBrowser version 9.0.3.4111	SpecterShell:Lenovo.SLBrowser-9.0.3.4111-1218842332	OPEN	2024-04-15T10:10:22Z
+149283	New version: Google.Chrome.Canary version 125.0.6420.0	SpecterShell:Google.Chrome.Canary-125.0.6420.0-2025682447	OPEN	2024-04-15T10:09:54Z
+149282	New version: 7S2P.Effie version 3.8.5	SpecterShell:7S2P.Effie-3.8.5-1953037546	OPEN	2024-04-15T10:08:15Z
+149281	New version: Microsoft.NuGet version 6.9.1	mdanish-kh:Microsoft.NuGet-6.9.1-79fa720f-5993-4ca8-b96c-14c5f93d0a88	OPEN	2024-04-15T10:05:55Z
 149279	New version: Wondershare.PDFelement.CN version 10.3.7	SpecterShell:Wondershare.PDFelement.CN-10.3.7-1325649243	OPEN	2024-04-15T09:12:57Z
 149278	New version: octobuild.octobuild version 1.2.0	slonopotamus:octobuild.octobuild-1.2.0-cd4286df-8002-4450-a680-179bffaaa38e	OPEN	2024-04-15T08:22:52Z
 149277	New version: stacklok.frizbee 0.0.15	stacklok:frizbee-0.0.15	OPEN	2024-04-15T08:12:44Z
