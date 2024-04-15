@@ -1,3 +1,43 @@
+149183	PortSwigger.BurpSuite.Professional 2023.10.3.6 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.3.6-Fix	OPEN	2024-04-15T02:29:57Z
+149182	PortSwigger.BurpSuite.Professional 2023.10.3.5 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.3.5-Fix	OPEN	2024-04-15T02:29:46Z
+149181	PortSwigger.BurpSuite.Professional 2023.10.3.4 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.3.4-Fix	OPEN	2024-04-15T02:29:35Z
+149180	PortSwigger.BurpSuite.Professional 2023.10.2.5 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.2.5-Fix	OPEN	2024-04-15T02:29:24Z
+149179	PortSwigger.BurpSuite.Professional 2023.10.2.4 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.2.4-Fix	OPEN	2024-04-15T02:29:12Z
+149178	PortSwigger.BurpSuite.Professional 2023.10.2.3 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.2.3-Fix	OPEN	2024-04-15T02:29:00Z
+149177	PortSwigger.BurpSuite.Professional 2023.10.2.2 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.2.2-Fix	OPEN	2024-04-15T02:28:49Z
+149176	PortSwigger.BurpSuite.Professional 2023.10.1.2 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.1.2-Fix	OPEN	2024-04-15T02:28:38Z
+149175	PortSwigger.BurpSuite.Professional 2023.10.1.1 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2023.10.1.1-Fix	OPEN	2024-04-15T02:28:26Z
+149174	PortSwigger.BurpSuite.Professional 2023.1.3 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2023.1.3-Fix	OPEN	2024-04-15T02:28:15Z
+149173	SmartSoft.SmartFTP version 10.0.3218.0	matbech:SmartSoft.SmartFTP-10.0.3218.0-8f2ce1aa-1bc8-4259-a704-55cd46e67702	OPEN	2024-04-15T01:35:28Z
+149172	PortSwigger.BurpSuite.Professional 2023.1.2 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2023.1.2-Fix	OPEN	2024-04-15T01:13:24Z
+149171	PortSwigger.BurpSuite.Professional 2022.9.6 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.9.6-Fix	OPEN	2024-04-15T01:13:14Z
+149170	PortSwigger.BurpSuite.Professional 2022.9.5 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.9.5-Fix	OPEN	2024-04-15T01:13:04Z
+149169	PortSwigger.BurpSuite.Professional 2022.8.5 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.8.5-Fix	OPEN	2024-04-15T01:12:54Z
+149168	PortSwigger.BurpSuite.Professional 2022.8.4 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.8.4-Fix	OPEN	2024-04-15T01:12:44Z
+149167	PortSwigger.BurpSuite.Professional 2022.8.3 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.8.3-Fix	OPEN	2024-04-15T01:12:34Z
+149166	PortSwigger.BurpSuite.Professional 2022.8.2 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.8.2-Fix	OPEN	2024-04-15T01:12:24Z
+149165	PortSwigger.BurpSuite.Professional 2022.8.1 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.8.1-Fix	OPEN	2024-04-15T01:12:15Z
+149164	PortSwigger.BurpSuite.Professional 2022.7.1 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.7.1-Fix	OPEN	2024-04-15T01:12:05Z
+149163	PortSwigger.BurpSuite.Professional 2022.6.1 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.6.1-Fix	OPEN	2024-04-15T01:11:55Z
+149162	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_daf3e65e-2a01-4a96-93b8-68dba544754c	OPEN	2024-04-15T00:52:57Z
+149161	New version: vim.vim.nightly version 9.1.0330	vim:vim.vim.nightly-9.1.0330-577743938436A14160E0B3A4AA2BB9DEC9A034A3	OPEN	2024-04-14T23:49:50Z
+149160	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_c9f33a6d-2168-4ad8-b45f-663a35392836	OPEN	2024-04-14T22:58:19Z
+149159	New version: tailscale.tailscale version 1.64.0	PckgrBot:tailscale.tailscale-1.64.0-f5f569c6-e34f-4d44-a499-383521446b7b	OPEN	2024-04-14T22:56:19Z
+149158	PortSwigger.BurpSuite.Professional 2022.5.2 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.5.2-Fix	OPEN	2024-04-14T22:35:26Z
+149157	PortSwigger.BurpSuite.Professional 2022.5.1 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.5.1-Fix	OPEN	2024-04-14T22:35:16Z
+149156	PortSwigger.BurpSuite.Professional 2022.3.9 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.3.9-Fix	OPEN	2024-04-14T22:35:06Z
+149155	PortSwigger.BurpSuite.Professional 2022.12.7 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.12.7-Fix	OPEN	2024-04-14T22:34:55Z
+149154	PortSwigger.BurpSuite.Professional 2022.12.6 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.12.6-Fix	OPEN	2024-04-14T22:34:45Z
+149153	PortSwigger.BurpSuite.Professional 2022.12.5 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.12.5-Fix	OPEN	2024-04-14T22:34:35Z
+149152	PortSwigger.BurpSuite.Professional 2022.12.4 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.12.4-Fix	OPEN	2024-04-14T22:34:25Z
+149151	PortSwigger.BurpSuite.Professional 2022.11.4 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.11.4-Fix	OPEN	2024-04-14T22:34:15Z
+149150	PortSwigger.BurpSuite.Professional 2022.11.3 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.11.3-Fix	OPEN	2024-04-14T22:34:05Z
+149149	PortSwigger.BurpSuite.Professional 2022.11.2 Fix	SpecterShell:PortSwigger.BurpSuite.Professional-2022.11.2-Fix	OPEN	2024-04-14T22:33:54Z
+149147	PortSwigger.BurpSuite.Community 2024.2.1.4 Fix	SpecterShell:PortSwigger.BurpSuite.Community-2024.2.1.4-Fix	OPEN	2024-04-14T22:33:02Z
+149146	PortSwigger.BurpSuite.Community 2024.2.1.3 Fix	SpecterShell:PortSwigger.BurpSuite.Community-2024.2.1.3-Fix	OPEN	2024-04-14T22:32:52Z
+149145	PortSwigger.BurpSuite.Community 2024.1.1.6 Fix	SpecterShell:PortSwigger.BurpSuite.Community-2024.1.1.6-Fix	OPEN	2024-04-14T22:32:42Z
+149144	Automatic update of CatoNetworks.CatoClient from 5.10.23.1205 to 5.10.26.1458	wingetbot:AutomaticUpdate_64780e65-d399-4ee0-8af7-2bc381794be7	OPEN	2024-04-14T22:28:26Z
+149143	New version: Ryujinx.Ryujinx version 1.1.1280	Exorcism0666:Ryujinx.Ryujinx-1.1.1280-129928408	OPEN	2024-04-14T22:13:03Z
 149142	New version: Google.Chrome.Canary version 125.0.6419.0	SpecterShell:Google.Chrome.Canary-125.0.6419.0-1855149763	OPEN	2024-04-14T21:46:04Z
 149141	Automatic update of PowerSoftware.AnyBurn 6.1.0.0	wingetbot:AutomaticUpdate_97eddd0c-988c-48f7-bec2-1f7e45158542	OPEN	2024-04-14T21:17:38Z
 149140	Automatic update of F6CTE.MultiPSK from 4.48.4.1 to 4.48.5	wingetbot:AutomaticUpdate_b65c8e6f-7d77-477d-ae33-2b46bb21a90c	OPEN	2024-04-14T20:53:59Z
@@ -82,7 +122,6 @@
 149056	Fix: PortSwigger.BurpSuite.Community version 2022.5.2	SpecterShell:PortSwigger.BurpSuite.Community-2022.5.2-Fix	OPEN	2024-04-14T00:49:51Z
 149055	Fix: PortSwigger.BurpSuite.Community version 2022.5.1	SpecterShell:PortSwigger.BurpSuite.Community-2022.5.1-Fix	OPEN	2024-04-14T00:49:41Z
 149054	Fix: PortSwigger.BurpSuite.Community version 2022.3.9	SpecterShell:PortSwigger.BurpSuite.Community-2022.3.9-Fix	OPEN	2024-04-14T00:49:31Z
-149053	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_693f6c3b-3b43-45dc-93a2-d41310c33071	OPEN	2024-04-14T00:49:24Z
 149052	Fix: PortSwigger.BurpSuite.Community version 2022.12.7	SpecterShell:PortSwigger.BurpSuite.Community-2022.12.7-Fix	OPEN	2024-04-14T00:49:21Z
 149051	Fix: PortSwigger.BurpSuite.Community version 2022.12.6	SpecterShell:PortSwigger.BurpSuite.Community-2022.12.6-Fix	OPEN	2024-04-14T00:49:09Z
 149050	Fix: PortSwigger.BurpSuite.Community version 2022.12.5	SpecterShell:PortSwigger.BurpSuite.Community-2022.12.5-Fix	OPEN	2024-04-14T00:48:59Z
@@ -92,7 +131,6 @@
 149046	Fix: PortSwigger.BurpSuite.Community version 2022.11.2	SpecterShell:PortSwigger.BurpSuite.Community-2022.11.2-Fix	OPEN	2024-04-14T00:48:17Z
 149045	Automatic deletion of CMU.CLAN 7.97.00	wingetbot:AutomaticUpdate_bed64ee8-85f6-4c1d-9f7a-e8dc8d5fedc8	OPEN	2024-04-13T23:08:32Z
 149044	Automatic deletion of Clockify.Clockify 1.7.86	wingetbot:AutomaticUpdate_5eb5e4e5-ac79-4c47-bd1c-d02c01dfc433	OPEN	2024-04-13T23:07:49Z
-149043	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_949f4bf1-553a-4351-ad59-c33b22a9c1c3	OPEN	2024-04-13T23:00:24Z
 149042	New version: vim.vim.nightly version 9.1.0318	vim:vim.vim.nightly-9.1.0318-439594CE383CCBA9B448A90F107E1FE40847E311	OPEN	2024-04-13T22:54:54Z
 149041	New version: ThaUnknown.Miru version 5.0.6	ThaUnknown:ThaUnknown.Miru-5.0.6-FB412BA22992495A37488DD0B396FA04EEFDA203	OPEN	2024-04-13T22:11:11Z
 149039	Automatic deletion of Quicken.Quicken 27.1.52.28	wingetbot:AutomaticUpdate_6bc1a702-c96c-4e7f-9b05-b051d6c16e4d	OPEN	2024-04-13T21:50:05Z
@@ -130,7 +168,6 @@
 149001	As requested updated manifests in Web Safety 3.3.0	diladele:master	OPEN	2024-04-13T06:48:51Z
 148999	New version: P-StSoftware.WinSSHTerm version 2.34.0	Exorcism0666:P-StSoftware.WinSSHTerm-2.34.0-8a80d435-a93e-4081-bba3-f601cb739438	OPEN	2024-04-13T06:12:59Z
 148997	TeamLidarr.Lidarr version 2.2.5.4141	vedantmgoyal9:TeamLidarr.Lidarr-2.2.5.4141-ee09ded0-9514-4dec-a963-bd89e53b4dbc	OPEN	2024-04-13T05:26:54Z
-148996	New package: squidowl.halloy version 0.0.2024.6	KaiKorla:squidowl.halloy-0.0.2024.6	OPEN	2024-04-13T05:12:23Z
 148994	New version: igoogolx.lux version 1.5.1	igoogolx:igoogolx.lux-1.5.1-F6BF8E8152AAFCA50FBD3C72838EEBC19AB28869	OPEN	2024-04-13T04:02:03Z
 148993	New version: igoogolx.itun2socks version 1.5.0	igoogolx:igoogolx.itun2socks-1.5.0-8415319B78F0ED5EB098CEA9326E05772825BDAD	OPEN	2024-04-13T03:55:25Z
 148992	New version: Peppy.Osu! version 2024.412.0	Exorcism0666:Peppy.Osu!-2024.412.0-1538749598	OPEN	2024-04-13T03:17:26Z
