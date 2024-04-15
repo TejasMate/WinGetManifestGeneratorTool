@@ -1,3 +1,27 @@
+149369	New version: Grammarly.Grammarly version 1.2.72.1368	PckgrBot:Grammarly.Grammarly-1.2.72.1368-a3880d98-84fb-4416-afc8-db771967510f	OPEN	2024-04-15T21:15:07Z
+149368	New version: Zoom.Zoom version 6.0.0.37205	PckgrBot:Zoom.Zoom-6.0.0.37205-a04b2b15-2527-4f5b-9f61-210761279887	OPEN	2024-04-15T21:14:45Z
+149367	New version: Microsoft.Office version 16.0.17531.20046	PckgrBot:Microsoft.Office-16.0.17531.20046-fe1a69d4-fcd9-47c6-bde7-41c3b8e08f23	OPEN	2024-04-15T21:13:37Z
+149366	New version: ThaUnknown.Miru version 5.0.10	ThaUnknown:ThaUnknown.Miru-5.0.10-95BCA54C1F28E3F7A2886815DEE1592E37CF188F	OPEN	2024-04-15T20:46:58Z
+149365	New version: Pulumi.Pulumi version 3.113.0	pulumi-bot:Pulumi.Pulumi-3.113.0-c2c80e08-59d0-4cfa-8ad1-8858eee7fa79	OPEN	2024-04-15T20:41:39Z
+149363	Update Windows admin center to 2311 release.	giakas:master	DRAFT	2024-04-15T20:38:32Z
+149362	Automatic update of ArobasMusic.GuitarPro.8 from 8.1.1-17 to 8.1.2.32	wingetbot:AutomaticUpdate_b5259743-b9f4-40c9-afe8-ce325704e4cd	OPEN	2024-04-15T20:22:26Z
+149360	New version: Google.Chrome.Canary version 125.0.6421.0	SpecterShell:Google.Chrome.Canary-125.0.6421.0-1677753358	OPEN	2024-04-15T20:09:05Z
+149359	Automatic update of AOMEI.Backupper.Standard from 7.3.4.0 to 7.3.5.0	wingetbot:AutomaticUpdate_00d2aa99-bc92-4eba-9af9-5ea46aabb83f	OPEN	2024-04-15T20:04:57Z
+149358	Automatic update of DWANGO.NAIR.experimental from 1.1.20240403-unstable.1 to 1.1.20240415-unstable.1	wingetbot:AutomaticUpdate_72ababd6-ccfc-49a1-a205-737075f29e26	OPEN	2024-04-15T19:49:58Z
+149357	Remove SurgeSynthTeam.SurgeXT 1.3.1 to SurgeSynth.SurgeXT 1.3.1	Trenly:Remove-SurgeSynthTeam.SurgeXT-v1.3.1-0ADED1E1	OPEN	2024-04-15T18:56:08Z
+149356	Move SurgeSynthTeam.SurgeXT 1.3.1 to SurgeSynth.SurgeXT 1.3.1	Trenly:Move-SurgeSynthTeam.SurgeXT-v1.3.1-0ADED1E1	OPEN	2024-04-15T18:56:05Z
+149355	Remove SurgeSynthTeam.SurgeXT 1.3.0 to SurgeSynth.SurgeXT 1.3.0	Trenly:Remove-SurgeSynthTeam.SurgeXT-v1.3.0-0ADED1E1	OPEN	2024-04-15T18:56:02Z
+149354	Move SurgeSynthTeam.SurgeXT 1.3.0 to SurgeSynth.SurgeXT 1.3.0	Trenly:Move-SurgeSynthTeam.SurgeXT-v1.3.0-0ADED1E1	OPEN	2024-04-15T18:55:59Z
+149353	Remove SurgeSynthTeam.SurgeXT 1.2.3 to SurgeSynth.SurgeXT 1.2.3	Trenly:Remove-SurgeSynthTeam.SurgeXT-v1.2.3-0ADED1E1	OPEN	2024-04-15T18:55:55Z
+149352	Move SurgeSynthTeam.SurgeXT 1.2.3 to SurgeSynth.SurgeXT 1.2.3	Trenly:Move-SurgeSynthTeam.SurgeXT-v1.2.3-0ADED1E1	OPEN	2024-04-15T18:55:52Z
+149351	Remove SurgeSynthTeam.SurgeXT 1.1.2 to SurgeSynth.SurgeXT 1.1.2	Trenly:Remove-SurgeSynthTeam.SurgeXT-v1.1.2-0ADED1E1	OPEN	2024-04-15T18:55:49Z
+149350	Move SurgeSynthTeam.SurgeXT 1.1.2 to SurgeSynth.SurgeXT 1.1.2	Trenly:Move-SurgeSynthTeam.SurgeXT-v1.1.2-0ADED1E1	OPEN	2024-04-15T18:55:46Z
+149349	Remove Systweak.DuplicateMusicFixer 2.1.1000.11070 to SystweakSoftware.DuplicateMusicFixer 2.1.1000.11070	Trenly:Remove-Systweak.DuplicateMusicFixer-v2.1.1000.11070-C2BD862A	OPEN	2024-04-15T18:53:39Z
+149348	Move Systweak.DuplicateMusicFixer 2.1.1000.11070 to SystweakSoftware.DuplicateMusicFixer 2.1.1000.11070	Trenly:Move-Systweak.DuplicateMusicFixer-v2.1.1000.11070-C2BD862A	OPEN	2024-04-15T18:53:34Z
+149347	Fix SURF.eduVPNClient version 3.255.18	Trenly:SurfEdu	OPEN	2024-04-15T18:50:46Z
+149346	Add Devolutions Launcher version 2024.1.25.0	Devolutions:Launcher-WinGet-2024.1.25.0	OPEN	2024-04-15T18:40:08Z
+149345	Add Devolutions RemoteDesktopManager version 2024.1.25.0	Devolutions:RDM-WinGet-2024.1.25.0	OPEN	2024-04-15T18:40:07Z
+149344	Add Devolutions RemoteDesktopManagerAgent version 2024.1.25.0	Devolutions:RDMAgent-WinGet-2024.1.25.0	OPEN	2024-04-15T18:40:05Z
 149343	New version: Google.Chrome.Beta.EXE version 124.0.6367.60	SpecterShell:Google.Chrome.Beta.EXE-124.0.6367.60-254996098	OPEN	2024-04-15T18:10:39Z
 149342	New version: Google.Chrome.Beta version 124.0.6367.60	SpecterShell:Google.Chrome.Beta-124.0.6367.60-190849937	OPEN	2024-04-15T18:10:27Z
 149341	New version: Google.Chrome version 124.0.6367.60	SpecterShell:Google.Chrome-124.0.6367.60-187223383	OPEN	2024-04-15T18:10:22Z
