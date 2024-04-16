@@ -1,78 +1,41 @@
-149369	New version: Grammarly.Grammarly version 1.2.72.1368	PckgrBot:Grammarly.Grammarly-1.2.72.1368-a3880d98-84fb-4416-afc8-db771967510f	OPEN	2024-04-15T21:15:07Z
-149368	New version: Zoom.Zoom version 6.0.0.37205	PckgrBot:Zoom.Zoom-6.0.0.37205-a04b2b15-2527-4f5b-9f61-210761279887	OPEN	2024-04-15T21:14:45Z
-149367	New version: Microsoft.Office version 16.0.17531.20046	PckgrBot:Microsoft.Office-16.0.17531.20046-fe1a69d4-fcd9-47c6-bde7-41c3b8e08f23	OPEN	2024-04-15T21:13:37Z
-149366	New version: ThaUnknown.Miru version 5.0.10	ThaUnknown:ThaUnknown.Miru-5.0.10-95BCA54C1F28E3F7A2886815DEE1592E37CF188F	OPEN	2024-04-15T20:46:58Z
-149365	New version: Pulumi.Pulumi version 3.113.0	pulumi-bot:Pulumi.Pulumi-3.113.0-c2c80e08-59d0-4cfa-8ad1-8858eee7fa79	OPEN	2024-04-15T20:41:39Z
-149363	Update Windows admin center to 2311 release.	giakas:master	DRAFT	2024-04-15T20:38:32Z
+149416	New version: JetBrains.IntelliJIDEA.Ultimate.EAP version 241.15989.21	SpecterShell:JetBrains.IntelliJIDEA.Ultimate.EAP-241.15989.21-160355894	OPEN	2024-04-16T01:04:36Z
+149415	Automatic update of niconico.nair.live from 1.1.20240403-1 to 1.1.20240415-1	wingetbot:AutomaticUpdate_65438d86-f9a4-4a49-8b93-53c60e646612	OPEN	2024-04-16T01:04:16Z
+149414	Automatic deletion of Jabra.Direct 6.13.1801	wingetbot:AutomaticUpdate_b7fb6060-c5d1-4721-9fc6-5274f694c6e2	OPEN	2024-04-16T01:00:00Z
+149413	New version: Sinew.Enpass version 6.10.1.1661	SpecterShell:Sinew.Enpass-6.10.1.1661-2068070512	OPEN	2024-04-16T00:58:57Z
+149412	Automatic update of Muye.FlickerList 5.3.2	wingetbot:AutomaticUpdate_c6d6f89b-30f2-4536-986d-3d465105fe06	OPEN	2024-04-16T00:55:23Z
+149411	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_8773cb64-5a2e-4ff5-9a22-b6c6f316d275	OPEN	2024-04-16T00:55:23Z
+149410	Automatic update of Jabra.Direct from 6.13.1801 to 6.14.8801	wingetbot:AutomaticUpdate_35a0fc60-cc26-40ec-be2a-d29128a237b2	OPEN	2024-04-16T00:55:16Z
+149409	Automatic update of Jagex.Runescape 2.2.11	wingetbot:AutomaticUpdate_3d9254be-7b01-4e3b-a1e5-f46d0c997a14	OPEN	2024-04-16T00:55:13Z
+149408	New version: PuTTY.PuTTY version 0.81.0.0	PckgrBot:PuTTY.PuTTY-0.81.0.0-41120e23-fcba-44be-8072-e861d99912ef	OPEN	2024-04-16T00:13:05Z
+149406	New version: vim.vim.nightly version 9.1.0336	vim:vim.vim.nightly-9.1.0336-28361E9EF4848F43540628F83390E21ABA2928E2	OPEN	2024-04-15T23:36:57Z
+149405	Automatic update of HybridSaaS.HybridSaaS from 23.12.32296 to 24.4.34617	wingetbot:AutomaticUpdate_5b0d2877-6459-4e72-8758-3076277fd51f	OPEN	2024-04-15T23:30:23Z
+149403	Automatic update of Microsoft.PowerBI from 2.128.751.0 to 2.128.952.0	wingetbot:AutomaticUpdate_de07512f-143c-4905-aae3-fb1a875707d5	OPEN	2024-04-15T23:17:39Z
+149402	Automatic update of Microsoft.Office from 16.0.17328.20162 to 16.0.17531.20046	wingetbot:AutomaticUpdate_a3ec3669-2b23-4884-baad-75434ebe23e4	OPEN	2024-04-15T23:12:30Z
+149391	Automatic update of RiotGames.LeagueOfLegends.TW2 from 83.0.5.1286 to 84.0.1.1350	wingetbot:AutomaticUpdate_b4cd3d36-6f17-40b1-ae58-591a394720c9	OPEN	2024-04-15T22:34:40Z
+149385	Automatic update of RiotGames.LeagueOfLegends.BR from 83.0.5.1286 to 84.0.1.1350	wingetbot:AutomaticUpdate_d10b4447-6f2c-4e77-88e8-f7d02154ff10	OPEN	2024-04-15T22:31:55Z
 149362	Automatic update of ArobasMusic.GuitarPro.8 from 8.1.1-17 to 8.1.2.32	wingetbot:AutomaticUpdate_b5259743-b9f4-40c9-afe8-ce325704e4cd	OPEN	2024-04-15T20:22:26Z
-149360	New version: Google.Chrome.Canary version 125.0.6421.0	SpecterShell:Google.Chrome.Canary-125.0.6421.0-1677753358	OPEN	2024-04-15T20:09:05Z
-149359	Automatic update of AOMEI.Backupper.Standard from 7.3.4.0 to 7.3.5.0	wingetbot:AutomaticUpdate_00d2aa99-bc92-4eba-9af9-5ea46aabb83f	OPEN	2024-04-15T20:04:57Z
-149358	Automatic update of DWANGO.NAIR.experimental from 1.1.20240403-unstable.1 to 1.1.20240415-unstable.1	wingetbot:AutomaticUpdate_72ababd6-ccfc-49a1-a205-737075f29e26	OPEN	2024-04-15T19:49:58Z
-149357	Remove SurgeSynthTeam.SurgeXT 1.3.1 to SurgeSynth.SurgeXT 1.3.1	Trenly:Remove-SurgeSynthTeam.SurgeXT-v1.3.1-0ADED1E1	OPEN	2024-04-15T18:56:08Z
-149356	Move SurgeSynthTeam.SurgeXT 1.3.1 to SurgeSynth.SurgeXT 1.3.1	Trenly:Move-SurgeSynthTeam.SurgeXT-v1.3.1-0ADED1E1	OPEN	2024-04-15T18:56:05Z
-149355	Remove SurgeSynthTeam.SurgeXT 1.3.0 to SurgeSynth.SurgeXT 1.3.0	Trenly:Remove-SurgeSynthTeam.SurgeXT-v1.3.0-0ADED1E1	OPEN	2024-04-15T18:56:02Z
-149354	Move SurgeSynthTeam.SurgeXT 1.3.0 to SurgeSynth.SurgeXT 1.3.0	Trenly:Move-SurgeSynthTeam.SurgeXT-v1.3.0-0ADED1E1	OPEN	2024-04-15T18:55:59Z
-149353	Remove SurgeSynthTeam.SurgeXT 1.2.3 to SurgeSynth.SurgeXT 1.2.3	Trenly:Remove-SurgeSynthTeam.SurgeXT-v1.2.3-0ADED1E1	OPEN	2024-04-15T18:55:55Z
-149352	Move SurgeSynthTeam.SurgeXT 1.2.3 to SurgeSynth.SurgeXT 1.2.3	Trenly:Move-SurgeSynthTeam.SurgeXT-v1.2.3-0ADED1E1	OPEN	2024-04-15T18:55:52Z
-149351	Remove SurgeSynthTeam.SurgeXT 1.1.2 to SurgeSynth.SurgeXT 1.1.2	Trenly:Remove-SurgeSynthTeam.SurgeXT-v1.1.2-0ADED1E1	OPEN	2024-04-15T18:55:49Z
-149350	Move SurgeSynthTeam.SurgeXT 1.1.2 to SurgeSynth.SurgeXT 1.1.2	Trenly:Move-SurgeSynthTeam.SurgeXT-v1.1.2-0ADED1E1	OPEN	2024-04-15T18:55:46Z
 149349	Remove Systweak.DuplicateMusicFixer 2.1.1000.11070 to SystweakSoftware.DuplicateMusicFixer 2.1.1000.11070	Trenly:Remove-Systweak.DuplicateMusicFixer-v2.1.1000.11070-C2BD862A	OPEN	2024-04-15T18:53:39Z
 149348	Move Systweak.DuplicateMusicFixer 2.1.1000.11070 to SystweakSoftware.DuplicateMusicFixer 2.1.1000.11070	Trenly:Move-Systweak.DuplicateMusicFixer-v2.1.1000.11070-C2BD862A	OPEN	2024-04-15T18:53:34Z
-149347	Fix SURF.eduVPNClient version 3.255.18	Trenly:SurfEdu	OPEN	2024-04-15T18:50:46Z
 149346	Add Devolutions Launcher version 2024.1.25.0	Devolutions:Launcher-WinGet-2024.1.25.0	OPEN	2024-04-15T18:40:08Z
 149345	Add Devolutions RemoteDesktopManager version 2024.1.25.0	Devolutions:RDM-WinGet-2024.1.25.0	OPEN	2024-04-15T18:40:07Z
 149344	Add Devolutions RemoteDesktopManagerAgent version 2024.1.25.0	Devolutions:RDMAgent-WinGet-2024.1.25.0	OPEN	2024-04-15T18:40:05Z
-149343	New version: Google.Chrome.Beta.EXE version 124.0.6367.60	SpecterShell:Google.Chrome.Beta.EXE-124.0.6367.60-254996098	OPEN	2024-04-15T18:10:39Z
 149342	New version: Google.Chrome.Beta version 124.0.6367.60	SpecterShell:Google.Chrome.Beta-124.0.6367.60-190849937	OPEN	2024-04-15T18:10:27Z
-149341	New version: Google.Chrome version 124.0.6367.60	SpecterShell:Google.Chrome-124.0.6367.60-187223383	OPEN	2024-04-15T18:10:22Z
-149340	New version: RussellBanks.Komac version 2.2.1	russellbanks:RussellBanks.Komac-2.2.1-4208408E14A84FEFB961E6BE205FE0AC	OPEN	2024-04-15T17:50:03Z
-149339	Remove version: WHTA.Tamara version 2024.0.0.15	lars-whta:master	OPEN	2024-04-15T17:42:42Z
+149341	New version: Google.Chrome version 124.0.6367.60	SpecterShell:Google.Chrome-124.0.6367.60-187223383	DRAFT	2024-04-15T18:10:22Z
 149338	New version: ViGEm.HidHide version 1.5.212	vikingnope:ViGEm.HidHide-1.5.212-CFDB8BCE17784E7AB19B8B68B7FA0752	OPEN	2024-04-15T17:40:38Z
-149337	Add msixbundle for arm and arm64	anamnavi:powershell-7.4.2.0-msixbundle	OPEN	2024-04-15T17:25:01Z
-149336	New version: Telegram.TelegramDesktop version 4.16.7	telegramdesktop:Telegram.TelegramDesktop-4.16.7-9SCCG7Z4A9A3F5	OPEN	2024-04-15T17:18:59Z
-149335	New Version: Telegram.TelegramDesktop version 4.16.7	og-mrk:new-manifest-version/Telegram.TelegramDesktop-version4.16.7	OPEN	2024-04-15T17:15:10Z
-149334	New version: Anaconda.Miniconda3 version py312_24.3.0-0	SpecterShell:Anaconda.Miniconda3-py312_24.3.0-0-440484309	OPEN	2024-04-15T17:08:05Z
-149333	New version: Spicetify.Spicetify version 2.36.5	spicetify:Spicetify.Spicetify-2.36.5-92DDE5E5DB34660868E48529B4856F1ED2361483	OPEN	2024-04-15T17:07:43Z
-149332	New version: IronmanSoftware.PowerShellUniversal version 4.2.18	adamdriscoll:IronmanSoftware.PowerShellUniversal-4.2.18-36c04c04-0342-460a-8a64-60633292c72e	OPEN	2024-04-15T16:48:16Z
 149331	New package: Genesys.GenesysCloud version 2.34.771	Dragon1573:issues/149330	OPEN	2024-04-15T16:45:42Z
-149329	Update version: KRTirtho.Spotube version 3.6.0+30	hlqviet:KRTirtho.Spotube-3.6.0+30-8E3C15AE41CA4E3DB7799963871AA77C	OPEN	2024-04-15T16:34:11Z
-149328	New Version: charmbracelet.vhs version 0.7.2	og-mrk:new-manifest-version/charmbracelet.vhs-version0.7.2	OPEN	2024-04-15T16:16:59Z
-149327	New version: Brave.Brave.Nightly version 124.1.67.11	SpecterShell:Brave.Brave.Nightly-124.1.67.11-531892391	OPEN	2024-04-15T16:09:22Z
-149325	[metadata]: charmbracelet.vhs version 0.7.1	og-mrk:update-manifest-metadata/charmbracelet.vhs-version0.7.1	OPEN	2024-04-15T16:04:45Z
-149324	New version: CPUID.HWMonitor version 1.53	vikingnope:CPUID.HWMonitor-1.53-6CDA6B358FCE45E39B70A75B591663C7	OPEN	2024-04-15T15:45:01Z
-149322	New version: OneWare.OneWareStudio version 0.17.0.3	HendrikMennen:OneWare.OneWareStudio-0.17.0.3-04b6c43f-c8b5-455a-b522-2248be543bc9	OPEN	2024-04-15T15:22:47Z
-149321	New version: charmbracelet.vhs 0.7.2	charmbracelet:vhs-0.7.2	OPEN	2024-04-15T15:12:37Z
-149320	New version: PortSwigger.BurpSuite.Professional version 2024.2.1.5	SpecterShell:PortSwigger.BurpSuite.Professional-2024.2.1.5-965080988	OPEN	2024-04-15T15:12:00Z
-149319	New version: PortSwigger.BurpSuite.Community version 2024.2.1.5	SpecterShell:PortSwigger.BurpSuite.Community-2024.2.1.5-944579029	OPEN	2024-04-15T15:12:00Z
-149318	New version: Jabra.Direct version 6.14.8801 (6.14.08801)	SpecterShell:Jabra.Direct-6.14.8801-941386930	OPEN	2024-04-15T15:11:36Z
-149316	New version: ThaUnknown.Miru version 5.0.9	ThaUnknown:ThaUnknown.Miru-5.0.9-B702B092F5B4714FCC86F807BA6FFD44811E61ED	OPEN	2024-04-15T14:55:47Z
 149315	Tx ndi	Trouffman:TxNDI	OPEN	2024-04-15T14:51:50Z
-149314	New version: gjergj.testmyapp 0.0.72	Gjergj:testmyapp-v0.0.72	OPEN	2024-04-15T14:50:19Z
 149313	New version: TheBrowserCompany.Arc version 0.18.0.22124	Exorcism0666:TheBrowserCompany.Arc-0.18.0.22124-729564435	OPEN	2024-04-15T14:18:45Z
-149301	New version: NI.ni-systemconfiguration version 24.3.0	lars-whta:NI.ni-systemconfiguration-24.3.0-400abe82-01a4-4b29-9dfe-b31ce4e7c5c2	OPEN	2024-04-15T11:42:41Z
-149300	New version: NI.ni-xnet version 24.3.0	lars-whta:NI.ni-xnet-24.3.0-d49bcc0b-4367-4d23-a484-976e39c35870	OPEN	2024-04-15T11:35:08Z
 149299	New version: NI.ni-daqmx version 24.3.0	lars-whta:NI.ni-daqmx-24.3.0-82fc5323-903d-42c6-826e-805297d67e23	OPEN	2024-04-15T11:33:26Z
 149291	New version: JetBrains.QodanaCLI version 2024.1.0	qodana-bot:JetBrains.QodanaCLI-2024.1.0-D3F833F6BCA7D8E86F405B1A83A74C11	OPEN	2024-04-15T11:04:55Z
-149289	New version: gjergj.testmyapp 0.0.71	Gjergj:testmyapp-v0.0.71	OPEN	2024-04-15T10:17:22Z
 149272	New version: WestWind.MarkdownMonster version 3.2.10.0	kkbruce:WestWind.MarkdownMonster-3.2.10.0-F07EE2F1	OPEN	2024-04-15T07:50:59Z
 149271	New version: astral-sh.ruff version 0.3.7	frazar:astral-sh.ruff-0.3.7-06C01F79	OPEN	2024-04-15T07:19:01Z
 149240	New package Akko.CloudDriver in version 370.1.3	FaserF:new-package-akko-cloud-driver	OPEN	2024-04-15T05:40:24Z
-149236	Remove Google.Chrome.Beta 124.0.6367.49 to Google.Chrome.Beta.EXE 124.0.6367.49	SpecterShell:Remove-Google.Chrome.Beta-v124.0.6367.49-A872E273	OPEN	2024-04-15T04:29:51Z
-149162	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_daf3e65e-2a01-4a96-93b8-68dba544754c	OPEN	2024-04-15T00:52:57Z
-149143	New version: Ryujinx.Ryujinx version 1.1.1280	Exorcism0666:Ryujinx.Ryujinx-1.1.1280-129928408	OPEN	2024-04-14T22:13:03Z
 149140	Automatic update of F6CTE.MultiPSK from 4.48.4.1 to 4.48.5	wingetbot:AutomaticUpdate_b65c8e6f-7d77-477d-ae33-2b46bb21a90c	OPEN	2024-04-14T20:53:59Z
-149139	New version: Wagnardsoft.DisplayDriverUninstaller version 18.0.7.5	OfficialEsco:Wagnardsoft.DisplayDriverUninstaller-18.0.7.5-E6BF68F3CD314355A268E18CDCDE31CD	OPEN	2024-04-14T20:07:54Z
-149124	Version Update: TeamSonarr.Sonarr version 4.0.4.1491	babblebauble:TeamSonarr.Sonarr-4.0.4.1491-c3bd0e11-2aad-4021-9c48-91837cadd8ee	OPEN	2024-04-14T13:51:06Z
 149076	New version: Pylogmon.pot version 2.7.10	Pylogmon:Pylogmon.pot-2.7.10-28AB0BF01A253973F5FE70D59AF63FBC6B0323CF	OPEN	2024-04-14T08:07:12Z
-149062	New version: robinovitch61.webtoon-dl 0.0.9	robinovitch61:webtoon-dl-0.0.9	OPEN	2024-04-14T05:48:41Z
 149061	eloston.ungoogled-chromium version 123.0.6312.122	Nifury:eloston.ungoogled-chromium-123.0.6312.122-3ec4e7d6-ed1d-4aa6-8451-4a97d89ce2d1	OPEN	2024-04-14T04:46:15Z
 149042	New version: vim.vim.nightly version 9.1.0318	vim:vim.vim.nightly-9.1.0318-439594CE383CCBA9B448A90F107E1FE40847E311	OPEN	2024-04-13T22:54:54Z
-149041	New version: ThaUnknown.Miru version 5.0.6	ThaUnknown:ThaUnknown.Miru-5.0.6-FB412BA22992495A37488DD0B396FA04EEFDA203	OPEN	2024-04-13T22:11:11Z
 149033	Automatic update of Parsec.Parsec from 150-92a to 150.93.2.0	wingetbot:AutomaticUpdate_89398a96-b7e0-4036-82a6-eb4bb2d9856c	OPEN	2024-04-13T20:37:44Z
 149029	Automatic update of Alibaba.aDrive from 4.13.0 to 4.13.0.1208	wingetbot:AutomaticUpdate_920874be-7982-4a75-ba9a-41e790f057d8	OPEN	2024-04-13T19:33:04Z
-149005	New version: uazo.cromite version 123.0.6312.122	Exorcism0666:uazo.cromite-123.0.6312.122-917341731	OPEN	2024-04-13T07:17:50Z
-149004	New version: Peppy.Osu! version 2024.412.1	Exorcism0666:Peppy.Osu!-2024.412.1-1793748970	OPEN	2024-04-13T07:17:50Z
-148992	New version: Peppy.Osu! version 2024.412.0	Exorcism0666:Peppy.Osu!-2024.412.0-1538749598	OPEN	2024-04-13T03:17:26Z
 148989	Microsoft.VisualStudioCode.Insiders.CLI_v1.89.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.Insiders.CLI_v1.89.0	OPEN	2024-04-13T03:06:17Z
 148978	Automatic deletion of CrashPlan.CrashPlanSMB 11.3.0.754	wingetbot:AutomaticUpdate_a2e6de6c-6de2-4d4b-bbb6-32435e0b5584	OPEN	2024-04-12T23:56:12Z
 148970	New version: vim.vim.nightly version 9.1.0312	vim:vim.vim.nightly-9.1.0312-03C01D2A1A74769C73736264B8239FA424062D5E	OPEN	2024-04-12T23:33:55Z
