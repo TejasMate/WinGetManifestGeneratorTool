@@ -1,3 +1,12 @@
+149437	New version: ULAB.PaintAid version 2.7.0.0	SpecterShell:ULAB.PaintAid-2.7.0.0-1666761121	OPEN	2024-04-16T06:11:49Z
+149436	New version: Microsoft.PowerBI version 2.128.952.0	PckgrBot:Microsoft.PowerBI-2.128.952.0-58ce9385-6f7c-4886-9ddc-fb01a0e85a64	OPEN	2024-04-16T06:07:17Z
+149435	Fix: Discord.Discord version 1.0.9039	aisgbnok:fix-Discord.Discord-1.0.9039	OPEN	2024-04-16T06:03:13Z
+149434	New version: Jackett.Jackett version 0.21.2392	Jackett:Jackett.Jackett-0.21.2392-814E3AFF16B7B022EFEEE93D86AA65511B546E2C	OPEN	2024-04-16T05:59:11Z
+149433	New version: Discord.Discord version 1.0.9040	aisgbnok:update-Discord.Discord-1.0.9040	OPEN	2024-04-16T05:48:59Z
+149432	Update: EuSoft.Eudic version 13.0.0.0 (13.6.1)	SpecterShell:EuSoft.Eudic-13.0.0.0-61908871	OPEN	2024-04-16T05:10:06Z
+149431	New version: blacktop.ipswd 3.1.470	blacktop:ipswd-3.1.470	OPEN	2024-04-16T05:02:24Z
+149430	New version: blacktop.ipsw 3.1.470	blacktop:ipsw-3.1.470	OPEN	2024-04-16T05:02:18Z
+149429	New version: AuraMarker.Lattics version 1.19.2	SpecterShell:AuraMarker.Lattics-1.19.2-1648405697	OPEN	2024-04-16T04:09:16Z
 149428	New version: B3log.SiYuan version 3.0.10	SpecterShell:B3log.SiYuan-3.0.10-1033896971	OPEN	2024-04-16T03:09:36Z
 149427	New version: DenoLand.Deno version 1.42.4	coolplaylinbot:DenoLand.Deno-1.42.4-2680D57C9BA14805B34976A6FBBEA448	OPEN	2024-04-16T02:23:16Z
 149426	New version: DenoLand.Deno version 1.42.4	coolplaylinbot:DenoLand.Deno-1.42.4-71F92A4EC38D4379B22ACB1DF03E25D9	OPEN	2024-04-16T02:23:11Z
