@@ -1,7 +1,16 @@
+149447	New version: Kingdee.CloudHub version 4.2.8	SpecterShell:Kingdee.CloudHub-4.2.8-650269660	OPEN	2024-04-16T09:10:31Z
+149446	New version: Alibaba.UCCloudDrive version 1.3.6	SpecterShell:Alibaba.UCCloudDrive-1.3.6-136163438	OPEN	2024-04-16T09:09:45Z
+149445	New version: Digimezzo.Dopamine.3 version 3.0.0-preview.25	soredake:Digimezzo.Dopamine.3-3.0.0-preview.25-43AB7B595DE14FADA254319F2824E0BF	OPEN	2024-04-16T08:17:59Z
+149444	New version: Brave.Brave.Beta version 124.1.66.80	SpecterShell:Brave.Brave.Beta-124.1.66.80-844440817	OPEN	2024-04-16T08:09:57Z
+149443	FireDaemon OpenSSL 3.3.0	firedaemon-ceo:FireDaemon-OpenSSL-3.3.0	OPEN	2024-04-16T07:43:44Z
+149442	New version: Microsoft.Azure.AztfExport version 0.14.1	azure-terraform-bot:Microsoft.Azure.AztfExport-0.14.1-326fcaf9-fdca-44e4-a8f5-42ccb8e3125f	OPEN	2024-04-16T07:25:24Z
+149441	New version: AngryMiao.AMMaster version 1.2.1	SpecterShell:AngryMiao.AMMaster-1.2.1-1166242454	OPEN	2024-04-16T07:09:07Z
+149440	Microsoft.VisualStudioCode.Insiders_v1.89.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.89.0	OPEN	2024-04-16T07:05:35Z
+149439	New version: Kopia.KopiaUI version 0.17.0	PckgrBot:Kopia.KopiaUI-0.17.0-5eb59628-e13f-4954-8f2f-a7cd4d78429f	OPEN	2024-04-16T06:56:45Z
+149438	Update: Wagnardsoft.DisplayDriverUninstaller version 18.0.7.5	aisgbnok:update-Wagnardsoft.DisplayDriverUninstaller-18.0.7.5	OPEN	2024-04-16T06:48:11Z
 149437	New version: ULAB.PaintAid version 2.7.0.0	SpecterShell:ULAB.PaintAid-2.7.0.0-1666761121	OPEN	2024-04-16T06:11:49Z
 149436	New version: Microsoft.PowerBI version 2.128.952.0	PckgrBot:Microsoft.PowerBI-2.128.952.0-58ce9385-6f7c-4886-9ddc-fb01a0e85a64	OPEN	2024-04-16T06:07:17Z
 149435	Fix: Discord.Discord version 1.0.9039	aisgbnok:fix-Discord.Discord-1.0.9039	OPEN	2024-04-16T06:03:13Z
-149434	New version: Jackett.Jackett version 0.21.2392	Jackett:Jackett.Jackett-0.21.2392-814E3AFF16B7B022EFEEE93D86AA65511B546E2C	OPEN	2024-04-16T05:59:11Z
 149433	New version: Discord.Discord version 1.0.9040	aisgbnok:update-Discord.Discord-1.0.9040	OPEN	2024-04-16T05:48:59Z
 149432	Update: EuSoft.Eudic version 13.0.0.0 (13.6.1)	SpecterShell:EuSoft.Eudic-13.0.0.0-61908871	OPEN	2024-04-16T05:10:06Z
 149431	New version: blacktop.ipswd 3.1.470	blacktop:ipswd-3.1.470	OPEN	2024-04-16T05:02:24Z
