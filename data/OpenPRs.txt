@@ -1,3 +1,15 @@
+149647	New version: Agilebits.1Password.CLI version 2.27.0	1p-homebrew-bot:AgileBits.1Password.CLI-2.27.0	OPEN	2024-04-17T15:15:48Z
+149646	New version: JetBrains.WebStorm version 2024.1.1	SpecterShell:JetBrains.WebStorm-2024.1.1-613580840	OPEN	2024-04-17T15:10:48Z
+149645	Microsoft.VisualStudioCode.Insiders_v1.89.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.89.0	OPEN	2024-04-17T15:05:00Z
+149644	New version: Gruntwork.Terragrunt version 0.57.2	KaiKorla:Gruntwork.Terragrunt-0.57.2	OPEN	2024-04-17T14:44:26Z
+149643	New version: Unity.Unity.2022 version 2022.3.25f1	SpecterShell:Unity.Unity.2022-2022.3.25f1-1013903259	OPEN	2024-04-17T14:12:42Z
+149641	Modify: Posit.RStudio version 2023.12.1+402	SpecterShell:Posit.RStudio-2023.12.1+402-Modify	OPEN	2024-04-17T13:52:23Z
+149640	NAVER.MYBOX version 3.0.2.94	alexkoala:NAVER.MYBOX-3.0.2.94-490274c6-e06d-4dc5-ad85-033313b2f5c0	OPEN	2024-04-17T13:47:54Z
+149639	Ant Commander Pro version 4.8	japplis:ant-commander-pro-4.8	OPEN	2024-04-17T13:43:00Z
+149638	New package: ArduinoSA.ArduinoIDE version 2.3.2.0	Jvr2022:ArduinoSA.ArduinoIDE-2.3.2.0-f0211596-fb5d-43a0-921f-ec1470041ae0	OPEN	2024-04-17T13:41:33Z
+149637	Ant Commander Personal version 4.8	japplis:ant-commander-personal-4.8	OPEN	2024-04-17T13:30:18Z
+149636	New version: Ferdium.Ferdium.Nightly version 6.7.3-nightly.12	Alphrag:Ferdium.Ferdium.Nightly-6.7.3-nightly.12-9f28d0a0-0227-4f64-9eae-e1b7d78957b4	OPEN	2024-04-17T13:03:41Z
+149635	New version: GitHub.cli version 2.48.0	PckgrBot:GitHub.cli-2.48.0-55682031-b18d-4186-80f9-83559bd16008	OPEN	2024-04-17T12:56:19Z
 149634	Update package: Tillitis.TKeySshAgent version 1.0.0.0	tillitis:update/tkey-ssh-agent	OPEN	2024-04-17T12:24:38Z
 149633	New version: DBVis.DBVisualizer version 24.1.4	Jvr2022:DBVis.DBVisualizer-24.1.4-fe7e9327-f2f5-468d-aee9-4029132a6ad6	OPEN	2024-04-17T12:02:24Z
 149632	New version: Ollama.Ollama version 0.1.32	SpecterShell:Ollama.Ollama-0.1.32-F7E13121	OPEN	2024-04-17T11:56:04Z
@@ -15,7 +27,6 @@
 149617	New version: Baidu.BaiduNetdisk version 7.40.0 (7.40.0.5)	SpecterShell:Baidu.BaiduNetdisk-7.40.0-558634303	OPEN	2024-04-17T08:11:58Z
 149616	New version: Caphyon.AdvancedInstaller version 21.6.1	SpecterShell:Caphyon.AdvancedInstaller-21.6.1-424976299	OPEN	2024-04-17T08:11:24Z
 149615	New version: ByteDance.Feishu version 7.15.9	SpecterShell:ByteDance.Feishu-7.15.9-597124154	OPEN	2024-04-17T08:10:51Z
-149614	New version: TortoiseSVN.TortoiseSVN version 1.14.29687	vikingnope:TortoiseSVN.TortoiseSVN-1.14.29687-973FEFF5004243799C95947B841FA106	OPEN	2024-04-17T07:48:26Z
 149612	New package: EPA.SWMM version 5.2.4	vikingnope:EPA.SWMM-5.2.4-873C4BC3F02C4001BC81EC5FF271B96A	OPEN	2024-04-17T07:25:31Z
 149611	New version: yetone.OpenAITranslator version 0.3.41	vikingnope:yetone.OpenAITranslator-0.3.41-7D5B3299B08344418D33CF08B3A0B479	OPEN	2024-04-17T07:21:11Z
 149609	New version: Dummerle.Rare version 1.10.11	vikingnope:Dummerle.Rare-1.10.11-79F9872E8F23446E9594EAB520E2FCD8	OPEN	2024-04-17T07:19:53Z
@@ -23,15 +34,6 @@
 149607	New version: ByteDance.DouyinIDE version 4.2.3	SpecterShell:ByteDance.DouyinIDE-4.2.3-1144990703	OPEN	2024-04-17T07:09:59Z
 149606	New version: Microsoft.Azure.QuickReview version 1.0.0	cmendible:Microsoft.Azure.QuickReview-1.0.0-62e255d2-35f8-456a-a108-230b31116502	OPEN	2024-04-17T06:54:21Z
 149605	New package: SafingICSTechnologiesGmbH.Portmaster version 1.0.13.0	nett00n:SafingICSTechnologiesGmbH.Portmaster-1.0.13.0-77970ae3-5304-429c-872a-d65e807b1ad5	OPEN	2024-04-17T06:53:38Z
-149603	New version: NordSecurity.NordVPN version 7.21.3.0	SpecterShell:NordSecurity.NordVPN-7.21.3.0-1470073760	OPEN	2024-04-17T06:11:53Z
-149602	New package: Tenable.NessusAgent version 10.6.2.20010	einar-prod:Tenable.NessusAgent-10.6.2.20010-0D690A0A	OPEN	2024-04-17T06:06:24Z
-149598	Update: HiteVision.HitePai6 version 6.2.312	SpecterShell:HiteVision.HitePai6-6.2.312-Update	OPEN	2024-04-17T05:15:43Z
-149597	Update: Seewo.EasiClass version 1.0.0.2 (2.1.22.6392)	SpecterShell:Seewo.EasiClass-1.0.0.2-1324633462	OPEN	2024-04-17T05:11:06Z
-149596	New version: Google.Chrome.Canary version 125.0.6422.4	SpecterShell:Google.Chrome.Canary-125.0.6422.4-475399552	OPEN	2024-04-17T05:10:00Z
-149595	ReleaseNotes: Tencent.QQ.NT version 9.9.9.22961	SpecterShell:Tencent.QQ.NT-9.9.9.22961-ReleaseNotes	OPEN	2024-04-17T04:27:40Z
-149594	New version: taers232c.GAMADV-XTD3 version 6.72.14	Exorcism0666:taers232c.GAMADV-XTD3-6.72.14-1243423180	OPEN	2024-04-17T04:24:47Z
-149593	New package: NAVER.PrismLiveStudio version 4.1.5.530	alexkoala:Naver.PrismLiveStudio-4.1.5.530-cde55944-56ac-43c8-b1f0-b3310d8a03da	OPEN	2024-04-17T04:12:16Z
-149592	New package: GenieMusic.Genie version 1.1.2.18	alexkoala:GenieMusic.Genie-1.1.2.18-fc156f34-b38b-4747-9af2-d783a7075160	OPEN	2024-04-17T04:06:38Z
 149591	New version: Oracle.JavaRuntimeEnvironment version 8.0.4110.9	PckgrBot:Oracle.JavaRuntimeEnvironment-8.0.4110.9-e5725693-182b-457f-bfcf-294e779ad4d1	OPEN	2024-04-17T04:02:06Z
 149589	New package: NHNBugs.Bugs version 4.12.0.0	alexkoala:NHNBugs.Bugs-4.12.0.0-50a52b30-1417-486c-8981-0bb4675fadf9	OPEN	2024-04-17T03:49:32Z
 149588	New version: Grammarly.Grammarly version 1.2.73.1373	PckgrBot:Grammarly.Grammarly-1.2.73.1373-f4498b38-73da-4a3d-9072-11e049a4bdb3	OPEN	2024-04-17T03:02:37Z
@@ -111,7 +113,6 @@
 148379	Microsoft.VisualStudio.2022.Enterprise.Preview version 17.10.0	edwardskrod:autogenerated/Microsoft.VisualStudio.2022.Enterprise.Preview/4b52f1a0-c916-42af-9c7b-bccd41d59848	OPEN	2024-04-09T18:01:57Z
 148372	Microsoft.VisualStudio.2022.Community version 17.9.6	edwardskrod:autogenerated/Microsoft.VisualStudio.2022.Community/6c2ca371-ce27-4fcd-869a-37939a15d4e8	OPEN	2024-04-09T17:21:41Z
 148292	New version: evilmartians.lefthook version 1.6.9	mrexox:evilmartians.lefthook-1.6.9-827F860434CD2D160C8E4EBF851890917EDCC383	OPEN	2024-04-09T08:43:26Z
-148247	Appest.Dida version 5.3.0.0	vedantmgoyal9:Appest.Dida-5.3.0.0-9d38f70f-7ee5-44fc-90c6-cef15a84ef2f	OPEN	2024-04-08T23:25:45Z
 148233	New version: ente-io.photos-desktop version 1.6.63	Trenly:ente-io.photos-desktop-1.6.63-96847677	OPEN	2024-04-08T22:41:02Z
 148226	New Package: ente-io.ente.Auth version 2.0.50+250	Trenly:ente-io.ente-2.0.50-DD5DCF68	OPEN	2024-04-08T22:20:18Z
 148219	New version: Microsoft.VisualStudio.2022.Community version 17.9.5	Trenly:Microsoft.VisualStudio.2022.Community-17.9.5-0A73C432	OPEN	2024-04-08T20:56:59Z
