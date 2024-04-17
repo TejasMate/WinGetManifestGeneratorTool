@@ -1,3 +1,15 @@
+149603	New version: NordSecurity.NordVPN version 7.21.3.0	SpecterShell:NordSecurity.NordVPN-7.21.3.0-1470073760	OPEN	2024-04-17T06:11:53Z
+149602	New package: Tenable.NessusAgent version 10.6.2.20010	einar-prod:Tenable.NessusAgent-10.6.2.20010-0D690A0A	OPEN	2024-04-17T06:06:24Z
+149601	New version: Jackett.Jackett version 0.21.2395	Jackett:Jackett.Jackett-0.21.2395-407F62EDF6CA12BF5D6DC45E5C41214E19899A26	OPEN	2024-04-17T06:00:30Z
+149598	Update: HiteVision.HitePai6 version 6.2.312	SpecterShell:HiteVision.HitePai6-6.2.312-Update	OPEN	2024-04-17T05:15:43Z
+149597	Update: Seewo.EasiClass version 1.0.0.2 (2.1.22.6392)	SpecterShell:Seewo.EasiClass-1.0.0.2-1324633462	OPEN	2024-04-17T05:11:06Z
+149596	New version: Google.Chrome.Canary version 125.0.6422.4	SpecterShell:Google.Chrome.Canary-125.0.6422.4-475399552	OPEN	2024-04-17T05:10:00Z
+149595	ReleaseNotes: Tencent.QQ.NT version 9.9.9.22961	SpecterShell:Tencent.QQ.NT-9.9.9.22961-ReleaseNotes	OPEN	2024-04-17T04:27:40Z
+149594	New version: taers232c.GAMADV-XTD3 version 6.72.14	Exorcism0666:taers232c.GAMADV-XTD3-6.72.14-1243423180	OPEN	2024-04-17T04:24:47Z
+149593	New package: Naver.PrismLiveStudio version 4.1.5.530	alexkoala:Naver.PrismLiveStudio-4.1.5.530-cde55944-56ac-43c8-b1f0-b3310d8a03da	OPEN	2024-04-17T04:12:16Z
+149592	New package: GenieMusic.Genie version 1.1.2.18	alexkoala:GenieMusic.Genie-1.1.2.18-fc156f34-b38b-4747-9af2-d783a7075160	OPEN	2024-04-17T04:06:38Z
+149591	New version: Oracle.JavaRuntimeEnvironment version 8.0.4110.9	PckgrBot:Oracle.JavaRuntimeEnvironment-8.0.4110.9-e5725693-182b-457f-bfcf-294e779ad4d1	OPEN	2024-04-17T04:02:06Z
+149589	New package: NHNBugs.Bugs version 4.12.0.0	alexkoala:NHNBugs.Bugs-4.12.0.0-50a52b30-1417-486c-8981-0bb4675fadf9	OPEN	2024-04-17T03:49:32Z
 149588	New version: Grammarly.Grammarly version 1.2.73.1373	PckgrBot:Grammarly.Grammarly-1.2.73.1373-f4498b38-73da-4a3d-9072-11e049a4bdb3	OPEN	2024-04-17T03:02:37Z
 149587	New version: TechSmith.Camtasia version 23.4.6.53116	PckgrBot:TechSmith.Camtasia-23.4.6.53116-b62b3730-2aba-4044-ba95-87bdf8ca6508	OPEN	2024-04-17T03:00:29Z
 149586	New package: AhnLab.V3Lite version 4.10.0.528	alexkoala:AhnLab.V3Lite-4.10.0.528-cd0a894b-301d-485c-8e83-01aac85c8011	OPEN	2024-04-17T02:35:51Z
