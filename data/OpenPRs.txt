@@ -1,58 +1,40 @@
+149672	New version: RemNote.RemNote version 1.15.18	SpecterShell:RemNote.RemNote-1.15.18-1169041258	OPEN	2024-04-17T18:11:24Z
+149671	New version: Google.Chrome.Beta.EXE version 125.0.6422.4	SpecterShell:Google.Chrome.Beta.EXE-125.0.6422.4-1396920162	OPEN	2024-04-17T18:10:19Z
+149670	New version: Google.Chrome.Beta version 125.0.6422.4	SpecterShell:Google.Chrome.Beta-125.0.6422.4-1106229124	OPEN	2024-04-17T18:10:18Z
+149668	New package: TimKosse.FileZilla version 3.67.0	Jvr2022:TimKosse.FileZilla-3.67.0-2f8ca559-ea5a-444e-b154-7d484012bb12	OPEN	2024-04-17T17:13:02Z
+149667	Remove version: WHTA.Tamara version 2024.0.0.1	lars-whta:master	OPEN	2024-04-17T17:10:04Z
+149666	Update: Mozilla.Firefox.DeveloperEdition version 126.0 (126.0b2)	SpecterShell:Mozilla.Firefox.DeveloperEdition-126.0-1720123507	OPEN	2024-04-17T17:09:58Z
+149665	New version: JetBrains.Rider version 2024.1.1	SpecterShell:JetBrains.Rider-2024.1.1-389533991	OPEN	2024-04-17T17:09:29Z
+149664	New version: JetBrains.dotUltimate version 2024.1.1	SpecterShell:JetBrains.dotUltimate-2024.1.1-171593909	OPEN	2024-04-17T17:09:21Z
+149663	New version: JetBrains.ReSharper version 2024.1.1	SpecterShell:JetBrains.ReSharper-2024.1.1-208404342	OPEN	2024-04-17T17:09:21Z
+149662	New version: pnpm.pnpm version 9.0.2	pnpm:pnpm.pnpm-9.0.2-68AC1A5953CD82F94B304537C6B5851CEA6BC318	OPEN	2024-04-17T16:55:05Z
+149661	New version: KuaiFan.DooTask version 0.36.75	coolplaylinbot:KuaiFan.DooTask-0.36.75-D1AB16BB0AA44772A2CCEE5F83440D22	OPEN	2024-04-17T16:18:54Z
+149660	New version: KuaiFan.DooTask version 0.36.75	coolplaylinbot:KuaiFan.DooTask-0.36.75-B1F0B34AAEE24810AF5E90923E398422	OPEN	2024-04-17T16:18:48Z
+149658	Update version: Gitbutler.GitButler version 0.11.2	damn-good-b0t:GitButler.GitButler-0.11.2-64a35f54-699f-4061-ad04-b6e781bf3903	OPEN	2024-04-17T16:17:49Z
+149657	New version: CodecGuide.K-LiteCodecPack.Mega version 18.3.0	vikingnope:CodecGuide.K-LiteCodecPack.Mega-18.3.0-87E0B8E7C5904CD7A454193F496A30D9	OPEN	2024-04-17T16:17:34Z
+149655	New version: Logitech.OptionsPlus version 1.70.551909	vikingnope:Logitech.OptionsPlus-1.70.551909-3624B4C1CECB49F5902602A0F383ECAE	OPEN	2024-04-17T16:13:44Z
+149654	New version: Elsevier.MendeleyReferenceManager version 2.112.2	SpecterShell:Elsevier.MendeleyReferenceManager-2.112.2-749579975	OPEN	2024-04-17T16:10:26Z
+149653	New version: Brave.Brave.Nightly version 124.1.67.18	SpecterShell:Brave.Brave.Nightly-124.1.67.18-1450718952	OPEN	2024-04-17T16:09:58Z
+149652	New package: jeffvli.Feishin version 0.6.1	GamerBS:jeffvli.Feishin-0.6.1-e8df2c0c-1467-4d23-a2ea-d5cfc991bc0f	OPEN	2024-04-17T16:08:07Z
+149651	New version: FredEmmott.OpenKneeboard version 1.8.1	openkneeboard-bot:FredEmmott.OpenKneeboard-1.8.1-F4F65963300249DDA0D8F02A9AD6A9ED	OPEN	2024-04-17T16:07:22Z
+149650	CheckMAL.AppCheck version 3.1.36.2	alexkoala:CheckMAL.AppCheck-3.1.36.2-634a9df9-3a5d-49d3-9523-3705474f5ff0	OPEN	2024-04-17T15:51:02Z
+149648	Update version: Perimeter81Ltd.Perimeter81Ltd version 10.4.3.1672	jnichols35:Perimeter81Ltd.Perimeter81Ltd-10.4.3.1672-E4583E4AD2EF4BC9BF12A828D828FA7E	OPEN	2024-04-17T15:25:16Z
 149647	New version: Agilebits.1Password.CLI version 2.27.0	1p-homebrew-bot:AgileBits.1Password.CLI-2.27.0	OPEN	2024-04-17T15:15:48Z
 149646	New version: JetBrains.WebStorm version 2024.1.1	SpecterShell:JetBrains.WebStorm-2024.1.1-613580840	OPEN	2024-04-17T15:10:48Z
-149645	Microsoft.VisualStudioCode.Insiders_v1.89.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.89.0	OPEN	2024-04-17T15:05:00Z
-149644	New version: Gruntwork.Terragrunt version 0.57.2	KaiKorla:Gruntwork.Terragrunt-0.57.2	OPEN	2024-04-17T14:44:26Z
 149643	New version: Unity.Unity.2022 version 2022.3.25f1	SpecterShell:Unity.Unity.2022-2022.3.25f1-1013903259	OPEN	2024-04-17T14:12:42Z
-149641	Modify: Posit.RStudio version 2023.12.1+402	SpecterShell:Posit.RStudio-2023.12.1+402-Modify	OPEN	2024-04-17T13:52:23Z
 149640	NAVER.MYBOX version 3.0.2.94	alexkoala:NAVER.MYBOX-3.0.2.94-490274c6-e06d-4dc5-ad85-033313b2f5c0	OPEN	2024-04-17T13:47:54Z
-149639	Ant Commander Pro version 4.8	japplis:ant-commander-pro-4.8	OPEN	2024-04-17T13:43:00Z
 149638	New package: ArduinoSA.ArduinoIDE version 2.3.2.0	Jvr2022:ArduinoSA.ArduinoIDE-2.3.2.0-f0211596-fb5d-43a0-921f-ec1470041ae0	OPEN	2024-04-17T13:41:33Z
-149637	Ant Commander Personal version 4.8	japplis:ant-commander-personal-4.8	OPEN	2024-04-17T13:30:18Z
-149636	New version: Ferdium.Ferdium.Nightly version 6.7.3-nightly.12	Alphrag:Ferdium.Ferdium.Nightly-6.7.3-nightly.12-9f28d0a0-0227-4f64-9eae-e1b7d78957b4	OPEN	2024-04-17T13:03:41Z
-149635	New version: GitHub.cli version 2.48.0	PckgrBot:GitHub.cli-2.48.0-55682031-b18d-4186-80f9-83559bd16008	OPEN	2024-04-17T12:56:19Z
 149634	Update package: Tillitis.TKeySshAgent version 1.0.0.0	tillitis:update/tkey-ssh-agent	OPEN	2024-04-17T12:24:38Z
-149633	New version: DBVis.DBVisualizer version 24.1.4	Jvr2022:DBVis.DBVisualizer-24.1.4-fe7e9327-f2f5-468d-aee9-4029132a6ad6	OPEN	2024-04-17T12:02:24Z
-149632	New version: Ollama.Ollama version 0.1.32	SpecterShell:Ollama.Ollama-0.1.32-F7E13121	OPEN	2024-04-17T11:56:04Z
-149631	TopalaSoftwareSolutions.SIW version 2024.04.17.0	gtopala:TopalaSoftwareSolutions.SIW-2024.04.17.0-be499e55-1ddf-4754-89b7-72563ec88f2e	OPEN	2024-04-17T11:29:19Z
-149629	New package: Finkitd.o.o.ManicTime version 24.1.0.7	Jvr2022:Finkitd.o.o.ManicTime-24.1.0.7-6ca8840a-69cd-45b9-aef6-c820e02a4ce1	OPEN	2024-04-17T10:51:14Z
-149628	New version: Hibbiki.Chromium version 124.0.6367.61	Exorcism0666:Hibbiki.Chromium-124.0.6367.61-1321110104	OPEN	2024-04-17T10:22:20Z
-149627	New version: GitHub.cli version 2.48.0	Exorcism0666:GitHub.cli-2.48.0-1884627125	OPEN	2024-04-17T10:22:20Z
-149626	New version: Nutstore.Nutstore version 7.1.6	SpecterShell:Nutstore.Nutstore-7.1.6-501256973	OPEN	2024-04-17T10:15:16Z
 149625	New package: Nlitesoftd.o.o.NTLite version 2024.4.9880.0	Jvr2022:Nlitesoftd.o.o.NTLite-2024.4.9880.0-97372ecc-7ec2-4dcb-9d05-088681239001	OPEN	2024-04-17T10:09:41Z
-149623	New package: eMClientInc.eMClient version 10.0.1495.0	Jvr2022:eMClientInc.eMClient-10.0.1495.0-62197443-8df4-4d12-9801-c8b6c9652816	OPEN	2024-04-17T09:31:44Z
-149622	New version: Google.Chrome.Canary version 126.0.6423.0	SpecterShell:Google.Chrome.Canary-126.0.6423.0-929804736	OPEN	2024-04-17T09:09:33Z
-149621	New version: xavidop.cxcli 1.192.0	xavidop:cxcli-1.192.0	OPEN	2024-04-17T09:04:36Z
-149619	New version: TorProject.TorBrowser version 13.0.14	Dvd-Znf:master	OPEN	2024-04-17T08:58:43Z
-149618	New version: Wondershare.Filmora version 13.3.2.6565 (13.3.2)	SpecterShell:Wondershare.Filmora-13.3.2.6565-1579262010	OPEN	2024-04-17T08:13:54Z
-149617	New version: Baidu.BaiduNetdisk version 7.40.0 (7.40.0.5)	SpecterShell:Baidu.BaiduNetdisk-7.40.0-558634303	OPEN	2024-04-17T08:11:58Z
 149616	New version: Caphyon.AdvancedInstaller version 21.6.1	SpecterShell:Caphyon.AdvancedInstaller-21.6.1-424976299	OPEN	2024-04-17T08:11:24Z
-149615	New version: ByteDance.Feishu version 7.15.9	SpecterShell:ByteDance.Feishu-7.15.9-597124154	OPEN	2024-04-17T08:10:51Z
-149612	New package: EPA.SWMM version 5.2.4	vikingnope:EPA.SWMM-5.2.4-873C4BC3F02C4001BC81EC5FF271B96A	OPEN	2024-04-17T07:25:31Z
 149611	New version: yetone.OpenAITranslator version 0.3.41	vikingnope:yetone.OpenAITranslator-0.3.41-7D5B3299B08344418D33CF08B3A0B479	OPEN	2024-04-17T07:21:11Z
-149609	New version: Dummerle.Rare version 1.10.11	vikingnope:Dummerle.Rare-1.10.11-79F9872E8F23446E9594EAB520E2FCD8	OPEN	2024-04-17T07:19:53Z
-149608	New version: HP.ImageAssistant version 5.2.1	vikingnope:HP.ImageAssistant-5.2.1-6DEF817497CA4AB6934737B5254AB0CC	OPEN	2024-04-17T07:18:16Z
-149607	New version: ByteDance.DouyinIDE version 4.2.3	SpecterShell:ByteDance.DouyinIDE-4.2.3-1144990703	OPEN	2024-04-17T07:09:59Z
-149606	New version: Microsoft.Azure.QuickReview version 1.0.0	cmendible:Microsoft.Azure.QuickReview-1.0.0-62e255d2-35f8-456a-a108-230b31116502	OPEN	2024-04-17T06:54:21Z
-149605	New package: SafingICSTechnologiesGmbH.Portmaster version 1.0.13.0	nett00n:SafingICSTechnologiesGmbH.Portmaster-1.0.13.0-77970ae3-5304-429c-872a-d65e807b1ad5	OPEN	2024-04-17T06:53:38Z
-149591	New version: Oracle.JavaRuntimeEnvironment version 8.0.4110.9	PckgrBot:Oracle.JavaRuntimeEnvironment-8.0.4110.9-e5725693-182b-457f-bfcf-294e779ad4d1	OPEN	2024-04-17T04:02:06Z
-149589	New package: NHNBugs.Bugs version 4.12.0.0	alexkoala:NHNBugs.Bugs-4.12.0.0-50a52b30-1417-486c-8981-0bb4675fadf9	OPEN	2024-04-17T03:49:32Z
-149588	New version: Grammarly.Grammarly version 1.2.73.1373	PckgrBot:Grammarly.Grammarly-1.2.73.1373-f4498b38-73da-4a3d-9072-11e049a4bdb3	OPEN	2024-04-17T03:02:37Z
-149587	New version: TechSmith.Camtasia version 23.4.6.53116	PckgrBot:TechSmith.Camtasia-23.4.6.53116-b62b3730-2aba-4044-ba95-87bdf8ca6508	OPEN	2024-04-17T03:00:29Z
-149584	New version: taers232c.GAMADV-XTD3 version 6.72.13	Exorcism0666:taers232c.GAMADV-XTD3-6.72.13-620161063	OPEN	2024-04-17T02:29:59Z
-149583	Mozilla.Firefox version 125.0.1	PckgrBot:Mozilla.Firefox-125.0.1-330d7191-7358-4b45-8324-4e92cfc4a019	OPEN	2024-04-17T01:49:06Z
 149582	Automatic deletion of Nlitesoft.NTLite 2024.4.9879.0	wingetbot:AutomaticUpdate_32475a6f-f525-4565-a63a-83b8ece820ac	OPEN	2024-04-17T01:32:17Z
-149578	New version: gaphor.gaphor version 2.25.0	Exorcism0666:gaphor.gaphor-2.25.0-E2B8AF7A2E9540DF93E32E8ED04963E0	OPEN	2024-04-17T01:21:13Z
-149577	New version: kramo.Cartridges version 2.8.4	Exorcism0666:kramo.Cartridges-2.8.4-76B1CB0DAF63492DAA05F1E1AAFE3F42	OPEN	2024-04-17T01:21:07Z
-149576	New version: Balena.BalenaCLI version 18.1.10	Exorcism0666:Balena.BalenaCLI-18.1.10-32090B2466154FDEAD174B0F13274D29	OPEN	2024-04-17T01:21:02Z
-149574	New version: manosim.gitify version 5.3.0	Exorcism0666:manosim.gitify-5.3.0-E5000D5DACF846F38BE9B24A86C3D723	OPEN	2024-04-17T01:20:49Z
 149571	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_e72956ea-c493-48af-a5c3-02160863feff	OPEN	2024-04-17T00:58:02Z
 149569	New package: Fendapp.Fendapp version 0.1.3	JadedBlueEyes:Fendapp.Fendapp-0.1.3-9E76790417D14F5C9086E0561BBA9394	OPEN	2024-04-17T00:27:20Z
 149560	New version: vim.vim.nightly version 9.1.0342	vim:vim.vim.nightly-9.1.0342-F257BB4693D8C49FF2CA91C5B29CA249F17401E1	OPEN	2024-04-16T22:54:16Z
 149545	New version: Oracle.VirtualBox version 7.0.16	PckgrBot:Oracle.VirtualBox-7.0.16-8378e533-f500-4447-9269-0fc25b0d9ecb	OPEN	2024-04-16T22:36:28Z
 149519	n0-computer.sendme version 0.5.0	legowerewolf:n0-computer.sendme-0.5.0-4db65f88-ee32-43db-b8cf-7b43a27db57d	OPEN	2024-04-16T21:18:26Z
-149515	New version: Google.Chrome.Canary version 125.0.6422.0	SpecterShell:Google.Chrome.Canary-125.0.6422.0-1615496190	OPEN	2024-04-16T21:10:48Z
 149510	Automatic deletion of evernote.evernote 10.84.3.20240409145102	wingetbot:AutomaticUpdate_7b0a6898-349e-4cf4-a4cb-7f559836f49d	OPEN	2024-04-16T20:50:32Z
-149508	Automatic update of evernote.evernote from 10.84.3.20240409145102 to 10.85.2.20240416125300	wingetbot:AutomaticUpdate_c28a38cb-887f-4b9f-8c23-926a6a174b9d	OPEN	2024-04-16T20:45:24Z
 149505	Add Audinate Dante Via	Trouffman:AudinateVIA	OPEN	2024-04-16T20:30:35Z
 149503	Update package: Tillitis.TkeySign version 1.0.0	tillitis:update/tkey-sign	OPEN	2024-04-16T20:24:23Z
 149502	Automatic update of Oracle.JDK.21 from 21.0.2 to 21.0.3.0	wingetbot:AutomaticUpdate_15e8630d-bb4b-40fe-bda5-2145488aafe1	OPEN	2024-04-16T20:18:15Z
@@ -60,15 +42,12 @@
 149498	New version: Oven-sh.Bun.Baseline version 1.1.4	coolplaylinbot:Oven-sh.Bun.Baseline-1.1.4-EEA88C6B2EA846A3839B89F6C2750A88	OPEN	2024-04-16T20:15:36Z
 149497	New version: Oven-sh.Bun version 1.1.4	coolplaylinbot:Oven-sh.Bun-1.1.4-3EFC32D14B4B462BA1FF0EDDC94E7986	OPEN	2024-04-16T20:15:33Z
 149493	Add Dante Virtual Soundcard	Trouffman:AudinateDVS	OPEN	2024-04-16T19:26:39Z
-149490	New version: Mozilla.Thunderbird version 115.10.0	SpecterShell:Mozilla.Thunderbird-115.10.0-67772691	OPEN	2024-04-16T19:11:11Z
 149489	the-sz.Doro version 2.23	the-sz:the-sz.Doro-2.23-3c2da99b-fde5-4754-bab4-61163f7f8929	OPEN	2024-04-16T19:08:49Z
 149488	Microsoft.VisualStudioCode.Insiders.CLI_v1.89.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.Insiders.CLI_v1.89.0	OPEN	2024-04-16T19:06:30Z
 149484	Microsoft.VisualStudio.2022.Community.Preview version 17.10.0	edwardskrod:autogenerated/Microsoft.VisualStudio.2022.Community.Preview/b668fa00-ce1d-4929-9978-b0f0db21e050	OPEN	2024-04-16T17:20:09Z
 149483	Microsoft.VisualStudio.2022.Professional.Preview version 17.10.0	edwardskrod:autogenerated/Microsoft.VisualStudio.2022.Professional.Preview/e90c4c0e-e94c-41d4-bcc6-ffb0ad4037fc	OPEN	2024-04-16T17:19:54Z
 149482	Microsoft.VisualStudio.2022.Enterprise.Preview version 17.10.0	edwardskrod:autogenerated/Microsoft.VisualStudio.2022.Enterprise.Preview/a2b63403-dbf5-40c4-b620-895dd27abde0	OPEN	2024-04-16T17:19:41Z
 149474	New version: JetBrains.Toolbox version 2.3.0.30876	SpecterShell:JetBrains.Toolbox-2.3.0.30876-1948288720	OPEN	2024-04-16T15:09:31Z
-149461	New package: Tenable.Nessus version 10.7.2	einar-prod:Tenable.Nessus-10.7.2-873E7F47	OPEN	2024-04-16T12:00:57Z
-149451	New package: Intel.PresentMon.Console version 2.0.0.0	aisgbnok:new-Intel.PresentMon.Console-2.0.0	OPEN	2024-04-16T09:59:30Z
 149449	New `sk-SK` lang and new `ja-JP` hash: RARLab.WinRAR version 7.00.0	MaanuelMM:winrar-langs-hash	OPEN	2024-04-16T09:44:45Z
 149362	Automatic update of ArobasMusic.GuitarPro.8 from 8.1.1-17 to 8.1.2.32	wingetbot:AutomaticUpdate_b5259743-b9f4-40c9-afe8-ce325704e4cd	OPEN	2024-04-15T20:22:26Z
 149349	Remove Systweak.DuplicateMusicFixer 2.1.1000.11070 to SystweakSoftware.DuplicateMusicFixer 2.1.1000.11070	Trenly:Remove-Systweak.DuplicateMusicFixer-v2.1.1000.11070-C2BD862A	OPEN	2024-04-15T18:53:39Z
@@ -89,7 +68,6 @@
 148956	New package: NVIDIA.app.Beta version 10.0.0.535	aisgbnok:new-NVIDIA.app.Beta-10.0.0.535	DRAFT	2024-04-12T22:42:52Z
 148940	Automatic deletion of AtomicJar.Testcontainers 1.10.0	wingetbot:AutomaticUpdate_6bd8251f-61c0-4b7a-8f31-4377061cd12d	OPEN	2024-04-12T20:47:48Z
 148926	Add version: Telegram.Unigram version 10.7.0.9893	rakleed:Telegram.Unigram-10.7.0.9893-3E0F92CC09F24C21B66E20475D9CA0D5	OPEN	2024-04-12T19:28:24Z
-148923	New package: Intel.PresentMon version 2.0.0.0	aisgbnok:new-intel.presentmon-2.0.0	OPEN	2024-04-12T18:52:48Z
 148856	Remove version: GoXLR-on-Linux.GoXLR-Utility version 1.1.0	parzival-space:remove-release/goxlr-utility-1.1.0	OPEN	2024-04-12T07:32:23Z
 148826	tibbo.ioninja version 5.5.1	vedantmgoyal9:tibbo.ioninja-5.5.1-0161680c-1463-48c0-87ac-c0e548a7f420	OPEN	2024-04-12T01:25:56Z
 148784	Automatic deletion of PerfectWorld.PerfectWorldArena 1.0.24041111	wingetbot:AutomaticUpdate_d1f06c19-e446-44f0-9a74-af5398d162b8	OPEN	2024-04-11T20:56:49Z
