@@ -1,3 +1,51 @@
+149742	Automatic update of Stardock.Start10 from 1.9.7 to 9.5.3.0	wingetbot:AutomaticUpdate_9b030d4c-3060-44d5-90f7-fd4a1bd326d1	OPEN	2024-04-18T00:57:44Z
+149741	Automatic update of NativeInstruments.NativeAccess from 3.9.1 to 3.10.1	wingetbot:AutomaticUpdate_636afb82-f38b-4f6c-875f-9813602748fe	OPEN	2024-04-18T00:56:38Z
+149740	VoyagerX.Vrew version 1.17.4	vedantmgoyal9:VoyagerX.Vrew-1.17.4-c9082c8b-12a8-41ab-a995-76d988c46cdb	OPEN	2024-04-18T00:34:59Z
+149739	vassalengine.VASSAL version 3.7.10	vedantmgoyal9:vassalengine.VASSAL-3.7.10-58964468-5d71-4e44-9b43-5013fc37d35a	OPEN	2024-04-18T00:34:47Z
+149738	SatoshiLabs.trezor-suite version 24.4.2	vedantmgoyal9:SatoshiLabs.trezor-suite-24.4.2-16645280-d18f-429f-a4e9-8793f5c4deb4	OPEN	2024-04-18T00:34:33Z
+149737	Playnite.Playnite version 10.33	vedantmgoyal9:Playnite.Playnite-10.33-be17ac32-4e35-45d9-a884-1f41af2b5681	OPEN	2024-04-18T00:34:15Z
+149736	Microsoft.Edge.Beta version 124.0.2478.49	vedantmgoyal9:Microsoft.Edge.Beta-124.0.2478.49-ed3a5787-3bf3-47a0-a391-4059969e4076	OPEN	2024-04-18T00:32:46Z
+149735	HearthSim.HearthstoneDeckTracker version 1.25.4	vedantmgoyal9:HearthSim.HearthstoneDeckTracker-1.25.4-6713e9cc-66f1-4452-9079-5e08233bcfa9	OPEN	2024-04-18T00:31:30Z
+149734	Discord.Discord.Canary version 1.0.221	vedantmgoyal9:Discord.Discord.Canary-1.0.221-aa1579fc-52fa-47b4-9bbf-fd1123bde4a9	OPEN	2024-04-18T00:31:15Z
+149733	Datadog.dd-trace-dotnet version 2.50.0	vedantmgoyal9:Datadog.dd-trace-dotnet-2.50.0-74c89207-5f41-4cee-9e95-a85e84ec0036	OPEN	2024-04-18T00:31:04Z
+149732	Amazon.AWSCLI version 2.15.39	vedantmgoyal9:Amazon.AWSCLI-2.15.39-ad566822-c85f-483d-9066-84f224484e01	OPEN	2024-04-18T00:30:52Z
+149731	altair-graphql.altair version 6.4.2	vedantmgoyal9:altair-graphql.altair-6.4.2-8f5b8ff9-0fcb-48f7-8506-5ab023245d55	OPEN	2024-04-18T00:30:38Z
+149730	New package: NCSoft.Purple version 1.24.408.3	alexkoala:NCSoft.Purple-1.24.408.3-6d6f958f-dc6c-405d-aa9d-9548c0d6ac2b	OPEN	2024-04-18T00:30:13Z
+149729	Automatic update of PLaSK to 2024.04.17	macdems:2024.04.17	OPEN	2024-04-18T00:22:08Z
+149728	Smilegate.Stove version 2.0.0.1003	alexkoala:Smilegate.Stove-2.0.0.1003-08a7ada6-1dba-4bf9-a4d4-bd6e9df17aff	OPEN	2024-04-17T23:59:11Z
+149727	Automatic update of SiberSystems.RoboForm from 9.5.7.7 to 9.5.8.5	wingetbot:AutomaticUpdate_7e89175d-a5d9-49fd-91a6-3d96436e608c	OPEN	2024-04-17T23:54:37Z
+149726	KakaoEnterprise.KakaoWork version 2.12.1.4871	alexkoala:KakaoEnterprise.KakaoWork-2.12.1.4871-ae1b556c-e0e3-4a8f-b188-01e3506c5719	OPEN	2024-04-17T23:47:11Z
+149725	New version: PerfectWorld.PerfectWorldArena version 1.0.24041811	SpecterShell:PerfectWorld.PerfectWorldArena-1.0.24041811-2054625024	OPEN	2024-04-17T23:10:41Z
+149724	New version: DuckDB.cli version 0.10.2	eitsupi:DuckDB.cli-0.10.2-DBD4DA5482724AC08F3E83B8C186A1B1	OPEN	2024-04-17T23:05:55Z
+149723	New version: SiberSystems.RoboForm version 9.5.8.5	PckgrBot:SiberSystems.RoboForm-9.5.8.5-0c4cb6a8-57fb-4500-8678-0cf75bf9596a	OPEN	2024-04-17T22:58:11Z
+149722	New version: tailscale.tailscale version 1.64.2	PckgrBot:tailscale.tailscale-1.64.2-fc91a6f2-bc97-4024-be79-578f28d0802c	OPEN	2024-04-17T22:57:02Z
+149721	New version: Amazon.AWSCLI version 2.15.39	PckgrBot:Amazon.AWSCLI-2.15.39-8616acc6-62fd-4144-b481-a57ca8dc5612	OPEN	2024-04-17T22:56:38Z
+149720	Automatic deletion of WHONET.WHONET 23.16.5	wingetbot:AutomaticUpdate_c9d3647a-1012-4da0-8fd4-43bbf9d7b368	OPEN	2024-04-17T22:54:16Z
+149719	Automatic deletion of Guilded.Guilded 1.0.9236953-release.Release - Prod Desktop App_master_20240125.1	wingetbot:AutomaticUpdate_9aa269c9-4901-487f-8826-14e454fe1464	OPEN	2024-04-17T22:49:50Z
+149718	Automatic deletion of RiotGames.Valorant.AP 83.0.5.1286	wingetbot:AutomaticUpdate_9e505b0b-0276-4898-ac1f-3f8cccd3d407	OPEN	2024-04-17T22:38:08Z
+149717	Automatic deletion of RiotGames.Valorant.KR 83.0.5.1286	wingetbot:AutomaticUpdate_b40cd345-1fde-455e-b162-7e5671688628	OPEN	2024-04-17T22:38:06Z
+149716	Automatic deletion of RiotGames.Valorant.EU 83.0.5.1286	wingetbot:AutomaticUpdate_581e20d2-ad36-4d03-a601-5190cd77451f	OPEN	2024-04-17T22:38:02Z
+149715	Automatic deletion of RiotGames.Valorant.NA 83.0.5.1286	wingetbot:AutomaticUpdate_e0276811-af89-4852-9a7a-2b1f4108c8b2	OPEN	2024-04-17T22:38:02Z
+149714	Automatic deletion of RiotGames.Valorant.LATAM 83.0.5.1286	wingetbot:AutomaticUpdate_e4d1528e-e974-4347-a992-d07259e8bf76	OPEN	2024-04-17T22:37:51Z
+149713	Automatic deletion of RiotGames.Valorant.BR 83.0.5.1286	wingetbot:AutomaticUpdate_01148953-35af-468d-baef-1edcbbcb788c	OPEN	2024-04-17T22:37:50Z
+149712	Automatic deletion of RiotGames.LegendsOfRuneterra.SEA 83.0.5.1286	wingetbot:AutomaticUpdate_0265a458-04d0-4e76-b14c-692946273e90	OPEN	2024-04-17T22:33:59Z
+149711	Automatic deletion of RiotGames.LeagueOfLegends.SG2 83.0.5.1286	wingetbot:AutomaticUpdate_58ff1d87-2e8f-4933-b9c2-04529ca98463	OPEN	2024-04-17T22:33:59Z
+149710	Automatic deletion of RiotGames.LeagueOfLegends.RU 83.0.5.1286	wingetbot:AutomaticUpdate_d61a6577-1c01-4d9c-b70c-f67d363469de	OPEN	2024-04-17T22:33:52Z
+149709	Automatic deletion of RiotGames.LeagueOfLegends.TW2 83.0.5.1286	wingetbot:AutomaticUpdate_e3c07407-759f-4b82-a41e-8a084a964125	OPEN	2024-04-17T22:33:52Z
+149708	Automatic update of RiotGames.LeagueOfLegends.NA from 83.0.5.1286 to 84.0.1.1350	wingetbot:AutomaticUpdate_7f605b42-e6dd-4ea1-8892-42d33ca9b98b	OPEN	2024-04-17T22:33:47Z
+149707	Automatic deletion of RiotGames.LeagueOfLegends.LA1 83.0.5.1286	wingetbot:AutomaticUpdate_e5204161-aa29-4bb5-981a-272c8eca5f9a	OPEN	2024-04-17T22:31:11Z
+149706	Automatic deletion of RiotGames.LeagueOfLegends.EUW 83.0.5.1286	wingetbot:AutomaticUpdate_97955638-ec41-4886-b0cb-b46f33a82c16	OPEN	2024-04-17T22:31:11Z
+149705	New version: Ryujinx.Ryujinx.Ava version 1.1.1282	Exorcism0666:Ryujinx.Ryujinx.Ava-1.1.1282-1926930631	OPEN	2024-04-17T22:19:53Z
+149704	New version: Ryujinx.Ryujinx version 1.1.1282	Exorcism0666:Ryujinx.Ryujinx-1.1.1282-1768246890	OPEN	2024-04-17T22:19:53Z
+149703	New version: Suwayomi.Tachidesk-VaadinUI version 1.7.0	aless2003:Suwayomi.Tachidesk-VaadinUI-1.7.0-9FBA72FB4C437FBFF9C8CA3148535301E071B621	OPEN	2024-04-17T22:15:02Z
+149702	Automatic update of Regressi.Regressi from 4.8.13 to 4.8.14	wingetbot:AutomaticUpdate_58924053-e259-4da4-bf7a-b6ef85658d09	OPEN	2024-04-17T22:14:04Z
+149701	[version] Waterfox'12	aaronliu0130:waterfox'12	OPEN	2024-04-17T21:52:13Z
+149700	Automatic update of Logitech.OptionsPlus from 1.68.542186 to 1.70.551909	wingetbot:AutomaticUpdate_0fb620b7-87c7-42a3-b09f-cdca68f21fca	OPEN	2024-04-17T21:47:21Z
+149699	Automatic deletion of BitSum.ProcessLasso.Beta 14.0.2.7	wingetbot:AutomaticUpdate_882a6ddc-b62b-4a57-97d0-578dc4533a34	OPEN	2024-04-17T21:46:46Z
+149698	Automatic update of Logitech.GHUB from 2024.2.4136 to 2024.3.3733	wingetbot:AutomaticUpdate_b67db61d-c1c5-4bef-b681-4157ad8eb65f	OPEN	2024-04-17T21:44:08Z
+149697	Automatic update of BitSum.ProcessLasso.Beta from 14.0.2.7 to 14.0.2.12	wingetbot:AutomaticUpdate_e27ee4c2-fad3-49b6-96b2-98e0109dc54d	OPEN	2024-04-17T21:41:40Z
+149696	Automatic update of BitSum.ProcessLasso from 14.0.1.10 to 14.0.2.12	wingetbot:AutomaticUpdate_19947e82-d259-47b8-8ebb-c19951586576	OPEN	2024-04-17T21:41:40Z
+149695	Automatic deletion of BiniSoft.WindowsFirewallControl 6.9.9.7	wingetbot:AutomaticUpdate_65bb9fd5-5884-4063-90ba-8b3860b529b5	OPEN	2024-04-17T21:33:28Z
 149694	New version: RedHat.Podman version 5.0.2	SpecterShell:RedHat.Podman-5.0.2-1288159066	OPEN	2024-04-17T21:11:32Z
 149693	New version: Google.Chrome.Canary version 126.0.6424.0	SpecterShell:Google.Chrome.Canary-126.0.6424.0-769848141	OPEN	2024-04-17T21:10:27Z
 149692	Automatic update of Piriform.CCleaner.ProTrial from 6.21.0.10918 to 6.23.0.11010	wingetbot:AutomaticUpdate_c862f73c-c516-4fe1-8db8-d015d0c2882a	OPEN	2024-04-17T21:10:09Z
@@ -23,7 +71,6 @@
 149668	New package: TimKosse.FileZilla version 3.67.0	Jvr2022:TimKosse.FileZilla-3.67.0-2f8ca559-ea5a-444e-b154-7d484012bb12	OPEN	2024-04-17T17:13:02Z
 149667	Remove version: WHTA.Tamara version 2024.0.0.1	lars-whta:master	OPEN	2024-04-17T17:10:04Z
 149666	Update: Mozilla.Firefox.DeveloperEdition version 126.0 (126.0b2)	SpecterShell:Mozilla.Firefox.DeveloperEdition-126.0-1720123507	OPEN	2024-04-17T17:09:58Z
-149665	New version: JetBrains.Rider version 2024.1.1	SpecterShell:JetBrains.Rider-2024.1.1-389533991	OPEN	2024-04-17T17:09:29Z
 149664	New version: JetBrains.dotUltimate version 2024.1.1	SpecterShell:JetBrains.dotUltimate-2024.1.1-171593909	OPEN	2024-04-17T17:09:21Z
 149663	New version: JetBrains.ReSharper version 2024.1.1	SpecterShell:JetBrains.ReSharper-2024.1.1-208404342	OPEN	2024-04-17T17:09:21Z
 149662	New version: pnpm.pnpm version 9.0.2	pnpm:pnpm.pnpm-9.0.2-68AC1A5953CD82F94B304537C6B5851CEA6BC318	OPEN	2024-04-17T16:55:05Z
@@ -51,7 +98,6 @@
 149571	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_e72956ea-c493-48af-a5c3-02160863feff	OPEN	2024-04-17T00:58:02Z
 149569	New package: Fendapp.Fendapp version 0.1.3	JadedBlueEyes:Fendapp.Fendapp-0.1.3-9E76790417D14F5C9086E0561BBA9394	OPEN	2024-04-17T00:27:20Z
 149560	New version: vim.vim.nightly version 9.1.0342	vim:vim.vim.nightly-9.1.0342-F257BB4693D8C49FF2CA91C5B29CA249F17401E1	OPEN	2024-04-16T22:54:16Z
-149545	New version: Oracle.VirtualBox version 7.0.16	PckgrBot:Oracle.VirtualBox-7.0.16-8378e533-f500-4447-9269-0fc25b0d9ecb	OPEN	2024-04-16T22:36:28Z
 149519	n0-computer.sendme version 0.5.0	legowerewolf:n0-computer.sendme-0.5.0-4db65f88-ee32-43db-b8cf-7b43a27db57d	OPEN	2024-04-16T21:18:26Z
 149510	Automatic deletion of evernote.evernote 10.84.3.20240409145102	wingetbot:AutomaticUpdate_7b0a6898-349e-4cf4-a4cb-7f559836f49d	OPEN	2024-04-16T20:50:32Z
 149505	Add Audinate Dante Via	Trouffman:AudinateVIA	OPEN	2024-04-16T20:30:35Z
