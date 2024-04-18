@@ -1,3 +1,19 @@
+149774	New version: JLC.EasyEDA.Pro version 2.1.57	SpecterShell:JLC.EasyEDA.Pro-2.1.57-913326390	OPEN	2024-04-18T06:10:24Z
+149773	New version: iFlytek.iFlyRecMeeting version 3.0.0160	SpecterShell:iFlytek.iFlyRecMeeting-3.0.0160-1831757397	OPEN	2024-04-18T06:10:23Z
+149772	New version: Jackett.Jackett version 0.21.2404	Jackett:Jackett.Jackett-0.21.2404-6B27D25D33CADE350312BCFCB00DE9E305CB9BDC	OPEN	2024-04-18T05:55:53Z
+149771	New version: Hashicorp.Terraform version 1.8.1	kdpuvvadi:Hashicorp.Terraform-1.8.1-FC1EFDCE99C04A6898BA73EF4CB20A2D	OPEN	2024-04-18T05:43:34Z
+149770	New version: Hashicorp.Terraform.Alpha version 1.9.0-alpha20240404	kdpuvvadi:Hashicorp.Terraform.Alpha-1.9.0-alpha20240404-E2732D19FB2A48A8BF15EF71EC967548	OPEN	2024-04-18T05:38:16Z
+149768	Update: Malwarebytes.Malwarebytes version 4.6.12.323	SpecterShell:Malwarebytes.Malwarebytes-4.6.12.323-55B1D988	OPEN	2024-04-18T05:18:37Z
+149767	New version: KuaiFan.DooTask version 0.36.78	coolplaylinbot:KuaiFan.DooTask-0.36.78-77F1C4D5DEA44A158792D1DCCBA76E43	OPEN	2024-04-18T05:16:31Z
+149766	New version: KuaiFan.DooTask version 0.36.78	coolplaylinbot:KuaiFan.DooTask-0.36.78-3ADA285E7B084D54AE14AADBF53F7E67	OPEN	2024-04-18T05:16:25Z
+149764	New version: Anaconda.Anaconda3 version 2024.02-1	SpecterShell:Anaconda.Anaconda3-2024.02-1-720802104	OPEN	2024-04-18T04:27:52Z
+149763	New version: NetEase.YoudaoPokeClass version 2.12.2	SpecterShell:NetEase.YoudaoPokeClass-2.12.2-1040666389	OPEN	2024-04-18T04:14:22Z
+149762	PuTTY CAC 0.81	NoMoreFood:NoMoreFood.PuTTY-CAC-0.81.0.0-83f24fd8-e121-4594-bbe8-cb70df9d6c0b	OPEN	2024-04-18T04:13:17Z
+149761	New package: RakutenSymphonyKorea.SendAnywhere version 24.3.80853	alexkoala:RakutenSymphonyKorea.SendAnywhere-24.3.80853-36028527-79fd-4815-9b7c-891d52376e39	OPEN	2024-04-18T03:50:27Z
+149760	ReleaseNotes: AuraMarker.Lattics version 1.19.2	SpecterShell:AuraMarker.Lattics-1.19.2-ReleaseNotes	OPEN	2024-04-18T03:50:24Z
+149759	New version: Grammarly.Grammarly version 1.2.73.1374	PckgrBot:Grammarly.Grammarly-1.2.73.1374-a8d62961-d73b-48f7-bfb8-5d050afa9948	OPEN	2024-04-18T03:36:56Z
+149758	New version: Dialpad.Dialpad version 2404.3.0	PckgrBot:Dialpad.Dialpad-2404.3.0-95cdbcfd-13ba-4670-84dc-eaccb4e0108a	OPEN	2024-04-18T03:36:21Z
+149757	New version: Piriform.CCleaner version 6.23	PckgrBot:Piriform.CCleaner-6.23-C45B2EACD9A74CDFAE3B7D14225AAC37	OPEN	2024-04-18T03:34:51Z
 149756	New version: JLC.LCEDA.Pro version 2.1.57	SpecterShell:JLC.LCEDA.Pro-2.1.57-366179925	OPEN	2024-04-18T03:12:28Z
 149755	New version: Alibaba.MiniProgramStudio version 3.8.21	SpecterShell:Alibaba.MiniProgramStudio-3.8.21-2031521905	OPEN	2024-04-18T03:09:07Z
 149754	New version: Tencent.TencentMeeting version 3.25.11.412	SpecterShell:Tencent.TencentMeeting-3.25.11.412-308176058	OPEN	2024-04-18T02:44:53Z
@@ -24,7 +40,6 @@
 149664	New version: JetBrains.dotUltimate version 2024.1.1	SpecterShell:JetBrains.dotUltimate-2024.1.1-171593909	OPEN	2024-04-17T17:09:21Z
 149657	New version: CodecGuide.K-LiteCodecPack.Mega version 18.3.0	vikingnope:CodecGuide.K-LiteCodecPack.Mega-18.3.0-87E0B8E7C5904CD7A454193F496A30D9	OPEN	2024-04-17T16:17:34Z
 149655	New version: Logitech.OptionsPlus version 1.70.551909	vikingnope:Logitech.OptionsPlus-1.70.551909-3624B4C1CECB49F5902602A0F383ECAE	OPEN	2024-04-17T16:13:44Z
-149652	New package: jeffvli.Feishin version 0.6.1	GamerBS:jeffvli.Feishin-0.6.1-e8df2c0c-1467-4d23-a2ea-d5cfc991bc0f	OPEN	2024-04-17T16:08:07Z
 149643	New version: Unity.Unity.2022 version 2022.3.25f1	SpecterShell:Unity.Unity.2022-2022.3.25f1-1013903259	OPEN	2024-04-17T14:12:42Z
 149638	New package: ArduinoSA.ArduinoIDE version 2.3.2.0	Jvr2022:ArduinoSA.ArduinoIDE-2.3.2.0-f0211596-fb5d-43a0-921f-ec1470041ae0	OPEN	2024-04-17T13:41:33Z
 149616	New version: Caphyon.AdvancedInstaller version 21.6.1	SpecterShell:Caphyon.AdvancedInstaller-21.6.1-424976299	OPEN	2024-04-17T08:11:24Z
