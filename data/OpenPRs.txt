@@ -1,50 +1,35 @@
+149988	New version: Mozilla.Thunderbird version 115.10.1	SpecterShell:Mozilla.Thunderbird-115.10.1-1844314267	OPEN	2024-04-18T18:10:53Z
+149987	New version: Microsoft.RemoteDesktopClient version 1.2.5331.0	SpecterShell:Microsoft.RemoteDesktopClient-1.2.5331.0-100943382	OPEN	2024-04-18T18:10:41Z
+149986	New version: blacktop.ipswd 3.1.471	blacktop:ipswd-3.1.471	OPEN	2024-04-18T17:48:46Z
+149985	New version: blacktop.ipsw 3.1.471	blacktop:ipsw-3.1.471	OPEN	2024-04-18T17:48:35Z
+149984	New version: ThaUnknown.Miru version 5.0.12	ThaUnknown:ThaUnknown.Miru-5.0.12-2C58878B57BCA8DA6B9142FD57D8B00AA3E8DF51	OPEN	2024-04-18T17:40:59Z
+149983	New version: Betterbird.Betterbird version 115.10.0-bb27-hotfix	vikingnope:betterbird-version-115.10.0-bb27-hotfix	OPEN	2024-04-18T17:22:35Z
+149982	New version: Unity.Unity.2023 version 2023.2.19f1	SpecterShell:Unity.Unity.2023-2023.2.19f1-1175079634	OPEN	2024-04-18T17:16:35Z
+149981	New version: Kiwix.Wikivoyage.Electron version 3.2.2-E	Jaifroid:Kiwix.Wikivoyage.Electron-3.2.2-E-ed311ee8-8838-4e7e-87c0-0d7d7ff79fab	OPEN	2024-04-18T16:55:10Z
+149980	New version: Kiwix.Wikivoyage version 3.2.2.0	Jaifroid:Kiwix.Wikivoyage-3.2.2.0-58f6b6b8-8009-409f-8098-578f11145e45	OPEN	2024-04-18T16:52:27Z
+149979	Fix: Surfshark wrong checksum	TheChilledBuffalo:patch-2	OPEN	2024-04-18T16:45:37Z
+149977	New version: Tyrrrz.LightBulb version 2.4.12	Exorcism0666:Tyrrrz.LightBulb-2.4.12-1331011907	OPEN	2024-04-18T16:27:05Z
+149975	Package Fix: Adjusting old version so that it does not override latest version of TortoiseSVN fix 2	vikingnope:tortoiseSvn-old-version-fix-2	OPEN	2024-04-18T15:59:13Z
+149974	Package Fix: Adjusting old version so that it does not override latest version of TortoiseSVN fix 1	vikingnope:tortoiseSvn-version-fix-1	OPEN	2024-04-18T15:57:18Z
+149973	New version: chrisant996.Clink version 1.6.12	chrisant996:chrisant996.Clink-1.6.12-ed9516fd-6597-424f-81b9-bed010f54537	OPEN	2024-04-18T15:55:38Z
+149823	Remove version: bencoepp.kommod version 1.0.0.0	Exorcism0666:bencoepp.kommod-1.0.0.0-CD4E3F7B00295DB7700AC16AA45C53D4CE3E56FB	OPEN	2024-04-18T15:23:55Z
+149822	New version: Gleam.Gleam version 1.1.0	Illbjorn:master	OPEN	2024-04-18T15:22:13Z
 149821	New package: de.skycoder42.systemdStatusFlutter version 0.1.2.0	Skycoder42:de.skycoder42.systemdStatusFlutter-0.1.2.0-3ccf4179-f2c9-4d39-93e6-dbc0face176d	OPEN	2024-04-18T15:06:53Z
-149820	New version: JetBrains.DataSpell version 2024.1.1	SpecterShell:JetBrains.DataSpell-2024.1.1-1957348540	OPEN	2024-04-18T14:10:19Z
-149819	New version: CCPGames.EVEOnline version 1.3.4	solomoncyj:CCPGames.EVEOnline-1.3.4-f1127004-5fb1-4224-be46-73556344a543	OPEN	2024-04-18T13:58:04Z
-149817	JanDeDobbeleer.OhMyPosh version 19.21.0	JanDeDobbeleer:JanDeDobbeleer.OhMyPosh-19.21.0-b535218a-776c-4c31-9513-031c65839a66	OPEN	2024-04-18T12:57:47Z
 149816	Remove version: BlueMarbleGeographics.GlobalMapper version 24.00.0000	Exorcism0666:BlueMarbleGeographics.GlobalMapper-24.00.0000-30F0C5D4040F64774B97088D9067D5B7A200B424	OPEN	2024-04-18T12:40:41Z
-149815	Remove version: Bin-Huang.Chatbox version 0.6.7	Exorcism0666:Bin-Huang.Chatbox-0.6.7-1AD4C7CFDF0F686BAD23F49D3C10C3607581AAD4	OPEN	2024-04-18T12:37:08Z
-149814	Remove version: Barry-ran.QtScrcpy version 2.2.0	Exorcism0666:Barry-ran.QtScrcpy-2.2.0-D7789AD5F0501A034F4E60B029F8D07212438DB6	OPEN	2024-04-18T12:35:33Z
-149813	New version: Vivaldi.Vivaldi.Snapshot version 6.7.3329.7	SpecterShell:Vivaldi.Vivaldi.Snapshot-6.7.3329.7-1435099025	OPEN	2024-04-18T12:14:02Z
-149812	New version: DeepL.DeepL version 24.4.2.12243	SpecterShell:DeepL.DeepL-24.4.2.12243-212787395	OPEN	2024-04-18T12:11:47Z
-149810	New package: Microsoft.DevProxy.Beta version 0.17.0-beta.2	garrytrinder:Microsoft.DevProxy.Beta-0.17.0-beta.2-ceab61e3-d0a8-4263-b187-7e37d2dfb7c9	OPEN	2024-04-18T11:52:37Z
-149809	New package: IdeaMK.PSDViewer version 3.2	Jvr2022:IdeaMK.PSDViewer-3.2-f2dfe0c0-44f1-4f8a-b685-92676543f683	OPEN	2024-04-18T11:32:38Z
-149808	Bilibili.Livehime version 5.3.1.6740	vedantmgoyal9:Bilibili.Livehime-5.3.1.6740-db2a823a-eb8b-4581-a997-1eb92efca5b9	OPEN	2024-04-18T11:22:17Z
-149807	New version: Pulumi.Pulumi version 3.113.1	pulumi-bot:Pulumi.Pulumi-3.113.1-f87eb12f-4444-478e-8c4d-fdf373e83d02	OPEN	2024-04-18T11:14:10Z
-149806	New version: NetEase.YoudaoNote version 7.2.181	SpecterShell:NetEase.YoudaoNote-7.2.181-597858680	OPEN	2024-04-18T11:12:15Z
 149805	NHNCorporation.Dooray!Messenger version 1.1.12.1	alexkoala:NHNCorporation.Dooray!Messenger-1.1.12.1-0413207e-a11a-4c00-8850-be8be5ca6fe1	OPEN	2024-04-18T10:28:47Z
-149803	New version: NetEase.YoudaoPokeClass version 2.12.5	SpecterShell:NetEase.YoudaoPokeClass-2.12.5-358904842	OPEN	2024-04-18T10:12:00Z
 149797	[Package Issue]: Fix for Libre Office Help Pack download version	vikingnope:fix-for-libreoffice-2	OPEN	2024-04-18T09:35:07Z
-149796	Fix Identifier typo in package_issue.yml	kachick:fix-typo-issue-template	OPEN	2024-04-18T09:34:15Z
-149787	New package: Collapse.Collapse version 1.73.8	alexkoala:Collapse.Collapse-1.73.8-6bca9b90-42ac-47f7-a54a-28f684beb8d9	OPEN	2024-04-18T08:54:23Z
 149782	PearlAbyss.BlackDesert version 24.04.04.1	alexkoala:PearlAbyss.BlackDesert-24.04.04.1-10c384dc-470d-47d4-8595-f4fa27c5727e	OPEN	2024-04-18T08:01:39Z
 149780	New version: Microsoft.Promptflow version 1.9.0	0mza987:Microsoft.Promptflow-1.9.0-b701f625-bc34-4e73-827c-1a8607600791	OPEN	2024-04-18T07:30:01Z
 149776	New version: RoyalApps.RoyalTS.V7 version 7.02.50410.0	vikingnope:RoyalApps.RoyalTS.V7-7.02.50410-42ABB9877D0A44FCBAACD3C0B50F8529	OPEN	2024-04-18T07:00:50Z
-149773	New version: iFlytek.iFlyRecMeeting version 3.0.0160	SpecterShell:iFlytek.iFlyRecMeeting-3.0.0160-1831757397	OPEN	2024-04-18T06:10:23Z
-149772	New version: Jackett.Jackett version 0.21.2404	Jackett:Jackett.Jackett-0.21.2404-6B27D25D33CADE350312BCFCB00DE9E305CB9BDC	OPEN	2024-04-18T05:55:53Z
-149771	New version: Hashicorp.Terraform version 1.8.1	kdpuvvadi:Hashicorp.Terraform-1.8.1-FC1EFDCE99C04A6898BA73EF4CB20A2D	OPEN	2024-04-18T05:43:34Z
-149770	New version: Hashicorp.Terraform.Alpha version 1.9.0-alpha20240404	kdpuvvadi:Hashicorp.Terraform.Alpha-1.9.0-alpha20240404-E2732D19FB2A48A8BF15EF71EC967548	OPEN	2024-04-18T05:38:16Z
 149768	Modify: Malwarebytes.Malwarebytes version 4.6.12.323	SpecterShell:Malwarebytes.Malwarebytes-4.6.12.323-55B1D988	OPEN	2024-04-18T05:18:37Z
-149767	New version: KuaiFan.DooTask version 0.36.78	coolplaylinbot:KuaiFan.DooTask-0.36.78-77F1C4D5DEA44A158792D1DCCBA76E43	OPEN	2024-04-18T05:16:31Z
-149766	New version: KuaiFan.DooTask version 0.36.78	coolplaylinbot:KuaiFan.DooTask-0.36.78-3ADA285E7B084D54AE14AADBF53F7E67	OPEN	2024-04-18T05:16:25Z
 149764	New version: Anaconda.Anaconda3 version 2024.02-1	SpecterShell:Anaconda.Anaconda3-2024.02-1-720802104	OPEN	2024-04-18T04:27:52Z
-149763	New version: NetEase.YoudaoPokeClass version 2.12.2	SpecterShell:NetEase.YoudaoPokeClass-2.12.2-1040666389	OPEN	2024-04-18T04:14:22Z
-149762	PuTTY CAC 0.81	NoMoreFood:NoMoreFood.PuTTY-CAC-0.81.0.0-83f24fd8-e121-4594-bbe8-cb70df9d6c0b	OPEN	2024-04-18T04:13:17Z
 149761	New package: RakutenSymphonyKorea.SendAnywhere version 24.3.80853	alexkoala:RakutenSymphonyKorea.SendAnywhere-24.3.80853-36028527-79fd-4815-9b7c-891d52376e39	OPEN	2024-04-18T03:50:27Z
-149760	ReleaseNotes: AuraMarker.Lattics version 1.19.2	SpecterShell:AuraMarker.Lattics-1.19.2-ReleaseNotes	OPEN	2024-04-18T03:50:24Z
-149759	New version: Grammarly.Grammarly version 1.2.73.1374	PckgrBot:Grammarly.Grammarly-1.2.73.1374-a8d62961-d73b-48f7-bfb8-5d050afa9948	OPEN	2024-04-18T03:36:56Z
-149758	New version: Dialpad.Dialpad version 2404.3.0	PckgrBot:Dialpad.Dialpad-2404.3.0-95cdbcfd-13ba-4670-84dc-eaccb4e0108a	OPEN	2024-04-18T03:36:21Z
-149756	New version: JLC.LCEDA.Pro version 2.1.57	SpecterShell:JLC.LCEDA.Pro-2.1.57-366179925	OPEN	2024-04-18T03:12:28Z
-149755	New version: Alibaba.MiniProgramStudio version 3.8.21	SpecterShell:Alibaba.MiniProgramStudio-3.8.21-2031521905	OPEN	2024-04-18T03:09:07Z
-149754	New version: Tencent.TencentMeeting version 3.25.11.412	SpecterShell:Tencent.TencentMeeting-3.25.11.412-308176058	OPEN	2024-04-18T02:44:53Z
-149753	New version: PerfectWorld.PerfectWorldArena version 1.0.24041812	SpecterShell:PerfectWorld.PerfectWorldArena-1.0.24041812-1513782853	OPEN	2024-04-18T02:17:29Z
 149751	New version: GodotEngine.GodotEngine version 4.2.2	Exorcism0666:GodotEngine.GodotEngine-4.2.2-B339DB38987147A0BFED8AE888F49CF0	OPEN	2024-04-18T01:21:25Z
 149749	New version: Waterfox.Waterfox version G6.0.12	Exorcism0666:Waterfox.Waterfox-G6.0.12-B670842ADE1D4DD9BE27A00DA4D6677B	OPEN	2024-04-18T01:21:09Z
 149742	Automatic update of Stardock.Start10 from 1.9.7 to 9.5.3.0	wingetbot:AutomaticUpdate_9b030d4c-3060-44d5-90f7-fd4a1bd326d1	OPEN	2024-04-18T00:57:44Z
 149737	Playnite.Playnite version 10.33	vedantmgoyal9:Playnite.Playnite-10.33-be17ac32-4e35-45d9-a884-1f41af2b5681	OPEN	2024-04-18T00:34:15Z
 149733	Datadog.dd-trace-dotnet version 2.50.0	vedantmgoyal9:Datadog.dd-trace-dotnet-2.50.0-74c89207-5f41-4cee-9e95-a85e84ec0036	OPEN	2024-04-18T00:31:04Z
 149732	Amazon.AWSCLI version 2.15.39	vedantmgoyal9:Amazon.AWSCLI-2.15.39-ad566822-c85f-483d-9066-84f224484e01	OPEN	2024-04-18T00:30:52Z
-149730	New package: NCSoft.Purple version 1.24.408.3	alexkoala:NCSoft.Purple-1.24.408.3-6d6f958f-dc6c-405d-aa9d-9548c0d6ac2b	OPEN	2024-04-18T00:30:13Z
 149727	Automatic update of SiberSystems.RoboForm from 9.5.7.7 to 9.5.8.5	wingetbot:AutomaticUpdate_7e89175d-a5d9-49fd-91a6-3d96436e608c	OPEN	2024-04-17T23:54:37Z
 149704	New version: Ryujinx.Ryujinx version 1.1.1282	Exorcism0666:Ryujinx.Ryujinx-1.1.1282-1768246890	OPEN	2024-04-17T22:19:53Z
 149692	Automatic update of Piriform.CCleaner.ProTrial from 6.21.0.10918 to 6.23.0.11010	wingetbot:AutomaticUpdate_c862f73c-c516-4fe1-8db8-d015d0c2882a	OPEN	2024-04-17T21:10:09Z
@@ -96,29 +81,19 @@
 148956	New package: Nvidia.app.Beta version 10.0.0.535	aisgbnok:new-NVIDIA.app.Beta-10.0.0.535	OPEN	2024-04-12T22:42:52Z
 148940	Automatic deletion of AtomicJar.Testcontainers 1.10.0	wingetbot:AutomaticUpdate_6bd8251f-61c0-4b7a-8f31-4377061cd12d	OPEN	2024-04-12T20:47:48Z
 148926	Add version: Telegram.Unigram version 10.7.0.9893	rakleed:Telegram.Unigram-10.7.0.9893-3E0F92CC09F24C21B66E20475D9CA0D5	OPEN	2024-04-12T19:28:24Z
-148856	Remove version: GoXLR-on-Linux.GoXLR-Utility version 1.1.0	parzival-space:remove-release/goxlr-utility-1.1.0	OPEN	2024-04-12T07:32:23Z
 148826	tibbo.ioninja version 5.5.1	vedantmgoyal9:tibbo.ioninja-5.5.1-0161680c-1463-48c0-87ac-c0e548a7f420	OPEN	2024-04-12T01:25:56Z
-148784	Automatic deletion of PerfectWorld.PerfectWorldArena 1.0.24041111	wingetbot:AutomaticUpdate_d1f06c19-e446-44f0-9a74-af5398d162b8	OPEN	2024-04-11T20:56:49Z
 148783	Automatic update of PerfectWorld.PerfectWorldArena from 1.0.24041111 to 1.0.24041111.993	wingetbot:AutomaticUpdate_f9010295-502a-4529-a6fb-457579fb7979	OPEN	2024-04-11T20:51:36Z
 148782	n0-computer.sendme version 0.4.1	legowerewolf:n0-computer.sendme-0.4.1-62ab4a63-238a-4460-9e75-719a0d0b7486	OPEN	2024-04-11T20:34:53Z
 148691	Ares commander 2025 sp0	graebertgmbh:AresCommander_2025_SP0	OPEN	2024-04-11T16:44:53Z
 148689	chore: add latest HashiCorp Vault	dugandarinPFG:HashiCorp.Vault-1.16.1	OPEN	2024-04-11T16:27:49Z
-148677	Remove version: PaddiM8.kalker version 2.0.4	Exorcism0666:PaddiM8.kalker-2.0.4-603B724BE8DC7A85305B3EA9762636C929EAFAD0	OPEN	2024-04-11T15:01:30Z
 148650	New version: Anaconda.Anaconda3 version 2024.02-1	einar-prod:Anaconda.Anaconda3-2024.02-1-E7FEFF58	OPEN	2024-04-11T12:21:23Z
 148623	New package: Amazon.AmazonCorretto(x64) version 21.0.2.13	antongrizli:Amazon.AmazonCorretto(x64)-21.0.2.13-2bb6ec1d-62ca-4cdb-98e3-ad80ea7f4fef	OPEN	2024-04-11T07:38:10Z
-148589	Automatic deletion of SFLinux.Jami.Beta 1.0.8838.242	wingetbot:AutomaticUpdate_8f763545-51f3-4211-83cf-4f65f08cc738	OPEN	2024-04-10T23:56:43Z
 148577	Automatic update of Cisco.Webex 44.3.0.28993	wingetbot:AutomaticUpdate_8cdf9be9-d790-4799-910c-8eb73015e7a1	OPEN	2024-04-10T23:01:54Z
 148523	JackieLiu.NotepadsApp version 1.5.4.0	vedantmgoyal9:JackieLiu.NotepadsApp-1.5.4.0-0701032e-9308-4173-ae8c-be84a6029403	OPEN	2024-04-10T16:33:36Z
-148436	Automatic deletion of Cisco.CiscoWebexMeetings 44.3.0.146	wingetbot:AutomaticUpdate_8d70cd21-2666-4059-815b-9d083ac64ab5	OPEN	2024-04-09T23:05:05Z
-148399	Automatic deletion of DuoSecurity.Duo2FAAuthenticationforWindows 4.3.0.4367	wingetbot:AutomaticUpdate_723df426-c805-4ca2-accd-ceb585242a26	OPEN	2024-04-09T19:50:31Z
-148396	Automatic deletion of Doist.Todoist 9.1.1	wingetbot:AutomaticUpdate_91464777-7e93-471b-b0b2-596a11b7ea77	OPEN	2024-04-09T19:38:14Z
 148292	New version: evilmartians.lefthook version 1.6.9	mrexox:evilmartians.lefthook-1.6.9-827F860434CD2D160C8E4EBF851890917EDCC383	OPEN	2024-04-09T08:43:26Z
 148233	New version: ente-io.photos-desktop version 1.6.63	Trenly:ente-io.photos-desktop-1.6.63-96847677	OPEN	2024-04-08T22:41:02Z
 148226	New Package: ente-io.ente.Auth version 2.0.50+250	Trenly:ente-io.ente-2.0.50-DD5DCF68	OPEN	2024-04-08T22:20:18Z
 148219	New version: Microsoft.VisualStudio.2022.Community version 17.9.5	Trenly:Microsoft.VisualStudio.2022.Community-17.9.5-0A73C432	OPEN	2024-04-08T20:56:59Z
-148151	Remove: AxisCommunicationsAB.AXISCameraStation version 5.57.22317	coolplaylinbot:AxisCommunicationsAB.AXISCameraStation-5.57.22317-D69A76EBA3B6BA274B820EEB0402F35D903288E6	OPEN	2024-04-08T04:44:16Z
-148144	Remove: ArchiMateTool.Archi version 5.2.0	coolplaylinbot:ArchiMateTool.Archi-5.2.0-F816122883296B76247D95F3D966E186AC579BE3	OPEN	2024-04-08T03:34:37Z
-148132	Remove: Dropbox.Dash version 2.92.0	coolplaylinbot:Dropbox.Dash-2.92.0-A6AB7AAA850772161EEA0959FBF5D8B0E750F487	OPEN	2024-04-08T02:07:11Z
 148112	New version: RustDesk.RustDesk version 1.2.3-2	SpecterShell:RustDesk.RustDesk-1.2.3-2-644325093	OPEN	2024-04-07T22:31:14Z
 148086	New version: TableClothProject.TableCloth version 1.13.0	rkttu:TableClothProject.TableCloth-1.13.0-5ab0002c-3682-4f6e-a10d-010b75e6bff8	OPEN	2024-04-07T12:28:13Z
 148028	New package: Aurelitec.Thumbico version 1.5.0.25	RalfEs73:Aurelitec.Thumbico-1.5.0.25-7ff585f1-1257-4ca3-ba53-aadc28a88dc8	OPEN	2024-04-06T19:31:43Z
@@ -289,7 +264,6 @@
 141648	Automatic update of Getscreenme.Agent from 2.15.8 to 2.18.1	wingetbot:AutomaticUpdate_f9e15711-8cff-4f9b-b7d6-8e18a1470bd4	OPEN	2024-03-01T21:47:53Z
 141643	Automatic update of Getscreenme.Agent from 2.15.7 to 2.18.1	wingetbot:AutomaticUpdate_af8c7c43-8922-4a82-965a-fd0699dd89d0	OPEN	2024-03-01T21:37:55Z
 141520	New Package: Soundux.Soundux version 0.2.7	og-mrk:update-manifest/Soundux.Soundux	DRAFT	2024-02-29T21:00:07Z
-141474	New version: charmbracelet.confettysh 1.1.1	charmbracelet:confettysh-1.1.1	OPEN	2024-02-29T15:34:01Z
 141230	Automatic update of NAVER.Vaccine from 2021.5.7.1 to 2023.6.12.2	wingetbot:AutomaticUpdate_415ea5e7-83af-48b8-badf-d01279dbc3b8	OPEN	2024-02-27T23:56:39Z
 141183	New Version: VMware.WorkstationPro version 17.5.1.23298084	virtualex-itv:VMware.WorkstationPro-17.5.1	OPEN	2024-02-27T19:34:52Z
 141182	New Version: VMware.WorkstationPlayer version 17.5.1.23298084	virtualex-itv:VMware.WorkstationPlayer-17.5.1	OPEN	2024-02-27T19:34:37Z
