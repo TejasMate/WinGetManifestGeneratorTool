@@ -1,3 +1,17 @@
+149813	New version: Vivaldi.Vivaldi.Snapshot version 6.7.3329.7	SpecterShell:Vivaldi.Vivaldi.Snapshot-6.7.3329.7-1435099025	OPEN	2024-04-18T12:14:02Z
+149812	New version: DeepL.DeepL version 24.4.2.12243	SpecterShell:DeepL.DeepL-24.4.2.12243-212787395	OPEN	2024-04-18T12:11:47Z
+149810	New package: Microsoft.DevProxy.Beta version 0.17.0-beta.2	garrytrinder:Microsoft.DevProxy.Beta-0.17.0-beta.2-ceab61e3-d0a8-4263-b187-7e37d2dfb7c9	OPEN	2024-04-18T11:52:37Z
+149809	New package: IdeaMK.PSDViewer version 3.2	Jvr2022:IdeaMK.PSDViewer-3.2-f2dfe0c0-44f1-4f8a-b685-92676543f683	OPEN	2024-04-18T11:32:38Z
+149808	Bilibili.Livehime version 5.3.1.6740	vedantmgoyal9:Bilibili.Livehime-5.3.1.6740-db2a823a-eb8b-4581-a997-1eb92efca5b9	OPEN	2024-04-18T11:22:17Z
+149807	New version: Pulumi.Pulumi version 3.113.1	pulumi-bot:Pulumi.Pulumi-3.113.1-f87eb12f-4444-478e-8c4d-fdf373e83d02	OPEN	2024-04-18T11:14:10Z
+149806	New version: NetEase.YoudaoNote version 7.2.181	SpecterShell:NetEase.YoudaoNote-7.2.181-597858680	OPEN	2024-04-18T11:12:15Z
+149805	NHNCorporation.Dooray!Messenger version 1.1.12.1	alexkoala:NHNCorporation.Dooray!Messenger-1.1.12.1-0413207e-a11a-4c00-8850-be8be5ca6fe1	OPEN	2024-04-18T10:28:47Z
+149803	New version: NetEase.YoudaoPokeClass version 2.12.5	SpecterShell:NetEase.YoudaoPokeClass-2.12.5-358904842	OPEN	2024-04-18T10:12:00Z
+149802	New version: DuckDuckGo.DesktopBrowser version 0.76.3.0	SpecterShell:DuckDuckGo.DesktopBrowser-0.76.3.0-1190765116	OPEN	2024-04-18T10:09:20Z
+149801	New version: xavidop.cxcli 1.193.0	xavidop:cxcli-1.193.0	OPEN	2024-04-18T10:02:58Z
+149798	NHNBugs.Bugs version 4.12.0.0	alexkoala:NHNBugs.Bugs-4.12.0.0-42d9a4ba-b80b-4861-ad76-36194d03be3c	OPEN	2024-04-18T09:35:54Z
+149797	[Package Issue]: Fix for Libre Office Help Pack download version	vikingnope:fix-for-libreoffice-2	OPEN	2024-04-18T09:35:07Z
+149796	Fix Identifier typo in package_issue.yml	kachick:fix-typo-issue-template	OPEN	2024-04-18T09:34:15Z
 149793	Add Moniker to KakaoEntertainmentCorp.MelonPlayer	alexkoala:patch-1	OPEN	2024-04-18T09:11:13Z
 149792	New version: TablePlus.TablePlus version 5.9.7	SpecterShell:TablePlus.TablePlus-5.9.7-1742687551	OPEN	2024-04-18T09:11:09Z
 149791	New version: PIKCLOUD.PikPak version 2.3.1 (2.3.1.4009)	SpecterShell:PIKCLOUD.PikPak-2.3.1-95716658	OPEN	2024-04-18T09:10:57Z
@@ -22,7 +36,7 @@
 149772	New version: Jackett.Jackett version 0.21.2404	Jackett:Jackett.Jackett-0.21.2404-6B27D25D33CADE350312BCFCB00DE9E305CB9BDC	OPEN	2024-04-18T05:55:53Z
 149771	New version: Hashicorp.Terraform version 1.8.1	kdpuvvadi:Hashicorp.Terraform-1.8.1-FC1EFDCE99C04A6898BA73EF4CB20A2D	OPEN	2024-04-18T05:43:34Z
 149770	New version: Hashicorp.Terraform.Alpha version 1.9.0-alpha20240404	kdpuvvadi:Hashicorp.Terraform.Alpha-1.9.0-alpha20240404-E2732D19FB2A48A8BF15EF71EC967548	OPEN	2024-04-18T05:38:16Z
-149768	Update: Malwarebytes.Malwarebytes version 4.6.12.323	SpecterShell:Malwarebytes.Malwarebytes-4.6.12.323-55B1D988	OPEN	2024-04-18T05:18:37Z
+149768	Modify: Malwarebytes.Malwarebytes version 4.6.12.323	SpecterShell:Malwarebytes.Malwarebytes-4.6.12.323-55B1D988	OPEN	2024-04-18T05:18:37Z
 149767	New version: KuaiFan.DooTask version 0.36.78	coolplaylinbot:KuaiFan.DooTask-0.36.78-77F1C4D5DEA44A158792D1DCCBA76E43	OPEN	2024-04-18T05:16:31Z
 149766	New version: KuaiFan.DooTask version 0.36.78	coolplaylinbot:KuaiFan.DooTask-0.36.78-3ADA285E7B084D54AE14AADBF53F7E67	OPEN	2024-04-18T05:16:25Z
 149764	New version: Anaconda.Anaconda3 version 2024.02-1	SpecterShell:Anaconda.Anaconda3-2024.02-1-720802104	OPEN	2024-04-18T04:27:52Z
