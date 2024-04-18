@@ -1,3 +1,22 @@
+149793	Add Moniker to KakaoEntertainmentCorp.MelonPlayer	alexkoala:patch-1	OPEN	2024-04-18T09:11:13Z
+149792	New version: TablePlus.TablePlus version 5.9.7	SpecterShell:TablePlus.TablePlus-5.9.7-1742687551	OPEN	2024-04-18T09:11:09Z
+149791	New version: PIKCLOUD.PikPak version 2.3.1 (2.3.1.4009)	SpecterShell:PIKCLOUD.PikPak-2.3.1-95716658	OPEN	2024-04-18T09:10:57Z
+149790	New version: Hugo.Hugo version 0.125.1	SpecterShell:Hugo.Hugo-0.125.1-147254006	OPEN	2024-04-18T09:10:05Z
+149789	New version: Hugo.Hugo.Extended version 0.125.1	SpecterShell:Hugo.Hugo.Extended-0.125.1-857490739	OPEN	2024-04-18T09:10:05Z
+149788	New version: Google.Chrome.Canary version 126.0.6425.0	SpecterShell:Google.Chrome.Canary-126.0.6425.0-1975008312	OPEN	2024-04-18T09:09:53Z
+149787	New package: Collapse.Collapse version 1.73.8	alexkoala:Collapse.Collapse-1.73.8-6bca9b90-42ac-47f7-a54a-28f684beb8d9	OPEN	2024-04-18T08:54:23Z
+149786	New version: Coder.Coder version 2.9.3	cdrci:Coder.Coder-2.9.3-c075926b-be42-4c9e-91cf-2eb780ba67df	OPEN	2024-04-18T08:25:05Z
+149785	New version: Coder.Coder version 2.10.1	cdrci:Coder.Coder-2.10.1-2ae29621-0b3c-4e79-91b0-f63259a2095a	OPEN	2024-04-18T08:22:54Z
+149784	New version: zhanglun.Lettura version 0.1.17	SpecterShell:zhanglun.Lettura-0.1.17-2135275954	OPEN	2024-04-18T08:13:40Z
+149783	New version: Bin-Huang.Chatbox version 1.3.5	SpecterShell:Bin-Huang.Chatbox-1.3.5-1669586263	OPEN	2024-04-18T08:11:01Z
+149782	PearlAbyss.BlackDesert version 24.04.04.1	alexkoala:PearlAbyss.BlackDesert-24.04.04.1-10c384dc-470d-47d4-8595-f4fa27c5727e	OPEN	2024-04-18T08:01:39Z
+149781	New version: Kubernetes.kubectl version 1.30.0	maikbrauer:Kubernetes.kubectl-1.30.0-67aebb18-7781-46af-bcb8-c8fa9fb73433	OPEN	2024-04-18T07:40:37Z
+149780	New version: Microsoft.Promptflow version 1.9.0	0mza987:Microsoft.Promptflow-1.9.0-b701f625-bc34-4e73-827c-1a8607600791	OPEN	2024-04-18T07:30:01Z
+149779	New version: Baidu.TeraBox version 1.31.0 (1.31.0.1)	SpecterShell:Baidu.TeraBox-1.31.0-1619889989	OPEN	2024-04-18T07:10:06Z
+149778	New package: Artempyanykh.Marksman version 2023.12.09	vikingnope:Artempyanykh.Marksman-2023.12.09-A51C1DE292E94266AB03715B6A038B23	OPEN	2024-04-18T07:09:11Z
+149777	Microsoft.VisualStudioCode.Insiders_v1.89.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.89.0	OPEN	2024-04-18T07:05:06Z
+149776	New version: RoyalApps.RoyalTS.V7 version 7.02.50410	vikingnope:RoyalApps.RoyalTS.V7-7.02.50410-42ABB9877D0A44FCBAACD3C0B50F8529	OPEN	2024-04-18T07:00:50Z
+149775	New version voidtools.Everything.Alpha version 1.5.0.1372a	mrjcap:voidtools.Everything.Alpha-1.5.0.1372a	OPEN	2024-04-18T06:59:41Z
 149774	New version: JLC.EasyEDA.Pro version 2.1.57	SpecterShell:JLC.EasyEDA.Pro-2.1.57-913326390	OPEN	2024-04-18T06:10:24Z
 149773	New version: iFlytek.iFlyRecMeeting version 3.0.0160	SpecterShell:iFlytek.iFlyRecMeeting-3.0.0160-1831757397	OPEN	2024-04-18T06:10:23Z
 149772	New version: Jackett.Jackett version 0.21.2404	Jackett:Jackett.Jackett-0.21.2404-6B27D25D33CADE350312BCFCB00DE9E305CB9BDC	OPEN	2024-04-18T05:55:53Z
@@ -79,7 +98,7 @@
 149029	Automatic update of Alibaba.aDrive from 4.13.0 to 4.13.0.1208	wingetbot:AutomaticUpdate_920874be-7982-4a75-ba9a-41e790f057d8	OPEN	2024-04-13T19:33:04Z
 148978	Automatic deletion of CrashPlan.CrashPlanSMB 11.3.0.754	wingetbot:AutomaticUpdate_a2e6de6c-6de2-4d4b-bbb6-32435e0b5584	OPEN	2024-04-12T23:56:12Z
 148970	New version: vim.vim.nightly version 9.1.0312	vim:vim.vim.nightly-9.1.0312-03C01D2A1A74769C73736264B8239FA424062D5E	OPEN	2024-04-12T23:33:55Z
-148956	New package: NVIDIA.app.Beta version 10.0.0.535	aisgbnok:new-NVIDIA.app.Beta-10.0.0.535	DRAFT	2024-04-12T22:42:52Z
+148956	New package: Nvidia.app.Beta version 10.0.0.535	aisgbnok:new-NVIDIA.app.Beta-10.0.0.535	OPEN	2024-04-12T22:42:52Z
 148940	Automatic deletion of AtomicJar.Testcontainers 1.10.0	wingetbot:AutomaticUpdate_6bd8251f-61c0-4b7a-8f31-4377061cd12d	OPEN	2024-04-12T20:47:48Z
 148926	Add version: Telegram.Unigram version 10.7.0.9893	rakleed:Telegram.Unigram-10.7.0.9893-3E0F92CC09F24C21B66E20475D9CA0D5	OPEN	2024-04-12T19:28:24Z
 148856	Remove version: GoXLR-on-Linux.GoXLR-Utility version 1.1.0	parzival-space:remove-release/goxlr-utility-1.1.0	OPEN	2024-04-12T07:32:23Z
