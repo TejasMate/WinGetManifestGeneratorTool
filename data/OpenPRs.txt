@@ -1,3 +1,14 @@
+150096	New version: Redisant.RedisAssistant version 2.0.0.0	SpecterShell:Redisant.RedisAssistant-2.0.0.0-300387720	OPEN	2024-04-19T09:11:08Z
+150095	Update: EuSoft.Eudic version 13.0.0.0 (13.6.2)	SpecterShell:EuSoft.Eudic-13.0.0.0-1408617150	OPEN	2024-04-19T09:09:57Z
+150094	New version: Plex.PlexMediaServer version 1.40.2.8395	josemikkola:Plex.PlexMediaServer-1.40.2.8395-37BD6BFF16B94659AE39F4CE62954B76	OPEN	2024-04-19T09:00:47Z
+150093	New version: PeterPawlowski.foobar2000 version 2.1.4	Jvr2022:PeterPawlowski.foobar2000-2.1.4-005005d1-5250-47da-b7d8-e5c9f13b6b2f	OPEN	2024-04-19T08:26:27Z
+150092	Update version: Gitbutler.GitButler version 0.11.3	damn-good-b0t:GitButler.GitButler-0.11.3-844d3fcf-be03-46c0-8500-5dade232831c	OPEN	2024-04-19T08:17:38Z
+150091	New version: Kingsoft.TypeEasy version 2.2.0.63	SpecterShell:Kingsoft.TypeEasy-2.2.0.63-934338544	OPEN	2024-04-19T08:10:56Z
+150090	New version: Google.Chrome.Canary version 126.0.6427.0	SpecterShell:Google.Chrome.Canary-126.0.6427.0-2087335703	OPEN	2024-04-19T08:10:15Z
+150089	Microsoft.VisualStudioCode.Insiders_v1.89.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.89.0	OPEN	2024-04-19T08:06:30Z
+150088	New version: uazo.cromite version 124.0.6367.60	Exorcism0666:uazo.cromite-124.0.6367.60-1332936623	OPEN	2024-04-19T07:20:04Z
+150087	SmartSoft.SmartFTP version 10.0.3219.0	matbech:SmartSoft.SmartFTP-10.0.3219.0-f7e46672-c031-4122-9af8-ba4be6245df5	OPEN	2024-04-19T07:12:23Z
+150086	New version: astral-sh.ruff version 0.4.0	frazar:astral-sh.ruff-0.4.0-CEE82BA3	OPEN	2024-04-19T06:40:37Z
 150084	New version: Jackett.Jackett version 0.21.2414	Jackett:Jackett.Jackett-0.21.2414-E7C71860B762AA4D5B41DD3362839D04199D760E	OPEN	2024-04-19T05:57:15Z
 150083	JackieLiu.NotepadsApp version 1.5.4.0	vedantmgoyal9:JackieLiu.NotepadsApp-1.5.4.0-b5b86c75-6826-44bb-81e1-bad93637306b	OPEN	2024-04-19T05:26:21Z
 150082	calibre.calibre.portable version 7.9.0.0	vedantmgoyal9:calibre.calibre.portable-7.9.0.0-a4537d2a-9a58-4613-b999-7ee3339326bd	OPEN	2024-04-19T05:26:00Z
@@ -37,7 +48,6 @@
 150046	Update: Nvidia.GeForceExperience version 3.27.0.120	aisgbnok:update-Nvidia.GeForceExperience-3.27.0.120	OPEN	2024-04-18T23:26:07Z
 150045	KirillOsenkov.MSBuildStructuredLogViewer version .2.2.235	vedantmgoyal9:KirillOsenkov.MSBuildStructuredLogViewer-.2.2.235-bf20d920-01c9-4639-a7ec-34d0b406fe22	OPEN	2024-04-18T23:25:42Z
 150044	HearthSim.HearthstoneDeckTracker version 1.26.0	vedantmgoyal9:HearthSim.HearthstoneDeckTracker-1.26.0-891c4ccd-e5fe-4427-9470-b22c813afdd4	OPEN	2024-04-18T23:25:32Z
-150043	Remove: JetBrains.Toolbox version 2.3.0.30876	SpecterShell:JetBrains.Toolbox-2.3.0.30876-A959A3A9	OPEN	2024-04-18T23:24:38Z
 150042	New version: Ryujinx.Ryujinx version 1.1.1284	Exorcism0666:Ryujinx.Ryujinx-1.1.1284-571225305	OPEN	2024-04-18T23:21:21Z
 150041	New version: taers232c.GAMADV-XTD3 version 6.72.16	Exorcism0666:taers232c.GAMADV-XTD3-6.72.16-966329959	OPEN	2024-04-18T23:21:21Z
 150040	Add x64 version of tencent.tencentmeeting	lychichem:tencent.tencentmeeting	OPEN	2024-04-18T23:21:15Z
@@ -60,7 +70,7 @@
 149823	Remove version: bencoepp.kommod version 1.0.0.0	Exorcism0666:bencoepp.kommod-1.0.0.0-CD4E3F7B00295DB7700AC16AA45C53D4CE3E56FB	OPEN	2024-04-18T15:23:55Z
 149816	Remove version: BlueMarbleGeographics.GlobalMapper version 24.00.0000	Exorcism0666:BlueMarbleGeographics.GlobalMapper-24.00.0000-30F0C5D4040F64774B97088D9067D5B7A200B424	OPEN	2024-04-18T12:40:41Z
 149780	New version: Microsoft.Promptflow version 1.9.0	0mza987:Microsoft.Promptflow-1.9.0-b701f625-bc34-4e73-827c-1a8607600791	OPEN	2024-04-18T07:30:01Z
-149764	New version: Anaconda.Anaconda3 version 2024.02-1	SpecterShell:Anaconda.Anaconda3-2024.02-1-720802104	OPEN	2024-04-18T04:27:52Z
+149764	Modify: Anaconda.Anaconda3 version 2024.02-1	SpecterShell:Anaconda.Anaconda3-2024.02-1-720802104	OPEN	2024-04-18T04:27:52Z
 149761	New package: RakutenSymphonyKorea.SendAnywhere version 24.3.80853	alexkoala:RakutenSymphonyKorea.SendAnywhere-24.3.80853-36028527-79fd-4815-9b7c-891d52376e39	OPEN	2024-04-18T03:50:27Z
 149751	New version: GodotEngine.GodotEngine version 4.2.2	Exorcism0666:GodotEngine.GodotEngine-4.2.2-B339DB38987147A0BFED8AE888F49CF0	OPEN	2024-04-18T01:21:25Z
 149742	Automatic update of Stardock.Start10 from 1.9.7 to 9.5.3.0	wingetbot:AutomaticUpdate_9b030d4c-3060-44d5-90f7-fd4a1bd326d1	OPEN	2024-04-18T00:57:44Z
