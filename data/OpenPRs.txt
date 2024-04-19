@@ -1,3 +1,15 @@
+150074	New version: ByteDance.Douyin version 3.6.4	SpecterShell:ByteDance.Douyin-3.6.4-580013322	OPEN	2024-04-19T03:09:46Z
+150073	New version: Seewo.AirTeach version 2.0.10.16600	SpecterShell:Seewo.AirTeach-2.0.10.16600-1294025246	OPEN	2024-04-19T02:19:18Z
+150072	New version: Ferdium.Ferdium.Nightly version 6.7.3-nightly.13	Alphrag:Ferdium.Ferdium.Nightly-6.7.3-nightly.13-4c2b6a8e-ccb4-4d1b-9ab1-bee0e1522325	OPEN	2024-04-19T01:41:25Z
+150071	New version: yt-dlp.yt-dlp.nightly version 2024.04.18.232703	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.04.18.232703-1993291868	OPEN	2024-04-19T01:21:33Z
+150070	New version: SpikeHD.Dorion version 4.2.0	Exorcism0666:SpikeHD.Dorion-4.2.0-7322D061D0D64ED690FE4B6A18587E93	OPEN	2024-04-19T01:21:00Z
+150069	New version: AdGuard.dnsproxy version 0.70.0	Exorcism0666:AdGuard.dnsproxy-0.70.0-58136A1316C841D68C228CC93C9849E5	OPEN	2024-04-19T01:20:54Z
+150068	New version: Fly-io.flyctl version 0.2.39	Exorcism0666:Fly-io.flyctl-0.2.39-A6654E9B9D334C85BD3DFC6749D89C1C	OPEN	2024-04-19T01:20:50Z
+150067	Automatic deletion of Surfshark.Surfshark 5.6.3999	wingetbot:AutomaticUpdate_bdc5e8f9-3139-4aae-8dd2-2291a52df636	OPEN	2024-04-19T01:20:35Z
+150065	Automatic deletion of Superhuman.Superhuman 25.1.26	wingetbot:AutomaticUpdate_930f6f20-10ab-4b20-ad06-351acfdce19b	OPEN	2024-04-19T01:16:05Z
+150064	Automatic update of Surfshark.Surfshark from 5.6.3999 to 5.7.1999	wingetbot:AutomaticUpdate_9ef92874-3b09-49bc-9f4d-3c29eb198f03	OPEN	2024-04-19T01:15:58Z
+150063	New version: DoltHub.Dolt version 1.35.10	coffeegoddd:DoltHub.Dolt-1.35.10-124ca455-d776-47fb-bbe7-7377a5d7e965	OPEN	2024-04-19T01:12:50Z
+150062	New version: pnpm.pnpm version 9.0.4	pnpm:pnpm.pnpm-9.0.4-7EF65B0A40005906197D69E7D57E210878B6EA3F	OPEN	2024-04-19T01:07:30Z
 150061	New version: PTRTECH.UVtools version 4.3.1	sn4k3:PTRTECH.UVtools-4.3.1-899CE2F552AE9BD5A64A1F79C3529E34403FF4D3	OPEN	2024-04-19T00:51:00Z
 150060	New version: Pulumi.Pulumi version 3.113.2	pulumi-bot:Pulumi.Pulumi-3.113.2-e313fb7d-eca5-4213-a92a-437805150e99	OPEN	2024-04-19T00:49:30Z
 150059	Automatic update of DigitalExtremes.Warframe 1.0.0	wingetbot:AutomaticUpdate_00b46480-fcc4-4621-9be6-ff21c7b11f4b	OPEN	2024-04-19T00:29:54Z
@@ -5,7 +17,7 @@
 150057	New version: vim.vim.nightly version 9.1.0354	vim:vim.vim.nightly-9.1.0354-C9FAE48C657E0DCABCE2182865D286A06BEEDB87	OPEN	2024-04-19T00:13:24Z
 150056	New version: OpenWhisperSystems.Signal version 7.5.1	PckgrBot:OpenWhisperSystems.Signal-7.5.1-e03901b7-c095-4299-ad7c-b91a44641501	OPEN	2024-04-18T23:56:23Z
 150055	Automatic deletion of SiberSystems.RoboForm 9.5.7.7	wingetbot:AutomaticUpdate_44f8c299-f864-4b0d-96b1-8074a12e1057	OPEN	2024-04-18T23:56:00Z
-150054	Samsung.SamsungMagician version 8.1.0.800	alexkoala:Samsung.SamsungMagician-8.1.0.800-a3d62961-8449-4ec4-9f2f-88412ac2fb12	OPEN	2024-04-18T23:45:27Z
+150054	Samsung.SamsungMagician version 8.1.0.800	alexkoala:Samsung.SamsungMagician-8.1.0.800-a3d62961-8449-4ec4-9f2f-88412ac2fb12	DRAFT	2024-04-18T23:45:27Z
 150053	ReleaseNotes: Bilibili.Livehime version 5.3.1.6740	SpecterShell:Bilibili.Livehime-5.3.1.6740-ReleaseNotes	OPEN	2024-04-18T23:43:43Z
 150052	ReleaseNotes: Bin-Huang.Chatbox version 1.3.5	SpecterShell:Bin-Huang.Chatbox-1.3.5-ReleaseNotes	OPEN	2024-04-18T23:42:14Z
 150051	Update: ElectronicArts.EADesktop version 13.180.0.5693	SpecterShell:ElectronicArts.EADesktop-13.180.0.5693-52149397	OPEN	2024-04-18T23:41:00Z
@@ -89,15 +101,12 @@
 148691	Ares commander 2025 sp0	graebertgmbh:AresCommander_2025_SP0	OPEN	2024-04-11T16:44:53Z
 148689	chore: add latest HashiCorp Vault	dugandarinPFG:HashiCorp.Vault-1.16.1	OPEN	2024-04-11T16:27:49Z
 148623	New package: Amazon.AmazonCorretto(x64) version 21.0.2.13	antongrizli:Amazon.AmazonCorretto(x64)-21.0.2.13-2bb6ec1d-62ca-4cdb-98e3-ad80ea7f4fef	OPEN	2024-04-11T07:38:10Z
-148577	Automatic update of Cisco.Webex 44.3.0.28993	wingetbot:AutomaticUpdate_8cdf9be9-d790-4799-910c-8eb73015e7a1	OPEN	2024-04-10T23:01:54Z
-148523	JackieLiu.NotepadsApp version 1.5.4.0	vedantmgoyal9:JackieLiu.NotepadsApp-1.5.4.0-0701032e-9308-4173-ae8c-be84a6029403	OPEN	2024-04-10T16:33:36Z
 148292	New version: evilmartians.lefthook version 1.6.9	mrexox:evilmartians.lefthook-1.6.9-827F860434CD2D160C8E4EBF851890917EDCC383	OPEN	2024-04-09T08:43:26Z
 148233	New version: ente-io.photos-desktop version 1.6.63	Trenly:ente-io.photos-desktop-1.6.63-96847677	OPEN	2024-04-08T22:41:02Z
 148226	New Package: ente-io.ente.Auth version 2.0.50+250	Trenly:ente-io.ente-2.0.50-DD5DCF68	OPEN	2024-04-08T22:20:18Z
 148219	New version: Microsoft.VisualStudio.2022.Community version 17.9.5	Trenly:Microsoft.VisualStudio.2022.Community-17.9.5-0A73C432	OPEN	2024-04-08T20:56:59Z
 148112	New version: RustDesk.RustDesk version 1.2.3-2	SpecterShell:RustDesk.RustDesk-1.2.3-2-644325093	OPEN	2024-04-07T22:31:14Z
 148086	New version: TableClothProject.TableCloth version 1.13.0	rkttu:TableClothProject.TableCloth-1.13.0-5ab0002c-3682-4f6e-a10d-010b75e6bff8	OPEN	2024-04-07T12:28:13Z
-148028	New package: Aurelitec.Thumbico version 1.5.0.25	RalfEs73:Aurelitec.Thumbico-1.5.0.25-7ff585f1-1257-4ca3-ba53-aadc28a88dc8	OPEN	2024-04-06T19:31:43Z
 148013	New Version: Samsung.SamsungMagician version 8.1.0	og-mrk:new-manifest-version/Samsung.SamsungMagician-version8.1.0	DRAFT	2024-04-06T14:09:12Z
 147901	New version: GOMLab.GOMPlayer version 2.3.95.5365	Trenly:GOMLab.GOMPlayer-2.3.95.5365-9A9B8F6D	OPEN	2024-04-05T14:31:39Z
 147897	New version: Sigil-Ebook.PageEdit version 2.1.0	Trenly:Sigil-Ebook.PageEdit-2.1.0-7111490	OPEN	2024-04-05T14:21:53Z
@@ -110,7 +119,6 @@
 147057	New version: huanghongxun.HelloMinecraftLauncher version 3.5.7.245	TejasMate:huanghongxun.HelloMinecraftLauncher-3.5.7.245-C19C7AF554FF4677A1FF48E2F61F585C	OPEN	2024-03-30T12:22:55Z
 146956	New package: cjmurph.PlexService version 1.2.3	Exorcism0666:cjmurph.PlexService-1.2.3-49594e52-2bd9-4fd7-8b11-4d2c2f52b944	OPEN	2024-03-29T17:00:37Z
 146880	New package: Beeper.Beeper version 3.102.10	SpecterShell:Beeper.Beeper-3.102.10-F8876EB6	OPEN	2024-03-28T23:41:54Z
-146786	New package: Teclib'.GLPIAgent1.7.2 version 1.7.2	MaxKoerck:Teclib'.GLPIAgent1.7.2-1.7.2-90ba4a94-3b18-4d89-8b5d-d8425a01196f	OPEN	2024-03-28T10:08:43Z
 146751	Update version: Aserto.Topaz version 0.31.10	Exorcism0666:Aserto.Topaz-0.31.10-3C4BC16B9E81403DA659567D607BF9BC	OPEN	2024-03-28T01:18:44Z
 146088	New package: Teclib'.GLPIAgent1.7.1 version 1.7.1	MaxKoerck:Teclib'.GLPIAgent1.7.1-1.7.1-db39a5f4-4fbf-402e-9f7c-568446233bf6	OPEN	2024-03-22T23:13:58Z
 145232	New version: OpslyCloud.opsly-cli version v0.0.1-alpha.19	Opsly:release-v0.0.1-alpha.19	OPEN	2024-03-19T15:58:02Z
