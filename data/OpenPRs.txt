@@ -1,3 +1,21 @@
+150148	Update version: Perimeter81Ltd.Perimeter81Ltd version 10.4.1.1616	jnichols35:Perimeter81Ltd.Perimeter81Ltd-10.4.1.1616-799083EA3BE947F990F21A837CFE1768	OPEN	2024-04-19T21:14:03Z
+150147	New version: Google.Chrome.Canary version 126.0.6428.0	SpecterShell:Google.Chrome.Canary-126.0.6428.0-1362090994	OPEN	2024-04-19T21:10:17Z
+150146	Automatic deletion of PlayStation.PSRemotePlay 7.0.0.02070	wingetbot:AutomaticUpdate_81f632c5-50ef-43a8-96cb-775158df16d3	OPEN	2024-04-19T21:10:12Z
+150145	Automatic deletion of Piriform.CCleaner.ProTrial 6.21.0.10918	wingetbot:AutomaticUpdate_64efaa48-2144-4e80-9fe0-9fc1f00ffada	OPEN	2024-04-19T21:01:22Z
+150144	Automatic update of Evope.Evope from 1.1.4.79 to 1.1.4.80	wingetbot:AutomaticUpdate_8d9641c7-1cca-431a-8ab8-2df5f0dc4e58	OPEN	2024-04-19T20:44:44Z
+150143	Automatic deletion of Kakao.KakaoTalk 3.8.0.3829	wingetbot:AutomaticUpdate_f6ff0309-d741-4cf9-91cb-6e97f47a68e3	OPEN	2024-04-19T20:32:24Z
+150142	Automatic update of Jianjing.XLJSCI 2.3.9.0	wingetbot:AutomaticUpdate_6ffd725c-bc61-422e-998b-e0123ba5e90d	OPEN	2024-04-19T20:09:39Z
+150141	Automatic update of Jidifudi.GT4T from 8.43.240407 to 8.44.240419	wingetbot:AutomaticUpdate_f1b7ffb0-dfff-4cb2-8a90-782904ce7feb	OPEN	2024-04-19T20:08:55Z
+150140	Fix Snyology Drive version numbering	s-crypt:master	OPEN	2024-04-19T19:53:04Z
+150139	Synology.DriveClient version 3.5.0.16084	s-crypt:Synology.DriveClient-3.5.0.16084-db91dbc2-85cf-4d10-b1eb-537641e8f2a2	OPEN	2024-04-19T19:50:44Z
+150138	New version: Pulumi.Pulumi version 3.113.3	pulumi-bot:Pulumi.Pulumi-3.113.3-a20212a0-64b2-45e6-9e28-0cc2e63167e7	OPEN	2024-04-19T19:26:49Z
+150137	New version: Gruntwork.Terragrunt version 0.57.5	KaiKorla:Gruntwork.Terragrunt-0.57.5	OPEN	2024-04-19T19:20:05Z
+150136	Automatic update of DirSoft.ARPro from 17.0.1.1110 to 17.0.1.1111	wingetbot:AutomaticUpdate_1cc73e72-ff89-48c0-889c-8cfd92ace0a4	OPEN	2024-04-19T19:18:13Z
+150135	Automatic deletion of AgileBits.1Password.Beta 8.10.30-20.BETA	wingetbot:AutomaticUpdate_4f33ab8e-5760-408a-9ebd-e4fbe2d4460d	OPEN	2024-04-19T19:18:12Z
+150134	New version: prefix-dev.pixi version 0.20.0	prefix-dev:prefix-dev.pixi-0.20.0-4919551A92A89E2AD606EF689BD255FB22553EF2	OPEN	2024-04-19T19:06:42Z
+150133	JanDeDobbeleer.OhMyPosh version 19.22.0	JanDeDobbeleer:JanDeDobbeleer.OhMyPosh-19.22.0-9289c334-55bd-48f2-b6f1-719493e299b6	OPEN	2024-04-19T19:05:35Z
+150132	New version: SQLite.SQLite version 3.45.3	Dvd-Znf:master	OPEN	2024-04-19T18:47:53Z
+150129	New version: taers232c.GAMADV-XTD3 version 6.73.00	Exorcism0666:taers232c.GAMADV-XTD3-6.73.00-1289758253	OPEN	2024-04-19T18:24:34Z
 150128	Update: Mozilla.Firefox.DeveloperEdition version 126.0 (126.0b3)	SpecterShell:Mozilla.Firefox.DeveloperEdition-126.0-1781967715	OPEN	2024-04-19T18:09:56Z
 150127	New version: Google.Chrome.Dev version 126.0.6423.2	SpecterShell:Google.Chrome.Dev-126.0.6423.2-1161348575	OPEN	2024-04-19T18:09:21Z
 150126	New package: Jahastech.NxFilter version 4.6.9.4	Jvr2022:Jahastech.NxFilter-4.6.9.4-49fb65e5-48f9-4197-ab75-f44c1dbc3a4b	OPEN	2024-04-19T17:52:37Z
