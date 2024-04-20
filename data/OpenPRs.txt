@@ -1,89 +1,30 @@
-150195	Automatic update of NativeInstruments.NativeAccess from 3.10.1 to 3.10.3	wingetbot:AutomaticUpdate_edaa52db-b1ee-48ef-af02-1e1ee70c99a2	OPEN	2024-04-20T01:02:44Z
-150194	Automatic deletion of NativeInstruments.NativeAccess 3.9.1	wingetbot:AutomaticUpdate_53ec2b85-b733-4fd6-92f9-8766c3c232ab	OPEN	2024-04-20T00:57:00Z
-150193	SmartSoft.SmartFTP version 10.0.3221.0	matbech:SmartSoft.SmartFTP-10.0.3221.0-1f7256ef-98ce-4851-8a30-0524f7ce7579	OPEN	2024-04-20T00:54:06Z
-150192	Automatic update of NativeInstruments.NativeAccess from 3.9.1 to 3.10.3	wingetbot:AutomaticUpdate_c5c46598-0483-4d03-a3e9-2637f352f24f	OPEN	2024-04-20T00:51:56Z
+150208	New version: GitHub.GitHubDesktop version 3.3.14	PckgrBot:GitHub.GitHubDesktop-3.3.14-5120d872-df8d-493b-8728-38ed07089c07	OPEN	2024-04-20T03:05:07Z
+150207	New version: TechSmith.Camtasia version 23.4.7.53202	PckgrBot:TechSmith.Camtasia-23.4.7.53202-4431af5f-51b4-4f87-8405-40ebfc5a4d82	OPEN	2024-04-20T02:57:18Z
+150206	New version: Aircall.Aircall version 3.1.17	PckgrBot:Aircall.Aircall-3.1.17-54984a42-c7d7-44a0-ae83-751de0e03d75	OPEN	2024-04-20T02:56:21Z
+150205	New version: Aircall.Aircall version 3.1.17	PckgrBot:Aircall.Aircall-3.1.17-a75af26b-d97f-458d-8d4b-8534232cc10b	OPEN	2024-04-20T02:56:20Z
+150203	Microsoft.VisualStudioCode.Insiders.CLI_v1.89.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.Insiders.CLI_v1.89.0	OPEN	2024-04-20T02:13:58Z
+150202	Update Netron to 7.6.1	lutzroeder:master	OPEN	2024-04-20T02:00:02Z
+150197	Automatic update of Surfshark.Surfshark from 5.7.0999 to 5.7.1999	wingetbot:AutomaticUpdate_cf0902b3-b135-4169-8f3a-2fa496b6c9d0	OPEN	2024-04-20T01:15:20Z
+150196	Automatic deletion of NativeInstruments.NativeAccess 3.10.1	wingetbot:AutomaticUpdate_929f015a-266b-4940-9ba8-fd88dff0bc0f	OPEN	2024-04-20T01:07:47Z
 150191	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_38546e0a-df21-4919-959e-caf62c93f2ee	OPEN	2024-04-20T00:51:46Z
-150190	New version: blacktop.ipsw 3.1.474	blacktop:ipsw-3.1.474	OPEN	2024-04-20T00:46:49Z
-150189	New version: blacktop.ipswd 3.1.474	blacktop:ipswd-3.1.474	OPEN	2024-04-20T00:46:43Z
-150188	Add version: Figma.Figma version 116.17.13	SpecterShell:Figma.Figma-116.17.13-373914866	OPEN	2024-04-20T00:24:53Z
-150187	New version: Momento.cli version 0.42.8	momento-github-actions-machine-user:Momento.cli-0.42.8-7e6a7e0a-1746-4841-967a-e1b3bad34a8b	OPEN	2024-04-19T23:58:25Z
-150186	Automatic update of IDMComputerSolutions,Inc.UEStudio 23.2.41	wingetbot:AutomaticUpdate_e0f1d9dd-ee6e-4061-97ea-73e47161a2d0	OPEN	2024-04-19T23:42:33Z
 150185	New version: vim.vim.nightly version 9.1.0356	vim:vim.vim.nightly-9.1.0356-535220CDCC83A9845DEDC05D929110ACFE768456	OPEN	2024-04-19T23:39:48Z
-150184	Automatic update of IDMComputerSolutions,Inc.UEStudio from 23.2.41 to 24.0.28	wingetbot:AutomaticUpdate_b53d2500-a035-4579-a1ff-164f6f05b2bc	OPEN	2024-04-19T23:39:14Z
-150183	Automatic update of IDMComputerSolutions,Inc.UltraEdit from 30.2.41 to 31.0.28	wingetbot:AutomaticUpdate_f8b4f3a4-6b76-4809-9bde-f064a623aa05	OPEN	2024-04-19T23:38:21Z
 150182	Modify: Zoom.Zoom version 6.0.37205	SpecterShell:Zoom.Zoom-6.0.37205-Modify	OPEN	2024-04-19T23:32:28Z
-150181	SmartSoft.SmartFTP version 10.0.3220.0	vedantmgoyal9:SmartSoft.SmartFTP-10.0.3220.0-e4579c67-d65a-4213-a1d5-af8410ce02ed	OPEN	2024-04-19T23:27:24Z
 150180	Kubernetes.minikube version 1.33.0	vedantmgoyal9:Kubernetes.minikube-1.33.0-8e5336f5-4903-4281-b5f1-e1db5c4b233f	OPEN	2024-04-19T23:27:00Z
-150179	Discord.Discord.PTB version 1.0.1067	vedantmgoyal9:Discord.Discord.PTB-1.0.1067-1a64c6f2-1068-409c-8f3b-07da6c564230	OPEN	2024-04-19T23:26:45Z
-150178	New version: Sidero.talosctl version 1.7.0	nebula-it:Sidero.talosctl-1.7.0-e22f9d97-d3ee-4ef3-8a3b-07b1468b82ec	OPEN	2024-04-19T23:26:41Z
 150177	Amazon.AWSCLI version 2.15.40	vedantmgoyal9:Amazon.AWSCLI-2.15.40-f237331a-8b55-4dec-8cf4-47b06dd83248	OPEN	2024-04-19T23:26:29Z
-150176	New version: Momento.cli version 0.42.6	momento-github-actions-machine-user:Momento.cli-0.42.6-29ee9fa9-b28f-44f3-aca7-292bd0aab30e	OPEN	2024-04-19T23:03:35Z
-150174	Automatic update of Cisco.Webex 44.3.0.28993	wingetbot:AutomaticUpdate_86bc1cbb-e812-460d-b5a1-cb4b57a8a179	OPEN	2024-04-19T23:02:06Z
-150173	XML Notepad version 2.9.0.9	lovettchris:clovett/xmlnotepad_2.9.0.9	OPEN	2024-04-19T22:58:27Z
 150172	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_15a0852e-f86a-47a3-90d1-be552562ed6d	OPEN	2024-04-19T22:58:04Z
 150171	Moved: Zoom.Zoom.EXE 6.0.0(37205)	SpecterShell:Zoom.Zoom.EXE-6.0.0(37205)-Moved	OPEN	2024-04-19T22:45:55Z
-150170	New version: Figma.Figma version 116.18.6	PckgrBot:Figma.Figma-116.18.6-390ddd49-5567-4d61-ad57-c14e9c4c61e6	OPEN	2024-04-19T22:25:22Z
-150169	New version: Amazon.AWSCLI version 2.15.40	PckgrBot:Amazon.AWSCLI-2.15.40-e210279b-6ded-4473-b1ec-eb7d8281b2b4	OPEN	2024-04-19T22:24:44Z
-150168	Automatic update of RescueTime.DesktopApp from 3.1.7.3 to 3.2.0.10	wingetbot:AutomaticUpdate_86335223-0b49-4824-8fc2-b371e3b44cda	OPEN	2024-04-19T22:17:46Z
-150167	Automatic update of CABS.ScanPrix 6.18.3	wingetbot:AutomaticUpdate_eca21c10-894a-4377-adb9-a04cd4910507	OPEN	2024-04-19T22:17:42Z
-150166	Automatic update of CABS.SalesPrix 6.18.3	wingetbot:AutomaticUpdate_d5728b5b-e070-42b7-91cc-3cf63347bd13	OPEN	2024-04-19T22:17:42Z
-150165	New version: Notion.Notion version 3.5.0	coolplaylinbot:Notion.Notion-3.5.0-6C9726064789448A8950C150DA771DDF	OPEN	2024-04-19T22:14:33Z
-150164	Fix download URL Cisco.CiscoWebexClient 44.4.0.159	treysis:patch-90	OPEN	2024-04-19T22:14:16Z
 150163	Automatic deletion of BiniSoft.WindowsFirewallControl 6.9.9.9	wingetbot:AutomaticUpdate_77e83ed3-2f93-4baf-a38e-da10a58095c8	OPEN	2024-04-19T21:52:20Z
-150162	Automatic update of LogMeIn.Hamachi from 2.3.0.106 to 2.3.0.111	wingetbot:AutomaticUpdate_e7fe1948-626b-47ae-af29-d0db1c73572c	OPEN	2024-04-19T21:48:50Z
-150161	Automatic deletion of Logitech.OptionsPlus 1.68.542186	wingetbot:AutomaticUpdate_5dadc515-88e6-4341-89ac-ae96570027d4	OPEN	2024-04-19T21:48:46Z
-150160	Automatic update of BiniSoft.WindowsFirewallControl from 6.9.9.9 to 6.10.0.0	wingetbot:AutomaticUpdate_43c36175-e184-4aad-a77a-6f9616e08118	OPEN	2024-04-19T21:47:22Z
-150159	Automatic deletion of Qoppa.PDFStudio 2023.0.4.0	wingetbot:AutomaticUpdate_36d82c95-f845-4f59-9f10-58c422573fc6	OPEN	2024-04-19T21:45:51Z
-150158	Automatic deletion of Logitech.GHUB 2024.2.4136	wingetbot:AutomaticUpdate_a2c6bc11-d9ed-4e11-8f48-d89437e511ed	OPEN	2024-04-19T21:44:35Z
-150157	Automatic deletion of BiniSoft.WindowsFirewallControl 6.9.9.8	wingetbot:AutomaticUpdate_d4b09b15-a2bc-4f5b-9d22-50183f3d8ab1	OPEN	2024-04-19T21:42:22Z
-150156	Automatic update of BiniSoft.WindowsFirewallControl from 6.9.9.8 to 6.10.0.0	wingetbot:AutomaticUpdate_2ef06ffd-ee38-4396-82b3-f128b536544c	OPEN	2024-04-19T21:37:13Z
-150155	Automatic update of Lenovo.ServiceBridge from 5.0.2.14 to 5.0.2.16	wingetbot:AutomaticUpdate_4c8baf26-2345-4c8e-821a-7c296e7b0b3d	OPEN	2024-04-19T21:24:32Z
-150154	Update version: Perimeter81Ltd.Perimeter81Ltd version 9.0.2.1195	jnichols35:Perimeter81Ltd.Perimeter81Ltd-9.0.2.1195-75F5FCEAA388472C8920B12D3116DB05	OPEN	2024-04-19T21:16:25Z
-150153	JanDeDobbeleer.OhMyPosh version 19.23.0	JanDeDobbeleer:JanDeDobbeleer.OhMyPosh-19.23.0-9c3edb99-6e39-409e-a247-6e1792e34abe	OPEN	2024-04-19T21:15:41Z
-150152	Update version: Perimeter81Ltd.Perimeter81Ltd version 10.2.0.1494	jnichols35:Perimeter81Ltd.Perimeter81Ltd-10.2.0.1494-8B8C894DB62F4760875D7877474A0496	OPEN	2024-04-19T21:15:31Z
-150151	Update version: Perimeter81Ltd.Perimeter81Ltd version 10.3.0.1526	jnichols35:Perimeter81Ltd.Perimeter81Ltd-10.3.0.1526-951F2EB090374E6C8C917473319275AA	OPEN	2024-04-19T21:15:09Z
-150150	Update version: Perimeter81Ltd.Perimeter81Ltd version 10.3.1.1542	jnichols35:Perimeter81Ltd.Perimeter81Ltd-10.3.1.1542-56B8E2A60E2348F58BD7B38DD75ED01F	OPEN	2024-04-19T21:14:53Z
-150149	Update version: Perimeter81Ltd.Perimeter81Ltd version 10.4.0.1587	jnichols35:Perimeter81Ltd.Perimeter81Ltd-10.4.0.1587-8177A29C79424A71AE5B7A7BAA28395E	OPEN	2024-04-19T21:14:22Z
-150148	Update version: Perimeter81Ltd.Perimeter81Ltd version 10.4.1.1616	jnichols35:Perimeter81Ltd.Perimeter81Ltd-10.4.1.1616-799083EA3BE947F990F21A837CFE1768	OPEN	2024-04-19T21:14:03Z
-150147	New version: Google.Chrome.Canary version 126.0.6428.0	SpecterShell:Google.Chrome.Canary-126.0.6428.0-1362090994	OPEN	2024-04-19T21:10:17Z
-150146	Automatic deletion of PlayStation.PSRemotePlay 7.0.0.02070	wingetbot:AutomaticUpdate_81f632c5-50ef-43a8-96cb-775158df16d3	OPEN	2024-04-19T21:10:12Z
-150145	Automatic deletion of Piriform.CCleaner.ProTrial 6.21.0.10918	wingetbot:AutomaticUpdate_64efaa48-2144-4e80-9fe0-9fc1f00ffada	OPEN	2024-04-19T21:01:22Z
-150144	Automatic update of Evope.Evope from 1.1.4.79 to 1.1.4.80	wingetbot:AutomaticUpdate_8d9641c7-1cca-431a-8ab8-2df5f0dc4e58	OPEN	2024-04-19T20:44:44Z
-150143	Automatic deletion of Kakao.KakaoTalk 3.8.0.3829	wingetbot:AutomaticUpdate_f6ff0309-d741-4cf9-91cb-6e97f47a68e3	OPEN	2024-04-19T20:32:24Z
-150142	Automatic update of Jianjing.XLJSCI 2.3.9.0	wingetbot:AutomaticUpdate_6ffd725c-bc61-422e-998b-e0123ba5e90d	OPEN	2024-04-19T20:09:39Z
 150141	Automatic update of Jidifudi.GT4T from 8.43.240407 to 8.44.240419	wingetbot:AutomaticUpdate_f1b7ffb0-dfff-4cb2-8a90-782904ce7feb	OPEN	2024-04-19T20:08:55Z
 150140	Fix Snyology Drive version numbering	s-crypt:master	OPEN	2024-04-19T19:53:04Z
 150139	Synology.DriveClient version 3.5.0.16084	s-crypt:Synology.DriveClient-3.5.0.16084-db91dbc2-85cf-4d10-b1eb-537641e8f2a2	OPEN	2024-04-19T19:50:44Z
-150138	New version: Pulumi.Pulumi version 3.113.3	pulumi-bot:Pulumi.Pulumi-3.113.3-a20212a0-64b2-45e6-9e28-0cc2e63167e7	OPEN	2024-04-19T19:26:49Z
 150137	New version: Gruntwork.Terragrunt version 0.57.5	KaiKorla:Gruntwork.Terragrunt-0.57.5	OPEN	2024-04-19T19:20:05Z
-150136	Automatic update of DirSoft.ARPro from 17.0.1.1110 to 17.0.1.1111	wingetbot:AutomaticUpdate_1cc73e72-ff89-48c0-889c-8cfd92ace0a4	OPEN	2024-04-19T19:18:13Z
-150135	Automatic deletion of AgileBits.1Password.Beta 8.10.30-20.BETA	wingetbot:AutomaticUpdate_4f33ab8e-5760-408a-9ebd-e4fbe2d4460d	OPEN	2024-04-19T19:18:12Z
-150134	New version: prefix-dev.pixi version 0.20.0	prefix-dev:prefix-dev.pixi-0.20.0-4919551A92A89E2AD606EF689BD255FB22553EF2	OPEN	2024-04-19T19:06:42Z
-150133	JanDeDobbeleer.OhMyPosh version 19.22.0	JanDeDobbeleer:JanDeDobbeleer.OhMyPosh-19.22.0-9289c334-55bd-48f2-b6f1-719493e299b6	OPEN	2024-04-19T19:05:35Z
-150132	New version: SQLite.SQLite version 3.45.3	Dvd-Znf:master	OPEN	2024-04-19T18:47:53Z
-150129	New version: taers232c.GAMADV-XTD3 version 6.73.00	Exorcism0666:taers232c.GAMADV-XTD3-6.73.00-1289758253	OPEN	2024-04-19T18:24:34Z
 150128	Update: Mozilla.Firefox.DeveloperEdition version 126.0 (126.0b3)	SpecterShell:Mozilla.Firefox.DeveloperEdition-126.0-1781967715	OPEN	2024-04-19T18:09:56Z
-150127	New version: Google.Chrome.Dev version 126.0.6423.2	SpecterShell:Google.Chrome.Dev-126.0.6423.2-1161348575	OPEN	2024-04-19T18:09:21Z
-150126	New package: Jahastech.NxFilter version 4.6.9.4	Jvr2022:Jahastech.NxFilter-4.6.9.4-49fb65e5-48f9-4197-ab75-f44c1dbc3a4b	OPEN	2024-04-19T17:52:37Z
-150125	New version: TunnelBear.TunnelBear version 4.9.3.0	SpecterShell:TunnelBear.TunnelBear-4.9.3.0-215628810	OPEN	2024-04-19T17:11:19Z
 150124	Package Fix: Possible fix for Zoom expecting different package version	vikingnope:zoom-fix	OPEN	2024-04-19T17:01:08Z
 150121	New version: Zoom.Zoom version 6.0.2.37566	SpecterShell:Zoom.Zoom-6.0.2.37566-727658565	OPEN	2024-04-19T16:12:11Z
-150117	New version: ThePandemoniumInstitute.BloodontheClocktowerOnline version 3.24.0	pikcube:ThePandemoniumInstitute.BloodontheClocktowerOnline-3.24.0-e61200ce-bd4c-4736-b951-f377d019033a	OPEN	2024-04-19T14:59:50Z
-150114	New version: Ryujinx.Ryujinx version 1.1.1287	Exorcism0666:Ryujinx.Ryujinx-1.1.1287-837612474	OPEN	2024-04-19T13:23:06Z
 150109	New version: astral-sh.ruff version 0.4.1	frazar:astral-sh.ruff-0.4.1-B6D7F83D	OPEN	2024-04-19T12:56:30Z
-150107	New version: Ryujinx.Ryujinx version 1.1.1286	Exorcism0666:Ryujinx.Ryujinx-1.1.1286-323662182	OPEN	2024-04-19T12:35:39Z
-150096	New version: Redisant.RedisAssistant version 2.0.0.0	SpecterShell:Redisant.RedisAssistant-2.0.0.0-300387720	OPEN	2024-04-19T09:11:08Z
-150088	New version: uazo.cromite version 124.0.6367.60	Exorcism0666:uazo.cromite-124.0.6367.60-1332936623	OPEN	2024-04-19T07:20:04Z
 150086	New version: astral-sh.ruff version 0.4.0	frazar:astral-sh.ruff-0.4.0-CEE82BA3	OPEN	2024-04-19T06:40:37Z
 150083	JackieLiu.NotepadsApp version 1.5.4.0	vedantmgoyal9:JackieLiu.NotepadsApp-1.5.4.0-b5b86c75-6826-44bb-81e1-bad93637306b	OPEN	2024-04-19T05:26:21Z
-150077	New version: OpenTofu.Tofu.Beta version 1.7.0-beta1	kdpuvvadi:OpenTofu.Tofu.Beta-1.7.0-beta1-E0AB6EB775A848E59D4F068904FB81C2	OPEN	2024-04-19T04:35:09Z
-150075	Update manifest: FreeCAD.FreeCAD version 0.21.2	Dragon1573:issues/150028	OPEN	2024-04-19T04:14:08Z
-150069	New version: AdGuard.dnsproxy version 0.70.0	Exorcism0666:AdGuard.dnsproxy-0.70.0-58136A1316C841D68C228CC93C9849E5	OPEN	2024-04-19T01:20:54Z
-150064	Automatic update of Surfshark.Surfshark from 5.6.3999 to 5.7.1999	wingetbot:AutomaticUpdate_9ef92874-3b09-49bc-9f4d-3c29eb198f03	OPEN	2024-04-19T01:15:58Z
-150057	New version: vim.vim.nightly version 9.1.0354	vim:vim.vim.nightly-9.1.0354-C9FAE48C657E0DCABCE2182865D286A06BEEDB87	OPEN	2024-04-19T00:13:24Z
 150049	Automatic update of PLaSK to 2024.04.17	macdems:2024.04.17	OPEN	2024-04-18T23:30:43Z
-150045	KirillOsenkov.MSBuildStructuredLogViewer version .2.2.235	vedantmgoyal9:KirillOsenkov.MSBuildStructuredLogViewer-.2.2.235-bf20d920-01c9-4639-a7ec-34d0b406fe22	OPEN	2024-04-18T23:25:42Z
-150042	New version: Ryujinx.Ryujinx version 1.1.1284	Exorcism0666:Ryujinx.Ryujinx-1.1.1284-571225305	OPEN	2024-04-18T23:21:21Z
 150033	Automatic update of Viber.Viber from 22.4.1.0 to 22.5.0.1	wingetbot:AutomaticUpdate_4230fc31-4784-457d-b413-cda37035cd82	OPEN	2024-04-18T22:18:12Z
 150015	New version: MuhammadFareezIqmal.IIUMSchedule version 1.4.4.0	iqfareez:MuhammadFareezIqmal.IIUMSchedule-1.4.4.0-726a1237-dbf4-435a-a430-830ac43a1ae3	OPEN	2024-04-18T21:04:06Z
 150013	Automatic deletion of evernote.evernote 10.85.2.20240416125300	wingetbot:AutomaticUpdate_748a4570-a54c-4d11-83bb-4113c747f42e	OPEN	2024-04-18T20:56:57Z
@@ -92,7 +33,6 @@
 149823	Remove version: bencoepp.kommod version 1.0.0.0	Exorcism0666:bencoepp.kommod-1.0.0.0-CD4E3F7B00295DB7700AC16AA45C53D4CE3E56FB	OPEN	2024-04-18T15:23:55Z
 149816	Remove version: BlueMarbleGeographics.GlobalMapper version 24.00.0000	Exorcism0666:BlueMarbleGeographics.GlobalMapper-24.00.0000-30F0C5D4040F64774B97088D9067D5B7A200B424	OPEN	2024-04-18T12:40:41Z
 149780	New version: Microsoft.Promptflow version 1.9.0	0mza987:Microsoft.Promptflow-1.9.0-b701f625-bc34-4e73-827c-1a8607600791	OPEN	2024-04-18T07:30:01Z
-149764	Modify: Anaconda.Anaconda3 version 2024.02-1	SpecterShell:Anaconda.Anaconda3-2024.02-1-720802104	OPEN	2024-04-18T04:27:52Z
 149761	New package: RakutenSymphonyKorea.SendAnywhere version 24.3.80853	alexkoala:RakutenSymphonyKorea.SendAnywhere-24.3.80853-36028527-79fd-4815-9b7c-891d52376e39	OPEN	2024-04-18T03:50:27Z
 149751	New version: GodotEngine.GodotEngine version 4.2.2	Exorcism0666:GodotEngine.GodotEngine-4.2.2-B339DB38987147A0BFED8AE888F49CF0	OPEN	2024-04-18T01:21:25Z
 149742	Automatic update of Stardock.Start10 from 1.9.7 to 9.5.3.0	wingetbot:AutomaticUpdate_9b030d4c-3060-44d5-90f7-fd4a1bd326d1	OPEN	2024-04-18T00:57:44Z
@@ -110,7 +50,6 @@
 149502	Automatic update of Oracle.JDK.21 from 21.0.2 to 21.0.3.0	wingetbot:AutomaticUpdate_15e8630d-bb4b-40fe-bda5-2145488aafe1	OPEN	2024-04-16T20:18:15Z
 149500	New version: Oven-sh.Bun.BaselineProfile version 1.1.4	coolplaylinbot:Oven-sh.Bun.BaselineProfile-1.1.4-D4C94E512F6C4517BB068CFA32A3BA5E	OPEN	2024-04-16T20:15:43Z
 149493	Add Dante Virtual Soundcard	Trouffman:AudinateDVS	OPEN	2024-04-16T19:26:39Z
-149488	Microsoft.VisualStudioCode.Insiders.CLI_v1.89.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.Insiders.CLI_v1.89.0	OPEN	2024-04-16T19:06:30Z
 149484	Microsoft.VisualStudio.2022.Community.Preview version 17.10.0	edwardskrod:autogenerated/Microsoft.VisualStudio.2022.Community.Preview/b668fa00-ce1d-4929-9978-b0f0db21e050	OPEN	2024-04-16T17:20:09Z
 149483	Microsoft.VisualStudio.2022.Professional.Preview version 17.10.0	edwardskrod:autogenerated/Microsoft.VisualStudio.2022.Professional.Preview/e90c4c0e-e94c-41d4-bcc6-ffb0ad4037fc	OPEN	2024-04-16T17:19:54Z
 149482	Microsoft.VisualStudio.2022.Enterprise.Preview version 17.10.0	edwardskrod:autogenerated/Microsoft.VisualStudio.2022.Enterprise.Preview/a2b63403-dbf5-40c4-b620-895dd27abde0	OPEN	2024-04-16T17:19:41Z
@@ -120,7 +59,6 @@
 149345	Add Devolutions RemoteDesktopManager version 2024.1.25.0	Devolutions:RDM-WinGet-2024.1.25.0	OPEN	2024-04-15T18:40:07Z
 149344	Add Devolutions RemoteDesktopManagerAgent version 2024.1.25.0	Devolutions:RDMAgent-WinGet-2024.1.25.0	OPEN	2024-04-15T18:40:05Z
 149331	New package: Genesys.GenesysCloud version 2.34.771	Dragon1573:issues/149330	OPEN	2024-04-15T16:45:42Z
-149313	New version: TheBrowserCompany.Arc version 0.18.0.22124	Exorcism0666:TheBrowserCompany.Arc-0.18.0.22124-729564435	OPEN	2024-04-15T14:18:45Z
 149291	New version: JetBrains.QodanaCLI version 2024.1.0	qodana-bot:JetBrains.QodanaCLI-2024.1.0-D3F833F6BCA7D8E86F405B1A83A74C11	OPEN	2024-04-15T11:04:55Z
 149272	New version: WestWind.MarkdownMonster version 3.2.10.0	kkbruce:WestWind.MarkdownMonster-3.2.10.0-F07EE2F1	OPEN	2024-04-15T07:50:59Z
 149271	New version: astral-sh.ruff version 0.3.7	frazar:astral-sh.ruff-0.3.7-06C01F79	OPEN	2024-04-15T07:19:01Z
@@ -137,7 +75,6 @@
 148783	Automatic update of PerfectWorld.PerfectWorldArena from 1.0.24041111 to 1.0.24041111.993	wingetbot:AutomaticUpdate_f9010295-502a-4529-a6fb-457579fb7979	OPEN	2024-04-11T20:51:36Z
 148691	Ares commander 2025 sp0	graebertgmbh:AresCommander_2025_SP0	OPEN	2024-04-11T16:44:53Z
 148689	chore: add latest HashiCorp Vault	dugandarinPFG:HashiCorp.Vault-1.16.1	OPEN	2024-04-11T16:27:49Z
-148623	New package: Amazon.AmazonCorretto(x64) version 21.0.2.13	antongrizli:Amazon.AmazonCorretto(x64)-21.0.2.13-2bb6ec1d-62ca-4cdb-98e3-ad80ea7f4fef	OPEN	2024-04-11T07:38:10Z
 148292	New version: evilmartians.lefthook version 1.6.9	mrexox:evilmartians.lefthook-1.6.9-827F860434CD2D160C8E4EBF851890917EDCC383	OPEN	2024-04-09T08:43:26Z
 148233	New version: ente-io.photos-desktop version 1.6.63	Trenly:ente-io.photos-desktop-1.6.63-96847677	OPEN	2024-04-08T22:41:02Z
 148226	New Package: ente-io.ente.Auth version 2.0.50+250	Trenly:ente-io.ente-2.0.50-DD5DCF68	OPEN	2024-04-08T22:20:18Z
@@ -155,7 +92,6 @@
 147089	Automatic update of Piriform.CCleaner.ProTrial from 6.19.0.10858 to 6.22.0.10977	wingetbot:AutomaticUpdate_5d70bc95-320f-476e-877b-62e318768ff6	OPEN	2024-03-30T20:40:27Z
 147057	New version: huanghongxun.HelloMinecraftLauncher version 3.5.7.245	TejasMate:huanghongxun.HelloMinecraftLauncher-3.5.7.245-C19C7AF554FF4677A1FF48E2F61F585C	OPEN	2024-03-30T12:22:55Z
 146880	New package: Beeper.Beeper version 3.102.10	SpecterShell:Beeper.Beeper-3.102.10-F8876EB6	OPEN	2024-03-28T23:41:54Z
-146751	Update version: Aserto.Topaz version 0.31.10	Exorcism0666:Aserto.Topaz-0.31.10-3C4BC16B9E81403DA659567D607BF9BC	OPEN	2024-03-28T01:18:44Z
 146088	New package: Teclib'.GLPIAgent1.7.1 version 1.7.1	MaxKoerck:Teclib'.GLPIAgent1.7.1-1.7.1-db39a5f4-4fbf-402e-9f7c-568446233bf6	OPEN	2024-03-22T23:13:58Z
 145232	New version: OpslyCloud.opsly-cli version v0.0.1-alpha.19	Opsly:release-v0.0.1-alpha.19	OPEN	2024-03-19T15:58:02Z
 145045	Remove: Julialang.Julia.LTS version 1.6.7	SpecterShell:Julialang.Julia.LTS-1.6.7-Remove	DRAFT	2024-03-18T05:50:29Z
