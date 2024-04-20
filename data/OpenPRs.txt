@@ -1,3 +1,8 @@
+150304	New package: TheDocumentFoundation.LibreOffice.HelpPack.LTS version 7.6.6.3	SpecterShell:TheDocumentFoundation.LibreOffice.HelpPack.LTS-7.6.6.3-Newpackage	OPEN	2024-04-20T14:40:24Z
+150303	New version: CentStudio.CentBrowser version 5.1.1130.82	SpecterShell:CentStudio.CentBrowser-5.1.1130.82-00C471D5	OPEN	2024-04-20T13:59:32Z
+150302	ReleaseNotes: 5E.5EClient version 7.1.42	SpecterShell:5E.5EClient-7.1.42-ReleaseNotes	OPEN	2024-04-20T13:35:21Z
+150301	New version: KuaiFan.DooTask version 0.36.84	coolplaylinbot:KuaiFan.DooTask-0.36.84-D792F10F519A4B5AA496F135829A3F21	OPEN	2024-04-20T13:13:03Z
+150300	Revert manifest to actual version number Microsoft.Office 16.0.17425.20176	treysis:patch-91	OPEN	2024-04-20T12:36:26Z
 150299	New version: AutoHotkey.AutoHotkey version 2.0.13	SpecterShell:AutoHotkey.AutoHotkey-2.0.13-270438737	OPEN	2024-04-20T12:10:51Z
 150298	New package: SABnzbdTeam.SABnzbd.Potable version 4.2.3	CoolPlayLin:SABnzbdTeam.SABnzbd.Potable-4.2.3-BBAF5B59432145DEA45EC46D9DD20055	OPEN	2024-04-20T11:08:31Z
 150297	New version: ThaUnknown.Miru version 5.1.0	ThaUnknown:ThaUnknown.Miru-5.1.0-01234A8AC138024A5AE341BCE1F58FD20C8F26B2	OPEN	2024-04-20T10:56:16Z
@@ -10,7 +15,6 @@
 150289	New version: Zoom.Zoom version 6.0.37634 (6.0.3.37634)	SpecterShell:Zoom.Zoom-6.0.37634-586250248	OPEN	2024-04-20T08:53:56Z
 150287	Fix: LastPass.LastPass version 4.129.0.222	SpecterShell:LastPass.LastPass-4.129.0.222-Fix	OPEN	2024-04-20T08:35:39Z
 150286	Update version: OBSProject.OBSStudio version 30.1.2	CoolPlayLin:OBSProject.OBSStudio-30.1.2-D5A28663CFFF4DF0A93E5F8C3D36026D	OPEN	2024-04-20T08:22:18Z
-150285	JanDeDobbeleer.OhMyPosh version 19.24.0	JanDeDobbeleer:JanDeDobbeleer.OhMyPosh-19.24.0-b92cdb4f-8c98-47e7-b959-18d9f83ce14d	OPEN	2024-04-20T07:47:26Z
 150284	New version: aquaproj.aqua 2.27.1	suzuki-shunsuke:aqua-2.27.1	OPEN	2024-04-20T07:41:05Z
 150283	Modify: TheDocumentFoundation.LibreOffice version 24.2.2.2	SpecterShell:TheDocumentFoundation.LibreOffice-24.2.2.2-Modify	OPEN	2024-04-20T07:27:38Z
 150281	New version: SABnzbdTeam.SABnzbd version 4.2.3	vikingnope:SABnzbdTeam.SABnzbd-4.2.3-1CF2FD335DE4434E923A74B436876868	OPEN	2024-04-20T07:10:43Z
@@ -47,7 +51,6 @@
 150250	Modify: Zoom.Zoom version 5.17.31859	SpecterShell:Zoom.Zoom-5.17.31859-2047146653	OPEN	2024-04-20T06:05:19Z
 150249	Modify: Zoom.Zoom version 5.17.33775	SpecterShell:Zoom.Zoom-5.17.33775-468969474	OPEN	2024-04-20T06:04:02Z
 150248	Modify: Zoom.Zoom version 5.17.34827	SpecterShell:Zoom.Zoom-5.17.34827-986154839	OPEN	2024-04-20T06:02:19Z
-150247	New version: Jackett.Jackett version 0.21.2415	Jackett:Jackett.Jackett-0.21.2415-517BA4F0D44300B2272F4D31B546C4C3F12D1967	OPEN	2024-04-20T06:00:59Z
 150246	New version: Ablaze.Floorp.Daylight version 11.12.1	Hibi-10000:Ablaze.Floorp.Daylight-11.12.1	OPEN	2024-04-20T05:58:59Z
 150245	New version: Ablaze.Floorp version 11.12.1	Hibi-10000:Ablaze.Floorp-11.12.1	OPEN	2024-04-20T05:55:24Z
 150244	Add version: Zoom.Zoom.EXE version 5.12.0 (8964)	SpecterShell:Zoom.Zoom.EXE-5.12.0(8964)-1908136524	OPEN	2024-04-20T05:44:44Z
@@ -156,8 +159,6 @@
 148956	New package: Nvidia.app.Beta version 10.0.0.535	aisgbnok:new-NVIDIA.app.Beta-10.0.0.535	OPEN	2024-04-12T22:42:52Z
 148940	Automatic deletion of AtomicJar.Testcontainers 1.10.0	wingetbot:AutomaticUpdate_6bd8251f-61c0-4b7a-8f31-4377061cd12d	OPEN	2024-04-12T20:47:48Z
 148926	Add version: Telegram.Unigram version 10.7.0.9893	rakleed:Telegram.Unigram-10.7.0.9893-3E0F92CC09F24C21B66E20475D9CA0D5	OPEN	2024-04-12T19:28:24Z
-148826	tibbo.ioninja version 5.5.1	vedantmgoyal9:tibbo.ioninja-5.5.1-0161680c-1463-48c0-87ac-c0e548a7f420	OPEN	2024-04-12T01:25:56Z
-148783	Automatic update of PerfectWorld.PerfectWorldArena from 1.0.24041111 to 1.0.24041111.993	wingetbot:AutomaticUpdate_f9010295-502a-4529-a6fb-457579fb7979	OPEN	2024-04-11T20:51:36Z
 148691	Ares commander 2025 sp0	graebertgmbh:AresCommander_2025_SP0	OPEN	2024-04-11T16:44:53Z
 148689	chore: add latest HashiCorp Vault	dugandarinPFG:HashiCorp.Vault-1.16.1	OPEN	2024-04-11T16:27:49Z
 148292	New version: evilmartians.lefthook version 1.6.9	mrexox:evilmartians.lefthook-1.6.9-827F860434CD2D160C8E4EBF851890917EDCC383	OPEN	2024-04-09T08:43:26Z
