@@ -1,3 +1,49 @@
+150195	Automatic update of NativeInstruments.NativeAccess from 3.10.1 to 3.10.3	wingetbot:AutomaticUpdate_edaa52db-b1ee-48ef-af02-1e1ee70c99a2	OPEN	2024-04-20T01:02:44Z
+150194	Automatic deletion of NativeInstruments.NativeAccess 3.9.1	wingetbot:AutomaticUpdate_53ec2b85-b733-4fd6-92f9-8766c3c232ab	OPEN	2024-04-20T00:57:00Z
+150193	SmartSoft.SmartFTP version 10.0.3221.0	matbech:SmartSoft.SmartFTP-10.0.3221.0-1f7256ef-98ce-4851-8a30-0524f7ce7579	OPEN	2024-04-20T00:54:06Z
+150192	Automatic update of NativeInstruments.NativeAccess from 3.9.1 to 3.10.3	wingetbot:AutomaticUpdate_c5c46598-0483-4d03-a3e9-2637f352f24f	OPEN	2024-04-20T00:51:56Z
+150191	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_38546e0a-df21-4919-959e-caf62c93f2ee	OPEN	2024-04-20T00:51:46Z
+150190	New version: blacktop.ipsw 3.1.474	blacktop:ipsw-3.1.474	OPEN	2024-04-20T00:46:49Z
+150189	New version: blacktop.ipswd 3.1.474	blacktop:ipswd-3.1.474	OPEN	2024-04-20T00:46:43Z
+150188	Add version: Figma.Figma version 116.17.13	SpecterShell:Figma.Figma-116.17.13-373914866	OPEN	2024-04-20T00:24:53Z
+150187	New version: Momento.cli version 0.42.8	momento-github-actions-machine-user:Momento.cli-0.42.8-7e6a7e0a-1746-4841-967a-e1b3bad34a8b	OPEN	2024-04-19T23:58:25Z
+150186	Automatic update of IDMComputerSolutions,Inc.UEStudio 23.2.41	wingetbot:AutomaticUpdate_e0f1d9dd-ee6e-4061-97ea-73e47161a2d0	OPEN	2024-04-19T23:42:33Z
+150185	New version: vim.vim.nightly version 9.1.0356	vim:vim.vim.nightly-9.1.0356-535220CDCC83A9845DEDC05D929110ACFE768456	OPEN	2024-04-19T23:39:48Z
+150184	Automatic update of IDMComputerSolutions,Inc.UEStudio from 23.2.41 to 24.0.28	wingetbot:AutomaticUpdate_b53d2500-a035-4579-a1ff-164f6f05b2bc	OPEN	2024-04-19T23:39:14Z
+150183	Automatic update of IDMComputerSolutions,Inc.UltraEdit from 30.2.41 to 31.0.28	wingetbot:AutomaticUpdate_f8b4f3a4-6b76-4809-9bde-f064a623aa05	OPEN	2024-04-19T23:38:21Z
+150182	Modify: Zoom.Zoom version 6.0.37205	SpecterShell:Zoom.Zoom-6.0.37205-Modify	OPEN	2024-04-19T23:32:28Z
+150181	SmartSoft.SmartFTP version 10.0.3220.0	vedantmgoyal9:SmartSoft.SmartFTP-10.0.3220.0-e4579c67-d65a-4213-a1d5-af8410ce02ed	OPEN	2024-04-19T23:27:24Z
+150180	Kubernetes.minikube version 1.33.0	vedantmgoyal9:Kubernetes.minikube-1.33.0-8e5336f5-4903-4281-b5f1-e1db5c4b233f	OPEN	2024-04-19T23:27:00Z
+150179	Discord.Discord.PTB version 1.0.1067	vedantmgoyal9:Discord.Discord.PTB-1.0.1067-1a64c6f2-1068-409c-8f3b-07da6c564230	OPEN	2024-04-19T23:26:45Z
+150178	New version: Sidero.talosctl version 1.7.0	nebula-it:Sidero.talosctl-1.7.0-e22f9d97-d3ee-4ef3-8a3b-07b1468b82ec	OPEN	2024-04-19T23:26:41Z
+150177	Amazon.AWSCLI version 2.15.40	vedantmgoyal9:Amazon.AWSCLI-2.15.40-f237331a-8b55-4dec-8cf4-47b06dd83248	OPEN	2024-04-19T23:26:29Z
+150176	New version: Momento.cli version 0.42.6	momento-github-actions-machine-user:Momento.cli-0.42.6-29ee9fa9-b28f-44f3-aca7-292bd0aab30e	OPEN	2024-04-19T23:03:35Z
+150174	Automatic update of Cisco.Webex 44.3.0.28993	wingetbot:AutomaticUpdate_86bc1cbb-e812-460d-b5a1-cb4b57a8a179	OPEN	2024-04-19T23:02:06Z
+150173	XML Notepad version 2.9.0.9	lovettchris:clovett/xmlnotepad_2.9.0.9	OPEN	2024-04-19T22:58:27Z
+150172	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_15a0852e-f86a-47a3-90d1-be552562ed6d	OPEN	2024-04-19T22:58:04Z
+150171	Moved: Zoom.Zoom.EXE 6.0.0(37205)	SpecterShell:Zoom.Zoom.EXE-6.0.0(37205)-Moved	OPEN	2024-04-19T22:45:55Z
+150170	New version: Figma.Figma version 116.18.6	PckgrBot:Figma.Figma-116.18.6-390ddd49-5567-4d61-ad57-c14e9c4c61e6	OPEN	2024-04-19T22:25:22Z
+150169	New version: Amazon.AWSCLI version 2.15.40	PckgrBot:Amazon.AWSCLI-2.15.40-e210279b-6ded-4473-b1ec-eb7d8281b2b4	OPEN	2024-04-19T22:24:44Z
+150168	Automatic update of RescueTime.DesktopApp from 3.1.7.3 to 3.2.0.10	wingetbot:AutomaticUpdate_86335223-0b49-4824-8fc2-b371e3b44cda	OPEN	2024-04-19T22:17:46Z
+150167	Automatic update of CABS.ScanPrix 6.18.3	wingetbot:AutomaticUpdate_eca21c10-894a-4377-adb9-a04cd4910507	OPEN	2024-04-19T22:17:42Z
+150166	Automatic update of CABS.SalesPrix 6.18.3	wingetbot:AutomaticUpdate_d5728b5b-e070-42b7-91cc-3cf63347bd13	OPEN	2024-04-19T22:17:42Z
+150165	New version: Notion.Notion version 3.5.0	coolplaylinbot:Notion.Notion-3.5.0-6C9726064789448A8950C150DA771DDF	OPEN	2024-04-19T22:14:33Z
+150164	Fix download URL Cisco.CiscoWebexClient 44.4.0.159	treysis:patch-90	OPEN	2024-04-19T22:14:16Z
+150163	Automatic deletion of BiniSoft.WindowsFirewallControl 6.9.9.9	wingetbot:AutomaticUpdate_77e83ed3-2f93-4baf-a38e-da10a58095c8	OPEN	2024-04-19T21:52:20Z
+150162	Automatic update of LogMeIn.Hamachi from 2.3.0.106 to 2.3.0.111	wingetbot:AutomaticUpdate_e7fe1948-626b-47ae-af29-d0db1c73572c	OPEN	2024-04-19T21:48:50Z
+150161	Automatic deletion of Logitech.OptionsPlus 1.68.542186	wingetbot:AutomaticUpdate_5dadc515-88e6-4341-89ac-ae96570027d4	OPEN	2024-04-19T21:48:46Z
+150160	Automatic update of BiniSoft.WindowsFirewallControl from 6.9.9.9 to 6.10.0.0	wingetbot:AutomaticUpdate_43c36175-e184-4aad-a77a-6f9616e08118	OPEN	2024-04-19T21:47:22Z
+150159	Automatic deletion of Qoppa.PDFStudio 2023.0.4.0	wingetbot:AutomaticUpdate_36d82c95-f845-4f59-9f10-58c422573fc6	OPEN	2024-04-19T21:45:51Z
+150158	Automatic deletion of Logitech.GHUB 2024.2.4136	wingetbot:AutomaticUpdate_a2c6bc11-d9ed-4e11-8f48-d89437e511ed	OPEN	2024-04-19T21:44:35Z
+150157	Automatic deletion of BiniSoft.WindowsFirewallControl 6.9.9.8	wingetbot:AutomaticUpdate_d4b09b15-a2bc-4f5b-9d22-50183f3d8ab1	OPEN	2024-04-19T21:42:22Z
+150156	Automatic update of BiniSoft.WindowsFirewallControl from 6.9.9.8 to 6.10.0.0	wingetbot:AutomaticUpdate_2ef06ffd-ee38-4396-82b3-f128b536544c	OPEN	2024-04-19T21:37:13Z
+150155	Automatic update of Lenovo.ServiceBridge from 5.0.2.14 to 5.0.2.16	wingetbot:AutomaticUpdate_4c8baf26-2345-4c8e-821a-7c296e7b0b3d	OPEN	2024-04-19T21:24:32Z
+150154	Update version: Perimeter81Ltd.Perimeter81Ltd version 9.0.2.1195	jnichols35:Perimeter81Ltd.Perimeter81Ltd-9.0.2.1195-75F5FCEAA388472C8920B12D3116DB05	OPEN	2024-04-19T21:16:25Z
+150153	JanDeDobbeleer.OhMyPosh version 19.23.0	JanDeDobbeleer:JanDeDobbeleer.OhMyPosh-19.23.0-9c3edb99-6e39-409e-a247-6e1792e34abe	OPEN	2024-04-19T21:15:41Z
+150152	Update version: Perimeter81Ltd.Perimeter81Ltd version 10.2.0.1494	jnichols35:Perimeter81Ltd.Perimeter81Ltd-10.2.0.1494-8B8C894DB62F4760875D7877474A0496	OPEN	2024-04-19T21:15:31Z
+150151	Update version: Perimeter81Ltd.Perimeter81Ltd version 10.3.0.1526	jnichols35:Perimeter81Ltd.Perimeter81Ltd-10.3.0.1526-951F2EB090374E6C8C917473319275AA	OPEN	2024-04-19T21:15:09Z
+150150	Update version: Perimeter81Ltd.Perimeter81Ltd version 10.3.1.1542	jnichols35:Perimeter81Ltd.Perimeter81Ltd-10.3.1.1542-56B8E2A60E2348F58BD7B38DD75ED01F	OPEN	2024-04-19T21:14:53Z
+150149	Update version: Perimeter81Ltd.Perimeter81Ltd version 10.4.0.1587	jnichols35:Perimeter81Ltd.Perimeter81Ltd-10.4.0.1587-8177A29C79424A71AE5B7A7BAA28395E	OPEN	2024-04-19T21:14:22Z
 150148	Update version: Perimeter81Ltd.Perimeter81Ltd version 10.4.1.1616	jnichols35:Perimeter81Ltd.Perimeter81Ltd-10.4.1.1616-799083EA3BE947F990F21A837CFE1768	OPEN	2024-04-19T21:14:03Z
 150147	New version: Google.Chrome.Canary version 126.0.6428.0	SpecterShell:Google.Chrome.Canary-126.0.6428.0-1362090994	OPEN	2024-04-19T21:10:17Z
 150146	Automatic deletion of PlayStation.PSRemotePlay 7.0.0.02070	wingetbot:AutomaticUpdate_81f632c5-50ef-43a8-96cb-775158df16d3	OPEN	2024-04-19T21:10:12Z
@@ -41,10 +87,8 @@
 150033	Automatic update of Viber.Viber from 22.4.1.0 to 22.5.0.1	wingetbot:AutomaticUpdate_4230fc31-4784-457d-b413-cda37035cd82	OPEN	2024-04-18T22:18:12Z
 150015	New version: MuhammadFareezIqmal.IIUMSchedule version 1.4.4.0	iqfareez:MuhammadFareezIqmal.IIUMSchedule-1.4.4.0-726a1237-dbf4-435a-a430-830ac43a1ae3	OPEN	2024-04-18T21:04:06Z
 150013	Automatic deletion of evernote.evernote 10.85.2.20240416125300	wingetbot:AutomaticUpdate_748a4570-a54c-4d11-83bb-4113c747f42e	OPEN	2024-04-18T20:56:57Z
-150012	New version: STYInc.STY1001.UnowhyTools version 28.00	STY1001:STYInc.STY1001.UnowhyTools-28.00-24c4c7f4-1dd8-41d6-89ff-8121ac40cc83	OPEN	2024-04-18T20:54:10Z
 150003	Automatic deletion of AdGuard.AdGuard.Nightly 7.17.4708.0	wingetbot:AutomaticUpdate_3703ba58-8604-4cb1-9732-8f267ac9a9f8	OPEN	2024-04-18T19:30:13Z
 149994	New version: AIMP.AIMP version 5.30.2541	soredake:AIMP.AIMP-5.30.2541-4CA526972AAE4D78877E26EAFF0FBF3B	OPEN	2024-04-18T18:53:58Z
-149982	New version: Unity.Unity.2023 version 2023.2.19f1	SpecterShell:Unity.Unity.2023-2023.2.19f1-1175079634	OPEN	2024-04-18T17:16:35Z
 149823	Remove version: bencoepp.kommod version 1.0.0.0	Exorcism0666:bencoepp.kommod-1.0.0.0-CD4E3F7B00295DB7700AC16AA45C53D4CE3E56FB	OPEN	2024-04-18T15:23:55Z
 149816	Remove version: BlueMarbleGeographics.GlobalMapper version 24.00.0000	Exorcism0666:BlueMarbleGeographics.GlobalMapper-24.00.0000-30F0C5D4040F64774B97088D9067D5B7A200B424	OPEN	2024-04-18T12:40:41Z
 149780	New version: Microsoft.Promptflow version 1.9.0	0mza987:Microsoft.Promptflow-1.9.0-b701f625-bc34-4e73-827c-1a8607600791	OPEN	2024-04-18T07:30:01Z
@@ -54,13 +98,11 @@
 149742	Automatic update of Stardock.Start10 from 1.9.7 to 9.5.3.0	wingetbot:AutomaticUpdate_9b030d4c-3060-44d5-90f7-fd4a1bd326d1	OPEN	2024-04-18T00:57:44Z
 149737	Playnite.Playnite version 10.33	vedantmgoyal9:Playnite.Playnite-10.33-be17ac32-4e35-45d9-a884-1f41af2b5681	OPEN	2024-04-18T00:34:15Z
 149668	New package: TimKosse.FileZilla version 3.67.0	Jvr2022:TimKosse.FileZilla-3.67.0-2f8ca559-ea5a-444e-b154-7d484012bb12	OPEN	2024-04-17T17:13:02Z
-149666	Update: Mozilla.Firefox.DeveloperEdition version 126.0 (126.0b2)	SpecterShell:Mozilla.Firefox.DeveloperEdition-126.0-1720123507	OPEN	2024-04-17T17:09:58Z
 149664	New version: JetBrains.dotUltimate version 2024.1.1	SpecterShell:JetBrains.dotUltimate-2024.1.1-171593909	OPEN	2024-04-17T17:09:21Z
 149638	New package: ArduinoSA.ArduinoIDE version 2.3.2.0	Jvr2022:ArduinoSA.ArduinoIDE-2.3.2.0-f0211596-fb5d-43a0-921f-ec1470041ae0	OPEN	2024-04-17T13:41:33Z
 149616	New version: Caphyon.AdvancedInstaller version 21.6.1	SpecterShell:Caphyon.AdvancedInstaller-21.6.1-424976299	OPEN	2024-04-17T08:11:24Z
 149611	New version: yetone.OpenAITranslator version 0.3.41	vikingnope:yetone.OpenAITranslator-0.3.41-7D5B3299B08344418D33CF08B3A0B479	OPEN	2024-04-17T07:21:11Z
 149582	Automatic deletion of Nlitesoft.NTLite 2024.4.9879.0	wingetbot:AutomaticUpdate_32475a6f-f525-4565-a63a-83b8ece820ac	OPEN	2024-04-17T01:32:17Z
-149571	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_e72956ea-c493-48af-a5c3-02160863feff	OPEN	2024-04-17T00:58:02Z
 149569	New package: Fendapp.Fendapp version 0.1.5	JadedBlueEyes:Fendapp.Fendapp-0.1.3-9E76790417D14F5C9086E0561BBA9394	OPEN	2024-04-17T00:27:20Z
 149510	Automatic deletion of evernote.evernote 10.84.3.20240409145102	wingetbot:AutomaticUpdate_7b0a6898-349e-4cf4-a4cb-7f559836f49d	OPEN	2024-04-16T20:50:32Z
 149505	Add Audinate Dante Via	Trouffman:AudinateVIA	OPEN	2024-04-16T20:30:35Z
