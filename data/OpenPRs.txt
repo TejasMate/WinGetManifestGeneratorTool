@@ -1,3 +1,11 @@
+150316	Automatic deletion of PerfectWorld.PerfectWorldArena 1.0.24041812	wingetbot:AutomaticUpdate_9c9b6e57-d91b-46f0-9778-cec4b5bfbaa3	OPEN	2024-04-20T20:55:16Z
+150315	Automatic update of PerfectWorld.PerfectWorldArena from 1.0.24041812 to 1.0.24041812.997	wingetbot:AutomaticUpdate_714c3c29-fa78-4011-9ff4-ae2ed29df114	OPEN	2024-04-20T20:50:24Z
+150314	Automatic deletion of Evope.Evope 1.1.4.79	wingetbot:AutomaticUpdate_74904423-c0f0-444f-8880-697cf50a8eb7	OPEN	2024-04-20T20:45:48Z
+150313	New version: RemNote.RemNote version 1.15.26	SpecterShell:RemNote.RemNote-1.15.26-168259387	OPEN	2024-04-20T20:10:16Z
+150312	New version: Google.Chrome.Canary version 126.0.6430.0	SpecterShell:Google.Chrome.Canary-126.0.6430.0-506834600	OPEN	2024-04-20T20:09:23Z
+150311	New version: 64Gram.64Gram version 1.1.19	hlqviet:64Gram.64Gram-1.1.19-B48162CE1E8D410685359AD672FB1DC0	OPEN	2024-04-20T19:19:25Z
+150310	Automatic deletion of DirSoft.ARPro 17.0.1.1110	wingetbot:AutomaticUpdate_f66b8def-1cb9-45a0-bda5-e76eddb30c4f	OPEN	2024-04-20T19:18:07Z
+150309	JanDeDobbeleer.OhMyPosh version 19.24.1	JanDeDobbeleer:JanDeDobbeleer.OhMyPosh-19.24.1-2e0a9ecc-e52e-494d-9f2b-327fe1aa1933	OPEN	2024-04-20T18:19:44Z
 150308	tibbo.ioninja version 5.5.1	vedantmgoyal9:tibbo.ioninja-5.5.1-a46f16f3-2747-483a-83be-acd375a65192	OPEN	2024-04-20T16:28:50Z
 150307	New version: Hugo.Hugo version 0.125.2	SpecterShell:Hugo.Hugo-0.125.2-1031212225	OPEN	2024-04-20T16:09:10Z
 150306	New version: Hugo.Hugo.Extended version 0.125.2	SpecterShell:Hugo.Hugo.Extended-0.125.2-1080010295	OPEN	2024-04-20T16:09:09Z
@@ -163,7 +171,6 @@
 148219	New version: Microsoft.VisualStudio.2022.Community version 17.9.5	Trenly:Microsoft.VisualStudio.2022.Community-17.9.5-0A73C432	OPEN	2024-04-08T20:56:59Z
 148112	New version: RustDesk.RustDesk version 1.2.3-2	SpecterShell:RustDesk.RustDesk-1.2.3-2-644325093	OPEN	2024-04-07T22:31:14Z
 148086	New version: TableClothProject.TableCloth version 1.13.0	rkttu:TableClothProject.TableCloth-1.13.0-5ab0002c-3682-4f6e-a10d-010b75e6bff8	OPEN	2024-04-07T12:28:13Z
-148013	New Version: Samsung.SamsungMagician version 8.1.0	og-mrk:new-manifest-version/Samsung.SamsungMagician-version8.1.0	DRAFT	2024-04-06T14:09:12Z
 147901	New version: GOMLab.GOMPlayer version 2.3.95.5365	Trenly:GOMLab.GOMPlayer-2.3.95.5365-9A9B8F6D	OPEN	2024-04-05T14:31:39Z
 147897	New version: Sigil-Ebook.PageEdit version 2.1.0	Trenly:Sigil-Ebook.PageEdit-2.1.0-7111490	OPEN	2024-04-05T14:21:53Z
 147679	New version: ente-io.ente version 2.0.50	Exorcism0666:ente-io.ente-2.0.50-81718C2F59994150A4E2BEDA24EE5C4A	OPEN	2024-04-04T08:24:17Z
@@ -323,7 +330,6 @@
 141787	New package: NVIDIACorporation.NVIDIAapp version 1.0.14.0	Barradel:NVIDIACorporation.NVIDIAapp-1.0.14.0-8d56a3e1-6c5c-4083-ac50-56a0edd80fa6	OPEN	2024-03-02T17:02:10Z
 141648	Automatic update of Getscreenme.Agent from 2.15.8 to 2.18.1	wingetbot:AutomaticUpdate_f9e15711-8cff-4f9b-b7d6-8e18a1470bd4	OPEN	2024-03-01T21:47:53Z
 141643	Automatic update of Getscreenme.Agent from 2.15.7 to 2.18.1	wingetbot:AutomaticUpdate_af8c7c43-8922-4a82-965a-fd0699dd89d0	OPEN	2024-03-01T21:37:55Z
-141520	New Package: Soundux.Soundux version 0.2.7	og-mrk:update-manifest/Soundux.Soundux	DRAFT	2024-02-29T21:00:07Z
 141230	Automatic update of NAVER.Vaccine from 2021.5.7.1 to 2023.6.12.2	wingetbot:AutomaticUpdate_415ea5e7-83af-48b8-badf-d01279dbc3b8	OPEN	2024-02-27T23:56:39Z
 141183	New Version: VMware.WorkstationPro version 17.5.1.23298084	virtualex-itv:VMware.WorkstationPro-17.5.1	OPEN	2024-02-27T19:34:52Z
 141182	New Version: VMware.WorkstationPlayer version 17.5.1.23298084	virtualex-itv:VMware.WorkstationPlayer-17.5.1	OPEN	2024-02-27T19:34:37Z
