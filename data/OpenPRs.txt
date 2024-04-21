@@ -1,3 +1,12 @@
+150348	New version: Ryujinx.Ryujinx.Ava version 1.1.1288	Exorcism0666:Ryujinx.Ryujinx.Ava-1.1.1288-2951027	OPEN	2024-04-21T02:30:15Z
+150347	New version: Ryujinx.Ryujinx version 1.1.1288	Exorcism0666:Ryujinx.Ryujinx-1.1.1288-432369378	OPEN	2024-04-21T02:30:15Z
+150346	New version: blacktop.ipswd 3.1.475	blacktop:ipswd-3.1.475	OPEN	2024-04-21T02:24:42Z
+150345	New version: blacktop.ipsw 3.1.475	blacktop:ipsw-3.1.475	OPEN	2024-04-21T02:24:36Z
+150344	New version: LizardByte.Sunshine version 0.23.1	LizardByte:LizardByte.Sunshine-0.23.1-1C87D692551D632177C4789E193946032ACAFC02	OPEN	2024-04-21T02:07:03Z
+150343	Add version: UniversityOfAmsterdam.praat version 6.4.09	Exorcism0666:UniversityOfAmsterdam.praat-6.4.09-645AB9B9EA9640D28C37A9C7B333A026	OPEN	2024-04-21T01:27:22Z
+150342	New version: yt-dlp.yt-dlp.nightly version 2024.04.20.232659	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.04.20.232659-1867667285	OPEN	2024-04-21T01:26:44Z
+150341	Automatic deletion of Surfshark.Surfshark 5.7.0999	wingetbot:AutomaticUpdate_84f91563-23ba-4b25-b7dd-aa15f8e5e3a7	OPEN	2024-04-21T01:17:35Z
+150340	New version: Ferdium.Ferdium.Nightly version 6.7.3-nightly.15	Alphrag:Ferdium.Ferdium.Nightly-6.7.3-nightly.15-85458552-3d74-40f5-bef3-fc10366250e7	OPEN	2024-04-21T01:15:45Z
 150339	New version: CologneCodeCompany.XYplorer version 25.90.0000	The-Running-Dev:CologneCodeCompany.XYplorer-25.90.0000-4e6e66d0-b877-4bb7-90f0-e651cc05cb18	OPEN	2024-04-21T01:05:17Z
 150338	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_a9da334a-cbc2-4ec9-b777-e7a0b1e829b8	OPEN	2024-04-21T01:00:22Z
 150337	New version: Microsoft.OneDrive.Internal.Slow version 24.078.0416.0003	SpecterShell:Microsoft.OneDrive.Internal.Slow-24.078.0416.0003-120336320	OPEN	2024-04-21T00:52:05Z
@@ -117,7 +126,6 @@
 150208	New version: GitHub.GitHubDesktop version 3.3.14	PckgrBot:GitHub.GitHubDesktop-3.3.14-5120d872-df8d-493b-8728-38ed07089c07	OPEN	2024-04-20T03:05:07Z
 150206	New version: Aircall.Aircall version 3.1.17	PckgrBot:Aircall.Aircall-3.1.17-54984a42-c7d7-44a0-ae83-751de0e03d75	OPEN	2024-04-20T02:56:21Z
 150203	Microsoft.VisualStudioCode.Insiders.CLI_v1.89.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.Insiders.CLI_v1.89.0	OPEN	2024-04-20T02:13:58Z
-150197	Automatic update of Surfshark.Surfshark from 5.7.0999 to 5.7.1999	wingetbot:AutomaticUpdate_cf0902b3-b135-4169-8f3a-2fa496b6c9d0	OPEN	2024-04-20T01:15:20Z
 150196	Automatic deletion of NativeInstruments.NativeAccess 3.10.1	wingetbot:AutomaticUpdate_929f015a-266b-4940-9ba8-fd88dff0bc0f	OPEN	2024-04-20T01:07:47Z
 150185	New version: vim.vim.nightly version 9.1.0356	vim:vim.vim.nightly-9.1.0356-535220CDCC83A9845DEDC05D929110ACFE768456	OPEN	2024-04-19T23:39:48Z
 150182	Modify: Zoom.Zoom version 6.0.37205	SpecterShell:Zoom.Zoom-6.0.37205-Modify	OPEN	2024-04-19T23:32:28Z
@@ -181,7 +189,6 @@
 148956	New package: Nvidia.app.Beta version 10.0.0.535	aisgbnok:new-NVIDIA.app.Beta-10.0.0.535	OPEN	2024-04-12T22:42:52Z
 148940	Automatic deletion of AtomicJar.Testcontainers 1.10.0	wingetbot:AutomaticUpdate_6bd8251f-61c0-4b7a-8f31-4377061cd12d	OPEN	2024-04-12T20:47:48Z
 148926	Add version: Telegram.Unigram version 10.7.0.9893	rakleed:Telegram.Unigram-10.7.0.9893-3E0F92CC09F24C21B66E20475D9CA0D5	OPEN	2024-04-12T19:28:24Z
-148691	Ares commander 2025 sp0	graebertgmbh:AresCommander_2025_SP0	OPEN	2024-04-11T16:44:53Z
 148689	chore: add latest HashiCorp Vault	dugandarinPFG:HashiCorp.Vault-1.16.1	OPEN	2024-04-11T16:27:49Z
 148292	New version: evilmartians.lefthook version 1.6.9	mrexox:evilmartians.lefthook-1.6.9-827F860434CD2D160C8E4EBF851890917EDCC383	OPEN	2024-04-09T08:43:26Z
 148233	New version: ente-io.photos-desktop version 1.6.63	Trenly:ente-io.photos-desktop-1.6.63-96847677	OPEN	2024-04-08T22:41:02Z
