@@ -1,3 +1,7 @@
+150383	New version: Ryujinx.Ryujinx.Ava version 1.1.1290	Exorcism0666:Ryujinx.Ryujinx.Ava-1.1.1290-1983896401	OPEN	2024-04-21T20:20:43Z
+150382	New version: Ryujinx.Ryujinx version 1.1.1290	Exorcism0666:Ryujinx.Ryujinx-1.1.1290-1685866213	OPEN	2024-04-21T20:20:42Z
+150381	New version: Google.Chrome.Canary version 126.0.6432.0	SpecterShell:Google.Chrome.Canary-126.0.6432.0-1507819749	OPEN	2024-04-21T20:09:58Z
+150380	Automatic update of AnalogDevices.LTspice from 24.0.11.0 to 24.0.12.0	wingetbot:AutomaticUpdate_57fbcd77-815b-4baa-81c9-64a9d78ba772	OPEN	2024-04-21T19:53:13Z
 150377	New package: Datev.Sicherheitspaketcompact version 7.66	HRA42:Datev.Sicherheitspaketcompact-7.66-9699747d-63f7-4c3f-904d-2ea98c5934cc	OPEN	2024-04-21T18:14:10Z
 150375	New version: Microsoft.WindowsAppRuntime.1.5 version 1.5.2	Exorcism0666:Microsoft.WindowsAppRuntime.1.5-1.5.2-D7E06D5B6A9D4C42A302C1B6B68A5358	OPEN	2024-04-21T17:16:06Z
 150373	FinalWire.AIDA64.Extreme version 7.20	sanyer:FinalWire.AIDA64.Extreme-7.20-f31727c5-00f2-4f77-b531-8a61baed4033	OPEN	2024-04-21T16:00:32Z
