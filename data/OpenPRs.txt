@@ -1,3 +1,12 @@
+150366	New package: Motorola.ReadyForAssistant version 6.0.0.0	Pinuaple:Motorola.ReadyForAssistant-6.0.0.0-c7ec61d6-b973-40ed-a086-707f4dd9261b	OPEN	2024-04-21T12:20:47Z
+150364	New version: Ryujinx.Ryujinx version 1.1.1289	Exorcism0666:Ryujinx.Ryujinx-1.1.1289-1382540458	OPEN	2024-04-21T11:16:31Z
+150365	New version: Ryujinx.Ryujinx.Ava version 1.1.1289	Exorcism0666:Ryujinx.Ryujinx.Ava-1.1.1289-10722647	OPEN	2024-04-21T11:16:31Z
+150363	New version: meshmakers.octo-cli version 3.1.37.0	mmgerald:meshmakers.octo-cli-3.1.37.0-949433a9-a78b-4fca-b871-eb70be626427	OPEN	2024-04-21T10:15:18Z
+150362	New version: dundee.gdu version 5.28.0	dundee:dundee.gdu-5.28.0-ADBEECD0EC6C257C81F0B8608F3B3156CE343C85	OPEN	2024-04-21T10:13:56Z
+150361	Update: Valve.Steam version 2.10.91.91	aisgbnok:update-Valve.Steam-2.10.91.91	OPEN	2024-04-21T09:50:58Z
+150360	Modify: TheDocumentFoundation.LibreOffice.LTS version 7.6.6.3	SpecterShell:TheDocumentFoundation.LibreOffice.LTS-7.6.6.3-1466427160	OPEN	2024-04-21T09:42:19Z
+150359	New version: Ablaze.Floorp.Daylight version 11.12.2	Hibi-10000:Ablaze.Floorp.Daylight-11.12.2	OPEN	2024-04-21T09:28:04Z
+150358	Update version: TheBrowserCompany.Arc version 0.18.0.22124	BiosPlus:TheBrowserCompany.Arc-0.18.0.22124-8469E3BED81347D7859068EDBB6C7FFE	OPEN	2024-04-21T09:19:33Z
 150357	New version: SABnzbdTeam.SABnzbd version 4.2.0	BiosPlus:SABnzbdTeam.SABnzbd-4.2.0-88BB8F51C4F145678078020350DBC31C	OPEN	2024-04-21T09:04:45Z
 150356	New version: SABnzbdTeam.SABnzbd version 4.2.1	BiosPlus:SABnzbdTeam.SABnzbd-4.2.1-1EA0817EDD5648A28AE6A86E008D4CFC	OPEN	2024-04-21T09:04:33Z
 150355	New version: SABnzbdTeam.SABnzbd version 4.2.2	BiosPlus:SABnzbdTeam.SABnzbd-4.2.2-932997E3F0A3485282A6C0BC712D13FE	OPEN	2024-04-21T09:04:25Z
@@ -5,7 +14,6 @@
 150352	New version: LiErHeXun.Quicker version 1.42.32.0	SpecterShell:LiErHeXun.Quicker-1.42.32.0-1681888398	OPEN	2024-04-21T08:11:08Z
 150351	New version: Google.Chrome.Canary version 126.0.6431.0	SpecterShell:Google.Chrome.Canary-126.0.6431.0-414414980	OPEN	2024-04-21T08:10:24Z
 150350	the-sz.FlashBuilder version 1.47	the-sz:the-sz.FlashBuilder-1.47-71997149-87c9-448b-abfe-17048b33749b	OPEN	2024-04-21T07:48:44Z
-150349	New version: Jackett.Jackett version 0.21.2424	Jackett:Jackett.Jackett-0.21.2424-45621E0534EDE6ECD47BBADCB18AAC57CF56AEB9	OPEN	2024-04-21T05:56:00Z
 150348	New version: Ryujinx.Ryujinx.Ava version 1.1.1288	Exorcism0666:Ryujinx.Ryujinx.Ava-1.1.1288-2951027	OPEN	2024-04-21T02:30:15Z
 150347	New version: Ryujinx.Ryujinx version 1.1.1288	Exorcism0666:Ryujinx.Ryujinx-1.1.1288-432369378	OPEN	2024-04-21T02:30:15Z
 150346	New version: blacktop.ipswd 3.1.475	blacktop:ipswd-3.1.475	OPEN	2024-04-21T02:24:42Z
@@ -13,7 +21,6 @@
 150344	New version: LizardByte.Sunshine version 0.23.1	LizardByte:LizardByte.Sunshine-0.23.1-1C87D692551D632177C4789E193946032ACAFC02	OPEN	2024-04-21T02:07:03Z
 150343	Add version: UniversityOfAmsterdam.praat version 6.4.09	Exorcism0666:UniversityOfAmsterdam.praat-6.4.09-645AB9B9EA9640D28C37A9C7B333A026	OPEN	2024-04-21T01:27:22Z
 150342	New version: yt-dlp.yt-dlp.nightly version 2024.04.20.232659	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.04.20.232659-1867667285	OPEN	2024-04-21T01:26:44Z
-150341	Automatic deletion of Surfshark.Surfshark 5.7.0999	wingetbot:AutomaticUpdate_84f91563-23ba-4b25-b7dd-aa15f8e5e3a7	OPEN	2024-04-21T01:17:35Z
 150340	New version: Ferdium.Ferdium.Nightly version 6.7.3-nightly.15	Alphrag:Ferdium.Ferdium.Nightly-6.7.3-nightly.15-85458552-3d74-40f5-bef3-fc10366250e7	OPEN	2024-04-21T01:15:45Z
 150339	New version: CologneCodeCompany.XYplorer version 25.90.0000	The-Running-Dev:CologneCodeCompany.XYplorer-25.90.0000-4e6e66d0-b877-4bb7-90f0-e651cc05cb18	OPEN	2024-04-21T01:05:17Z
 150338	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_a9da334a-cbc2-4ec9-b777-e7a0b1e829b8	OPEN	2024-04-21T01:00:22Z
@@ -24,25 +31,18 @@
 150333	New version: Microsoft.OneDrive version 24.065.0331.0002	SpecterShell:Microsoft.OneDrive-24.065.0331.0002-1657063075	OPEN	2024-04-21T00:20:13Z
 150332	Modify: DOSBoxStaging.DOSBoxStaging	CoolPlayLin:fix	OPEN	2024-04-21T00:08:08Z
 150331	Automatic update of IDMComputerSolutions,Inc.UEStudio 23.2.41	wingetbot:AutomaticUpdate_2030c416-9ee2-4b68-9d32-a17303514e54	OPEN	2024-04-20T23:39:17Z
-150330	Automatic deletion of IDMComputerSolutions,Inc.UltraEdit 30.2.41	wingetbot:AutomaticUpdate_99752c1b-53fa-44f9-af96-e18c82124e23	OPEN	2024-04-20T23:38:49Z
 150329	New version: DOSBoxStaging.DOSBoxStaging version 0.81.0	CoolPlayLin:DOSBoxStaging.DOSBoxStaging-0.81.0-E12F800CC7F64B7AA8ABA83CAA5910BC	OPEN	2024-04-20T23:28:03Z
 150328	New version: ScummVM.ScummVM version 2.8.1	CoolPlayLin:ScummVM.ScummVM-2.8.1-80692ACF12D44DC7845625E8CFB0212B	OPEN	2024-04-20T23:26:15Z
-150327	Automatic deletion of WisdomSoftware.ScreenHunter 7.0.1449	wingetbot:AutomaticUpdate_04cf3abe-bd66-4de9-8fed-fc4d162ac70e	OPEN	2024-04-20T23:11:04Z
 150326	New package: yuyuanweb.jianqiezhushou version 0.5	CoolPlayLin:yuyuanweb.jianqiebanzhushou-0.5-8EFC70B5B0D94E69A704F02F5B248B61	OPEN	2024-04-20T23:08:21Z
 150325	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_a9ca9795-5a7c-481a-bd4d-3d13766e1a53	OPEN	2024-04-20T22:57:13Z
 150322	New version: Ablaze.Floorp version 11.12.2	Hibi-10000:Ablaze.Floorp-11.12.2	OPEN	2024-04-20T22:20:46Z
-150321	Automatic deletion of RescueTime.DesktopApp 3.1.7.3	wingetbot:AutomaticUpdate_e4d7272e-2d38-4d04-a571-ca652296903a	OPEN	2024-04-20T22:17:57Z
 150320	New version: Zoom.Zoom version 6.0.3.37634	PckgrBot:Zoom.Zoom-6.0.3.37634-2192cee9-0402-4e20-af86-f04373c9cfc3	OPEN	2024-04-20T21:57:01Z
 150319	Automatic update of Questrade.IQEdge from 6.8.0.300 to 6.9.0.317	wingetbot:AutomaticUpdate_20087876-036c-4ed5-ab67-4dfa31a63657	OPEN	2024-04-20T21:52:38Z
-150318	Automatic deletion of LogMeIn.Hamachi 2.3.0.106	wingetbot:AutomaticUpdate_7e148dff-d983-48b7-a213-d2c23de817f6	OPEN	2024-04-20T21:48:32Z
-150317	Automatic deletion of Lenovo.ServiceBridge 5.0.2.14	wingetbot:AutomaticUpdate_01ab7215-2eb0-403c-8532-3821033e8914	OPEN	2024-04-20T21:24:02Z
 150316	Automatic deletion of PerfectWorld.PerfectWorldArena 1.0.24041812	wingetbot:AutomaticUpdate_9c9b6e57-d91b-46f0-9778-cec4b5bfbaa3	OPEN	2024-04-20T20:55:16Z
 150315	Automatic update of PerfectWorld.PerfectWorldArena from 1.0.24041812 to 1.0.24041812.997	wingetbot:AutomaticUpdate_714c3c29-fa78-4011-9ff4-ae2ed29df114	OPEN	2024-04-20T20:50:24Z
-150314	Automatic deletion of Evope.Evope 1.1.4.79	wingetbot:AutomaticUpdate_74904423-c0f0-444f-8880-697cf50a8eb7	OPEN	2024-04-20T20:45:48Z
 150313	New version: RemNote.RemNote version 1.15.26	SpecterShell:RemNote.RemNote-1.15.26-168259387	OPEN	2024-04-20T20:10:16Z
 150312	New version: Google.Chrome.Canary version 126.0.6430.0	SpecterShell:Google.Chrome.Canary-126.0.6430.0-506834600	OPEN	2024-04-20T20:09:23Z
 150311	New version: 64Gram.64Gram version 1.1.19	hlqviet:64Gram.64Gram-1.1.19-B48162CE1E8D410685359AD672FB1DC0	OPEN	2024-04-20T19:19:25Z
-150310	Automatic deletion of DirSoft.ARPro 17.0.1.1110	wingetbot:AutomaticUpdate_f66b8def-1cb9-45a0-bda5-e76eddb30c4f	OPEN	2024-04-20T19:18:07Z
 150308	tibbo.ioninja version 5.5.1	vedantmgoyal9:tibbo.ioninja-5.5.1-a46f16f3-2747-483a-83be-acd375a65192	OPEN	2024-04-20T16:28:50Z
 150307	New version: Hugo.Hugo version 0.125.2	SpecterShell:Hugo.Hugo-0.125.2-1031212225	OPEN	2024-04-20T16:09:10Z
 150306	New version: Hugo.Hugo.Extended version 0.125.2	SpecterShell:Hugo.Hugo.Extended-0.125.2-1080010295	OPEN	2024-04-20T16:09:09Z
