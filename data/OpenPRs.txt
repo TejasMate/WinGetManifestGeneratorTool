@@ -1,8 +1,22 @@
+150481	New version: Tencent.QQ version 9.7.23.240422	SpecterShell:Tencent.QQ-9.7.23.240422-735433769	OPEN	2024-04-22T09:12:27Z
+150480	New version: Huawei.PCClone version 14.0.3.300(C233) (14.0.3.300)	SpecterShell:Huawei.PCClone-14.0.3.300(C233)-1376541303	OPEN	2024-04-22T09:10:04Z
+150479	Update version: Glarysoft.GlaryUtilities version 6.8.0.12	damn-good-b0t:Glarysoft.GlaryUtilities-6.8.0.12-57856af7-3317-49e6-9db5-2a061b359c28	OPEN	2024-04-22T09:06:42Z
+150478	New version: xavidop.cxcli 1.195.0	xavidop:cxcli-1.195.0	OPEN	2024-04-22T09:05:15Z
+150477	JanDeDobbeleer.OhMyPosh version 19.24.2	JanDeDobbeleer:JanDeDobbeleer.OhMyPosh-19.24.2-8004172d-3af0-49d3-ab8a-c4a6bab51156	OPEN	2024-04-22T08:53:55Z
+150476	Fix portable build of DOSBoxStaging.DOSBoxStaging version 0.80.1	AsciiWolf:patch-1	OPEN	2024-04-22T08:46:28Z
+150475	New version: zig.zig version 0.12.0	250h:zig.zig	OPEN	2024-04-22T08:32:32Z
+150474	New version: LukiLabs.Craft version 1.34.2	SpecterShell:LukiLabs.Craft-1.34.2-987480583	OPEN	2024-04-22T08:12:11Z
+150473	New version: Google.Chrome.Canary version 126.0.6433.0	SpecterShell:Google.Chrome.Canary-126.0.6433.0-2082414288	OPEN	2024-04-22T08:11:40Z
+150472	New version: Alibaba.DingTalk version 7.5.20-Release.4219102	SpecterShell:Alibaba.DingTalk-7.5.20-Release.4219102-175517338	OPEN	2024-04-22T08:10:29Z
+150471	Microsoft.VisualStudioCode.Insiders_v1.89.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.89.0	OPEN	2024-04-22T08:06:13Z
+150470	Applet Runner Pro version 2.11	japplis:applet-runner-pro-2.11	OPEN	2024-04-22T07:51:10Z
+150469	New version: Ximalaya.XimalayaLive version 4.24.728	SpecterShell:Ximalaya.XimalayaLive-4.24.728-466299898	OPEN	2024-04-22T07:14:32Z
+150468	New version: Sogou.SogouInput version 14.4.0.9307 (14.4b)	SpecterShell:Sogou.SogouInput-14.4.0.9307-1644402954	OPEN	2024-04-22T07:12:52Z
+150467	New version: Redisant.MQTTAssistant version 2.0.4.2	SpecterShell:Redisant.MQTTAssistant-2.0.4.2-1871395202	OPEN	2024-04-22T07:11:12Z
+150466	New version: dbeaver.dbeaver version 24.0.3	PckgrBot:dbeaver.dbeaver-24.0.3-d5c6a4a0-c408-481f-82cb-e101e1adc929	OPEN	2024-04-22T06:56:26Z
 150464	New version: Ninja-build.Ninja 1.12.0	Oddegamra:ninja-1.12.0	OPEN	2024-04-22T05:59:50Z
-150463	New version: Jackett.Jackett version 0.21.2428	Jackett:Jackett.Jackett-0.21.2428-A3BB86DDEF20CF2C290FBF622E7ADE887710E308	OPEN	2024-04-22T05:50:40Z
 150462	New package: AdaLang.Alire.Portbale version 2.0.1	250h:AdaLang.Alire.Portbale	OPEN	2024-04-22T05:37:09Z
 150460	Appest.Dida version 5.4.0.0	vedantmgoyal9:Appest.Dida-5.4.0.0-0b8646a5-50f1-4ebc-983f-c1d08b85adc2	OPEN	2024-04-22T05:26:48Z
-150459	Remove: TortoiseSVN.TortoiseSVN version 1.10.0.28176	coolplaylinbot:TortoiseSVN.TortoiseSVN-1.10.0.28176-90C3DEDA5D97057E40DA0DFC8E2CEFFE448272FA	OPEN	2024-04-22T05:25:05Z
 150458	New version: tumic0.GPXSee version 13.19	fancybody:tumic0.GPXSee-13.19-5199A8A224F04A63924CA8C2F281DC4F	OPEN	2024-04-22T05:13:25Z
 150457	Remove version: tumic0.GPXSee version 13.15	fancybody:tumic0.GPXSee-13.15-417B278A6AE8401AB7D8496E2AB8ADC0	OPEN	2024-04-22T05:11:50Z
 150456	New package: AdaLang.Alire version 2.0.1	250h:Adalang.Alire	OPEN	2024-04-22T05:11:33Z
@@ -16,48 +30,10 @@
 150447	New version: PicGo.PicGo.Beta version 2.4.0-beta.7	coolplaylinbot:PicGo.PicGo.Beta-2.4.0-beta.7-A69DC4231CE6409E89C52D54E27A85A0	OPEN	2024-04-22T03:13:08Z
 150446	New version: KuaiFan.DooTask version 0.36.91	coolplaylinbot:KuaiFan.DooTask-0.36.91-32929BFC0ED34E119A42BAB294E0EF71	OPEN	2024-04-22T03:13:04Z
 150445	New version: Appest.Dida version 5.4.0.0	SpecterShell:Appest.Dida-5.4.0.0-128953209	OPEN	2024-04-22T03:09:02Z
-150444	Remove: TechPowerUp.GPU-Z version 2.58.0	coolplaylinbot:TechPowerUp.GPU-Z-2.58.0-DC57A59B196FC029173C4363E6E52A8CF3ACD966	OPEN	2024-04-22T02:18:45Z
 150438	New version: BrettMayson.HEMTT version 1.12.0	BrettMayson:BrettMayson.HEMTT-1.12.0-55B15EBB26FB8087CB531C24642DAB0944B4CA98	OPEN	2024-04-22T01:51:49Z
-150437	Remove: foxglove.studio version 1.22.0	coolplaylinbot:foxglove.studio-1.22.0-2FFB5ABF849B9125307B0FD558CE3A83DF721570	OPEN	2024-04-22T01:47:13Z
-150436	Remove: foxglove.studio version 1.31.1	coolplaylinbot:foxglove.studio-1.31.1-93425F4062374F2BB233A13B2DF7783AE00A47DB	OPEN	2024-04-22T01:47:12Z
-150435	Remove: foxglove.studio version 0.20.1	coolplaylinbot:foxglove.studio-0.20.1-05BCD4B03AE47E3D5A4EE49314D98464F33EE2F7	OPEN	2024-04-22T01:47:11Z
-150434	Remove: foxglove.studio version 1.18.0	coolplaylinbot:foxglove.studio-1.18.0-453BD32E40C2274C96EBA6369FE60F1EBBB6CC95	OPEN	2024-04-22T01:47:10Z
-150433	Remove: foxglove.studio version 1.45.0	coolplaylinbot:foxglove.studio-1.45.0-07FCD64B99CFECBCFE463655FB16CAC83766D62D	OPEN	2024-04-22T01:47:09Z
-150432	Remove: foxglove.studio version 1.24.0	coolplaylinbot:foxglove.studio-1.24.0-F8D479CB28C54516DA983997435068846648E1CC	OPEN	2024-04-22T01:47:08Z
-150431	Remove: foxglove.studio version 1.3.0	coolplaylinbot:foxglove.studio-1.3.0-C0D9B2FAF53571FB01AC40AFFC5895981D827BCB	OPEN	2024-04-22T01:47:07Z
 150430	Remove: foxglove.studio version 1.12.1	coolplaylinbot:foxglove.studio-1.12.1-D6F96228C4A5D8AB5352A19E1281EB9572CE99C8	OPEN	2024-04-22T01:47:06Z
-150429	Remove: foxglove.studio version 0.19.0	coolplaylinbot:foxglove.studio-0.19.0-42F12EBC5B0D0B7DD744632DB7D7A15E012FE629	OPEN	2024-04-22T01:47:05Z
-150428	Remove: foxglove.studio version 1.79.0	coolplaylinbot:foxglove.studio-1.79.0-B2A7B30EA8C1AC5D5C22CCB767192D563AF184E8	OPEN	2024-04-22T01:47:03Z
-150427	Remove: foxglove.studio version 1.13.1	coolplaylinbot:foxglove.studio-1.13.1-6499C5668B3865B106C9452685D5B7EE1A236612	OPEN	2024-04-22T01:47:02Z
 150426	Remove: foxglove.studio version 1.48.0	coolplaylinbot:foxglove.studio-1.48.0-9FBF7384B849AC707070C87674359C7BCC9F2A77	OPEN	2024-04-22T01:47:01Z
-150425	Remove: foxglove.studio version 1.5.1	coolplaylinbot:foxglove.studio-1.5.1-DE52C9F38D55C60F06D122C541CC9D1A03AF0F2E	OPEN	2024-04-22T01:47:00Z
-150424	Remove: foxglove.studio version 0.25.0	coolplaylinbot:foxglove.studio-0.25.0-3B9178D066E26B63B68D39987B10D8037DB44A76	OPEN	2024-04-22T01:46:59Z
-150423	Remove: foxglove.studio version 1.26.0	coolplaylinbot:foxglove.studio-1.26.0-47A199955D9BBBD54DAF46497F061C23CEB32472	OPEN	2024-04-22T01:46:58Z
-150422	Remove: foxglove.studio version 1.12.0	coolplaylinbot:foxglove.studio-1.12.0-F1C44550328BD7BDDA7C58805BCBC07379CDCC46	OPEN	2024-04-22T01:46:53Z
-150421	Remove: foxglove.studio version 0.26.0	coolplaylinbot:foxglove.studio-0.26.0-D8CA5A4FF4573821A3F223AAF36D063F6384CDD3	OPEN	2024-04-22T01:46:52Z
-150420	Remove: foxglove.studio version 1.29.0	coolplaylinbot:foxglove.studio-1.29.0-DBCD6E619BAE68FC89420C464D40A63C499B3EA0	OPEN	2024-04-22T01:46:52Z
-150419	Remove: foxglove.studio version 1.21.0	coolplaylinbot:foxglove.studio-1.21.0-929B8A4C2BC9D6DFB2E9EA5B7922F93ECF651AFD	OPEN	2024-04-22T01:46:51Z
-150418	Remove: foxglove.studio version 1.32.0	coolplaylinbot:foxglove.studio-1.32.0-750368148BCFECFE31C4E6665BAF4000DED2794B	OPEN	2024-04-22T01:46:50Z
-150417	Remove: foxglove.studio version 1.40.0	coolplaylinbot:foxglove.studio-1.40.0-B6C530DBAD2BA3364B613E48E8DB2E16CE81B4F7	OPEN	2024-04-22T01:46:10Z
-150416	Remove: foxglove.studio version 1.28.0	coolplaylinbot:foxglove.studio-1.28.0-7552C2A4A93CB0F509BA9763538971A3661FC94C	OPEN	2024-04-22T01:46:10Z
-150415	Remove: foxglove.studio version 1.78.0	coolplaylinbot:foxglove.studio-1.78.0-DB259C2BD5A3D23B36CDD076C4B641E31D83B4E5	OPEN	2024-04-22T01:46:08Z
-150414	Remove: foxglove.studio version 1.42.1	coolplaylinbot:foxglove.studio-1.42.1-86DEDCE086FF552F734914FB8652567D71628E5D	OPEN	2024-04-22T01:46:07Z
-150413	Remove: foxglove.studio version 1.16.0	coolplaylinbot:foxglove.studio-1.16.0-DCAC5961056DD8F7069959E23D29FFA44B4A1079	OPEN	2024-04-22T01:46:06Z
 150412	Remove: foxglove.studio version 1.36.0	coolplaylinbot:foxglove.studio-1.36.0-56BA708F8772D27175B7B654813DE50937E0B78F	OPEN	2024-04-22T01:46:05Z
-150411	Remove: foxglove.studio version 1.80.0	coolplaylinbot:foxglove.studio-1.80.0-9681BAE48250A4F1B6FDD920178E3D8930729A16	OPEN	2024-04-22T01:46:04Z
-150410	Remove: foxglove.studio version 1.9.1	coolplaylinbot:foxglove.studio-1.9.1-763E2B12B2AA6D4B997E606061DCD3826BA7163E	OPEN	2024-04-22T01:46:03Z
-150409	Remove: foxglove.studio version 1.10.1	coolplaylinbot:foxglove.studio-1.10.1-0E46D7ABF11BDE96F924F49009BEF62CAE4B6F3D	OPEN	2024-04-22T01:46:02Z
-150408	Remove: foxglove.studio version 1.42.0	coolplaylinbot:foxglove.studio-1.42.0-95E621380BB5A20F333825F1611F1311C9CFD204	OPEN	2024-04-22T01:46:01Z
-150407	Remove: foxglove.studio version 1.7.0	coolplaylinbot:foxglove.studio-1.7.0-23233398D1A84C5AAB522098214E6EEC647F3A4A	OPEN	2024-04-22T01:46:00Z
-150406	Remove: foxglove.studio version 1.0.0	coolplaylinbot:foxglove.studio-1.0.0-C8449BA42C783DB27AAC6AD12BD0768BF42353E9	OPEN	2024-04-22T01:45:59Z
-150405	Remove: foxglove.studio version 1.15.0	coolplaylinbot:foxglove.studio-1.15.0-3E0F9213FCEAF71445B2F1EB7290E04E2B3764B4	OPEN	2024-04-22T01:45:57Z
-150404	Remove: foxglove.studio version 0.22.0	coolplaylinbot:foxglove.studio-0.22.0-056F3B7DA492F6E4AD1EB6FB709C4592668773AC	OPEN	2024-04-22T01:45:56Z
-150403	Remove: foxglove.studio version 0.22.1	coolplaylinbot:foxglove.studio-0.22.1-651ABA7B13776CEDA23FBC585D963C5DADC09FC4	OPEN	2024-04-22T01:45:55Z
-150402	Remove: foxglove.studio version 1.6.0	coolplaylinbot:foxglove.studio-1.6.0-6405477E0318434484B4DB13D1DA4F774DDC9E34	OPEN	2024-04-22T01:45:54Z
-150401	Remove: foxglove.studio version 1.14.2	coolplaylinbot:foxglove.studio-1.14.2-8F0421FB9B959F4B2A7F7621E5701ADB42990E40	OPEN	2024-04-22T01:45:53Z
-150400	Remove: foxglove.studio version 1.41.0	coolplaylinbot:foxglove.studio-1.41.0-794834DC9C1AF81B51FE7739D951C21A37F9F520	OPEN	2024-04-22T01:45:52Z
-150399	Remove: foxglove.studio version 1.66.0	coolplaylinbot:foxglove.studio-1.66.0-2BF399506397380FFD13A45FCB2255506175899A	OPEN	2024-04-22T01:45:51Z
-150398	Remove: foxglove.studio version 1.52.0	coolplaylinbot:foxglove.studio-1.52.0-1EACF6DDA549B03BEF623766653AE0AA73541DA1	OPEN	2024-04-22T01:45:49Z
 150397	New version: yt-dlp.yt-dlp.nightly version 2024.04.21.232710	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.04.21.232710-198485405	OPEN	2024-04-22T01:24:02Z
 150396	New version: UniversityOfAmsterdam.praat version 6.4.10	Exorcism0666:UniversityOfAmsterdam.praat-6.4.10-C2ED67A02DB74E04840C9796640C7970	OPEN	2024-04-22T01:23:52Z
 150395	New version: electerm.electerm version 1.38.70	Exorcism0666:electerm.electerm-1.38.70-C15CD676D31043D498C4424FF07881EA	OPEN	2024-04-22T01:23:45Z
@@ -138,77 +114,14 @@
 150295	New version: alexx2000.DoubleCommander version 1.1.13	doublecmd:alexx2000.DoubleCommander-1.1.13-ECBD4887CAE4EE1B9B667EB296BFDC1F67187DD4	OPEN	2024-04-20T10:32:50Z
 150294	New version: Spotify.Spotify version 1.2.36.955.gd8cc9372 (1.2.36.955)	SpecterShell:Spotify.Spotify-1.2.36.955.gd8cc9372-1615024043	OPEN	2024-04-20T10:11:24Z
 150292	New version: FreeDV.FreeDV version 1.9.9.1	vikingnope:FreeDV.FreeDV-1.9.9.1-7D51278751DB4CC5BC3909B719511C2F	OPEN	2024-04-20T09:25:50Z
-150290	New version: Zoom.Zoom.EXE version 6.0.3 (37634) (6.0.3.37634)	SpecterShell:Zoom.Zoom.EXE-6.0.3(37634)-529168760	OPEN	2024-04-20T08:55:17Z
-150289	New version: Zoom.Zoom version 6.0.37634 (6.0.3.37634)	SpecterShell:Zoom.Zoom-6.0.37634-586250248	OPEN	2024-04-20T08:53:56Z
 150284	New version: aquaproj.aqua 2.27.1	suzuki-shunsuke:aqua-2.27.1	OPEN	2024-04-20T07:41:05Z
 150283	Modify: TheDocumentFoundation.LibreOffice version 24.2.2.2	SpecterShell:TheDocumentFoundation.LibreOffice-24.2.2.2-Modify	OPEN	2024-04-20T07:27:38Z
 150281	New version: SABnzbdTeam.SABnzbd version 4.2.3	vikingnope:SABnzbdTeam.SABnzbd-4.2.3-1CF2FD335DE4434E923A74B436876868	OPEN	2024-04-20T07:10:43Z
-150280	Modify: Zoom.Zoom version 5.12.8964	SpecterShell:Zoom.Zoom-5.12.8964-861669970	OPEN	2024-04-20T06:30:57Z
 150279	Modify: Zoom.Zoom version 5.12.9281	SpecterShell:Zoom.Zoom-5.12.9281-1397810912	OPEN	2024-04-20T06:30:24Z
-150278	Modify: Zoom.Zoom version 5.12.9638	SpecterShell:Zoom.Zoom-5.12.9638-2062438546	OPEN	2024-04-20T06:29:52Z
-150277	Modify: Zoom.Zoom version 5.12.10137	SpecterShell:Zoom.Zoom-5.12.10137-1950132423	OPEN	2024-04-20T06:29:20Z
-150276	Modify: Zoom.Zoom version 5.13.11835	SpecterShell:Zoom.Zoom-5.13.11835-175016226	OPEN	2024-04-20T06:28:47Z
-150275	Modify: Zoom.Zoom version 5.14.13888	SpecterShell:Zoom.Zoom-5.14.13888-1705219890	OPEN	2024-04-20T06:22:09Z
-150274	Modify: Zoom.Zoom version 5.14.14578	SpecterShell:Zoom.Zoom-5.14.14578-1207560532	OPEN	2024-04-20T06:21:36Z
-150273	Modify: Zoom.Zoom version 5.14.15287	SpecterShell:Zoom.Zoom-5.14.15287-1207982379	OPEN	2024-04-20T06:21:05Z
-150272	Modify: Zoom.Zoom version 5.14.16213	SpecterShell:Zoom.Zoom-5.14.16213-1780513822	OPEN	2024-04-20T06:20:33Z
-150271	Modify: Zoom.Zoom version 5.14.17221	SpecterShell:Zoom.Zoom-5.14.17221-173865446	OPEN	2024-04-20T06:20:01Z
-150270	Modify: Zoom.Zoom version 5.14.17466	SpecterShell:Zoom.Zoom-5.14.17466-1277095668	OPEN	2024-04-20T06:19:27Z
-150269	Modify: Zoom.Zoom version 5.15.18096	SpecterShell:Zoom.Zoom-5.15.18096-1076503399	OPEN	2024-04-20T06:18:52Z
-150268	Modify: Zoom.Zoom version 5.15.18551	SpecterShell:Zoom.Zoom-5.15.18551-888442804	OPEN	2024-04-20T06:18:23Z
-150267	Modify: Zoom.Zoom version 5.15.19404	SpecterShell:Zoom.Zoom-5.15.19404-2023453358	OPEN	2024-04-20T06:17:53Z
-150266	Modify: Zoom.Zoom version 5.15.19959	SpecterShell:Zoom.Zoom-5.15.19959-754103979	OPEN	2024-04-20T06:17:19Z
-150265	Modify: Zoom.Zoom version 5.15.20303	SpecterShell:Zoom.Zoom-5.15.20303-30754529	OPEN	2024-04-20T06:16:48Z
-150264	Modify: Zoom.Zoom version 5.15.20823	SpecterShell:Zoom.Zoom-5.15.20823-496660610	OPEN	2024-04-20T06:16:16Z
-150263	Modify: Zoom.Zoom version 5.15.21032	SpecterShell:Zoom.Zoom-5.15.21032-563311217	OPEN	2024-04-20T06:15:42Z
-150262	Modify: Zoom.Zoom version 5.15.21574	SpecterShell:Zoom.Zoom-5.15.21574-2060213034	OPEN	2024-04-20T06:12:39Z
-150261	Modify: Zoom.Zoom version 5.16.22201	SpecterShell:Zoom.Zoom-5.16.22201-335308679	OPEN	2024-04-20T06:12:07Z
-150260	Modify: Zoom.Zoom version 5.16.22523	SpecterShell:Zoom.Zoom-5.16.22523-638713223	OPEN	2024-04-20T06:11:35Z
-150259	Modify: Zoom.Zoom version 5.16.22807	SpecterShell:Zoom.Zoom-5.16.22807-1390749856	OPEN	2024-04-20T06:10:56Z
-150258	Modify: Zoom.Zoom version 5.16.24296	SpecterShell:Zoom.Zoom-5.16.24296-1702199253	OPEN	2024-04-20T06:10:20Z
-150256	Modify: Zoom.Zoom version 5.16.24712	SpecterShell:Zoom.Zoom-5.16.24712-146890544	OPEN	2024-04-20T06:09:46Z
-150255	Modify: Zoom.Zoom version 5.16.26186	SpecterShell:Zoom.Zoom-5.16.26186-531524828	OPEN	2024-04-20T06:09:11Z
-150254	Modify: Zoom.Zoom version 5.17.28375	SpecterShell:Zoom.Zoom-5.17.28375-2057323840	OPEN	2024-04-20T06:08:36Z
-150253	Modify: Zoom.Zoom version 5.17.28914	SpecterShell:Zoom.Zoom-5.17.28914-36030273	OPEN	2024-04-20T06:08:02Z
-150252	Modify: Zoom.Zoom version 5.17.29988	SpecterShell:Zoom.Zoom-5.17.29988-936837857	OPEN	2024-04-20T06:07:26Z
-150251	Modify: Zoom.Zoom version 5.17.31030	SpecterShell:Zoom.Zoom-5.17.31030-290268621	OPEN	2024-04-20T06:05:51Z
-150250	Modify: Zoom.Zoom version 5.17.31859	SpecterShell:Zoom.Zoom-5.17.31859-2047146653	OPEN	2024-04-20T06:05:19Z
-150249	Modify: Zoom.Zoom version 5.17.33775	SpecterShell:Zoom.Zoom-5.17.33775-468969474	OPEN	2024-04-20T06:04:02Z
-150248	Modify: Zoom.Zoom version 5.17.34827	SpecterShell:Zoom.Zoom-5.17.34827-986154839	OPEN	2024-04-20T06:02:19Z
-150244	Add version: Zoom.Zoom.EXE version 5.12.0 (8964)	SpecterShell:Zoom.Zoom.EXE-5.12.0(8964)-1908136524	OPEN	2024-04-20T05:44:44Z
-150243	Add version: Zoom.Zoom.EXE version 5.12.2 (9281)	SpecterShell:Zoom.Zoom.EXE-5.12.2(9281)-480995048	OPEN	2024-04-20T05:44:02Z
-150242	Add version: Zoom.Zoom.EXE version 5.12.3 (9638)	SpecterShell:Zoom.Zoom.EXE-5.12.3(9638)-1728340240	OPEN	2024-04-20T05:43:36Z
-150241	Add version: Zoom.Zoom.EXE version 5.12.6 (10137)	SpecterShell:Zoom.Zoom.EXE-5.12.6(10137)-1836860569	OPEN	2024-04-20T05:43:09Z
 150240	Add version: Zoom.Zoom.EXE version 5.13.4 (11835)	SpecterShell:Zoom.Zoom.EXE-5.13.4(11835)-756375668	OPEN	2024-04-20T05:42:44Z
-150239	Add version: Zoom.Zoom.EXE version 5.14.0 (13888)	SpecterShell:Zoom.Zoom.EXE-5.14.0(13888)-684364521	OPEN	2024-04-20T05:35:48Z
-150238	Add version: Zoom.Zoom.EXE version 5.14.2 (14578)	SpecterShell:Zoom.Zoom.EXE-5.14.2(14578)-60347765	OPEN	2024-04-20T05:34:49Z
-150237	Add version: Zoom.Zoom.EXE version 5.14.5 (15287)	SpecterShell:Zoom.Zoom.EXE-5.14.5(15287)-164219238	OPEN	2024-04-20T05:34:03Z
-150236	Add version: Zoom.Zoom.EXE version 5.14.8 (16213)	SpecterShell:Zoom.Zoom.EXE-5.14.8(16213)-701198180	OPEN	2024-04-20T05:33:16Z
-150235	Add version: Zoom.Zoom.EXE version 5.14.10 (17221)	SpecterShell:Zoom.Zoom.EXE-5.14.10(17221)-1991723129	OPEN	2024-04-20T05:32:49Z
 150234	Add version: Zoom.Zoom.EXE version 5.14.11 (17466)	SpecterShell:Zoom.Zoom.EXE-5.14.11(17466)-1647459989	OPEN	2024-04-20T05:32:16Z
-150233	Add version: Zoom.Zoom.EXE version 5.15.2 (18096)	SpecterShell:Zoom.Zoom.EXE-5.15.2(18096)-1963399340	OPEN	2024-04-20T05:31:40Z
-150232	Add version: Zoom.Zoom.EXE version 5.15.3 (18551)	SpecterShell:Zoom.Zoom.EXE-5.15.3(18551)-341734193	OPEN	2024-04-20T05:31:02Z
-150231	Add version: Zoom.Zoom.EXE version 5.15.5 (19404)	SpecterShell:Zoom.Zoom.EXE-5.15.5(19404)-1306957643	OPEN	2024-04-20T05:30:24Z
-150230	Add version: Zoom.Zoom.EXE version 5.15.6 (19959)	SpecterShell:Zoom.Zoom.EXE-5.15.6(19959)-609146890	OPEN	2024-04-20T05:29:45Z
-150229	Add version: Zoom.Zoom.EXE version 5.15.7 (20303)	SpecterShell:Zoom.Zoom.EXE-5.15.7(20303)-540097471	OPEN	2024-04-20T05:29:11Z
-150228	Add version: Zoom.Zoom.EXE version 5.15.10 (20823)	SpecterShell:Zoom.Zoom.EXE-5.15.10(20823)-1375782218	OPEN	2024-04-20T05:28:21Z
-150227	Add version: Zoom.Zoom.EXE version 5.15.11 (21032)	SpecterShell:Zoom.Zoom.EXE-5.15.11(21032)-1210657496	OPEN	2024-04-20T05:27:40Z
-150226	Add version: Zoom.Zoom.EXE version 5.15.12 (21574)	SpecterShell:Zoom.Zoom.EXE-5.15.12(21574)-1487556733	OPEN	2024-04-20T05:26:48Z
-150225	Add version: Zoom.Zoom.EXE version 5.16.0 (22201)	SpecterShell:Zoom.Zoom.EXE-5.16.0(22201)-783027413	OPEN	2024-04-20T05:26:04Z
-150224	Add version: Zoom.Zoom.EXE version 5.16.1 (22523)	SpecterShell:Zoom.Zoom.EXE-5.16.1(22523)-1251699139	OPEN	2024-04-20T05:25:32Z
 150223	Oracle.VirtualBox version 7.0.16	vedantmgoyal9:Oracle.VirtualBox-7.0.16-093b95d4-2e7b-4f1b-a1a2-7588551f91d4	OPEN	2024-04-20T05:25:32Z
 150222	KirillOsenkov.MSBuildStructuredLogViewer version .2.2.235	vedantmgoyal9:KirillOsenkov.MSBuildStructuredLogViewer-.2.2.235-194fe69d-6356-4d73-8120-e75edde155d0	OPEN	2024-04-20T05:25:21Z
-150221	Add version: Zoom.Zoom.EXE version 5.16.2 (22807)	SpecterShell:Zoom.Zoom.EXE-5.16.2(22807)-1367490960	OPEN	2024-04-20T05:24:37Z
-150220	Add version: Zoom.Zoom.EXE version 5.16.5 (24296)	SpecterShell:Zoom.Zoom.EXE-5.16.5(24296)-417034567	OPEN	2024-04-20T05:23:52Z
-150219	Add version: Zoom.Zoom.EXE version 5.16.6 (24712)	SpecterShell:Zoom.Zoom.EXE-5.16.6(24712)-1206212271	OPEN	2024-04-20T05:23:14Z
-150218	Add version: Zoom.Zoom.EXE version 5.16.10 (26186)	SpecterShell:Zoom.Zoom.EXE-5.16.10(26186)-2004600454	OPEN	2024-04-20T05:22:12Z
-150217	Add version: Zoom.Zoom.EXE version 5.17.0 (28375)	SpecterShell:Zoom.Zoom.EXE-5.17.0(28375)-1359460087	OPEN	2024-04-20T05:21:42Z
-150216	Add version: Zoom.Zoom.EXE version 5.17.1 (28914)	SpecterShell:Zoom.Zoom.EXE-5.17.1(28914)-1019689657	OPEN	2024-04-20T05:19:40Z
-150215	Add version: Zoom.Zoom.EXE version 5.17.2 (29988)	SpecterShell:Zoom.Zoom.EXE-5.17.2(29988)-1464569253	OPEN	2024-04-20T05:18:30Z
-150213	Add version: Zoom.Zoom.EXE version 5.17.5 (31030)	SpecterShell:Zoom.Zoom.EXE-5.17.5(31030)-93BD9B0	OPEN	2024-04-20T04:53:48Z
-150212	Add version: Zoom.Zoom.EXE version 5.17.7 (31859)	SpecterShell:Zoom.Zoom.EXE-5.17.7(31859)-9D8719BD	OPEN	2024-04-20T04:52:40Z
-150211	Add version: Zoom.Zoom.EXE version 5.17.10 (33775)	SpecterShell:Zoom.Zoom.EXE-5.17.10(33775)-0551A821	OPEN	2024-04-20T04:51:28Z
-150210	Add version: Zoom.Zoom.EXE version 5.17.11 (34827)	SpecterShell:Zoom.Zoom.EXE-5.17.11(34827)-CE357AAE	OPEN	2024-04-20T04:46:25Z
 150209	Delete .validation Icons8.Lunacy version 8.3.0	drshtmstry:lunacy	OPEN	2024-04-20T04:20:37Z
 150208	New version: GitHub.GitHubDesktop version 3.3.14	PckgrBot:GitHub.GitHubDesktop-3.3.14-5120d872-df8d-493b-8728-38ed07089c07	OPEN	2024-04-20T03:05:07Z
 150206	New version: Aircall.Aircall version 3.1.17	PckgrBot:Aircall.Aircall-3.1.17-54984a42-c7d7-44a0-ae83-751de0e03d75	OPEN	2024-04-20T02:56:21Z
