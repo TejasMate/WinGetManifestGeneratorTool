@@ -1,3 +1,58 @@
+150448	New version: michidk.vscli version 0.3.0	michidk:michidk.vscli-0.3.0-143BEC3A475046D58FFD7D8DFEB53E18	OPEN	2024-04-22T03:16:59Z
+150447	New version: PicGo.PicGo.Beta version 2.4.0-beta.7	coolplaylinbot:PicGo.PicGo.Beta-2.4.0-beta.7-A69DC4231CE6409E89C52D54E27A85A0	OPEN	2024-04-22T03:13:08Z
+150446	New version: KuaiFan.DooTask version 0.36.91	coolplaylinbot:KuaiFan.DooTask-0.36.91-32929BFC0ED34E119A42BAB294E0EF71	OPEN	2024-04-22T03:13:04Z
+150445	New version: Appest.Dida version 5.4.0.0	SpecterShell:Appest.Dida-5.4.0.0-128953209	OPEN	2024-04-22T03:09:02Z
+150444	Remove: TechPowerUp.GPU-Z version 2.58.0	coolplaylinbot:TechPowerUp.GPU-Z-2.58.0-DC57A59B196FC029173C4363E6E52A8CF3ACD966	OPEN	2024-04-22T02:18:45Z
+150443	Remove: foldynl.QLog version 0.33.0	coolplaylinbot:foldynl.QLog-0.33.0-26FE682650EE8E58458ABBBAF2C374C4DC1766F0	OPEN	2024-04-22T02:07:58Z
+150442	Remove: foldynl.QLog version 0.31.0	coolplaylinbot:foldynl.QLog-0.31.0-69E914B378449C33609955C567339F65DCBFA1EC	OPEN	2024-04-22T02:07:56Z
+150441	Remove: foldynl.QLog version 0.29.2	coolplaylinbot:foldynl.QLog-0.29.2-0F25F8CA489E0BE6F628DA118C904C814E3B7D3A	OPEN	2024-04-22T02:07:56Z
+150440	Remove: foldynl.QLog version 0.32.0	coolplaylinbot:foldynl.QLog-0.32.0-7A8A8A8237CA177B42CF945D71FC03A97D6DB431	OPEN	2024-04-22T02:07:54Z
+150439	Remove: foldynl.QLog version 0.33.1	coolplaylinbot:foldynl.QLog-0.33.1-BB133C3B363F11FE316D9426601AFD2A88A82273	OPEN	2024-04-22T02:07:53Z
+150438	New version: BrettMayson.HEMTT version 1.12.0	BrettMayson:BrettMayson.HEMTT-1.12.0-55B15EBB26FB8087CB531C24642DAB0944B4CA98	OPEN	2024-04-22T01:51:49Z
+150437	Remove: foxglove.studio version 1.22.0	coolplaylinbot:foxglove.studio-1.22.0-2FFB5ABF849B9125307B0FD558CE3A83DF721570	OPEN	2024-04-22T01:47:13Z
+150436	Remove: foxglove.studio version 1.31.1	coolplaylinbot:foxglove.studio-1.31.1-93425F4062374F2BB233A13B2DF7783AE00A47DB	OPEN	2024-04-22T01:47:12Z
+150435	Remove: foxglove.studio version 0.20.1	coolplaylinbot:foxglove.studio-0.20.1-05BCD4B03AE47E3D5A4EE49314D98464F33EE2F7	OPEN	2024-04-22T01:47:11Z
+150434	Remove: foxglove.studio version 1.18.0	coolplaylinbot:foxglove.studio-1.18.0-453BD32E40C2274C96EBA6369FE60F1EBBB6CC95	OPEN	2024-04-22T01:47:10Z
+150433	Remove: foxglove.studio version 1.45.0	coolplaylinbot:foxglove.studio-1.45.0-07FCD64B99CFECBCFE463655FB16CAC83766D62D	OPEN	2024-04-22T01:47:09Z
+150432	Remove: foxglove.studio version 1.24.0	coolplaylinbot:foxglove.studio-1.24.0-F8D479CB28C54516DA983997435068846648E1CC	OPEN	2024-04-22T01:47:08Z
+150431	Remove: foxglove.studio version 1.3.0	coolplaylinbot:foxglove.studio-1.3.0-C0D9B2FAF53571FB01AC40AFFC5895981D827BCB	OPEN	2024-04-22T01:47:07Z
+150430	Remove: foxglove.studio version 1.12.1	coolplaylinbot:foxglove.studio-1.12.1-D6F96228C4A5D8AB5352A19E1281EB9572CE99C8	OPEN	2024-04-22T01:47:06Z
+150429	Remove: foxglove.studio version 0.19.0	coolplaylinbot:foxglove.studio-0.19.0-42F12EBC5B0D0B7DD744632DB7D7A15E012FE629	OPEN	2024-04-22T01:47:05Z
+150428	Remove: foxglove.studio version 1.79.0	coolplaylinbot:foxglove.studio-1.79.0-B2A7B30EA8C1AC5D5C22CCB767192D563AF184E8	OPEN	2024-04-22T01:47:03Z
+150427	Remove: foxglove.studio version 1.13.1	coolplaylinbot:foxglove.studio-1.13.1-6499C5668B3865B106C9452685D5B7EE1A236612	OPEN	2024-04-22T01:47:02Z
+150426	Remove: foxglove.studio version 1.48.0	coolplaylinbot:foxglove.studio-1.48.0-9FBF7384B849AC707070C87674359C7BCC9F2A77	OPEN	2024-04-22T01:47:01Z
+150425	Remove: foxglove.studio version 1.5.1	coolplaylinbot:foxglove.studio-1.5.1-DE52C9F38D55C60F06D122C541CC9D1A03AF0F2E	OPEN	2024-04-22T01:47:00Z
+150424	Remove: foxglove.studio version 0.25.0	coolplaylinbot:foxglove.studio-0.25.0-3B9178D066E26B63B68D39987B10D8037DB44A76	OPEN	2024-04-22T01:46:59Z
+150423	Remove: foxglove.studio version 1.26.0	coolplaylinbot:foxglove.studio-1.26.0-47A199955D9BBBD54DAF46497F061C23CEB32472	OPEN	2024-04-22T01:46:58Z
+150422	Remove: foxglove.studio version 1.12.0	coolplaylinbot:foxglove.studio-1.12.0-F1C44550328BD7BDDA7C58805BCBC07379CDCC46	OPEN	2024-04-22T01:46:53Z
+150421	Remove: foxglove.studio version 0.26.0	coolplaylinbot:foxglove.studio-0.26.0-D8CA5A4FF4573821A3F223AAF36D063F6384CDD3	OPEN	2024-04-22T01:46:52Z
+150420	Remove: foxglove.studio version 1.29.0	coolplaylinbot:foxglove.studio-1.29.0-DBCD6E619BAE68FC89420C464D40A63C499B3EA0	OPEN	2024-04-22T01:46:52Z
+150419	Remove: foxglove.studio version 1.21.0	coolplaylinbot:foxglove.studio-1.21.0-929B8A4C2BC9D6DFB2E9EA5B7922F93ECF651AFD	OPEN	2024-04-22T01:46:51Z
+150418	Remove: foxglove.studio version 1.32.0	coolplaylinbot:foxglove.studio-1.32.0-750368148BCFECFE31C4E6665BAF4000DED2794B	OPEN	2024-04-22T01:46:50Z
+150417	Remove: foxglove.studio version 1.40.0	coolplaylinbot:foxglove.studio-1.40.0-B6C530DBAD2BA3364B613E48E8DB2E16CE81B4F7	OPEN	2024-04-22T01:46:10Z
+150416	Remove: foxglove.studio version 1.28.0	coolplaylinbot:foxglove.studio-1.28.0-7552C2A4A93CB0F509BA9763538971A3661FC94C	OPEN	2024-04-22T01:46:10Z
+150415	Remove: foxglove.studio version 1.78.0	coolplaylinbot:foxglove.studio-1.78.0-DB259C2BD5A3D23B36CDD076C4B641E31D83B4E5	OPEN	2024-04-22T01:46:08Z
+150414	Remove: foxglove.studio version 1.42.1	coolplaylinbot:foxglove.studio-1.42.1-86DEDCE086FF552F734914FB8652567D71628E5D	OPEN	2024-04-22T01:46:07Z
+150413	Remove: foxglove.studio version 1.16.0	coolplaylinbot:foxglove.studio-1.16.0-DCAC5961056DD8F7069959E23D29FFA44B4A1079	OPEN	2024-04-22T01:46:06Z
+150412	Remove: foxglove.studio version 1.36.0	coolplaylinbot:foxglove.studio-1.36.0-56BA708F8772D27175B7B654813DE50937E0B78F	OPEN	2024-04-22T01:46:05Z
+150411	Remove: foxglove.studio version 1.80.0	coolplaylinbot:foxglove.studio-1.80.0-9681BAE48250A4F1B6FDD920178E3D8930729A16	OPEN	2024-04-22T01:46:04Z
+150410	Remove: foxglove.studio version 1.9.1	coolplaylinbot:foxglove.studio-1.9.1-763E2B12B2AA6D4B997E606061DCD3826BA7163E	OPEN	2024-04-22T01:46:03Z
+150409	Remove: foxglove.studio version 1.10.1	coolplaylinbot:foxglove.studio-1.10.1-0E46D7ABF11BDE96F924F49009BEF62CAE4B6F3D	OPEN	2024-04-22T01:46:02Z
+150408	Remove: foxglove.studio version 1.42.0	coolplaylinbot:foxglove.studio-1.42.0-95E621380BB5A20F333825F1611F1311C9CFD204	OPEN	2024-04-22T01:46:01Z
+150407	Remove: foxglove.studio version 1.7.0	coolplaylinbot:foxglove.studio-1.7.0-23233398D1A84C5AAB522098214E6EEC647F3A4A	OPEN	2024-04-22T01:46:00Z
+150406	Remove: foxglove.studio version 1.0.0	coolplaylinbot:foxglove.studio-1.0.0-C8449BA42C783DB27AAC6AD12BD0768BF42353E9	OPEN	2024-04-22T01:45:59Z
+150405	Remove: foxglove.studio version 1.15.0	coolplaylinbot:foxglove.studio-1.15.0-3E0F9213FCEAF71445B2F1EB7290E04E2B3764B4	OPEN	2024-04-22T01:45:57Z
+150404	Remove: foxglove.studio version 0.22.0	coolplaylinbot:foxglove.studio-0.22.0-056F3B7DA492F6E4AD1EB6FB709C4592668773AC	OPEN	2024-04-22T01:45:56Z
+150403	Remove: foxglove.studio version 0.22.1	coolplaylinbot:foxglove.studio-0.22.1-651ABA7B13776CEDA23FBC585D963C5DADC09FC4	OPEN	2024-04-22T01:45:55Z
+150402	Remove: foxglove.studio version 1.6.0	coolplaylinbot:foxglove.studio-1.6.0-6405477E0318434484B4DB13D1DA4F774DDC9E34	OPEN	2024-04-22T01:45:54Z
+150401	Remove: foxglove.studio version 1.14.2	coolplaylinbot:foxglove.studio-1.14.2-8F0421FB9B959F4B2A7F7621E5701ADB42990E40	OPEN	2024-04-22T01:45:53Z
+150400	Remove: foxglove.studio version 1.41.0	coolplaylinbot:foxglove.studio-1.41.0-794834DC9C1AF81B51FE7739D951C21A37F9F520	OPEN	2024-04-22T01:45:52Z
+150399	Remove: foxglove.studio version 1.66.0	coolplaylinbot:foxglove.studio-1.66.0-2BF399506397380FFD13A45FCB2255506175899A	OPEN	2024-04-22T01:45:51Z
+150398	Remove: foxglove.studio version 1.52.0	coolplaylinbot:foxglove.studio-1.52.0-1EACF6DDA549B03BEF623766653AE0AA73541DA1	OPEN	2024-04-22T01:45:49Z
+150397	New version: yt-dlp.yt-dlp.nightly version 2024.04.21.232710	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.04.21.232710-198485405	OPEN	2024-04-22T01:24:02Z
+150396	New version: UniversityOfAmsterdam.praat version 6.4.10	Exorcism0666:UniversityOfAmsterdam.praat-6.4.10-C2ED67A02DB74E04840C9796640C7970	OPEN	2024-04-22T01:23:52Z
+150395	New version: electerm.electerm version 1.38.70	Exorcism0666:electerm.electerm-1.38.70-C15CD676D31043D498C4424FF07881EA	OPEN	2024-04-22T01:23:45Z
+150394	Remove: FileVoyager.FileVoyager version 23.5.7.0	coolplaylinbot:FileVoyager.FileVoyager-23.5.7.0-A3E4D97AD7E7587D63682ABD5AC898C573914564	OPEN	2024-04-22T01:21:40Z
 150393	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_e1b46ee0-8600-4564-ad2d-7bd992055937	OPEN	2024-04-22T00:56:32Z
 150392	New package: YairA.Files version 3.3.0.0	Josh65-2201:YairA.Files-3.3.0.0-5b2e2a64-9c26-4d0f-8573-e36e060fa3b5	OPEN	2024-04-22T00:52:12Z
 150391	Tgstation.Server version 6.5.0	Cyberboss:Tgstation.Server-6.5.0-181ec06a-a2c5-4097-961a-37c4cddf08db	OPEN	2024-04-22T00:31:52Z
