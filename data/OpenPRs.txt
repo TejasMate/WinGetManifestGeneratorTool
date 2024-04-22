@@ -1,13 +1,22 @@
+150464	New version: Ninja-build.Ninja 1.12.0	Oddegamra:ninja-1.12.0	OPEN	2024-04-22T05:59:50Z
+150463	New version: Jackett.Jackett version 0.21.2428	Jackett:Jackett.Jackett-0.21.2428-A3BB86DDEF20CF2C290FBF622E7ADE887710E308	OPEN	2024-04-22T05:50:40Z
+150462	New package: AdaLang.Alire.Portbale version 2.0.1	250h:AdaLang.Alire.Portbale	OPEN	2024-04-22T05:37:09Z
+150460	Appest.Dida version 5.4.0.0	vedantmgoyal9:Appest.Dida-5.4.0.0-0b8646a5-50f1-4ebc-983f-c1d08b85adc2	OPEN	2024-04-22T05:26:48Z
+150459	Remove: TortoiseSVN.TortoiseSVN version 1.10.0.28176	coolplaylinbot:TortoiseSVN.TortoiseSVN-1.10.0.28176-90C3DEDA5D97057E40DA0DFC8E2CEFFE448272FA	OPEN	2024-04-22T05:25:05Z
+150458	New version: tumic0.GPXSee version 13.19	fancybody:tumic0.GPXSee-13.19-5199A8A224F04A63924CA8C2F281DC4F	OPEN	2024-04-22T05:13:25Z
+150457	Remove version: tumic0.GPXSee version 13.15	fancybody:tumic0.GPXSee-13.15-417B278A6AE8401AB7D8496E2AB8ADC0	OPEN	2024-04-22T05:11:50Z
+150456	New package: AdaLang.Alire version 2.0.1	250h:Adalang.Alire	OPEN	2024-04-22T05:11:33Z
+150455	New version: GLab.GLab version 1.39.0	fancybody:GLab.GLab-1.39.0-CD0F201848B746ACBAAB40679AB3ABBA	OPEN	2024-04-22T05:01:44Z
+150454	New version: GLab.GLab version 1.38.0	fancybody:GLab.GLab-1.38.0-20F61C5E8C0D450D856661FB68761BA3	OPEN	2024-04-22T05:01:13Z
+150453	New version: Streamlink.Streamlink version 6.7.3-1	fancybody:Streamlink.Streamlink-6.7.3-1-9E849B387EDE4D9AB817AA2A1659B002	OPEN	2024-04-22T04:58:27Z
+150452	Remove: Tableau.PrepBuilder version 23.3.30378	coolplaylinbot:Tableau.PrepBuilder-23.3.30378-37F73D3F64F4C7C29D28934DC546A020A0301EC2	OPEN	2024-04-22T04:49:45Z
+150451	Remove: Tableau.Reader version 23.3.345	coolplaylinbot:Tableau.Reader-23.3.345-50E56E2E79066A3744B8E617975C824142862F93	OPEN	2024-04-22T04:49:44Z
+150450	Remove: Tableau.Public version 23.3.345	coolplaylinbot:Tableau.Public-23.3.345-70DB4778194B6085798E3B455C821DDE2335171A	OPEN	2024-04-22T04:49:30Z
 150448	New version: michidk.vscli version 0.3.0	michidk:michidk.vscli-0.3.0-143BEC3A475046D58FFD7D8DFEB53E18	OPEN	2024-04-22T03:16:59Z
 150447	New version: PicGo.PicGo.Beta version 2.4.0-beta.7	coolplaylinbot:PicGo.PicGo.Beta-2.4.0-beta.7-A69DC4231CE6409E89C52D54E27A85A0	OPEN	2024-04-22T03:13:08Z
 150446	New version: KuaiFan.DooTask version 0.36.91	coolplaylinbot:KuaiFan.DooTask-0.36.91-32929BFC0ED34E119A42BAB294E0EF71	OPEN	2024-04-22T03:13:04Z
 150445	New version: Appest.Dida version 5.4.0.0	SpecterShell:Appest.Dida-5.4.0.0-128953209	OPEN	2024-04-22T03:09:02Z
 150444	Remove: TechPowerUp.GPU-Z version 2.58.0	coolplaylinbot:TechPowerUp.GPU-Z-2.58.0-DC57A59B196FC029173C4363E6E52A8CF3ACD966	OPEN	2024-04-22T02:18:45Z
-150443	Remove: foldynl.QLog version 0.33.0	coolplaylinbot:foldynl.QLog-0.33.0-26FE682650EE8E58458ABBBAF2C374C4DC1766F0	OPEN	2024-04-22T02:07:58Z
-150442	Remove: foldynl.QLog version 0.31.0	coolplaylinbot:foldynl.QLog-0.31.0-69E914B378449C33609955C567339F65DCBFA1EC	OPEN	2024-04-22T02:07:56Z
-150441	Remove: foldynl.QLog version 0.29.2	coolplaylinbot:foldynl.QLog-0.29.2-0F25F8CA489E0BE6F628DA118C904C814E3B7D3A	OPEN	2024-04-22T02:07:56Z
-150440	Remove: foldynl.QLog version 0.32.0	coolplaylinbot:foldynl.QLog-0.32.0-7A8A8A8237CA177B42CF945D71FC03A97D6DB431	OPEN	2024-04-22T02:07:54Z
-150439	Remove: foldynl.QLog version 0.33.1	coolplaylinbot:foldynl.QLog-0.33.1-BB133C3B363F11FE316D9426601AFD2A88A82273	OPEN	2024-04-22T02:07:53Z
 150438	New version: BrettMayson.HEMTT version 1.12.0	BrettMayson:BrettMayson.HEMTT-1.12.0-55B15EBB26FB8087CB531C24642DAB0944B4CA98	OPEN	2024-04-22T01:51:49Z
 150437	Remove: foxglove.studio version 1.22.0	coolplaylinbot:foxglove.studio-1.22.0-2FFB5ABF849B9125307B0FD558CE3A83DF721570	OPEN	2024-04-22T01:47:13Z
 150436	Remove: foxglove.studio version 1.31.1	coolplaylinbot:foxglove.studio-1.31.1-93425F4062374F2BB233A13B2DF7783AE00A47DB	OPEN	2024-04-22T01:47:12Z
@@ -52,7 +61,6 @@
 150397	New version: yt-dlp.yt-dlp.nightly version 2024.04.21.232710	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.04.21.232710-198485405	OPEN	2024-04-22T01:24:02Z
 150396	New version: UniversityOfAmsterdam.praat version 6.4.10	Exorcism0666:UniversityOfAmsterdam.praat-6.4.10-C2ED67A02DB74E04840C9796640C7970	OPEN	2024-04-22T01:23:52Z
 150395	New version: electerm.electerm version 1.38.70	Exorcism0666:electerm.electerm-1.38.70-C15CD676D31043D498C4424FF07881EA	OPEN	2024-04-22T01:23:45Z
-150394	Remove: FileVoyager.FileVoyager version 23.5.7.0	coolplaylinbot:FileVoyager.FileVoyager-23.5.7.0-A3E4D97AD7E7587D63682ABD5AC898C573914564	OPEN	2024-04-22T01:21:40Z
 150393	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_e1b46ee0-8600-4564-ad2d-7bd992055937	OPEN	2024-04-22T00:56:32Z
 150392	New package: YairA.Files version 3.3.0.0	Josh65-2201:YairA.Files-3.3.0.0-5b2e2a64-9c26-4d0f-8573-e36e060fa3b5	OPEN	2024-04-22T00:52:12Z
 150391	Tgstation.Server version 6.5.0	Cyberboss:Tgstation.Server-6.5.0-181ec06a-a2c5-4097-961a-37c4cddf08db	OPEN	2024-04-22T00:31:52Z
