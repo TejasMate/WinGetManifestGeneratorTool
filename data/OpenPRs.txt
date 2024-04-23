@@ -1,9 +1,10 @@
+150580	New version: taers232c.GAMADV-XTD3 version 6.74.00	Exorcism0666:taers232c.GAMADV-XTD3-6.74.00-1236867515	OPEN	2024-04-23T02:30:15Z
+150578	Automatic deletion of Nlitesoft.NTLite 2024.4.9880.0	wingetbot:AutomaticUpdate_b447c714-fc43-4498-affd-a7414ed92fcf	OPEN	2024-04-23T01:36:09Z
+150574	Define machine scope for SonicWALL.NetExtender	rhj-kinsley:patch-1	OPEN	2024-04-23T01:26:32Z
+150570	New version: staniel359.muffon version 2.0.3	Exorcism0666:staniel359.muffon-2.0.3-AB013CB350614821B4C4D30CA4A3BB63	OPEN	2024-04-23T01:22:47Z
 150568	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_798b97ae-a4f8-48fd-9fee-355889e3e292	OPEN	2024-04-23T01:01:46Z
-150567	New version: Doist.Todoist version 9.1.7	SpecterShell:Doist.Todoist-9.1.7-1341027832	OPEN	2024-04-23T00:25:54Z
-150566	Smallstep.step: v0.26.1	smallstep:step-0.26.1	OPEN	2024-04-23T00:17:08Z
 150564	Automatic update of ServerData.Elevate from 2.15.165.0 to 2.15.187.0	wingetbot:AutomaticUpdate_37b0bb67-e7c9-427d-a388-afa7e36444b0	OPEN	2024-04-22T23:47:02Z
 150563	Automatic update of IDMComputerSolutions,Inc.UEStudio 23.2.41	wingetbot:AutomaticUpdate_e29aa386-bcd6-4d0b-86c3-a565288e52c6	OPEN	2024-04-22T23:42:35Z
-150561	New version: Zoom.ZoomRooms version 5.17.9	PckgrBot:Zoom.ZoomRooms-5.17.9-9c9e1bd1-d2f1-4326-85ce-1163a2386415	OPEN	2024-04-22T23:30:18Z
 150543	Automatic update of Tonec.InternetDownloadManager from 6.42.7 to 6.42.8.1	wingetbot:AutomaticUpdate_1b69fd79-57ca-4a8f-a3e1-5bcff7432c5c	OPEN	2024-04-22T21:21:59Z
 150536	Automatic deletion of PerfectWorld.PerfectWorldArena 1.0.24041812	wingetbot:AutomaticUpdate_c6aae251-9909-4bb3-9d63-758067f59cbc	OPEN	2024-04-22T20:55:35Z
 150531	Add version: Coder.Coder version 2.9.4	cdrci:Coder.Coder-2.9.4-04f422b2-e77c-4bfb-9abd-a9d1b73bb362	OPEN	2024-04-22T20:25:23Z
