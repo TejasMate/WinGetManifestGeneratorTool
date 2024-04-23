@@ -1,3 +1,15 @@
+150623	New version: Wondershare.Repairit version 5.5.8.8 (5.5.8)	SpecterShell:Wondershare.Repairit-5.5.8.8-2087968991	OPEN	2024-04-23T12:16:38Z
+150622	New version: Nvidia.GeForceNow version 2.0.62.144	SpecterShell:Nvidia.GeForceNow-2.0.62.144-1507318244	OPEN	2024-04-23T12:15:27Z
+150621	Add Microsoft.DevProxy.Beta 0.17.0-beta.4	garrytrinder:DevProxyBeta-0-17-0-beta-4	OPEN	2024-04-23T12:05:47Z
+150619	Add Microsoft.DevProxy.Beta 0.17.0-beta.3	garrytrinder:DevProxyBeta-0-17-0-beta-3	OPEN	2024-04-23T12:00:19Z
+150618	New version: Databricks.DatabricksCLI version 0.218.0	eng-dev-ecosystem-bot:Databricks.DatabricksCLI-0.218.0-EAC83C6E1213186CC703BEE9668FC54BC2266E71	OPEN	2024-04-23T11:57:19Z
+150617	ReleaseNotes: Alibaba.DingTalk version 7.5.20-Release.4219102	SpecterShell:Alibaba.DingTalk-7.5.20-Release.4219102-ReleaseNotes	OPEN	2024-04-23T11:52:29Z
+150616	purocean.YankNote version 3.68.0	vedantmgoyal9:purocean.YankNote-3.68.0-cf685409-80a7-4f0c-b316-89cd34494b06	OPEN	2024-04-23T11:23:17Z
+150615	Bilibili.Livehime version 5.4.0.6754	vedantmgoyal9:Bilibili.Livehime-5.4.0.6754-3700bd08-ff56-4ee3-94fc-a814675da33b	OPEN	2024-04-23T11:22:57Z
+150614	New version: Doist.Todoist version 9.1.8	SpecterShell:Doist.Todoist-9.1.8-2141500763	OPEN	2024-04-23T11:10:07Z
+150612	New version: Bilibili.Livehime version 5.4.0.6754	SpecterShell:Bilibili.Livehime-5.4.0.6754-862647386	OPEN	2024-04-23T10:08:56Z
+150611	New version: osquery.osquery 5.11.0	khaffner:osquery5110	OPEN	2024-04-23T10:08:15Z
+150610	New version: xavidop.cxcli 1.196.0	xavidop:cxcli-1.196.0	OPEN	2024-04-23T09:23:14Z
 150609	New version: KuaiFan.DooTask version 0.36.97	coolplaylinbot:KuaiFan.DooTask-0.36.97-EFED020E20CD4BBE975DA497A095AE6A	OPEN	2024-04-23T09:12:22Z
 150608	New version: Jabra.Direct version 6.15.10901 (6.15.10901)	SpecterShell:Jabra.Direct-6.15.10901-825108117	OPEN	2024-04-23T09:09:42Z
 150607	New version: Google.Chrome.Canary version 126.0.6435.0	SpecterShell:Google.Chrome.Canary-126.0.6435.0-1231325673	OPEN	2024-04-23T09:09:05Z
