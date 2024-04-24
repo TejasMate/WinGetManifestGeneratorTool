@@ -1,4 +1,12 @@
-150757	New version: Jackett.Jackett version 0.21.2446	Jackett:Jackett.Jackett-0.21.2446-E4E23A2107DCEC62F78D6E45254652622C8B48F5	OPEN	2024-04-24T06:00:08Z
+150770	New version: xavidop.cxcli 1.197.1	xavidop:cxcli-1.197.1	OPEN	2024-04-24T09:13:10Z
+150768	New version: Redisant.RedisantToolbox version 1.0.7.0	SpecterShell:Redisant.RedisantToolbox-1.0.7.0-333720079	OPEN	2024-04-24T08:12:42Z
+150767	New version: Huawei.IdeaShare version 7.02.1.10	SpecterShell:Huawei.IdeaShare-7.02.1.10-458718672	OPEN	2024-04-24T08:11:42Z
+150766	New version: Bosyun.BoardMix.CN version 1.6.4	SpecterShell:Bosyun.BoardMix.CN-1.6.4-334204676	OPEN	2024-04-24T08:11:20Z
+150764	New version: Microsoft.Azure.QuickReview version 1.1.1	cmendible:Microsoft.Azure.QuickReview-1.1.1-07713ce0-a36e-4ebd-b5f5-00ecf7aff64a	OPEN	2024-04-24T07:15:09Z
+150763	New version: EclipseAdoptium.Temurin.21.JDK version 21.0.3.9	andhet:EclipseAdoptium.Temurin.21.JDK-21.0.3.9-CF16D08DFB3A47139208B69216935FD5	OPEN	2024-04-24T07:13:41Z
+150762	New version: EclipseAdoptium.Temurin.17.JDK version 17.0.11.9	andhet:EclipseAdoptium.Temurin.17.JDK-17.0.11.9-838E316CFD004044AA9C028D2D5EAFD3	OPEN	2024-04-24T07:10:04Z
+150761	New version: EclipseAdoptium.Temurin.11.JDK version 11.0.23.9	andhet:EclipseAdoptium.Temurin.11.JDK-11.0.23.9-8AE470F5070D478FB1467D62EED9E1E3	OPEN	2024-04-24T07:06:47Z
+150760	Microsoft.VisualStudioCode.Insiders.CLI_v1.89.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.Insiders.CLI_v1.89.0	OPEN	2024-04-24T07:06:10Z
 150756	New version: Toit.Jaguar version 1.34.0	LeonGungadinMogensen:Toit.Jaguar-1.34.0-b573b490-620f-4f18-a9ef-772f77e64e11	OPEN	2024-04-24T05:37:24Z
 150755	IsWiX.IsWiX version 5.0.53.0	vedantmgoyal9:IsWiX.IsWiX-5.0.53.0-5924d25f-ef87-49c9-afef-6439577c25fc	OPEN	2024-04-24T05:27:03Z
 150754	Migrate package: Proton.ProtonVPN version 3.2.11	Dragon1573:issues/150579/3.2.11	OPEN	2024-04-24T04:59:05Z
@@ -91,7 +99,6 @@
 149751	New version: GodotEngine.GodotEngine version 4.2.2	Exorcism0666:GodotEngine.GodotEngine-4.2.2-B339DB38987147A0BFED8AE888F49CF0	OPEN	2024-04-18T01:21:25Z
 149742	Automatic update of Stardock.Start10 from 1.9.7 to 9.5.3.0	wingetbot:AutomaticUpdate_9b030d4c-3060-44d5-90f7-fd4a1bd326d1	OPEN	2024-04-18T00:57:44Z
 149737	Playnite.Playnite version 10.33	vedantmgoyal9:Playnite.Playnite-10.33-be17ac32-4e35-45d9-a884-1f41af2b5681	OPEN	2024-04-18T00:34:15Z
-149668	New package: TimKosse.FileZilla version 3.67.0	Jvr2022:TimKosse.FileZilla-3.67.0-2f8ca559-ea5a-444e-b154-7d484012bb12	OPEN	2024-04-17T17:13:02Z
 149664	New version: JetBrains.dotUltimate version 2024.1.1	SpecterShell:JetBrains.dotUltimate-2024.1.1-171593909	OPEN	2024-04-17T17:09:21Z
 149638	New package: ArduinoSA.ArduinoIDE version 2.3.2.0	Jvr2022:ArduinoSA.ArduinoIDE-2.3.2.0-f0211596-fb5d-43a0-921f-ec1470041ae0	OPEN	2024-04-17T13:41:33Z
 149569	New package: Fendapp.Fendapp version 0.1.5	JadedBlueEyes:Fendapp.Fendapp-0.1.3-9E76790417D14F5C9086E0561BBA9394	OPEN	2024-04-17T00:27:20Z
