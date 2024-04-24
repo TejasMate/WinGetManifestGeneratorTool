@@ -1,3 +1,9 @@
+150757	New version: Jackett.Jackett version 0.21.2446	Jackett:Jackett.Jackett-0.21.2446-E4E23A2107DCEC62F78D6E45254652622C8B48F5	OPEN	2024-04-24T06:00:08Z
+150756	New version: Toit.Jaguar version 1.34.0	LeonGungadinMogensen:Toit.Jaguar-1.34.0-b573b490-620f-4f18-a9ef-772f77e64e11	OPEN	2024-04-24T05:37:24Z
+150755	IsWiX.IsWiX version 5.0.53.0	vedantmgoyal9:IsWiX.IsWiX-5.0.53.0-5924d25f-ef87-49c9-afef-6439577c25fc	OPEN	2024-04-24T05:27:03Z
+150754	Migrate package: Proton.ProtonVPN version 3.2.11	Dragon1573:issues/150579/3.2.11	OPEN	2024-04-24T04:59:05Z
+150753	New version: Alex313031.Thorium.AVX2 version 123.0.6312.133	SpecterShell:Alex313031.Thorium.AVX2-123.0.6312.133-450149760	OPEN	2024-04-24T04:09:13Z
+150752	New version: NetEase.Lingxi version 1.39.2	SpecterShell:NetEase.Lingxi-1.39.2-2017234064	OPEN	2024-04-24T03:19:18Z
 150751	New version: OddLab.Cubox version 0.2.1	SpecterShell:OddLab.Cubox-0.2.1-1201661406	OPEN	2024-04-24T03:12:33Z
 150750	New version: KristenMcWilliam.Nyrna version 2.20.0	vvirtues:KristenMcWilliam.Nyrna-2.20.0-215AB0DBE5FF4024B6314E1E1656428A	OPEN	2024-04-24T02:13:05Z
 150749	New version: t1m0thyj.WinDynamicDesktop version 5.5.0	t1m0thyj:t1m0thyj.WinDynamicDesktop-5.5.0-B88D0D7C87E7272493D009E135AA47BBBBF809CC	OPEN	2024-04-24T01:38:28Z
