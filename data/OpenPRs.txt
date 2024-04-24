@@ -1,3 +1,17 @@
+150808	Fix publish pipeline	vedantmgoyal9:patch-14	OPEN	2024-04-24T14:39:48Z
+150807	New version: Unity.Unity.2022 version 2022.3.26f1	SpecterShell:Unity.Unity.2022-2022.3.26f1-1887069708	OPEN	2024-04-24T14:13:39Z
+150806	New version: ForgQi.biliup-rs version 0.1.20	SpecterShell:ForgQi.biliup-rs-0.1.20-1631976295	OPEN	2024-04-24T14:10:57Z
+150805	New version: Bilibili.Livehime version 5.4.2.6774	SpecterShell:Bilibili.Livehime-5.4.2.6774-2126670988	OPEN	2024-04-24T14:10:04Z
+150804	New version: pnpm.pnpm version 9.0.6	pnpm:pnpm.pnpm-9.0.6-C4FB45296FFB2B9DCAC35803C8CB9440632C5407	OPEN	2024-04-24T13:45:39Z
+150802	Add Insomnia.Insomnia 9.0.0	rodrigoborgesdeoliveira:insomnia/9.0.0	OPEN	2024-04-24T13:16:37Z
+150801	New version: Vivaldi.Vivaldi.Snapshot version 6.7.3329.16	SpecterShell:Vivaldi.Vivaldi.Snapshot-6.7.3329.16-327824847	OPEN	2024-04-24T13:15:28Z
+150800	New version: Tableau.PrepBuilder version 24.1.33422 (2024.1.1)	SpecterShell:Tableau.PrepBuilder-24.1.33422-1510638811	OPEN	2024-04-24T13:14:19Z
+150799	Add Insomnia.Inso 9.0.0	rodrigoborgesdeoliveira:inso/9.0.0	OPEN	2024-04-24T13:11:00Z
+150798	New version: Orange-OpenSource.Hurl version 4.3.0	lepapareil:Orange-OpenSource.Hurl-4.3.0-c104afe1-5820-45ab-b117-f3ac64bf94a9	OPEN	2024-04-24T13:08:12Z
+150797	Add Microsoft.DevProxy 0.17.0	garrytrinder:microsoft-devproxy-0-17-0	OPEN	2024-04-24T13:06:13Z
+150796	Modify: Tableau.PrepBuilder version 23.3.30378	SpecterShell:Tableau.PrepBuilder-23.3.30378-B543D973	OPEN	2024-04-24T12:46:52Z
+150795	New version: gjergj.testmyapp 0.0.73	Gjergj:testmyapp-v0.0.73	OPEN	2024-04-24T12:40:13Z
+150794	New version: binjr.core-x64 version 3.18.0	binjr-bot:binjr.core-x64-3.18.0-704edb88-0b22-4707-b995-ac75cc6331a7	OPEN	2024-04-24T12:36:54Z
 150793	New version: Seewo.AirTeach version 2.0.10.16602	SpecterShell:Seewo.AirTeach-2.0.10.16602-832662636	OPEN	2024-04-24T12:16:17Z
 150792	New version: 360.360Chrome.X version 22.3.3000.64	SpecterShell:360.360Chrome.X-22.3.3000.64-487583886	OPEN	2024-04-24T12:12:52Z
 150791	Package Fix: GeoGebra.Classic scope 'machine' not found	vikingnope:fix-for-geogebraclassic	OPEN	2024-04-24T11:42:25Z
@@ -12,7 +26,6 @@
 150782	Remove version: DirSoft.ARPro version 17.0.1.1112	PckgrBot:DirSoft.ARPro-17.0.1.1112-77E7D47E457E44198FE13A0C54AB90B3	OPEN	2024-04-24T10:43:35Z
 150781	New version: Gruntwork.Terragrunt version 0.57.8	KaiKorla:terragrunt-0.57.8	OPEN	2024-04-24T10:41:53Z
 150780	New version: Hashicorp.Terraform version 1.8.2	kdpuvvadi:Hashicorp.Terraform-1.8.2-A1399AE9DADE43F9A7DF99D704FFC5A6	OPEN	2024-04-24T10:41:31Z
-150778	New version: TeamViewer.TeamViewer version 15.53.6	PckgrBot:TeamViewer.TeamViewer-15.53.6-13cfa724-8ca9-4a98-8e3b-3c4bd899957b	OPEN	2024-04-24T10:35:42Z
 150777	Remove wrong version Microsoft.Office 16.0.17531.20046	treysis:patch-92	OPEN	2024-04-24T10:30:55Z
 150776	New version: Tencent.TencentMeetingRooms version 3.23.270.618	SpecterShell:Tencent.TencentMeetingRooms-3.23.270.618-868129534	OPEN	2024-04-24T10:27:06Z
 150775	New package: Revopoint.RevoScan version 5.4.6	vikingnope:Revopoint.RevoScan-5.4.6-D2748B54A5964114A3921A47C2858DA2	OPEN	2024-04-24T10:22:58Z
