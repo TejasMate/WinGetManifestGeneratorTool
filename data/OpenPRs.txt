@@ -1,25 +1,51 @@
-150678	New version: Airtame.Airtame version 4.10.0	PckgrBot:Airtame.Airtame-4.10.0-41c68af9-1e10-41db-af4d-43f213de745c	OPEN	2024-04-23T21:11:43Z
-150677	New version: Opera.OperaGX version 109.0.5097.62	PckgrBot:Opera.OperaGX-109.0.5097.62-202eb701-86be-4301-99f8-5cff395dcce3	OPEN	2024-04-23T21:11:21Z
-150676	New version: TeamViewer.TeamViewer.Host version 15.53.6	PckgrBot:TeamViewer.TeamViewer.Host-15.53.6-62c8ba1d-654d-4278-9f1f-4c6ddbeb0c9c	OPEN	2024-04-23T21:10:39Z
-150675	New version: TeamViewer.TeamViewer version 15.53.6	PckgrBot:TeamViewer.TeamViewer-15.53.6-843f1500-cd8d-4af4-8074-0f41ed06ec83	OPEN	2024-04-23T21:10:10Z
-150674	Automatic deletion of FireAlpaca.FireAlpaca 2.11.18.0	wingetbot:AutomaticUpdate_0b50609e-92c1-4775-8edc-63bbc2eac4cc	OPEN	2024-04-23T21:09:34Z
-150673	New version: SlackTechnologies.Slack version 4.38.115	PckgrBot:SlackTechnologies.Slack-4.38.115-91241723-8f06-4fe7-9b9a-7fcfb9530b17	OPEN	2024-04-23T21:09:33Z
-150672	New version: Opera.Opera version 109.0.5097.59	PckgrBot:Opera.Opera-109.0.5097.59-6cab9f8d-5a25-4720-a95a-c4f1cbd65b57	OPEN	2024-04-23T21:08:54Z
-150671	Microsoft.VisualStudioCode.Insiders.CLI_v1.89.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.Insiders.CLI_v1.89.0	OPEN	2024-04-23T21:05:57Z
-150670	Microsoft.VisualStudioCode.Insiders_v1.89.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.89.0	OPEN	2024-04-23T21:04:50Z
-150669	Automatic deletion of evernote.evernote 10.85.4.20240417161904	wingetbot:AutomaticUpdate_c438d8d4-ea71-4f8d-964a-cecf8b1f6dfa	OPEN	2024-04-23T21:00:07Z
-150668	Automatic update of evernote.evernote from 10.85.4.20240417161904 to 10.86.2.20240423095132	wingetbot:AutomaticUpdate_adc1ef57-4694-4ae7-8429-9c0274125c4c	OPEN	2024-04-23T20:55:30Z
-150667	Automatic update of evernote.evernote from 10.85.2.20240416125300 to 10.86.2.20240423095132	wingetbot:AutomaticUpdate_34356e89-5051-40e1-b7ea-685457778783	OPEN	2024-04-23T20:45:13Z
-150666	Automatic deletion of Evope.Evope 1.1.4.80	wingetbot:AutomaticUpdate_c6908c1f-eda2-495c-b955-14378f46899b	OPEN	2024-04-23T20:45:00Z
-150665	New version: Spicetify.Spicetify version 2.36.7	spicetify:Spicetify.Spicetify-2.36.7-4F6E3B2508C3CBBC0B1D548D1D2C13029C8290CC	OPEN	2024-04-23T20:32:11Z
-150664	New version: Google.Chrome.Canary version 126.0.6436.0	SpecterShell:Google.Chrome.Canary-126.0.6436.0-1696470868	OPEN	2024-04-23T20:10:35Z
-150662	Update: Piriform.CCleaner version 6.22	aisgbnok:update-Piriform.CCleaner-6.22	OPEN	2024-04-23T19:30:42Z
-150661	SmartSoft.SmartFTP version 10.0.3222.0	matbech:SmartSoft.SmartFTP-10.0.3222.0-d0536918-e0a0-4d14-b496-baed134f85fa	OPEN	2024-04-23T19:21:37Z
-150660	Automatic update of DirSoft.ARPro from 17.0.1.1111 to 17.0.1.1112	wingetbot:AutomaticUpdate_82d15662-9442-4893-94a1-b3e97aafd13a	OPEN	2024-04-23T19:21:37Z
-150659	New version: JetBrains.PhpStorm version 2024.1.1	SpecterShell:JetBrains.PhpStorm-2024.1.1-573005917	OPEN	2024-04-23T19:09:15Z
-150658	New version: PrismLauncher.PrismLauncher version 8.3	PrismLauncher:PrismLauncher.PrismLauncher-8.3-3CEB313BF6EE1902070E0ED19953FCFBA9114BCB	OPEN	2024-04-23T18:31:27Z
+150738	Automatic update of SoftPerfect.SoftPerfectNetworkScanner 8.2.1	wingetbot:AutomaticUpdate_000e1b89-7aef-4431-9305-575ec784364f	OPEN	2024-04-24T01:02:34Z
+150737	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_756385ee-0927-43b8-8053-af0ed38ef145	OPEN	2024-04-24T01:02:30Z
+150736	New version: CologneCodeCompany.XYplorer version 25.90.0100	The-Running-Dev:CologneCodeCompany.XYplorer-25.90.0100-b7132e1f-73af-4a3a-94b9-0312fcb592ca	OPEN	2024-04-24T01:02:02Z
+150735	New Version: GodotEngine.GodotEngine version 4.2.2	og-mrk:new-manifest-version/GodotEngine.GodotEngine-version4.2.2	OPEN	2024-04-24T00:59:43Z
+150734	Automatic deletion of Jabra.Direct 6.14.8801	wingetbot:AutomaticUpdate_d5ea3dc8-b032-4997-87cb-6577050e5fe3	OPEN	2024-04-24T00:35:57Z
+150733	Remove version: TeamViewer.TeamViewer version 15.53.6	PckgrBot:TeamViewer.TeamViewer-15.53.6-B606FC11E14A48C7A19C212C54605244	OPEN	2024-04-24T00:34:31Z
+150732	Remove version: TeamViewer.TeamViewer.Host version 15.53.6	PckgrBot:TeamViewer.TeamViewer.Host-15.53.6-7A39A4612BEA43D09798F2665C18D378	OPEN	2024-04-24T00:33:39Z
+150731	New version: LLVM.LLVM version 18.1.4	SpecterShell:LLVM.LLVM-18.1.4-1257912317	OPEN	2024-04-24T00:27:37Z
+150730	SpikeHD.swerve version 1.1.1	SpikeHD:swerve	OPEN	2024-04-24T00:23:58Z
+150729	New version: vim.vim.nightly version 9.1.0368	vim:vim.vim.nightly-9.1.0368-49D596E49A3924267B8F26F93ABBB9C69E7D20A8	OPEN	2024-04-23T23:49:15Z
+150728	Automatic deletion of ServerData.Elevate 2.15.165.0	wingetbot:AutomaticUpdate_aad9ebda-5151-4f1a-86e1-15bd8ff936cc	OPEN	2024-04-23T23:45:20Z
+150726	WeMod.WeMod.Beta version 8.19.0-beta00	vedantmgoyal9:WeMod.WeMod.Beta-8.19.0-beta00-049f0d26-6fa3-4237-9e89-79a470add971	OPEN	2024-04-23T23:25:38Z
+150725	SmartSoft.SmartFTP version 10.0.3223.0	vedantmgoyal9:SmartSoft.SmartFTP-10.0.3223.0-984b00f0-43a5-422b-93d6-f50cc8423756	OPEN	2024-04-23T23:25:23Z
+150724	HearthSim.HearthstoneDeckTracker version 1.26.1	vedantmgoyal9:HearthSim.HearthstoneDeckTracker-1.26.1-15c736fb-a183-4bce-a89b-d645a713e436	OPEN	2024-04-23T23:24:51Z
+150723	New version: taers232c.GAMADV-XTD3 version 6.74.01	Exorcism0666:taers232c.GAMADV-XTD3-6.74.01-1485686280	OPEN	2024-04-23T23:20:52Z
+150722	SmartSoft.SmartFTP version 10.0.3223.0	matbech:SmartSoft.SmartFTP-10.0.3223.0-fff252ad-0475-4ab6-93ba-d14a11a82d0a	OPEN	2024-04-23T23:13:52Z
+150721	Modify: JetBrains.Aqua.Preview version 241.15989.28	SpecterShell:JetBrains.Aqua.Preview-241.15989.28-Modify	OPEN	2024-04-23T23:11:10Z
+150720	New version: Google.Chrome.EXE version 124.0.6367.79	SpecterShell:Google.Chrome.EXE-124.0.6367.79-628642852	OPEN	2024-04-23T23:10:47Z
+150719	Modify: JetBrains.CLion.EAP version 241.14494.154	SpecterShell:JetBrains.CLion.EAP-241.14494.154-Modify	OPEN	2024-04-23T23:10:41Z
+150718	New version: Google.Chrome version 124.0.6367.79	SpecterShell:Google.Chrome-124.0.6367.79-670612530	OPEN	2024-04-23T23:10:36Z
+150717	Modify: JetBrains.CLion version 2024.1	SpecterShell:JetBrains.CLion-2024.1-Modify	OPEN	2024-04-23T23:10:14Z
+150716	Modify: JetBrains.DataGrip.EAP version 241.14024.11	SpecterShell:JetBrains.DataGrip.EAP-241.14024.11-Modify	OPEN	2024-04-23T23:09:46Z
+150715	Modify: JetBrains.DataGrip version 2024.1.2	SpecterShell:JetBrains.DataGrip-2024.1.2-Modify	OPEN	2024-04-23T23:09:16Z
+150714	Modify: JetBrains.DataSpell version 2024.1.1	SpecterShell:JetBrains.DataSpell-2024.1.1-Modify	OPEN	2024-04-23T23:08:48Z
+150713	Modify: JetBrains.Gateway version 2024.1.1	SpecterShell:JetBrains.Gateway-2024.1.1-Modify	OPEN	2024-04-23T23:08:15Z
+150712	Modify: JetBrains.GoLand.EAP version 241.14494.131	SpecterShell:JetBrains.GoLand.EAP-241.14494.131-Modify	OPEN	2024-04-23T23:07:37Z
+150711	Modify: JetBrains.GoLand version 2024.1	SpecterShell:JetBrains.GoLand-2024.1-Modify	OPEN	2024-04-23T23:07:10Z
+150710	Modify: JetBrains.IntelliJIDEA.Educational version 2022.2.2	SpecterShell:JetBrains.IntelliJIDEA.Educational-2022.2.2-Modify	OPEN	2024-04-23T23:06:35Z
+150709	Modify: JetBrains.PhpStorm.EAP version 241.15989.22	SpecterShell:JetBrains.PhpStorm.EAP-241.15989.22-Modify	OPEN	2024-04-23T23:05:54Z
+150708	Modify: JetBrains.PhpStorm version 2024.1	SpecterShell:JetBrains.PhpStorm-2024.1-Modify	OPEN	2024-04-23T23:05:24Z
+150707	Modify: JetBrains.PyCharm.Professional.EAP version 241.14494.122	SpecterShell:JetBrains.PyCharm.Professional.EAP-241.14494.122-Modify	OPEN	2024-04-23T23:04:48Z
+150706	Modify: JetBrains.PyCharm.Professional version 2024.1	SpecterShell:JetBrains.PyCharm.Professional-2024.1-Modify	OPEN	2024-04-23T23:04:17Z
+150705	Modify: JetBrains.PyCharm.Community.EAP version 241.14494.122	SpecterShell:JetBrains.PyCharm.Community.EAP-241.14494.122-Modify	OPEN	2024-04-23T23:03:38Z
+150704	Modify: JetBrains.PyCharm.Community version 2024.1	SpecterShell:JetBrains.PyCharm.Community-2024.1-Modify	OPEN	2024-04-23T23:03:13Z
+150703	Modify: JetBrains.Rider.EAP version 241.14494.107	SpecterShell:JetBrains.Rider.EAP-241.14494.107-Modify	OPEN	2024-04-23T23:02:34Z
+150701	Modify: JetBrains.Rider version 2024.1.1	SpecterShell:JetBrains.Rider-2024.1.1-Modify	OPEN	2024-04-23T23:01:58Z
+150700	Modify: JetBrains.RubyMine.EAP version 241.15989.10	SpecterShell:JetBrains.RubyMine.EAP-241.15989.10-Modify	OPEN	2024-04-23T23:01:20Z
+150699	Modify: JetBrains.RubyMine version 2024.1	SpecterShell:JetBrains.RubyMine-2024.1-Modify	OPEN	2024-04-23T23:00:51Z
+150698	Modify: JetBrains.RustRover.EAP version 233.15026.24	SpecterShell:JetBrains.RustRover.EAP-233.15026.24-Modify	OPEN	2024-04-23T23:00:18Z
+150697	Modify: JetBrains.Writerside.EAP version 233.14938	SpecterShell:JetBrains.Writerside.EAP-233.14938-Modify	OPEN	2024-04-23T22:59:28Z
+150696	Modify: JetBrains.IntelliJIDEA.Ultimate.EAP version 241.15989.21	SpecterShell:JetBrains.IntelliJIDEA.Ultimate.EAP-241.15989.21-Modify	OPEN	2024-04-23T22:58:40Z
+150695	Modify: JetBrains.IntelliJIDEA.Ultimate version 2024.1	SpecterShell:JetBrains.IntelliJIDEA.Ultimate-2024.1-Modify	OPEN	2024-04-23T22:58:00Z
+150694	Modify: JetBrains.IntelliJIDEA.Community.EAP version 241.15989.21	SpecterShell:JetBrains.IntelliJIDEA.Community.EAP-241.15989.21-Modify	OPEN	2024-04-23T22:56:01Z
+150693	Modify: JetBrains.IntelliJIDEA.Community version 2024.1	SpecterShell:JetBrains.IntelliJIDEA.Community-2024.1-Modify	OPEN	2024-04-23T22:55:22Z
+150692	Modify: JetBrains.WebStorm.EAP version 241.15989.9	SpecterShell:JetBrains.WebStorm.EAP-241.15989.9-Modify	OPEN	2024-04-23T22:53:45Z
+150691	Modify: JetBrains.WebStorm version 2024.1.1	SpecterShell:JetBrains.WebStorm-2024.1.1-Modify	OPEN	2024-04-23T22:48:44Z
+150683	Automatic deletion of GeoGebra.CalculatorSuite 6.0.836	wingetbot:AutomaticUpdate_bf627746-7e61-4229-a332-1a8308c1921c	OPEN	2024-04-23T21:53:20Z
 150657	New version: WHTA.Tamara version 2024.0.1.1	lars-whta:WHTA.Tamara-2024.0.1.1-893585c4-d764-45cc-a0ab-9ff9b028f63b	OPEN	2024-04-23T18:26:28Z
-150656	Package Fix: Microsoft.WindowsAppRuntime.1.5 not installing correctly	vikingnope:fix-windows-app-runtime	OPEN	2024-04-23T18:10:52Z
 150652	Microsoft.VisualStudio.2022.Community.Preview version 17.10.0	edwardskrod:autogenerated/Microsoft.VisualStudio.2022.Community.Preview/9530002f-af71-4807-bc4a-4c43fd366e35	OPEN	2024-04-23T17:19:46Z
 150651	Microsoft.VisualStudio.2022.Professional.Preview version 17.10.0	edwardskrod:autogenerated/Microsoft.VisualStudio.2022.Professional.Preview/ce9a0619-973c-4a0c-8313-3ee257fe863f	OPEN	2024-04-23T17:19:36Z
 150650	Microsoft.VisualStudio.2022.Enterprise.Preview version 17.10.0	edwardskrod:autogenerated/Microsoft.VisualStudio.2022.Enterprise.Preview/52480649-2995-4212-b14d-b954b26f684a	OPEN	2024-04-23T17:19:26Z
@@ -44,7 +70,6 @@
 150578	Automatic deletion of Nlitesoft.NTLite 2024.4.9880.0	wingetbot:AutomaticUpdate_b447c714-fc43-4498-affd-a7414ed92fcf	OPEN	2024-04-23T01:36:09Z
 150574	Define machine scope for SonicWALL.NetExtender	rhj-kinsley:patch-1	OPEN	2024-04-23T01:26:32Z
 150570	New version: staniel359.muffon version 2.0.3	Exorcism0666:staniel359.muffon-2.0.3-AB013CB350614821B4C4D30CA4A3BB63	OPEN	2024-04-23T01:22:47Z
-150568	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_798b97ae-a4f8-48fd-9fee-355889e3e292	OPEN	2024-04-23T01:01:46Z
 150563	Automatic update of IDMComputerSolutions,Inc.UEStudio 23.2.41	wingetbot:AutomaticUpdate_e29aa386-bcd6-4d0b-86c3-a565288e52c6	OPEN	2024-04-22T23:42:35Z
 150543	Automatic update of Tonec.InternetDownloadManager from 6.42.7 to 6.42.8.1	wingetbot:AutomaticUpdate_1b69fd79-57ca-4a8f-a3e1-5bcff7432c5c	OPEN	2024-04-22T21:21:59Z
 150536	Automatic deletion of PerfectWorld.PerfectWorldArena 1.0.24041812	wingetbot:AutomaticUpdate_c6aae251-9909-4bb3-9d63-758067f59cbc	OPEN	2024-04-22T20:55:35Z
@@ -54,7 +79,7 @@
 150503	New version: LinwoodCloud.Butterfly.Nightly version 2.1.0-rc.0	LinwoodDev:LinwoodCloud.Butterfly.Nightly-2.1.0-rc.0-08A1BA9D5C341176BD95C215F3311F4B12863050	OPEN	2024-04-22T15:18:18Z
 150499	New version: Spicetify.Spicetify version 2.36.6	spicetify:Spicetify.Spicetify-2.36.6-3A676FD0A48036C1E23C94FB8C2CE03C89A8FCE6	OPEN	2024-04-22T14:28:23Z
 150496	New version: TheBrowserCompany.Arc version 0.19.0.23547	Exorcism0666:TheBrowserCompany.Arc-0.19.0.23547-677137552	OPEN	2024-04-22T14:21:01Z
-150494	New version: aquaproj.aqua 2.27.2	suzuki-shunsuke:aqua-2.27.2	DRAFT	2024-04-22T13:34:39Z
+150494	New version: aquaproj.aqua 2.27.2	suzuki-shunsuke:aqua-2.27.2	OPEN	2024-04-22T13:34:39Z
 150486	New version: JetBrains.QodanaCLI version 2024.1.1	qodana-bot:JetBrains.QodanaCLI-2024.1.1-D5E8EAAB687C5AEADCFE2788C1FA5A45	OPEN	2024-04-22T12:17:17Z
 150481	New version: Tencent.QQ version 9.7.23.240422	SpecterShell:Tencent.QQ-9.7.23.240422-735433769	OPEN	2024-04-22T09:12:27Z
 150452	Remove: Tableau.PrepBuilder version 23.3.30378	coolplaylinbot:Tableau.PrepBuilder-23.3.30378-37F73D3F64F4C7C29D28934DC546A020A0301EC2	OPEN	2024-04-22T04:49:45Z
@@ -126,7 +151,7 @@
 147376	New package: FrenchGithubUser.Hatt version 0.3.5	soredake:FrenchGithubUser.Hatt-0.3.5-725E156C080F4C598A9DD6622D522FB2	OPEN	2024-04-02T19:45:10Z
 147354	[PHP] Add PHP 8.0, 8.1, 8.2, and 8.3	PHPWatch:php	OPEN	2024-04-02T13:29:46Z
 147089	Automatic update of Piriform.CCleaner.ProTrial from 6.19.0.10858 to 6.22.0.10977	wingetbot:AutomaticUpdate_5d70bc95-320f-476e-877b-62e318768ff6	OPEN	2024-03-30T20:40:27Z
-146880	New package: Beeper.Beeper version 3.102.10	SpecterShell:Beeper.Beeper-3.102.10-F8876EB6	OPEN	2024-03-28T23:41:54Z
+146880	New package: Beeper.Beeper version 3.103.36	SpecterShell:Beeper.Beeper-3.102.10-F8876EB6	OPEN	2024-03-28T23:41:54Z
 146088	New package: Teclib'.GLPIAgent1.7.1 version 1.7.1	MaxKoerck:Teclib'.GLPIAgent1.7.1-1.7.1-db39a5f4-4fbf-402e-9f7c-568446233bf6	OPEN	2024-03-22T23:13:58Z
 145232	New version: OpslyCloud.opsly-cli version v0.0.1-alpha.19	Opsly:release-v0.0.1-alpha.19	OPEN	2024-03-19T15:58:02Z
 145045	Remove: Julialang.Julia.LTS version 1.6.7	SpecterShell:Julialang.Julia.LTS-1.6.7-Remove	DRAFT	2024-03-18T05:50:29Z
