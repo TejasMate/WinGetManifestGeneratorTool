@@ -1,3 +1,25 @@
+150793	New version: Seewo.AirTeach version 2.0.10.16602	SpecterShell:Seewo.AirTeach-2.0.10.16602-832662636	OPEN	2024-04-24T12:16:17Z
+150792	New version: 360.360Chrome.X version 22.3.3000.64	SpecterShell:360.360Chrome.X-22.3.3000.64-487583886	OPEN	2024-04-24T12:12:52Z
+150791	Package Fix: GeoGebra.Classic scope 'machine' not found	vikingnope:fix-for-geogebraclassic	OPEN	2024-04-24T11:42:25Z
+150790	OctopusDeploy.Server version 2024.1.12600	vedantmgoyal9:OctopusDeploy.Server-2024.1.12600-1a5cafe1-36d2-463c-b0e2-50d928be6538	OPEN	2024-04-24T11:27:02Z
+150789	lukehaas.RunJS version 2.12.0	vedantmgoyal9:lukehaas.RunJS-2.12.0-692427bf-04b1-4ba0-b918-dbbd72abef63	OPEN	2024-04-24T11:26:25Z
+150788	Discord.Discord.Canary version 1.0.227	vedantmgoyal9:Discord.Discord.Canary-1.0.227-205b70d1-7202-4e78-83e8-5875f388e3f3	OPEN	2024-04-24T11:25:50Z
+150787	New version: OONI.OONI-Probe version 3.9.5	Dvd-Znf:master	OPEN	2024-04-24T11:17:58Z
+150786	New version: Tencent.QQ version 9.7.23.240423	SpecterShell:Tencent.QQ-9.7.23.240423-1689414939	OPEN	2024-04-24T11:12:23Z
+150785	New version: Qingfeng.HeyboxWow version 1.9.25	SpecterShell:Qingfeng.HeyboxWow-1.9.25-720127432	OPEN	2024-04-24T11:10:52Z
+150784	New version: JetBrains.RustRover.EAP version 241.15989.101	SpecterShell:JetBrains.RustRover.EAP-241.15989.101-861831930	OPEN	2024-04-24T11:09:57Z
+150783	New version: JetBrains.Writerside.EAP version 241.15989.11	SpecterShell:JetBrains.Writerside.EAP-241.15989.11-2132947761	OPEN	2024-04-24T11:09:57Z
+150782	Remove version: DirSoft.ARPro version 17.0.1.1112	PckgrBot:DirSoft.ARPro-17.0.1.1112-77E7D47E457E44198FE13A0C54AB90B3	OPEN	2024-04-24T10:43:35Z
+150781	New version: Gruntwork.Terragrunt version 0.57.8	KaiKorla:terragrunt-0.57.8	OPEN	2024-04-24T10:41:53Z
+150780	New version: Hashicorp.Terraform version 1.8.2	kdpuvvadi:Hashicorp.Terraform-1.8.2-A1399AE9DADE43F9A7DF99D704FFC5A6	OPEN	2024-04-24T10:41:31Z
+150778	New version: TeamViewer.TeamViewer version 15.53.6	PckgrBot:TeamViewer.TeamViewer-15.53.6-13cfa724-8ca9-4a98-8e3b-3c4bd899957b	OPEN	2024-04-24T10:35:42Z
+150777	Remove wrong version Microsoft.Office 16.0.17531.20046	treysis:patch-92	OPEN	2024-04-24T10:30:55Z
+150776	New version: Tencent.TencentMeetingRooms version 3.23.270.618	SpecterShell:Tencent.TencentMeetingRooms-3.23.270.618-868129534	OPEN	2024-04-24T10:27:06Z
+150775	New package: Revopoint.RevoScan version 5.4.6	vikingnope:Revopoint.RevoScan-5.4.6-D2748B54A5964114A3921A47C2858DA2	OPEN	2024-04-24T10:22:58Z
+150774	New package: DoD.STIGViewer version 3.3.0	vikingnope:DoD.STIGViewer-3.3.0-1C5AE85D617347758071F275E42B2908	OPEN	2024-04-24T10:18:13Z
+150773	New version: Reqable.Reqable version 2.13.0	SpecterShell:Reqable.Reqable-2.13.0-733673705	OPEN	2024-04-24T10:12:43Z
+150772	New version: Google.Chrome.Canary version 126.0.6437.0	SpecterShell:Google.Chrome.Canary-126.0.6437.0-1004057201	OPEN	2024-04-24T10:11:36Z
+150771	New version: Microsoft.Azure.QuickReview version 1.1.2	cmendible:Microsoft.Azure.QuickReview-1.1.2-e701cac3-8c0a-434b-aa3d-b4b735ce89f2	OPEN	2024-04-24T09:37:35Z
 150770	New version: xavidop.cxcli 1.197.1	xavidop:cxcli-1.197.1	OPEN	2024-04-24T09:13:10Z
 150768	New version: Redisant.RedisantToolbox version 1.0.7.0	SpecterShell:Redisant.RedisantToolbox-1.0.7.0-333720079	OPEN	2024-04-24T08:12:42Z
 150767	New version: Huawei.IdeaShare version 7.02.1.10	SpecterShell:Huawei.IdeaShare-7.02.1.10-458718672	OPEN	2024-04-24T08:11:42Z
