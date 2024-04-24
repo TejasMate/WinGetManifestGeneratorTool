@@ -1,3 +1,25 @@
+150846	New package: JakobHellermann.Atlas version 1.2.0.0	jakobhellermann:JakobHellermann.Atlas-1.2.0.0-c7ed89da-855e-47e1-b8b0-f528cccce510	OPEN	2024-04-24T21:11:28Z
+150845	New version: Google.Chrome.Canary version 126.0.6438.0	SpecterShell:Google.Chrome.Canary-126.0.6438.0-1229235445	OPEN	2024-04-24T21:10:13Z
+150844	Automatic deletion of evernote.evernote 10.86.2.20240423095132	wingetbot:AutomaticUpdate_d52cc20d-61cc-4e0a-b1ca-7be75e24d768	OPEN	2024-04-24T21:00:36Z
+150843	Automatic update of evernote.evernote from 10.86.2.20240423095132 to 10.86.4.20240424105017	wingetbot:AutomaticUpdate_db9cc72d-8638-4951-8d8b-514d5f18b593	OPEN	2024-04-24T20:55:50Z
+150842	Automatic update of F6CTE.MultiPSK from 4.48.4.1 to 4.48.5	wingetbot:AutomaticUpdate_52a99b9a-603d-40ec-837a-9514c9a028ff	OPEN	2024-04-24T20:53:39Z
+150839	Automatic update of evernote.evernote from 10.85.2.20240416125300 to 10.86.4.20240424105017	wingetbot:AutomaticUpdate_1137deba-e92b-43a3-a3e9-be6a5483c6fb	OPEN	2024-04-24T20:45:54Z
+150838	Automatic update of Evope.Evope from 1.1.4.81 to 1.1.4.84	wingetbot:AutomaticUpdate_2df516b7-bb3c-4f8e-b0d9-3fde083180cb	OPEN	2024-04-24T20:45:52Z
+150837	New version: SoftwareFreedomConservancy.QEMU version 9.0.0	vikingnope:SoftwareFreedomConservancy.QEMU-9.0.0-357194BFA317408EB9283779BF3FF95E	OPEN	2024-04-24T20:39:14Z
+150836	Automatic update of ArobasMusic.GuitarPro.8 from 8.1.1-17 to 8.1.2.32	wingetbot:AutomaticUpdate_354e4fea-7bcb-4e0f-91cb-ecc6dd82155d	OPEN	2024-04-24T20:22:55Z
+150835	New version: DuckDuckGo.DesktopBrowser version 0.77.1.0	SpecterShell:DuckDuckGo.DesktopBrowser-0.77.1.0-1452792371	OPEN	2024-04-24T20:10:03Z
+150834	Automatic deletion of AnalogDevices.LTspice 24.0.11.0	wingetbot:AutomaticUpdate_72db04f8-7fef-455b-a904-5b34c6dd4ba7	OPEN	2024-04-24T19:53:30Z
+150833	New version: Unibo.Alchemist version 33.1.0	DanySK:Unibo.Alchemist-33.1.0-0eafb150-c47e-425b-8020-a0c4dcf8d581	OPEN	2024-04-24T19:44:19Z
+150832	New version: Modrinth.ModrinthApp version 0.7.1	TheBossMagnus:Modrinth.ModrinthApp-0.7.1-ec40a7a5-bee0-46fd-bc43-1274c8108c2d	OPEN	2024-04-24T19:31:18Z
+150831	Automatic deletion of DirSoft.ARPro 17.0.1.1111	wingetbot:AutomaticUpdate_0faf2ae2-ebd8-44b5-a258-7184c8667734	OPEN	2024-04-24T19:21:51Z
+150830	Automatic update of DigitalExtremes.Warframe 1.0.0	wingetbot:AutomaticUpdate_871ec1a0-2835-4a1d-92d7-842f8fedff18	OPEN	2024-04-24T19:17:58Z
+150829	Automatic update of AgileBits.1Password.Beta from 8.10.32-1.BETA to 8.10.32-11.BETA	wingetbot:AutomaticUpdate_c6eb15f2-9f6d-4667-90a0-99437d515aa8	OPEN	2024-04-24T19:17:46Z
+150828	Automatic update of AdGuard.AdGuardVPN.Nightly from 2.3.1373.0 to 2.3.1385.0	wingetbot:AutomaticUpdate_0f7f21f5-ed6f-4c31-bcee-b642063c14bf	OPEN	2024-04-24T19:09:00Z
+150827	Package Fix: IDMComputerSolutions,Inc.UltraEdit fix version	vikingnope:fix-ultraedit	OPEN	2024-04-24T19:08:49Z
+150826	New version: Google.Chrome.Beta.EXE version 125.0.6422.14	SpecterShell:Google.Chrome.Beta.EXE-125.0.6422.14-1242692881	OPEN	2024-04-24T19:08:47Z
+150825	New version: Google.Chrome.Beta version 125.0.6422.14	SpecterShell:Google.Chrome.Beta-125.0.6422.14-862039414	OPEN	2024-04-24T19:08:42Z
+150824	Aserto.Topaz.v0.32.0	gertd:Aserto.Topaz-0.32.0-c5551d0b-f97e-4304-b9e3-f07ea7c8176f	OPEN	2024-04-24T18:50:07Z
+150823	New version: OpenJS.NodeJS version 22.0.0	aisgbnok:new-OpenJS.NodeJS-22.0.0	OPEN	2024-04-24T18:28:44Z
 150822	New version: FlyByWireSimulations.FlyByWireSimulationsInstaller version 3.4.0	vikingnope:FlyByWireSimulations.FlyByWireSimulationsInstaller-3.4.0-22DE6337B5B8443F9656770C1DF1F37B	OPEN	2024-04-24T17:43:47Z
 150821	Remove version: ProtonTechnologies.ProtonVPN version 3.2.11	Dragon1573:pull/150754	OPEN	2024-04-24T17:32:04Z
 150820	Update: Mozilla.Firefox.DeveloperEdition version 126.0 (126.0b5)	SpecterShell:Mozilla.Firefox.DeveloperEdition-126.0-1069548189	OPEN	2024-04-24T17:12:01Z
@@ -19,10 +41,7 @@
 150782	Remove version: DirSoft.ARPro version 17.0.1.1112	PckgrBot:DirSoft.ARPro-17.0.1.1112-77E7D47E457E44198FE13A0C54AB90B3	OPEN	2024-04-24T10:43:35Z
 150781	New version: Gruntwork.Terragrunt version 0.57.8	KaiKorla:terragrunt-0.57.8	OPEN	2024-04-24T10:41:53Z
 150777	Remove wrong version Microsoft.Office 16.0.17531.20046	treysis:patch-92	OPEN	2024-04-24T10:30:55Z
-150775	New package: Revopoint.RevoScan version 5.4.6.951	vikingnope:Revopoint.RevoScan-5.4.6-D2748B54A5964114A3921A47C2858DA2	OPEN	2024-04-24T10:22:58Z
-150774	New package: DoD.STIGViewer version 3.3.0	vikingnope:DoD.STIGViewer-3.3.0-1C5AE85D617347758071F275E42B2908	OPEN	2024-04-24T10:18:13Z
 150749	New version: t1m0thyj.WinDynamicDesktop version 5.5.0	t1m0thyj:t1m0thyj.WinDynamicDesktop-5.5.0-B88D0D7C87E7272493D009E135AA47BBBBF809CC	OPEN	2024-04-24T01:38:28Z
-150745	SmartSoft.SmartFTP version 10.0.3223.0	vedantmgoyal9:SmartSoft.SmartFTP-10.0.3223.0-0a09e5f7-e0fa-4015-b015-5497ff7785cb	OPEN	2024-04-24T01:28:38Z
 150743	New version: StandardNotes.StandardNotes version 3.193.10	Exorcism0666:StandardNotes.StandardNotes-3.193.10-19368EB12C754722A4FAB8FA15F0369A	OPEN	2024-04-24T01:23:37Z
 150737	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_756385ee-0927-43b8-8053-af0ed38ef145	OPEN	2024-04-24T01:02:30Z
 150730	SpikeHD.swerve version 1.1.1	SpikeHD:swerve	OPEN	2024-04-24T00:23:58Z
