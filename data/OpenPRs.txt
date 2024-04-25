@@ -1,3 +1,20 @@
+151080	Automatic deletion of Evope.Evope 1.1.4.81	wingetbot:AutomaticUpdate_370a5614-9920-4322-9f8a-c2266558db76	OPEN	2024-04-25T21:17:07Z
+151079	New version: RemNote.RemNote version 1.16.4	SpecterShell:RemNote.RemNote-1.16.4-1334369596	OPEN	2024-04-25T21:11:47Z
+151078	New version: Google.Chrome.Canary version 126.0.6440.0	SpecterShell:Google.Chrome.Canary-126.0.6440.0-149392003	OPEN	2024-04-25T21:10:45Z
+151077	Automatic update of Kuwo.KuwoMusic from 9.3.2.0 to 9.3.5.0	wingetbot:AutomaticUpdate_47328177-bcae-4145-af8d-c0929f49691a	OPEN	2024-04-25T21:08:40Z
+151076	Automatic deletion of Egnyte.EgnyteDesktopApp 3.16.3.142	wingetbot:AutomaticUpdate_bb75965a-bb2e-49ad-a481-4df149b8ddaf	OPEN	2024-04-25T20:44:51Z
+151075	Automatic update of Egnyte.EgnyteDesktopApp from 3.16.3.142 to 3.17.0.143	wingetbot:AutomaticUpdate_11892634-e2a9-4f08-86e7-86a1461805be	OPEN	2024-04-25T20:40:03Z
+151074	Automatic deletion of Kakao.KakaoTalk 4.0.0.3873	wingetbot:AutomaticUpdate_546ae37e-a34f-43fe-af50-69adf3ba0b7e	OPEN	2024-04-25T20:32:26Z
+151073	New version: Google.Chrome.EXE version 124.0.6367.92	SpecterShell:Google.Chrome.EXE-124.0.6367.92-621548573	OPEN	2024-04-25T20:11:16Z
+151072	New version: Google.Chrome version 124.0.6367.92	SpecterShell:Google.Chrome-124.0.6367.92-1866843279	OPEN	2024-04-25T20:11:09Z
+151071	SmartSoft.SmartFTP version 10.0.3224.0	matbech:SmartSoft.SmartFTP-10.0.3224.0-f75072e0-8863-4dd4-ad90-dd39b194fdb2	OPEN	2024-04-25T19:50:49Z
+151070	Automatic deletion of AgileBits.1Password.Beta 8.10.32-1.BETA	wingetbot:AutomaticUpdate_2a709179-fed5-49c2-8264-1b4232e74a18	OPEN	2024-04-25T19:18:07Z
+151069	New version: taers232c.GAMADV-XTD3 version 6.74.02	Exorcism0666:taers232c.GAMADV-XTD3-6.74.02-1766859260	OPEN	2024-04-25T19:17:45Z
+151068	New version: Microsoft.Teams version 24074.2323.2827.4973	SpecterShell:Microsoft.Teams-24074.2323.2827.4973-1043777147	OPEN	2024-04-25T19:11:20Z
+151067	Automatic update of AdGuard.AdGuardVPN from 2.2.1271.0 to 2.2.1284.0	wingetbot:AutomaticUpdate_efa45733-173f-48f0-a1c1-e9530985f7e2	OPEN	2024-04-25T19:09:15Z
+151066	Automatic deletion of AdGuard.AdGuardVPN.Nightly 2.3.1373.0	wingetbot:AutomaticUpdate_1452f578-704d-43ae-8ed5-78f98ea4a30f	OPEN	2024-04-25T19:09:13Z
+151065	Fix wrong arch added in OONI.OONI-Probe #150787	Dvd-Znf:master	OPEN	2024-04-25T19:06:13Z
+151064	New package: Basti-def.helloworld.package version 1.0	Basti-def:Basti-def.helloworld.package-1.0-8aa25122-0100-4955-a4ae-15c35b1556a8	OPEN	2024-04-25T18:20:50Z
 151063	New version: JetBrains.CLion version 2024.1.1	SpecterShell:JetBrains.CLion-2024.1.1-598772338	OPEN	2024-04-25T18:11:43Z
 151062	New version: Cisco.Webex version 44.4.0.29432	SpecterShell:Cisco.Webex-44.4.0.29432-2108800250	OPEN	2024-04-25T18:10:47Z
 151061	KurtZimmermann.TweakPower version 2.053	Info445:KurtZimmermann.TweakPower-2.053-948ababc-8a8f-4896-9d9f-1af946eaaf12	OPEN	2024-04-25T18:04:52Z
@@ -5,7 +22,6 @@
 151059	KurtZimmermann.RegCool version 2.004	Info445:KurtZimmermann.RegCool-2.004-dcc3c211-d7f6-4d70-89e0-60bd07533a36	OPEN	2024-04-25T18:03:29Z
 151057	New version: Google.GoogleDrive version 90.0.3.0	SpecterShell:Google.GoogleDrive-90.0.3.0-1169352968	OPEN	2024-04-25T17:12:06Z
 151055	valinet.ExplorerPatcher.Prerelease version 22621.3527.65.1	vedantmgoyal9:valinet.ExplorerPatcher.Prerelease-22621.3527.65.1-fb4c01be-4866-48c2-8dd4-26a39b58ac78	OPEN	2024-04-25T16:30:54Z
-151052	Package Fix: Microsoft.VCLibs.Desktop.14, change installer type	vikingnope:fix-vclibs	OPEN	2024-04-25T16:14:30Z
 151051	New version: Brave.Brave.Nightly version 124.1.67.42	SpecterShell:Brave.Brave.Nightly-124.1.67.42-1631798899	OPEN	2024-04-25T16:10:36Z
 151049	New version: Eccam.ReqView version 2.19.0	liborbus:Eccam.ReqView-2.19.0-92901ab9-fc98-4de6-9be5-2f7794e8e0c7	OPEN	2024-04-25T15:57:51Z
 151048	New package: Aerosoft.One version 0.16.3	vikingnope:Aerosoft.One-0.16.3-291FA833F92F4A1D901A213869E0D1C3	OPEN	2024-04-25T15:50:15Z
@@ -25,7 +41,6 @@
 150902	Automatic deletion of Nlitesoft.NTLite 2024.4.9913.0	wingetbot:AutomaticUpdate_f1247cc6-2bca-4297-9676-71ba9d307b0c	OPEN	2024-04-25T02:24:18Z
 150898	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_df3b7d19-bedd-4fbf-9b01-223ae787e850	OPEN	2024-04-25T01:42:50Z
 150892	New version: StandardNotes.StandardNotes version 3.194.0	Exorcism0666:StandardNotes.StandardNotes-3.194.0-1EDB146008704E5AA7F5AEE1C0E38FF0	OPEN	2024-04-25T01:23:49Z
-150869	Aserto.DSLoad.v0.30.6	gertd:Aserto.DSLoad-0.30.6-cf3f04db-3680-4acb-8198-7dc88d9d49f9	OPEN	2024-04-24T22:57:42Z
 150860	Automatic update of CentStudio.CentBrowser 5.1.1130.82	wingetbot:AutomaticUpdate_c6b7beec-697c-4094-860e-da7be3788156	OPEN	2024-04-24T22:37:31Z
 150846	New package: JakobHellermann.Atlas version 1.2.0.0	jakobhellermann:JakobHellermann.Atlas-1.2.0.0-c7ed89da-855e-47e1-b8b0-f528cccce510	OPEN	2024-04-24T21:11:28Z
 150842	Automatic update of F6CTE.MultiPSK from 4.48.4.1 to 4.48.5	wingetbot:AutomaticUpdate_52a99b9a-603d-40ec-837a-9514c9a028ff	OPEN	2024-04-24T20:53:39Z
@@ -37,7 +52,7 @@
 150786	New version: Tencent.QQ version 9.7.23.240423	SpecterShell:Tencent.QQ-9.7.23.240423-1689414939	OPEN	2024-04-24T11:12:23Z
 150781	New version: Gruntwork.Terragrunt version 0.57.8	KaiKorla:terragrunt-0.57.8	OPEN	2024-04-24T10:41:53Z
 150743	New version: StandardNotes.StandardNotes version 3.193.10	Exorcism0666:StandardNotes.StandardNotes-3.193.10-19368EB12C754722A4FAB8FA15F0369A	OPEN	2024-04-24T01:23:37Z
-150730	SpikeHD.swerve version 1.1.1	SpikeHD:swerve	OPEN	2024-04-24T00:23:58Z
+150730	SpikeHD.swerve version 1.2.0	SpikeHD:swerve	OPEN	2024-04-24T00:23:58Z
 150719	Modify: JetBrains.CLion.EAP version 241.14494.154	SpecterShell:JetBrains.CLion.EAP-241.14494.154-Modify	OPEN	2024-04-23T23:10:41Z
 150717	Modify: JetBrains.CLion version 2024.1	SpecterShell:JetBrains.CLion-2024.1-Modify	OPEN	2024-04-23T23:10:14Z
 150703	Modify: JetBrains.Rider.EAP version 241.14494.107	SpecterShell:JetBrains.Rider.EAP-241.14494.107-Modify	OPEN	2024-04-23T23:02:34Z
