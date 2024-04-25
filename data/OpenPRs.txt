@@ -1,8 +1,64 @@
+150997	New version: Google.Chrome.Canary version 126.0.6439.0	SpecterShell:Google.Chrome.Canary-126.0.6439.0-1591860189	OPEN	2024-04-25T12:12:27Z
+150996	New version: Nethermind.Nethermind version 1.26.0	rubo:Nethermind.Nethermind-1.26.0-bcac3725-bdb3-4896-b237-70ae618ccf14	OPEN	2024-04-25T12:03:13Z
+150995	VoyagerX.Vrew version 1.17.5	vedantmgoyal9:VoyagerX.Vrew-1.17.5-d7d29e0f-80b7-420c-93e2-0cb54e604687	OPEN	2024-04-25T11:24:46Z
+150994	Appest.TickTick version 5.4.0.0	vedantmgoyal9:Appest.TickTick-5.4.0.0-21241626-a396-4a00-a4ae-85e0aafebeb5	OPEN	2024-04-25T11:23:39Z
+150993	Alibaba.aDrive version 4.14.1	vedantmgoyal9:Alibaba.aDrive-4.14.1-253ef654-85da-4625-8060-3dbf523fc1f3	OPEN	2024-04-25T11:23:14Z
+150992	Moving: evernote.yinxiang version 7.0.6.4762	SpecterShell:Moving-evernote.yinxiang-v7.0.6.4762-597923A8	OPEN	2024-04-25T11:22:26Z
+150991	Moving: evernote.yinxiang version 6.21.9.2217	SpecterShell:Moving-evernote.yinxiang-v6.21.9.2217-597923A8	OPEN	2024-04-25T11:22:18Z
+150990	Moving: evernote.yinxiang version 6.21.6.2195	SpecterShell:Moving-evernote.yinxiang-v6.21.6.2195-597923A8	OPEN	2024-04-25T11:22:09Z
+150989	Moving: evernote.yinxiang version 6.21.4.2051	SpecterShell:Moving-evernote.yinxiang-v6.21.4.2051-597923A8	OPEN	2024-04-25T11:22:01Z
+150988	Moving: evernote.yinxiang version 6.21.3.2048	SpecterShell:Moving-evernote.yinxiang-v6.21.3.2048-597923A8	OPEN	2024-04-25T11:21:52Z
+150987	Moving: evernote.yinxiang version 6.21.22.2498	SpecterShell:Moving-evernote.yinxiang-v6.21.22.2498-597923A8	OPEN	2024-04-25T11:21:44Z
+150986	Moving: evernote.yinxiang version 6.21.19.2326	SpecterShell:Moving-evernote.yinxiang-v6.21.19.2326-597923A8	OPEN	2024-04-25T11:21:36Z
+150985	Moving: evernote.yinxiang version 6.21.10.2263	SpecterShell:Moving-evernote.yinxiang-v6.21.10.2263-597923A8	OPEN	2024-04-25T11:21:28Z
+150984	Moving: evernote.yinxiang version 6.20.16.1935	SpecterShell:Moving-evernote.yinxiang-v6.20.16.1935-597923A8	OPEN	2024-04-25T11:21:20Z
+150983	Moving: evernote.evernote version 10.10.5	SpecterShell:evernote.evernote-10.10.5-Moving	OPEN	2024-04-25T11:20:49Z
+150982	Moving: evernote.evernote version 10.86.4.20240424105017	SpecterShell:Moving-evernote.evernote-v10.86.4.20240424105017-218B6496	OPEN	2024-04-25T11:17:16Z
+150981	Moving: evernote.evernote version 10.85.2.20240416125300	SpecterShell:Moving-evernote.evernote-v10.85.2.20240416125300-218B6496	OPEN	2024-04-25T11:17:02Z
+150980	Moving: evernote.evernote version 10.71.2	SpecterShell:Moving-evernote.evernote-v10.71.2-218B6496	OPEN	2024-04-25T11:16:49Z
+150979	Moving: evernote.evernote version 10.61.4	SpecterShell:Moving-evernote.evernote-v10.61.4-218B6496	OPEN	2024-04-25T11:16:40Z
+150978	Moving: evernote.evernote version 10.61.3	SpecterShell:Moving-evernote.evernote-v10.61.3-218B6496	OPEN	2024-04-25T11:16:32Z
+150977	Moving: evernote.evernote version 10.60.4	SpecterShell:Moving-evernote.evernote-v10.60.4-218B6496	OPEN	2024-04-25T11:16:24Z
+150976	Moving: evernote.evernote version 10.48.4	SpecterShell:Moving-evernote.evernote-v10.48.4-218B6496	OPEN	2024-04-25T11:16:16Z
+150975	Moving: evernote.evernote version 10.46.7	SpecterShell:Moving-evernote.evernote-v10.46.7-218B6496	OPEN	2024-04-25T11:16:08Z
+150974	Moving: evernote.evernote version 10.45.18	SpecterShell:Moving-evernote.evernote-v10.45.18-218B6496	OPEN	2024-04-25T11:16:00Z
+150973	Moving: evernote.evernote version 10.44.8	SpecterShell:Moving-evernote.evernote-v10.44.8-218B6496	OPEN	2024-04-25T11:15:52Z
+150972	Moving: evernote.evernote version 10.43.7	SpecterShell:Moving-evernote.evernote-v10.43.7-218B6496	OPEN	2024-04-25T11:15:44Z
+150971	Moving: evernote.evernote version 10.42.7	SpecterShell:Moving-evernote.evernote-v10.42.7-218B6496	OPEN	2024-04-25T11:15:36Z
+150970	Moving: evernote.evernote version 10.40.9	SpecterShell:Moving-evernote.evernote-v10.40.9-218B6496	OPEN	2024-04-25T11:15:29Z
+150969	Moving: evernote.evernote version 10.37.3	SpecterShell:Moving-evernote.evernote-v10.37.3-218B6496	OPEN	2024-04-25T11:15:21Z
+150968	Moving: evernote.evernote version 10.36.4	SpecterShell:Moving-evernote.evernote-v10.36.4-218B6496	OPEN	2024-04-25T11:15:13Z
+150967	Moving: evernote.evernote version 10.35.3	SpecterShell:Moving-evernote.evernote-v10.35.3-218B6496	OPEN	2024-04-25T11:15:06Z
+150966	Moving: evernote.evernote version 10.34.4	SpecterShell:Moving-evernote.evernote-v10.34.4-218B6496	OPEN	2024-04-25T11:14:58Z
+150965	Moving: evernote.evernote version 10.33.5	SpecterShell:Moving-evernote.evernote-v10.33.5-218B6496	OPEN	2024-04-25T11:14:50Z
+150964	Moving: evernote.evernote version 10.33.4	SpecterShell:Moving-evernote.evernote-v10.33.4-218B6496	OPEN	2024-04-25T11:14:42Z
+150963	Moving: evernote.evernote version 10.32.4	SpecterShell:Moving-evernote.evernote-v10.32.4-218B6496	OPEN	2024-04-25T11:14:34Z
+150962	Moving: evernote.evernote version 10.31.6	SpecterShell:Moving-evernote.evernote-v10.31.6-218B6496	OPEN	2024-04-25T11:14:26Z
+150961	Moving: evernote.evernote version 10.30.6	SpecterShell:Moving-evernote.evernote-v10.30.6-218B6496	OPEN	2024-04-25T11:14:17Z
+150960	Moving: evernote.evernote version 10.28.3	SpecterShell:Moving-evernote.evernote-v10.28.3-218B6496	OPEN	2024-04-25T11:14:09Z
+150959	Moving: evernote.evernote version 10.27.5	SpecterShell:Moving-evernote.evernote-v10.27.5-218B6496	OPEN	2024-04-25T11:14:01Z
+150958	Moving: evernote.evernote version 10.21.5	SpecterShell:Moving-evernote.evernote-v10.21.5-218B6496	OPEN	2024-04-25T11:13:53Z
+150957	Moving: evernote.evernote version 10.20.4	SpecterShell:Moving-evernote.evernote-v10.20.4-218B6496	OPEN	2024-04-25T11:13:45Z
+150956	Moving: evernote.evernote version 10.19.2	SpecterShell:Moving-evernote.evernote-v10.19.2-218B6496	OPEN	2024-04-25T11:13:37Z
+150955	Moving: evernote.evernote version 10.17.8	SpecterShell:Moving-evernote.evernote-v10.17.8-218B6496	OPEN	2024-04-25T11:13:29Z
+150954	Moving: evernote.evernote version 10.17.6	SpecterShell:Moving-evernote.evernote-v10.17.6-218B6496	OPEN	2024-04-25T11:13:20Z
+150953	Moving: evernote.evernote version 10.15.6	SpecterShell:Moving-evernote.evernote-v10.15.6-218B6496	OPEN	2024-04-25T11:13:11Z
+150952	Moving: evernote.evernote version 10.14.7	SpecterShell:Moving-evernote.evernote-v10.14.7-218B6496	OPEN	2024-04-25T11:13:03Z
+150951	Moving: evernote.evernote version 10.14.6	SpecterShell:Moving-evernote.evernote-v10.14.6-218B6496	OPEN	2024-04-25T11:12:55Z
+150950	New version: Readdle.Spark version 3.15.3 (3.15.3.71901)	SpecterShell:Readdle.Spark-3.15.3-1194772355	OPEN	2024-04-25T11:11:58Z
+150949	Modify: zafaco.Breitbandmessung version 3.6.0	SpecterShell:zafaco.Breitbandmessung-3.6.0-704744389	OPEN	2024-04-25T10:52:50Z
+150948	New version: SKDataAS.ORMCore version 2024250401	skdataas:SKDataAS.ORMCore-2024250401-059E6D41	OPEN	2024-04-25T10:18:43Z
+150947	New version: Woyun.wolai version 1.2.10	SpecterShell:Woyun.wolai-1.2.10-1321218690	OPEN	2024-04-25T10:12:59Z
+150946	New version: Coldlake.StellarPlayer version 2.24.1411.30 (20240411200722)	SpecterShell:Coldlake.StellarPlayer-2.24.1411.30-324330399	OPEN	2024-04-25T10:11:13Z
+150945	New version: Alibaba.aDrive version 4.14.1	SpecterShell:Alibaba.aDrive-4.14.1-1479813722	OPEN	2024-04-25T10:09:25Z
+150944	Microsoft.VisualStudioCode.Insiders.CLI_v1.89.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.Insiders.CLI_v1.89.0	OPEN	2024-04-25T10:06:15Z
+150943	Microsoft.VisualStudioCode.Insiders_v1.89.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.89.0	OPEN	2024-04-25T10:05:09Z
+150942	Modify: DominikReichl.KeePass version 2.56.0 (2.56)	SpecterShell:DominikReichl.KeePass-2.56.0-621850624	OPEN	2024-04-25T09:38:45Z
 150941	New version: Xmind.Xmind version 24.4.5171 (24.04.05171)	SpecterShell:Xmind.Xmind-24.4.5171-866869913	OPEN	2024-04-25T09:12:25Z
 150940	New version: Brave.Brave.Nightly version 124.1.67.37	SpecterShell:Brave.Brave.Nightly-124.1.67.37-2051330909	OPEN	2024-04-25T09:09:48Z
 150939	New version: Treexy.DriverFusion version 11.2.0.0	TreexySoftware:Treexy.DriverFusion-11.2.0.0-605bed16-60fd-474b-b68b-4dfb41c96743	OPEN	2024-04-25T08:51:26Z
 150938	Modify: Mozilla.Firefox.ESR version 115.9.1	SpecterShell:Mozilla.Firefox.ESR-115.9.1-634531108	OPEN	2024-04-25T08:47:03Z
-150937	New version: Mozilla.Firefox.ESR version 115.10.0	SpecterShell:Mozilla.Firefox.ESR-115.10.0esr-940162302	OPEN	2024-04-25T08:37:03Z
+150937	Modify: Mozilla.Firefox.ESR version 115.10.0	SpecterShell:Mozilla.Firefox.ESR-115.10.0esr-940162302	OPEN	2024-04-25T08:37:03Z
 150936	New version: AppFlowy.AppFlowy version 0.5.5	Exorcism0666:AppFlowy.AppFlowy-0.5.5-1989942970	OPEN	2024-04-25T08:27:03Z
 150935	Add Microsoft.DevProxy 0.17.1	garrytrinder:microsoft-devproxy-0-17-1	OPEN	2024-04-25T08:18:01Z
 150934	Update version: reMarkable.reMarkableCompanionApp version 3.10.0.845	BiosPlus:reMarkable.reMarkableCompanionApp-3.10.0.845-ED1ED007179240FCB40922166FD0443E	OPEN	2024-04-25T08:16:23Z
