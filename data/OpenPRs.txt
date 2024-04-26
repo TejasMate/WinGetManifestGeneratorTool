@@ -1,3 +1,19 @@
+151213	New version: Abdelrhman-AK.WinPaletter version 1.0.9.3	Abdelrhman-AK:Abdelrhman-AK.WinPaletter-1.0.9.3-4794492e-b265-42af-8fef-221611ed7ead	OPEN	2024-04-26T21:10:46Z
+151212	Automatic update of PIKCLOUD.PikPak from 2.3.2 to 2.3.2.4101	wingetbot:AutomaticUpdate_0430fe5d-7228-4c2b-9edf-35c176489a10	OPEN	2024-04-26T21:07:02Z
+151211	New version: twpayne.chezmoi 2.48.0	twpayne:chezmoi-2.48.0	OPEN	2024-04-26T20:53:30Z
+151210	New version: gptscript-ai.gptscript version v0.5.1-rc3	acorn-io-bot:gptscript-ai.gptscript-v0.5.1-rc3-dd08b0d6-c64f-4300-8f8a-eeba08dba0b7	OPEN	2024-04-26T20:44:18Z
+151209	Automatic update of Oracle.JDK.21 from 21.0.2 to 21.0.3.0	wingetbot:AutomaticUpdate_24e81c14-47a5-43b1-a571-3146d2f98020	OPEN	2024-04-26T20:26:29Z
+151208	Automatic deletion of EdrawSoft.MindMaster 11.1.0.695	wingetbot:AutomaticUpdate_eef318dd-f92d-4153-8277-514882c3c7b3	OPEN	2024-04-26T20:13:48Z
+151207	New version: Box.Box version 2.38.173	SpecterShell:Box.Box-2.38.173-599793791	OPEN	2024-04-26T20:10:09Z
+151206	Automatic update of EdrawSoft.MindMaster from 11.1.0.695 to 11.1.0.696	wingetbot:AutomaticUpdate_94983cf1-1a0d-4322-be3c-a7eab85957d4	OPEN	2024-04-26T20:08:54Z
+151205	New version: gptscript-ai.gptscript version v0.5.1-rc2	acorn-io-bot:gptscript-ai.gptscript-v0.5.1-rc2-525b5d2e-2f5a-4323-a6a1-4aebb04feb9a	OPEN	2024-04-26T20:05:02Z
+151204	New version: Vencord.Vesktop version 1.5.2-alpha.1	shiggybot:Vencord.Vesktop-1.5.2-alpha.1-BEBB835B549B5945C61EFACD1C00026BAC03A221	OPEN	2024-04-26T19:46:51Z
+151203	Modify: Google.AndroidStudio version 2023.1.1.28	aisgbnok:modify-Google.AndroidStudio-2023.1.1.28	OPEN	2024-04-26T19:29:23Z
+151202	New version: Microsoft.EdgeWebView2Runtime version 124.0.2478.67	SpecterShell:Microsoft.EdgeWebView2Runtime-124.0.2478.67-1077974497	OPEN	2024-04-26T19:12:12Z
+151201	Automatic update of AdGuard.AdGuardVPN.Beta from 2.3.1346.0 to 2.3.1390.0	wingetbot:AutomaticUpdate_d4abe3cf-402a-4a0c-9a7e-38d98d76332d	OPEN	2024-04-26T19:09:29Z
+151200	Automatic update of AdGuard.AdGuardVPN.Nightly from 2.3.1385.0 to 2.3.1403.0	wingetbot:AutomaticUpdate_b987a943-82c1-44bc-afc4-ff39ea97d952	OPEN	2024-04-26T19:09:23Z
+151199	Automatic deletion of AdGuard.AdGuardVPN 2.2.1271.0	wingetbot:AutomaticUpdate_0fb69b6e-c58d-46b4-a70f-2de2fa671439	OPEN	2024-04-26T19:09:20Z
+151198	Update: ZeroInstall.ZeroInstall version 2.25.7	bastianeicher:master	OPEN	2024-04-26T18:22:26Z
 151197	Update: Mozilla.Firefox.DeveloperEdition version 126.0 (126.0b6)	SpecterShell:Mozilla.Firefox.DeveloperEdition-126.0-501077244	OPEN	2024-04-26T18:11:05Z
 151195	New version: LibreWolf.LibreWolf version 125.0.2-1	mariobrostech:LibreWolf.LibreWolf-125.0.2-1-d6aa6f14-2e12-485a-b549-8c72ce7b0339	OPEN	2024-04-26T17:29:10Z
 151194	New version: taers232c.GAMADV-XTD3 version 6.75.01	Exorcism0666:taers232c.GAMADV-XTD3-6.75.01-1761544891	OPEN	2024-04-26T17:20:50Z
@@ -69,7 +85,7 @@
 150701	Modify: JetBrains.Rider version 2024.1.1	SpecterShell:JetBrains.Rider-2024.1.1-Modify	OPEN	2024-04-23T23:01:58Z
 150646	KirillOsenkov.MSBuildStructuredLogViewer version .2.2.235	vedantmgoyal9:KirillOsenkov.MSBuildStructuredLogViewer-.2.2.235-cbfdf998-5c19-440c-9b08-a2d32bb95a30	DRAFT	2024-04-23T16:30:09Z
 150640	New version: version-fox.vfox version 0.4.1	docentYT:version-fox.vfox-0.4.1-C188578DAD724774B0B1E7E12BD4EE32	OPEN	2024-04-23T14:39:40Z
-150629	New version: Google.AndroidStudio version 2023.2.1.25	aisgbnok:update-Google.AndroidStudio-2023.2.1.25	OPEN	2024-04-23T13:18:47Z
+150629	Update: Google.AndroidStudio 2023.2 (`2023.2.1.23` to `2023.2.1.25`)	aisgbnok:update-Google.AndroidStudio-2023.2.1.25	OPEN	2024-04-23T13:18:47Z
 150616	purocean.YankNote version 3.68.0	vedantmgoyal9:purocean.YankNote-3.68.0-cf685409-80a7-4f0c-b316-89cd34494b06	OPEN	2024-04-23T11:23:17Z
 150578	Automatic deletion of Nlitesoft.NTLite 2024.4.9880.0	wingetbot:AutomaticUpdate_b447c714-fc43-4498-affd-a7414ed92fcf	OPEN	2024-04-23T01:36:09Z
 150574	Define machine scope for SonicWALL.NetExtender	rhj-kinsley:patch-1	OPEN	2024-04-23T01:26:32Z
