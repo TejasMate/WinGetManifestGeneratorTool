@@ -1,3 +1,12 @@
+151308	Automatic update of AtomicJar.Testcontainers from 1.10.1 to 1.11.0	wingetbot:AutomaticUpdate_40b0399c-fd37-4923-85e3-ceca9273c368	OPEN	2024-04-27T20:33:16Z
+151307	Automatic update of Jidifudi.GT4T from 8.43.240407 to 8.45.240426	wingetbot:AutomaticUpdate_f83afb2e-77fc-4704-a9cf-598c0f781378	OPEN	2024-04-27T20:11:33Z
+151306	New version: Google.Chrome.Canary version 126.0.6444.0	SpecterShell:Google.Chrome.Canary-126.0.6444.0-519574663	OPEN	2024-04-27T20:10:15Z
+151305	New package: actualsolution.VolumeLock version 2.4	soredake:actualsolution.VolumeLock-2.4-84C933631EAA4F1E9EF545D0B733B848	OPEN	2024-04-27T19:15:21Z
+151304	Automatic deletion of AdGuard.AdGuardVPN.Nightly 2.3.1385.0	wingetbot:AutomaticUpdate_729428d3-8f6d-4ca3-a6a1-ecf6bf1060e9	OPEN	2024-04-27T19:10:00Z
+151303	Automatic deletion of AdGuard.AdGuardVPN.Beta 2.3.1346.0	wingetbot:AutomaticUpdate_bbd44a77-ff36-4fe4-a88d-bf6b8863001c	OPEN	2024-04-27T19:09:55Z
+151302	New version: xpipe-io.xpipe version 9.0.1	crschnick:xpipe-io.xpipe-9.0.1-739f5bad-0c54-49e5-bf91-b245386e0af9	OPEN	2024-04-27T19:05:57Z
+151301	Modify: Google.PlatformTools version 35.0.1	aisgbnok:update-Google.PlatformTools-35.0.1	OPEN	2024-04-27T19:04:51Z
+151300	New package: WACUP.WACUP version 1.99.12.18980	soredake:WACUP.WACUP-1.99.12.18980-EA68F9E7F886435DA1A7AE5E99E83BC8	OPEN	2024-04-27T19:02:14Z
 151299	New version: blacktop.ipsw 3.1.478	blacktop:ipsw-3.1.478	OPEN	2024-04-27T16:59:57Z
 151298	New version: blacktop.ipswd 3.1.478	blacktop:ipswd-3.1.478	OPEN	2024-04-27T16:59:51Z
 151297	New version: TinyCraft.TinyRDM version 1.1.12	SpecterShell:TinyCraft.TinyRDM-1.1.12-1107896724	OPEN	2024-04-27T16:11:30Z
