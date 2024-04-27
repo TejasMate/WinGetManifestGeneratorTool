@@ -1,3 +1,31 @@
+151242	Automatic update of Stardock.Start10 from 1.9.7 to 9.5.3.0	wingetbot:AutomaticUpdate_46d904ab-9ff8-4165-9432-8e80aab17b88	OPEN	2024-04-27T01:00:55Z
+151241	New version: XnSoft.XnConvert version 1.100.1.0	SpecterShell:XnSoft.XnConvert-1.100.1.0-23FB80EF	OPEN	2024-04-27T00:54:14Z
+151240	Automatic update of spacedrive.Spacedrive from 0.2.11 to 0.2.13	wingetbot:AutomaticUpdate_344da038-379a-4731-a309-c3d2a3ecd2d6	OPEN	2024-04-27T00:39:07Z
+151239	New version: AuraMarker.Lattics version 1.19.3	SpecterShell:AuraMarker.Lattics-1.19.3-495929317	OPEN	2024-04-27T00:24:54Z
+151238	New version: MilosParipovic.OneCommander version 3.78.0 (3.78.0.0)	SpecterShell:MilosParipovic.OneCommander-3.78.0-1925043703	OPEN	2024-04-27T00:17:31Z
+151237	XML Notepad version 2.9.0.10	lovettchris:clovett/xmlnotepad_2.9.0.10	OPEN	2024-04-27T00:06:57Z
+151236	Modify: MilosParipovic.OneCommander version 3.67.0	SpecterShell:MilosParipovic.OneCommander-3.67.0-Modify	OPEN	2024-04-27T00:03:29Z
+151235	Automatic update of Yandex.Messenger from 2.195.0 to 2.196.0	wingetbot:AutomaticUpdate_fb512097-3f8b-48a5-89b5-b6e60fa19622	OPEN	2024-04-26T23:59:34Z
+151234	Automatic update of SiberSystems.GoodSync from 12.6.3.3 to 12.6.4.4	wingetbot:AutomaticUpdate_172fc030-641d-4d8b-8a63-d943cfc60bb8	OPEN	2024-04-26T23:59:25Z
+151233	Automatic update of Yandex.PuntoSwitcher from 4.4.5.539 to 4.5.0.576	wingetbot:AutomaticUpdate_c9e6d602-7b63-4ee2-b747-263bb70eba56	OPEN	2024-04-26T23:59:17Z
+151232	Automatic update of Icons8.Lunacy from 9.5.0 to 9.6.0	wingetbot:AutomaticUpdate_2e5cd320-eea5-4cc6-88b9-fae05e64ea23	OPEN	2024-04-26T23:43:20Z
+151231	New version: hatoo.oha version 1.4.4	SpecterShell:hatoo.oha-1.4.4-703B562B	OPEN	2024-04-26T23:40:27Z
+151230	Automatic update of PLaSK to 2024.04.26	macdems:2024.04.26	OPEN	2024-04-26T23:33:23Z
+151229	New version: beekeeper-studio.beekeeper-studio version 4.3.0	Exorcism0666:beekeeper-studio.beekeeper-studio-4.3.0-691408882	OPEN	2024-04-26T23:20:47Z
+151228	New version: Microsoft.devtunnel version 1.0.1290+8d780f0d7b	IlyaBiryukov:Microsoft.devtunnel-1.0.1290+8d780f0d7b-9965bae9-b1e6-46e9-866f-551281526a47	OPEN	2024-04-26T23:17:25Z
+151227	New version: Google.Chrome.Canary version 126.0.6442.0	SpecterShell:Google.Chrome.Canary-126.0.6442.0-579230246	OPEN	2024-04-26T23:10:27Z
+151226	Automatic update of WilhelmHappe.NetRadio from 2.5.3.1 to 2.5.4.0	wingetbot:AutomaticUpdate_53e55365-c2d3-4103-adad-6f3e66640680	OPEN	2024-04-26T23:07:10Z
+151225	New version: vim.vim.nightly version 9.1.0374	vim:vim.vim.nightly-9.1.0374-4CBE87E62A8C461729382C987D410F068D78F633	OPEN	2024-04-26T23:06:30Z
+151224	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_4c85cb6b-a9e3-440e-8d1d-95eee27c336c	OPEN	2024-04-26T23:03:02Z
+151223	Automatic deletion of Revival.WordLight 7.2.0	wingetbot:AutomaticUpdate_43dd35fd-8f75-4884-9228-9b24eb961cd8	OPEN	2024-04-26T22:32:27Z
+151222	New version: blacktop.ipswd 3.1.476	blacktop:ipswd-3.1.476	OPEN	2024-04-26T22:29:06Z
+151221	New version: blacktop.ipsw 3.1.476	blacktop:ipsw-3.1.476	OPEN	2024-04-26T22:29:00Z
+151220	Modify: Wagnardsoft.DisplayDriverUninstaller version 18.0.7.6	aisgbnok:modify-Wagnardsoft.DisplayDriverUninstaller-18.0.7.6	OPEN	2024-04-26T22:25:29Z
+151219	New version: Pulumi.Pulumi version 3.114.0	pulumi-bot:Pulumi.Pulumi-3.114.0-a074abc6-0c42-49a9-9b5e-e43f09a9b4b0	OPEN	2024-04-26T22:03:49Z
+151218	Automatic deletion of Unity.UnityHub 3.7.0	wingetbot:AutomaticUpdate_3c624312-bdc9-443a-84a5-f909d3bea54e	OPEN	2024-04-26T22:03:04Z
+151216	Automatic deletion of Ubisoft.Connect 151.2.0.11050	wingetbot:AutomaticUpdate_f8da9b83-61ab-4f08-98e3-b1748a6f3326	OPEN	2024-04-26T21:55:29Z
+151215	Automatic update of PowerSoftware.PowerISO from 8.7.0.0 to 8.8.0.0	wingetbot:AutomaticUpdate_5173ba3d-10cb-4575-afca-8003b13df7b5	OPEN	2024-04-26T21:26:39Z
+151214	Automatic deletion of FocusriteAudioEngineeringLtd.FocusriteControl2 1.190.0.19132	wingetbot:AutomaticUpdate_7f4bfcf6-5d36-4f0c-929d-8e08799938e8	OPEN	2024-04-26T21:22:15Z
 151213	New version: Abdelrhman-AK.WinPaletter version 1.0.9.3	Abdelrhman-AK:Abdelrhman-AK.WinPaletter-1.0.9.3-4794492e-b265-42af-8fef-221611ed7ead	OPEN	2024-04-26T21:10:46Z
 151212	Automatic update of PIKCLOUD.PikPak from 2.3.2 to 2.3.2.4101	wingetbot:AutomaticUpdate_0430fe5d-7228-4c2b-9edf-35c176489a10	OPEN	2024-04-26T21:07:02Z
 151211	New version: twpayne.chezmoi 2.48.0	twpayne:chezmoi-2.48.0	OPEN	2024-04-26T20:53:30Z
@@ -68,7 +96,6 @@
 150937	Modify: Mozilla.Firefox.ESR version 115.10.0	SpecterShell:Mozilla.Firefox.ESR-115.10.0esr-940162302	OPEN	2024-04-25T08:37:03Z
 150912	ProtonTechnologies.ProtonVPN version 3.2.11	vedantmgoyal9:ProtonTechnologies.ProtonVPN-3.2.11-5904cfd9-77d3-4737-8c9a-7bfb869df84f	DRAFT	2024-04-25T05:26:57Z
 150902	Automatic deletion of Nlitesoft.NTLite 2024.4.9913.0	wingetbot:AutomaticUpdate_f1247cc6-2bca-4297-9676-71ba9d307b0c	OPEN	2024-04-25T02:24:18Z
-150892	New version: StandardNotes.StandardNotes version 3.194.0	Exorcism0666:StandardNotes.StandardNotes-3.194.0-1EDB146008704E5AA7F5AEE1C0E38FF0	OPEN	2024-04-25T01:23:49Z
 150860	Automatic update of CentStudio.CentBrowser 5.1.1130.82	wingetbot:AutomaticUpdate_c6b7beec-697c-4094-860e-da7be3788156	OPEN	2024-04-24T22:37:31Z
 150846	New package: JakobHellermann.Atlas version 1.2.0.0	jakobhellermann:JakobHellermann.Atlas-1.2.0.0-c7ed89da-855e-47e1-b8b0-f528cccce510	OPEN	2024-04-24T21:11:28Z
 150842	Automatic update of F6CTE.MultiPSK from 4.48.4.1 to 4.48.5	wingetbot:AutomaticUpdate_52a99b9a-603d-40ec-837a-9514c9a028ff	OPEN	2024-04-24T20:53:39Z
