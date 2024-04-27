@@ -1,3 +1,7 @@
+151293	New version: 360.360SE version 15.3.1024.64	SpecterShell:360.360SE-15.3.1024.64-2105802099	OPEN	2024-04-27T14:09:26Z
+151292	New version: Azul.Zulu.8.JRE version 8.78.0.19	SpecterShell:Azul.Zulu.8.JRE-8.78.0.19-1021199212	OPEN	2024-04-27T13:27:21Z
+151291	New version: ForgQi.biliup-rs version 0.1.21	SpecterShell:ForgQi.biliup-rs-0.1.21-2029257494	OPEN	2024-04-27T13:10:12Z
+151290	New version: xpipe-io.xpipe version 9.0	crschnick:xpipe-io.xpipe-9.0-6750a455-ceeb-4f73-b3e5-8361103156c7	OPEN	2024-04-27T13:00:43Z
 151289	New version: 360.360Chrome.X version 22.3.3015.64	SpecterShell:360.360Chrome.X-22.3.3015.64-1596620255	OPEN	2024-04-27T11:09:11Z
 151288	Remove: AnyDeskSoftwareGmbH.AnyDesk version 8.0.9	ImJoakim:AnyDeskSoftwareGmbH.AnyDesk-8.0.9-632794F6	OPEN	2024-04-27T11:02:56Z
 151287	Remove: AnyDeskSoftwareGmbH.AnyDesk version 8.0.8	ImJoakim:AnyDeskSoftwareGmbH.AnyDesk-8.0.8-15EB5168	OPEN	2024-04-27T11:02:27Z
@@ -47,7 +51,6 @@
 151238	New version: MilosParipovic.OneCommander version 3.78.0 (3.78.0.0)	SpecterShell:MilosParipovic.OneCommander-3.78.0-1925043703	OPEN	2024-04-27T00:17:31Z
 151236	Modify: MilosParipovic.OneCommander version 3.67.0	SpecterShell:MilosParipovic.OneCommander-3.67.0-Modify	OPEN	2024-04-27T00:03:29Z
 151235	Automatic update of Yandex.Messenger from 2.195.0 to 2.196.0	wingetbot:AutomaticUpdate_fb512097-3f8b-48a5-89b5-b6e60fa19622	OPEN	2024-04-26T23:59:34Z
-151230	Automatic update of PLaSK to 2024.04.26	macdems:2024.04.26	OPEN	2024-04-26T23:33:23Z
 151228	New version: Microsoft.devtunnel version 1.0.1290+8d780f0d7b	IlyaBiryukov:Microsoft.devtunnel-1.0.1290+8d780f0d7b-9965bae9-b1e6-46e9-866f-551281526a47	OPEN	2024-04-26T23:17:25Z
 151225	New version: vim.vim.nightly version 9.1.0374	vim:vim.vim.nightly-9.1.0374-4CBE87E62A8C461729382C987D410F068D78F633	OPEN	2024-04-26T23:06:30Z
 151224	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_4c85cb6b-a9e3-440e-8d1d-95eee27c336c	OPEN	2024-04-26T23:03:02Z
