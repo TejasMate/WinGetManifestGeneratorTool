@@ -1,3 +1,7 @@
+151299	New version: blacktop.ipsw 3.1.478	blacktop:ipsw-3.1.478	OPEN	2024-04-27T16:59:57Z
+151298	New version: blacktop.ipswd 3.1.478	blacktop:ipswd-3.1.478	OPEN	2024-04-27T16:59:51Z
+151297	New version: TinyCraft.TinyRDM version 1.1.12	SpecterShell:TinyCraft.TinyRDM-1.1.12-1107896724	OPEN	2024-04-27T16:11:30Z
+151294	Delete old version (0.7.0.0)	boergegrunicke:patch-1	OPEN	2024-04-27T15:31:18Z
 151293	New version: 360.360SE version 15.3.1024.64	SpecterShell:360.360SE-15.3.1024.64-2105802099	OPEN	2024-04-27T14:09:26Z
 151292	New version: Azul.Zulu.8.JRE version 8.78.0.19	SpecterShell:Azul.Zulu.8.JRE-8.78.0.19-1021199212	OPEN	2024-04-27T13:27:21Z
 151291	New version: ForgQi.biliup-rs version 0.1.21	SpecterShell:ForgQi.biliup-rs-0.1.21-2029257494	OPEN	2024-04-27T13:10:12Z
@@ -108,7 +112,6 @@
 150816	JackieLiu.NotepadsApp version 1.5.5.0	vedantmgoyal9:JackieLiu.NotepadsApp-1.5.5.0-094d3977-2e70-4b92-a614-8aae64a6a8c9	OPEN	2024-04-24T16:32:43Z
 150795	New version: gjergj.testmyapp 0.0.73	Gjergj:testmyapp-v0.0.73	OPEN	2024-04-24T12:40:13Z
 150786	New version: Tencent.QQ version 9.7.23.240423	SpecterShell:Tencent.QQ-9.7.23.240423-1689414939	OPEN	2024-04-24T11:12:23Z
-150743	New version: StandardNotes.StandardNotes version 3.193.10	Exorcism0666:StandardNotes.StandardNotes-3.193.10-19368EB12C754722A4FAB8FA15F0369A	OPEN	2024-04-24T01:23:37Z
 150730	SpikeHD.swerve version 1.2.0	SpikeHD:swerve	OPEN	2024-04-24T00:23:58Z
 150719	Modify: JetBrains.CLion.EAP version 241.14494.154	SpecterShell:JetBrains.CLion.EAP-241.14494.154-Modify	OPEN	2024-04-23T23:10:41Z
 150717	Modify: JetBrains.CLion version 2024.1	SpecterShell:JetBrains.CLion-2024.1-Modify	OPEN	2024-04-23T23:10:14Z
@@ -126,7 +129,6 @@
 150504	New package: FilesCommunity.Files version 3.3.0.0	vikingnope:Files-Community.Files-3.3.0.0-31533D8937354C5D8BF3D259CC44BFB3	OPEN	2024-04-22T15:22:51Z
 150503	New version: LinwoodCloud.Butterfly.Nightly version 2.1.0-rc.0	LinwoodDev:LinwoodCloud.Butterfly.Nightly-2.1.0-rc.0-08A1BA9D5C341176BD95C215F3311F4B12863050	OPEN	2024-04-22T15:18:18Z
 150481	New version: Tencent.QQ version 9.7.23.240422	SpecterShell:Tencent.QQ-9.7.23.240422-735433769	OPEN	2024-04-22T09:12:27Z
-150377	New package: Datev.Sicherheitspaketcompact version 7.66	HRA42:Datev.Sicherheitspaketcompact-7.66-9699747d-63f7-4c3f-904d-2ea98c5934cc	OPEN	2024-04-21T18:14:10Z
 150358	Update version: TheBrowserCompany.Arc version 0.18.0.22124	BiosPlus:TheBrowserCompany.Arc-0.18.0.22124-8469E3BED81347D7859068EDBB6C7FFE	OPEN	2024-04-21T09:19:33Z
 150337	New version: Microsoft.OneDrive.Internal.Slow version 24.078.0416.0003	SpecterShell:Microsoft.OneDrive.Internal.Slow-24.078.0416.0003-120336320	OPEN	2024-04-21T00:52:05Z
 150336	New version: Microsoft.OneDrive.Internal.Fast version 24.078.0416.0001	SpecterShell:Microsoft.OneDrive.Internal.Fast-24.078.0416.0001-1888695684	OPEN	2024-04-21T00:39:11Z
