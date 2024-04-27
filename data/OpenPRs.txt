@@ -1,3 +1,14 @@
+151275	New package: lerte.Ngroker version 0.0.7	lerte:lerte.Ngroker-0.0.7-40b581f1-3a46-49fe-9153-dfa4654b03dc	OPEN	2024-04-27T08:25:28Z
+151274	CodingWondersSoftware.DISMTools.Stable version 0.4.2.2444	CodingWonders:CodingWondersSoftware.DISMTools.Stable-0.4.2.2444-2419c916-f900-41c0-9aca-ef7e2f8fdb70	OPEN	2024-04-27T08:07:58Z
+151273	CodingWondersSoftware.DISMTools.Preview version 0.5.0.2442	CodingWonders:CodingWondersSoftware.DISMTools.Preview-0.5.0.2442-603fc609-587f-4c04-88d6-bd0d4ce2dad3	OPEN	2024-04-27T08:06:32Z
+151272	New version: Azul.ZuluFX.21.JDK version 21.34.19	SpecterShell:Azul.ZuluFX.21.JDK-21.34.19-424231370	OPEN	2024-04-27T08:06:02Z
+151271	New version: Azul.Zulu.17.JDK version 17.50.19.0	SpecterShell:Azul.Zulu.17.JDK-17.50.19.0-1326502724	OPEN	2024-04-27T07:53:06Z
+151269	New version: Azul.Zulu.11.JDK version 11.72.19.0	SpecterShell:Azul.Zulu.11.JDK-11.72.19.0-448531371	OPEN	2024-04-27T07:47:37Z
+151268	New version: Azul.Zulu.8.JDK version 8.78.0.19	SpecterShell:Azul.Zulu.8.JDK-8.78.0.19-1582521108	OPEN	2024-04-27T07:43:29Z
+151266	New package: Azul.Zulu.22.JDK version 22.30.13	SpecterShell:Azul.Zulu.22.JDK-22.30.13-1115897036	OPEN	2024-04-27T07:22:17Z
+151265	Modify: Azul.Zulu.19.JDK version 19.32.13	SpecterShell:Azul.Zulu.19.JDK-19.32.13-441180679	OPEN	2024-04-27T07:16:17Z
+151264	New version: Azul.Zulu.20.JDK version 20.32.11	SpecterShell:Azul.Zulu.20.JDK-20.32.11-1715874853	OPEN	2024-04-27T07:12:18Z
+151263	New version: Azul.Zulu.21.JDK version 21.34.19	SpecterShell:Azul.Zulu.21.JDK-21.34.19-61DF9866	OPEN	2024-04-27T07:05:15Z
 151262	New version: Jackett.Jackett version 0.21.2485	Jackett:Jackett.Jackett-0.21.2485-A21BDD6FB990EAD3A6B77DD4A32D3688A4D93984	OPEN	2024-04-27T05:55:12Z
 151261	New version: Amazon.AWSCLI version 2.15.42	BiosPlus:Amazon.AWSCLI-2.15.42-C44509BDA1764869B229D5B8B2DB79AC	OPEN	2024-04-27T05:31:38Z
 151260	New version: GodotEngine.GodotEngine.Mono version 4.2.2	CoolPlayLin:GodotEngine.GodotEngine.Mono-4.2.2-D16189D7150241E483548C37B83266C9	OPEN	2024-04-27T02:50:16Z
