@@ -1,3 +1,14 @@
+151367	Remove version: ChilliBits.Spice version 0.19.4	spicelang:ChilliBits.Spice-0.19.4-EA0E912C087C184494A47306622B0E3E5874BB68	OPEN	2024-04-28T15:12:56Z
+151366	Remove version: ChilliBits.Spice version 0.19.5	spicelang:ChilliBits.Spice-0.19.5-2109752808BE690622244205AD1CCF6329248B45	OPEN	2024-04-28T15:12:50Z
+151365	New version: ChilliBits.Spice version 0.19.6	spicelang:ChilliBits.Spice-0.19.6-18A121B175587E467FD9B542BEBA130D7CA415EE	OPEN	2024-04-28T15:12:41Z
+151364	New version: Microsoft.Azure.QuickReview version 1.1.3	cmendible:Microsoft.Azure.QuickReview-1.1.3-16a92334-b46d-4c94-b5eb-854446b79b8e	OPEN	2024-04-28T14:27:09Z
+151363	New version: Wondershare.Filmora version 13.3.8.6926 (13.3.8)	SpecterShell:Wondershare.Filmora-13.3.8.6926-1169542615	OPEN	2024-04-28T14:12:07Z
+151362	New version: Foxit.FoxitReader version 2024.2.0.25138 (2024.2.0.25138)	SpecterShell:Foxit.FoxitReader-2024.2.0.25138-1636603015	OPEN	2024-04-28T14:09:55Z
+151361	Remove version: Giuspen.Cherrytree version 1.0.4.0	pxwiz:Giuspen.Cherrytree-1.0.4.0-3D3A609224D14FDAA1AC300EA4E4E451	OPEN	2024-04-28T13:51:49Z
+151360	New version: Giuspen.Cherrytree version 1.1.2	pxwiz:Giuspen.Cherrytree-1.1.2-BA6C6C6CFE754A46B0EF6EE997542974	OPEN	2024-04-28T13:49:17Z
+151359	New version: Gruntwork.cloud-nuke version 0.35.0	licon4812:Gruntwork.cloud-nuke-0.35.0-7C8ADC80	OPEN	2024-04-28T13:32:59Z
+151358	New version: Xmind.Xmind version 24.4.9281 (24.04.09281)	SpecterShell:Xmind.Xmind-24.4.9281-261233469	OPEN	2024-04-28T13:11:56Z
+151357	Add missing scope for latest release and pre-release ExplorerPatcher	bastianeicher:master	OPEN	2024-04-28T12:54:00Z
 151356	New version: Slonopotamus.Stevedore version 1.5.0	slonopotamus:Slonopotamus.Stevedore-1.5.0-71b0a8bf-1227-49c1-9eef-55c857a862a7	OPEN	2024-04-28T12:16:51Z
 151355	New version: Tencent.TencentMeeting version 3.26.1.462	SpecterShell:Tencent.TencentMeeting-3.26.1.462-118980221	OPEN	2024-04-28T12:15:01Z
 151354	New version: MoritzBunkus.MKVToolNix version 84.0.0 (84.0)	SpecterShell:MoritzBunkus.MKVToolNix-84.0.0-303125574	OPEN	2024-04-28T12:13:46Z
