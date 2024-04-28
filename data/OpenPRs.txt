@@ -1,3 +1,8 @@
+151388	New package: Libjxl.Libjxl version 0.10.2	vikingnope:Libjxl.Libjxl-0.10.2-bd6f1004-56f5-4cef-8ddb-37b154fcef88	OPEN	2024-04-28T20:55:28Z
+151387	New package: Xiph.Flac version 1.4.3	vikingnope:Xiph.Flac-1.4.3-21e27680-cd85-45bc-8f1b-373e7ce2e4d2	OPEN	2024-04-28T20:52:56Z
+151386	Automatic update of Parsec.Parsec from 150-92a to 150.93.2.0	wingetbot:AutomaticUpdate_5d269bf7-07fa-484d-aa8b-555c460f5619	OPEN	2024-04-28T20:44:28Z
+151385	New version: Google.Chrome.Canary version 126.0.6446.0	SpecterShell:Google.Chrome.Canary-126.0.6446.0-1601981127	OPEN	2024-04-28T20:10:04Z
+151384	Windows Terminal Quake v2.0.8	flyingpie:windows-terminal-quake-v208	OPEN	2024-04-28T19:27:58Z
 151381	New version: HydrusNetwork.HydrusNetwork version v572	CuddleBear92:HydrusNetwork.HydrusNetwork-v572-81a737df-fdc2-4afb-89c3-d0041b621ef7	OPEN	2024-04-28T18:13:39Z
 151380	New version: HydrusNetwork.HydrusNetwork version v571	CuddleBear92:HydrusNetwork.HydrusNetwork-v571-a4443229-04f8-4226-b09e-6f532d36f024	OPEN	2024-04-28T18:11:12Z
 151379	New package: Backblaze.Backblazemsi version 9.0.1.777	tripp1592:Backblaze.Backblazemsi-9.0.1.777-2f5b2597-322f-4092-8cd3-d3020229a7b9	OPEN	2024-04-28T18:06:36Z
@@ -70,8 +75,6 @@
 151302	New version: xpipe-io.xpipe version 9.0.1	crschnick:xpipe-io.xpipe-9.0.1-739f5bad-0c54-49e5-bf91-b245386e0af9	OPEN	2024-04-27T19:05:57Z
 151301	Modify: Google.PlatformTools version 35.0.1	aisgbnok:update-Google.PlatformTools-35.0.1	OPEN	2024-04-27T19:04:51Z
 151300	New package: WACUP.WACUP version 1.99.12.18980	soredake:WACUP.WACUP-1.99.12.18980-EA68F9E7F886435DA1A7AE5E99E83BC8	OPEN	2024-04-27T19:02:14Z
-151299	New version: blacktop.ipsw 3.1.478	blacktop:ipsw-3.1.478	OPEN	2024-04-27T16:59:57Z
-151298	New version: blacktop.ipswd 3.1.478	blacktop:ipswd-3.1.478	OPEN	2024-04-27T16:59:51Z
 151297	New version: TinyCraft.TinyRDM version 1.1.12	SpecterShell:TinyCraft.TinyRDM-1.1.12-1107896724	OPEN	2024-04-27T16:11:30Z
 151294	Delete old version (0.7.0.0)	boergegrunicke:patch-1	OPEN	2024-04-27T15:31:18Z
 151293	New version: 360.360SE version 15.3.1024.64	SpecterShell:360.360SE-15.3.1024.64-2105802099	OPEN	2024-04-27T14:09:26Z
