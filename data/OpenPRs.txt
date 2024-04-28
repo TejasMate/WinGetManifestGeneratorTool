@@ -1,3 +1,20 @@
+151356	New version: Slonopotamus.Stevedore version 1.5.0	slonopotamus:Slonopotamus.Stevedore-1.5.0-71b0a8bf-1227-49c1-9eef-55c857a862a7	OPEN	2024-04-28T12:16:51Z
+151355	New version: Tencent.TencentMeeting version 3.26.1.462	SpecterShell:Tencent.TencentMeeting-3.26.1.462-118980221	OPEN	2024-04-28T12:15:01Z
+151354	New version: MoritzBunkus.MKVToolNix version 84.0.0 (84.0)	SpecterShell:MoritzBunkus.MKVToolNix-84.0.0-303125574	OPEN	2024-04-28T12:13:46Z
+151353	New version: ChatterinoTeam.Chatterino version 2.5.1	chatterino-ci:ChatterinoTeam.Chatterino-2.5.1-357529DAFD394D389964C7239124C4C1	OPEN	2024-04-28T11:40:18Z
+151352	New version: Tencent.QQ.NT version 9.9.9.23361 (9.9.9)	SpecterShell:Tencent.QQ.NT-9.9.9.23361-947609475	OPEN	2024-04-28T11:15:21Z
+151351	New version: dorssel.usbipd-win version 4.2.0	dorssel:dorssel.usbipd-win-4.2.0-B83111B6DEF957E0C4E19FFB84B9596E50508844	OPEN	2024-04-28T11:12:14Z
+151350	New version: EdrawSoft.MindMaster version 11.1.1.705 (11.1.1)	SpecterShell:EdrawSoft.MindMaster-11.1.1.705-1177856546	OPEN	2024-04-28T11:11:29Z
+151349	Version Update: Henry++.simplewall version 3.8.1	babblebauble:Henry++.simplewall-3.8.1-2c58474a-1dad-4fc4-9d9c-cd9c2fa8a401	OPEN	2024-04-28T10:36:06Z
+151348	New version: mar10.pyftpsync version 4.1.0.0	mar10:mar10.pyftpsync-4.1.0.0-2504d507-1b64-40d3-aac8-ea6ac6b87446	OPEN	2024-04-28T10:30:31Z
+151347	New version: Oven-sh.Bun.BaselineProfile version 1.1.6	coolplaylinbot:Oven-sh.Bun.BaselineProfile-1.1.6-5F2AE1CC13CB4086A357A7786E990691	OPEN	2024-04-28T10:13:22Z
+151346	New version: Oven-sh.Bun.Profile version 1.1.6	coolplaylinbot:Oven-sh.Bun.Profile-1.1.6-D8D77F0DEC8C44319110FE33A316D0DC	OPEN	2024-04-28T10:13:15Z
+151345	New version: Oven-sh.Bun.Baseline version 1.1.6	coolplaylinbot:Oven-sh.Bun.Baseline-1.1.6-FF6D0DB0962D4EC29E753842A85F343F	OPEN	2024-04-28T10:13:08Z
+151344	New version: Oven-sh.Bun version 1.1.6	coolplaylinbot:Oven-sh.Bun-1.1.6-CD06F7B1B1244673803527C8ABAD8F6F	OPEN	2024-04-28T10:13:02Z
+151343	New version: Hellofont.Hellofont version 4.0.6	SpecterShell:Hellofont.Hellofont-4.0.6-515327201	OPEN	2024-04-28T10:09:43Z
+151342	New version: Google.Chrome.Canary version 126.0.6445.0	SpecterShell:Google.Chrome.Canary-126.0.6445.0-1403980567	OPEN	2024-04-28T10:09:41Z
+151341	New version: MilosParipovic.OneCommander version 3.78.2 (3.78.2.0)	SpecterShell:MilosParipovic.OneCommander-3.78.2-1204207214	OPEN	2024-04-28T09:36:40Z
+151340	Update: PIKCLOUD.PikPak version 2.3.2 (2.3.2.4101)	SpecterShell:PIKCLOUD.PikPak-2.3.2-808411513	OPEN	2024-04-28T09:35:00Z
 151339	Update: iFlytek.iFlyRecSI version 5.0.0	SpecterShell:iFlytek.iFlyRecSI-5.0.0-795207038	OPEN	2024-04-28T08:54:29Z
 151338	Update: EdrawSoft.MindMaster version 11.1.0.696 (11.1.0)	SpecterShell:EdrawSoft.MindMaster-11.1.0.696-1452635277	OPEN	2024-04-28T08:47:46Z
 151337	New version: Lenovo.SLBrowser version 9.0.3.4231	SpecterShell:Lenovo.SLBrowser-9.0.3.4231-1707007972	OPEN	2024-04-28T08:11:17Z
@@ -7,7 +24,6 @@
 151331	Automatic deletion of Nlitesoft.NTLite 2024.4.9916.0	wingetbot:AutomaticUpdate_b7557e3f-ab7d-476d-ae7a-a437f54f677d	OPEN	2024-04-28T01:44:33Z
 151330	Automatic update of Nlitesoft.NTLite from 2024.4.9916.0 to 2024.4.9925.0	wingetbot:AutomaticUpdate_50a65df1-4c15-4347-8085-3598410923d8	OPEN	2024-04-28T01:39:42Z
 151329	New version: JLC.LCEDA.Pro version 2.1.58	SpecterShell:JLC.LCEDA.Pro-2.1.58-475267559	OPEN	2024-04-28T01:38:08Z
-151328	New version: MilosParipovic.OneCommander version 3.78.2 (3.78.2.0)	SpecterShell:MilosParipovic.OneCommander-3.78.2-1742148038	OPEN	2024-04-28T01:37:19Z
 151327	Automatic update of Nlitesoft.NTLite from 2024.4.9913.0 to 2024.4.9925.0	wingetbot:AutomaticUpdate_7dff5afe-a65f-47da-95f4-51dd1d10e83c	OPEN	2024-04-28T01:30:07Z
 151326	New version: NextDNS.NextDNS.CLI version 1.43.0	Exorcism0666:NextDNS.NextDNS.CLI-1.43.0-B7BB423C1325420C973312213E4946D5	OPEN	2024-04-28T01:26:54Z
 151325	New version: Tyrrrz.DiscordChatExporter.GUI version 2.43	Exorcism0666:Tyrrrz.DiscordChatExporter.GUI-2.43-A656EE029769484C9B1AB58AE261D0DC	OPEN	2024-04-28T01:26:51Z
@@ -15,24 +31,17 @@
 151323	Automatic deletion of SoftDeluxe.FreeDownloadManager 6.21.0.5639	wingetbot:AutomaticUpdate_9ad25c5f-dbde-4ac1-a3ba-60f7787bae54	OPEN	2024-04-28T00:53:14Z
 151322	Automatic update of SoftDeluxe.FreeDownloadManager from 6.21.0.5639 to 6.22.0.5714	wingetbot:AutomaticUpdate_4e0af864-aa2c-4046-959c-4186e40017d8	OPEN	2024-04-28T00:48:14Z
 151321	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_8aac25b3-def8-48d8-b794-ad4a7948a26f	OPEN	2024-04-28T00:48:13Z
-151320	Automatic deletion of Yandex.PuntoSwitcher 4.4.5.539	wingetbot:AutomaticUpdate_81f90934-171f-4dbe-9cfa-1c04b21fbbed	OPEN	2024-04-27T23:59:18Z
-151319	Automatic deletion of Icons8.Lunacy 9.5.0	wingetbot:AutomaticUpdate_44174091-4eb3-4d21-ad50-bf6f24097081	OPEN	2024-04-27T23:48:17Z
 151318	New version: vim.vim.nightly version 9.1.0377	vim:vim.vim.nightly-9.1.0377-D94DB513A10C7C9034B53ADDDBA64FAEFCCA77E7	OPEN	2024-04-27T23:37:48Z
 151317	Automatic update of PLaSK to 2024.04.27	macdems:2024.04.27	OPEN	2024-04-27T23:30:13Z
-151316	Automatic deletion of Microsoft.PowerAutomateDesktop 2.42.317.24061	wingetbot:AutomaticUpdate_d5875ec2-8d40-4fdd-bb2f-fe7f97faf091	OPEN	2024-04-27T23:21:30Z
 151315	ThePandemoniumInstitute.BloodontheClocktowerOnline version 3.25.1	pikcube:ThePandemoniumInstitute.BloodontheClocktowerOnline-3.25.1-1bd36534-2d48-4499-989a-3bd07e4b8115	OPEN	2024-04-27T23:19:23Z
-151314	Automatic deletion of WilhelmHappe.NetRadio 2.5.3.1	wingetbot:AutomaticUpdate_a40d71eb-8557-4507-bbb9-da2e71f4a22c	OPEN	2024-04-27T23:11:49Z
 151313	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_9bc99487-0b86-4d68-9845-411ce5357a6e	OPEN	2024-04-27T23:01:06Z
 151312	mtkennerly.ludusavi version 0.23.0	mtkennerly:mtkennerly.ludusavi-0.23.0	OPEN	2024-04-27T22:50:13Z
 151311	Automatic update of Mega.MEGASync from 5.2.0.0 to 5.2.1.0	wingetbot:AutomaticUpdate_1172a83f-757e-4ad1-ac96-bfc780aa5f9d	OPEN	2024-04-27T22:39:15Z
 151310	New version: jumppad.jumppad version 0.11.1	nicholasjackson:jumppad.jumppad-0.11.1-446c0cac-994b-4940-b2e2-e00f9b46a670	OPEN	2024-04-27T22:05:28Z
-151309	Automatic deletion of PowerSoftware.PowerISO 8.7.0.0	wingetbot:AutomaticUpdate_102d9543-8b0a-4643-bca0-fbdfef5cf066	OPEN	2024-04-27T21:24:36Z
 151308	Automatic update of AtomicJar.Testcontainers from 1.10.1 to 1.11.0	wingetbot:AutomaticUpdate_40b0399c-fd37-4923-85e3-ceca9273c368	OPEN	2024-04-27T20:33:16Z
 151307	Automatic update of Jidifudi.GT4T from 8.43.240407 to 8.45.240426	wingetbot:AutomaticUpdate_f83afb2e-77fc-4704-a9cf-598c0f781378	OPEN	2024-04-27T20:11:33Z
 151306	New version: Google.Chrome.Canary version 126.0.6444.0	SpecterShell:Google.Chrome.Canary-126.0.6444.0-519574663	OPEN	2024-04-27T20:10:15Z
 151305	New package: actualsolution.VolumeLock version 2.4	soredake:actualsolution.VolumeLock-2.4-84C933631EAA4F1E9EF545D0B733B848	OPEN	2024-04-27T19:15:21Z
-151304	Automatic deletion of AdGuard.AdGuardVPN.Nightly 2.3.1385.0	wingetbot:AutomaticUpdate_729428d3-8f6d-4ca3-a6a1-ecf6bf1060e9	OPEN	2024-04-27T19:10:00Z
-151303	Automatic deletion of AdGuard.AdGuardVPN.Beta 2.3.1346.0	wingetbot:AutomaticUpdate_bbd44a77-ff36-4fe4-a88d-bf6b8863001c	OPEN	2024-04-27T19:09:55Z
 151302	New version: xpipe-io.xpipe version 9.0.1	crschnick:xpipe-io.xpipe-9.0.1-739f5bad-0c54-49e5-bf91-b245386e0af9	OPEN	2024-04-27T19:05:57Z
 151301	Modify: Google.PlatformTools version 35.0.1	aisgbnok:update-Google.PlatformTools-35.0.1	OPEN	2024-04-27T19:04:51Z
 151300	New package: WACUP.WACUP version 1.99.12.18980	soredake:WACUP.WACUP-1.99.12.18980-EA68F9E7F886435DA1A7AE5E99E83BC8	OPEN	2024-04-27T19:02:14Z
