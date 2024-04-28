@@ -1,3 +1,18 @@
+151323	Automatic deletion of SoftDeluxe.FreeDownloadManager 6.21.0.5639	wingetbot:AutomaticUpdate_9ad25c5f-dbde-4ac1-a3ba-60f7787bae54	OPEN	2024-04-28T00:53:14Z
+151322	Automatic update of SoftDeluxe.FreeDownloadManager from 6.21.0.5639 to 6.22.0.5714	wingetbot:AutomaticUpdate_4e0af864-aa2c-4046-959c-4186e40017d8	OPEN	2024-04-28T00:48:14Z
+151321	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_8aac25b3-def8-48d8-b794-ad4a7948a26f	OPEN	2024-04-28T00:48:13Z
+151320	Automatic deletion of Yandex.PuntoSwitcher 4.4.5.539	wingetbot:AutomaticUpdate_81f90934-171f-4dbe-9cfa-1c04b21fbbed	OPEN	2024-04-27T23:59:18Z
+151319	Automatic deletion of Icons8.Lunacy 9.5.0	wingetbot:AutomaticUpdate_44174091-4eb3-4d21-ad50-bf6f24097081	OPEN	2024-04-27T23:48:17Z
+151318	New version: vim.vim.nightly version 9.1.0377	vim:vim.vim.nightly-9.1.0377-D94DB513A10C7C9034B53ADDDBA64FAEFCCA77E7	OPEN	2024-04-27T23:37:48Z
+151317	Automatic update of PLaSK to 2024.04.27	macdems:2024.04.27	OPEN	2024-04-27T23:30:13Z
+151316	Automatic deletion of Microsoft.PowerAutomateDesktop 2.42.317.24061	wingetbot:AutomaticUpdate_d5875ec2-8d40-4fdd-bb2f-fe7f97faf091	OPEN	2024-04-27T23:21:30Z
+151315	ThePandemoniumInstitute.BloodontheClocktowerOnline version 3.25.1	pikcube:ThePandemoniumInstitute.BloodontheClocktowerOnline-3.25.1-1bd36534-2d48-4499-989a-3bd07e4b8115	OPEN	2024-04-27T23:19:23Z
+151314	Automatic deletion of WilhelmHappe.NetRadio 2.5.3.1	wingetbot:AutomaticUpdate_a40d71eb-8557-4507-bbb9-da2e71f4a22c	OPEN	2024-04-27T23:11:49Z
+151313	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_9bc99487-0b86-4d68-9845-411ce5357a6e	OPEN	2024-04-27T23:01:06Z
+151312	mtkennerly.ludusavi version 0.23.0	mtkennerly:mtkennerly.ludusavi-0.23.0	OPEN	2024-04-27T22:50:13Z
+151311	Automatic update of Mega.MEGASync from 5.2.0.0 to 5.2.1.0	wingetbot:AutomaticUpdate_1172a83f-757e-4ad1-ac96-bfc780aa5f9d	OPEN	2024-04-27T22:39:15Z
+151310	New version: jumppad.jumppad version 0.11.1	nicholasjackson:jumppad.jumppad-0.11.1-446c0cac-994b-4940-b2e2-e00f9b46a670	OPEN	2024-04-27T22:05:28Z
+151309	Automatic deletion of PowerSoftware.PowerISO 8.7.0.0	wingetbot:AutomaticUpdate_102d9543-8b0a-4643-bca0-fbdfef5cf066	OPEN	2024-04-27T21:24:36Z
 151308	Automatic update of AtomicJar.Testcontainers from 1.10.1 to 1.11.0	wingetbot:AutomaticUpdate_40b0399c-fd37-4923-85e3-ceca9273c368	OPEN	2024-04-27T20:33:16Z
 151307	Automatic update of Jidifudi.GT4T from 8.43.240407 to 8.45.240426	wingetbot:AutomaticUpdate_f83afb2e-77fc-4704-a9cf-598c0f781378	OPEN	2024-04-27T20:11:33Z
 151306	New version: Google.Chrome.Canary version 126.0.6444.0	SpecterShell:Google.Chrome.Canary-126.0.6444.0-519574663	OPEN	2024-04-27T20:10:15Z
@@ -66,7 +81,6 @@
 151235	Automatic update of Yandex.Messenger from 2.195.0 to 2.196.0	wingetbot:AutomaticUpdate_fb512097-3f8b-48a5-89b5-b6e60fa19622	OPEN	2024-04-26T23:59:34Z
 151228	New version: Microsoft.devtunnel version 1.0.1290+8d780f0d7b	IlyaBiryukov:Microsoft.devtunnel-1.0.1290+8d780f0d7b-9965bae9-b1e6-46e9-866f-551281526a47	OPEN	2024-04-26T23:17:25Z
 151225	New version: vim.vim.nightly version 9.1.0374	vim:vim.vim.nightly-9.1.0374-4CBE87E62A8C461729382C987D410F068D78F633	OPEN	2024-04-26T23:06:30Z
-151224	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_4c85cb6b-a9e3-440e-8d1d-95eee27c336c	OPEN	2024-04-26T23:03:02Z
 151220	Modify: Wagnardsoft.DisplayDriverUninstaller version 18.0.7.6	aisgbnok:modify-Wagnardsoft.DisplayDriverUninstaller-18.0.7.6	OPEN	2024-04-26T22:25:29Z
 151212	Automatic update of PIKCLOUD.PikPak from 2.3.2 to 2.3.2.4101	wingetbot:AutomaticUpdate_0430fe5d-7228-4c2b-9edf-35c176489a10	OPEN	2024-04-26T21:07:02Z
 151209	Automatic update of Oracle.JDK.21 from 21.0.2 to 21.0.3.0	wingetbot:AutomaticUpdate_24e81c14-47a5-43b1-a571-3146d2f98020	OPEN	2024-04-26T20:26:29Z
@@ -87,11 +101,9 @@
 151146	New version: gjergj.testmyapp 0.0.74	Gjergj:testmyapp-v0.0.74	OPEN	2024-04-26T07:57:44Z
 151144	New version: Oven-sh.Bun.Baseline version 1.1.5	coolplaylinbot:Oven-sh.Bun.Baseline-1.1.5-007D4BEAA6134417A44297DBC9491B94	OPEN	2024-04-26T07:39:08Z
 151140	New version: Jackett.Jackett version 0.21.2476	Jackett:Jackett.Jackett-0.21.2476-32676E81425B384517DEDD783AFA403355B53D4C	OPEN	2024-04-26T06:02:23Z
-151139	New version: Microsoft.PowerBI version 2.128.1177.0	PckgrBot:Microsoft.PowerBI-2.128.1177.0-d473f4bc-4392-4b97-9118-c45a39630ab2	OPEN	2024-04-26T05:56:38Z
 151128	Automatic update of NordSecurity.NordPass from 5.15.27 to 5.15.28.49003	wingetbot:AutomaticUpdate_9e56da81-7caa-456e-b76e-32b489b1efce	OPEN	2024-04-26T01:26:01Z
 151127	New version: Kubernetes.kwok version 0.5.2	Exorcism0666:Kubernetes.kwok-0.5.2-5D91E108F5FF469DB57CF64CAFCF4735	OPEN	2024-04-26T01:23:26Z
 151123	New version: Microsoft.PowerBI version 2.127.1327.0	PckgrBot:Microsoft.PowerBI-2.127.1327.0-260cd0b2-007d-4998-9b81-f67886091a25	OPEN	2024-04-26T01:02:22Z
-151122	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_583c5b72-3ed7-4fc8-9f19-1ce13e3d713d	OPEN	2024-04-26T00:55:42Z
 151119	New version: Unity.Unity.2023 version 2023.2.20f1	SpecterShell:Unity.Unity.2023-2023.2.20f1-1665313077	OPEN	2024-04-26T00:34:55Z
 151117	New version: OSGeo.QGIS_LTR version 3.34.6	PckgrBot:OSGeo.QGIS_LTR-3.34.6-9205f3b0-84ad-4cf2-a2c0-a139dfb85c7a	OPEN	2024-04-26T00:15:31Z
 151116	New version: OSGeo.QGIS version 3.36.2	PckgrBot:OSGeo.QGIS-3.36.2-a44bbde1-5762-451a-a84f-9c755a49ef21	OPEN	2024-04-26T00:11:46Z
