@@ -1,3 +1,13 @@
+151437	Modify: RevoUninstaller.RevoUninstaller version 2.1.7	aisgbnok:update-RevoUninstaller.RevoUninstaller-2.1.7	OPEN	2024-04-29T06:13:09Z
+151436	Modify: RevoUninstaller.RevoUninstaller version 2.4.5	aisgbnok:update-RevoUninstaller.RevoUninstaller-2.4.5	OPEN	2024-04-29T06:01:21Z
+151435	New version: Jackett.Jackett version 0.21.2503	Jackett:Jackett.Jackett-0.21.2503-2D50DAB0A9A37903F1E04060A17DCFAF09693ADB	OPEN	2024-04-29T06:00:57Z
+151434	New package: Shssoichiro.Oxipng version 9.1.1	BiosPlus:Shssoichiro.Oxipng-9.1.1-02CAA01CA22C424BA80E78121743C9A7	OPEN	2024-04-29T05:09:50Z
+151433	New version: Nvidia.GeForceNow version 2.0.62.152	SpecterShell:Nvidia.GeForceNow-2.0.62.152-2109038802	OPEN	2024-04-29T04:11:43Z
+151432	New version: Hitencent.JisuPDF version 3.0.0.3028	SpecterShell:Hitencent.JisuPDF-3.0.0.3028-207199085	OPEN	2024-04-29T04:10:46Z
+151431	Remove: zig.zig.nightly version 0.11.0	coolplaylinbot:zig.zig.nightly-0.11.0-E507538DC7C13FB3D40506EDAF32F18AEC628CAC	OPEN	2024-04-29T03:35:24Z
+151430	Remove: Zoho.ZohoMail.Desktop version 1.4.1	coolplaylinbot:Zoho.ZohoMail.Desktop-1.4.1-7103FFB678E49E40A3CE037B8B9522DED20ACD1E	OPEN	2024-04-29T03:31:15Z
+151429	Remove: zhanglun.Lettura version 0.1.14	coolplaylinbot:zhanglun.Lettura-0.1.14-AE27A7623E2E2AFDB4E20817DBBEFD6FE6BCCB6D	OPEN	2024-04-29T03:29:55Z
+151428	Remove: zhanglun.Lettura version 0.1.15	coolplaylinbot:zhanglun.Lettura-0.1.15-4312EFAEBFD2946EEAD18006C2179CBE5539A3D3	OPEN	2024-04-29T03:29:54Z
 151427	New version: Seewo.AirTeach version 2.0.11.16619	SpecterShell:Seewo.AirTeach-2.0.11.16619-1881431458	OPEN	2024-04-29T03:13:04Z
 151426	Remove: LeadDeskLtd.LeadDesk version 9.90.0	coolplaylinbot:LeadDeskLtd.LeadDesk-9.90.0-58E60ECF2FF23C3ACE8762979463373071909DD8	OPEN	2024-04-29T03:11:11Z
 151425	Modify: Python.Python.2 version 2.7.18150	SpecterShell:Python.Python.2-2.7.18150-79025DF8	OPEN	2024-04-29T03:03:08Z
