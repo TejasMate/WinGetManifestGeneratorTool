@@ -1,3 +1,30 @@
+151465	New version: PerfectWorld.PerfectWorldArena version 1.0.24042913	SpecterShell:PerfectWorld.PerfectWorldArena-1.0.24042913-1531589100	OPEN	2024-04-29T09:11:45Z
+151464	New version: Google.Chrome.Canary version 126.0.6447.0	SpecterShell:Google.Chrome.Canary-126.0.6447.0-1875643827	OPEN	2024-04-29T09:10:49Z
+151463	New version: ByteDance.Doubao version 1.4.3	SpecterShell:ByteDance.Doubao-1.4.3-402194912	OPEN	2024-04-29T09:09:52Z
+151462	Update version: nzbget.nzbget version 24.0	phnzb:nzbget.nzbget-24.0-B609D89800B640B2A4F77DBDEED7D2DB	OPEN	2024-04-29T09:07:40Z
+151461	Microsoft.VisualStudioCode.Insiders_v1.89.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.89.0	OPEN	2024-04-29T09:05:10Z
+151460	New version: Foxit.FoxitReader version 2024.2.0.25138	PckgrBot:Foxit.FoxitReader-2024.2.0.25138-40e2e769-8ee0-4489-bf44-c85513e13d60	OPEN	2024-04-29T09:03:36Z
+151459	New version: francWhite.reportify version 1.2.0	francWhite:francWhite.reportify-1.2.0-3AD21CF0D6C1D8F743398D51CE31970A5FBACE16	OPEN	2024-04-29T09:00:17Z
+151458	New version: Meltytech.Shotcut version 24.04.28	PckgrBot:Meltytech.Shotcut-24.04.28-a057d261-3087-41ed-b023-dbfe41d05017	OPEN	2024-04-29T08:58:50Z
+151457	New version: KiCad.KiCad version 8.0.2	PckgrBot:KiCad.KiCad-8.0.2-61edb263-84ae-4779-a7d2-85ba26da053e	OPEN	2024-04-29T08:58:18Z
+151456	Add version: StandardNotes.StandardNotes version 3.193.9	russellbanks:StandardNotes.StandardNotes-3.193.9-3A69AB3C7AF54832848B05D69253285E	OPEN	2024-04-29T08:57:20Z
+151455	New version: WinMerge.WinMerge version 2.16.40	PckgrBot:WinMerge.WinMerge-2.16.40-cca0f721-fdd9-42b8-8b36-8a387afe190b	OPEN	2024-04-29T08:57:07Z
+151454	New version: Amazon.AWSCLI version 2.15.42	PckgrBot:Amazon.AWSCLI-2.15.42-adfb12f8-e5f7-4ed0-a58b-1036a578bfbd	OPEN	2024-04-29T08:56:35Z
+151452	hoppscotch.Hoppscotch version 24.3.1-2	xVemu:hoppscotch.Hoppscotch-24.3.1-2-b8b45bbd-ec94-4567-8f68-f8f1926b0a33	OPEN	2024-04-29T08:34:49Z
+151451	New package: Iperf.Iperf version 3.16	vikingnope:Iperf.Iperf-3.16-569ADF5C3A5A4EEB91AE7E0D01174E4A	OPEN	2024-04-29T08:24:03Z
+151450	New package: JanFiala.PSPad.507.64b version 5.0.7.775	JaFi-cz:JanFiala.PSPad.507.64b-5.0.7.775-a5ab4606-32c4-4ff0-8c2c-bc3bb0e6ab67	OPEN	2024-04-29T08:19:06Z
+151449	New version: Caphyon.AdvancedInstaller version 21.7	SpecterShell:Caphyon.AdvancedInstaller-21.7-1464560456	OPEN	2024-04-29T08:14:38Z
+151448	New version: IDEA.ReadPaper version 1.27.0	SpecterShell:IDEA.ReadPaper-1.27.0-1201813042	OPEN	2024-04-29T08:13:19Z
+151447	Nelson 1.4.0.4010	Nelson-numerical-software:master	OPEN	2024-04-29T08:00:47Z
+151446	New package: JanFiala.PSPad.507.32b version 5.0.7.775	JaFi-cz:JanFiala.PSPad.507.32b-5.0.7.775-2433dd18-1ee6-4ba0-b3c6-e3355d4d0f2a	OPEN	2024-04-29T07:43:47Z
+151445	New version: astral-sh.ruff version 0.4.2	frazar:astral-sh.ruff-0.4.2-F78213FE	OPEN	2024-04-29T07:36:47Z
+151444	New version: uazo.cromite version 124.0.6367.91	Exorcism0666:uazo.cromite-124.0.6367.91-2015885501	OPEN	2024-04-29T07:19:40Z
+151443	New version: MullvadVPN.MullvadVPN version 2024.2	Exorcism0666:MullvadVPN.MullvadVPN-2024.2-653118279	OPEN	2024-04-29T07:19:39Z
+151442	New version: Coldlake.StellarPlayer version 2.24.1408.24 (20240408143132)	SpecterShell:Coldlake.StellarPlayer-2.24.1408.24-1252247537	OPEN	2024-04-29T07:11:23Z
+151441	New version: DeepL.DeepL version 24.4.3.12310	SpecterShell:DeepL.DeepL-24.4.3.12310-2008586801	OPEN	2024-04-29T07:10:21Z
+151440	New version: Alibaba.AlibabaCloudCLI version 3.0.204	SpecterShell:Alibaba.AlibabaCloudCLI-3.0.204-848162780	OPEN	2024-04-29T07:08:50Z
+151439	New version: RevoUninstaller.RevoUninstallerPro version 5.2.6	aisgbnok:new-RevoUninstaller.RevoUninstallerPro-5.2.6	OPEN	2024-04-29T06:38:08Z
+151438	Modify: RevoUninstaller.RevoUninstallerPro version 5.0.7	aisgbnok:update-RevoUninstaller.RevoUninstallerPro-5.0.7	OPEN	2024-04-29T06:31:31Z
 151437	Modify: RevoUninstaller.RevoUninstaller version 2.1.7	aisgbnok:update-RevoUninstaller.RevoUninstaller-2.1.7	OPEN	2024-04-29T06:13:09Z
 151436	Modify: RevoUninstaller.RevoUninstaller version 2.4.5	aisgbnok:update-RevoUninstaller.RevoUninstaller-2.4.5	OPEN	2024-04-29T06:01:21Z
 151435	New version: Jackett.Jackett version 0.21.2503	Jackett:Jackett.Jackett-0.21.2503-2D50DAB0A9A37903F1E04060A17DCFAF09693ADB	OPEN	2024-04-29T06:00:57Z
