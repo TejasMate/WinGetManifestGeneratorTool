@@ -1,3 +1,31 @@
+151427	New version: Seewo.AirTeach version 2.0.11.16619	SpecterShell:Seewo.AirTeach-2.0.11.16619-1881431458	OPEN	2024-04-29T03:13:04Z
+151426	Remove: LeadDeskLtd.LeadDesk version 9.90.0	coolplaylinbot:LeadDeskLtd.LeadDesk-9.90.0-58E60ECF2FF23C3ACE8762979463373071909DD8	OPEN	2024-04-29T03:11:11Z
+151425	Modify: Python.Python.2 version 2.7.18150	SpecterShell:Python.Python.2-2.7.18150-79025DF8	OPEN	2024-04-29T03:03:08Z
+151424	Remove: LesFerch.WinSetView version 2.80	coolplaylinbot:LesFerch.WinSetView-2.80-8F205BDCE8F0D9EE287461A148452F155CF5F499	OPEN	2024-04-29T02:53:41Z
+151423	Remove: LesFerch.WinSetView version 2.77	coolplaylinbot:LesFerch.WinSetView-2.77-DC91ED43D62A440B2401C0438EC8C43EC03E140C	OPEN	2024-04-29T02:53:40Z
+151422	Remove: LutzRoeder.Netron version 7.5.8	coolplaylinbot:LutzRoeder.Netron-7.5.8-ED305EC84AFCB65CA857BAE4F97A718BCB860D27	OPEN	2024-04-29T02:50:37Z
+151421	Remove: LutzRoeder.Netron version 7.5.3	coolplaylinbot:LutzRoeder.Netron-7.5.3-E0D7AA16F2B19C2301198B79163ECD033962E181	OPEN	2024-04-29T02:50:36Z
+151420	Remove: LutzRoeder.Netron version 7.3.8	coolplaylinbot:LutzRoeder.Netron-7.3.8-2B22CE6A4C69B1F75D0457ADA6982E32B7BEF925	OPEN	2024-04-29T02:50:35Z
+151419	Remove: LutzRoeder.Netron version 7.3.9	coolplaylinbot:LutzRoeder.Netron-7.3.9-54ACC375DF06F5ABD8A121AEDF292F4B72562303	OPEN	2024-04-29T02:50:34Z
+151418	Remove: LutzRoeder.Netron version 7.4.2	coolplaylinbot:LutzRoeder.Netron-7.4.2-092F489666BECAD7FBA9506B57F2D46D63862CD6	OPEN	2024-04-29T02:50:33Z
+151417	Remove: LutzRoeder.Netron version 7.4.1	coolplaylinbot:LutzRoeder.Netron-7.4.1-EC387993F4E2BEEA4AC0EB08E4887D25C2A7F930	OPEN	2024-04-29T02:50:32Z
+151416	Remove: LutzRoeder.Netron version 7.6.0	coolplaylinbot:LutzRoeder.Netron-7.6.0-55E981BAD4B23694A18EBD6AF76F10FDDDEA839F	OPEN	2024-04-29T02:50:31Z
+151415	Remove: LutzRoeder.Netron version 7.5.2	coolplaylinbot:LutzRoeder.Netron-7.5.2-72903EA644055BDA58B01DEC50B3131A49143E1F	OPEN	2024-04-29T02:50:30Z
+151414	Remove: LutzRoeder.Netron version 7.5.1	coolplaylinbot:LutzRoeder.Netron-7.5.1-AAACB98467CBB0E6042178DC2F6EE846422F147E	OPEN	2024-04-29T02:50:29Z
+151413	Remove: LutzRoeder.Netron version 7.5.0	coolplaylinbot:LutzRoeder.Netron-7.5.0-9FB24B770979A560CB8AE46633D3CECC507F952E	OPEN	2024-04-29T02:50:28Z
+151412	Remove: LutzRoeder.Netron version 7.5.4	coolplaylinbot:LutzRoeder.Netron-7.5.4-56CD1BB9033AE5D9D49CA2E3301E6A8CD78D0CF5	OPEN	2024-04-29T02:50:27Z
+151411	Remove: LutzRoeder.Netron version 7.5.7	coolplaylinbot:LutzRoeder.Netron-7.5.7-01CDC8903B3E3DD1A11AF8DAA75104EAECC5F534	OPEN	2024-04-29T02:50:25Z
+151410	Remove: LutzRoeder.Netron version 7.6.1	coolplaylinbot:LutzRoeder.Netron-7.6.1-B6ECDBCBB591F63AC9BF46415E2F516428A98ADB	OPEN	2024-04-29T02:50:24Z
+151409	Remove: LutzRoeder.Netron version 7.4.4	coolplaylinbot:LutzRoeder.Netron-7.4.4-3833400FB985D89814A3C1BB3D3C369E47A7C7A9	OPEN	2024-04-29T02:50:23Z
+151408	Remove: LutzRoeder.Netron version 7.5.6	coolplaylinbot:LutzRoeder.Netron-7.5.6-08EFEEE300BAD899DF04B18CD89CF41B49020992	OPEN	2024-04-29T02:50:20Z
+151407	Remove: LutzRoeder.Netron version 7.4.5	coolplaylinbot:LutzRoeder.Netron-7.4.5-39021B554A88B11F5E88D7F8F4CAD5674CA1BFB5	OPEN	2024-04-29T02:50:19Z
+151406	Remove: LutzRoeder.Netron version 7.4.9	coolplaylinbot:LutzRoeder.Netron-7.4.9-96F40068059C8E6F7CF95E77FD4D3C192156E499	OPEN	2024-04-29T02:50:18Z
+151405	New version: PerfectWorld.PerfectWorldArena version 1.0.24042912	SpecterShell:PerfectWorld.PerfectWorldArena-1.0.24042912-985231565	OPEN	2024-04-29T01:35:46Z
+151404	New version: Meltytech.Shotcut version 24.04.28	Exorcism0666:Meltytech.Shotcut-24.04.28-8805E6402DAC40FAB06AA37C48C974B2	OPEN	2024-04-29T01:24:37Z
+151403	New version: YS-L.csvlens version 0.9.0	Exorcism0666:YS-L.csvlens-0.9.0-767FEFB2E8704F6F9DF87B94A10E32EC	OPEN	2024-04-29T01:24:32Z
+151402	New version: NextDNS.NextDNS.CLI version 1.43.1	Exorcism0666:NextDNS.NextDNS.CLI-1.43.1-C53C834BC44A4795B461428AD68C4BF7	OPEN	2024-04-29T01:24:28Z
+151401	New version: yt-dlp.yt-dlp.nightly version 2024.04.28.232723	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.04.28.232723-1676724716	OPEN	2024-04-29T01:23:59Z
+151400	New version: Ryujinx.Ryujinx version 1.1.1294	Exorcism0666:Ryujinx.Ryujinx-1.1.1294-1211184375	OPEN	2024-04-29T01:23:57Z
 151399	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_05650dab-8e9c-4d67-bf44-309c9ba1e6b4	OPEN	2024-04-29T01:02:24Z
 151398	Remove: UniversityOfAmsterdam.praat version 6.4.1	coolplaylinbot:UniversityOfAmsterdam.praat-6.4.1-1B8A4924D7E9C5B97D1E8BD9E366012B70DA2271	OPEN	2024-04-29T01:00:15Z
 151397	New version: Termius.Termius version 8.11.2	SpecterShell:Termius.Termius-8.11.2-1718670908	OPEN	2024-04-29T00:28:16Z
