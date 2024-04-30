@@ -1,3 +1,13 @@
+151613	New version: Dio.PureCodec version 20240430	SpecterShell:Dio.PureCodec-20240430-1816101599	OPEN	2024-04-30T09:13:26Z
+151612	New version: Sogou.SogouInput version 14.4.0.9347 (14.4c)	SpecterShell:Sogou.SogouInput-14.4.0.9347-856851223	OPEN	2024-04-30T09:13:15Z
+151611	New version: Google.Chrome.Canary version 126.0.6449.0	SpecterShell:Google.Chrome.Canary-126.0.6449.0-1690516583	OPEN	2024-04-30T09:09:31Z
+151610	New version: KDE.KDEConnect version 24.02.0	SpecterShell:KDE.KDEConnect-24.02.0-2146622892	OPEN	2024-04-30T08:12:36Z
+151609	New version: JinweiZhiguang.MasterAgent version 0.6.3	SpecterShell:JinweiZhiguang.MasterAgent-0.6.3-1728380927	OPEN	2024-04-30T08:12:34Z
+151608	New version: Evernote.Evernote version 10.86.5	SpecterShell:Evernote.Evernote-10.86.5-242986634	OPEN	2024-04-30T08:12:01Z
+151607	New version: Alibaba.QuarkCloudDrive version 3.2.2	SpecterShell:Alibaba.QuarkCloudDrive-3.2.2-1266840033	OPEN	2024-04-30T08:11:28Z
+151606	New version: Brave.Brave.Beta version 124.1.66.95	SpecterShell:Brave.Brave.Beta-124.1.66.95-1946779764	OPEN	2024-04-30T08:11:26Z
+151604	New version: Microsoft.Promptflow version 1.10.0	elliotzh:Microsoft.Promptflow-1.10.0-52d68a4b-ca9e-46a4-bf45-a226a43925ed	OPEN	2024-04-30T07:20:52Z
+151603	hoppscotch.Hoppscotch version 24.3.1.2	xVemu:hoppscotch.Hoppscotch-24.3.1.2-d65be80a-27c4-4275-b8d4-923495dd4602	OPEN	2024-04-30T06:39:34Z
 151601	New version: Yidadaa.ChatGPTNextWeb version 2.12.2	SpecterShell:Yidadaa.ChatGPTNextWeb-2.12.2-368976079	OPEN	2024-04-30T06:13:11Z
 151600	New version: RemNote.RemNote version 1.16.5	SpecterShell:RemNote.RemNote-1.16.5-538654721	OPEN	2024-04-30T06:12:08Z
 151599	Add AzureCLI 2.60.0	azclibot:azurecli-2.60.0	OPEN	2024-04-30T06:04:12Z
@@ -40,7 +50,6 @@
 151496	New version: version-fox.vfox version 0.4.2	docentYT:version-fox.vfox-0.4.2-01F1EEC762F44F3EAEEE72DDA151236C	OPEN	2024-04-29T17:02:36Z
 151488	New version: tldr-pages.tlrc 1.9.2	kbdharun:tlrc192	OPEN	2024-04-29T15:16:56Z
 151481	New package: gif.ski version 1.14.4	antonioalopezfernandez:gif.ski-1.14.4-9BC3B6B0D1444E36A9D78BDDFC98F91C	OPEN	2024-04-29T13:27:50Z
-151452	hoppscotch.Hoppscotch version 24.3.1-2	xVemu:hoppscotch.Hoppscotch-24.3.1-2-b8b45bbd-ec94-4567-8f68-f8f1926b0a33	OPEN	2024-04-29T08:34:49Z
 151449	New version: Caphyon.AdvancedInstaller version 21.7	SpecterShell:Caphyon.AdvancedInstaller-21.7-1464560456	OPEN	2024-04-29T08:14:38Z
 151447	Nelson 1.4.0.4010	Nelson-numerical-software:master	OPEN	2024-04-29T08:00:47Z
 151443	New version: MullvadVPN.MullvadVPN version 2024.2	Exorcism0666:MullvadVPN.MullvadVPN-2024.2-653118279	OPEN	2024-04-29T07:19:39Z
