@@ -1,3 +1,16 @@
+151763	New version: Roblox.Roblox version 1.6.1.6220470	Trenly:Roblox.Roblox-1.6.1.6220470-442665B6	OPEN	2024-05-01T03:17:59Z
+151762	New package: BlueMail.BlueMail version 1.140.28	Trenly:BlueMail.BlueMail-1.140.28-B87AA3B8	OPEN	2024-05-01T02:47:14Z
+151761	New version: MoonchildProductions.PaleMoon version 33.1.0	Trenly:MoonchildProductions.PaleMoon-33.1.0-FDF90FDD	OPEN	2024-05-01T02:33:39Z
+151759	New version: nektos.act version 0.2.62	nektos:nektos.act-0.2.62-D17039D103DC2889EA25F4422BCF8E6E331EFE2A	OPEN	2024-05-01T02:20:27Z
+151752	Remove: Zype.Compass version 1.0.0	Trenly:Zype.Compass-1.0.0-04AD0C0	OPEN	2024-05-01T02:00:39Z
+151751	New version: Rem0o.FanControl version 188	SpecterShell:Rem0o.FanControl-188-866644714	OPEN	2024-05-01T01:36:34Z
+151747	New version: electerm.electerm version 1.38.80	Exorcism0666:electerm.electerm-1.38.80-500F7AB29B5749C3B85907280AB1CB65	OPEN	2024-05-01T01:28:04Z
+151746	New version: Balena.BalenaCLI version 18.2.2	Exorcism0666:Balena.BalenaCLI-18.2.2-1E0A943721DC48FF955EF21F07595ABD	OPEN	2024-05-01T01:27:58Z
+151745	New version: Fly-io.flyctl version 0.2.45	Exorcism0666:Fly-io.flyctl-0.2.45-5302F2DD267D4FF18D36FFEDF93E0949	OPEN	2024-05-01T01:27:50Z
+151744	New version: DuongDieuPhap.ImageGlass version 9.0.11.502	Exorcism0666:DuongDieuPhap.ImageGlass-9.0.11.502-54946CDA44BE438790F83E21016ABF03	OPEN	2024-05-01T01:27:43Z
+151743	New package: srevinsaju.guiscrcpy.PySide2 version 2023.01.01	Trenly:srevinsaju.guiscrcpy.PySide2-2023.01.01-F19B7B60	OPEN	2024-05-01T01:27:20Z
+151742	Automatic update of Surfshark.Surfshark from 5.7.1999 to 5.7.2999	wingetbot:AutomaticUpdate_6a7a18bb-6ce8-49d8-b831-254703ded598	OPEN	2024-05-01T01:26:54Z
+151741	New package: srevinsaju.guiscrcpy.PyQt5 version 2023.01.01	Trenly:srevinsaju.guiscrcpy.PyQt5-2023.01.01-0A5915E2	OPEN	2024-05-01T01:21:40Z
 151740	Automatic update of SoftPerfect.SoftPerfectNetworkScanner 8.2.1	wingetbot:AutomaticUpdate_7214135b-44e3-49d9-a2bc-afa5ff9df022	OPEN	2024-05-01T01:10:28Z
 151739	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_2b816e73-ca39-4d15-ad2f-e373089d225c	OPEN	2024-05-01T01:10:21Z
 151738	Automatic update of Jagex.Runescape 2.2.11	wingetbot:AutomaticUpdate_f74bfd9c-eab7-4c25-8560-479100a118c2	OPEN	2024-05-01T01:10:20Z
@@ -16,7 +29,6 @@
 151703	LMStudio.LMStudio version 0.2.21	azchohfi:LMStudio.LMStudio-0.2.21-24989224-d731-425f-8811-1a274481cf6c	OPEN	2024-04-30T21:38:39Z
 151701	Updated WSL version 2.1.5.0	craigloewen-msft:master	OPEN	2024-04-30T21:25:03Z
 151700	Updated WSL version 2.2.0	craigloewen-msft:crloewen/wsl	OPEN	2024-04-30T21:23:45Z
-151695	Automatic update of PerfectWorld.TowerOfFantasy from 0.0.6.223 to 0.0.6.229	wingetbot:AutomaticUpdate_142d8f56-b988-421a-b3f4-60bcb618edc4	OPEN	2024-04-30T21:03:16Z
 151662	New package: Dev47Apps.DroidCamOBS version 2.3.2	Trenly:Dev47Apps.DroidCamOBS-2.3.2-94A9B3A8	OPEN	2024-04-30T16:22:32Z
 151636	New version: LinwoodCloud.Butterfly version 2.1.0-rc.1	LinwoodDev:LinwoodCloud.Butterfly-2.1.0-rc.1-3CFA639E0A55D844E1475F4F0097935424928336	OPEN	2024-04-30T12:40:19Z
 151614	Remove outdated version (0.7.1.0)	boergegrunicke:master	OPEN	2024-04-30T09:29:50Z
