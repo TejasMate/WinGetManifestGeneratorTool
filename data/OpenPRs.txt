@@ -1,3 +1,10 @@
+151787	Update version: RoyalApps.RoyalTS.V7 version 7.02.50424.0	Dragon1573:issues/151770	OPEN	2024-05-01T09:15:43Z
+151786	New version: Google.Chrome.Canary version 126.0.6451.0	SpecterShell:Google.Chrome.Canary-126.0.6451.0-31268567	OPEN	2024-05-01T09:10:54Z
+151785	New version: Treexy.DriverFusion version 11.2.0.2	TreexySoftware:Treexy.DriverFusion-11.2.0.2-b43af61e-eb11-4f9a-a098-42e92e9df7b0	OPEN	2024-05-01T08:31:33Z
+151784	New version: KuaiFan.DooTask version 0.37.16	coolplaylinbot:KuaiFan.DooTask-0.37.16-478CD872DB014D0CB467AF2E48E43793	OPEN	2024-05-01T08:18:07Z
+151783	Modify: WinMerge.WinMerge version 2.16.38	aisgbnok:update-WinMerge.WinMerge-version-2.16.38	OPEN	2024-05-01T08:15:10Z
+151782	New version: Sinew.Enpass version 6.10.2.1665	SpecterShell:Sinew.Enpass-6.10.2.1665-1465765385	OPEN	2024-05-01T08:12:18Z
+151781	New version: Discord.Discord version 1.0.9144	aisgbnok:new-Discord.Discord-1.0.9144	OPEN	2024-05-01T07:42:34Z
 151779	Modify: WinMerge.WinMerge version 2.16.40	aisgbnok:update-WinMerge.WinMerge-2.16.40	OPEN	2024-05-01T06:15:20Z
 151778	Modify: WinMerge.WinMerge version 2.16.26	aisgbnok:update-WinMerge.WinMerge-2.16.26	OPEN	2024-05-01T06:15:14Z
 151777	Modify: WinMerge.WinMerge version 2.16.24	aisgbnok:update-WinMerge.WinMerge-2.16.24	OPEN	2024-05-01T06:15:08Z
@@ -5,7 +12,6 @@
 151775	Modify: WinMerge.WinMerge version 2.16.14	aisgbnok:update-WinMerge.WinMerge-2.16.14	OPEN	2024-05-01T06:14:45Z
 151774	Modify: WinMerge.WinMerge version 2.16.12	aisgbnok:update-WinMerge.WinMerge-2.16.12	OPEN	2024-05-01T06:14:34Z
 151773	New version: PIKCLOUD.PikPak version 2.4.1 (2.4.1.4218)	SpecterShell:PIKCLOUD.PikPak-2.4.1-582664517	OPEN	2024-05-01T06:12:23Z
-151772	New version: Jackett.Jackett version 0.21.2516	Jackett:Jackett.Jackett-0.21.2516-0C8A42472F04301146B340737638006D8A202F81	OPEN	2024-05-01T05:56:38Z
 151771	New version: Canva.Canva version 1.86.0	PckgrBot:Canva.Canva-1.86.0-e14daf3a-73e9-42a5-b222-99771a7b38b0	OPEN	2024-05-01T05:56:21Z
 151769	New version: Alex313031.Thorium version 123.0.6312.133	SpecterShell:Alex313031.Thorium-123.0.6312.133-214120686	OPEN	2024-05-01T05:40:14Z
 151768	New version: OpenTofu.Tofu version 1.7.0	kdpuvvadi:OpenTofu.Tofu-1.7.0-E809CDFF034248FB8856E18CBEE92CFC	OPEN	2024-05-01T05:39:48Z
@@ -19,9 +25,7 @@
 151759	New version: nektos.act version 0.2.62	nektos:nektos.act-0.2.62-D17039D103DC2889EA25F4422BCF8E6E331EFE2A	OPEN	2024-05-01T02:20:27Z
 151752	Remove: Zype.Compass version 1.0.0	Trenly:Zype.Compass-1.0.0-04AD0C0	OPEN	2024-05-01T02:00:39Z
 151751	New version: Rem0o.FanControl version 188	SpecterShell:Rem0o.FanControl-188-866644714	OPEN	2024-05-01T01:36:34Z
-151747	New version: electerm.electerm version 1.38.80	Exorcism0666:electerm.electerm-1.38.80-500F7AB29B5749C3B85907280AB1CB65	OPEN	2024-05-01T01:28:04Z
 151746	New version: Balena.BalenaCLI version 18.2.2	Exorcism0666:Balena.BalenaCLI-18.2.2-1E0A943721DC48FF955EF21F07595ABD	OPEN	2024-05-01T01:27:58Z
-151745	New version: Fly-io.flyctl version 0.2.45	Exorcism0666:Fly-io.flyctl-0.2.45-5302F2DD267D4FF18D36FFEDF93E0949	OPEN	2024-05-01T01:27:50Z
 151744	New version: DuongDieuPhap.ImageGlass version 9.0.11.502	Exorcism0666:DuongDieuPhap.ImageGlass-9.0.11.502-54946CDA44BE438790F83E21016ABF03	OPEN	2024-05-01T01:27:43Z
 151743	New package: srevinsaju.guiscrcpy.PySide2 version 2023.01.01	Trenly:srevinsaju.guiscrcpy.PySide2-2023.01.01-F19B7B60	OPEN	2024-05-01T01:27:20Z
 151742	Automatic update of Surfshark.Surfshark from 5.7.1999 to 5.7.2999	wingetbot:AutomaticUpdate_6a7a18bb-6ce8-49d8-b831-254703ded598	OPEN	2024-05-01T01:26:54Z
