@@ -1,12 +1,23 @@
+151974	New version: Posit.RStudio version 2024.04.0+735	SpecterShell:Posit.RStudio-2024.04.0+735-1043437744	OPEN	2024-05-02T18:12:14Z
+151973	Microsoft.VisualStudioCode.CLI_v1.89.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.CLI_v1.89.0	OPEN	2024-05-02T18:07:38Z
+151972	Microsoft.VisualStudioCode_v1.89.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode_v1.89.0	OPEN	2024-05-02T18:06:30Z
+151971	New version: Spicetify.Spicetify version 2.36.10	spicetify:Spicetify.Spicetify-2.36.10-4589B0E1873F80AAC1B0188F083EEC7CB38FF92F	OPEN	2024-05-02T17:56:41Z
+151970	New Package: Victoria.Victoria	vikingnope:victoria-fix-3	OPEN	2024-05-02T17:48:51Z
+151969	Updating martinvonz.jj to 0.17.0	RoscoP:martinvonzjj_update_version0.17.0	OPEN	2024-05-02T17:41:46Z
+151967	Remove version: IvanG.Clipnest version 1.3.0	Exorcism0666:IvanG.Clipnest-1.3.0-E2BFEB8A322092D3D02BB65010D48E62BE027508	OPEN	2024-05-02T17:11:05Z
+151966	New version: Alist.Alist version 3.34.0	SpecterShell:Alist.Alist-3.34.0-2079120067	OPEN	2024-05-02T17:09:24Z
+151964	Create WinGet package for June 2023 GDK Update 4	aaron-stebner:user/2306_u4_winget	DRAFT	2024-05-02T16:33:48Z
+151963	New version: Brave.Brave.Nightly version 124.1.67.59	SpecterShell:Brave.Brave.Nightly-124.1.67.59-732038016	OPEN	2024-05-02T16:09:54Z
+151962	New version: pit-ray.win-vind version 5.12.0	pit-ray:pit-ray.win-vind-5.12.0-f1a16259-989d-40ec-a08f-fbc896e3a94f	OPEN	2024-05-02T16:08:50Z
+151961	New version: Twingate.Client version 2024.99.6390	schweizerbolzonello:Twingate.Client-2024.99.6390-9CB8177934084F0BAA78056F50F85584	OPEN	2024-05-02T15:57:08Z
+151959	Remove version: Fort.Firewall version 3.12.5	Emi-Emi-Emi:Remove-version-Fort.Firewall-version-3.12.5	OPEN	2024-05-02T15:46:04Z
 151958	New version: YoYoGames.GameMaker.Studio.2 version 2024.4.0.137	SpecterShell:YoYoGames.GameMaker.Studio.2-2024.4.0.137-206969477	OPEN	2024-05-02T15:12:17Z
 151957	New version: JetBrains.QodanaCLI version 2024.1.3	qodana-bot:JetBrains.QodanaCLI-2024.1.3-2111CB3A3448293BBCE874ACB94B8367	OPEN	2024-05-02T14:51:17Z
-151955	Removed Files: Victora.HDD-SSD	vikingnope:vitoria-fix-2	OPEN	2024-05-02T14:39:31Z
 151954	Remove version: Datronicsoft.SpacedeskDriver.Server version 2.1.15.0	Exorcism0666:Datronicsoft.SpacedeskDriver.Server-2.1.15.0-8658551735164528B91F21A68474E02E298D1CD6	OPEN	2024-05-02T14:33:14Z
 151953	New version: Hibbiki.Chromium version 124.0.6367.119	Exorcism0666:Hibbiki.Chromium-124.0.6367.119-1553099418	OPEN	2024-05-02T14:20:05Z
 151952	feat(permission): Cancel the requirement of Neovim.Neovim.Nightly	CoolPlayLin:CoolPlayLin-patch-1	OPEN	2024-05-02T14:11:35Z
 151951	New version: Elsevier.MendeleyReferenceManager version 2.114.0	SpecterShell:Elsevier.MendeleyReferenceManager-2.114.0-520911041	OPEN	2024-05-02T14:09:38Z
 151950	New package vistrax	FaserF:new-package-vistrax	OPEN	2024-05-02T14:08:57Z
-151949	Microsoft.DotNet.Framework.DeveloperPack_4: Treat codes 1641 & 3010 as success	FaserF:fix-Dotnet-DP4	OPEN	2024-05-02T14:04:27Z
 151948	Add MongoDB.Compass.Readonly 1.43.0.0	rodrigoborgesdeoliveira:compass/readonly/1.43.0	OPEN	2024-05-02T13:30:31Z
 151947	Add MongoDB.Compass.Isolated 1.43.0.0	rodrigoborgesdeoliveira:compass/isolated/1.43.0	OPEN	2024-05-02T13:24:52Z
 151946	Add MongoDB.Compass.Full 1.43.0.0	rodrigoborgesdeoliveira:compass/full/1.43.0	OPEN	2024-05-02T13:17:54Z
@@ -19,14 +30,12 @@
 151918	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_a472dcc7-f110-4fbf-b525-8d05db9e5b60	OPEN	2024-05-02T01:08:56Z
 151911	New version: VMware.WorkstationPro version 17.5.1	PckgrBot:VMware.WorkstationPro-17.5.1-f3ddca16-22f1-4963-9e91-f09ff6166000	OPEN	2024-05-02T00:01:53Z
 151908	New version: vim.vim.nightly version 9.1.0386	vim:vim.vim.nightly-9.1.0386-E1CA2029C986113973A99A72B89D71A2779F7752	OPEN	2024-05-01T23:33:51Z
-151907	New version: TortoiseGit.TortoiseGit version 2.16.0.0	PckgrBot:TortoiseGit.TortoiseGit-2.16.0.0-024cfd28-7e52-45b3-89b2-096866247bdd	OPEN	2024-05-01T23:31:49Z
 151901	Automatic update of Guilded.Guilded from 1.0.9251387-release.Release - Prod Desktop App_master_20240416.2 to 1.0.9256462-release.Release - Prod Desktop App_master_20240501.1	wingetbot:AutomaticUpdate_b4f4b138-53fb-4df0-b73b-bb4bf9fd95e0	OPEN	2024-05-01T22:53:57Z
 151857	[metadata]: GodotEngine.GodotEngine.Mono version 4.1.1	og-mrk:update-manifest-metadata/GodotEngine.GodotEngine.Mono-version4.1.1	OPEN	2024-05-01T16:53:49Z
 151856	[metadata]: GodotEngine.GodotEngine.Mono version 4.0.4	og-mrk:update-manifest-metadata/GodotEngine.GodotEngine.Mono-version4.0.4	OPEN	2024-05-01T16:51:50Z
 151855	[metadata]: GodotEngine.GodotEngine.Mono version 4.0.3	og-mrk:update-manifest-metadata/GodotEngine.GodotEngine.Mono-version4.0.3	OPEN	2024-05-01T16:50:15Z
 151849	[metadata]: GodotEngine.GodotEngine version 4.1.1	og-mrk:update-manifest-metadata/GodotEngine.GodotEngine-version4.1.1	OPEN	2024-05-01T16:23:15Z
 151848	[metadata]: GodotEngine.GodotEngine version 4.0.4	og-mrk:update-manifest-metadata/GodotEngine.GodotEngine-version4.0.4	OPEN	2024-05-01T16:18:22Z
-151800	New version: Unity.Unity.2022 version 2022.3.27f1	SpecterShell:Unity.Unity.2022-2022.3.27f1-1084801905	OPEN	2024-05-01T13:16:21Z
 151794	Update Corel.WinZip to 28.0.15640	FaserF:update-winzip	OPEN	2024-05-01T12:06:31Z
 151790	New package Corel.MindManager v 23.1.243	FaserF:new-package-mindmanager	OPEN	2024-05-01T11:56:41Z
 151744	New version: DuongDieuPhap.ImageGlass version 9.0.11.502	Exorcism0666:DuongDieuPhap.ImageGlass-9.0.11.502-54946CDA44BE438790F83E21016ABF03	OPEN	2024-05-01T01:27:43Z
@@ -51,7 +60,6 @@
 151426	Remove: LeadDeskLtd.LeadDesk version 9.90.0	coolplaylinbot:LeadDeskLtd.LeadDesk-9.90.0-58E60ECF2FF23C3ACE8762979463373071909DD8	OPEN	2024-04-29T03:11:11Z
 151424	Remove: LesFerch.WinSetView version 2.80	coolplaylinbot:LesFerch.WinSetView-2.80-8F205BDCE8F0D9EE287461A148452F155CF5F499	OPEN	2024-04-29T02:53:41Z
 151410	Remove: LutzRoeder.Netron version 7.6.1	coolplaylinbot:LutzRoeder.Netron-7.6.1-B6ECDBCBB591F63AC9BF46415E2F516428A98ADB	OPEN	2024-04-29T02:50:24Z
-151386	Automatic update of Parsec.Parsec from 150-92a to 150.93.2.0	wingetbot:AutomaticUpdate_5d269bf7-07fa-484d-aa8b-555c460f5619	OPEN	2024-04-28T20:44:28Z
 151379	New package: Backblaze.Backblazemsi version 9.0.1.777	tripp1592:Backblaze.Backblazemsi-9.0.1.777-2f5b2597-322f-4092-8cd3-d3020229a7b9	OPEN	2024-04-28T18:06:36Z
 151376	New package: Backblaze.BackblazeBackup version 9.0.1.777	tripp1592:Backblaze.BackblazeBackup-9.0.1.777-7849c027-11bd-40d2-b588-e7a46813e7e5	OPEN	2024-04-28T17:55:17Z
 151325	New version: Tyrrrz.DiscordChatExporter.GUI version 2.43	Exorcism0666:Tyrrrz.DiscordChatExporter.GUI-2.43-A656EE029769484C9B1AB58AE261D0DC	OPEN	2024-04-28T01:26:51Z
