@@ -1,58 +1,39 @@
-152005	Automatic update of FireAlpaca.FireAlpaca from 2.11.19.0 to 2.11.20.0	wingetbot:AutomaticUpdate_6e0b902e-00b7-4c8a-a910-7d3659629c30	OPEN	2024-05-02T21:13:56Z
+152032	Automatic deletion of NetDocuments.ndOffice 3.4.2.20018	wingetbot:AutomaticUpdate_4ce61111-dc88-4ef5-87f4-5559c11e38b6	OPEN	2024-05-03T01:11:19Z
+152031	New version: Google.Chrome.Canary version 126.0.6452.4	SpecterShell:Google.Chrome.Canary-126.0.6452.4-963888192	OPEN	2024-05-03T00:27:24Z
+152030	New package: VeeCAD.VeeCAD version 2.45.0	Trenly:VeeCAD.VeeCAD-2.45.0-7DA8ACCD	OPEN	2024-05-03T00:09:32Z
+152029	New package: dremin.RetroBar version 1.15	Chartix:dremin.RetroBar-1.15-ebda193b-2811-43bc-aa89-d596c886da0f	OPEN	2024-05-03T00:08:47Z
+152028	New version: vim.vim.nightly version 9.1.0390	vim:vim.vim.nightly-9.1.0390-C262F29B94D89811ACB1F95396835271928CE6F2	OPEN	2024-05-03T00:01:21Z
+152027	New version: Valve.SteamLink version 1.3.8	Trenly:Valve.SteamLink-1.3.8-97CB28A9	OPEN	2024-05-02T23:55:34Z
+152026	New Package: seerge.g-helper.PreRelease version 0.170	Trenly:seerge.g-helper.PreRelease-0.170-ACC71321	OPEN	2024-05-02T23:45:53Z
+152025	Add version: seerge.g-helper version 0.167	Trenly:seerge.g-helper-0.167-AE7CC41	OPEN	2024-05-02T23:43:36Z
+152024	Automatic update of IcecreamApps.IcecreamEbookReader from 6.48 to 6.49	wingetbot:AutomaticUpdate_96c41a1f-e1eb-4dde-954b-261498876a4d	OPEN	2024-05-02T23:42:42Z
+152021	Automatic deletion of Microsoft.PowerBI 2.128.1177.0	wingetbot:AutomaticUpdate_df60b072-6f2a-43d6-8cbb-d085f1fa5f95	OPEN	2024-05-02T23:27:46Z
+152020	New version: taers232c.GAMADV-XTD3 version 6.75.03	Exorcism0666:taers232c.GAMADV-XTD3-6.75.03-399774471	OPEN	2024-05-02T23:26:15Z
+152019	Automatic update of Microsoft.PowerBI from 2.128.1177.0 to 2.128.1380.0	wingetbot:AutomaticUpdate_bf960779-b78f-4b01-94e2-02d3a5060971	OPEN	2024-05-02T23:23:06Z
+152018	New version: Postman.Postman version 11.0.4	PckgrBot:Postman.Postman-11.0.4-36c5f580-16ee-4d51-a95a-158225202510	OPEN	2024-05-02T23:15:52Z
+152017	New version: PostgreSQL.pgAdmin version 8.6	PckgrBot:PostgreSQL.pgAdmin-8.6-e638d5c5-cdec-475b-9884-99f78c846657	OPEN	2024-05-02T23:12:52Z
+152016	Automatic update of WHONET.WHONET from 23.17.1 to 23.17.2	wingetbot:AutomaticUpdate_fad0ced9-3325-4b2f-8619-62ba9353eec9	OPEN	2024-05-02T23:10:54Z
+152015	Automatic deletion of Microsoft.devtunnel 1.0.1284.24020	wingetbot:AutomaticUpdate_1a3caa10-96ce-4696-9662-36c11be6a906	OPEN	2024-05-02T23:07:20Z
+152014	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_63535212-920d-4fcf-b499-5c0166f710ba	OPEN	2024-05-02T23:07:18Z
+152013	Automatic update of Microsoft.devtunnel from 1.0.1284.24020 to 1.0.1292.50200	wingetbot:AutomaticUpdate_4d455688-46ca-4a92-9faa-56faa3dc34c6	OPEN	2024-05-02T23:02:16Z
+152012	Automatic update of Viber.Viber from 22.4.1.0 to 22.6.0.0	wingetbot:AutomaticUpdate_81215571-91de-4f1d-bc41-e2aef143febd	OPEN	2024-05-02T22:33:53Z
+152010	Automatic update of MaestroSoft.MaestroAarsoppgjoer.2023 from 36.04.01 to 36.04.30	wingetbot:AutomaticUpdate_757a72dd-da21-4905-9191-9aee883f7513	OPEN	2024-05-02T22:14:02Z
+152009	New version: Google.Chrome.Canary version 126.0.6452.3	SpecterShell:Google.Chrome.Canary-126.0.6452.3-981482870	OPEN	2024-05-02T22:11:51Z
+152008	Automatic update of Garmin.Express from 7.20.3.0 to 7.21.0.0	wingetbot:AutomaticUpdate_c3f5886d-f5e1-4427-a08e-6c2d63dac704	OPEN	2024-05-02T21:50:21Z
+152007	Automatic update of Toggl.TogglTrack from 9.7.0 to 10.0.1	wingetbot:AutomaticUpdate_7e3408da-a177-4883-bc14-81db2aa2f204	OPEN	2024-05-02T21:33:54Z
 152004	New version: Microsoft.EdgeWebView2Runtime version 124.0.2478.80	SpecterShell:Microsoft.EdgeWebView2Runtime-124.0.2478.80-1133380647	OPEN	2024-05-02T21:13:02Z
-152003	New version: Telegram.TelegramDesktop version 5.0.0	PckgrBot:Telegram.TelegramDesktop-5.0.0-deb4052d-846d-423f-b590-568cb497d23c	OPEN	2024-05-02T21:12:32Z
 152002	New version: Microsoft.Edge version 124.0.2478.80	PckgrBot:Microsoft.Edge-124.0.2478.80-83241d78-e613-475f-9d2b-47a55261c9b4	OPEN	2024-05-02T21:11:55Z
-152001	New version: OpenJS.NodeJS version 22.1.0	PckgrBot:OpenJS.NodeJS-22.1.0-aa4f5bfa-5515-4950-8d59-0b8cb6dfdef1	OPEN	2024-05-02T21:08:57Z
-152000	New version: Canva.Canva version 1.86.1	PckgrBot:Canva.Canva-1.86.1-6663efd8-d729-4de3-908b-b76e2df04c10	OPEN	2024-05-02T21:08:19Z
-151999	New version: OpenWhisperSystems.Signal version 7.7.0	PckgrBot:OpenWhisperSystems.Signal-7.7.0-9746e979-cfef-44d8-beb8-f02a0bc03199	OPEN	2024-05-02T21:07:55Z
 151998	Automatic update of Tenable.NessusAgent 10.6.2.20010	wingetbot:AutomaticUpdate_d944c90b-fa85-42fa-9fd7-2b844293f7f6	OPEN	2024-05-02T21:00:36Z
-151997	Metadata: VinaySajip.PythonLauncher version 1.0.1.6	mdanish-kh:VinaySajip.PythonLauncher-1.0.1.6-36CE64E	OPEN	2024-05-02T21:00:03Z
-151996	New version: Dropbox.Dropbox version 198.4.7615	PckgrBot:Dropbox.Dropbox-198.4.7615-8c7b7c99-586c-43e2-a685-4a7d38286a96	OPEN	2024-05-02T20:56:59Z
-151995	Automatic update of Tenable.NessusAgent from 10.6.2.20010 to 10.6.3.20011	wingetbot:AutomaticUpdate_2c3d76cb-db60-497a-91f9-46bfa8247670	OPEN	2024-05-02T20:55:35Z
 151994	New version: Anchor.cli 0.0.30	anchordotdev:anchor-0.0.30	OPEN	2024-05-02T20:54:52Z
 151993	Automatic update of Tenable.NessusAgent 10.6.2	wingetbot:AutomaticUpdate_92f1f504-a004-47f7-bb7d-c393a67f4040	OPEN	2024-05-02T20:50:41Z
-151992	Automatic deletion of Parsec.Parsec 150-92a	wingetbot:AutomaticUpdate_1f37e471-77cb-4abb-9b46-50dac16ea20e	OPEN	2024-05-02T20:50:40Z
-151991	Automatic update of EvgenyCherpak.RemoteHelperApp from 2024.9 to 2024.10	wingetbot:AutomaticUpdate_2f44148b-5d59-406a-a137-e434ee0165bc	OPEN	2024-05-02T20:50:12Z
-151990	Automatic update of Tenable.NessusAgent from 10.6.2 to 10.6.3.20011	wingetbot:AutomaticUpdate_55dd9a67-7f4f-4724-9f25-cbc77dd5155d	OPEN	2024-05-02T20:45:39Z
-151989	Automatic update of Keeper.KeeperDesktop from 16.10.13.0 to 16.11.0.0	wingetbot:AutomaticUpdate_caf3d732-1d76-4ae0-a7e8-b7834691c9c7	OPEN	2024-05-02T20:45:37Z
 151988	Automatic update of OrpheusTechnologyLtd.ProWritingAid.OfficeAddIn from 3.2.3854.1 to 3.2.3909.1	wingetbot:AutomaticUpdate_28c7e793-aca3-4b7a-b610-5145172b746b	OPEN	2024-05-02T20:35:05Z
-151986	New version: 64Gram.64Gram version 1.1.20	hlqviet:64Gram.64Gram-1.1.20-BF26E24C48A748619FFC31492F161F2D	OPEN	2024-05-02T20:33:44Z
-151985	New version: Google.Chrome.Beta.EXE version 125.0.6422.26	SpecterShell:Google.Chrome.Beta.EXE-125.0.6422.26-607931794	OPEN	2024-05-02T20:10:53Z
-151984	New version: Google.Chrome.Beta version 125.0.6422.26	SpecterShell:Google.Chrome.Beta-125.0.6422.26-504183515	OPEN	2024-05-02T20:10:38Z
-151983	New version: Doist.Todoist version 9.1.10	SpecterShell:Doist.Todoist-9.1.10-1718981771	OPEN	2024-05-02T20:10:18Z
-151981	New version: HydrusNetwork.HydrusNetwork version v573	CuddleBear92:HydrusNetwork.HydrusNetwork-v573-a4f90228-69d9-432f-a834-68692f25461e	OPEN	2024-05-02T19:43:29Z
-151980	add Rustlang.Rust.GNU version 1.78.0	Rust-Winget-Bot:rust-1.78.0-gnu	OPEN	2024-05-02T19:17:26Z
-151979	add Rustlang.Rust.MSVC version 1.78.0	Rust-Winget-Bot:rust-1.78.0-msvc	OPEN	2024-05-02T19:16:49Z
-151978	Microsoft.VisualStudioCode.Insiders.CLI_v1.90.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.Insiders.CLI_v1.90.0	OPEN	2024-05-02T19:06:13Z
-151977	Microsoft.VisualStudioCode.Insiders_v1.90.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.90.0	OPEN	2024-05-02T19:04:53Z
-151976	New version: CrystalDewWorld.CrystalDiskInfo version 9.3.0	vikingnope:CrystalDewWorld.CrystalDiskInfo-9.3.0-2C5C0C0C28B14D1288715B4CFF7D549A	OPEN	2024-05-02T18:27:12Z
-151974	New version: Posit.RStudio version 2024.04.0+735	SpecterShell:Posit.RStudio-2024.04.0+735-1043437744	OPEN	2024-05-02T18:12:14Z
-151973	Microsoft.VisualStudioCode.CLI_v1.89.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.CLI_v1.89.0	OPEN	2024-05-02T18:07:38Z
-151972	Microsoft.VisualStudioCode_v1.89.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode_v1.89.0	OPEN	2024-05-02T18:06:30Z
-151971	New version: Spicetify.Spicetify version 2.36.10	spicetify:Spicetify.Spicetify-2.36.10-4589B0E1873F80AAC1B0188F083EEC7CB38FF92F	OPEN	2024-05-02T17:56:41Z
-151969	Updating martinvonz.jj to 0.17.0	RoscoP:martinvonzjj_update_version0.17.0	OPEN	2024-05-02T17:41:46Z
 151967	Remove version: IvanG.Clipnest version 1.3.0	Exorcism0666:IvanG.Clipnest-1.3.0-E2BFEB8A322092D3D02BB65010D48E62BE027508	OPEN	2024-05-02T17:11:05Z
 151966	New version: Alist.Alist version 3.34.0	SpecterShell:Alist.Alist-3.34.0-2079120067	OPEN	2024-05-02T17:09:24Z
 151964	Create WinGet package for June 2023 GDK Update 4	aaron-stebner:user/2306_u4_winget	DRAFT	2024-05-02T16:33:48Z
-151963	New version: Brave.Brave.Nightly version 124.1.67.59	SpecterShell:Brave.Brave.Nightly-124.1.67.59-732038016	OPEN	2024-05-02T16:09:54Z
-151962	New version: pit-ray.win-vind version 5.12.0	pit-ray:pit-ray.win-vind-5.12.0-f1a16259-989d-40ec-a08f-fbc896e3a94f	OPEN	2024-05-02T16:08:50Z
-151959	Remove version: Fort.Firewall version 3.12.5	Emi-Emi-Emi:Remove-version-Fort.Firewall-version-3.12.5	OPEN	2024-05-02T15:46:04Z
-151958	New version: YoYoGames.GameMaker.Studio.2 version 2024.4.0.137	SpecterShell:YoYoGames.GameMaker.Studio.2-2024.4.0.137-206969477	OPEN	2024-05-02T15:12:17Z
 151957	New version: JetBrains.QodanaCLI version 2024.1.3	qodana-bot:JetBrains.QodanaCLI-2024.1.3-2111CB3A3448293BBCE874ACB94B8367	OPEN	2024-05-02T14:51:17Z
-151954	Remove version: Datronicsoft.SpacedeskDriver.Server version 2.1.15.0	Exorcism0666:Datronicsoft.SpacedeskDriver.Server-2.1.15.0-8658551735164528B91F21A68474E02E298D1CD6	OPEN	2024-05-02T14:33:14Z
-151953	New version: Hibbiki.Chromium version 124.0.6367.119	Exorcism0666:Hibbiki.Chromium-124.0.6367.119-1553099418	OPEN	2024-05-02T14:20:05Z
-151951	New version: Elsevier.MendeleyReferenceManager version 2.114.0	SpecterShell:Elsevier.MendeleyReferenceManager-2.114.0-520911041	OPEN	2024-05-02T14:09:38Z
 151950	New package vistrax	FaserF:new-package-vistrax	OPEN	2024-05-02T14:08:57Z
-151948	Add MongoDB.Compass.Readonly 1.43.0.0	rodrigoborgesdeoliveira:compass/readonly/1.43.0	OPEN	2024-05-02T13:30:31Z
-151947	Add MongoDB.Compass.Isolated 1.43.0.0	rodrigoborgesdeoliveira:compass/isolated/1.43.0	OPEN	2024-05-02T13:24:52Z
-151946	Add MongoDB.Compass.Full 1.43.0.0	rodrigoborgesdeoliveira:compass/full/1.43.0	OPEN	2024-05-02T13:17:54Z
-151945	New version: Vivaldi.Vivaldi version 6.7.3329.24	SpecterShell:Vivaldi.Vivaldi-6.7.3329.24-982783398	OPEN	2024-05-02T13:12:36Z
-151944	New version: Anydo.Anydo version 5.0.69	SpecterShell:Anydo.Anydo-5.0.69-1017385172	OPEN	2024-05-02T13:09:07Z
-151943	New version: TheDocumentFoundation.LibreOffice version 24.2.3.2	krystofkrticka:TheDocumentFoundation.LibreOffice-24.2.3.2-FA27B0782D6A4126967EDE6F12937541	OPEN	2024-05-02T13:06:00Z
-151941	New version: TheDocumentFoundation.LibreOffice.HelpPack version 24.2.3.2	SpecterShell:TheDocumentFoundation.LibreOffice.HelpPack-24.2.3.2-1740236748	OPEN	2024-05-02T12:52:28Z
 151926	New version: eza-community.eza version 0.18.14	eza-community:eza-community.eza-0.18.14-F274E1868C47B3101513FC573A5368086E911F3F	OPEN	2024-05-02T06:27:01Z
 151911	New version: VMware.WorkstationPro version 17.5.1	PckgrBot:VMware.WorkstationPro-17.5.1-f3ddca16-22f1-4963-9e91-f09ff6166000	OPEN	2024-05-02T00:01:53Z
-151908	New version: vim.vim.nightly version 9.1.0386	vim:vim.vim.nightly-9.1.0386-E1CA2029C986113973A99A72B89D71A2779F7752	OPEN	2024-05-01T23:33:51Z
 151901	Automatic update of Guilded.Guilded from 1.0.9251387-release.Release - Prod Desktop App_master_20240416.2 to 1.0.9256462-release.Release - Prod Desktop App_master_20240501.1	wingetbot:AutomaticUpdate_b4f4b138-53fb-4df0-b73b-bb4bf9fd95e0	OPEN	2024-05-01T22:53:57Z
 151857	[metadata]: GodotEngine.GodotEngine.Mono version 4.1.1	og-mrk:update-manifest-metadata/GodotEngine.GodotEngine.Mono-version4.1.1	OPEN	2024-05-01T16:53:49Z
 151856	[metadata]: GodotEngine.GodotEngine.Mono version 4.0.4	og-mrk:update-manifest-metadata/GodotEngine.GodotEngine.Mono-version4.0.4	OPEN	2024-05-01T16:51:50Z
@@ -74,7 +55,6 @@
 151636	New version: LinwoodCloud.Butterfly version 2.1.0-rc.1	LinwoodDev:LinwoodCloud.Butterfly-2.1.0-rc.1-3CFA639E0A55D844E1475F4F0097935424928336	OPEN	2024-04-30T12:40:19Z
 151614	Remove outdated version (0.7.1.0)	boergegrunicke:master	OPEN	2024-04-30T09:29:50Z
 151579	New version: Streetwriters.Notesnook version 3.0.0	Exorcism0666:Streetwriters.Notesnook-3.0.0-4EADEE823988427D8D2D39743667B749	OPEN	2024-04-30T01:24:13Z
-151536	n0-computer.sendme version 0.6.0	legowerewolf:n0-computer.sendme-0.6.0-56f397e0-ba71-4461-b772-72568c8ad7cb	OPEN	2024-04-29T21:21:43Z
 151533	New version: TechSmith.Snagit.2024 version 24.1.3	PckgrBot:TechSmith.Snagit.2024-24.1.3-e03c0ea1-1e6f-4f1a-b616-351b066dad99	OPEN	2024-04-29T20:53:50Z
 151449	New version: Caphyon.AdvancedInstaller version 21.7	SpecterShell:Caphyon.AdvancedInstaller-21.7-1464560456	OPEN	2024-04-29T08:14:38Z
 151443	New version: MullvadVPN.MullvadVPN version 2024.2	Exorcism0666:MullvadVPN.MullvadVPN-2024.2-653118279	OPEN	2024-04-29T07:19:39Z
@@ -315,7 +295,6 @@
 134173	New version: AppbyTroye.KoodoReader version 1.6.2	vedantmgoyal9:AppbyTroye.KoodoReader-1.6.2-20240115135637	DRAFT	2024-01-15T13:56:40Z
 134172	Add version: Apifox.Apifox version 2.4.12	vedantmgoyal9:Apifox.Apifox-2.4.12-20240115135627	DRAFT	2024-01-15T13:56:30Z
 132585	Add Azure Artifacts NuGet Credential Provider	jeffreyrivor:master	OPEN	2024-01-03T22:35:45Z
-131556	PR Watcher and Manual Validation update.	stephengillie:Tools-update-12-20	OPEN	2023-12-21T18:04:44Z
 130839	Flutter 3.16.4	albertopasqualetto:flutter3.16.4	OPEN	2023-12-18T09:32:32Z
 129171	trzsz.lrzsz	lonnywong:trzsz.lrzsz-0.12.21rc-70b78f0b-fcf2-4dfa-8dff-9958449fb086	OPEN	2023-12-04T16:16:57Z
 126999	New version: Microsoft.VCRedist.2022.arm64 version 14.38.33130.0	imfelixlaw:Microsoft.VCRedist.2022.arm64-14.38.33130.0-D2E8825C8B9C5A60AEA40F91A7CEB9C445017D5A	OPEN	2023-11-16T16:55:29Z
