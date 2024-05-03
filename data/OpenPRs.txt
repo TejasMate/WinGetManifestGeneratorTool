@@ -1,3 +1,11 @@
+152048	New version: Slonopotamus.Stevedore version 1.5.1	slonopotamus:Slonopotamus.Stevedore-1.5.1-20d4cff8-fa3c-44e8-80b5-13c1b57ce1c3	OPEN	2024-05-03T06:17:01Z
+152047	New version: Jackett.Jackett version 0.21.2530	Jackett:Jackett.Jackett-0.21.2530-BDEBFB78A4232E60983ABDAF1DFB52F70CA6F198	OPEN	2024-05-03T06:00:36Z
+152046	New version: Corsair.iCUE.5 version 5.14.93	PckgrBot:Corsair.iCUE.5-5.14.93-2234ad7e-d208-4493-a961-330077e2943e	OPEN	2024-05-03T05:58:40Z
+152045	JanFiala.PSPad_x86	JaFi-cz:master	OPEN	2024-05-03T05:38:54Z
+152044	New version: WestWind.MarkdownMonster version 3.2.16.0	kkbruce:WestWind.MarkdownMonster-3.2.16.0-3D8ADAC2	OPEN	2024-05-03T05:36:53Z
+152042	New version: Google.Chrome.Canary version 126.0.6455.2	SpecterShell:Google.Chrome.Canary-126.0.6455.2-112244924	OPEN	2024-05-03T05:09:31Z
+152041	Modify: OpenJS.NodeJS version 22.1.0	aisgbnok:update-OpenJS.NodeJS-22.1.0	OPEN	2024-05-03T04:26:04Z
+152040	New version: calibre.calibre version 7.10.0	Exorcism0666:calibre.calibre-7.10.0-654715484	OPEN	2024-05-03T04:25:39Z
 152039	New version: Ferdium.Ferdium.Nightly version 6.7.4-nightly.2	Alphrag:Ferdium.Ferdium.Nightly-6.7.4-nightly.2-a60517df-90f1-4731-8618-0e15b603b8a1	OPEN	2024-05-03T02:07:50Z
 152038	New version: Microsoft.EdgeDriver version 124.0.2478.80	SpecterShell:Microsoft.EdgeDriver-124.0.2478.80-173370909	OPEN	2024-05-03T01:33:44Z
 152036	New version: Pulumi.Pulumi version 3.115.0	pulumi-bot:Pulumi.Pulumi-3.115.0-175b687e-2d3b-42ef-8322-087f8c513d1f	OPEN	2024-05-03T01:30:44Z
@@ -69,16 +77,12 @@
 151043	New version: gptscript-ai.gptscript version v0.5.2-rc2	acorn-io-bot:gptscript-ai.gptscript-v0.5.2-rc2-d421814a-3b59-4b24-b51f-a2395d181ebe	OPEN	2024-04-25T14:37:41Z
 150946	New version: Coldlake.StellarPlayer version 2.24.1411.30 (20240411200722)	SpecterShell:Coldlake.StellarPlayer-2.24.1411.30-324330399	OPEN	2024-04-25T10:11:13Z
 150912	ProtonTechnologies.ProtonVPN version 3.2.11	vedantmgoyal9:ProtonTechnologies.ProtonVPN-3.2.11-5904cfd9-77d3-4737-8c9a-7bfb869df84f	DRAFT	2024-04-25T05:26:57Z
-150842	Automatic update of F6CTE.MultiPSK from 4.48.4.1 to 4.48.5	wingetbot:AutomaticUpdate_52a99b9a-603d-40ec-837a-9514c9a028ff	OPEN	2024-04-24T20:53:39Z
-150836	Automatic update of ArobasMusic.GuitarPro.8 from 8.1.1-17 to 8.1.2.32	wingetbot:AutomaticUpdate_354e4fea-7bcb-4e0f-91cb-ecc6dd82155d	OPEN	2024-04-24T20:22:55Z
-150816	JackieLiu.NotepadsApp version 1.5.5.0	vedantmgoyal9:JackieLiu.NotepadsApp-1.5.5.0-094d3977-2e70-4b92-a614-8aae64a6a8c9	OPEN	2024-04-24T16:32:43Z
 150646	KirillOsenkov.MSBuildStructuredLogViewer version .2.2.235	vedantmgoyal9:KirillOsenkov.MSBuildStructuredLogViewer-.2.2.235-cbfdf998-5c19-440c-9b08-a2d32bb95a30	DRAFT	2024-04-23T16:30:09Z
 150563	Automatic update of IDMComputerSolutions,Inc.UEStudio 23.2.41	wingetbot:AutomaticUpdate_e29aa386-bcd6-4d0b-86c3-a565288e52c6	OPEN	2024-04-22T23:42:35Z
 150504	New package: FilesCommunity.Files version 3.3.0.0	vikingnope:Files-Community.Files-3.3.0.0-31533D8937354C5D8BF3D259CC44BFB3	OPEN	2024-04-22T15:22:51Z
 150336	New version: Microsoft.OneDrive.Internal.Fast version 24.078.0416.0001	SpecterShell:Microsoft.OneDrive.Internal.Fast-24.078.0416.0001-1888695684	OPEN	2024-04-21T00:39:11Z
 150334	New version: Microsoft.OneDrive.Enterprise version 23.209.1008.0002	SpecterShell:Microsoft.OneDrive.Enterprise-23.209.1008.0002-1383337195	OPEN	2024-04-21T00:26:14Z
 150333	New version: Microsoft.OneDrive version 24.065.0331.0002	SpecterShell:Microsoft.OneDrive-24.065.0331.0002-1657063075	OPEN	2024-04-21T00:20:13Z
-150308	tibbo.ioninja version 5.5.1	vedantmgoyal9:tibbo.ioninja-5.5.1-a46f16f3-2747-483a-83be-acd375a65192	OPEN	2024-04-20T16:28:50Z
 150298	New package: SABnzbdTeam.SABnzbd.Portable version 4.2.3	CoolPlayLin:SABnzbdTeam.SABnzbd.Potable-4.2.3-BBAF5B59432145DEA45EC46D9DD20055	OPEN	2024-04-20T11:08:31Z
 150141	Automatic update of Jidifudi.GT4T from 8.43.240407 to 8.44.240419	wingetbot:AutomaticUpdate_f1b7ffb0-dfff-4cb2-8a90-782904ce7feb	OPEN	2024-04-19T20:08:55Z
 150033	Automatic update of Viber.Viber from 22.4.1.0 to 22.5.0.1	wingetbot:AutomaticUpdate_4230fc31-4784-457d-b413-cda37035cd82	OPEN	2024-04-18T22:18:12Z
