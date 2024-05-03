@@ -1,3 +1,33 @@
+152094	Update version: Gitbutler.GitButler version 0.11.6	damn-good-b0t:GitButler.GitButler-0.11.6-d3c0ab54-80af-442c-9929-3f3adf30667e	OPEN	2024-05-03T12:25:26Z
+152093	New version: Doist.Todoist version 9.1.11	SpecterShell:Doist.Todoist-9.1.11-196054678	OPEN	2024-05-03T12:12:06Z
+152092	New version: ESET.Security version 17.1.11.0	juplayLP:ESET.Security-17.1.11.0-206CEC9884264A08BB3A9F9D46563CD2	OPEN	2024-05-03T11:50:29Z
+152090	New version: Azul.Zulu.10.JDK version 10.3.5	SpecterShell:Azul.Zulu.10.JDK-10.3.5-2005710977	OPEN	2024-05-03T11:29:10Z
+152089	New package: Azul.Zulu.12.JRE version 12.1.3	SpecterShell:Azul.Zulu.12.JRE-12.1.3-808783714	OPEN	2024-05-03T11:24:22Z
+152088	Modify: Azul.Zulu.9.JRE version 9.0.0.15	SpecterShell:Azul.Zulu.9.JRE-9.0.0.15-2139967568	OPEN	2024-05-03T11:19:46Z
+152087	New version: Azul.Zulu.11.JRE version 11.72.19	SpecterShell:Azul.Zulu.11.JRE-11.72.19-86613339	OPEN	2024-05-03T11:14:58Z
+152086	New version: PortSwigger.BurpSuite.Community version 2024.3.1.4	SpecterShell:PortSwigger.BurpSuite.Community-2024.3.1.4-1869824015	OPEN	2024-05-03T11:10:21Z
+152085	New version: PortSwigger.BurpSuite.Professional version 2024.3.1.4	SpecterShell:PortSwigger.BurpSuite.Professional-2024.3.1.4-1321864735	OPEN	2024-05-03T11:10:20Z
+152084	New version: JetBrains.TeamCity version 2024.03.1	SpecterShell:JetBrains.TeamCity-2024.03.1-1316822040	OPEN	2024-05-03T11:09:36Z
+152083	New version: Azul.Zulu.13.JRE version 13.54.17	SpecterShell:Azul.Zulu.13.JRE-13.54.17-747018754	OPEN	2024-05-03T11:09:10Z
+152082	New version: Azul.Zulu.15.JRE version 15.46.17	SpecterShell:Azul.Zulu.15.JRE-15.46.17-2058281037	OPEN	2024-05-03T11:06:45Z
+152081	Modify: Azul.Zulu.16.JRE version 16.32.15	SpecterShell:Azul.Zulu.16.JRE-16.32.15-376902930	OPEN	2024-05-03T11:00:07Z
+152080	New version: Azul.Zulu.17.JRE version 17.50.19	SpecterShell:Azul.Zulu.17.JRE-17.50.19-988856703	OPEN	2024-05-03T10:50:02Z
+152079	New version: Azul.Zulu.18.JRE version 18.32.13	SpecterShell:Azul.Zulu.18.JRE-18.32.13-739263037	OPEN	2024-05-03T10:46:39Z
+152078	New version: Azul.ZuluFX.17.JDK version 17.50.19	SpecterShell:Azul.ZuluFX.17.JDK-17.50.19-59918265	OPEN	2024-05-03T10:39:55Z
+152077	New version: Azul.ZuluFX.18.JDK version 18.32.13	SpecterShell:Azul.ZuluFX.18.JDK-18.32.13-187202430	OPEN	2024-05-03T10:38:17Z
+152076	New version: Azul.ZuluFX.19.JDK version 19.32.15	SpecterShell:Azul.ZuluFX.19.JDK-19.32.15-52715659	OPEN	2024-05-03T10:36:38Z
+152075	Update version: Sandboxie.Classic version 5.68.7	BiosPlus:Sandboxie.Classic-5.68.7-17F64F88B86B49AAAEAF84C61159331C	OPEN	2024-05-03T10:35:13Z
+152074	New package: Microsoft.MFCMapi version 24.0.24100.06	BiosPlus:Microsoft.MFCMAPI-24.0.24100.06-EA99573CCCBD4867960B713FD568FA3D	OPEN	2024-05-03T10:27:06Z
+152073	Modify: Azul.Zulu.9.JDK version 9.0.7.1	SpecterShell:Azul.Zulu.9.JDK-9.0.7.1-1095964004	OPEN	2024-05-03T10:26:31Z
+152072	New package: Azul.Zulu.12.JDK version 12.3.11	SpecterShell:Azul.Zulu.12.JDK-12.3.11-1384061450	OPEN	2024-05-03T10:22:29Z
+152071	New version: Azul.Zulu.13.JDK version 13.54.17	SpecterShell:Azul.Zulu.13.JDK-13.54.17-350953314	OPEN	2024-05-03T10:20:42Z
+152070	New package: Azul.Zulu.14.JDK version 14.29.23	SpecterShell:Azul.Zulu.14.JDK-14.29.23-1680829610	OPEN	2024-05-03T10:19:05Z
+152069	New version: Azul.Zulu.15.JDK version 15.46.17	SpecterShell:Azul.Zulu.15.JDK-15.46.17-1395874257	OPEN	2024-05-03T10:16:30Z
+152068	Modify: Azul.Zulu.16.JDK version 16.32.15	SpecterShell:Azul.Zulu.16.JDK-16.32.15-2140952429	OPEN	2024-05-03T10:14:38Z
+152067	New version: Azul.Zulu.18.JDK version 18.32.13	SpecterShell:Azul.Zulu.18.JDK-18.32.13-1821429529	OPEN	2024-05-03T10:10:10Z
+152066	New version: LX-Systems.WinMute version 2.5.1.0	lx-s:LX-Systems.WinMute-2.5.1.0-9cebcae4-6aaf-45e1-9d93-a9665b9fe435	OPEN	2024-05-03T09:50:17Z
+152065	Ares mechanical 2025 sp0	graebertgmbh:ARESMechanical_2025_SP0	OPEN	2024-05-03T09:49:08Z
+152064	Update Headlamp to 0.23.2	headlamp-k8s:winget-update-0.23.2	OPEN	2024-05-03T09:18:12Z
 152063	New version: Unity.Unity.2021 version 2021.3.38f1	SpecterShell:Unity.Unity.2021-2021.3.38f1-1988521123	OPEN	2024-05-03T09:16:18Z
 152062	New version: CoderBag.QuickCPUx64 version 4.9.0.0	Dragon1573:issues/152058	OPEN	2024-05-03T09:16:06Z
 152061	New version: Termius.Termius version 8.12.1	SpecterShell:Termius.Termius-8.12.1-492317082	OPEN	2024-05-03T09:11:49Z
