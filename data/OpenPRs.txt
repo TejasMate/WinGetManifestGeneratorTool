@@ -1,5 +1,15 @@
+152063	New version: Unity.Unity.2021 version 2021.3.38f1	SpecterShell:Unity.Unity.2021-2021.3.38f1-1988521123	OPEN	2024-05-03T09:16:18Z
+152062	New version: CoderBag.QuickCPUx64 version 4.9.0.0	Dragon1573:issues/152058	OPEN	2024-05-03T09:16:06Z
+152061	New version: Termius.Termius version 8.12.1	SpecterShell:Termius.Termius-8.12.1-492317082	OPEN	2024-05-03T09:11:49Z
+152060	New version: Google.Chrome.Canary version 126.0.6456.0	SpecterShell:Google.Chrome.Canary-126.0.6456.0-1965713976	OPEN	2024-05-03T09:10:26Z
+152057	Update manifest: CoderBag.QuickCPUx64 version 4.8.0.0	Dragon1573:issues/152049	OPEN	2024-05-03T08:25:45Z
+152056	New Package: Ngrok.Ngrok version 3.5.0	nmontesinoc:master	OPEN	2024-05-03T08:15:30Z
+152055	New version: NordSecurity.NordVPN version 7.23.1.0	SpecterShell:NordSecurity.NordVPN-7.23.1.0-374070271	OPEN	2024-05-03T08:11:57Z
+152053	New version: uazo.cromite version 124.0.6367.118	Exorcism0666:uazo.cromite-124.0.6367.118-1813497311	OPEN	2024-05-03T07:19:29Z
+152052	muCommander.muCommander version 1.4.0	ahadas:muCommander.muCommander-1.4.0-bac23a5c-5d53-4f46-a243-80ebc033cc8d	OPEN	2024-05-03T07:06:42Z
+152051	Microsoft.VisualStudioCode.Insiders.CLI_v1.90.0 cli	lszomoru:cliMicrosoft.VisualStudioCode.Insiders.CLI_v1.90.0	OPEN	2024-05-03T07:06:08Z
+152050	Microsoft.VisualStudioCode.Insiders_v1.90.0 desktop	lszomoru:desktopMicrosoft.VisualStudioCode.Insiders_v1.90.0	OPEN	2024-05-03T07:05:03Z
 152048	New version: Slonopotamus.Stevedore version 1.5.1	slonopotamus:Slonopotamus.Stevedore-1.5.1-20d4cff8-fa3c-44e8-80b5-13c1b57ce1c3	OPEN	2024-05-03T06:17:01Z
-152047	New version: Jackett.Jackett version 0.21.2530	Jackett:Jackett.Jackett-0.21.2530-BDEBFB78A4232E60983ABDAF1DFB52F70CA6F198	OPEN	2024-05-03T06:00:36Z
 152046	New version: Corsair.iCUE.5 version 5.14.93	PckgrBot:Corsair.iCUE.5-5.14.93-2234ad7e-d208-4493-a961-330077e2943e	OPEN	2024-05-03T05:58:40Z
 152045	JanFiala.PSPad_x86	JaFi-cz:master	OPEN	2024-05-03T05:38:54Z
 152044	New version: WestWind.MarkdownMonster version 3.2.16.0	kkbruce:WestWind.MarkdownMonster-3.2.16.0-3D8ADAC2	OPEN	2024-05-03T05:36:53Z
