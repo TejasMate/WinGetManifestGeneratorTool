@@ -1,6 +1,10 @@
+152245	Automatic deletion of JTKsoftware.JoyToKey 6.9.3	wingetbot:AutomaticUpdate_5defa915-8bc6-49df-908b-f16dedc90328	OPEN	2024-05-04T20:26:41Z
+152244	New version: Google.Chrome.Canary version 126.0.6459.0	SpecterShell:Google.Chrome.Canary-126.0.6459.0-1695494245	OPEN	2024-05-04T20:11:10Z
+152243	New version: RedHat.Podman-Desktop version 1.10.2	podman-desktop-bot:RedHat.Podman-Desktop-1.10.2-4f3882b6-4f31-4919-a34d-fecff658c8ef	OPEN	2024-05-04T19:44:50Z
+152242	New version: mar10.wsgidav version 4.3.3.0	mar10:mar10.wsgidav-4.3.3.0-1db5d1fb-1c1d-48a9-91c5-1e221896c347	OPEN	2024-05-04T18:28:26Z
 152241	New version: dremin.RetroBar version 1.16	Chartix:dremin.RetroBar-1.16-dbc460f4-c6bc-4d11-92ad-b4546b44f245	OPEN	2024-05-04T18:16:01Z
 152240	New version: VapourSynth.VapourSynth version R67	SpecterShell:VapourSynth.VapourSynth-R67-2046585872	OPEN	2024-05-04T18:12:41Z
-152239	Update: zigtools.zls version 0.12.0	Lisible:master	OPEN	2024-05-04T17:45:35Z
+152239	New version: zigtools.zls version 0.12.0	Lisible:master	OPEN	2024-05-04T17:45:35Z
 152238	New version: viarotel.Escrcpy version 1.18.4	SpecterShell:viarotel.Escrcpy-1.18.4-622359386	OPEN	2024-05-04T17:11:49Z
 152236	New package: Souhaiebtar.Neovim version 0.9.5	souhaiebtar:Souhaiebtar.Neovim-0.9.5-b885ce78-9ffd-4538-8a20-11fafce03434	OPEN	2024-05-04T16:40:21Z
 152235	New version: Tonec.InternetDownloadManager version 6.42.10 (642build10)	SpecterShell:Tonec.InternetDownloadManager-6.42.10-2062802747	OPEN	2024-05-04T14:11:08Z
