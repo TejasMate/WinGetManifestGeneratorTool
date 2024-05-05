@@ -1,3 +1,8 @@
+152277	add OpenConnect GUI v1.5.3	MaykGyver:master	OPEN	2024-05-05T18:14:19Z
+152276	New version: ImageMagick.ImageMagick version 7.1.1.32	SpecterShell:ImageMagick.ImageMagick-7.1.1.32-1426639420	OPEN	2024-05-05T18:10:49Z
+152275	Package Fix: CyberPowerSystemsInc.PowerPanelPersonal, changes InstallerType	vikingnope:cyberpower-panel-fix	OPEN	2024-05-05T16:51:58Z
+152274	New version: squidowl.halloy 0.0.2024.7	KaiKorla:squidowl.halloy-0.0.2024.7	OPEN	2024-05-05T15:51:03Z
+152273	New version: igoogolx.itun2socks version 1.6.1	igoogolx:igoogolx.itun2socks-1.6.1-98EE1E6DEAFE7EAABD08B49AF58FF8DB05FF502E	OPEN	2024-05-05T15:41:46Z
 152272	New package: SpaceWizards.RSIEdit version 0.6.6	ike709:SpaceWizards.RSIEdit-0.6.6-f5a62e4d-aad9-4c1d-9cd8-8db53f998e20	DRAFT	2024-05-05T14:40:48Z
 152271	New version: Hugo.Hugo version 0.125.6	SpecterShell:Hugo.Hugo-0.125.6-722084334	OPEN	2024-05-05T12:11:10Z
 152270	New version: Hugo.Hugo.Extended version 0.125.6	SpecterShell:Hugo.Hugo.Extended-0.125.6-302223286	OPEN	2024-05-05T12:11:10Z
@@ -7,7 +12,7 @@
 152265	Update: StrawberryPerl.StrawberryPerl 5.38.1 - add AppsAndFeaturesEntry	damn-good-b0t:strawberry-5-38-1	OPEN	2024-05-05T10:08:14Z
 152264	Update StrawberryPerl.StrawberryPerl 5.32.1001 - AppsAndFeaturesEntry	damn-good-b0t:strawberry-5-32-1001	OPEN	2024-05-05T10:07:39Z
 152263	New version: Google.Chrome.Canary version 126.0.6460.0	SpecterShell:Google.Chrome.Canary-126.0.6460.0-1550362975	OPEN	2024-05-05T09:09:58Z
-152262	New package: bbc.audiowaveform version 1.10.1	Dragon1573:issues/152261	OPEN	2024-05-05T08:22:50Z
+152262	New package: BBC.audiowaveform version 1.10.1	Dragon1573:issues/152261	OPEN	2024-05-05T08:22:50Z
 152260	Update: Selur.Hybrid version 0.2.6 (2024.05.05.1)	SpecterShell:Selur.Hybrid-0.2.6-353031252	OPEN	2024-05-05T06:12:01Z
 152258	New package: Apple.AppleSoftwareUpdate version 2.7.0.3	SpecterShell:Apple.AppleSoftwareUpdate-2.7.0.3-6CAD20D5	OPEN	2024-05-05T05:49:47Z
 152257	New package: Apple.AppleMobileDeviceSupport version 17.0.0.28	SpecterShell:Apple.AppleMobileDeviceSupport-17.0.0.28-09E7EA03	OPEN	2024-05-05T05:41:09Z
