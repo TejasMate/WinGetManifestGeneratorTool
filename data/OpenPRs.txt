@@ -1,3 +1,8 @@
+152255	New version: taers232c.GAMADV-XTD3 version 6.75.05	Exorcism0666:taers232c.GAMADV-XTD3-6.75.05-282041164	OPEN	2024-05-05T02:32:21Z
+152254	New version: MilosParipovic.OneCommander version 3.78.3 (3.78.3.0)	SpecterShell:MilosParipovic.OneCommander-3.78.3-859746861	OPEN	2024-05-05T01:35:44Z
+152253	Modify: Axosoft.GitKraken version 9.13.0	SpecterShell:Axosoft.GitKraken-9.13.0-FDDEEE77	OPEN	2024-05-05T01:29:29Z
+152252	New version: yt-dlp.yt-dlp.nightly version 2024.05.04.232706	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.05.04.232706-1797866392	OPEN	2024-05-05T01:28:06Z
+152251	Automatic update of NordSecurity.NordVPN 7.23.1.0	wingetbot:AutomaticUpdate_6a3286ae-3dea-4027-b1b7-31067c95f2c2	OPEN	2024-05-05T01:27:59Z
 152250	Automatic deletion of Soundly.Soundly 2024.04.0.123	wingetbot:AutomaticUpdate_00ecd9d4-5160-423f-8e08-c9c7f2ccb358	OPEN	2024-05-05T01:08:02Z
 152249	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_ac3cf5df-ca3c-4366-b8a6-6aff989e4ca6	OPEN	2024-05-05T01:07:40Z
 152248	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_54948f11-496a-4096-9574-3c6f92797e17	OPEN	2024-05-04T23:10:23Z
