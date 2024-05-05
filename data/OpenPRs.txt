@@ -1,3 +1,4 @@
+152272	New package: SpaceWizards.RSIEdit version 0.6.6	ike709:SpaceWizards.RSIEdit-0.6.6-f5a62e4d-aad9-4c1d-9cd8-8db53f998e20	DRAFT	2024-05-05T14:40:48Z
 152271	New version: Hugo.Hugo version 0.125.6	SpecterShell:Hugo.Hugo-0.125.6-722084334	OPEN	2024-05-05T12:11:10Z
 152270	New version: Hugo.Hugo.Extended version 0.125.6	SpecterShell:Hugo.Hugo.Extended-0.125.6-302223286	OPEN	2024-05-05T12:11:10Z
 152269	New package: BeyondATC.Client version 1.0.15	vikingnope:BeyondATC.Client-1.0.15-282BD41F07B1406A86B5593288722248	OPEN	2024-05-05T11:46:36Z
@@ -8,7 +9,6 @@
 152263	New version: Google.Chrome.Canary version 126.0.6460.0	SpecterShell:Google.Chrome.Canary-126.0.6460.0-1550362975	OPEN	2024-05-05T09:09:58Z
 152262	New package: bbc.audiowaveform version 1.10.1	Dragon1573:issues/152261	OPEN	2024-05-05T08:22:50Z
 152260	Update: Selur.Hybrid version 0.2.6 (2024.05.05.1)	SpecterShell:Selur.Hybrid-0.2.6-353031252	OPEN	2024-05-05T06:12:01Z
-152259	New version: Jackett.Jackett version 0.21.2542	Jackett:Jackett.Jackett-0.21.2542-4C250735DA4A8A8A07A9DC134794260D88DC0A81	OPEN	2024-05-05T06:02:20Z
 152258	New package: Apple.AppleSoftwareUpdate version 2.7.0.3	SpecterShell:Apple.AppleSoftwareUpdate-2.7.0.3-6CAD20D5	OPEN	2024-05-05T05:49:47Z
 152257	New package: Apple.AppleMobileDeviceSupport version 17.0.0.28	SpecterShell:Apple.AppleMobileDeviceSupport-17.0.0.28-09E7EA03	OPEN	2024-05-05T05:41:09Z
 152256	New package: Apple.Bonjour version 3.1.0.1	SpecterShell:Apple.Bonjour-3.1.0.1-EC560654	OPEN	2024-05-05T05:28:39Z
@@ -133,7 +133,6 @@
 151189	New package: Flicard.LocoSwap version 1.6.1.0	DRSchlaubi:Flicard.LocoSwap-1.6.1.0-cc47a3b2-5a48-4477-9af3-b6ff5d8e0445	OPEN	2024-04-26T16:45:54Z
 151153	New version: Playnite.Playnite version 10.33	nett00n:Playnite.Playnite-10.33-e6d8e21a-d69c-4e58-b369-42d149aa2f88	OPEN	2024-04-26T08:57:52Z
 151147	New package: Microsoft.MSIInstallTools version 10.0.22621.755	CoolPlayLin:Microsoft.MSIInstallTools-10.0.22621.755-F966A3FC854C4E8090430DDE9DE2DEFF	OPEN	2024-04-26T08:03:47Z
-151097	New package: VirtualFRA.Installer version 3.6.1.0	vikingnope:VirtualFRA.Installer-3.6.1.0-D5910DDE872D4AB3B39242DA8097B62C	OPEN	2024-04-25T22:14:08Z
 151085	New version: JetBrains.QodanaCLI version 2024.1.2	qodana-bot:JetBrains.QodanaCLI-2024.1.2-9A2F3CEA003A8DEAF034C700C1D908FF	OPEN	2024-04-25T21:43:26Z
 151077	Automatic update of Kuwo.KuwoMusic from 9.3.2.0 to 9.3.5.0	wingetbot:AutomaticUpdate_47328177-bcae-4145-af8d-c0929f49691a	OPEN	2024-04-25T21:08:40Z
 151043	New version: gptscript-ai.gptscript version v0.5.2-rc2	acorn-io-bot:gptscript-ai.gptscript-v0.5.2-rc2-d421814a-3b59-4b24-b51f-a2395d181ebe	OPEN	2024-04-25T14:37:41Z
