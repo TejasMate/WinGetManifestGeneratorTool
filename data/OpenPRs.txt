@@ -1,3 +1,15 @@
+152289	Automatic update of EvgenyCherpak.RemoteHelperApp 2024.10	wingetbot:AutomaticUpdate_19251b0a-8db2-470c-92ba-1d515eb4b5c8	OPEN	2024-05-05T20:48:40Z
+152288	New version: c3er.mdview version 3.1.0	c3er:c3er.mdview-3.1.0-379D650C733D87612D95F5E688C5F31908F24672	OPEN	2024-05-05T20:48:16Z
+152287	Automatic deletion of AxCrypt.AxCrypt 2.1.1647.0	wingetbot:AutomaticUpdate_81ae6d7f-3600-4df2-9463-cd09c0f9a038	OPEN	2024-05-05T20:45:30Z
+152286	Automatic deletion of Automox.AutomoxAgent 1.43.135	wingetbot:AutomaticUpdate_bfc1e8a2-d74e-4af7-8355-62e252e8fdf4	OPEN	2024-05-05T20:41:06Z
+152285	New version: Google.Chrome.Canary version 126.0.6461.0	SpecterShell:Google.Chrome.Canary-126.0.6461.0-828854606	OPEN	2024-05-05T20:10:33Z
+152284	Remove version: rsteube.Carapace version 0.29.1	rsteube-bot:rsteube.Carapace-0.29.1-2A0F5A9023E5CD35B41C83FAA2E1AE374BB48883	OPEN	2024-05-05T20:02:33Z
+152283	New version: rsteube.Carapace version 1.0.2	rsteube-bot:rsteube.Carapace-1.0.2-8155CEB4C6C462272ECCD96A23958AAA81413418	OPEN	2024-05-05T20:02:23Z
+152282	New version: 64Gram.64Gram version 1.1.22	hlqviet:64Gram.64Gram-1.1.22-8B5A7FA48BB14757A6C81B3065DBB631	OPEN	2024-05-05T19:39:08Z
+152281	Automatic deletion of AdGuard.AdGuard.Nightly 7.17.4712.0	wingetbot:AutomaticUpdate_557b3655-b9d3-45d8-8cbe-11cc6c9eaec7	OPEN	2024-05-05T19:10:55Z
+152280	New version: ImageMagick.Q16-HDRI version 7.1.1.32	dlemstra:ImageMagick.Q16-HDRI-7.1.1.32-6b822507-c366-4fb4-987b-3283983bdf05	OPEN	2024-05-05T19:09:50Z
+152279	New version: VSCodium.VSCodium version 1.89.0.24126	VSCodium:VSCodium.VSCodium-1.89.0.24126-629C0E36B0FA002B0103C21D01036031DF66BEF8	OPEN	2024-05-05T18:49:54Z
+152278	New version: Zettlr.Zettlr version 3.1.1	Exorcism0666:Zettlr.Zettlr-3.1.1-246574537	OPEN	2024-05-05T18:24:56Z
 152277	add OpenConnect GUI v1.5.3	MaykGyver:master	OPEN	2024-05-05T18:14:19Z
 152276	New version: ImageMagick.ImageMagick version 7.1.1.32	SpecterShell:ImageMagick.ImageMagick-7.1.1.32-1426639420	OPEN	2024-05-05T18:10:49Z
 152275	Package Fix: CyberPowerSystemsInc.PowerPanelPersonal, changes InstallerType	vikingnope:cyberpower-panel-fix	OPEN	2024-05-05T16:51:58Z
