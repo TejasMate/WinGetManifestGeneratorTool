@@ -1,3 +1,12 @@
+152322	New version: YY.YY version 9.33.0.1	SpecterShell:YY.YY-9.33.0.1-1091272634	OPEN	2024-05-06T03:13:33Z
+152321	Cemu.Cemu.Experimental version 2.0-82	kpd328:Cemu.Cemu.Experimental-2.0-82-35490482-8cef-4fd4-87f2-866d3e056358	OPEN	2024-05-06T02:44:42Z
+152320	New version: Ndd version 2.15.0	hjkl950217:master	OPEN	2024-05-06T02:26:10Z
+152318	New version: 123.123pan version 2.1.0.0 (2.1.0)	SpecterShell:123.123pan-2.1.0.0-1469997869	OPEN	2024-05-06T01:33:13Z
+152317	New version: yt-dlp.yt-dlp.nightly version 2024.05.05.232701	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.05.05.232701-1306343846	OPEN	2024-05-06T01:24:56Z
+152316	New package: GeorgieLabs.SoundWireServer version 2.5.0	matracey:GeorgieLabs.SoundWireServer-2.5.0-e3d5479f-d54d-4897-9dc0-8133e7a12b17	OPEN	2024-05-06T01:17:11Z
+152315	Remove: NewCloud.NewSSStudent version 1.03.1198	coolplaylinbot:NewCloud.NewSSStudent-1.03.1198-7F8A1A86C699092E3925F5426DB5A8911E987AA1	OPEN	2024-05-06T01:10:21Z
+152314	Remove: NewCloud.WakeOnLan version 1.0.1	coolplaylinbot:NewCloud.WakeOnLan-1.0.1-3F5B0207D0DA4BF4622C38D3BEB71E37BC769D65	OPEN	2024-05-06T01:10:12Z
+152313	Remove: NewCloud.WakeOnLan version 1.0.0	coolplaylinbot:NewCloud.WakeOnLan-1.0.0-4DD6F5B50BC49B8839CA21426B02D3A28B8999EC	OPEN	2024-05-06T01:10:10Z
 152312	Remove: NewCloud.NewSSTeacher version 1.03.1198	coolplaylinbot:NewCloud.NewSSTeacher-1.03.1198-7B5296B752AC5FE9738052FFE0073FB98865A88C	OPEN	2024-05-06T01:09:57Z
 152311	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_2083ec03-d3b9-4e97-856a-e42f1e9744f3	OPEN	2024-05-06T01:07:03Z
 152310	Automatic update of ZetaSoftwareGmbH.ZetaResourceEditor from 2.3.78.0 to 2.3.85.0	wingetbot:AutomaticUpdate_32500c34-3837-4e25-a1cc-c50edfe8a011	OPEN	2024-05-06T01:06:30Z
