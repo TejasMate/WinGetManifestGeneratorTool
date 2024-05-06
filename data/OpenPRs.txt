@@ -1,3 +1,26 @@
+152312	Remove: NewCloud.NewSSTeacher version 1.03.1198	coolplaylinbot:NewCloud.NewSSTeacher-1.03.1198-7B5296B752AC5FE9738052FFE0073FB98865A88C	OPEN	2024-05-06T01:09:57Z
+152311	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_2083ec03-d3b9-4e97-856a-e42f1e9744f3	OPEN	2024-05-06T01:07:03Z
+152310	Automatic update of ZetaSoftwareGmbH.ZetaResourceEditor from 2.3.78.0 to 2.3.85.0	wingetbot:AutomaticUpdate_32500c34-3837-4e25-a1cc-c50edfe8a011	OPEN	2024-05-06T01:06:30Z
+152309	Remove: Nostalgia-09.AeroChat version 1.0.1-rc.7	coolplaylinbot:Nostalgia-09.AeroChat-1.0.1-rc.7-39AA6F347B060DC49D1F37884C7D3563568521A8	OPEN	2024-05-06T01:01:00Z
+152308	Remove: Nostalgia-09.AeroChat version 1.0.1-rc.6	coolplaylinbot:Nostalgia-09.AeroChat-1.0.1-rc.6-231D08C17F63A5FEC1DFB36D9BE29A220376F831	OPEN	2024-05-06T01:00:59Z
+152307	Remove: Nostalgia-09.AeroChat version 1.0.1-rc.3	coolplaylinbot:Nostalgia-09.AeroChat-1.0.1-rc.3-949BD61621919AB76599327CD0C664FA1C59566C	OPEN	2024-05-06T01:00:58Z
+152306	Remove: Nostalgia-09.AeroChat version 1.0.1-rc.5	coolplaylinbot:Nostalgia-09.AeroChat-1.0.1-rc.5-422A902D8840F4E7574F7C0E055CAAD309497733	OPEN	2024-05-06T01:00:57Z
+152305	Remove: Netstumbler.Netstumbler version 0.4.0	coolplaylinbot:Netstumbler.Netstumbler-0.4.0-9E24B1BF862992400335476B0508D2CB28F9DDDE	OPEN	2024-05-06T01:00:37Z
+152304	Remove: Nvidia.GeForceNow version 2.0.59.243	coolplaylinbot:Nvidia.GeForceNow-2.0.59.243-1E3C84993E8DA1FD6F2D8F6E91C37310E900BDA5	OPEN	2024-05-06T00:57:03Z
+152303	Remove: Nvidia.GeForceNow version 2.0.59.246	coolplaylinbot:Nvidia.GeForceNow-2.0.59.246-8E41DAEBD65D969DD876E54B88AD41ED66599E19	OPEN	2024-05-06T00:56:58Z
+152302	Remove: Nvidia.GeForceNow version 2.0.62.144	coolplaylinbot:Nvidia.GeForceNow-2.0.62.144-4917C91C450AA59F0718C3034E20E57FEDF5F78D	OPEN	2024-05-06T00:56:57Z
+152301	Automatic deletion of Datto.WindowsAgent 3.0.18.8	wingetbot:AutomaticUpdate_3955e31e-d984-48ef-8dcf-e9d6c992d442	OPEN	2024-05-06T00:09:42Z
+152300	Automatic deletion of Datto.CloudContinuityAgent 3.0.19.1	wingetbot:AutomaticUpdate_20462cca-b45b-44d2-8576-f9c9b624bbbf	OPEN	2024-05-06T00:09:23Z
+152299	Automatic update of CrystalRich.LockHunter 3.4.3.146	wingetbot:AutomaticUpdate_0e84f1f3-1bf5-473b-be3d-d7b35cbfa043	OPEN	2024-05-05T23:49:11Z
+152298	New version: Unibo.Alchemist version 34.0.1	DanySK:Unibo.Alchemist-34.0.1-57753ef5-b3e7-48b4-8560-00682252a8e2	OPEN	2024-05-05T23:35:51Z
+152297	New version: chrisant996.Clink version 1.6.13	chrisant996:chrisant996.Clink-1.6.13-a1173e13-aceb-4a2a-bb77-7c6cd02e3220	OPEN	2024-05-05T23:28:08Z
+152296	Automatic deletion of WilhelmHappe.NetRadio 2.5.4.0	wingetbot:AutomaticUpdate_f7a4f50b-d408-4d57-8440-e2e3102b489d	OPEN	2024-05-05T23:21:12Z
+152295	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_c3de7410-6602-45dc-b0ea-2509f9146ae7	OPEN	2024-05-05T23:11:51Z
+152294	Automatic deletion of BitSum.ProcessLasso.Beta 14.0.3.9	wingetbot:AutomaticUpdate_3e51353c-9a36-48cb-8891-c5d0cc123329	OPEN	2024-05-05T22:01:17Z
+152293	Automatic update of BitSum.ProcessLasso.Beta from 14.0.3.9 to 14.0.3.11	wingetbot:AutomaticUpdate_1ea1b60a-2ec1-43ad-ab54-bb3062cdb91f	OPEN	2024-05-05T21:56:00Z
+152292	Automatic deletion of BitSum.ProcessLasso.Beta 14.0.3.3	wingetbot:AutomaticUpdate_e815acb5-b182-49a8-8534-7cf95ea9127b	OPEN	2024-05-05T21:50:32Z
+152291	Automatic update of BitSum.ProcessLasso.Beta from 14.0.3.3 to 14.0.3.11	wingetbot:AutomaticUpdate_eb4948e3-47fb-4470-b08b-2aab0a31d5c0	OPEN	2024-05-05T21:45:44Z
+152290	Automatic update of Tonec.InternetDownloadManager from 6.42.9 to 6.42.10.1	wingetbot:AutomaticUpdate_d2ee80b6-44d9-4eb5-8c02-5cc97a1d11ed	OPEN	2024-05-05T21:39:59Z
 152289	Automatic update of EvgenyCherpak.RemoteHelperApp 2024.10	wingetbot:AutomaticUpdate_19251b0a-8db2-470c-92ba-1d515eb4b5c8	OPEN	2024-05-05T20:48:40Z
 152288	New version: c3er.mdview version 3.1.0	c3er:c3er.mdview-3.1.0-379D650C733D87612D95F5E688C5F31908F24672	OPEN	2024-05-05T20:48:16Z
 152287	Automatic deletion of AxCrypt.AxCrypt 2.1.1647.0	wingetbot:AutomaticUpdate_81ae6d7f-3600-4df2-9463-cd09c0f9a038	OPEN	2024-05-05T20:45:30Z
@@ -35,8 +58,6 @@
 152252	New version: yt-dlp.yt-dlp.nightly version 2024.05.04.232706	Exorcism0666:yt-dlp.yt-dlp.nightly-2024.05.04.232706-1797866392	OPEN	2024-05-05T01:28:06Z
 152251	Automatic update of NordSecurity.NordVPN 7.23.1.0	wingetbot:AutomaticUpdate_6a3286ae-3dea-4027-b1b7-31067c95f2c2	OPEN	2024-05-05T01:27:59Z
 152250	Automatic deletion of Soundly.Soundly 2024.04.0.123	wingetbot:AutomaticUpdate_00ecd9d4-5160-423f-8e08-c9c7f2ccb358	OPEN	2024-05-05T01:08:02Z
-152249	Automatic update of Neovim.Neovim.Nightly 0.10.0	wingetbot:AutomaticUpdate_ac3cf5df-ca3c-4366-b8a6-6aff989e4ca6	OPEN	2024-05-05T01:07:40Z
-152248	Automatic update of RustDesk.RustDesk.Nightly 1.2.4	wingetbot:AutomaticUpdate_54948f11-496a-4096-9574-3c6f92797e17	OPEN	2024-05-04T23:10:23Z
 152247	New version: vim.vim.nightly version 9.1.0393	vim:vim.vim.nightly-9.1.0393-DA9C8117BF5FA5CE752089D94DBC9BAFDFF5C692	OPEN	2024-05-04T22:46:19Z
 152246	Automatic deletion of LabyMediaGmbH.LabyModLauncher 2.1.1	wingetbot:AutomaticUpdate_41d3310b-97fa-41f2-b924-544c9850e4ce	OPEN	2024-05-04T21:15:12Z
 152245	Automatic deletion of JTKsoftware.JoyToKey 6.9.3	wingetbot:AutomaticUpdate_5defa915-8bc6-49df-908b-f16dedc90328	OPEN	2024-05-04T20:26:41Z
