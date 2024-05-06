@@ -1,3 +1,30 @@
+152352	New version: Tencent.WeixinDevTools version 1.06.2404301	SpecterShell:Tencent.WeixinDevTools-1.06.2404301-1202585326	OPEN	2024-05-06T06:16:26Z
+152351	New version: sharkdp.fd version 10.0.0	sharkdp:sharkdp.fd-10.0.0-CD332D91D95DC4AB065940409CD82771B4150F5B	OPEN	2024-05-06T06:11:44Z
+152350	New version: Jackett.Jackett version 0.21.2554	Jackett:Jackett.Jackett-0.21.2554-078437FA27ECCAD2C7F43CC3F3DFD5BBAC405A24	OPEN	2024-05-06T06:01:54Z
+152348	New version: Telegram.TelegramDesktop version 5.0.1	PckgrBot:Telegram.TelegramDesktop-5.0.1-bd82ce93-91c2-4510-b9ca-4a3117a56f5d	OPEN	2024-05-06T05:58:46Z
+152347	New version: Bitvise.SSH.Client version 9.37	PckgrBot:Bitvise.SSH.Client-9.37-e8ccd3b6-11b6-4f59-ac3d-94f187c4e438	OPEN	2024-05-06T05:58:28Z
+152344	New version: GIMP.GIMP version 2.10.38	PckgrBot:GIMP.GIMP-2.10.38-3b200fad-9460-4d84-8e04-68455e405fbd	OPEN	2024-05-06T05:57:39Z
+152343	New version: dbeaver.dbeaver version 24.0.4	PckgrBot:dbeaver.dbeaver-24.0.4-ebe1eed9-60a9-4292-bb21-c962a4b342af	OPEN	2024-05-06T05:56:24Z
+152342	Remove: Kiwix.KiwixJS.Electron version 2.5.0-E	coolplaylinbot:Kiwix.KiwixJS.Electron-2.5.0-E-BBBC523471D131EE1A869F7E19DA08BC44D01E5F	OPEN	2024-05-06T05:49:35Z
+152341	Remove: Kiwix.KiwixJS version 2.5.0.0	coolplaylinbot:Kiwix.KiwixJS-2.5.0.0-8E8067D10BF00E3228510277124F1A691D5628E2	OPEN	2024-05-06T05:49:20Z
+152340	New version: astral-sh.ruff version 0.4.3	frazar:astral-sh.ruff-0.4.3-F26E10B0	OPEN	2024-05-06T05:46:55Z
+152339	Remove: Kiwix.WikiMed.Electron version 2.4.8-E	coolplaylinbot:Kiwix.WikiMed.Electron-2.4.8-E-773B1DA1EB23268F6FD14C3A214183FB548110D5	OPEN	2024-05-06T05:45:44Z
+152338	Remove: Kiwix.WikiMed version 2.4.8.0	coolplaylinbot:Kiwix.WikiMed-2.4.8.0-04BF8EECA5E074AD01516B49CC69A408E2D16FF4	OPEN	2024-05-06T05:43:45Z
+152337	Remove: Kiwix.Wikivoyage.Electron version 2.4.9-E	coolplaylinbot:Kiwix.Wikivoyage.Electron-2.4.9-E-1AA38048BE5309A2E00A327FA0576745B57EC7F2	OPEN	2024-05-06T05:42:04Z
+152336	Remove: Kiwix.Wikivoyage version 2.4.9.0	coolplaylinbot:Kiwix.Wikivoyage-2.4.9.0-94CE7682892CB37509845110FD911C6FEB1AC48C	OPEN	2024-05-06T05:41:08Z
+152335	Remove: KuaiFan.DooTask version 0.34.45	coolplaylinbot:KuaiFan.DooTask-0.34.45-5F650D7CCB719414026089B8D4A414B80A76D136	OPEN	2024-05-06T05:23:45Z
+152334	Remove: KuaiFan.DooTask version 0.33.94	coolplaylinbot:KuaiFan.DooTask-0.33.94-CF827E0451A2F7FA13D2669F46FF65052D56721C	OPEN	2024-05-06T05:22:29Z
+152333	Remove: KuaiFan.DooTask version 0.37.16	coolplaylinbot:KuaiFan.DooTask-0.37.16-37F791146CAB118CEC26BC3AEDA8901CDB2A2D9B	OPEN	2024-05-06T05:19:17Z
+152332	Remove: KarimHossenbux.moonitor version 2.6.0	coolplaylinbot:KarimHossenbux.moonitor-2.6.0-1A9DD3070872B9F19864CB0987AE1250DF7F8710	OPEN	2024-05-06T05:15:39Z
+152331	New version: Tencent.DeskGo version 3.3.1503.127	SpecterShell:Tencent.DeskGo-3.3.1503.127-1648962027	OPEN	2024-05-06T05:11:17Z
+152330	Remove: K1JT.wsjtx version 2.6.1	coolplaylinbot:K1JT.wsjtx-2.6.1-737D44130E8C72BADB89BC5E8CF46EA955806DAF	OPEN	2024-05-06T04:49:02Z
+152329	Remove: KrassyK1LZ.DXLogNet version 2.5.54	coolplaylinbot:KrassyK1LZ.DXLogNet-2.5.54-7C0E88FE49DB75737D2FD11E2FBDDC8D9E0F855B	OPEN	2024-05-06T04:46:03Z
+152328	Remove: KalinSetterbergDataAB.Marathon version 2.8.0	coolplaylinbot:KalinSetterbergDataAB.Marathon-2.8.0-3715D5049FC596392E4D8F0A8F7EEDDDA6282839	OPEN	2024-05-06T04:38:10Z
+152327	New version: Ximalaya.XimalayaLive version 4.25.745	SpecterShell:Ximalaya.XimalayaLive-4.25.745-1229599512	OPEN	2024-05-06T04:14:20Z
+152326	New version: Kingsoft.WPSOffice version 12.2.0.16909	SpecterShell:Kingsoft.WPSOffice-12.2.0.16909-900695104	OPEN	2024-05-06T04:10:59Z
+152325	New version: Baidu.BaiduPinyin version 6.1.7.18	SpecterShell:Baidu.BaiduPinyin-6.1.7.18-1527952301	OPEN	2024-05-06T04:10:09Z
+152324	New version: aislx.FlameLauncher version 1.0.7	aislxflames:aislx.FlameLauncher-1.0.7-aec433e5-2c26-4631-8370-ad36f4b1488a	OPEN	2024-05-06T03:58:51Z
+152323	Remove: NHNCorporation.Dooray!Drive version 1.0.1.24	coolplaylinbot:NHNCorporation.Dooray!Drive-1.0.1.24-3A5283607740156F656C2CAE07B25B6D992099CF	OPEN	2024-05-06T03:21:36Z
 152322	New version: YY.YY version 9.33.0.1	SpecterShell:YY.YY-9.33.0.1-1091272634	OPEN	2024-05-06T03:13:33Z
 152321	Cemu.Cemu.Experimental version 2.0-82	kpd328:Cemu.Cemu.Experimental-2.0-82-35490482-8cef-4fd4-87f2-866d3e056358	OPEN	2024-05-06T02:44:42Z
 152320	New version: Ndd version 2.15.0	hjkl950217:master	OPEN	2024-05-06T02:26:10Z
