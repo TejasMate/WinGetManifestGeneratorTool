@@ -1,23 +1,61 @@
+from pathlib import Path
+from typing import List, Dict, Any
 import polars as pl
+from dataclasses import dataclass
 
-def convert_txt_to_dataframe(file_path, field_names, field_lengths):
+@dataclass
+class FieldConfig:
+    names: List[str]
+    lengths: List[int]
 
-    with open(file_path, "r") as file:
-        lines = file.readlines()  # Read all lines from the text file
+    def __post_init__(self):
+        if len(self.names) != len(self.lengths):
+            raise ValueError("Number of field names must match field lengths")
+        if not all(length > 0 for length in self.lengths):
+            raise ValueError("Field lengths must be positive")
 
-    data = []
-    for line in lines:
-        words = [word.ljust(length) for word, length in zip(line.split("\t"), field_lengths)]
-        row_data = dict(zip(field_names, words))
-        data.append(row_data)
+class TextToDataFrame:
+    def __init__(self, field_config: FieldConfig):
+        self.config = field_config
 
-    return pl.DataFrame(data)
+    def process_line(self, line: str) -> Dict[str, str]:
+        try:
+            values = line.strip().split("\t")
+            if len(values) != len(self.config.names):
+                raise ValueError(f"Expected {len(self.config.names)} fields, got {len(values)}")
+            return {
+                name: value.ljust(length)
+                for name, length, value in zip(self.config.names, self.config.lengths, values)
+            }
+        except Exception as e:
+            raise ValueError(f"Error processing line: {line.strip()}\nError: {str(e)}")
 
-# Example usage
-file_path = "data/OpenPRs.txt"
-field_names = ["ID", "Title", "Branch", "Status", "CreatedAt"]
-field_lengths = [1000, 1500, 2000, 2000, 2000]
+    def convert(self, input_path: Path, output_path: Path) -> None:
+        try:
+            with open(input_path, "r", encoding="utf-8") as file:
+                data = [self.process_line(line) for line in file if line.strip()]
+            
+            if not data:
+                raise ValueError("No data found in input file")
 
-df = convert_txt_to_dataframe(file_path, field_names, field_lengths)
-df.write_csv("data/OpenPRs.csv")    
-print("Generated OpenPRs.csv successfully")
+            df = pl.DataFrame(data)
+            df.write_csv(output_path)
+            print(f"Successfully generated {output_path}")
+
+        except Exception as e:
+            raise RuntimeError(f"Failed to process {input_path}: {str(e)}")
+
+def main():
+    config = FieldConfig(
+        names=["ID", "Title", "Branch", "Status", "CreatedAt"],
+        lengths=[1000, 1500, 2000, 2000, 2000]
+    )
+    
+    converter = TextToDataFrame(config)
+    converter.convert(
+        input_path=Path("data/OpenPRs.txt"),
+        output_path=Path("data/OpenPRs.csv")
+    )
+
+if __name__ == "__main__":
+    main()

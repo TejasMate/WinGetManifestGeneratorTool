@@ -1,194 +1,168 @@
 import os
 import yaml
 import json
-import csv
 import re
 import polars as pl
+from pathlib import Path
+from typing import List, Optional, Dict, Any
+from dataclasses import dataclass
+from concurrent.futures import ThreadPoolExecutor
+from functools import partial
 
-# Define the base directory where the structure starts
-base_directory = "winget-pkgs/manifests/"  # Update this path
-installer_urls = list()
+@dataclass
+class Config:
+    base_directory: Path = Path("winget-pkgs/manifests/")
+    output_urls: Path = Path("data/urls.txt")
+    output_data: Path = Path("data/GitHub_Release.csv")
+    allowed_extensions: List[str] = None
 
-# Define the schema with four string columns
-schema = [
-    ("username", str),
-    ("reponame", str),
-    ("latest_ver", str),
-    ("extension", str),
-    ("pkgs_name", str),
-    ("pkg_pattern", str),
-    ("version_pattern_match", str)
-]
+    def __post_init__(self):
+        self.allowed_extensions = ["msixbundle", "appxbundle", "msix", "appx", "zip", "msi", "exe"]
 
-# Create an empty DataFrame with the specified schema
-new_df = pl.DataFrame([], schema=schema)
+class GitHubReleaseProcessor:
+    def __init__(self, config: Config):
+        self.config = config
+        self.schema = [
+            ("username", str),
+            ("reponame", str),
+            ("latest_ver", str),
+            ("extension", str),
+            ("pkgs_name", str),
+            ("pkg_pattern", str),
+            ("version_pattern_match", str)
+        ]
+        self.df = pl.DataFrame([], schema=self.schema)
+        self.installer_urls: List[str] = []
 
-def version_key(version):
-    return [int(x) if x.isdigit() else x for x in re.split(r'([0-9]+)', version)]
+    @staticmethod
+    def version_key(version: str) -> List[Any]:
+        return [int(x) if x.isdigit() else x for x in re.split(r'([0-9]+)', version)]
 
-def is_dot_number_string(text):
-    pattern = r'^[\d.]+$'
-    if re.match(pattern, text):
-        return True
-    else:
-        return False
+    @staticmethod
+    def is_dot_number_string(text: str) -> bool:
+        return bool(re.match(r'^[\d.]+$', text))
 
-# Read the CSV file with the directory structure
-with open("data/filenames.csv", "r", encoding='utf-8') as csv_file:  # Replace with your CSV file path
-    csv_reader = csv.reader(csv_file)
-    next(csv_reader)  # Skip the header row if it exists
+    def determine_version_pattern(self, first_element: str, url_ext: str) -> str:
+        if first_element in url_ext:
+            if self.is_dot_number_string(first_element):
+                return "PatternMatchOnlyNum"
+            if first_element.startswith(("v", "r")) and self.is_dot_number_string(first_element[1:]):
+                return f"PatternMatchStartWith{first_element[0]}"
+            return "PatternMatchExact"
 
-    for row in csv_reader:
-                      
+        if url_ext.count('.') - 1 > first_element.count('.'):
+            if "-" in first_element:
+                string1 = re.sub(r'(\d+(?:\.\d+)*)-', r'\1.0-', first_element)
+                if string1 in url_ext:
+                    return "DiffMatchDotZeroIncrease"
+        elif url_ext.count('.') - 1 < first_element.count('.'):
+            if "-" in first_element:
+                pattern = r'(\d+)(?:\.\d+)*(-)'
+                string1 = re.sub(pattern, 
+                               lambda x: x.group(1) + ".0" + x.group(2) if "." not in x.group(1) else x.group(0), 
+                               first_element)
+                if string1 in url_ext:
+                    return "DiffMatchDotZeroReduce"
+        return "different"
+
+    def process_installer(self, installer: Dict[str, Any], first_element: str) -> Optional[Dict[str, Any]]:
+        if 'InstallerUrl' not in installer or 'https://github.com' not in installer['InstallerUrl']:
+            return None
+
+        url = installer['InstallerUrl']
+        parts = url.split("/")
+        url_ext = parts[-1]
+        extension = url_ext.split(".")[-1]
+
+        if extension not in self.config.allowed_extensions:
+            return None
+
+        match = re.search(r"https://github\.com/([^/]+)/([^/]+)/", url)
+        if not match:
+            return None
+
+        return {
+            'url': url,
+            'username': match.group(1),
+            'repo_name': match.group(2),
+            'extension': extension,
+            'url_ext': url_ext,
+            'version_pattern': self.determine_version_pattern(first_element, url_ext)
+        }
+
+    def process_yaml_file(self, file_path: Path, dotrow: str, first_element: str) -> None:
+        try:
+            with open(file_path, 'r', encoding='utf-8') as file:
+                data = json.load(file) if file_path.suffix == '.json' else yaml.safe_load(file)
+
+            if 'Installers' not in data:
+                return
+
+            installers = [self.process_installer(installer, first_element) 
+                         for installer in data['Installers']]
+            installers = [i for i in installers if i]
+
+            if len(installers) == 1:
+                installer = installers[0]
+                self.installer_urls.append(installer['url'])
+                
+                df_row = pl.DataFrame({
+                    "username": installer['username'],
+                    "reponame": installer['repo_name'],
+                    "latest_ver": first_element,
+                    "extension": installer['extension'],
+                    "pkgs_name": dotrow[:-1],
+                    "pkg_pattern": installer['url_ext'],
+                    "version_pattern_match": installer['version_pattern']
+                })
+                self.df.extend(df_row)
+
+        except Exception as e:
+            print(f"Error processing {file_path}: {e}")
+
+    def process_directory(self, row: List[str]) -> None:
         row = [element for element in row if element]
-
-        count = 0
-        # Combine elements into a single string with "/" separator
         slashrow = "/".join(row) + "/"
         dotrow = ".".join(row) + "."
+        directory_path = self.config.base_directory / f"{slashrow[0].lower()}" / slashrow
 
-        # Construct the directory path based on the pattern
-        directory_path = os.path.join(base_directory, f"{slashrow[0].lower()}/{slashrow}")
+        try:
+            subdirectories = sorted(
+                [d for d in os.listdir(directory_path) if (directory_path / d).is_dir()],
+                key=self.version_key,
+                reverse=True
+            )
 
+            if not subdirectories:
+                return
 
-        subdirectories = [subdir for subdir in os.listdir(directory_path) if os.path.isdir(os.path.join(directory_path, subdir))]
-        file_found = False
-        subdirectories.sort(reverse=True)  
+            first_element = subdirectories[0]
+            file_path = directory_path / first_element / f'{dotrow}installer.yaml'
+            
+            if file_path.exists():
+                self.process_yaml_file(file_path, dotrow, first_element)
+
+        except Exception as e:
+            print(f"Error processing directory {directory_path}: {e}")
+
+    def process_csv(self, csv_path: Path) -> None:
+        df = pl.read_csv(csv_path)
+        rows = df.to_numpy().tolist()
+
+        with ThreadPoolExecutor() as executor:
+            executor.map(self.process_directory, rows)
+
+    def save_results(self) -> None:
+        self.df.write_csv(self.config.output_data)
         
-        # print("-------------------------------")
-        # print(directory_path)
-        # print(subdirectories)
-        # print("-------------------------------")
+        with open(self.config.output_urls, 'w') as file:
+            file.write('\n'.join(self.installer_urls))
 
+def main():
+    config = Config()
+    processor = GitHubReleaseProcessor(config)
+    processor.process_csv(Path("data/filenames.csv"))
+    processor.save_results()
 
-        
-        
-        while True:
-            #versions = ['2.0.9a', 'f050489', '2.0.15', '2.0.14', '2.0.12', '2.0.11', '2023.07.13']
-    
-            # Sort the list in descending order
-            sorted_versions = sorted(subdirectories, key=version_key, reverse=True)
-    
-            # Find the first element
-            first_element = sorted_versions[0]
-
-            
-            subdir_path = os.path.join(directory_path, first_element)
-            file_path = os.path.join(subdir_path, f'{dotrow}installer.yaml')
-            
-                        
-            print(sorted_versions)
-            print(first_element)
-            print(file_path)
-            print()
-            
-            if os.path.exists(file_path):
-                # print(f"The first element in descending order is: {first_element}")
-                break
-            else:
-                subdirectories.remove(first_element)
-                
-                
-        with open(file_path, "r", encoding='utf-8') as file:
-            if file_path.endswith(".json"):
-                data = json.load(file)
-            else:
-                # print(file)
-                data = yaml.safe_load(file)
-            
-            
-            if 'Installers' in data:
-              for installer in data['Installers']:
-                if 'InstallerUrl' in installer and 'https://github.com' in installer['InstallerUrl']:
-                  # print('InstallerUrl found:', installer['InstallerUrl'])
-                  count+=1
-                  # installer_urls.append(installer['InstallerUrl'])
-                  
-                  
-            if count == 1:
-                # print('InstallerUrl found:', installer['InstallerUrl'])
-                
-                # Split the URL by "/" to get the filename
-                parts =  installer['InstallerUrl'].split("/")
-                url_ext = parts[-1]
-                
-                # Split the filename by "." to get the file extension
-                extension = url_ext.split(".")[-1]
-                
-                # Check if the extension is one of the specified values
-                allowed_extensions = ["msixbundle", "appxbundle", "msix", "appx", "zip", "msi", "exe"]
-                if extension in allowed_extensions:
-                    installer_urls.append(installer['InstallerUrl'])
-                    # print("Detected extension:", extension)
-                    
-                    # Define the regular expression pattern to match the username and repository name
-                    pattern = r"https://github\.com/([^/]+)/([^/]+)/"
-
-                    # Use re.search() to find the match in the URL
-                    match = re.search(pattern, installer['InstallerUrl'])
-
-                    if match:
-                        username = match.group(1)
-                        repo_name = match.group(2)
-                        
-                        # print("Username:", username)
-                        # print("Repository Name:", repo_name)
-                        # print()
-                        
-
-                        version_pattern_match = ""
-
-                        if first_element in url_ext:
-                            # if first_element.startswith("release-") and is_dot_number_string(first_element[8:]):
-                            #     version_pattern_match = "MatchPatternStartWithRelease-"
-                            # elif first_element.startswith("RELEASE") and is_dot_number_string(first_element[7:]):
-                            #     version_pattern_match = "MatchPatternStartWithRelease"
-                            if is_dot_number_string(first_element):
-                                version_pattern_match = "PatternMatchOnlyNum"
-                            elif first_element.startswith("v") and is_dot_number_string(first_element[1:]):
-                                version_pattern_match = "PatternMatchStartWithv"
-                            elif first_element.startswith("r") and is_dot_number_string(first_element[1:]):
-                                version_pattern_match = "PatternMatchStartWithr"
-                            else:
-                                version_pattern_match = "PatternMatchExact"
-                            # else:
-                            #     version_pattern_match = "sameasversionptn"
-                        else:
-                            if url_ext.count('.')-1 > first_element.count('.'):
-                                if "-" in first_element:
-                                    string1 = re.sub(r'(\d+(?:\.\d+)*)-', r'\1.0-', first_element)
-                                    if string1 in url_ext:
-                                        version_pattern_match = "DiffMatchDotZeroIncrease"
-                            elif url_ext.count('.')-1 < first_element.count('.'):
-                                if "-" in first_element:
-                                    pattern = r'(\d+)(?:\.\d+)*(-)'
-                                    string1 = re.sub(pattern, lambda x: x.group(1) + ".0" + x.group(2) if "." not in x.group(1) else x.group(0), first_element)
-
-                                    # string1 = re.sub(r'(\d+\.\d+)\.0(?=-)', r'\1', first_element)
-                                    if string1 in url_ext:
-                                        version_pattern_match = "DiffMatchDotZeroReduce"
-                            # elif first_element.startswith("release-") and is_dot_number_string(first_element[8:]):
-                            #     version_pattern_match = "NotMatchPatternStartWithRelease-"
-                            # elif first_element.startswith("RELEASE") and is_dot_number_string(first_element[7:]):
-                            #     version_pattern_match = "NotMatchPatternStartWithRelease"
-                            # elif first_element.startswith("v") and is_dot_number_string(first_element[1:]):
-                            #     version_pattern_match = "NotMatchPatternStartWithv"
-                            # elif first_element.startswith("r") and is_dot_number_string(first_element[1:]):
-                            #     version_pattern_match = "NotMatchPatternStartWithr"
-                            else:
-                                version_pattern_match = "different"
-
-
-                            
-                        df = pl.DataFrame({"username": username, "reponame": repo_name, "latest_ver": first_element, "extension": extension, "pkgs_name": dotrow[:-1], "pkg_pattern": url_ext, "version_pattern_match": version_pattern_match})
-                        # new_df = pl.concat([new_df, df], rechunk=True)
-                        new_df.extend(df)
-                else:
-                    print("Extension not in the list of allowed extensions.")
-                            
-new_df.write_csv("data/GitHub_Release.csv")
-
-with open("data/urls.txt", "w") as file:
-    for item in installer_urls:
-        file.write(item + "\n")  # Add a newline character to separate elements
-        
+if __name__ == "__main__":
+    main()

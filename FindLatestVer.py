@@ -1,115 +1,142 @@
 import requests
 import polars as pl
+from pathlib import Path
+from typing import Optional, Tuple, List
+from dataclasses import dataclass
 import os
+import time
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
-pat = os.environ["TOKEN"]
-if not pat:
-  raise RuntimeError("TOKEN env var is not set")
-
-headers = {"Authorization": f"token {pat}",
-           "Accept": "application/vnd.github.v3+json",
-           }
-
-def get_all_pages(url, params=None):
-  all_data = []
-  while True:
-    response = requests.get(url, params=params, headers = headers)
-    if response.status_code == 200:
-      data = response.json()
-      all_data.extend(data)
-      next_link = response.links.get("next", {}).get("url")
-      if not next_link:
-        break
-      url = next_link
-    else:
-      print(f"Error retrieving releases: {response.status_code}")
-      return None
-  return all_data
-
-def get_release_versions(username, repo_name, per_page=100):
-
-  url = f"https://api.github.com/repos/{username}/{repo_name}/releases"
-  params = {"per_page": per_page}  # Adjust per_page as needed
-
-  all_releases = get_all_pages(url, params)
-  if all_releases:
-    return [release["tag_name"] for release in all_releases]
-  else:
-    return None
-
-
-def get_latest_release_version(username, repo_name):
-  url = f"https://api.github.com/repos/{username}/{repo_name}/releases/latest"
-  response = requests.get(url, headers=headers)
-
-  if response.status_code == 200:
-    data = response.json()
-    return data["tag_name"]
-  else:
-    print(f"Error retrieving releases: {response.status_code}")
-    return None
-
-
-def versions(username, reponame):
-    latest_version, early_lat_ver, early_versions = None, None, None
-    latest_version = get_latest_release_version(username, reponame)
-    versions = get_release_versions(username, reponame)
+@dataclass
+class GitHubConfig:
+    token: str
+    base_url: str = "https://api.github.com"
+    per_page: int = 100
+    retry_attempts: int = 3
+    retry_backoff: float = 0.5
     
-    print(latest_version)
-    print(versions)
-
-    if versions!= None:
-        early_versions = "absent" if versions[0] == latest_version else "present"
-        early_lat_ver = versions[0]
-    return latest_version, early_lat_ver, early_versions
-
-
-
-df = pl.read_csv("data/GitHub_Release.csv")
-df_new = df.filter(pl.col('version_pattern_match') == 'PatternMatchOnlyNum')
-
-github_latest_vers = []
-update_requires = []
-ear_lat_versions = []
-early_versionss = []
-
-
-for row in df_new.rows():
-    username, reponame, winget_latest_ver = row[0], row[1], row[2]
-
-    github_latest_ver, ear_lat_version, early_versions = versions(username, reponame)
-    
-    if ear_lat_version!= None:
-        if winget_latest_ver.lower() in ear_lat_version.lower():
-            update_require = "No"
-        elif github_latest_ver!= None:
-            if winget_latest_ver.lower() in github_latest_ver.lower():
-                update_require = "No"
-            else:
-                update_require = "Yes"
-    else:
-        update_require = "NA"
+class GitHubAPI:
+    def __init__(self, config: GitHubConfig):
+        self.config = config
+        self.session = self._create_session()
         
-    print(username)
-    print(reponame)
-    print(github_latest_ver)
-    print(winget_latest_ver)
-    print(update_require)
-    print()
-    
-    github_latest_vers.append(github_latest_ver)
-    update_requires.append(update_require)
-    ear_lat_versions.append(ear_lat_version)
-    early_versionss.append(early_versions)
-    
-    
-    
-df_new = df_new.with_columns([
-    pl.Series(name="update_requires", values=update_requires),
-    pl.Series(name="github_latest_vers", values=github_latest_vers),
-    pl.Series(name="github_earliest_vers", values=ear_lat_versions),
-    pl.Series(name="IsEarliestVerReleases", values=early_versionss),
+    def _create_session(self) -> requests.Session:
+        session = requests.Session()
+        retry_strategy = Retry(
+            total=self.config.retry_attempts,
+            backoff_factor=self.config.retry_backoff,
+            status_forcelist=[429, 500, 502, 503, 504]
+        )
+        adapter = HTTPAdapter(max_retries=retry_strategy)
+        session.mount("https://", adapter)
+        session.headers.update({
+            "Authorization": f"token {self.config.token}",
+            "Accept": "application/vnd.github.v3+json"
+        })
+        return session
 
-])      
+    def get_paginated_data(self, url: str, params: Optional[dict] = None) -> Optional[List[dict]]:
+        all_data = []
+        while url:
+            response = self.session.get(url, params=params)
+            if response.status_code == 200:
+                all_data.extend(response.json())
+                url = response.links.get("next", {}).get("url")
+                if response.headers.get('X-RateLimit-Remaining', '1') == '0':
+                    reset_time = int(response.headers.get('X-RateLimit-Reset', 0))
+                    sleep_time = max(reset_time - time.time(), 0)
+                    time.sleep(sleep_time)
+            else:
+                print(f"Error {response.status_code}: {response.text}")
+                return None
+            params = None  # Clear params after first request
+        return all_data
+
+    def get_latest_release(self, username: str, repo_name: str) -> Optional[str]:
+        url = f"{self.config.base_url}/repos/{username}/{repo_name}/releases/latest"
+        response = self.session.get(url)
+        if response.status_code == 200:
+            return response.json()["tag_name"]
+        return None
+
+    def get_all_releases(self, username: str, repo_name: str) -> Optional[List[str]]:
+        url = f"{self.config.base_url}/repos/{username}/{repo_name}/releases"
+        releases = self.get_paginated_data(url, {"per_page": self.config.per_page})
+        return [release["tag_name"] for release in releases] if releases else None
+
+class ReleaseChecker:
+    def __init__(self, github_api: GitHubAPI):
+        self.github_api = github_api
+
+    def check_versions(self, username: str, reponame: str) -> Tuple[Optional[str], Optional[str], Optional[str]]:
+        latest_version = self.github_api.get_latest_release(username, reponame)
+        versions = self.github_api.get_all_releases(username, reponame)
+        
+        early_lat_ver = None
+        early_versions = None
+        
+        if versions:
+            early_versions = "absent" if versions[0] == latest_version else "present"
+            early_lat_ver = versions[0]
+            
+        return latest_version, early_lat_ver, early_versions
+
+    def process_dataframe(self, input_path: Path, output_path: Path) -> None:
+        df = pl.read_csv(input_path)
+        df_filtered = df.filter(pl.col('version_pattern_match') == 'PatternMatchOnlyNum')
+        
+        results = []
+        for row in df_filtered.rows():
+            username, reponame, winget_latest_ver = row[0], row[1], row[2]
+            github_latest_ver, ear_lat_version, early_versions = self.check_versions(username, reponame)
+            
+            update_require = self._determine_update_requirement(
+                winget_latest_ver, github_latest_ver, ear_lat_version
+            )
+            
+            results.append({
+                "github_latest_ver": github_latest_ver,
+                "update_require": update_require,
+                "ear_lat_version": ear_lat_version,
+                "early_versions": early_versions
+            })
+            
+        df_updated = df_filtered.with_columns([
+            pl.Series(name="update_requires", values=[r["update_require"] for r in results]),
+            pl.Series(name="github_latest_vers", values=[r["github_latest_ver"] for r in results]),
+            pl.Series(name="github_earliest_vers", values=[r["ear_lat_version"] for r in results]),
+            pl.Series(name="IsEarliestVerReleases", values=[r["early_versions"] for r in results])
+        ])
+        
+        df_updated.write_csv(output_path)
+
+    @staticmethod
+    def _determine_update_requirement(winget_ver: str, github_latest: Optional[str], github_earliest: Optional[str]) -> str:
+        if not github_earliest:
+            return "NA"
+            
+        if winget_ver.lower() in github_earliest.lower():
+            return "No"
+            
+        if github_latest and winget_ver.lower() in github_latest.lower():
+            return "No"
+            
+        return "Yes"
+
+def main():
+    token = os.environ.get("TOKEN")
+    if not token:
+        raise RuntimeError("TOKEN environment variable not set")
+        
+    config = GitHubConfig(token=token)
+    github_api = GitHubAPI(config)
+    checker = ReleaseChecker(github_api)
     
-df_new.write_csv("data/GitHub_Releasess.csv")
+    checker.process_dataframe(
+        input_path=Path("data/GitHub_Release.csv"),
+        output_path=Path("data/GitHub_Releasess.csv")
+    )
+
+if __name__ == "__main__":
+    main()
