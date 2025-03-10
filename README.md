@@ -1,4 +1,4 @@
-# WinGet Package Automation Tool
+# WinGet Manifest Automation Tool
 
 ## Overview
 

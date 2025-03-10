@@ -1,0 +1,45 @@
+name: WinGet Manifest Automation
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"  
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  analyze-packages:
+    runs-on: ubuntu-latest
+    env:
+      TOKEN_1: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Clone WinGet packages repository
+        run: |
+          git clone --depth=1 --branch="master" https://github.com/microsoft/winget-pkgs.git
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install polars requests pyyaml
+
+      - name: Process package manifests
+        run: python src/PackageProcessor.py
+
+      - name: Analyze GitHub repositories
+        run: python src/GitHub.py
+
+      - name: Generate update commands
+        run: python src/KomacCommandsGenerator.py
+
+      - name: Check for errors
+        if: failure()
+        run: |
+          echo "::error::Package analysis workflow failed. Please check the logs for details."
+          exit 1
