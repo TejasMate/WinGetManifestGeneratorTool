@@ -47,7 +47,7 @@ WinGetManifestAutomationTool/
 
 2. Clone the WinGet packages repository:
    ```bash
-   git clone --depth=1 --branch="main" https://github.com/microsoft/winget-pkgs.git
+   git clone --depth=1 --branch="master" https://github.com/microsoft/winget-pkgs.git
    ```
 
 3. Install required dependencies:
