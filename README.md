@@ -7,12 +7,15 @@ This project is designed to automate the process of analyzing and updating packa
 ## Project Structure
 
 ```
-├── README.md                  # Basic usage instructions
-├── package_blocklist.json     # List of packages to exclude from processing
-├── src/                       # Source code directory
+WinGetManifestAutomationTool/
+├── .github/                       # GitHub configuration
+|   └── action.yml                 # Scheduled automation workflow
+|
+├── src/
 │   ├── PackageProcessor.py    # Main package processing functionality
 │   ├── GitHub.py              # GitHub integration and analysis pipeline
 │   ├── KomacCommandsGenerator.py # Generates komac update commands
+│   ├── requirements.txt           # Project dependencies
 │   ├── github/                # GitHub-specific modules
 │   │   ├── Filter.py          # Filtering logic for GitHub packages
 │   │   ├── GitHubPackageProcessor.py # GitHub package version analysis
@@ -21,7 +24,11 @@ This project is designed to automate the process of analyzing and updating packa
 │       ├── token_manager.py   # GitHub API token rotation and management
 │       ├── unified_utils.py   # Common utilities for YAML and GitHub operations
 │       └── version_pattern_utils.py # Version pattern detection and analysis
-└── winget-pkgs/              # Cloned WinGet packages repository
+│
+├── package_blocklist.json         # Packages to exclude from processing
+├── README.md                      # Project documentation
+├── .gitignore
+└── LICENSE
 ```
 
 ## Prerequisites
