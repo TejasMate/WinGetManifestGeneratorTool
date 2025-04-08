@@ -45,7 +45,7 @@ This project is designed to automate the process of analyzing and updating packa
 
 3. Install required dependencies:
    ```bash
-   pip install polars requests pyyaml
+   pip install -r src/requirements.txt
    ```
 
 4. Set up GitHub API tokens as environment variables:

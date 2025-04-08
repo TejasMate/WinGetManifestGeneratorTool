@@ -1,0 +1,4 @@
+winget-pkgs/
+src/utils/__pycache__/
+src/github/__pycache__
+data/
