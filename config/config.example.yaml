@@ -1,0 +1,111 @@
+# Example Environment Configuration Template
+# Copy this file and customize it for your specific needs.
+# 
+# Available environments: development, staging, production
+#
+# To use this configuration:
+# 1. Copy this file to config/local.yaml or config/config.local.yaml
+# 2. Set the WINGET_ENV environment variable to load the appropriate environment
+# 3. Set GitHub tokens via environment variables (TOKEN_1, TOKEN_2, etc.)
+
+environment: development  # Change to staging or production as needed
+debug: true
+
+# Logging configuration - adjust for your needs
+logging:
+  level: DEBUG  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file: "logs/winget-automation.log"  # Set to null to disable file logging
+  max_size: 50  # Maximum log file size in MB
+  backup_count: 5  # Number of backup log files to keep
+
+# GitHub API configuration
+github:
+  # Tokens are loaded from environment variables: TOKEN_1, TOKEN_2, etc.
+  # You can also specify them here (not recommended for production)
+  tokens: []
+  
+  # API settings
+  api_url: "https://api.github.com"
+  per_page: 100
+  retry_attempts: 5
+  retry_delay: 2.0
+  rate_limit_buffer: 200
+
+# Package processing configuration
+package_processing:
+  # Path to the WinGet packages repository
+  winget_repo_path: "winget-pkgs"
+  
+  # Output directory for generated files
+  output_directory: "data"
+  
+  # File patterns to process
+  file_patterns:
+    - "*.installer.yaml"
+    - "*.locale.yaml"
+    - "*.portable.yaml"
+  
+  # Processing limits
+  max_workers: 4  # Number of parallel workers
+  batch_size: 100  # Number of packages to process in each batch
+  timeout: 300  # Timeout in seconds for each operation
+
+# Filtering configuration
+filtering:
+  # Packages to exclude from processing
+  blocked_packages:
+    - "Microsoft.VisualStudioCode.Insiders"
+    - "TestPackage.BlockedPackage"
+  
+  # Allowed architectures
+  allowed_architectures:
+    - "x64"
+    - "x86"
+    - "arm64"
+    - "arm"
+    - "aarch64"
+    - "x86_64"
+    - "any"
+    - "neutral"
+  
+  # Allowed file extensions
+  allowed_extensions:
+    - "msi"
+    - "exe"
+    - "zip"
+    - "7z"
+    - "msix"
+    - "appx"
+    - "msixbundle"
+    - "appxbundle"
+  
+  # Filtering thresholds
+  min_download_count: 0  # Minimum GitHub download count
+  max_package_age_days: 365  # Maximum age of package releases
+
+# Output configuration
+output:
+  formats:
+    - "csv"
+    - "json"
+  compression: "gzip"  # none, gzip, bz2, xz
+  include_metadata: true
+  timestamp_format: "%Y%m%d_%H%M%S"
+
+# Performance configuration
+performance:
+  cache_enabled: true
+  cache_ttl: 7200  # Cache time-to-live in seconds (2 hours)
+  memory_limit_mb: 2048  # Memory limit in MB
+  enable_profiling: false  # Enable performance profiling
+
+# Example environment variable usage:
+# 
+# Set these environment variables to override configuration:
+# export WINGET_ENV=development
+# export TOKEN_1=your_github_token_here
+# export TOKEN_2=your_second_github_token_here
+# export LOG_LEVEL=INFO
+# export MAX_WORKERS=8
+# export BATCH_SIZE=200
+# export CACHE_ENABLED=true

@@ -192,5 +192,3 @@ Dockerfile.local
 
 # Benchmarks
 .benchmarks/results/
-
-winget-pkgs/

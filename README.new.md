@@ -1,12 +1,12 @@
-# WinGet Manifest Generator Tool
+# WinGet Manifest Automation Tool
 
-[![CI/CD Pipeline](https://github.com/TejasMate/WinGetManifestGeneratorTool/actions/workflows/ci.yml/badge.svg)](https://github.com/TejasMate/WinGetManifestGeneratorTool/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/TejasMate/WinGetManifestGeneratorTool/branch/main/graph/badge.svg)](https://codecov.io/gh/TejasMate/WinGetManifestGeneratorTool)
-[![PyPI version](https://badge.fury.io/py/winget-manifest-generator-tool.svg)](https://badge.fury.io/py/winget-manifest-generator-tool)
-[![Python Versions](https://img.shields.io/pypi/pyversions/winget-manifest-generator-tool.svg)](https://pypi.org/project/winget-manifest-generator-tool/)
+[![CI/CD Pipeline](https://github.com/TejasMate/WinGetManifestAutomationTool/actions/workflows/ci.yml/badge.svg)](https://github.com/TejasMate/WinGetManifestAutomationTool/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/TejasMate/WinGetManifestAutomationTool/branch/main/graph/badge.svg)](https://codecov.io/gh/TejasMate/WinGetManifestAutomationTool)
+[![PyPI version](https://badge.fury.io/py/winget-manifest-automation-tool.svg)](https://badge.fury.io/py/winget-manifest-automation-tool)
+[![Python Versions](https://img.shields.io/pypi/pyversions/winget-manifest-automation-tool.svg)](https://pypi.org/project/winget-manifest-automation-tool/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Professional generator tool for managing and updating WinGet package manifests with comprehensive monitoring and observability.**
+> **Professional automation tool for managing and updating WinGet package manifests with comprehensive monitoring and observability.**
 
 ## 🚀 Features
 
@@ -15,7 +15,6 @@
 - **GitHub Integration**: Seamless integration with GitHub repositories and release management
 - **Multi-source Support**: Handle packages from various sources and repositories
 - **Batch Processing**: Efficiently process multiple packages simultaneously
-- **Manifest Generation**: Automated generation of WinGet manifest files
 
 ### Enterprise-Grade Monitoring
 - **Structured Logging**: JSON-formatted logs with correlation tracking
@@ -33,20 +32,20 @@
 
 ### From PyPI (Recommended)
 ```bash
-pip install winget-manifest-generator-tool
+pip install winget-manifest-automation-tool
 ```
 
 ### From Source
 ```bash
-git clone https://github.com/TejasMate/WinGetManifestGeneratorTool.git
-cd WinGetManifestGeneratorTool
+git clone https://github.com/TejasMate/WinGetManifestAutomationTool.git
+cd WinGetManifestAutomationTool
 pip install -e .
 ```
 
 ### Development Installation
 ```bash
-git clone https://github.com/TejasMate/WinGetManifestGeneratorTool.git
-cd WinGetManifestGeneratorTool
+git clone https://github.com/TejasMate/WinGetManifestAutomationTool.git
+cd WinGetManifestAutomationTool
 make dev-setup
 ```
 
@@ -88,76 +87,10 @@ wmat metrics
 wmat health --format json > health-report.json
 ```
 
-## 🔄 Usage
-
-### Professional CLI (Recommended)
-
-The tool now provides a modern CLI interface for streamlined operations:
-
-```bash
-# Install the package
-pip install -e .
-
-# Check system health
-wmat health
-
-# Process packages with monitoring
-wmat process --packages Microsoft.VSCode --dry-run
-
-# View system metrics
-wmat metrics
-```
-
-### Legacy Workflow (Direct Script Execution)
-
-For users familiar with the original workflow, you can run the core scripts directly. The project workflow consists of three main steps:
-
-#### 1. Process WinGet Package Manifests
-```bash
-python src/winget_automation/PackageProcessor.py
-```
-This analyzes all package manifests in the WinGet repository, extracts version patterns, and creates CSV files with package information.
-
-#### 2. Analyze GitHub Repositories for Latest Versions
-```bash
-python src/winget_automation/GitHub.py
-```
-This checks GitHub repositories for the latest versions of packages and compares them with the versions in WinGet.
-
-#### 3. Generate Update Commands
-```bash
-python src/winget_automation/KomacCommandsGenerator.py
-```
-This creates komac update commands for packages that have newer versions available on GitHub.
-
-> **✅ Import Fix Applied**: All scripts now work correctly with both direct execution and module imports.
-
-#### Legacy Workflow with Monitoring
-You can enhance the legacy workflow with the new monitoring capabilities:
-
-```bash
-# Run with structured logging
-PYTHONPATH=src python scripts/test_monitoring.py
-
-# Process with configuration validation
-python scripts/test_config.py
-
-# Run the complete legacy workflow with monitoring
-python examples/integration_demo.py
-```
-
-### Migration Notes
-
-- **Script Paths**: Scripts moved from `src/` to `src/winget_automation/`
-- **Import Paths**: Updated for new package structure
-- **Configuration**: Enhanced YAML-based configuration system
-- **Monitoring**: All operations now include comprehensive monitoring
-- **Backwards Compatibility**: Original functionality preserved
-
 ## 🏗️ Architecture
 
 ```
-WinGet Manifest Generator Tool
+WinGet Manifest Automation Tool
 ├── CLI Interface (Rich formatting, Click-based)
 ├── Configuration Management (YAML-based, environment-aware)
 ├── Package Processing Engine
@@ -175,7 +108,6 @@ WinGet Manifest Generator Tool
 ## 📖 Documentation
 
 - **[User Guide](docs/user-guide/)** - Configuration and usage instructions
-- **[Legacy Migration Guide](docs/user-guide/LEGACY_MIGRATION.md)** - Transition from original scripts
 - **[API Documentation](docs/api/)** - Detailed API reference
 - **[Development Guide](docs/development/)** - Contributing and development setup
 - **[Examples](examples/)** - Code examples and integration patterns
@@ -190,8 +122,8 @@ WinGet Manifest Generator Tool
 ### Setup Development Environment
 ```bash
 # Clone repository
-git clone https://github.com/TejasMate/WinGetManifestGeneratorTool.git
-cd WinGetManifestGeneratorTool
+git clone https://github.com/TejasMate/WinGetManifestAutomationTool.git
+cd WinGetManifestAutomationTool
 
 # Setup development environment
 make dev-setup
@@ -331,8 +263,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/TejasMate/WinGetManifestGeneratorTool/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/TejasMate/WinGetManifestGeneratorTool/discussions)
+- **Issues**: [GitHub Issues](https://github.com/TejasMate/WinGetManifestAutomationTool/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/TejasMate/WinGetManifestAutomationTool/discussions)
 - **Documentation**: [docs/](docs/)
 
 ---

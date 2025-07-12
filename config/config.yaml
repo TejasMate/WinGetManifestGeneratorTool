@@ -1,0 +1,102 @@
+# Base Configuration for WinGetManifestAutomationTool
+# This file contains common settings that apply across all environments.
+# Environment-specific files will override these values as needed.
+
+# GitHub API configuration
+github:
+  api_url: "https://api.github.com"
+  per_page: 100
+  retry_attempts: 3
+  retry_delay: 1.0
+  rate_limit_buffer: 100
+
+# Package processing configuration
+package_processing:
+  winget_repo_path: "winget-pkgs"
+  output_directory: "data"
+  file_patterns:
+    - "*.installer.yaml"
+    - "*.locale.yaml"
+    - "*.portable.yaml"
+
+# Filtering configuration
+filtering:
+  # Common package blocklist
+  blocked_packages:
+    - "Microsoft.VisualStudioCode.Insiders"  # Example blocked package
+  
+  # Supported architectures
+  allowed_architectures:
+    - "x64"
+    - "x86"
+    - "arm64"
+    - "arm"
+    - "aarch64"
+    - "x86_64"
+    - "any"
+    - "neutral"
+  
+  # Supported file extensions
+  allowed_extensions:
+    - "msi"
+    - "exe"
+    - "zip"
+    - "7z"
+    - "rar"
+    - "tar.gz"
+    - "tar.bz2"
+    - "msix"
+    - "appx"
+    - "msixbundle"
+    - "appxbundle"
+    - "deb"
+    - "rpm"
+    - "pkg"
+    - "dmg"
+  
+  # Minimum download count to include package
+  min_download_count: 0
+  
+  # Maximum age of package releases to include (in days)
+  max_package_age_days: 365
+
+# Output configuration
+output:
+  formats:
+    - "csv"
+  compression: "none"
+  include_metadata: true
+  timestamp_format: "%Y%m%d_%H%M%S"
+  
+  # CSV specific settings
+  csv:
+    delimiter: ","
+    quote_char: '"'
+    escape_char: "\\"
+    encoding: "utf-8"
+  
+  # JSON specific settings
+  json:
+    indent: 2
+    sort_keys: true
+  
+  # Parquet specific settings
+  parquet:
+    compression: "snappy"
+
+# Performance configuration
+performance:
+  cache_ttl: 3600  # 1 hour default
+  memory_limit_mb: 1024
+  enable_profiling: false
+  
+  # Rate limiting
+  requests_per_second: 10
+  burst_limit: 50
+
+# Logging configuration defaults
+logging:
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  date_format: "%Y-%m-%d %H:%M:%S"
+  max_size: 10  # MB
+  backup_count: 5

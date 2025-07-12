@@ -1,0 +1,88 @@
+# WinGetManifestAutomationTool Configuration
+
+# Environment: development
+# This configuration is optimized for local development with verbose logging
+# and smaller batch sizes for easier debugging.
+
+environment: development
+debug: true
+
+# Logging configuration
+logging:
+  level: DEBUG
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: null  # No log file in development
+  max_size: 10  # MB
+  backup_count: 5
+
+# GitHub API configuration
+github:
+  tokens: []  # Add your GitHub tokens via environment variables
+  api_url: "https://api.github.com"
+  per_page: 100
+  retry_attempts: 3
+  retry_delay: 1.0
+  rate_limit_buffer: 100
+
+# Package processing configuration
+package_processing:
+  winget_repo_path: "winget-pkgs"
+  output_directory: "data"
+  file_patterns:
+    - "*.installer.yaml"
+  max_workers: 2  # Lower for development to avoid overwhelming the system
+  batch_size: 50  # Smaller batches for easier debugging
+  timeout: 60
+
+# Filtering configuration
+filtering:
+  blocked_packages: []
+  allowed_architectures:
+    - "x64"
+    - "x86"
+    - "arm64"
+    - "arm"
+    - "aarch64"
+    - "x86_64"
+  allowed_extensions:
+    - "msi"
+    - "exe"
+    - "zip"
+    - "msix"
+    - "appx"
+    - "msixbundle"
+    - "appxbundle"
+  min_download_count: 0
+  max_package_age_days: 365
+
+# Output configuration
+output:
+  formats:
+    - "csv"
+  compression: "none"
+  include_metadata: true
+  timestamp_format: "%Y%m%d_%H%M%S"
+
+# Performance configuration
+performance:
+  cache_enabled: false  # Disabled in development for fresh data
+  cache_ttl: 3600  # 1 hour
+  memory_limit_mb: 1024
+  enable_profiling: true  # Enabled for development debugging
+
+# Monitoring configuration  
+monitoring:
+  metrics_enabled: true
+  max_timer_history: 500
+  max_metric_history: 5000
+  health_check_interval: 60
+  export_metrics_interval: 300
+  progress:
+    console_output: true
+    log_updates: true
+    update_interval: 0.5
+
+# Service information
+service:
+  name: "winget-automation"
+  version: "1.0.0"
