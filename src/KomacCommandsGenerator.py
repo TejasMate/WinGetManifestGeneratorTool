@@ -2,9 +2,31 @@ import logging
 from pathlib import Path
 import polars as pl
 
+# Handle both relative and absolute imports
+try:
+    from .config import get_config
+except ImportError:
+    # Fallback for direct script execution
+    import sys
+    from pathlib import Path
+    current_dir = Path(__file__).parent
+    sys.path.append(str(current_dir))
+    from config import get_config
 
-def generate_komac_commands_github(input_path: Path, output_path: Path) -> None:
+
+def generate_komac_commands_github(input_path: Path = None, output_path: Path = None) -> None:
     try:
+        # Load configuration
+        config = get_config()
+        package_config = config.get('package_processing', {})
+        output_dir = package_config.get('output_directory', 'data')
+        
+        # Use config-based paths if not provided
+        if input_path is None:
+            input_path = Path(output_dir) / "github" / "GitHubPackageInfo_Filter8.csv"
+        if output_path is None:
+            output_path = Path(output_dir) / "github" / "komac_update_commands_github.txt"
+        
         # Read the GitHub package info CSV file
         df = pl.read_csv(input_path)
         logging.info(f"Loaded {len(df)} entries from {input_path}")
@@ -37,12 +59,6 @@ if __name__ == "__main__":
         level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
     )
 
-    # Set up paths
-    input_path = Path("data/github/GitHubPackageInfo_Filter8.csv")
-    output_path = Path("data/github/komac_update_commands_github.txt")
-
-    if not input_path.exists():
-        raise FileNotFoundError(f"Input file not found: {input_path}")
-
-    generate_komac_commands_github(input_path, output_path)
+    # Generate commands using config-based paths
+    generate_komac_commands_github()
     logging.info("Command generation completed successfully")

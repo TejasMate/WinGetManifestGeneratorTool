@@ -30,21 +30,28 @@ class TokenManager:
         token_limits: Dictionary tracking rate limit info for each token
     """
 
-    def __init__(self):
+    def __init__(self, config: Optional[Dict] = None):
         """Initialize the TokenManager.
+
+        Args:
+            config: Configuration dictionary (optional)
 
         Raises:
             TokenManagerError: If no tokens are found in environment variables
         """
+        self.config = config or {}
         self.tokens = self._load_tokens()
         self.current_token_index = 0
         self.token_limits: Dict[str, Dict] = {}
 
     def _load_tokens(self) -> List[str]:
-        """Load GitHub tokens from environment variables.
+        """Load GitHub tokens from configuration and environment variables.
 
-        Loads tokens from environment variables named TOKEN_1, TOKEN_2, etc.
-        Also checks for a default TOKEN variable for backward compatibility.
+        Loads tokens from:
+        1. Configuration file (github.tokens)
+        2. Environment variable GITHUB_TOKENS (comma-separated)
+        3. Environment variables named TOKEN_1, TOKEN_2, etc.
+        4. Default TOKEN variable for backward compatibility
 
         Returns:
             List of GitHub API tokens
@@ -53,11 +60,25 @@ class TokenManager:
             TokenManagerError: If no tokens are found
         """
         tokens = []
+        
+        # 1. Try loading from config
+        github_config = self.config.get('github', {})
+        config_tokens = github_config.get('tokens', [])
+        if config_tokens:
+            tokens.extend([token for token in config_tokens if token])
+        
+        # 2. Try loading from GITHUB_TOKENS environment variable
+        github_tokens_env = os.getenv("GITHUB_TOKENS")
+        if github_tokens_env:
+            env_tokens = [token.strip() for token in github_tokens_env.split(',') if token.strip()]
+            tokens.extend(env_tokens)
+        
+        # 3. Try loading from TOKEN_1, TOKEN_2, etc.
         i = 1
         while True:
             token = os.getenv(f"TOKEN_{i}")
             if not token:
-                # Try the default TOKEN for backward compatibility
+                # Try the default TOKEN for backward compatibility on first iteration
                 if i == 1:
                     default_token = os.getenv("TOKEN")
                     if default_token:
@@ -66,13 +87,21 @@ class TokenManager:
             tokens.append(token)
             i += 1
 
-        if not tokens:
-            error_msg = "No GitHub tokens found in environment variables. Please set TOKEN_1, TOKEN_2, etc."
+        # Remove duplicates while preserving order
+        seen = set()
+        unique_tokens = []
+        for token in tokens:
+            if token not in seen:
+                seen.add(token)
+                unique_tokens.append(token)
+
+        if not unique_tokens:
+            error_msg = "No GitHub tokens found. Please set tokens in config file or environment variables (GITHUB_TOKENS, TOKEN_1, TOKEN_2, etc.)"
             logging.error(error_msg)
             raise TokenManagerError(error_msg, available_tokens=0)
 
-        logging.info(f"Loaded {len(tokens)} GitHub tokens")
-        return tokens
+        logging.info(f"Loaded {len(unique_tokens)} GitHub tokens")
+        return unique_tokens
 
     def _update_rate_limit(self, token: str, remaining: int, reset_time: int) -> None:
         """Update rate limit information for a token.

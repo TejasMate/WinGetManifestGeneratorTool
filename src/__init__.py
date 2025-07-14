@@ -13,7 +13,6 @@ __description__ = "Professional generator tool for managing and updating WinGet 
 __url__ = "https://github.com/TejasMate/WinGetManifestGeneratorTool"
 
 # Public API
-from .cli import main
 from .exceptions import (
     WinGetAutomationError,
     ConfigurationError,
@@ -23,7 +22,6 @@ from .exceptions import (
 )
 
 __all__ = [
-    "main",
     "WinGetAutomationError",
     "ConfigurationError", 
     "GitHubAPIError",

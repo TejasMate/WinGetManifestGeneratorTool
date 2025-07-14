@@ -4,8 +4,23 @@ import re
 from pathlib import Path
 from typing import Optional, List, Dict
 from dataclasses import dataclass
-from ..utils.token_manager import TokenManager
-from ..utils.unified_utils import GitHubAPI, GitHubConfig, GitHubURLProcessor, YAMLProcessorBase, BaseConfig
+import sys
+import os
+
+# Handle imports for direct execution
+current_dir = Path(__file__).parent
+parent_dir = current_dir.parent
+sys.path.insert(0, str(parent_dir))
+
+try:
+    from utils.token_manager import TokenManager
+    from utils.unified_utils import GitHubAPI, GitHubConfig, GitHubURLProcessor, YAMLProcessorBase, BaseConfig
+except ImportError:
+    # Fallback for when run from different directory
+    sys.path.insert(0, str(parent_dir.parent))
+    from src.utils.token_manager import TokenManager
+    from src.utils.unified_utils import GitHubAPI, GitHubConfig, GitHubURLProcessor, YAMLProcessorBase, BaseConfig
+
 from concurrent.futures import ThreadPoolExecutor
 import json
 import yaml

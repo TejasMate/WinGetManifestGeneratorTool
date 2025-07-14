@@ -10,11 +10,19 @@ from typing import Dict, List, Optional, Set, Tuple, Union
 from dataclasses import dataclass
 
 # Handle both relative and absolute imports
+import sys
+from pathlib import Path
+
+# Add current directory to path for imports
+current_dir = Path(__file__).parent if '__file__' in globals() else Path.cwd() / 'src'
+sys.path.insert(0, str(current_dir))
+
 try:
-    from .utils.unified_utils import BaseConfig, YAMLProcessorBase, GitHubURLProcessor
-    from .utils.version_pattern_utils import VersionPatternDetector
-    from .utils.token_manager import TokenManager
-    from .exceptions import (
+    from utils.unified_utils import BaseConfig, YAMLProcessorBase, GitHubURLProcessor
+    from utils.version_pattern_utils import VersionPatternDetector
+    from utils.token_manager import TokenManager
+    from config import get_config_manager, get_config
+    from exceptions import (
         PackageProcessingError,
         ManifestParsingError,
         FileOperationError,
@@ -23,19 +31,14 @@ try:
     )
 except ImportError:
     # Fallback for direct script execution
-    import sys
-    import os
-    from pathlib import Path
-    
-    # Add parent directory to path
-    current_dir = Path(__file__).parent if '__file__' in globals() else Path.cwd() / 'src' / 'winget_automation'
     parent_dir = current_dir.parent
     sys.path.insert(0, str(parent_dir))
     
-    from winget_automation.utils.unified_utils import BaseConfig, YAMLProcessorBase, GitHubURLProcessor
-    from winget_automation.utils.version_pattern_utils import VersionPatternDetector
-    from winget_automation.utils.token_manager import TokenManager
-    from winget_automation.exceptions import (
+    from src.utils.unified_utils import BaseConfig, YAMLProcessorBase, GitHubURLProcessor
+    from src.utils.version_pattern_utils import VersionPatternDetector
+    from src.utils.token_manager import TokenManager
+    from src.config import get_config_manager, get_config
+    from src.exceptions import (
         PackageProcessingError,
         ManifestParsingError,
         FileOperationError,
@@ -62,6 +65,16 @@ class GitHubConfig:
     base_url: str = "https://api.github.com"
     per_page: int = 100
 
+    @classmethod
+    def from_config(cls, config: dict, token: str):
+        """Create GitHubConfig from configuration dictionary."""
+        github_config = config.get('github', {})
+        return cls(
+            token=token,
+            base_url=github_config.get('api_url', 'https://api.github.com'),
+            per_page=github_config.get('per_page', 100)
+        )
+
 
 @dataclass
 class ProcessingConfig(BaseConfig):
@@ -71,11 +84,33 @@ class ProcessingConfig(BaseConfig):
         output_manifest_file: Name of the output file for package manifests
         output_analysis_file: Name of the output file for package analysis
         open_prs_file: Name of the output file for open pull requests
+        winget_repo_path: Path to WinGet repository
+        output_directory: Directory for output files
+        batch_size: Batch size for processing
+        max_workers: Maximum number of worker threads
+        timeout: Timeout for operations
     """
 
     output_manifest_file: str = "PackageNames.csv"
     output_analysis_file: str = "AllPackageInfo.csv"
     open_prs_file: str = "OpenPRs.csv"
+    winget_repo_path: str = "winget-pkgs"
+    output_directory: str = "data"
+    batch_size: int = 100
+    max_workers: int = 4
+    timeout: int = 300
+
+    @classmethod
+    def from_config(cls, config: dict):
+        """Create ProcessingConfig from configuration dictionary."""
+        package_config = config.get('package_processing', {})
+        return cls(
+            winget_repo_path=package_config.get('winget_repo_path', 'winget-pkgs'),
+            output_directory=package_config.get('output_directory', 'data'),
+            batch_size=package_config.get('batch_size', 100),
+            max_workers=package_config.get('max_workers', 4),
+            timeout=package_config.get('timeout', 300)
+        )
 
 
 class PackageProcessor(YAMLProcessorBase):
@@ -103,19 +138,27 @@ class PackageProcessor(YAMLProcessorBase):
         extensions: List of supported file extensions
     """
 
-    def __init__(self, config: ProcessingConfig):
+    def __init__(self, config: Optional[ProcessingConfig] = None):
         """Initialize the PackageProcessor.
 
         Args:
-            config: Processing configuration
+            config: Processing configuration (if None, loads from config system)
 
         Raises:
             ConfigurationError: If configuration is invalid
             TokenManagerError: If GitHub tokens cannot be loaded
         """
         try:
+            # Load configuration from config system if not provided
+            if config is None:
+                app_config = get_config()
+                config = ProcessingConfig.from_config(app_config)
+            
             super().__init__(config)
-            self.token_manager = TokenManager()
+            
+            # Load configuration and setup GitHub
+            self.app_config = get_config()
+            self.token_manager = TokenManager(self.app_config)
             self.github_config = None
             self._init_github_config()
 
@@ -133,54 +176,20 @@ class PackageProcessor(YAMLProcessorBase):
             self.latest_extensions: Dict[str, List[str]] = {}
             self.latest_version_map: Dict[str, str] = {}
             self.arch_ext_pairs: Dict[str, str] = {}
-            self.architectures = [
-                "x86-64",
-                "aarch64",
-                "x86_64",
-                "arm64",
-                "arm",
-                "win64",
-                "amd64",
-                "x86",
-                "i386",
-                "ia32",
-                "386",
-                "win32",
-                "32bit",
-                "win-arm64",
-                "win-x64",
-                "win-x86",
-                "win-ia32",
-                "windows-arm64",
-                "windows-x64",
-                "windows-x86",
-                "windows-ia32",
-                "armv6",
-                "armv7",
-                "arm8",
-                "arm9",
-                "x64",
-                "x32",
-                "i686",
-                "64bit",
-                "x86_x64",
-                "x86only",
-                "shared-32",
-                "shared-64",
-                "installer32",
-                "installer64",
-                "32",
-                "64",
-            ]
-            self.extensions = [
-                "msixbundle",
-                "appxbundle",
-                "msix",
-                "appx",
-                "zip",
-                "msi",
-                "exe",
-            ]
+            
+            # Load architectures and extensions from config
+            filtering_config = self.app_config.get('filtering', {})
+            self.architectures = filtering_config.get('allowed_architectures', [
+                "x86-64", "aarch64", "x86_64", "arm64", "arm", "win64", "amd64", "x86",
+                "i386", "ia32", "386", "win32", "32bit", "win-arm64", "win-x64", "win-x86",
+                "win-ia32", "windows-arm64", "windows-x64", "windows-x86", "windows-ia32",
+                "armv6", "armv7", "arm8", "arm9", "x64", "x32", "i686", "64bit",
+                "x86_x64", "x86only", "shared-32", "shared-64", "installer32", "installer64",
+                "32", "64"
+            ])
+            self.extensions = filtering_config.get('allowed_extensions', [
+                "msixbundle", "appxbundle", "msix", "appx", "zip", "msi", "exe"
+            ])
 
         except Exception as e:
             raise ConfigurationError(f"Failed to initialize PackageProcessor: {str(e)}")
@@ -195,7 +204,7 @@ class PackageProcessor(YAMLProcessorBase):
             token = self.token_manager.get_available_token()
             if not token:
                 raise GitHubAPIError("No GitHub tokens available for configuration")
-            self.github_config = GitHubConfig(token=token)
+            self.github_config = GitHubConfig.from_config(self.app_config, token)
         except Exception as e:
             raise GitHubAPIError(f"Failed to initialize GitHub configuration: {str(e)}")
 
@@ -710,8 +719,8 @@ class PackageProcessor(YAMLProcessorBase):
 
 def main():
     try:
-        config = ProcessingConfig()
-        processor = PackageProcessor(config)
+        # Load configuration and create processor
+        processor = PackageProcessor()
         processor.process_files()
         logging.info("Processing completed successfully")
     except Exception as e:

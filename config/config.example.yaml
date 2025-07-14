@@ -1,53 +1,97 @@
-# Example Environment Configuration Template
-# Copy this file and customize it for your specific needs.
-# 
-# Available environments: development, staging, production
+# Example Configuration Template for WinGet Manifest Automation Tool
+# Copy this file to config.yaml and customize it for your specific needs.
 #
 # To use this configuration:
-# 1. Copy this file to config/local.yaml or config/config.local.yaml
-# 2. Set the WINGET_ENV environment variable to load the appropriate environment
-# 3. Set GitHub tokens via environment variables (TOKEN_1, TOKEN_2, etc.)
+# 1. Copy this file to config/config.yaml
+# 2. Set the ENVIRONMENT environment variable (development/staging/production)
+# 3. Set GitHub tokens via GITHUB_TOKENS environment variable (comma-separated)
 
-environment: development  # Change to staging or production as needed
+# Environment setting (can be overridden via ENVIRONMENT env var)
+environment: development  # Options: development, staging, production
 debug: true
-
-# Logging configuration - adjust for your needs
-logging:
-  level: DEBUG  # DEBUG, INFO, WARNING, ERROR, CRITICAL
-  file: "logs/winget-automation.log"  # Set to null to disable file logging
-  max_size: 50  # Maximum log file size in MB
-  backup_count: 5  # Number of backup log files to keep
 
 # GitHub API configuration
 github:
-  # Tokens are loaded from environment variables: TOKEN_1, TOKEN_2, etc.
-  # You can also specify them here (not recommended for production)
-  tokens: []
-  
-  # API settings
   api_url: "https://api.github.com"
+  tokens: []  # Add via GITHUB_TOKENS environment variable (comma-separated)
   per_page: 100
-  retry_attempts: 5
-  retry_delay: 2.0
-  rate_limit_buffer: 200
+  retry_attempts: 3
+  retry_delay: 1.0
+  rate_limit_buffer: 100
 
 # Package processing configuration
 package_processing:
-  # Path to the WinGet packages repository
   winget_repo_path: "winget-pkgs"
-  
-  # Output directory for generated files
   output_directory: "data"
-  
-  # File patterns to process
+  batch_size: 100
+  max_workers: 4
+  timeout: 300
   file_patterns:
     - "*.installer.yaml"
     - "*.locale.yaml"
     - "*.portable.yaml"
-  
-  # Processing limits
-  max_workers: 4  # Number of parallel workers
-  batch_size: 100  # Number of packages to process in each batch
+
+# Filtering configuration
+filtering:
+  blocked_packages: []  # Add package IDs to block
+  allowed_architectures:
+    - "x64"
+    - "x86"
+    - "arm64"
+  allowed_extensions:
+    - "msi"
+    - "exe"
+    - "zip"
+    - "msix"
+    - "appx"
+  min_download_count: 0
+  max_package_age_days: 365
+
+# Output configuration
+output:
+  formats:
+    - "csv"
+  compression: "none"
+  include_metadata: true
+  timestamp_format: "%Y%m%d_%H%M%S"
+  csv:
+    delimiter: ","
+    quote_char: '"'
+    encoding: "utf-8"
+
+# Performance configuration
+performance:
+  cache_ttl: 3600
+  memory_limit_mb: 1024
+  enable_profiling: false
+  requests_per_second: 10
+  burst_limit: 50
+
+# Logging configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: null  # Set to file path for file logging
+  max_size: 10  # MB
+  backup_count: 5
+
+# Environment-specific overrides
+environments:
+  development:
+    debug: true
+    logging:
+      level: "DEBUG"
+    performance:
+      cache_ttl: 300
+      batch_size: 10
+      
+  production:
+    debug: false
+    logging:
+      level: "WARNING"
+      file: "logs/production.log"
+    performance:
+      memory_limit_mb: 2048
   timeout: 300  # Timeout in seconds for each operation
 
 # Filtering configuration

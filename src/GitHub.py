@@ -1,26 +1,31 @@
 # Handle both relative and absolute imports
+import sys
+import os
+from pathlib import Path
+
+# Add current directory to path for imports
+current_dir = Path(__file__).parent
+sys.path.insert(0, str(current_dir))
+
 try:
-    import winget_automation.github.MatchSimilarURLs as github_match
-    from .github.GitHubPackageProcessor import VersionAnalyzer
-    import winget_automation.github.Filter as github_filter
-    from .utils.token_manager import TokenManager
-    from .utils.unified_utils import GitHubAPI, GitHubConfig
-except ImportError:
-    # Fallback for direct script execution
-    import sys
-    import os
-    from pathlib import Path
-    
-    # Add parent directory to path
-    current_dir = Path(__file__).parent if '__file__' in globals() else Path.cwd() / 'src' / 'winget_automation'
+    from github.MatchSimilarURLs import process_urls
+    from github.GitHubPackageProcessor import VersionAnalyzer
+    from github.Filter import process_filters
+    from utils.token_manager import TokenManager
+    from utils.unified_utils import GitHubAPI, GitHubConfig
+    from config import get_config_manager, get_config
+except ImportError as e:
+    print(f"Import error: {e}")
+    # Add parent directory as fallback
     parent_dir = current_dir.parent
     sys.path.insert(0, str(parent_dir))
     
-    import winget_automation.github.MatchSimilarURLs as github_match
-    from winget_automation.github.GitHubPackageProcessor import VersionAnalyzer
-    import winget_automation.github.Filter as github_filter
-    from winget_automation.utils.token_manager import TokenManager
-    from winget_automation.utils.unified_utils import GitHubAPI, GitHubConfig
+    from src.github.MatchSimilarURLs import process_urls
+    from src.github.GitHubPackageProcessor import VersionAnalyzer
+    from src.github.Filter import process_filters
+    from src.utils.token_manager import TokenManager
+    from src.utils.unified_utils import GitHubAPI, GitHubConfig
+    from src.config import get_config_manager, get_config
 
 import logging
 from pathlib import Path
@@ -28,10 +33,20 @@ from pathlib import Path
 
 def setup_logging():
     """Configure logging for the package analysis process."""
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    )
+    try:
+        config = get_config()
+        logging_config = config.get('logging', {})
+        
+        logging.basicConfig(
+            level=getattr(logging, logging_config.get('level', 'INFO')),
+            format=logging_config.get('format', "%(asctime)s - %(name)s - %(levelname)s - %(message)s"),
+        )
+    except Exception:
+        # Fallback to default logging if config fails
+        logging.basicConfig(
+            level=logging.INFO,
+            format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        )
 
 
 def ensure_data_directory(data_path: str) -> None:
@@ -49,32 +64,40 @@ def main():
     logger = logging.getLogger(__name__)
 
     try:
+        # Load configuration
+        app_config = get_config()
+        
         # Initialize GitHub API
-        token_manager = TokenManager()
+        token_manager = TokenManager(app_config)
         token = token_manager.get_available_token()
         if not token:
             raise RuntimeError("No available GitHub tokens found")
 
-        config = GitHubConfig(token=token)
+        # Create GitHub config from app config
+        github_config_data = app_config.get('github', {})
+        config = GitHubConfig(
+            token=token,
+            base_url=github_config_data.get('api_url', 'https://api.github.com'),
+            per_page=github_config_data.get('per_page', 100)
+        )
         github_api = GitHubAPI(config)
 
-        # Define paths
-        input_path = "data/AllPackageInfo.csv"
-        github_info_path = "data/GitHubPackageInfo.csv"
-        cleaned_urls_path = "data/GitHubPackageInfo_CleanedURLs.csv"
-        output_dir = "data/"
-
-        # Ensure data directory exists
-        ensure_data_directory(output_dir)
-
-        # Create github subfolder structure
-        github_dir = Path("data/github")
+        # Define paths from configuration
+        package_config = app_config.get('package_processing', {})
+        output_dir = package_config.get('output_directory', 'data')
+        
+        # Create GitHub subdirectory
+        github_dir = Path(output_dir) / "github"
         github_dir.mkdir(parents=True, exist_ok=True)
         
-        # Update paths to use github folder
-        github_info_path = "data/github/GitHubPackageInfo.csv"
-        cleaned_urls_path = "data/github/GitHubPackageInfo_CleanedURLs.csv"
-        output_dir = "data/github"
+        input_path = f"{output_dir}/AllPackageInfo.csv"
+        github_info_path = f"{github_dir}/GitHubPackageInfo.csv"
+        cleaned_urls_path = f"{github_dir}/GitHubPackageInfo_CleanedURLs.csv"
+        filter_output_dir = str(github_dir)
+
+        # Ensure output directories exist
+        ensure_data_directory(output_dir)
+        ensure_data_directory(str(github_dir))
 
         # Initialize analyzer
         analyzer = VersionAnalyzer(github_api)
@@ -87,11 +110,11 @@ def main():
 
         # Step 2: Process URLs
         logger.info("Processing GitHub URLs...")
-        github_match.process_urls(github_info_path, cleaned_urls_path)
+        process_urls(github_info_path, cleaned_urls_path)
 
         # Step 3: Apply filters
         logger.info("Applying filters...")
-        github_filter.process_filters(cleaned_urls_path, output_dir)
+        process_filters(cleaned_urls_path, filter_output_dir)
 
         logger.info("Package analysis pipeline completed successfully")
 

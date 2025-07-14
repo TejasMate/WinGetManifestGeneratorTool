@@ -91,7 +91,6 @@ dev-setup: install-dev ## Complete development environment setup
 	@echo "You can now:"
 	@echo "  - Run tests with: make test"
 	@echo "  - Format code with: make format"
-	@echo "  - Run the CLI with: wmat --help"
 
 health-check: ## Run system health checks
 	@echo "$(YELLOW)Running health checks...$(RESET)"
@@ -110,9 +109,6 @@ pre-commit: format lint type-check test-unit ## Run all pre-commit checks
 ci: install-dev check test-all build ## Run full CI pipeline
 
 # Development shortcuts
-run-cli: ## Run the CLI tool
-	$(PYTHON) -m $(PACKAGE_NAME).cli
-
 run-tests: ## Quick test runner
 	$(PYTHON) scripts/run_tests.py
 

@@ -1,10 +1,15 @@
-# Base Configuration for WinGet Manifest Generator Tool
-# This file contains common settings that apply across all environments.
-# Environment-specific files will override these values as needed.
+# Unified Configuration for WinGet Manifest Automation Tool
+# This single configuration file contains all settings for the tool.
+# Environment-specific overrides can be set via environment variables.
+
+# Environment settings (can be overridden via ENVIRONMENT env var)
+environment: production  # Options: development, staging, production
+debug: false  # Set to true for verbose output
 
 # GitHub API configuration
 github:
   api_url: "https://api.github.com"
+  tokens: []  # Add via GITHUB_TOKENS environment variable (comma-separated)
   per_page: 100
   retry_attempts: 3
   retry_delay: 1.0
@@ -14,6 +19,9 @@ github:
 package_processing:
   winget_repo_path: "winget-pkgs"
   output_directory: "data"
+  batch_size: 100
+  max_workers: 4
+  timeout: 300
   file_patterns:
     - "*.installer.yaml"
     - "*.locale.yaml"
@@ -21,7 +29,7 @@ package_processing:
 
 # Filtering configuration
 filtering:
-  # Common package blocklist
+  # Package blocklist
   blocked_packages:
     - "Microsoft.VisualStudioCode.Insiders"  # Example blocked package
   
@@ -74,29 +82,51 @@ output:
     quote_char: '"'
     escape_char: "\\"
     encoding: "utf-8"
-  
-  # JSON specific settings
-  json:
-    indent: 2
-    sort_keys: true
-  
-  # Parquet specific settings
-  parquet:
-    compression: "snappy"
 
 # Performance configuration
 performance:
   cache_ttl: 3600  # 1 hour default
   memory_limit_mb: 1024
   enable_profiling: false
-  
-  # Rate limiting
   requests_per_second: 10
   burst_limit: 50
 
-# Logging configuration defaults
+# Logging configuration
 logging:
+  level: "INFO"  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
   format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
   date_format: "%Y-%m-%d %H:%M:%S"
+  file: null  # Set to file path for file logging
   max_size: 10  # MB
   backup_count: 5
+
+# Environment-specific overrides (applied when environment is set)
+environments:
+  development:
+    debug: true
+    logging:
+      level: "DEBUG"
+      file: null
+    performance:
+      enable_profiling: true
+      cache_ttl: 300  # 5 minutes for faster development
+    package_processing:
+      batch_size: 10  # Smaller batches for debugging
+      max_workers: 2
+  
+  staging:
+    debug: false
+    logging:
+      level: "INFO"
+      file: "logs/staging.log"
+    performance:
+      cache_ttl: 1800  # 30 minutes
+      
+  production:
+    debug: false
+    logging:
+      level: "WARNING"
+      file: "logs/production.log"
+    performance:
+      cache_ttl: 3600  # 1 hour
+      memory_limit_mb: 2048

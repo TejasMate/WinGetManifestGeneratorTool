@@ -90,12 +90,12 @@ class ConfigManager:
     
     def _get_default_config_path(self) -> Path:
         """Get the default configuration path."""
-        # Look for config in various locations
+        # Look for config.yaml in various locations
         possible_paths = [
-            Path.cwd() / "config",
-            Path.cwd() / "configs",
-            Path(__file__).parent.parent.parent / "config",
-            Path.home() / ".winget-automation",
+            Path.cwd() / "config" / "config.yaml",
+            Path.cwd() / "config.yaml",
+            Path(__file__).parent.parent.parent / "config" / "config.yaml",
+            Path.home() / ".winget-automation" / "config.yaml",
         ]
         
         for path in possible_paths:
@@ -107,7 +107,7 @@ class ConfigManager:
     
     def _detect_environment(self) -> str:
         """Detect the current environment."""
-        env = os.getenv("WINGET_ENV", os.getenv("ENV", "development")).lower()
+        env = os.getenv("ENVIRONMENT", os.getenv("WINGET_ENV", "development")).lower()
         
         if env in ["prod", "production"]:
             return "production"
@@ -117,7 +117,7 @@ class ConfigManager:
             return "development"
     
     def load_config(self, force_reload: bool = False) -> Dict[str, Any]:
-        """Load configuration from all sources.
+        """Load configuration from unified config file.
         
         Args:
             force_reload: Force reload even if already loaded
@@ -132,16 +132,11 @@ class ConfigManager:
             return self._config
         
         try:
-            # Start with environment-specific defaults
-            config = self._get_environment_defaults()
+            # Load unified configuration file
+            config = self._load_unified_config()
             
-            # Load base configuration
-            base_config = self._load_base_config()
-            config = self._merge_configs(config, base_config)
-            
-            # Load environment-specific configuration
-            env_config = self._load_environment_config()
-            config = self._merge_configs(config, env_config)
+            # Apply environment-specific overrides
+            config = self._apply_environment_overrides(config)
             
             # Override with environment variables
             env_overrides = self._load_environment_variables()
@@ -273,6 +268,39 @@ class ConfigManager:
         except Exception as e:
             raise ConfigurationError(f"Failed to load config file {file_path}: {str(e)}")
     
+    def _load_unified_config(self) -> Dict[str, Any]:
+        """Load the unified configuration file."""
+        if not self.config_path.exists():
+            raise ConfigurationError(f"Configuration file not found: {self.config_path}")
+        
+        try:
+            with open(self.config_path, 'r', encoding='utf-8') as f:
+                config = yaml.safe_load(f)
+            
+            if not config:
+                raise ConfigurationError("Configuration file is empty")
+            
+            return config
+        
+        except yaml.YAMLError as e:
+            raise ConfigurationError(f"Invalid YAML in configuration file: {e}")
+        except Exception as e:
+            raise ConfigurationError(f"Failed to read configuration file: {e}")
+    
+    def _apply_environment_overrides(self, config: Dict[str, Any]) -> Dict[str, Any]:
+        """Apply environment-specific overrides from the unified config."""
+        # Get environment from config or use detected environment
+        env = config.get("environment", self.environment)
+        
+        # Apply environment-specific overrides if they exist
+        environments = config.get("environments", {})
+        env_overrides = environments.get(env, {})
+        
+        if env_overrides:
+            config = self._merge_configs(config, env_overrides)
+        
+        return config
+
     def _load_environment_variables(self) -> Dict[str, Any]:
         """Load configuration overrides from environment variables."""
         overrides = {}

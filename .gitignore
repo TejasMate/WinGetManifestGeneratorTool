@@ -140,6 +140,7 @@ data/*.json
 data/*.xlsx
 data/*.zip
 !data/README.md
+data/github/*.csv
 
 # Log files
 *.log
@@ -194,3 +195,4 @@ Dockerfile.local
 .benchmarks/results/
 
 winget-pkgs/
+data/
