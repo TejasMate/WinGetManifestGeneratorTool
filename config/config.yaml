@@ -9,7 +9,12 @@ debug: false  # Set to true for verbose output
 # GitHub API configuration
 github:
   api_url: "https://api.github.com"
-  tokens: []  # Add via GITHUB_TOKENS environment variable (comma-separated)
+  # GitHub tokens are loaded from environment variables in this order:
+  # 1. GITHUB_TOKENS (comma-separated list)
+  # 2. GITHUB_TOKEN (single token)  
+  # 3. TOKEN_1, TOKEN_2, TOKEN_3 (individual tokens)
+  # Store tokens in .env file for security
+  tokens: []  # Will be populated from environment variables
   per_page: 100
   retry_attempts: 3
   retry_delay: 1.0
@@ -31,7 +36,36 @@ package_processing:
 filtering:
   # Package blocklist
   blocked_packages:
-    - "Microsoft.VisualStudioCode.Insiders"  # Example blocked package
+    - "ojdkbuild.openjdk.13.jdk"
+    - "ojdkbuild.openjdk.11.jdk"
+    - "ojdkbuild.openjdk.17.jdk"
+    - "ojdkbuild.openjdk.11.jre"
+    - "ojdkbuild.openjdk.14.jdk"
+    - "ojdkbuild.openjdk.17.jre"
+    - "BtbN.FFmpeg.LGPL.Shared.6.1"
+    - "BtbN.FFmpeg.LGPL.Shared.7.1"
+    - "BtbN.FFmpeg.GPL.Shared.6.1"
+    - "BtbN.FFmpeg.GPL.Shared.7.1"
+    - "BtbN.FFmpeg.GPL"
+    - "BtbN.FFmpeg.LGPL.Shared"
+    - "BtbN.FFmpeg.GPL.7.1"
+    - "BtbN.FFmpeg.GPL.Shared"
+    - "BtbN.FFmpeg.LGPL.6.1"
+    - "BtbN.FFmpeg.LGPL.5.1"
+    - "BtbN.FFmpeg.LGPL"
+    - "BtbN.FFmpeg.GPL.6.1"
+    - "BtbN.FFmpeg.LGPL.Shared.5.1"
+    - "BtbN.FFmpeg.GPL.Shared.5.1"
+    - "BtbN.FFmpeg.LGPL.7.1"
+    - "BtbN.FFmpeg.GPL.5.1"
+    - "IBM.Semeru.16.JRE"
+    - "IBM.Semeru.16.JDK"
+    - "AdoptOpenJDK.OpenJDK.16"
+    - "AdoptOpenJDK.OpenJDK.8"
+    - "ChrisRizzitello.BlackChocobo"
+    - "LiteXLTeam.LPM"
+    - "IBM.Semeru.11.JDK"
+    - "IBM.Semeru.11.JRE"
   
   # Supported architectures
   allowed_architectures:

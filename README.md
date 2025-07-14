@@ -54,11 +54,13 @@ make dev-setup
 
 ### 1. Configuration
 ```bash
-# Copy example configuration
-cp config/config.example.yaml config/config.yaml
+# Set up environment variables for GitHub tokens
+cp .env.example .env
+# Edit .env with your GitHub tokens
 
-# Edit configuration for your environment
-wmat config-status
+# Configuration is already set up in config/config.yaml
+# Verify configuration
+python -c "from src.config import get_config; print('Config loaded successfully')"
 ```
 
 ### 2. Health Check
@@ -231,27 +233,60 @@ make demo                   # Run integration demo
 
 ## 🔧 Configuration
 
-The tool uses YAML-based configuration with environment-specific overrides:
+The tool uses a unified YAML-based configuration system with environment variable support:
+
+### Environment Variables (.env file)
+
+Create a `.env` file in the project root to store sensitive configuration:
+
+```bash
+# Copy the example file
+cp .env.example .env
+
+# Edit with your values
+nano .env
+```
+
+Example `.env` file:
+```env
+# GitHub API tokens (choose one method)
+GITHUB_TOKEN=ghp_your_github_token_here
+# OR multiple tokens for higher rate limits
+GITHUB_TOKENS=ghp_token1,ghp_token2,ghp_token3
+
+# Optional environment overrides
+ENVIRONMENT=development
+DEBUG=true
+```
+
+### Main Configuration
 
 ```yaml
 # config/config.yaml
 github:
   api_url: "https://api.github.com"
-  tokens:
-    - "your-github-token"
+  # Tokens loaded automatically from .env file
+  tokens: []  
   
-processing:
-  batch_size: 10
-  concurrent_workers: 4
+package_processing:
+  batch_size: 100
+  max_workers: 4
+  
+filtering:
+  blocked_packages:
+    - "package.identifier"
   
 monitoring:
   logging:
     level: "INFO"
     structured: true
-  health_checks:
-    enabled: true
-    interval: 60
 ```
+
+**Key Features:**
+- 🔒 **Secure**: Sensitive tokens stored in `.env` (not tracked by Git)
+- 🔄 **Flexible**: Environment-specific overrides
+- ⚡ **Auto-loading**: `.env` files loaded automatically on startup
+- 📝 **Multiple formats**: Single token, multiple tokens, or individual variables
 
 See [Configuration Guide](docs/user-guide/CONFIGURATION.md) for detailed setup instructions.
 

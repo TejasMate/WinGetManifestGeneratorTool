@@ -9,6 +9,11 @@ from typing import Any, Dict, List, Optional, Union
 from dataclasses import dataclass, field
 
 try:
+    from dotenv import load_dotenv
+except ImportError:
+    load_dotenv = None
+
+try:
     from .schema import ConfigSchema
     from ..exceptions import ConfigurationError
 except ImportError:
@@ -51,6 +56,9 @@ class ConfigManager:
             config_path: Path to the configuration file or directory
             environment: Environment name (development/staging/production)
         """
+        # Load .env file first to ensure environment variables are available
+        self._load_env_file()
+        
         self.config_path = Path(config_path) if config_path else self._get_default_config_path()
         self.environment = environment or self._detect_environment()
         self.schema = ConfigSchema()
@@ -105,6 +113,29 @@ class ConfigManager:
         # Default to config directory in project root
         return Path(__file__).parent.parent.parent / "config"
     
+    def _load_env_file(self) -> None:
+        """Load environment variables from .env file."""
+        if load_dotenv is None:
+            logging.debug("python-dotenv not available, skipping .env file loading")
+            return
+            
+        # Look for .env file in project root
+        env_paths = [
+            Path.cwd() / ".env",
+            Path(__file__).parent.parent.parent / ".env",
+        ]
+        
+        for env_path in env_paths:
+            if env_path.exists():
+                try:
+                    load_dotenv(env_path, override=False)  # Don't override existing env vars
+                    logging.debug(f"Loaded environment variables from {env_path}")
+                    return
+                except Exception as e:
+                    logging.warning(f"Failed to load .env file from {env_path}: {e}")
+        
+        logging.debug("No .env file found")
+
     def _detect_environment(self) -> str:
         """Detect the current environment."""
         env = os.getenv("ENVIRONMENT", os.getenv("WINGET_ENV", "development")).lower()

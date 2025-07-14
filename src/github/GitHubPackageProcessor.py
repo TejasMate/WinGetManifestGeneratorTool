@@ -15,11 +15,13 @@ sys.path.insert(0, str(parent_dir))
 try:
     from utils.token_manager import TokenManager
     from utils.unified_utils import GitHubAPI, GitHubConfig, GitHubURLProcessor, YAMLProcessorBase, BaseConfig
+    from config import get_config
 except ImportError:
     # Fallback for when run from different directory
     sys.path.insert(0, str(parent_dir.parent))
     from src.utils.token_manager import TokenManager
     from src.utils.unified_utils import GitHubAPI, GitHubConfig, GitHubURLProcessor, YAMLProcessorBase, BaseConfig
+    from src.config import get_config
 
 from concurrent.futures import ThreadPoolExecutor
 import json
@@ -484,13 +486,14 @@ class VersionAnalyzer:
             # Read and process package info
             df = pl.read_csv(input_path)
 
-            # Read blocked packages
-            block_packages_path = Path("../../package_blocklist.json")
-            if block_packages_path.exists():
-                with open(block_packages_path, "r") as f:
-                    blocked_packages = set(json.load(f)["blocked_packages"])
-                # Filter out blocked packages
+            # Get blocked packages from config
+            config = get_config()
+            blocked_packages = set(config.get('filtering', {}).get('blocked_packages', []))
+            
+            # Filter out blocked packages
+            if blocked_packages:
                 df = df.filter(~pl.col("PackageIdentifier").is_in(blocked_packages))
+                logging.info(f"Filtered out {len(blocked_packages)} blocked packages from config")
 
             # Filter for packages with GitHub URLs
             df_filtered = df.filter(
