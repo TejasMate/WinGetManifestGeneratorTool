@@ -321,7 +321,7 @@ def test_export_functionality():
 
 def main():
     """Run all monitoring system tests."""
-    print("WinGetManifestAutomationTool Monitoring & Observability System Test")
+    print("WinGet Manifest Generator Tool Monitoring & Observability System Test")
     print("=" * 75)
     
     try:

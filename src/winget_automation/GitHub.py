@@ -67,6 +67,15 @@ def main():
         # Ensure data directory exists
         ensure_data_directory(output_dir)
 
+        # Create github subfolder structure
+        github_dir = Path("data/github")
+        github_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Update paths to use github folder
+        github_info_path = "data/github/GitHubPackageInfo.csv"
+        cleaned_urls_path = "data/github/GitHubPackageInfo_CleanedURLs.csv"
+        output_dir = "data/github"
+
         # Initialize analyzer
         analyzer = VersionAnalyzer(github_api)
 

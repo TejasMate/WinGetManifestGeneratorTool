@@ -1,4 +1,4 @@
-# 🎉 **WinGetManifestAutomationTool Testing Implementation Summary**
+# 🎉 **WinGet Manifest Generator Tool Testing Implementation Summary**
 
 ## ✅ **What We've Successfully Implemented**
 

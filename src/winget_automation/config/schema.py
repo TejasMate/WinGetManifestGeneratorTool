@@ -1,4 +1,4 @@
-"""Configuration validation schemas for WinGetManifestAutomationTool."""
+"""Configuration validation schemas for WinGet Manifest Generator Tool."""
 
 from typing import Any, Dict, List, Optional, Union
 from dataclasses import dataclass, field

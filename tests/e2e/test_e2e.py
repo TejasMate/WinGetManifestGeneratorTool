@@ -1,4 +1,4 @@
-"""End-to-end tests for the WinGetManifestAutomationTool."""
+"""End-to-end tests for the WinGet Manifest Generator Tool."""
 
 import pytest
 import tempfile
@@ -105,8 +105,8 @@ class TestEndToEndWorkflow:
         env = e2e_environment
 
         # Mock external dependencies
-        with patch("src.PackageProcessor.TokenManager") as mock_tm, patch(
-            "src.GitHub.TokenManager"
+        with patch("winget_automation.PackageProcessor.TokenManager") as mock_tm, patch(
+            "winget_automation.GitHub.TokenManager"
         ) as mock_github_tm, patch("requests.get") as mock_requests:
 
             # Set up token manager mocks
@@ -135,7 +135,7 @@ class TestEndToEndWorkflow:
             mock_requests.return_value = mock_response
 
             # Step 1: Test PackageProcessor
-            from src.PackageProcessor import PackageProcessor, ProcessingConfig
+            from winget_automation.PackageProcessor import PackageProcessor, ProcessingConfig
 
             config = ProcessingConfig(
                 output_manifest_file=str(env["data_dir"] / "PackageNames.csv"),
@@ -178,12 +178,12 @@ class TestEndToEndWorkflow:
         """Test that the pipeline produces expected file outputs."""
         env = e2e_environment
 
-        with patch("src.PackageProcessor.TokenManager") as mock_tm:
+        with patch("winget_automation.PackageProcessor.TokenManager") as mock_tm:
             mock_token_manager = Mock()
             mock_token_manager.get_available_token.return_value = "test_token"
             mock_tm.return_value = mock_token_manager
 
-            from src.PackageProcessor import PackageProcessor, ProcessingConfig
+            from winget_automation.PackageProcessor import PackageProcessor, ProcessingConfig
 
             config = ProcessingConfig(
                 output_manifest_file=str(env["data_dir"] / "PackageNames.csv"),
@@ -223,12 +223,12 @@ class TestEndToEndWorkflow:
         """Test that the pipeline can recover from errors gracefully."""
         env = e2e_environment
 
-        with patch("src.PackageProcessor.TokenManager") as mock_tm:
+        with patch("winget_automation.PackageProcessor.TokenManager") as mock_tm:
             mock_token_manager = Mock()
             mock_token_manager.get_available_token.return_value = "test_token"
             mock_tm.return_value = mock_token_manager
 
-            from src.PackageProcessor import PackageProcessor, ProcessingConfig
+            from winget_automation.PackageProcessor import PackageProcessor, ProcessingConfig
 
             config = ProcessingConfig(
                 output_manifest_file=str(env["data_dir"] / "PackageNames.csv"),
@@ -276,12 +276,12 @@ class TestEndToEndWorkflow:
         """Test that data remains consistent across processing steps."""
         env = e2e_environment
 
-        with patch("src.PackageProcessor.TokenManager") as mock_tm:
+        with patch("winget_automation.PackageProcessor.TokenManager") as mock_tm:
             mock_token_manager = Mock()
             mock_token_manager.get_available_token.return_value = "test_token"
             mock_tm.return_value = mock_token_manager
 
-            from src.PackageProcessor import PackageProcessor, ProcessingConfig
+            from winget_automation.PackageProcessor import PackageProcessor, ProcessingConfig
 
             config = ProcessingConfig(
                 output_manifest_file=str(env["data_dir"] / "PackageNames.csv"),
@@ -352,12 +352,12 @@ class TestEndToEndWorkflow:
             with open(manifest_file, "w") as f:
                 yaml.dump(manifest_data, f)
 
-        with patch("src.PackageProcessor.TokenManager") as mock_tm:
+        with patch("winget_automation.PackageProcessor.TokenManager") as mock_tm:
             mock_token_manager = Mock()
             mock_token_manager.get_available_token.return_value = "test_token"
             mock_tm.return_value = mock_token_manager
 
-            from src.PackageProcessor import PackageProcessor, ProcessingConfig
+            from winget_automation.PackageProcessor import PackageProcessor, ProcessingConfig
 
             config = ProcessingConfig(
                 output_manifest_file=str(env["data_dir"] / "PackageNames.csv"),
@@ -394,12 +394,12 @@ class TestEndToEndWorkflow:
         """Test that the system handles concurrent access safely."""
         env = e2e_environment
 
-        with patch("src.PackageProcessor.TokenManager") as mock_tm:
+        with patch("winget_automation.PackageProcessor.TokenManager") as mock_tm:
             mock_token_manager = Mock()
             mock_token_manager.get_available_token.return_value = "test_token"
             mock_tm.return_value = mock_token_manager
 
-            from src.PackageProcessor import PackageProcessor, ProcessingConfig
+            from winget_automation.PackageProcessor import PackageProcessor, ProcessingConfig
             import threading
 
             config = ProcessingConfig(
@@ -475,7 +475,7 @@ class TestCommandLineInterface:
     @patch.dict("os.environ", {"TOKEN_1": "test_token_123"})
     def test_environment_variable_handling(self):
         """Test that environment variables are properly handled."""
-        from src.utils.token_manager import TokenManager
+        from winget_automation.utils.token_manager import TokenManager
 
         # Should work with environment variables set
         manager = TokenManager()

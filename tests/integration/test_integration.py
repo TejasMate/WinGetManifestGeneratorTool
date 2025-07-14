@@ -1,4 +1,4 @@
-"""Integration tests for the WinGetManifestAutomationTool."""
+"""Integration tests for the WinGet Manifest Generator Tool."""
 
 import pytest
 import tempfile
@@ -8,10 +8,10 @@ from unittest.mock import patch, Mock
 import polars as pl
 import yaml
 
-from src.PackageProcessor import PackageProcessor, ProcessingConfig
-from src.GitHub import main as github_main
-from src.utils.token_manager import TokenManager
-from src.exceptions import GitHubAPIError, TokenManagerError
+from winget_automation.PackageProcessor import PackageProcessor, ProcessingConfig
+from winget_automation.GitHub import main as github_main
+from winget_automation.utils.token_manager import TokenManager
+from winget_automation.exceptions import GitHubAPIError, TokenManagerError
 
 
 @pytest.mark.integration
@@ -89,7 +89,7 @@ class TestPackageProcessorIntegration:
     @patch.dict("os.environ", {"TOKEN_1": "test_token_123"})
     def test_end_to_end_package_processing(self, temp_winget_repo, integration_config):
         """Test complete package processing workflow."""
-        with patch("src.PackageProcessor.TokenManager") as mock_tm:
+        with patch("winget_automation.PackageProcessor.TokenManager") as mock_tm:
             mock_token_manager = Mock()
             mock_token_manager.get_available_token.return_value = "test_token"
             mock_tm.return_value = mock_token_manager
@@ -126,7 +126,7 @@ class TestPackageProcessorIntegration:
         self, temp_winget_repo, integration_config
     ):
         """Test YAML processing with realistic manifest structure."""
-        with patch("src.PackageProcessor.TokenManager") as mock_tm:
+        with patch("winget_automation.PackageProcessor.TokenManager") as mock_tm:
             mock_token_manager = Mock()
             mock_token_manager.get_available_token.return_value = "test_token"
             mock_tm.return_value = mock_token_manager
@@ -167,7 +167,7 @@ class TestPackageProcessorIntegration:
 
     def test_architecture_extension_extraction_integration(self, integration_config):
         """Test architecture-extension extraction with real URL patterns."""
-        with patch("src.PackageProcessor.TokenManager") as mock_tm:
+        with patch("winget_automation.PackageProcessor.TokenManager") as mock_tm:
             mock_token_manager = Mock()
             mock_token_manager.get_available_token.return_value = "test_token"
             mock_tm.return_value = mock_token_manager
@@ -198,9 +198,9 @@ class TestGitHubIntegration:
     """Integration tests for GitHub module."""
 
     @patch.dict("os.environ", {"TOKEN_1": "test_token_123"})
-    @patch("src.GitHub.VersionAnalyzer")
-    @patch("src.GitHub.github.MatchSimilarURLs.process_urls")
-    @patch("src.GitHub.github.Filter.process_filters")
+    @patch("winget_automation.GitHub.VersionAnalyzer")
+    @patch("winget_automation.GitHub.github.MatchSimilarURLs.process_urls")
+    @patch("winget_automation.GitHub.github.Filter.process_filters")
     def test_github_pipeline_integration(self, mock_filter, mock_urls, mock_analyzer):
         """Test the complete GitHub analysis pipeline."""
         # Mock the analyzer
@@ -208,7 +208,7 @@ class TestGitHubIntegration:
         mock_analyzer.return_value = mock_analyzer_instance
 
         # Mock TokenManager
-        with patch("src.GitHub.TokenManager") as mock_tm:
+        with patch("winget_automation.GitHub.TokenManager") as mock_tm:
             mock_token_manager = Mock()
             mock_token_manager.get_available_token.return_value = "test_token"
             mock_tm.return_value = mock_token_manager
@@ -232,10 +232,10 @@ class TestGitHubIntegration:
                 sample_data.write_csv(input_file)
 
                 # Patch file paths in the GitHub module
-                with patch("src.GitHub.input_path", str(input_file)), patch(
-                    "src.GitHub.github_info_path", str(github_info_file)
-                ), patch("src.GitHub.cleaned_urls_path", str(cleaned_urls_file)), patch(
-                    "src.GitHub.output_dir", tmp_dir
+                with patch("winget_automation.GitHub.input_path", str(input_file)), patch(
+                    "winget_automation.GitHub.github_info_path", str(github_info_file)
+                ), patch("winget_automation.GitHub.cleaned_urls_path", str(cleaned_urls_file)), patch(
+                    "winget_automation.GitHub.output_dir", tmp_dir
                 ):
 
                     # Run the main function
@@ -276,7 +276,7 @@ class TestTokenManagerIntegration:
             unique_tokens = set(used_tokens)
             assert len(unique_tokens) > 1  # Should have used multiple tokens
 
-    @patch("src.utils.token_manager.requests.get")
+    @patch("winget_automation.utils.token_manager.requests.get")
     def test_token_limit_updates_from_headers(self, mock_get):
         """Test token limit updates from actual response headers."""
         with patch.dict("os.environ", {"TOKEN_1": "test_token"}):
@@ -313,7 +313,7 @@ class TestErrorHandlingIntegration:
         config = ProcessingConfig()
 
         # Test with invalid token manager
-        with patch("src.PackageProcessor.TokenManager") as mock_tm:
+        with patch("winget_automation.PackageProcessor.TokenManager") as mock_tm:
             mock_tm.side_effect = Exception("Token manager failed")
 
             with pytest.raises(Exception):  # Should bubble up as ConfigurationError
@@ -323,7 +323,7 @@ class TestErrorHandlingIntegration:
         """Test error handling for file operations."""
         config = ProcessingConfig()
 
-        with patch("src.PackageProcessor.TokenManager") as mock_tm:
+        with patch("winget_automation.PackageProcessor.TokenManager") as mock_tm:
             mock_token_manager = Mock()
             mock_token_manager.get_available_token.return_value = "test_token"
             mock_tm.return_value = mock_token_manager

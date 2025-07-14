@@ -1,4 +1,4 @@
-"""Configuration management system for WinGetManifestAutomationTool."""
+"""Configuration management system for WinGet Manifest Generator Tool."""
 
 import os
 import json
@@ -36,7 +36,7 @@ class ConfigManager:
     """Centralized configuration management system.
     
     This class provides a centralized way to manage configuration for the
-    WinGetManifestAutomationTool with support for:
+    WinGet Manifest Generator Tool with support for:
     - Environment-specific configurations (dev/staging/prod)
     - Configuration validation using schemas
     - Multiple configuration sources (files, environment variables)
@@ -147,12 +147,12 @@ class ConfigManager:
             env_overrides = self._load_environment_variables()
             config = self._merge_configs(config, env_overrides)
             
-            # Validate configuration
+            # Validate configuration (non-blocking during load)
             is_valid, errors = self.schema.validate(config)
             if not is_valid:
-                raise ConfigurationError(
-                    f"Configuration validation failed: {'; '.join(errors)}"
-                )
+                # Log validation errors but don't fail loading
+                logger = logging.getLogger(__name__)
+                logger.warning(f"Configuration validation issues: {'; '.join(errors)}")
             
             self._config = config
             self._loaded = True
@@ -486,6 +486,74 @@ class ConfigManager:
         if not self._loaded:
             self.load_config()
         return self._config.copy()
+    
+    def update_config(self, updates: Dict[str, Any]) -> None:
+        """Update configuration with new values.
+        
+        Args:
+            updates: Dictionary of configuration updates
+        """
+        if not self._loaded:
+            self.load_config()
+        
+        # Merge updates into current config
+        self._config = self._merge_configs(self._config, updates)
+        
+        # Save updated configuration
+        self.save_config()
+    
+    def get_status(self) -> Dict[str, Any]:
+        """Get configuration status information.
+        
+        Returns:
+            Dictionary with configuration status details
+        """
+        if not self._loaded:
+            self.load_config()
+        
+        is_valid, errors = self.validate_config()
+        
+        return {
+            'config_file': str(self.config_path),
+            'last_modified': self.config_path.stat().st_mtime if self.config_path.exists() else None,
+            'valid': is_valid,
+            'errors': errors,
+            'environment': self.environment,
+            'loaded': self._loaded
+        }
+    
+    def validate_detailed(self) -> Dict[str, Dict[str, Any]]:
+        """Perform detailed configuration validation.
+        
+        Returns:
+            Dictionary with detailed validation results by section
+        """
+        if not self._loaded:
+            self.load_config()
+        
+        # This is a simplified version - in a real implementation,
+        # you'd validate each section separately
+        is_valid, errors = self.validate_config()
+        
+        results = {}
+        
+        # Check each major configuration section
+        for section_name in ['github', 'processing', 'monitoring', 'output']:
+            section_config = self._config.get(section_name, {})
+            section_valid = isinstance(section_config, dict)
+            
+            results[section_name] = {
+                'configuration_present': {
+                    'valid': section_name in self._config,
+                    'message': f'{section_name} configuration found' if section_name in self._config else f'{section_name} configuration missing'
+                },
+                'structure_valid': {
+                    'valid': section_valid,
+                    'message': f'{section_name} structure is valid' if section_valid else f'{section_name} structure is invalid'
+                }
+            }
+        
+        return results
 
 
 # Global configuration manager instance

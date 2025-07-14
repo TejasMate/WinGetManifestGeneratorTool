@@ -5,9 +5,11 @@ from pathlib import Path
 from typing import Optional, List, Dict
 from dataclasses import dataclass
 from ..utils.token_manager import TokenManager
-from ..utils.unified_utils import GitHubAPI, GitHubConfig, GitHubURLProcessor
+from ..utils.unified_utils import GitHubAPI, GitHubConfig, GitHubURLProcessor, YAMLProcessorBase, BaseConfig
 from concurrent.futures import ThreadPoolExecutor
 import json
+import yaml
+from urllib.parse import urlparse
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -15,10 +17,217 @@ logging.basicConfig(
 
 
 @dataclass
+class WinGetManifestExtractor:
+    """Extract installer URLs from all versions of a package in WinGet repository."""
+    
+    def __init__(self, winget_repo_path: str = "winget-pkgs"):
+        self.winget_repo_path = Path(winget_repo_path)
+        self.manifests_dir = self.winget_repo_path / "manifests"
+        
+    def get_package_directory(self, package_identifier: str) -> Optional[Path]:
+        """Get the directory path for a package in WinGet repository."""
+        try:
+            # Parse package identifier (e.g., "Microsoft.VisualStudioCode")
+            parts = package_identifier.split('.')
+            if not parts:
+                return None
+                
+            # Get first character for directory structure
+            first_char = parts[0][0].lower()
+            
+            # Construct path: manifests/m/Microsoft/VisualStudioCode/
+            package_path = self.manifests_dir / first_char / parts[0]
+            if len(parts) > 1:
+                for part in parts[1:]:
+                    package_path = package_path / part
+                    
+            return package_path if package_path.exists() else None
+        except Exception as e:
+            logging.debug(f"Error getting package directory for {package_identifier}: {e}")
+            return None
+    
+    def extract_installer_urls_from_manifest(self, manifest_path: Path) -> List[str]:
+        """Extract installer URLs from a single manifest file."""
+        try:
+            with open(manifest_path, 'r', encoding='utf-8') as f:
+                manifest_data = yaml.safe_load(f)
+                
+            urls = []
+            if isinstance(manifest_data, dict):
+                # Look for Installers section
+                installers = manifest_data.get('Installers', [])
+                if isinstance(installers, list):
+                    for installer in installers:
+                        if isinstance(installer, dict):
+                            url = installer.get('InstallerUrl')
+                            if url and isinstance(url, str):
+                                urls.append(url)
+                                
+                # Also check for single InstallerUrl (older format)
+                single_url = manifest_data.get('InstallerUrl')
+                if single_url and isinstance(single_url, str):
+                    urls.append(single_url)
+                    
+            return urls
+        except Exception as e:
+            logging.debug(f"Error extracting URLs from {manifest_path}: {e}")
+            return []
+    
+    def get_all_installer_urls_for_package(self, package_identifier: str) -> Dict[str, List[str]]:
+        """Get all installer URLs from all versions of a package."""
+        try:
+            package_dir = self.get_package_directory(package_identifier)
+            if not package_dir:
+                return {}
+                
+            all_urls = {}
+            
+            # Look for version directories
+            for version_dir in package_dir.iterdir():
+                if version_dir.is_dir():
+                    version = version_dir.name
+                    version_urls = []
+                    
+                    # Look for installer manifests in version directory
+                    for manifest_file in version_dir.glob("*.installer.yaml"):
+                        urls = self.extract_installer_urls_from_manifest(manifest_file)
+                        version_urls.extend(urls)
+                    
+                    # Also check for single manifest files (older format)
+                    for manifest_file in version_dir.glob("*.yaml"):
+                        if not manifest_file.name.endswith('.installer.yaml'):
+                            urls = self.extract_installer_urls_from_manifest(manifest_file)
+                            version_urls.extend(urls)
+                    
+                    if version_urls:
+                        all_urls[version] = list(set(version_urls))  # Remove duplicates
+                        
+            return all_urls
+        except Exception as e:
+            logging.debug(f"Error getting all URLs for {package_identifier}: {e}")
+            return {}
+
+
+@dataclass
+class URLComparator:
+    """Compare URLs to find similarities even with different versioning."""
+    
+    @staticmethod
+    def normalize_url_for_comparison(url: str) -> str:
+        """Normalize URL for comparison by removing version-specific parts."""
+        try:
+            # Remove common version patterns
+            # Example: https://github.com/user/repo/releases/download/v1.2.3/file-1.2.3.exe
+            # Becomes: https://github.com/user/repo/releases/download/file.exe
+            
+            # Parse URL
+            parsed = urlparse(url)
+            path = parsed.path
+            
+            # Remove version patterns from path
+            # Pattern 1: /v1.2.3/ or /1.2.3/
+            path = re.sub(r'/v?\d+\.\d+[\.\d]*/', '/VERSION/', path)
+            
+            # Pattern 2: -v1.2.3 or -1.2.3 in filename
+            path = re.sub(r'-v?\d+\.\d+[\.\d]*(?=[\.-])', '-VERSION', path)
+            
+            # Pattern 3: _v1.2.3 or _1.2.3 in filename  
+            path = re.sub(r'_v?\d+\.\d+[\.\d]*(?=[\._])', '_VERSION', path)
+            
+            # Reconstruct URL
+            normalized = f"{parsed.scheme}://{parsed.netloc}{path}"
+            return normalized
+        except Exception:
+            return url
+    
+    @staticmethod
+    def extract_base_filename(url: str) -> str:
+        """Extract base filename without version info."""
+        try:
+            # Get filename from URL
+            filename = Path(urlparse(url).path).name
+            
+            # Remove version patterns
+            filename = re.sub(r'-v?\d+\.\d+[\.\d]*', '', filename)
+            filename = re.sub(r'_v?\d+\.\d+[\.\d]*', '', filename)
+            
+            return filename
+        except Exception:
+            return ""
+    
+    @staticmethod
+    def compare_urls(github_urls: List[str], winget_urls: List[str]) -> Dict[str, any]:
+        """Compare GitHub URLs with WinGet URLs to find matches."""
+        try:
+            matches = {
+                'exact_matches': [],
+                'normalized_matches': [],
+                'filename_matches': [],
+                'github_urls_count': len(github_urls),
+                'winget_urls_count': len(winget_urls),
+                'has_any_match': False
+            }
+            
+            if not github_urls or not winget_urls:
+                return matches
+            
+            # Normalize URLs for comparison
+            github_normalized = [(url, URLComparator.normalize_url_for_comparison(url)) for url in github_urls]
+            winget_normalized = [(url, URLComparator.normalize_url_for_comparison(url)) for url in winget_urls]
+            
+            # Extract base filenames
+            github_filenames = [(url, URLComparator.extract_base_filename(url)) for url in github_urls]
+            winget_filenames = [(url, URLComparator.extract_base_filename(url)) for url in winget_urls]
+            
+            # Check for exact matches
+            for gh_url in github_urls:
+                if gh_url in winget_urls:
+                    matches['exact_matches'].append(gh_url)
+            
+            # Check for normalized matches
+            for gh_url, gh_norm in github_normalized:
+                for wg_url, wg_norm in winget_normalized:
+                    if gh_norm == wg_norm and gh_url not in matches['exact_matches']:
+                        matches['normalized_matches'].append({'github': gh_url, 'winget': wg_url})
+            
+            # Check for filename matches
+            for gh_url, gh_filename in github_filenames:
+                for wg_url, wg_filename in winget_filenames:
+                    if (gh_filename and wg_filename and 
+                        gh_filename == wg_filename and 
+                        gh_url not in matches['exact_matches'] and
+                        not any(m['github'] == gh_url for m in matches['normalized_matches'])):
+                        matches['filename_matches'].append({'github': gh_url, 'winget': wg_filename})
+            
+            # Set overall match flag
+            matches['has_any_match'] = bool(
+                matches['exact_matches'] or 
+                matches['normalized_matches'] or 
+                matches['filename_matches']
+            )
+            
+            return matches
+        except Exception as e:
+            logging.debug(f"Error comparing URLs: {e}")
+            return {
+                'exact_matches': [],
+                'normalized_matches': [],
+                'filename_matches': [],
+                'github_urls_count': len(github_urls),
+                'winget_urls_count': len(winget_urls),
+                'has_any_match': False,
+                'error': str(e)
+            }
+
+
+@dataclass
 class VersionAnalyzer:
     def __init__(self, github_api: GitHubAPI):
         self.github_api = github_api
         self.github_repos = {}
+        # Initialize WinGet manifest extractor and URL comparator
+        self.winget_extractor = WinGetManifestExtractor()
+        self.url_comparator = URLComparator()
 
     def extract_version_from_url(self, url: str) -> Optional[str]:
         try:
@@ -38,6 +247,57 @@ class VersionAnalyzer:
         except Exception as e:
             logging.error(f"Error extracting version from URL {url}: {e}")
             return None
+
+    def compare_with_all_winget_versions(self, package_identifier: str, github_urls: List[str]) -> Dict[str, any]:
+        """Simple comparison: GitHub latest URLs vs ALL WinGet package version URLs."""
+        try:
+            # Get all installer URLs from all versions of the package
+            all_winget_urls_by_version = self.winget_extractor.get_all_installer_urls_for_package(package_identifier)
+            
+            if not all_winget_urls_by_version:
+                return {
+                    'comparison_performed': False,
+                    'reason': 'No WinGet manifests found',
+                    'winget_versions_found': 0,
+                    'has_any_match': False
+                }
+            
+            # Create flat list of ALL URLs from ALL versions
+            all_winget_urls = []
+            for version, urls in all_winget_urls_by_version.items():
+                all_winget_urls.extend(urls)
+            
+            # Remove duplicates
+            unique_winget_urls = list(set(all_winget_urls))
+            
+            # Simple comparison: check if any GitHub URL matches any WinGet URL
+            exact_matches = []
+            for github_url in github_urls:
+                github_url = github_url.strip()
+                if github_url in unique_winget_urls:
+                    exact_matches.append(github_url)
+            
+            has_any_match = len(exact_matches) > 0
+            
+            return {
+                'comparison_performed': True,
+                'winget_versions_found': len(all_winget_urls_by_version),
+                'winget_versions': list(all_winget_urls_by_version.keys()),
+                'unique_winget_urls_count': len(unique_winget_urls),
+                'has_any_match': has_any_match,
+                'exact_matches': exact_matches,
+                'exact_matches_count': len(exact_matches),
+                'github_urls_checked': github_urls,
+                'winget_urls_total': len(all_winget_urls)
+            }
+            
+        except Exception as e:
+            logging.error(f"Error comparing with WinGet versions for {package_identifier}: {e}")
+            return {
+                'comparison_performed': False,
+                'reason': f'Error: {str(e)}',
+                'winget_versions_found': 0
+            }
 
     def process_package(self, row: List) -> Dict:
         package_name = row[0]  # PackageIdentifier
@@ -132,7 +392,15 @@ class VersionAnalyzer:
             # Normalize manifest versions
             normalized_versions = [v.lower().lstrip("v") for v in versions.split(",")]
 
-            return {
+            # NEW FEATURE: Compare GitHub URLs with all WinGet versions
+            winget_comparison = {}
+            github_urls_list = []
+            if latest_github_urls:
+                github_urls_list = [url.strip() for url in latest_github_urls.split(",") if url.strip()]
+                winget_comparison = self.compare_with_all_winget_versions(package_name, github_urls_list)
+
+            # Prepare the result with existing fields plus new comparison data
+            result = {
                 "PackageIdentifier": package_name,
                 "GitHubRepo": github_repo,
                 "AvailableVersions": versions,
@@ -147,6 +415,36 @@ class VersionAnalyzer:
                 ),
                 "LatestGitHubURLs": latest_github_urls,
             }
+            
+            # Add WinGet comparison results
+            if winget_comparison.get('comparison_performed', False):
+                result.update({
+                    "WinGetVersionsFound": winget_comparison.get('winget_versions_found', 0),
+                    "URLComparisonPerformed": True,
+                    "ExactURLMatches": winget_comparison.get('exact_matches_count', 0),
+                    "HasAnyURLMatch": winget_comparison.get('has_any_match', False),
+                    "WinGetVersionsList": ','.join(winget_comparison.get('winget_versions', [])),
+                    "UniqueWinGetURLsCount": winget_comparison.get('unique_winget_urls_count', 0),
+                    "ExactMatchDetails": ','.join(winget_comparison.get('exact_matches', [])),
+                    "GitHubURLsChecked": ','.join(winget_comparison.get('github_urls_checked', [])),
+                    "WinGetURLsTotal": winget_comparison.get('winget_urls_total', 0)
+                })
+            else:
+                # No comparison performed
+                result.update({
+                    "WinGetVersionsFound": 0,
+                    "URLComparisonPerformed": False,
+                    "ExactURLMatches": 0,
+                    "HasAnyURLMatch": False,
+                    "WinGetVersionsList": "",
+                    "UniqueWinGetURLsCount": 0,
+                    "ExactMatchDetails": "",
+                    "GitHubURLsChecked": "",
+                    "WinGetURLsTotal": 0,
+                    "ComparisonFailureReason": winget_comparison.get('reason', 'Unknown')
+                })
+
+            return result
 
         except Exception as e:
             logging.error(f"Error processing {package_name}: {e}")

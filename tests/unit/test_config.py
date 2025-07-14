@@ -9,9 +9,9 @@ from pathlib import Path
 from unittest.mock import patch, mock_open
 
 try:
-    from src.config import ConfigManager, get_config_manager, get_config
-    from src.config.schema import ConfigSchema
-    from src.exceptions import ConfigurationError
+    from winget_automation.config import ConfigManager, get_config_manager, get_config
+    from winget_automation.config.schema import ConfigSchema
+    from winget_automation.exceptions import ConfigurationError
 except ImportError:
     # Fallback for direct execution
     import sys
@@ -331,7 +331,7 @@ class TestGlobalConfigFunctions:
             config_path = Path(temp_dir)
             
             # Reset the global manager
-            import src.config.manager as manager_module
+            import winget_automation.config.manager as manager_module
             manager_module._config_manager = None
             
             # Create new manager with test path

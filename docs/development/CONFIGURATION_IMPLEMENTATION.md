@@ -2,7 +2,7 @@
 
 ## ✅ Implementation Complete
 
-The WinGetManifestAutomationTool now has a comprehensive **Configuration Management System** that provides centralized configuration with environment-specific settings, validation, and easy integration.
+The WinGet Manifest Generator Tool now has a comprehensive **Configuration Management System** that provides centralized configuration with environment-specific settings, validation, and easy integration.
 
 ## 🚀 What Was Implemented
 
