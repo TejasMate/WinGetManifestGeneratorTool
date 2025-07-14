@@ -38,8 +38,8 @@ if __name__ == "__main__":
     )
 
     # Set up paths
-    input_path = Path("data/GitHubPackageInfo_Filter8.csv")
-    output_path = Path("data/komac_update_commands_github.txt")
+    input_path = Path("data/github/GitHubPackageInfo_Filter8.csv")
+    output_path = Path("data/github/komac_update_commands_github.txt")
 
     if not input_path.exists():
         raise FileNotFoundError(f"Input file not found: {input_path}")

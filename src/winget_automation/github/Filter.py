@@ -1,5 +1,6 @@
 import pandas as pd
 from pathlib import Path
+import logging
 
 
 def has_matching_urls(row):
@@ -58,6 +59,10 @@ def process_filters(input_path: str, output_dir: str) -> None:
 
         # Read the original CSV file
         df = pd.read_csv(input_path)
+        
+        # Clean column names to remove any invisible characters or extra spaces
+        df.columns = df.columns.str.strip()
+        
         removed_rows = pd.DataFrame(columns=df.columns.tolist() + ["reason"])
 
         # Filter 1: Remove rows with "Not Found" in GitHubLatest
@@ -98,6 +103,14 @@ def process_filters(input_path: str, output_dir: str) -> None:
         df = df[~df.apply(has_matching_urls, axis=1)]
         removed_rows = pd.concat([removed_rows, filter5_removed])
         df.to_csv(output_dir_path / "GitHubPackageInfo_Filter5.csv", index=False)
+
+        # Filter 5.5: Remove rows where GitHub URLs match ANY WinGet URLs from ALL versions
+        filter5_5_mask = df["HasAnyURLMatch"] == True
+        filter5_5_removed = df[filter5_5_mask].copy()
+        filter5_5_removed["reason"] = "filter_5_5"
+        df = df[~filter5_5_mask]
+        removed_rows = pd.concat([removed_rows, filter5_5_removed])
+        df.to_csv(output_dir_path / "GitHubPackageInfo_Filter5_5.csv", index=False)
 
         # Filter 6: Remove rows where versions match exactly
         filter6_removed = df[

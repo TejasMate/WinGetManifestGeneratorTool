@@ -153,7 +153,7 @@ def test_environment_info():
 
 def main():
     """Run all configuration tests."""
-    print("WinGetManifestAutomationTool Configuration System Test")
+    print("WinGet Manifest Generator Tool Configuration System Test")
     print("=" * 55)
     
     tests = [

@@ -9,8 +9,8 @@ from unittest.mock import Mock, patch, mock_open
 import polars as pl
 import yaml
 
-from src.PackageProcessor import PackageProcessor, ProcessingConfig
-from src.exceptions import (
+from winget_automation.PackageProcessor import PackageProcessor, ProcessingConfig
+from winget_automation.exceptions import (
     PackageProcessingError,
     ManifestParsingError,
     ConfigurationError,
@@ -33,14 +33,14 @@ class TestPackageProcessor:
     def processor(self, config, mock_token_manager):
         """Create a PackageProcessor instance for testing."""
         with patch(
-            "src.PackageProcessor.TokenManager", return_value=mock_token_manager
+            "winget_automation.PackageProcessor.TokenManager", return_value=mock_token_manager
         ):
             return PackageProcessor(config)
 
     def test_init_success(self, config, mock_token_manager):
         """Test successful initialization of PackageProcessor."""
         with patch(
-            "src.PackageProcessor.TokenManager", return_value=mock_token_manager
+            "winget_automation.PackageProcessor.TokenManager", return_value=mock_token_manager
         ):
             processor = PackageProcessor(config)
 
@@ -52,7 +52,7 @@ class TestPackageProcessor:
 
     def test_init_failure_no_tokens(self, config):
         """Test initialization failure when no tokens are available."""
-        with patch("src.PackageProcessor.TokenManager") as mock_tm:
+        with patch("winget_automation.PackageProcessor.TokenManager") as mock_tm:
             mock_tm.side_effect = Exception("No tokens available")
 
             with pytest.raises(ConfigurationError):
@@ -217,7 +217,7 @@ class TestPackageProcessor:
         assert "exe" in processor.extensions
         assert "zip" in processor.extensions
 
-    @patch("src.PackageProcessor.logging")
+    @patch("winget_automation.PackageProcessor.logging")
     def test_logging_in_methods(self, mock_logging, processor):
         """Test that methods properly log their operations."""
         urls = ["https://example.com/app-x64.msi"]

@@ -1,4 +1,4 @@
-"""Configuration management package for WinGetManifestAutomationTool.
+"""Configuration management package for WinGet Manifest Generator Tool.
 
 This package provides centralized configuration management with support for:
 - Environment-specific configurations (development/staging/production)

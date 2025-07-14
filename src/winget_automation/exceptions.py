@@ -1,4 +1,4 @@
-"""Custom exceptions for the WinGetManifestAutomationTool."""
+"""Custom exceptions for the WinGet Manifest Generator Tool."""
 
 from typing import Optional, Any, Dict
 

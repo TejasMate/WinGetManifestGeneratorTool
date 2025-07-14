@@ -1,0 +1,84 @@
+debug: true
+environment: development
+filtering:
+  allowed_architectures:
+  - x64
+  - x86
+  - arm64
+  - arm
+  - aarch64
+  - x86_64
+  allowed_extensions:
+  - msi
+  - exe
+  - zip
+  - msix
+  - appx
+  - msixbundle
+  - appxbundle
+  blocked_packages: []
+  max_package_age_days: 365
+  min_download_count: 0
+github:
+  api_url: https://api.github.com
+  per_page: 100
+  rate_limit_buffer: 100
+  retry_attempts: 3
+  retry_delay: 1.0
+  token: gghgh
+  tokens:
+  - ghgh
+logging:
+  backup_count: 5
+  date_format: '%Y-%m-%d %H:%M:%S'
+  file: null
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  level: DEBUG
+  max_size: 10
+monitoring:
+  export_metrics_interval: 300
+  health_check_interval: 60
+  max_metric_history: 5000
+  max_timer_history: 500
+  metrics_enabled: true
+  progress:
+    console_output: true
+    log_updates: true
+    update_interval: 0.5
+output:
+  compression: none
+  csv:
+    delimiter: ','
+    encoding: utf-8
+    escape_char: \
+    quote_char: '"'
+  formats:
+  - csv
+  include_metadata: true
+  json:
+    indent: 2
+    sort_keys: true
+  parquet:
+    compression: snappy
+  timestamp_format: '%Y%m%d_%H%M%S'
+package_processing:
+  batch_size: 50
+  file_patterns:
+  - '*.installer.yaml'
+  max_workers: 2
+  output_directory: data
+  timeout: 60
+  winget_repo_path: winget-pkgs
+performance:
+  burst_limit: 50
+  cache_enabled: false
+  cache_ttl: 3600
+  enable_profiling: true
+  memory_limit_mb: 1024
+  requests_per_second: 10
+processing:
+  batch_size: 100
+  max_retries: 1
+service:
+  name: winget-automation
+  version: 1.0.0

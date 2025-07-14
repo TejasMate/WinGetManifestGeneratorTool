@@ -1,6 +1,6 @@
-# Testing Guide for WinGetManifestAutomationTool
+# Testing Guide for WinGet Manifest Generator Tool
 
-This document provides comprehensive information about the testing framework implemented for the WinGetManifestAutomationTool project.
+This document provides comprehensive information about the testing framework implemented for the WinGet Manifest Generator Tool project.
 
 ## Overview
 

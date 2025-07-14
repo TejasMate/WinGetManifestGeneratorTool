@@ -5,8 +5,8 @@ import time
 import pytest
 from unittest.mock import patch, Mock
 
-from src.utils.token_manager import TokenManager
-from src.exceptions import TokenManagerError
+from winget_automation.utils.token_manager import TokenManager
+from winget_automation.exceptions import TokenManagerError
 
 
 class TestTokenManager:

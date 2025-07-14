@@ -120,8 +120,7 @@ This analyzes all package manifests in the WinGet repository, extracts version p
 
 #### 2. Analyze GitHub Repositories for Latest Versions
 ```bash
-python src/winget_automation/GitHub.py
-```
+export```
 This checks GitHub repositories for the latest versions of packages and compares them with the versions in WinGet.
 
 #### 3. Generate Update Commands

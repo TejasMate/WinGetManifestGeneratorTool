@@ -1,4 +1,4 @@
-# Base Configuration for WinGetManifestAutomationTool
+# Base Configuration for WinGet Manifest Generator Tool
 # This file contains common settings that apply across all environments.
 # Environment-specific files will override these values as needed.
 

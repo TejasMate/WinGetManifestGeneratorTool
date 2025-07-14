@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Test runner script for WinGetManifestAutomationTool.
+Test runner script for WinGet Manifest Generator Tool.
 
 This script provides a convenient way to run different types of tests
 with various configurations and options.
@@ -15,7 +15,7 @@ from typing import List, Optional
 
 
 class TestRunner:
-    """Test runner for the WinGetManifestAutomationTool."""
+    """Test runner for the WinGet Manifest Generator Tool."""
     
     def __init__(self):
         self.project_root = Path(__file__).parent
@@ -206,7 +206,7 @@ class TestRunner:
 
 def main():
     """Main entry point for the test runner."""
-    parser = argparse.ArgumentParser(description="Test runner for WinGetManifestAutomationTool")
+    parser = argparse.ArgumentParser(description="Test runner for WinGet Manifest Generator Tool")
     
     parser.add_argument(
         "command",

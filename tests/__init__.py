@@ -1,1 +1,1 @@
-"""Test package for WinGetManifestAutomationTool."""
+"""Test package for WinGet Manifest Generator Tool."""

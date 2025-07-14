@@ -109,7 +109,7 @@ def mock_github_response() -> Dict[str, Any]:
 @pytest.fixture
 def mock_token_manager():
     """Mock TokenManager for testing."""
-    with patch("src.utils.token_manager.TokenManager") as mock:
+    with patch("winget_automation.utils.token_manager.TokenManager") as mock:
         mock_instance = Mock()
         mock_instance.get_available_token.return_value = "test_token_123"
         mock_instance.tokens = ["test_token_123", "test_token_456"]

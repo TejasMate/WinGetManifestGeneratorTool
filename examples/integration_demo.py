@@ -201,7 +201,7 @@ def demonstrate_validation():
 
 def main():
     """Run all demonstration examples."""
-    print("WinGetManifestAutomationTool Configuration System Integration Examples")
+    print("WinGet Manifest Generator Tool Configuration System Integration Examples")
     print("=" * 75)
     
     try:
