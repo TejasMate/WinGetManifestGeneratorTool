@@ -134,45 +134,77 @@ class TokenManager:
 
         current_time = time.time()
         if current_time >= limit_info["reset_time"]:
+            # Token is available again, reset its state for safety
+            logging.info(f"Token ending in '...{token[-4:]}' is now available after rate limit reset.")
+            limit_info["remaining"] = 1 # Reset to 1 to allow a check
             return True
 
         return False
 
-    def get_available_token(self) -> Optional[str]:
+    def get_available_token(self) -> str:
         """Get the next available token, rotating through the list if necessary.
 
         Returns:
-            Available GitHub API token, or None if all tokens are rate limited
+            Available GitHub API token.
 
         Raises:
-            TokenManagerError: If no tokens are available and waiting is required
+            TokenManagerError: If no tokens are available and waiting is required.
         """
+        if not self.tokens:
+            raise TokenManagerError("No tokens loaded.", available_tokens=0)
+
         start_index = self.current_token_index
-
-        while True:
-            current_token = self.tokens[self.current_token_index]
-
-            if self._is_token_available(current_token):
-                return current_token
-
-            # Move to next token
+        
+        for _ in range(len(self.tokens)):
+            token = self.tokens[self.current_token_index]
+            if self._is_token_available(token):
+                logging.info(f"Using token ending in '...{token[-4:]}' (Index: {self.current_token_index})")
+                return token
+            
+            # If not available, move to the next one
             self.current_token_index = (self.current_token_index + 1) % len(self.tokens)
+        
+        # If we loop through all tokens and none are available
+        min_wait_time = self._get_min_wait_time()
+        error_msg = f"All tokens are currently rate-limited. Please wait for {min_wait_time:.2f} seconds."
+        logging.error(error_msg)
+        raise TokenManagerError(error_msg, available_tokens=0, wait_time=min_wait_time)
 
-            # If we've checked all tokens and come back to where we started
-            if self.current_token_index == start_index:
-                # Calculate the minimum wait time among all tokens
-                current_time = time.time()
-                min_wait_time = float("inf")
-                for token_info in self.token_limits.values():
-                    wait_time = token_info["reset_time"] - current_time
-                    if wait_time > 0:
-                        min_wait_time = min(min_wait_time, wait_time)
+    def _get_min_wait_time(self) -> float:
+        """Calculate the minimum wait time until any token becomes available."""
+        current_time = time.time()
+        min_wait_time = float("inf")
 
-                if min_wait_time != float("inf"):
-                    error_msg = f"All tokens are rate limited. Minimum wait time: {min_wait_time:.2f} seconds"
-                    logging.warning(error_msg)
-                    raise TokenManagerError(error_msg, available_tokens=0)
-                return None
+        if not self.token_limits:
+            return 0.0
+
+        for token in self.tokens:
+            if token in self.token_limits:
+                limit_info = self.token_limits[token]
+                wait_time = limit_info.get("reset_time", current_time) - current_time
+                if wait_time > 0:
+                    min_wait_time = min(min_wait_time, wait_time)
+                else:
+                    # This token should be available, something is wrong if we get here
+                    return 0.0 
+            else:
+                # Token has never been used, so it's available
+                return 0.0
+
+        return min_wait_time if min_wait_time != float("inf") else 0.0
+
+    def handle_rate_limit_exceeded(self, token: str):
+        """
+        Handles the case where a token has just exceeded its rate limit.
+        This method should be called by the API client when a 403 Forbidden
+        error with a rate limit exceeded message is received.
+        """
+        logging.warning(f"Rate limit exceeded for token ending in '...{token[-4:]}'. Rotating to next token.")
+        # The token is now known to be exhausted. We don't need to update its limits
+        # from headers here, as the next call to get_available_token will find a new one.
+        # We just move the index.
+        self.current_token_index = (self.current_token_index + 1) % len(self.tokens)
+
 
     def update_token_limits(self, token: str, response_headers: Dict) -> None:
         """Update token limits based on GitHub API response headers.
@@ -186,8 +218,12 @@ class TokenManager:
         """
         try:
             remaining = int(response_headers.get("X-RateLimit-Remaining", 0))
-            reset_time = int(response_headers.get("X-RateLimit-Reset", 0))
+            reset_time = int(response_headers.get("X-RateLimit-Reset", time.time() + 3600))
             self._update_rate_limit(token, remaining, reset_time)
+
+            if remaining == 0:
+                self.handle_rate_limit_exceeded(token)
+
         except (ValueError, TypeError) as e:
             error_msg = f"Error updating token limits: {e}"
             logging.error(error_msg)
