@@ -12,6 +12,7 @@ import os
 from pathlib import Path
 from typing import Dict, List, Optional, Set, Tuple, Union
 from dataclasses import dataclass
+from urllib.parse import urlparse
 
 # Handle both relative and absolute imports
 import sys
@@ -715,11 +716,13 @@ class PackageProcessor(YAMLProcessorBase):
                 url_lower = url.lower().strip()
                 logging.info(f"\nProcessing URL: {url_lower}")
 
-                # Find extension
+                # Find extension using a more robust regex
                 ext_match = None
                 for ext in self.extensions:
-                    if url_lower.endswith(f".{ext}"):
-                        ext_match = ext
+                    # Search for the extension followed by a non-alphanumeric character or end of string
+                    match = re.search(rf'\.({ext})(?:[/?#]|$)', url_lower)
+                    if match:
+                        ext_match = match.group(1)
                         logging.info(f"Found extension: {ext_match}")
                         break
 
@@ -730,7 +733,8 @@ class PackageProcessor(YAMLProcessorBase):
                 # Find architecture
                 arch_match = None
                 logging.info(f"Searching for architecture patterns in: {url_lower}")
-                for arch in self.architectures:
+                # Sort architectures by length descending to match longer patterns first
+                for arch in sorted(self.architectures, key=len, reverse=True):
                     logging.info(f"Checking architecture pattern: {arch}")
                     pattern = None
                     if arch in ["aarch64", "x86_64", "x86-64"]:
@@ -923,9 +927,19 @@ class PackageProcessor(YAMLProcessorBase):
                     urls = self.latest_urls[pkg]
                     self.arch_ext_pairs[pkg] = self.extract_arch_ext_pairs(urls)
 
+                # Extract source from URL
+                source = "unknown"
+                urls = self.latest_urls.get(pkg, [])
+                if urls:
+                    try:
+                        source = urlparse(urls[0]).netloc
+                    except Exception:
+                        source = "invalid_url"
+
                 data.append(
                     {
                         "PackageIdentifier": pkg,
+                        "Source": source,
                         "AvailableVersions": ",".join(sorted(vers)),
                         "VersionFormatPattern": ",".join(
                             sorted(self.version_patterns.get(pkg, {"unknown"}))
@@ -933,12 +947,11 @@ class PackageProcessor(YAMLProcessorBase):
                         "CurrentLatestVersionInWinGet": self.latest_version_map.get(
                             pkg, ""
                         ),
-                        "InstallerURLsCount": self.package_downloads.get(pkg, 0),
                         "LatestVersionURLsInWinGet": ",".join(
                             self.latest_urls.get(pkg, [])
                         ),
+                        "InstallerURLsCount": self.package_downloads.get(pkg, 0),
                         "ArchExtPairs": self.arch_ext_pairs.get(pkg, ""),
-                        "LatestVersionPullRequest": "unknown",  # Will be populated by GitHub.py
                     }
                 )
 
@@ -953,6 +966,31 @@ class PackageProcessor(YAMLProcessorBase):
         except Exception as e:
             logging.error(f"Error creating analysis dataframe: {e}")
             return pl.DataFrame()
+
+    def save_source_summary(self, analysis_df: pl.DataFrame):
+        """Saves a summary of package counts by source to a text file."""
+        if analysis_df.is_empty():
+            logging.warning("Analysis dataframe is empty, skipping source summary generation.")
+            return
+
+        try:
+            output_dir = Path(self.config.output_directory)
+            output_dir.mkdir(parents=True, exist_ok=True)
+            output_path = output_dir / "source_summary.txt"
+
+            source_counts = analysis_df.group_by("Source").agg(pl.count().alias("Count")).sort("Count", descending=True)
+
+            with open(output_path, "w", encoding="utf-8") as f:
+                f.write("📦 Packages by Source:\n")
+                f.write("-------------------------\n")
+                for row in source_counts.iter_rows(named=True):
+                    f.write(f"  • {row['Source']:<20}: {row['Count']}\n")
+                f.write("-------------------------\n")
+            
+            logging.info(f"Saved source summary to {output_path}")
+
+        except Exception as e:
+            logging.error(f"Failed to save source summary: {e}")
 
     def process_files(self) -> None:
         """Optimized file processing workflow with async support.
@@ -1106,6 +1144,17 @@ async def main_async():
         logging.info("  • AllPackageInfo.csv - Complete package analysis data")
         logging.info("\n💡 Note: PackageNames.csv is no longer generated (package names are in AllPackageInfo.csv)")
         logging.info("💡 Note: OpenPRs functionality will be implemented in GitHub.py")
+
+        # Display and save summary of packages by source
+        analysis_df = processor.create_analysis_dataframe()
+        if not analysis_df.is_empty():
+            source_counts = analysis_df.group_by("Source").agg(pl.count().alias("Count")).sort("Count", descending=True)
+            logging.info("\n📦 Packages by Source:")
+            logging.info("-------------------------")
+            for row in source_counts.iter_rows(named=True):
+                logging.info(f"  • {row['Source']:<20}: {row['Count']}")
+            logging.info("-------------------------")
+            processor.save_source_summary(analysis_df)
         
     except Exception as e:
         logging.error(f"Async processing failed: {e}")
@@ -1162,6 +1211,17 @@ def main():
             logging.info("  • AllPackageInfo.csv - Complete package analysis data")
             logging.info("\n💡 Note: PackageNames.csv is no longer generated (package names are in AllPackageInfo.csv)")
             logging.info("💡 Note: OpenPRs functionality will be implemented in GitHub.py")
+
+            # Display and save summary of packages by source
+            analysis_df = processor.create_analysis_dataframe()
+            if not analysis_df.is_empty():
+                source_counts = analysis_df.group_by("Source").agg(pl.count().alias("Count")).sort("Count", descending=True)
+                logging.info("\n📦 Packages by Source:")
+                logging.info("-------------------------")
+                for row in source_counts.iter_rows(named=True):
+                    logging.info(f"  • {row['Source']:<20}: {row['Count']}")
+                logging.info("-------------------------")
+                processor.save_source_summary(analysis_df)
         
     except Exception as e:
         logging.error(f"Processing failed: {e}")

@@ -54,6 +54,7 @@ class VersionPatternDetector:
             "test": "test",
             "qa": "qa",
             "unstable": "unstable",
+            "master": "master",
         }
         text_lower = text.lower()
 
