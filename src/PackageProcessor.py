@@ -1,3 +1,6 @@
+import asyncio
+import aiofiles
+import gc
 import concurrent.futures
 import polars as pl
 import logging
@@ -70,6 +73,8 @@ class ProcessingConfig(BaseConfig):
     output_directory: str = "data"
     batch_size: int = 100
     max_workers: int = 4
+    max_concurrent_files: int = 200  # For async operations
+    use_async: bool = True  # Enable async processing by default
     timeout: int = 300
 
     @classmethod
@@ -81,6 +86,8 @@ class ProcessingConfig(BaseConfig):
             output_directory=package_config.get('output_directory', 'data'),
             batch_size=package_config.get('batch_size', 100),
             max_workers=package_config.get('max_workers', 4),
+            max_concurrent_files=package_config.get('max_concurrent_files', 200),
+            use_async=package_config.get('use_async', True),
             timeout=package_config.get('timeout', 300)
         )
 
@@ -129,6 +136,15 @@ class PackageProcessor(YAMLProcessorBase):
             # Load configuration
             self.app_config = get_config()
             self.token_manager = TokenManager(self.app_config)
+
+            # Async control structures (initialized lazily)
+            self._data_lock = None
+            self.semaphore = None
+            self._async_initialized = False
+            
+            # Caching for performance
+            self._yaml_cache: Dict[str, Dict] = {}
+            self._path_cache: Dict[str, Path] = {}
 
             # Manifest processing attributes
             self.unique_rows: Set[Tuple[str, ...]] = set()
@@ -183,6 +199,406 @@ class PackageProcessor(YAMLProcessorBase):
             Path to the WinGet repository
         """
         return Path(self.config.winget_repo_path)
+
+    def _init_async_structures(self):
+        """Initialize async structures when needed (must be called from async context)."""
+        if not self._async_initialized and self.config.use_async:
+            self._data_lock = asyncio.Lock()
+            self.semaphore = asyncio.Semaphore(self.config.max_concurrent_files)
+            self._async_initialized = True
+
+    # Async Methods for Performance Optimization
+    
+    async def process_yaml_file_async(self, yaml_path: Path) -> Optional[Dict]:
+        """Async version of YAML file processing with caching.
+        
+        Args:
+            yaml_path: Path to YAML file
+            
+        Returns:
+            Parsed YAML data or None if processing fails
+        """
+        cache_key = str(yaml_path)
+        if cache_key in self._yaml_cache:
+            return self._yaml_cache[cache_key]
+        
+        # Use semaphore if available, otherwise process directly
+        if self.semaphore:
+            async with self.semaphore:
+                return await self._process_yaml_file_async_internal(yaml_path, cache_key)
+        else:
+            return await self._process_yaml_file_async_internal(yaml_path, cache_key)
+
+    async def _process_yaml_file_async_internal(self, yaml_path: Path, cache_key: str) -> Optional[Dict]:
+        """Internal async YAML processing method."""
+        try:
+            async with aiofiles.open(yaml_path, 'r', encoding='utf-8') as f:
+                content = await f.read()
+                result = yaml.safe_load(content)
+                
+                # Cache the result for future use
+                if result and len(self._yaml_cache) < 1000:  # Limit cache size
+                    self._yaml_cache[cache_key] = result
+                
+                return result
+        except Exception as e:
+            logging.debug(f"Error processing YAML {yaml_path}: {e}")
+            return None
+
+    async def _scan_version_dirs_async(self, package_path: Path, package_name: str) -> List[str]:
+        """Async version directory scanning.
+        
+        Args:
+            package_path: Path to package directory
+            package_name: Package identifier
+            
+        Returns:
+            List of version directory names
+        """
+        def _scan_sync():
+            version_dirs = []
+            try:
+                for item in package_path.iterdir():
+                    if item.is_dir():
+                        # Check if this directory contains installer YAML files
+                        installer_yaml = item / f"{package_name}.installer.yaml"
+                        if installer_yaml.exists():
+                            version_dirs.append(item.name)
+            except (OSError, PermissionError):
+                # Skip packages with permission issues
+                pass
+            return version_dirs
+        
+        loop = asyncio.get_event_loop()
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            return await loop.run_in_executor(executor, _scan_sync)
+
+    async def _process_installer_yaml_async(self, yaml_path: Path, package_name: str) -> None:
+        """Async processing of installer YAML file.
+        
+        Args:
+            yaml_path: Path to installer YAML file
+            package_name: Package identifier
+        """
+        try:
+            data = await self.process_yaml_file_async(yaml_path)
+            if data and "Installers" in data:
+                urls = []
+                count = 0
+                
+                for installer in data["Installers"]:
+                    if "InstallerUrl" in installer:
+                        # Clean URL and add to list
+                        url = installer["InstallerUrl"].replace("%2B", "+")
+                        urls.append(url)
+                        count += 1
+
+                if urls:
+                    # Store package metadata (thread-safe)
+                    if self._data_lock:
+                        async with self._data_lock:
+                            self.latest_urls[package_name] = urls
+                            self.package_downloads[package_name] = count
+                            
+                            # Initialize version patterns set if not exists
+                            if package_name not in self.version_patterns:
+                                self.version_patterns[package_name] = set()
+                            
+                            # Add patterns for all versions
+                            for version in self.package_versions[package_name]:
+                                pattern = VersionPatternDetector.determine_version_pattern(version)
+                                self.version_patterns[package_name].add(pattern)
+                            
+                            # Extract and store arch-ext pairs
+                            self.arch_ext_pairs[package_name] = self.extract_arch_ext_pairs(urls)
+                    else:
+                        # Fallback for sync mode
+                        self.latest_urls[package_name] = urls
+                        self.package_downloads[package_name] = count
+                        
+                        if package_name not in self.version_patterns:
+                            self.version_patterns[package_name] = set()
+                        
+                        for version in self.package_versions[package_name]:
+                            pattern = VersionPatternDetector.determine_version_pattern(version)
+                            self.version_patterns[package_name].add(pattern)
+                        
+                        self.arch_ext_pairs[package_name] = self.extract_arch_ext_pairs(urls)
+                        
+        except Exception as yaml_error:
+            logging.debug(f"Error processing YAML for {package_name}: {yaml_error}")
+
+    async def _async_iterdir(self, path: Path):
+        """Async directory iteration using thread pool.
+        
+        Args:
+            path: Directory path to iterate
+            
+        Yields:
+            Directory items
+        """
+        def _list_dir():
+            try:
+                return list(path.iterdir())
+            except (OSError, PermissionError):
+                return []
+        
+        loop = asyncio.get_event_loop()
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            items = await loop.run_in_executor(executor, _list_dir)
+            for item in items:
+                yield item
+
+    async def _is_dir_async(self, path: Path) -> bool:
+        """Async directory check using thread pool.
+        
+        Args:
+            path: Path to check
+            
+        Returns:
+            True if path is a directory
+        """
+        loop = asyncio.get_event_loop()
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            return await loop.run_in_executor(executor, path.is_dir)
+
+    async def _scan_letter_directory_async(self, first_letter_dir: Path) -> List[List[str]]:
+        """Async scanning of a first-letter directory.
+        
+        Args:
+            first_letter_dir: Directory for packages starting with a specific letter
+            
+        Returns:
+            List of package name parts
+        """
+        package_names = []
+        
+        async for package_dir in self._async_iterdir(first_letter_dir):
+            if await self._is_dir_async(package_dir):
+                async for package_name_dir in self._async_iterdir(package_dir):
+                    if await self._is_dir_async(package_name_dir):
+                        # Check if this directory contains version subdirectories
+                        has_versions = False
+                        async for item in self._async_iterdir(package_name_dir):
+                            if await self._is_dir_async(item):
+                                has_versions = True
+                                break
+                        
+                        if has_versions:
+                            # Extract package name from path
+                            relative_path = package_name_dir.relative_to(first_letter_dir.parent)
+                            parts = str(relative_path).split(os.sep)
+                            
+                            # Skip single-letter directory and reconstruct package name
+                            if len(parts) >= 2:
+                                package_name_parts = parts[1:]  # Skip first letter directory
+                                # Handle nested package structures
+                                if len(package_name_parts) > 1:
+                                    # Multiple parts mean nested structure like Microsoft/VSCode
+                                    package_names.append(package_name_parts)
+                                else:
+                                    # Single part, split by dots if it's a dotted package name
+                                    package_name = package_name_parts[0]
+                                    package_names.append(package_name.split('.'))
+        
+        return package_names
+
+    async def get_package_names_from_structure_async(self) -> List[List[str]]:
+        """Async version of directory structure scanning.
+        
+        Returns:
+            List of package name parts for efficient processing
+            
+        Raises:
+            PackageProcessingError: If directory scanning fails
+        """
+        try:
+            package_names = []
+            manifests_path = self.get_winget_path() / "manifests"
+            
+            if not manifests_path.exists():
+                logging.warning(f"Manifests path not found: {manifests_path}")
+                return []
+            
+            logging.info("Extracting package names from directory structure asynchronously...")
+            
+            # Scan all first-letter directories concurrently
+            tasks = []
+            async for first_letter_dir in self._async_iterdir(manifests_path):
+                if await self._is_dir_async(first_letter_dir):
+                    task = self._scan_letter_directory_async(first_letter_dir)
+                    tasks.append(task)
+            
+            # Wait for all directory scans to complete
+            results = await asyncio.gather(*tasks, return_exceptions=True)
+            
+            # Collect results
+            for result in results:
+                if isinstance(result, Exception):
+                    logging.warning(f"Error scanning directory: {result}")
+                else:
+                    package_names.extend(result)
+            
+            logging.info(f"Found {len(package_names)} packages from directory structure (async)")
+            return package_names
+            
+        except Exception as e:
+            raise PackageProcessingError(f"Failed to extract package names from structure (async): {str(e)}")
+
+    async def process_package_async(self, package_parts: List[str]) -> None:
+        """Async version of package processing.
+        
+        Args:
+            package_parts: List of package name parts
+            
+        Raises:
+            PackageProcessingError: If package processing fails
+        """
+        package_name = None
+        try:
+            # Use semaphore if available, otherwise process directly
+            if self.semaphore:
+                async with self.semaphore:
+                    await self._process_single_package_async(package_parts)
+            else:
+                await self._process_single_package_async(package_parts)
+
+        except Exception as e:
+            package_name = ".".join(package_parts) if package_parts else "unknown"
+            logging.warning(f"Error processing package {package_name}: {e}")
+            # Don't raise exception to continue processing other packages
+
+    async def _process_single_package_async(self, package_parts: List[str]) -> None:
+        """Internal async processing method for a single package."""
+        package_path = self.get_package_path(package_parts)
+        if not package_path or not package_path.exists():
+            return
+
+        package_name = ".".join(package_parts)
+        
+        # Async directory scanning
+        version_dirs = await self._scan_version_dirs_async(package_path, package_name)
+        if not version_dirs:
+            return
+
+        # Store all versions (thread-safe)
+        if self._data_lock:
+            async with self._data_lock:
+                self.package_versions[package_name] = set(version_dirs)
+        else:
+            self.package_versions[package_name] = set(version_dirs)
+
+        # Find latest version efficiently
+        def version_key(v):
+            # Optimized version sorting
+            parts = re.split(r'([0-9]+)', v)
+            return [int(p) if p.isdigit() else p for p in parts]
+
+        try:
+            latest_version = max(version_dirs, key=version_key)
+        except (ValueError, TypeError):
+            # Fallback to string sorting if version parsing fails
+            latest_version = max(version_dirs)
+            
+        if self._data_lock:
+            async with self._data_lock:
+                self.latest_version_map[package_name] = latest_version
+        else:
+            self.latest_version_map[package_name] = latest_version
+
+        # Process installer YAML asynchronously
+        yaml_path = package_path / latest_version / f"{package_name}.installer.yaml"
+        if yaml_path.exists():
+            await self._process_installer_yaml_async(yaml_path, package_name)
+
+    async def process_packages_in_batches_async(self, package_names_list: List[List[str]]) -> None:
+        """Process packages in async batches for better memory management.
+        
+        Args:
+            package_names_list: List of package name parts to process
+        """
+        batch_size = self.config.batch_size
+        total_batches = (len(package_names_list) + batch_size - 1) // batch_size
+        
+        for i in range(0, len(package_names_list), batch_size):
+            batch = package_names_list[i:i + batch_size]
+            batch_num = i // batch_size + 1
+            
+            logging.info(f"Processing async batch {batch_num}/{total_batches} ({len(batch)} packages)")
+            start_time = time.time()
+            
+            # Process batch asynchronously
+            tasks = [self.process_package_async(parts) for parts in batch]
+            await asyncio.gather(*tasks, return_exceptions=True)
+            
+            elapsed = time.time() - start_time
+            logging.info(f"Batch {batch_num} completed in {elapsed:.2f}s")
+            
+            # Optional: Clear intermediate data to manage memory
+            if batch_num % 10 == 0:  # Every 10 batches
+                gc.collect()
+
+    async def _save_dataframe_async(self, df: pl.DataFrame, output_file: str) -> None:
+        """Async version of dataframe saving.
+        
+        Args:
+            df: Polars DataFrame to save
+            output_file: Output file name
+        """
+        def _save_sync():
+            self.save_dataframe(df, output_file)
+        
+        loop = asyncio.get_event_loop()
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            await loop.run_in_executor(executor, _save_sync)
+
+    async def process_files_async(self) -> None:
+        """Async file processing workflow.
+        
+        This method provides significantly improved performance through:
+        - Concurrent file I/O operations
+        - Async directory traversal
+        - Controlled concurrency with semaphores
+        - Batch processing for memory management
+        
+        Raises:
+            PackageProcessingError: If processing fails
+        """
+        try:
+            # Initialize async structures in event loop context
+            self._init_async_structures()
+            
+            logging.info("Starting async package processing workflow...")
+            start_time = time.time()
+            
+            # Get package names asynchronously
+            package_names_list = await self.get_package_names_from_structure_async()
+            if not package_names_list:
+                logging.warning("No packages found in directory structure")
+                return
+            
+            logging.info(f"Processing {len(package_names_list)} packages asynchronously...")
+            
+            # Process packages in async batches
+            await self.process_packages_in_batches_async(package_names_list)
+            
+            # Create and save analysis dataframe
+            analysis_df = self.create_analysis_dataframe()
+            if not analysis_df.is_empty():
+                await self._save_dataframe_async(analysis_df, self.config.output_analysis_file)
+                logging.info(f"Saved analysis data with {len(analysis_df)} packages")
+            else:
+                logging.warning("No package data to save")
+            
+            end_time = time.time()
+            processing_time = end_time - start_time
+            logging.info(f"Async processing completed in {processing_time:.2f} seconds")
+            logging.info(f"Processed {len(self.package_versions)} valid packages")
+            
+        except Exception as e:
+            raise PackageProcessingError(f"Error in async file processing: {str(e)}")
+
+    # End of Async Methods
 
     def get_package_names_from_structure(self) -> List[List[str]]:
         """Extract package names directly from directory structure.
@@ -576,7 +992,23 @@ class PackageProcessor(YAMLProcessorBase):
             return pl.DataFrame()
 
     def process_files(self) -> None:
-        """Optimized file processing workflow.
+        """Optimized file processing workflow with async support.
+        
+        This method chooses between async and sync processing based on configuration.
+        Async processing provides significantly better performance for I/O bound operations.
+        
+        Raises:
+            PackageProcessingError: If processing fails
+        """
+        if self.config.use_async:
+            # Use async processing for better performance
+            asyncio.run(self.process_files_async())
+        else:
+            # Fallback to sync processing
+            self.process_files_sync()
+
+    def process_files_sync(self) -> None:
+        """Synchronous file processing workflow (legacy).
         
         This method directly processes packages without creating intermediate manifest files,
         making the process more efficient and reducing memory usage.
@@ -585,7 +1017,7 @@ class PackageProcessor(YAMLProcessorBase):
             PackageProcessingError: If processing fails
         """
         try:
-            logging.info("Starting optimized package processing workflow...")
+            logging.info("Starting synchronous package processing workflow...")
             start_time = time.time()
             
             # Get package names directly from directory structure
@@ -609,11 +1041,11 @@ class PackageProcessor(YAMLProcessorBase):
             
             end_time = time.time()
             processing_time = end_time - start_time
-            logging.info(f"Optimized processing completed in {processing_time:.2f} seconds")
+            logging.info(f"Synchronous processing completed in {processing_time:.2f} seconds")
             logging.info(f"Processed {len(self.package_versions)} valid packages")
             
         except Exception as e:
-            raise PackageProcessingError(f"Error in optimized file processing: {str(e)}")
+            raise PackageProcessingError(f"Error in synchronous file processing: {str(e)}")
 
     def process_files_legacy(self) -> None:
         """Legacy file processing method (kept for backward compatibility).
@@ -660,32 +1092,37 @@ class PackageProcessor(YAMLProcessorBase):
         return Path(self.config.winget_repo_path)
 
 
-def main():
-    """Main entry point for optimized package processing.
+async def main_async():
+    """Async main entry point for optimized package processing.
     
-    This optimized version:
-    - Processes packages directly from directory structure
-    - Eliminates PackageNames.csv generation (redundant with AllPackageInfo.csv)
-    - Provides performance metrics
-    - Uses efficient memory management
+    This async version provides significantly better performance through:
+    - Concurrent I/O operations
+    - Async directory traversal
+    - Controlled concurrency with semaphores
+    - Efficient memory management
     """
     try:
         start_time = time.time()
-        logging.info("Starting optimized PackageProcessor...")
+        logging.info("Starting async PackageProcessor...")
         
         # Load configuration and create processor
         processor = PackageProcessor()
         
-        # Run optimized processing workflow
-        processor.process_files()
+        # Run async processing workflow if enabled
+        if processor.config.use_async:
+            await processor.process_files_async()
+        else:
+            processor.process_files_sync()
         
         # Display performance statistics
         stats = processor.get_processing_stats()
         end_time = time.time()
         total_time = end_time - start_time
         
+        processing_mode = "async" if processor.config.use_async else "sync"
+        
         logging.info("=" * 60)
-        logging.info("PROCESSING COMPLETED SUCCESSFULLY")
+        logging.info(f"PROCESSING COMPLETED SUCCESSFULLY ({processing_mode.upper()})")
         logging.info("=" * 60)
         logging.info(f"Total processing time: {total_time:.2f} seconds")
         logging.info(f"Packages processed: {stats['total_packages_found']}")
@@ -694,6 +1131,13 @@ def main():
         logging.info(f"Total version patterns detected: {stats['total_version_patterns']}")
         logging.info(f"Average processing time per package: {total_time/max(stats['total_packages_found'], 1):.3f}s")
         
+        # Performance improvements notice
+        if processor.config.use_async:
+            logging.info(f"\n🚀 Performance Enhancement: Async processing enabled")
+            logging.info(f"   • Concurrent file I/O operations")
+            logging.info(f"   • Max concurrent files: {processor.config.max_concurrent_files}")
+            logging.info(f"   • Batch size: {processor.config.batch_size}")
+        
         # Key outputs
         logging.info("\n📄 Key Output Files:")
         logging.info("  • AllPackageInfo.csv - Complete package analysis data")
@@ -701,7 +1145,63 @@ def main():
         logging.info("💡 Note: OpenPRs functionality will be implemented in GitHub.py")
         
     except Exception as e:
-        logging.error(f"Optimized processing failed: {e}")
+        logging.error(f"Async processing failed: {e}")
+        logging.error("You can try disabling async processing in configuration if needed")
+        raise
+
+
+def main():
+    """Main entry point for optimized package processing.
+    
+    This optimized version:
+    - Supports both async and synchronous processing
+    - Processes packages directly from directory structure
+    - Eliminates PackageNames.csv generation (redundant with AllPackageInfo.csv)
+    - Provides performance metrics
+    - Uses efficient memory management
+    """
+    try:
+        # Check if async processing should be used
+        config = get_config()
+        use_async = config.get('package_processing', {}).get('use_async', True)
+        
+        if use_async:
+            # Run async main function
+            asyncio.run(main_async())
+        else:
+            # Run synchronous version
+            start_time = time.time()
+            logging.info("Starting synchronous PackageProcessor...")
+            
+            # Load configuration and create processor
+            processor = PackageProcessor()
+            
+            # Run synchronous processing workflow
+            processor.process_files_sync()
+            
+            # Display performance statistics
+            stats = processor.get_processing_stats()
+            end_time = time.time()
+            total_time = end_time - start_time
+            
+            logging.info("=" * 60)
+            logging.info("PROCESSING COMPLETED SUCCESSFULLY (SYNC)")
+            logging.info("=" * 60)
+            logging.info(f"Total processing time: {total_time:.2f} seconds")
+            logging.info(f"Packages processed: {stats['total_packages_found']}")
+            logging.info(f"Packages with URLs: {stats['packages_with_urls']}")
+            logging.info(f"Packages with architecture data: {stats['packages_with_arch_ext']}")
+            logging.info(f"Total version patterns detected: {stats['total_version_patterns']}")
+            logging.info(f"Average processing time per package: {total_time/max(stats['total_packages_found'], 1):.3f}s")
+            
+            # Key outputs
+            logging.info("\n📄 Key Output Files:")
+            logging.info("  • AllPackageInfo.csv - Complete package analysis data")
+            logging.info("\n💡 Note: PackageNames.csv is no longer generated (package names are in AllPackageInfo.csv)")
+            logging.info("💡 Note: OpenPRs functionality will be implemented in GitHub.py")
+        
+    except Exception as e:
+        logging.error(f"Processing failed: {e}")
         logging.error("You can try the legacy processing method if needed")
         raise
 

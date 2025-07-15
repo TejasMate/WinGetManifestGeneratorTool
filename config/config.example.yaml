@@ -25,6 +25,8 @@ package_processing:
   output_directory: "data"
   batch_size: 100
   max_workers: 4
+  max_concurrent_files: 200  # For async operations
+  use_async: true  # Enable async processing for better performance
   timeout: 300
   file_patterns:
     - "*.installer.yaml"

@@ -24,8 +24,10 @@ github:
 package_processing:
   winget_repo_path: "winget-pkgs"
   output_directory: "data"
-  batch_size: 100
-  max_workers: 4
+  batch_size: 1000
+  max_workers: 32
+  max_concurrent_files: 1500  # For async operations
+  use_async: true  # Enable async processing for better performance
   timeout: 300
   file_patterns:
     - "*.installer.yaml"
