@@ -363,45 +363,10 @@ class PackageProcessor(YAMLProcessorBase):
             return await loop.run_in_executor(executor, path.is_dir)
 
     async def _scan_letter_directory_async(self, first_letter_dir: Path) -> List[List[str]]:
-        """Async scanning of a first-letter directory.
-        
-        Args:
-            first_letter_dir: Directory for packages starting with a specific letter
-            
-        Returns:
-            List of package name parts
-        """
-        package_names = []
-        
-        async for package_dir in self._async_iterdir(first_letter_dir):
-            if await self._is_dir_async(package_dir):
-                async for package_name_dir in self._async_iterdir(package_dir):
-                    if await self._is_dir_async(package_name_dir):
-                        # Check if this directory contains version subdirectories
-                        has_versions = False
-                        async for item in self._async_iterdir(package_name_dir):
-                            if await self._is_dir_async(item):
-                                has_versions = True
-                                break
-                        
-                        if has_versions:
-                            # Extract package name from path
-                            relative_path = package_name_dir.relative_to(first_letter_dir.parent)
-                            parts = str(relative_path).split(os.sep)
-                            
-                            # Skip single-letter directory and reconstruct package name
-                            if len(parts) >= 2:
-                                package_name_parts = parts[1:]  # Skip first letter directory
-                                # Handle nested package structures
-                                if len(package_name_parts) > 1:
-                                    # Multiple parts mean nested structure like Microsoft/VSCode
-                                    package_names.append(package_name_parts)
-                                else:
-                                    # Single part, split by dots if it's a dotted package name
-                                    package_name = package_name_parts[0]
-                                    package_names.append(package_name.split('.'))
-        
-        return package_names
+        """Async scanning of a first-letter directory."""
+        return await asyncio.get_event_loop().run_in_executor(
+            None, self._find_packages_recursive, first_letter_dir, first_letter_dir
+        )
 
     async def get_package_names_from_structure_async(self) -> List[List[str]]:
         """Async version of directory structure scanning.
@@ -600,6 +565,33 @@ class PackageProcessor(YAMLProcessorBase):
 
     # End of Async Methods
 
+    def _find_packages_recursive(self, current_dir: Path, root_dir: Path) -> List[List[str]]:
+        """Recursively find package directories."""
+        package_names = []
+        
+        # Heuristic: If a directory contains subdirectories and at least one of them
+        # has an installer YAML for the potential package, it's a package folder.
+        potential_package_name = ".".join(current_dir.relative_to(root_dir.parent).parts[1:])
+        
+        is_package_dir = False
+        if potential_package_name:
+            for item in current_dir.iterdir():
+                if item.is_dir():
+                    installer_yaml = item / f"{potential_package_name}.installer.yaml"
+                    if installer_yaml.exists():
+                        is_package_dir = True
+                        break
+        
+        if is_package_dir:
+            package_names.append(potential_package_name.split('.'))
+        else:
+            # If it's not a package dir, recurse into its subdirectories
+            for item in current_dir.iterdir():
+                if item.is_dir():
+                    package_names.extend(self._find_packages_recursive(item, root_dir))
+                    
+        return package_names
+
     def get_package_names_from_structure(self) -> List[List[str]]:
         """Extract package names directly from directory structure.
         
@@ -621,37 +613,8 @@ class PackageProcessor(YAMLProcessorBase):
             
             # Walk through manifests directory structure efficiently
             for first_letter_dir in manifests_path.iterdir():
-                if not first_letter_dir.is_dir():
-                    continue
-                    
-                for package_dir in first_letter_dir.iterdir():
-                    if not package_dir.is_dir():
-                        continue
-                        
-                    # Navigate through package hierarchy to find actual packages
-                    for package_name_dir in package_dir.iterdir():
-                        if not package_name_dir.is_dir():
-                            continue
-                            
-                        # Check if this directory contains version subdirectories
-                        version_dirs = [d for d in package_name_dir.iterdir() if d.is_dir()]
-                        if version_dirs:
-                            # This is a package directory
-                            # Extract package name from path
-                            relative_path = package_name_dir.relative_to(manifests_path)
-                            parts = str(relative_path).split(os.sep)
-                            
-                            # Skip single-letter directory and reconstruct package name
-                            if len(parts) >= 2:
-                                package_name_parts = parts[1:]  # Skip first letter directory
-                                # Handle nested package structures
-                                if len(package_name_parts) > 1:
-                                    # Multiple parts mean nested structure like Microsoft/VSCode
-                                    package_names.append(package_name_parts)
-                                else:
-                                    # Single part, split by dots if it's a dotted package name
-                                    package_name = package_name_parts[0]
-                                    package_names.append(package_name.split('.'))
+                if first_letter_dir.is_dir():
+                    package_names.extend(self._find_packages_recursive(first_letter_dir, first_letter_dir))
             
             logging.info(f"Found {len(package_names)} packages from directory structure")
             return package_names
@@ -672,9 +635,9 @@ class PackageProcessor(YAMLProcessorBase):
             name = file_path.stem.replace(".installer", "")
             parts = name.split(".")
 
-            if len(set(parts)) == 1:
-                return
-
+            # The check `if len(set(parts)) == 1: return` was removed
+            # as it incorrectly filtered out valid package identifiers.
+            
             padded_parts = parts[: self.max_dots + 1] + [""] * (
                 self.max_dots + 1 - len(parts)
             )
