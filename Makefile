@@ -119,3 +119,69 @@ info: ## Show project information
 	@echo "Package: $(PACKAGE_NAME)"
 	@echo "Python: $(shell $(PYTHON) --version)"
 	@echo "Location: $(shell pwd)"
+
+# Workflow execution targets
+run-all: ## Run complete workflow (all 3 steps)
+	@echo "$(BOLD)$(GREEN)Running complete WinGet workflow...$(RESET)"
+	$(PYTHON) get_started.py --all
+
+run-step1: ## Run Step 1: Package Processing
+	@echo "$(BOLD)$(BLUE)Running Step 1: Package Processing...$(RESET)"
+	$(PYTHON) get_started.py --step 1
+
+run-step2: ## Run Step 2: GitHub Analysis  
+	@echo "$(BOLD)$(BLUE)Running Step 2: GitHub Analysis...$(RESET)"
+	$(PYTHON) get_started.py --step 2
+
+run-step3: ## Run Step 3: Komac Generation
+	@echo "$(BOLD)$(BLUE)Running Step 3: Komac Generation...$(RESET)"
+	$(PYTHON) get_started.py --step 3
+
+# Legacy workflow targets  
+run-legacy: ## Run traditional sequential workflow
+	@echo "$(BOLD)$(YELLOW)Running legacy workflow...$(RESET)"
+	cd src && $(PYTHON) PackageProcessor.py
+	cd src && $(PYTHON) GitHub.py  
+	cd src && $(PYTHON) KomacCommandsGenerator.py
+
+# Individual component targets
+run-processor: ## Run PackageProcessor only
+	@echo "$(BOLD)$(BLUE)Running PackageProcessor...$(RESET)"
+	cd src && $(PYTHON) PackageProcessor.py
+
+run-github: ## Run GitHub analysis only
+	@echo "$(BOLD)$(BLUE)Running GitHub analysis...$(RESET)"
+	cd src && $(PYTHON) GitHub.py
+
+run-komac: ## Run Komac generation only  
+	@echo "$(BOLD)$(BLUE)Running Komac generation...$(RESET)"
+	cd src && $(PYTHON) KomacCommandsGenerator.py
+
+# Enhanced filtering targets
+test-filter: ## Test enhanced filtering with sample data
+	@echo "$(BOLD)$(GREEN)Testing enhanced filtering...$(RESET)"
+	cd src/github && $(PYTHON) Filter.py
+
+demo-filter: ## Run filtering demo
+	@echo "$(BOLD)$(GREEN)Running filtering demonstration...$(RESET)"
+	$(PYTHON) -c "import sys; sys.path.append('src'); from github.Filter import process_filters; process_filters('test_data/test_input.csv', 'test_data/output')"
+
+# Setup and maintenance targets
+setup-env: ## Set up environment file
+	@if [ ! -f .env ]; then \
+		echo "$(YELLOW)Creating .env file from example...$(RESET)"; \
+		cp .env.example .env 2>/dev/null || echo "GITHUB_TOKEN=your_token_here" > .env; \
+		echo "$(GREEN)Please edit .env file with your GitHub token$(RESET)"; \
+	else \
+		echo "$(GREEN).env file already exists$(RESET)"; \
+	fi
+
+check-config: ## Verify configuration
+	@echo "$(BOLD)$(BLUE)Checking configuration...$(RESET)"
+	$(PYTHON) -c "from src.config import get_config; print('✅ Configuration loaded successfully')"
+
+clean-output: ## Clean output directories
+	@echo "$(BOLD)$(YELLOW)Cleaning output directories...$(RESET)"
+	rm -rf data/github/*.csv data/github/*.txt data/github/*.md
+	rm -rf test_data/output/*
+	@echo "$(GREEN)Output directories cleaned$(RESET)"

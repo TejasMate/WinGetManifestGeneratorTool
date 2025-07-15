@@ -5,6 +5,7 @@ import yaml
 import re
 import time
 import requests
+import os
 from pathlib import Path
 from typing import Dict, List, Optional, Set, Tuple, Union
 from dataclasses import dataclass
@@ -52,38 +53,11 @@ logging.basicConfig(
 
 
 @dataclass
-class GitHubConfig:
-    """Configuration for GitHub API interactions.
-
-    Attributes:
-        token: GitHub API token for authentication
-        base_url: Base URL for GitHub API (default: https://api.github.com)
-        per_page: Number of items per page for paginated requests
-    """
-
-    token: str
-    base_url: str = "https://api.github.com"
-    per_page: int = 100
-
-    @classmethod
-    def from_config(cls, config: dict, token: str):
-        """Create GitHubConfig from configuration dictionary."""
-        github_config = config.get('github', {})
-        return cls(
-            token=token,
-            base_url=github_config.get('api_url', 'https://api.github.com'),
-            per_page=github_config.get('per_page', 100)
-        )
-
-
-@dataclass
 class ProcessingConfig(BaseConfig):
     """Configuration for package processing operations.
 
     Attributes:
-        output_manifest_file: Name of the output file for package manifests
         output_analysis_file: Name of the output file for package analysis
-        open_prs_file: Name of the output file for open pull requests
         winget_repo_path: Path to WinGet repository
         output_directory: Directory for output files
         batch_size: Batch size for processing
@@ -91,9 +65,7 @@ class ProcessingConfig(BaseConfig):
         timeout: Timeout for operations
     """
 
-    output_manifest_file: str = "PackageNames.csv"
     output_analysis_file: str = "AllPackageInfo.csv"
-    open_prs_file: str = "OpenPRs.csv"
     winget_repo_path: str = "winget-pkgs"
     output_directory: str = "data"
     batch_size: int = 100
@@ -119,12 +91,11 @@ class PackageProcessor(YAMLProcessorBase):
     This class is responsible for:
     - Scanning and parsing WinGet package manifest files
     - Extracting package information and version patterns
-    - Analyzing GitHub URLs and repository information
+    - Analyzing package URLs and metadata
     - Generating structured data outputs for further processing
 
     Attributes:
-        token_manager: Manages GitHub API tokens
-        github_config: Configuration for GitHub API interactions
+        token_manager: Manages GitHub API tokens (for future GitHub.py integration)
         unique_rows: Set of unique package identifier rows
         max_dots: Maximum number of dots in package identifiers
         package_versions: Map of package IDs to their versions
@@ -146,7 +117,6 @@ class PackageProcessor(YAMLProcessorBase):
 
         Raises:
             ConfigurationError: If configuration is invalid
-            TokenManagerError: If GitHub tokens cannot be loaded
         """
         try:
             # Load configuration from config system if not provided
@@ -156,11 +126,9 @@ class PackageProcessor(YAMLProcessorBase):
             
             super().__init__(config)
             
-            # Load configuration and setup GitHub
+            # Load configuration
             self.app_config = get_config()
             self.token_manager = TokenManager(self.app_config)
-            self.github_config = None
-            self._init_github_config()
 
             # Manifest processing attributes
             self.unique_rows: Set[Tuple[str, ...]] = set()
@@ -194,19 +162,86 @@ class PackageProcessor(YAMLProcessorBase):
         except Exception as e:
             raise ConfigurationError(f"Failed to initialize PackageProcessor: {str(e)}")
 
-    def _init_github_config(self) -> None:
-        """Initialize GitHub configuration with an available token.
+    def get_processing_stats(self) -> Dict[str, int]:
+        """Get processing statistics for monitoring performance.
+        
+        Returns:
+            Dictionary containing processing statistics
+        """
+        return {
+            "total_packages_found": len(self.package_versions),
+            "packages_with_urls": len(self.latest_urls),
+            "packages_with_arch_ext": len([p for p in self.arch_ext_pairs.values() if p]),
+            "total_version_patterns": sum(len(patterns) for patterns in self.version_patterns.values()),
+            "packages_with_downloads": len(self.package_downloads)
+        }
 
+    def get_winget_path(self) -> Path:
+        """Get the path to the WinGet repository.
+        
+        Returns:
+            Path to the WinGet repository
+        """
+        return Path(self.config.winget_repo_path)
+
+    def get_package_names_from_structure(self) -> List[List[str]]:
+        """Extract package names directly from directory structure.
+        
+        Returns:
+            List of package name parts for efficient processing
+            
         Raises:
-            GitHubAPIError: If no GitHub tokens are available
+            PackageProcessingError: If directory scanning fails
         """
         try:
-            token = self.token_manager.get_available_token()
-            if not token:
-                raise GitHubAPIError("No GitHub tokens available for configuration")
-            self.github_config = GitHubConfig.from_config(self.app_config, token)
+            package_names = []
+            manifests_path = self.get_winget_path() / "manifests"
+            
+            if not manifests_path.exists():
+                logging.warning(f"Manifests path not found: {manifests_path}")
+                return []
+            
+            logging.info("Extracting package names from directory structure...")
+            
+            # Walk through manifests directory structure efficiently
+            for first_letter_dir in manifests_path.iterdir():
+                if not first_letter_dir.is_dir():
+                    continue
+                    
+                for package_dir in first_letter_dir.iterdir():
+                    if not package_dir.is_dir():
+                        continue
+                        
+                    # Navigate through package hierarchy to find actual packages
+                    for package_name_dir in package_dir.iterdir():
+                        if not package_name_dir.is_dir():
+                            continue
+                            
+                        # Check if this directory contains version subdirectories
+                        version_dirs = [d for d in package_name_dir.iterdir() if d.is_dir()]
+                        if version_dirs:
+                            # This is a package directory
+                            # Extract package name from path
+                            relative_path = package_name_dir.relative_to(manifests_path)
+                            parts = str(relative_path).split(os.sep)
+                            
+                            # Skip single-letter directory and reconstruct package name
+                            if len(parts) >= 2:
+                                package_name_parts = parts[1:]  # Skip first letter directory
+                                # Handle nested package structures
+                                if len(package_name_parts) > 1:
+                                    # Multiple parts mean nested structure like Microsoft/VSCode
+                                    package_names.append(package_name_parts)
+                                else:
+                                    # Single part, split by dots if it's a dotted package name
+                                    package_name = package_name_parts[0]
+                                    package_names.append(package_name.split('.'))
+            
+            logging.info(f"Found {len(package_names)} packages from directory structure")
+            return package_names
+            
         except Exception as e:
-            raise GitHubAPIError(f"Failed to initialize GitHub configuration: {str(e)}")
+            raise PackageProcessingError(f"Failed to extract package names from structure: {str(e)}")
 
     def process_manifest_file(self, file_path: Path) -> None:
         """Process a single manifest file and extract package information.
@@ -366,74 +401,10 @@ class PackageProcessor(YAMLProcessorBase):
             column_names = [f"column_{i}" for i in range(self.max_dots + 1)]
             data_dict = {name: [] for name in column_names}
 
-            for row in self.unique_rows:
-                for i, value in enumerate(row):
-                    data_dict[column_names[i]].append(value)
-
             return pl.DataFrame(data_dict)
         except Exception as e:
             logging.error(f"Error creating manifest dataframe: {e}")
             return pl.DataFrame()
-
-    def extract_arch_ext_pairs(self, urls: List[str]) -> str:
-        pairs = []
-        logging.info(f"Processing {len(urls)} URLs for architecture-extension pairs")
-        for url in urls:
-            url_lower = url.lower().strip()
-            logging.info(f"\nProcessing URL: {url_lower}")
-
-            # Find extension
-            ext_match = None
-            for ext in self.extensions:
-                if url_lower.endswith(f".{ext}"):
-                    ext_match = ext
-                    logging.info(f"Found extension: {ext_match}")
-                    break
-
-            if not ext_match:
-                logging.info(f"No valid extension found in URL: {url_lower}")
-                continue
-
-            # Find architecture
-            arch_match = None
-            logging.info(f"Searching for architecture patterns in: {url_lower}")
-            for arch in self.architectures:
-                logging.info(f"Checking architecture pattern: {arch}")
-                pattern = None
-                if arch in ["aarch64", "x86_64", "x86-64"]:
-                    pattern = (
-                        f"[^a-z0-9]({arch})[^a-z0-9]|[_.-]({arch})[_.-]|[_.-]({arch})$"
-                    )
-                elif arch == "x86_x64":
-                    pattern = f"(x86_x64|x86[_.-]x64|x86[-_.]64)"
-                elif arch == "x86only":
-                    pattern = "(x86only|x86[_.-]only)"
-                elif arch in ["32", "64"]:
-                    pattern = f"(installer[-]?{arch}|{arch}[-]?bit|x{arch}|[_.-]{arch})[_.-]|[_.-](installer[-]?{arch}|{arch}[-]?bit|x{arch}|{arch})$|[^a-z0-9]x{arch}[^a-z0-9]"
-                elif arch in ["installer32", "installer64", "shared-32", "shared-64"]:
-                    base = arch.split("-")[0] if "-" in arch else arch[:-2]
-                    num = arch[-2:]
-                    pattern = f"({base}[-]?{num}|{base}[_.-]{num})"
-                else:
-                    pattern = f"[^a-z0-9]({arch})[^a-z0-9]|[_.-]({arch})[_.-]|[_.-]({arch})$|[^a-z0-9]{arch}[^a-z0-9]"
-
-                if re.search(pattern, url_lower):
-                    arch_match = arch
-                    logging.info(
-                        f"Found architecture {arch_match} using pattern: {pattern}"
-                    )
-                    break
-
-            if not arch_match:
-                logging.info("No architecture pattern matched")
-
-            pair = f'{arch_match or "NA"}-{ext_match}'
-            logging.info(f"Adding pair: {pair}")
-            pairs.append(pair)
-
-        result = ",".join(sorted(set(pairs))) if pairs else ""
-        logging.info(f"Final arch-ext pairs: {result}")
-        return result
 
     def count_download_urls(self, yaml_path: Path, package_name: str) -> int:
         try:
@@ -464,91 +435,103 @@ class PackageProcessor(YAMLProcessorBase):
             return 0
 
     def process_package(self, package_parts: List[str]) -> None:
+        """Optimized package processing method.
+        
+        Args:
+            package_parts: List of package name parts
+            
+        Raises:
+            PackageProcessingError: If package processing fails
+        """
+        package_name = None
         try:
             package_path = self.get_package_path(package_parts)
             if not package_path or not package_path.exists():
                 return
 
             package_name = ".".join(package_parts)
-            all_dirs = [d.name for d in package_path.iterdir() if d.is_dir()]
-            if not all_dirs:
+            
+            # Quick check for version directories
+            version_dirs = []
+            try:
+                for item in package_path.iterdir():
+                    if item.is_dir():
+                        version_path = item
+                        # Check if this directory contains installer YAML files
+                        installer_yaml = version_path / f"{package_name}.installer.yaml"
+                        if installer_yaml.exists():
+                            version_dirs.append(item.name)
+            except (OSError, PermissionError):
+                # Skip packages with permission issues
+                return
+
+            if not version_dirs:
                 return
 
             # Store all versions
-            valid_version_dirs = []
-            for version_dir in all_dirs:
-                version_path = package_path / version_dir
-                # Check if this directory contains any YAML files and no subdirectories with YAML files
-                yaml_files = [f for f in version_path.glob("*.yaml") if f.is_file()]
-                subdirs_with_yaml = any(
-                    any(f.is_file() and f.suffix == ".yaml" for f in d.iterdir())
-                    for d in version_path.iterdir()
-                    if d.is_dir()
-                )
-                if bool(yaml_files) and not subdirs_with_yaml:
-                    valid_version_dirs.append(version_dir)
+            self.package_versions[package_name] = set(version_dirs)
 
-            if not valid_version_dirs:
-                return
-
-            self.package_versions[package_name] = set(valid_version_dirs)
-
-            # Modified version comparison to preserve trailing zeros
+            # Find latest version efficiently
             def version_key(v):
-                parts = re.split("([0-9]+)", v)
-                return [p if not p.isdigit() else p.zfill(10) for p in parts]
+                # Optimized version sorting
+                parts = re.split(r'([0-9]+)', v)
+                return [int(p) if p.isdigit() else p for p in parts]
 
-            latest_version = max(valid_version_dirs, key=version_key)
+            try:
+                latest_version = max(version_dirs, key=version_key)
+            except (ValueError, TypeError):
+                # Fallback to string sorting if version parsing fails
+                latest_version = max(version_dirs)
+                
             self.latest_version_map[package_name] = latest_version
 
-            # Direct path to installer yaml
+            # Process installer YAML efficiently
             yaml_path = package_path / latest_version / f"{package_name}.installer.yaml"
             if yaml_path.exists():
-                data = self.process_yaml_file(yaml_path)
-                if data and "Installers" in data:
-                    urls = []
-                    extensions = []
-                    count = 0
-                    for installer in data["Installers"]:
-                        if "InstallerUrl" in installer:
-                            url = installer["InstallerUrl"].replace("%2B", "+")
-                            urls.append(url)
-                            if "." in url:
-                                ext = url.split(".")[-1].lower()
-                                extensions.append(ext)
-                            count += 1
+                try:
+                    data = self.process_yaml_file(yaml_path)
+                    if data and "Installers" in data:
+                        urls = []
+                        count = 0
+                        
+                        for installer in data["Installers"]:
+                            if "InstallerUrl" in installer:
+                                # Clean URL and add to list
+                                url = installer["InstallerUrl"].replace("%2B", "+")
+                                urls.append(url)
+                                count += 1
 
-                    if urls:
-                        # Keep all versions but update other metadata
-                        self.latest_urls[package_name] = urls
-                        self.latest_extensions[package_name] = extensions
-                        self.package_downloads[package_name] = count
-                        # Initialize version patterns set if not exists
-                        if package_name not in self.version_patterns:
-                            self.version_patterns[package_name] = set()
-                        # Add patterns for all versions
-                        for version in self.package_versions[package_name]:
-                            pattern = VersionPatternDetector.determine_version_pattern(
-                                version
-                            )
-                            self.version_patterns[package_name].add(pattern)
-                        # Extract and store arch-ext pairs
-                        self.arch_ext_pairs[package_name] = self.extract_arch_ext_pairs(
-                            urls
-                        )
+                        if urls:
+                            # Store package metadata
+                            self.latest_urls[package_name] = urls
+                            self.package_downloads[package_name] = count
+                            
+                            # Initialize version patterns set if not exists
+                            if package_name not in self.version_patterns:
+                                self.version_patterns[package_name] = set()
+                            
+                            # Add patterns for all versions (optimized)
+                            for version in self.package_versions[package_name]:
+                                pattern = VersionPatternDetector.determine_version_pattern(version)
+                                self.version_patterns[package_name].add(pattern)
+                            
+                            # Extract and store arch-ext pairs
+                            self.arch_ext_pairs[package_name] = self.extract_arch_ext_pairs(urls)
+                            
+                except Exception as yaml_error:
+                    logging.debug(f"Error processing YAML for {package_name}: {yaml_error}")
+                    # Continue processing other packages even if one fails
 
         except Exception as e:
-            logging.error(
-                f"Error processing package {package_name if 'package_name' in locals() else '.'.join(package_parts)}: {e}"
-            )
+            if package_name:
+                logging.warning(f"Error processing package {package_name}: {e}")
+            else:
+                logging.warning(f"Error processing package {'.'.join(package_parts)}: {e}")
+            # Don't raise exception to continue processing other packages
 
     def check_package_in_prs(self, package_name: str, pr_titles: List[str]) -> str:
-        package_lower = package_name.lower()
-        return (
-            "present"
-            if any(package_lower in title.lower() for title in pr_titles)
-            else "absent"
-        )
+        # Functionality removed - will be implemented in GitHub.py
+        return "unknown"
 
     def create_analysis_dataframe(
         self, pr_titles: Optional[List[str]] = None
@@ -576,11 +559,7 @@ class PackageProcessor(YAMLProcessorBase):
                             self.latest_urls.get(pkg, [])
                         ),
                         "ArchExtPairs": self.arch_ext_pairs.get(pkg, ""),
-                        "HasOpenPullRequests": (
-                            self.check_package_in_prs(pkg, pr_titles)
-                            if pr_titles
-                            else "unknown"
-                        ),
+                        "LatestVersionPullRequest": "unknown",  # Will be populated by GitHub.py
                     }
                 )
 
@@ -597,6 +576,51 @@ class PackageProcessor(YAMLProcessorBase):
             return pl.DataFrame()
 
     def process_files(self) -> None:
+        """Optimized file processing workflow.
+        
+        This method directly processes packages without creating intermediate manifest files,
+        making the process more efficient and reducing memory usage.
+        
+        Raises:
+            PackageProcessingError: If processing fails
+        """
+        try:
+            logging.info("Starting optimized package processing workflow...")
+            start_time = time.time()
+            
+            # Get package names directly from directory structure
+            package_names_list = self.get_package_names_from_structure()
+            if not package_names_list:
+                logging.warning("No packages found in directory structure")
+                return
+            
+            logging.info(f"Processing {len(package_names_list)} packages...")
+            
+            # Process packages directly without intermediate CSV
+            self.parallel_process(package_names_list, self.process_package)
+            
+            # Create and save analysis dataframe
+            analysis_df = self.create_analysis_dataframe()
+            if not analysis_df.is_empty():
+                self.save_dataframe(analysis_df, self.config.output_analysis_file)
+                logging.info(f"Saved analysis data with {len(analysis_df)} packages")
+            else:
+                logging.warning("No package data to save")
+            
+            end_time = time.time()
+            processing_time = end_time - start_time
+            logging.info(f"Optimized processing completed in {processing_time:.2f} seconds")
+            logging.info(f"Processed {len(self.package_versions)} valid packages")
+            
+        except Exception as e:
+            raise PackageProcessingError(f"Error in optimized file processing: {str(e)}")
+
+    def process_files_legacy(self) -> None:
+        """Legacy file processing method (kept for backward compatibility).
+        
+        This method maintains the original workflow for cases where the intermediate
+        manifest CSV file is specifically needed.
+        """
         try:
             # Process manifest files
             yaml_files = self.get_yaml_files()
@@ -607,7 +631,10 @@ class PackageProcessor(YAMLProcessorBase):
             self.calculate_max_dots(yaml_files)
             self.parallel_process(yaml_files, self.process_manifest_file)
             manifest_df = self.create_manifest_dataframe()
-            self.save_dataframe(manifest_df, self.config.output_manifest_file)
+            
+            # Note: PackageNames.csv is no longer generated by default
+            # Uncomment the next line if specifically needed:
+            # self.save_dataframe(manifest_df, "PackageNames.csv")
 
             # Process package versions and analysis
             package_parts_list = []
@@ -620,111 +647,63 @@ class PackageProcessor(YAMLProcessorBase):
 
             self.parallel_process(package_parts_list, self.process_package)
 
-            # Fetch and save open PRs
-            pr_titles = self.fetch_and_save_open_prs()
-
             # Create and save analysis dataframe
-            analysis_df = self.create_analysis_dataframe(pr_titles)
+            analysis_df = self.create_analysis_dataframe()
             if not analysis_df.is_empty():
                 self.save_dataframe(analysis_df, self.config.output_analysis_file)
 
         except Exception as e:
             logging.error(f"Error processing files: {e}")
 
-    def _init_github_config(self) -> None:
-        try:
-            token = self.token_manager.get_available_token()
-            if not token:
-                raise RuntimeError("No available GitHub tokens found")
-            self.github_config = GitHubConfig(token=token)
-        except Exception as e:
-            logging.error(f"Error initializing GitHub config: {e}")
-            raise
-
-    def get_open_prs(self, owner: str, repo: str) -> List[Dict]:
-        all_prs = []
-        page = 1
-        session = requests.Session()
-        session.headers.update(
-            {
-                "Authorization": f"token {self.github_config.token}",
-                "Accept": "application/vnd.github.v3+json",
-            }
-        )
-
-        while True:
-            try:
-                url = f"{self.github_config.base_url}/repos/{owner}/{repo}/pulls"
-                params = {
-                    "state": "open",
-                    "per_page": self.github_config.per_page,
-                    "page": page,
-                }
-
-                response = session.get(url, params=params)
-                response.raise_for_status()
-
-                prs = response.json()
-                if not prs:
-                    break
-
-                all_prs.extend(
-                    [
-                        {
-                            "number": pr["number"],
-                            "title": pr["title"],
-                            "user": pr["user"]["login"],
-                            "created_at": pr["created_at"],
-                            "updated_at": pr["updated_at"],
-                            "url": pr["html_url"],
-                        }
-                        for pr in prs
-                    ]
-                )
-
-                if "next" not in response.links:
-                    break
-
-                page += 1
-
-                remaining = int(response.headers.get("X-RateLimit-Remaining", 0))
-                if remaining == 0:
-                    reset_time = int(response.headers.get("X-RateLimit-Reset", 0))
-                    wait_time = max(reset_time - time.time(), 0)
-                    logging.info(f"Rate limit reached. Waiting for {wait_time} seconds")
-                    time.sleep(wait_time)
-
-            except requests.exceptions.RequestException as e:
-                logging.error(f"Error fetching PRs: {e}")
-                raise
-
-        return all_prs
-
-    def fetch_and_save_open_prs(self) -> List[str]:
-        try:
-            owner = "microsoft"
-            repo = "winget-pkgs"
-
-            prs = self.get_open_prs(owner, repo)
-            df = pl.DataFrame(prs)
-            # Use config's output path instead of hardcoded data directory
-            output_path = self.config.get_output_path(self.config.open_prs_file)
-            df.write_csv(output_path)
-            logging.info(f"Saved {len(prs)} PRs to {output_path}")
-            return df["title"].to_list()
-        except Exception as e:
-            logging.error(f"Error fetching and saving PRs: {e}")
-            return []
+    def get_winget_path(self) -> Path:
+        """Get the path to the WinGet repository."""
+        return Path(self.config.winget_repo_path)
 
 
 def main():
+    """Main entry point for optimized package processing.
+    
+    This optimized version:
+    - Processes packages directly from directory structure
+    - Eliminates PackageNames.csv generation (redundant with AllPackageInfo.csv)
+    - Provides performance metrics
+    - Uses efficient memory management
+    """
     try:
+        start_time = time.time()
+        logging.info("Starting optimized PackageProcessor...")
+        
         # Load configuration and create processor
         processor = PackageProcessor()
+        
+        # Run optimized processing workflow
         processor.process_files()
-        logging.info("Processing completed successfully")
+        
+        # Display performance statistics
+        stats = processor.get_processing_stats()
+        end_time = time.time()
+        total_time = end_time - start_time
+        
+        logging.info("=" * 60)
+        logging.info("PROCESSING COMPLETED SUCCESSFULLY")
+        logging.info("=" * 60)
+        logging.info(f"Total processing time: {total_time:.2f} seconds")
+        logging.info(f"Packages processed: {stats['total_packages_found']}")
+        logging.info(f"Packages with URLs: {stats['packages_with_urls']}")
+        logging.info(f"Packages with architecture data: {stats['packages_with_arch_ext']}")
+        logging.info(f"Total version patterns detected: {stats['total_version_patterns']}")
+        logging.info(f"Average processing time per package: {total_time/max(stats['total_packages_found'], 1):.3f}s")
+        
+        # Key outputs
+        logging.info("\n📄 Key Output Files:")
+        logging.info("  • AllPackageInfo.csv - Complete package analysis data")
+        logging.info("\n💡 Note: PackageNames.csv is no longer generated (package names are in AllPackageInfo.csv)")
+        logging.info("💡 Note: OpenPRs functionality will be implemented in GitHub.py")
+        
     except Exception as e:
-        logging.error(f"Main process failed: {e}")
+        logging.error(f"Optimized processing failed: {e}")
+        logging.error("You can try the legacy processing method if needed")
+        raise
 
 
 if __name__ == "__main__":

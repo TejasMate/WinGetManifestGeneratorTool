@@ -11,6 +11,7 @@ try:
     from github.MatchSimilarURLs import process_urls
     from github.GitHubPackageProcessor import VersionAnalyzer
     from github.Filter import process_filters
+    from github.AsyncPullRequestSearcher import AsyncPRStatusProcessor, run_async_pr_status_processing
     from utils.token_manager import TokenManager
     from utils.unified_utils import GitHubAPI, GitHubConfig
     from config import get_config_manager, get_config
@@ -23,6 +24,7 @@ except ImportError as e:
     from src.github.MatchSimilarURLs import process_urls
     from src.github.GitHubPackageProcessor import VersionAnalyzer
     from src.github.Filter import process_filters
+    from src.github.AsyncPullRequestSearcher import AsyncPRStatusProcessor, run_async_pr_status_processing
     from src.utils.token_manager import TokenManager
     from src.utils.unified_utils import GitHubAPI, GitHubConfig
     from src.config import get_config_manager, get_config
@@ -93,6 +95,7 @@ def main():
         input_path = f"{output_dir}/AllPackageInfo.csv"
         github_info_path = f"{github_dir}/GitHubPackageInfo.csv"
         cleaned_urls_path = f"{github_dir}/GitHubPackageInfo_CleanedURLs.csv"
+        pr_status_path = f"{github_dir}/GitHubPackageInfo_PRStatus.csv"
         filter_output_dir = str(github_dir)
 
         # Ensure output directories exist
@@ -112,9 +115,13 @@ def main():
         logger.info("Processing GitHub URLs...")
         process_urls(github_info_path, cleaned_urls_path)
 
-        # Step 3: Apply filters
+        # Step 3: Add PR status information for packages without URL matches (ASYNC)
+        logger.info("Processing PR status for packages without URL matches (using async implementation)...")
+        run_async_pr_status_processing(cleaned_urls_path, pr_status_path, app_config)
+
+        # Step 4: Apply filters
         logger.info("Applying filters...")
-        process_filters(cleaned_urls_path, filter_output_dir)
+        process_filters(pr_status_path, filter_output_dir)
 
         logger.info("Package analysis pipeline completed successfully")
 
