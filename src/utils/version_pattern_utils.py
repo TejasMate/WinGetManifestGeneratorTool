@@ -44,6 +44,16 @@ class VersionPatternDetector:
             "snapshot": "snapshot",
             "milestone": "milestone",
             "release": "release",
+            "final": "final",
+            "stable": "stable",
+            "latest": "latest",
+            "patch": "patch",
+            "build": "build",
+            "hotfix": "hotfix",
+            "candidate": "candidate",
+            "test": "test",
+            "qa": "qa",
+            "unstable": "unstable",
         }
         text_lower = text.lower()
 

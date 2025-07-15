@@ -42,8 +42,11 @@ def generate_komac_commands_github(input_path: Path = None, output_path: Path = 
                     logging.warning(f"Skipping incomplete entry for {package_name}")
                     continue
 
+                # Replace comma with space for multiple URLs
+                urls_for_command = latest_urls.replace(',', ' ')
+
                 # Format the komac update command
-                command = f"komac update {package_name} --version {github_latest} --urls {latest_urls}"
+                command = f"komac update {package_name} --version {github_latest} --urls {urls_for_command}"
                 f.write(command + "\n")
                 logging.info(f"Generated command for {package_name}")
 
