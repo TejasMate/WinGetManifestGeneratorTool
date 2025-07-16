@@ -481,26 +481,24 @@ class GitHubVersionAnalyzer:
                     "URLPatterns": url_patterns,
                     "InstallerURLsCount": download_urls_count,
                     "AvailableVersions": versions,
+                    "WinGetVersionsFound": 0,
                     "CurrentLatestVersionInWinGet": latest_version,
                     "AllVersionInstallerURLsInWinGet": ",".join(list(set(all_winget_urls_flat))),
+                    "WinGetURLsTotal": 0,
                     "LatestVersionURLsInWinGet": installer_urls,
                     "GitHubLatest": "Not found",
-                    "LatestGitHubURLs": "",
                     "LatestReleaseInstallerURLsOfGitHub": "",
+                    "URLComparisonPerformed": False,
+                    "ExactURLMatches": 0,
+                    "WinGetVersionsList": "",
+                    "UniqueWinGetURLsCount": 0,
+                    "ExactMatchDetails": "",
+                    "NormalizedMatches": 0,
+                    "GitHubURLsChecked": "",
+                    "GitHubVersionChecked": "",
+                    "ComparisonFailureReason": "No GitHub repo found"
+                    "IsVersionPresent": False,
                     "HasOpenPullRequests": open_prs,
-                    # WinGet comparison fields
-                "WinGetVersionsFound": 0,
-                "URLComparisonPerformed": False,
-                "ExactURLMatches": 0,
-                "IsVersionPresent": False,
-                "WinGetVersionsList": "",
-                "UniqueWinGetURLsCount": 0,
-                "ExactMatchDetails": "",
-                "NormalizedMatches": 0,
-                "GitHubURLsChecked": "",
-                "WinGetURLsTotal": 0,
-                "GitHubVersionChecked": "",
-                "ComparisonFailureReason": "No GitHub repo found"
                 }
                 return result
 
@@ -593,7 +591,6 @@ class GitHubVersionAnalyzer:
                 "AllVersionInstallerURLsInWinGet": ",".join(list(set(all_winget_urls_flat))),  # All URLs from all versions
                 "LatestVersionURLsInWinGet": installer_urls,
                 "GitHubLatest": latest_version_github,
-                "LatestGitHubURLs": latest_github_urls,
                 "LatestReleaseInstallerURLsOfGitHub": ",".join(filtered_github_urls),  # Filtered GitHub URLs
                 "HasOpenPullRequests": open_prs,
             }
@@ -781,7 +778,7 @@ class GitHubFilter:
     def has_matching_urls(self, row):
         """Check if current version URLs match between WinGet and GitHub."""
         winget_urls_col = "LatestVersionURLsInWinGet"
-        github_urls_col = "LatestGitHubURLs"
+        github_urls_col = "LatestReleaseInstallerURLsOfGitHub"
         
         if winget_urls_col not in row or github_urls_col not in row:
             return False
@@ -834,9 +831,9 @@ class GitHubFilter:
             df = df[df["GitHubLatest"] != "Not Found"]
             logger.info(f"Filter 1: {len(df)} packages remaining after removing 'Not Found' GitHub releases")
 
-        # Filter 2: Remove rows where LatestGitHubURLs is empty
-        if 'LatestGitHubURLs' in df.columns:
-            df = df[~(df["LatestGitHubURLs"].isna() | (df["LatestGitHubURLs"] == ""))]
+        # Filter 2: Remove rows where LatestReleaseInstallerURLsOfGitHub is empty
+        if 'LatestReleaseInstallerURLsOfGitHub' in df.columns:
+            df = df[~(df["LatestReleaseInstallerURLsOfGitHub"].isna() | (df["LatestReleaseInstallerURLsOfGitHub"] == ""))]
             logger.info(f"Filter 2: {len(df)} packages remaining after removing empty GitHub URLs")
 
         # Filter 3: Remove rows where LatestVersionPullRequest is open
@@ -850,7 +847,7 @@ class GitHubFilter:
             logger.info(f"Filter 4: {len(df)} packages remaining after removing packages without URL patterns")
 
         # Filter 5: Remove rows where URLs match (current version)
-        if 'LatestVersionURLsInWinGet' in df.columns and 'LatestGitHubURLs' in df.columns:
+        if 'LatestVersionURLsInWinGet' in df.columns and 'LatestReleaseInstallerURLsOfGitHub' in df.columns:
             df = df[~df.apply(self.has_matching_urls, axis=1)]
             logger.info(f"Filter 5: {len(df)} packages remaining after removing packages with matching current URLs")
 
@@ -875,9 +872,9 @@ class GitHubFilter:
             logger.info(f"Filter 7: {len(df)} packages remaining after removing packages with normalized version matches")
 
         # Filter 8: Remove rows where URL counts don't match
-        if 'InstallerURLsCount' in df.columns and 'LatestGitHubURLs' in df.columns:
+        if 'InstallerURLsCount' in df.columns and 'LatestReleaseInstallerURLsOfGitHub' in df.columns:
             df = df[~df.apply(
-                lambda row: self.count_github_urls(row["LatestGitHubURLs"]) != row["InstallerURLsCount"],
+                lambda row: self.count_github_urls(row["LatestReleaseInstallerURLsOfGitHub"]) != row["InstallerURLsCount"],
                 axis=1
             )]
             logger.info(f"Filter 8: {len(df)} packages remaining after removing packages with URL count mismatches")

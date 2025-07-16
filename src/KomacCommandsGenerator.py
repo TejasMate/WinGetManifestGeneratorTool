@@ -36,7 +36,7 @@ def generate_komac_commands_github(input_path: Path = None, output_path: Path = 
             for row in df.iter_rows(named=True):
                 package_name = row["PackageIdentifier"]
                 github_latest = row["GitHubLatest"].lstrip("vV")
-                latest_urls = row["LatestGitHubURLs"]
+                latest_urls = row["LatestReleaseInstallerURLsOfGitHub"]
 
                 if not all([package_name, github_latest, latest_urls]):
                     logging.warning(f"Skipping incomplete entry for {package_name}")
