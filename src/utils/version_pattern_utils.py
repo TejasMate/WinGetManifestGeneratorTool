@@ -52,9 +52,20 @@ class VersionPatternDetector:
             "hotfix": "hotfix",
             "candidate": "candidate",
             "test": "test",
-            "qa": "qa",
             "unstable": "unstable",
             "master": "master",
+            "pre": "pre",
+            "x64": "x64",
+            "esr": "esr",
+            "lts": "lts",
+            "longterm": "longterm",
+            "extended": "extended",
+            "unsupported": "unsupported",
+            "rel":  "rel",
+            "git": "git",
+            "rev":  "rev",
+            "major": "major",
+            "minor": "minor",
         }
         text_lower = text.lower()
 

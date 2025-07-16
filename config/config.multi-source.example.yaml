@@ -1,0 +1,44 @@
+# Multi-Source Configuration Example
+# Copy to config/config.yaml and customize
+
+# Source-specific configurations
+source_configs:
+  github:
+    github_tokens:
+      - "ghp_your_token_here"
+    filter:
+      min_stars: 10
+      exclude_templates: true
+      exclude_archived: true
+  
+  gitlab:
+    gitlab_token: "glpat_your_token_here"
+    gitlab_instances:
+      - "gitlab.com"
+    filter:
+      min_stars: 5
+  
+  sourceforge:
+    filter:
+      exclude_patterns:
+        - "abandoned"
+        - "deprecated"
+
+# Processing configuration
+processing:
+  async_enabled: true
+  max_concurrent: 10
+  timeout: 30
+
+# Output configuration
+output:
+  include_summary: true
+  include_metadata: true
+  format: "csv"
+
+# Logging configuration
+logging:
+  level: "INFO"
+  file_logging: true
+  console_logging: true
+  log_file: "logs/winget_tool.log"

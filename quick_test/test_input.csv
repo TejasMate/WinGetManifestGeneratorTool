@@ -1,4 +1,4 @@
-PackageName,GitHubLatest,LatestGitHubURLs,HasOpenPullRequests,ArchExtPairs,LatestVersionURLsInWinGet,HasAnyURLMatch,CurrentLatestVersionInWinGet,InstallerURLsCount
-Test.App1,1.0.0,http://example.com/1.exe,no,x64.exe,http://different.com/1.exe,False,0.9.0,1
-Test.App2,Not Found,,no,x64.exe,http://different.com/2.exe,False,1.0.0,1
-Test.App3,2.0.0,http://example.com/2.exe,present,x64.exe,http://different.com/3.exe,False,2.0.0,1
+PackageIdentifier,Source,AvailableVersions,VersionFormatPattern,CurrentLatestVersionInWinGet,InstallerURLsCount,LatestVersionURLsInWinGet,URLPatterns,LatestVersionPullRequest
+Test.App1,example.com,1.0.0,x.y.z,0.9.0,1,http://different.com/1.exe,x64-exe,unknown
+Test.App2,unknown,Not Found,unknown,1.0.0,1,http://different.com/2.exe,x64-exe,unknown
+Test.App3,example.com,2.0.0,x.y.z,2.0.0,1,http://different.com/3.exe,x64-exe,unknown

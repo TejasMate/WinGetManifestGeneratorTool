@@ -112,7 +112,7 @@ class PackageProcessor(YAMLProcessorBase):
         latest_urls: Map of package IDs to latest release URLs
         latest_extensions: Map of package IDs to file extensions
         latest_version_map: Map of package IDs to latest versions
-        arch_ext_pairs: Map of package IDs to architecture-extension pairs
+        url_patterns: Map of package IDs to URL patterns
         architectures: List of supported architectures
         extensions: List of supported file extensions
     """
@@ -161,6 +161,7 @@ class PackageProcessor(YAMLProcessorBase):
             self.latest_extensions: Dict[str, List[str]] = {}
             self.latest_version_map: Dict[str, str] = {}
             self.arch_ext_pairs: Dict[str, str] = {}
+            self.url_patterns: Dict[str, str] = {}
             
             # Load architectures and extensions from config
             filtering_config = self.app_config.get('filtering', {})
@@ -188,7 +189,7 @@ class PackageProcessor(YAMLProcessorBase):
         return {
             "total_packages_found": len(self.package_versions),
             "packages_with_urls": len(self.latest_urls),
-            "packages_with_arch_ext": len([p for p in self.arch_ext_pairs.values() if p]),
+            "packages_with_url_patterns": len([p for p in self.url_patterns.values() if p]),
             "total_version_patterns": sum(len(patterns) for patterns in self.version_patterns.values()),
             "packages_with_downloads": len(self.package_downloads)
         }
@@ -310,8 +311,8 @@ class PackageProcessor(YAMLProcessorBase):
                                 pattern = VersionPatternDetector.determine_version_pattern(version)
                                 self.version_patterns[package_name].add(pattern)
                             
-                            # Extract and store arch-ext pairs
-                            self.arch_ext_pairs[package_name] = self.extract_arch_ext_pairs(urls)
+                            # Extract and store url patterns
+                            self.url_patterns[package_name] = self.extract_url_patterns(urls)
                     else:
                         # Fallback for sync mode
                         self.latest_urls[package_name] = urls
@@ -324,7 +325,7 @@ class PackageProcessor(YAMLProcessorBase):
                             pattern = VersionPatternDetector.determine_version_pattern(version)
                             self.version_patterns[package_name].add(pattern)
                         
-                        self.arch_ext_pairs[package_name] = self.extract_arch_ext_pairs(urls)
+                        self.url_patterns[package_name] = self.extract_url_patterns(urls)
                         
         except Exception as yaml_error:
             logging.debug(f"Error processing YAML for {package_name}: {yaml_error}")
@@ -695,6 +696,73 @@ class PackageProcessor(YAMLProcessorBase):
         except Exception as e:
             raise PackageProcessingError(f"Error creating manifest dataframe: {str(e)}")
 
+    def extract_url_patterns(self, urls: List[str]) -> str:
+        """Extract URL patterns from installer URLs.
+
+        Args:
+            urls: List of installer URLs
+
+        Returns:
+            String representation of URL patterns
+        """
+        try:
+            patterns = []
+            keywords = ['setup', 'installer', 'windows']
+
+            for url in urls:
+                url_lower = url.lower().strip()
+                
+                # 1. Find extension
+                ext_match = None
+                for ext in self.extensions:
+                    match = re.search(rf'\.({ext})(?:[/?#]|$)', url_lower)
+                    if match:
+                        ext_match = match.group(1)
+                        break
+                
+                if not ext_match:
+                    continue
+
+                # 2. Find all components and their positions
+                found_parts = []
+                
+                # Architectures
+                for arch in sorted(self.architectures, key=len, reverse=True):
+                    # Use a pattern that finds the arch as a whole word/segment
+                    pattern = f'[^a-z0-9]({re.escape(arch)})[^a-z0-9]|[_.-]({re.escape(arch)})[_.-]|[_.-]({re.escape(arch)})$'
+                    match = re.search(pattern, url_lower)
+                    if match:
+                        for i, group in enumerate(match.groups()):
+                            if group:
+                                found_parts.append({'part': arch, 'pos': match.start(i+1)})
+                                break
+                        break
+
+                # Keywords
+                for keyword in keywords:
+                    pattern = f'[^a-z0-9]({re.escape(keyword)})[^a-z0-9]|[_.-]({re.escape(keyword)})[_.-]|[_.-]({re.escape(keyword)})$'
+                    match = re.search(pattern, url_lower)
+                    if match:
+                        for i, group in enumerate(match.groups()):
+                            if group:
+                                found_parts.append({'part': keyword, 'pos': match.start(i+1)})
+                                break
+                
+                # 3. Sort found parts by position and construct pattern
+                if found_parts:
+                    sorted_parts = sorted(found_parts, key=lambda x: x['pos'])
+                    pattern_str = "-".join([p['part'] for p in sorted_parts])
+                    patterns.append(f"{pattern_str}-{ext_match}")
+                else:
+                    # Fallback if no architecture or keyword is found
+                    patterns.append(f"NA-{ext_match}")
+
+            result = ",".join(sorted(set(patterns))) if patterns else ""
+            return result
+        except Exception as e:
+            logging.error(f"Failed to extract URL patterns: {str(e)}")
+            return ""
+
     def extract_arch_ext_pairs(self, urls: List[str]) -> str:
         """Extract architecture-extension pairs from installer URLs.
 
@@ -898,8 +966,8 @@ class PackageProcessor(YAMLProcessorBase):
                                 pattern = VersionPatternDetector.determine_version_pattern(version)
                                 self.version_patterns[package_name].add(pattern)
                             
-                            # Extract and store arch-ext pairs
-                            self.arch_ext_pairs[package_name] = self.extract_arch_ext_pairs(urls)
+                            # Extract and store url patterns
+                            self.url_patterns[package_name] = self.extract_url_patterns(urls)
                             
                 except Exception as yaml_error:
                     logging.debug(f"Error processing YAML for {package_name}: {yaml_error}")
@@ -922,10 +990,10 @@ class PackageProcessor(YAMLProcessorBase):
         try:
             data = []
             for pkg, vers in self.package_versions.items():
-                # Process URLs and extract arch-ext pairs if not already done
-                if pkg in self.latest_urls and not self.arch_ext_pairs.get(pkg):
+                # Process URLs and extract url patterns if not already done
+                if pkg in self.latest_urls and not self.url_patterns.get(pkg):
                     urls = self.latest_urls[pkg]
-                    self.arch_ext_pairs[pkg] = self.extract_arch_ext_pairs(urls)
+                    self.url_patterns[pkg] = self.extract_url_patterns(urls)
 
                 # Extract source from URL
                 source = "unknown"
@@ -947,19 +1015,20 @@ class PackageProcessor(YAMLProcessorBase):
                         "CurrentLatestVersionInWinGet": self.latest_version_map.get(
                             pkg, ""
                         ),
+                        "InstallerURLsCount": self.package_downloads.get(pkg, 0),
                         "LatestVersionURLsInWinGet": ",".join(
                             self.latest_urls.get(pkg, [])
                         ),
-                        "InstallerURLsCount": self.package_downloads.get(pkg, 0),
-                        "ArchExtPairs": self.arch_ext_pairs.get(pkg, ""),
+                        "URLPatterns": self.url_patterns.get(pkg, ""),
+                        "LatestVersionPullRequest": "unknown",  # Will be populated by GitHub.py
                     }
                 )
 
-            # Ensure arch_ext_pairs are populated
+            # Ensure url_patterns are populated
             for item in data:
                 pkg = item["PackageIdentifier"]
-                if pkg in self.latest_urls and not self.arch_ext_pairs.get(pkg):
-                    self.arch_ext_pairs[pkg] = self.extract_arch_ext_pairs(
+                if pkg in self.latest_urls and not self.url_patterns.get(pkg):
+                    self.url_patterns[pkg] = self.extract_url_patterns(
                         self.latest_urls[pkg]
                     )
             return pl.DataFrame(data)
@@ -1128,7 +1197,7 @@ async def main_async():
         logging.info(f"Total processing time: {total_time:.2f} seconds")
         logging.info(f"Packages processed: {stats['total_packages_found']}")
         logging.info(f"Packages with URLs: {stats['packages_with_urls']}")
-        logging.info(f"Packages with architecture data: {stats['packages_with_arch_ext']}")
+        logging.info(f"Packages with architecture data: {stats['packages_with_url_patterns']}")
         logging.info(f"Total version patterns detected: {stats['total_version_patterns']}")
         logging.info(f"Average processing time per package: {total_time/max(stats['total_packages_found'], 1):.3f}s")
         
@@ -1202,7 +1271,7 @@ def main():
             logging.info(f"Total processing time: {total_time:.2f} seconds")
             logging.info(f"Packages processed: {stats['total_packages_found']}")
             logging.info(f"Packages with URLs: {stats['packages_with_urls']}")
-            logging.info(f"Packages with architecture data: {stats['packages_with_arch_ext']}")
+            logging.info(f"Packages with architecture data: {stats['packages_with_url_patterns']}")
             logging.info(f"Total version patterns detected: {stats['total_version_patterns']}")
             logging.info(f"Average processing time per package: {total_time/max(stats['total_packages_found'], 1):.3f}s")
             

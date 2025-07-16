@@ -3,31 +3,34 @@ import re
 from pathlib import Path
 
 
-def extract_extensions_from_archext(archext_str):
-    if pd.isna(archext_str) or archext_str == "":
+def extract_extensions_from_url_patterns(url_patterns_str):
+    """Extract file extensions from URL patterns (e.g., 'x64-exe,setup-x86_64-msi' -> {'exe', 'msi'})"""
+    if pd.isna(url_patterns_str) or url_patterns_str == "":
         return set()
 
     extensions = set()
-    pairs = archext_str.split(",")
+    patterns = url_patterns_str.split(",")
 
-    for pair in pairs:
-        pair = pair.strip()
-        if pair.startswith("NA-"):
-            # For NA- patterns, only consider the extension
-            ext = pair.split("-")[1] if len(pair.split("-")) > 1 else ""
-            if ext:
-                extensions.add(ext)
+    for pattern in patterns:
+        pattern = pattern.strip()
+        if pattern:
+            # Split by hyphens and take the last part as the extension
+            parts = pattern.split("-")
+            if len(parts) > 0:
+                ext = parts[-1]  # Last part should be the extension
+                if ext and not ext.isdigit():  # Skip if it's just a number
+                    extensions.add(ext)
 
     return extensions
 
 
 def filter_github_urls(row):
 
-    if pd.isna(row["LatestGitHubURLs"]) or pd.isna(row["ArchExtPairs"]):
+    if pd.isna(row["LatestGitHubURLs"]) or pd.isna(row["URLPatterns"]):
         return row["LatestGitHubURLs"]
 
     github_urls = row["LatestGitHubURLs"].split(",")
-    valid_extensions = extract_extensions_from_archext(row["ArchExtPairs"])
+    valid_extensions = extract_extensions_from_url_patterns(row["URLPatterns"])
 
     if not valid_extensions:
         return row["LatestGitHubURLs"]

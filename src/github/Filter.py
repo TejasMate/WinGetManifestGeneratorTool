@@ -107,12 +107,12 @@ def process_filters(input_path: str, output_dir: str) -> None:
             filter3_removed.to_csv(output_dir_path / "Filter3_Removed.csv", index=False)
             logging.info(f"Filter 3: Removed {len(filter3_removed)} rows (Has open pull requests) -> Filter3_Removed.csv")
 
-        # Filter 4: Remove rows where ArchExtPairs is empty
+        # Filter 4: Remove rows where URLPatterns is empty
         filter4_removed = df[
-            df["ArchExtPairs"].isna() | (df["ArchExtPairs"] == "")
+            df["URLPatterns"].isna() | (df["URLPatterns"] == "")
         ].copy()
-        filter4_removed["reason"] = "No architecture/extension data"
-        df = df[~(df["ArchExtPairs"].isna() | (df["ArchExtPairs"] == ""))]
+        filter4_removed["reason"] = "No URL pattern data"
+        df = df[~(df["URLPatterns"].isna() | (df["URLPatterns"] == ""))]
         removed_rows = pd.concat([removed_rows, filter4_removed])
         df.to_csv(output_dir_path / "GitHubPackageInfo_Filter4.csv", index=False)
         # Save removed rows from Filter 4
@@ -345,15 +345,15 @@ def main():
         # Create test data
         import pandas as pd
         test_data = {
-            'PackageName': ['Test.Package1', 'Test.Package2', 'Test.Package3', 'Test.Package4', 'Test.Package5'],
-            'GitHubLatest': ['1.0.0', 'Not Found', '2.0.0', '3.0.0', '4.0.0'],
-            'LatestGitHubURLs': ['http://example.com/1.exe', '', 'http://example.com/2.exe', 'http://example.com/3.exe', 'http://example.com/4.exe'],
-            'LatestVersionPullRequest': ['not_found', 'not_found', 'open', 'not_found', 'not_found'],
-            'ArchExtPairs': ['x64.exe', 'x64.exe', 'x64.exe', '', 'x64.exe'],
-            'LatestVersionURLsInWinGet': ['http://different.com/1.exe', 'http://different.com/2.exe', 'http://different.com/3.exe', 'http://different.com/4.exe', 'http://example.com/4.exe'],
-            'HasAnyURLMatch': [False, False, False, False, False],
+            'PackageIdentifier': ['Test.Package1', 'Test.Package2', 'Test.Package3', 'Test.Package4', 'Test.Package5'],
+            'Source': ['example.com', 'unknown', 'example.com', 'example.com', 'example.com'],
+            'AvailableVersions': ['1.0.0', 'Not Found', '2.0.0', '3.0.0', '4.0.0'],
+            'VersionFormatPattern': ['x.y.z', 'unknown', 'x.y.z', 'x.y.z', 'x.y.z'],
             'CurrentLatestVersionInWinGet': ['0.9.0', '1.0.0', '2.0.0', '3.0.0', '3.0.0'],
-            'InstallerURLsCount': [1, 1, 1, 1, 2]
+            'InstallerURLsCount': [1, 1, 1, 1, 2],
+            'LatestVersionURLsInWinGet': ['http://different.com/1.exe', 'http://different.com/2.exe', 'http://different.com/3.exe', 'http://different.com/4.exe', 'http://example.com/4.exe'],
+            'URLPatterns': ['x64-exe', 'x64-exe', 'x64-exe', '', 'x64-exe'],
+            'LatestVersionPullRequest': ['not_found', 'not_found', 'open', 'not_found', 'not_found']
         }
         
         test_df = pd.DataFrame(test_data)

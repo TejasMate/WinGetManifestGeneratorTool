@@ -23,7 +23,7 @@ def generate_komac_commands_github(input_path: Path = None, output_path: Path = 
         
         # Use config-based paths if not provided
         if input_path is None:
-            input_path = Path(output_dir) / "github" / "GitHubPackageInfo_Filter8.csv"
+            input_path = Path(output_dir) / "github" / "GitHubPackageInfo_Final.csv"
         if output_path is None:
             output_path = Path(output_dir) / "github" / "komac_update_commands_github.txt"
         
