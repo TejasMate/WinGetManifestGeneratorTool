@@ -373,14 +373,12 @@ class GitHubVersionAnalyzer:
             all_winget_urls_by_version = self.winget_extractor.get_all_installer_urls_for_package(package_identifier)
             
             if not all_winget_urls_by_version:
-                return {
-                    'comparison_performed': False,
-                    'reason': 'No WinGet manifests found',
-                    'winget_versions_found': 0,
-                    'is_version_present': False
-                }
-            
-            # Create flat list of ALL URLs from ALL versions
+            return {
+                'comparison_performed': False,
+                'reason': 'No WinGet manifests found',
+                'winget_versions_found': 0,
+                'match_verification': 'BothUnmatched'
+            }            # Create flat list of ALL URLs from ALL versions
             all_winget_urls = []
             for version, urls in all_winget_urls_by_version.items():
                 all_winget_urls.extend(urls)
@@ -391,8 +389,9 @@ class GitHubVersionAnalyzer:
             # Use URLComparator for comprehensive comparison
             comparison_result = self.url_comparator.compare_urls(github_urls, unique_winget_urls)
             
-            # Check if version is present in WinGet versions
-            is_version_present = False
+            # Check version and URL matching for MatchVerification
+            version_matches = False
+            url_matches = comparison_result['has_any_match']
             
             if github_version and github_version != "Not found":
                 # Normalize GitHub version for comparison
@@ -403,20 +402,27 @@ class GitHubVersionAnalyzer:
                 normalized_winget_versions = [v.lower().lstrip('v').strip() for v in winget_versions]
                 
                 if normalized_github_version in normalized_winget_versions:
-                    is_version_present = True
+                    version_matches = True
                     logger.debug(f"Version {github_version} found in WinGet versions for {package_identifier}")
             
-            # If version not found, check URL pattern matching
-            if not is_version_present and comparison_result['has_any_match']:
-                is_version_present = True
-                logger.debug(f"URL patterns match for {package_identifier}")
+            # Determine MatchVerification based on version and URL matching
+            if version_matches and url_matches:
+                match_verification = "BothMatched"
+            elif not version_matches and url_matches:
+                match_verification = "VersionMismatchedURLMatched"
+            elif version_matches and not url_matches:
+                match_verification = "VersionMatchedURLUnMatched"
+            else:  # not version_matches and not url_matches
+                match_verification = "BothUnmatched"
+            
+            logger.debug(f"MatchVerification for {package_identifier}: {match_verification}")
             
             return {
                 'comparison_performed': True,
                 'winget_versions_found': len(all_winget_urls_by_version),
                 'winget_versions': list(all_winget_urls_by_version.keys()),
                 'unique_winget_urls_count': len(unique_winget_urls),
-                'is_version_present': is_version_present,
+                'match_verification': match_verification,
                 'exact_matches': comparison_result['exact_matches'],
                 'exact_matches_count': len(comparison_result['exact_matches']),
                 'normalized_matches': comparison_result['normalized_matches'],
@@ -432,7 +438,7 @@ class GitHubVersionAnalyzer:
                 'comparison_performed': False,
                 'reason': f'Error: {str(e)}',
                 'winget_versions_found': 0,
-                'is_version_present': False
+                'match_verification': 'BothUnmatched'
             }
 
     def analyze_versions(self, package_data: Dict[str, Any]) -> Dict[str, Any]:
@@ -484,21 +490,21 @@ class GitHubVersionAnalyzer:
                     "WinGetVersionsFound": 0,
                     "CurrentLatestVersionInWinGet": latest_version,
                     "AllVersionInstallerURLsInWinGet": ",".join(list(set(all_winget_urls_flat))),
-                    "WinGetURLsTotal": 0,
                     "LatestVersionURLsInWinGet": installer_urls,
                     "GitHubLatest": "Not found",
                     "LatestReleaseInstallerURLsOfGitHub": "",
-                    "URLComparisonPerformed": False,
-                    "ExactURLMatches": 0,
-                    "WinGetVersionsList": "",
-                    "UniqueWinGetURLsCount": 0,
-                    "ExactMatchDetails": "",
-                    "NormalizedMatches": 0,
-                    "GitHubURLsChecked": "",
-                    "GitHubVersionChecked": "",
-                    "ComparisonFailureReason": "No GitHub repo found"
-                    "IsVersionPresent": False,
                     "HasOpenPullRequests": open_prs,
+                    # WinGet comparison fields
+                "WinGetVersionsFound": 0,
+                "ExactURLMatches": 0,
+                "MatchVerification": "BothUnmatched",
+                "UniqueWinGetURLsCount": 0,
+                "ExactMatchDetails": "",
+                "NormalizedMatches": 0,
+                "GitHubURLsChecked": "",
+                "WinGetURLsTotal": 0,
+                "GitHubVersionChecked": "",
+                "ComparisonFailureReason": "No GitHub repo found"
                 }
                 return result
 
@@ -599,10 +605,8 @@ class GitHubVersionAnalyzer:
             if winget_comparison.get('comparison_performed', False):
                 result.update({
                     "WinGetVersionsFound": winget_comparison.get('winget_versions_found', 0),
-                    "URLComparisonPerformed": True,
                     "ExactURLMatches": winget_comparison.get('exact_matches_count', 0),
-                    "IsVersionPresent": winget_comparison.get('is_version_present', False),
-                    "WinGetVersionsList": ','.join(winget_comparison.get('winget_versions', [])),
+                    "MatchVerification": winget_comparison.get('match_verification', 'BothUnmatched'),
                     "UniqueWinGetURLsCount": winget_comparison.get('unique_winget_urls_count', 0),
                     "ExactMatchDetails": ','.join(winget_comparison.get('exact_matches', [])),
                     "NormalizedMatches": len(winget_comparison.get('normalized_matches', [])),
@@ -614,10 +618,8 @@ class GitHubVersionAnalyzer:
                 # No comparison performed
                 result.update({
                     "WinGetVersionsFound": 0,
-                    "URLComparisonPerformed": False,
                     "ExactURLMatches": 0,
-                    "IsVersionPresent": False,
-                    "WinGetVersionsList": "",
+                    "MatchVerification": "BothUnmatched",
                     "UniqueWinGetURLsCount": 0,
                     "ExactMatchDetails": "",
                     "NormalizedMatches": 0,
@@ -1368,75 +1370,70 @@ class GitHubOrchestrator:
             self.logger.error(f"Error setting up directories: {e}")
             raise
 
-    def run_complete_workflow(self, input_file: str = None):
+    def run_complete_workflow(self, input_file: str = None, dataframe_dir: str = None):
         """Run the complete GitHub analysis workflow."""
         try:
             self.setup_logging()
             self.setup_directories()
-            
+
             self.logger.info("Starting GitHub package analysis workflow")
             
-            # Step 1: URL Processing
+            # Step 1: Combined URL Processing and Version Analysis
             if input_file:
                 input_path = input_file
             else:
                 input_path = self.config.get('paths', {}).get('input_csv', 'data/AllPackageInfo.csv')
+            if dataframe_dir is None:
+                dataframe_dir = self.config.get('paths', {}).get('github_output_dir', 'data/github')
             
-            url_output_path = "data/github/GitHubPackageInfo_CleanedURLs.csv"
-            self.logger.info(f"Processing URLs: {input_path} -> {url_output_path}")
-            self.url_matcher.process_urls(input_path, url_output_path)
-            
-            # Step 2: Version Analysis
-            version_output_path = "data/github/GitHubPackageInfo_Analyzed.csv"
-            self.logger.info(f"Analyzing versions: {url_output_path} -> {version_output_path}")
-            self._run_version_analysis(url_output_path, version_output_path)
-            
-            # Step 3: Filtering
-            filter_output_path = "data/github/GitHubPackageInfo_Filtered.csv"
+            version_output_path = os.path.join(dataframe_dir, "GitHubPackageInfo_Analyzed.csv")
+            self.logger.info(f"Processing GitHub packages and analyzing versions: {input_path} -> {version_output_path}")
+            self._run_combined_url_processing_and_version_analysis(input_path, version_output_path)
+
+            # Step 2: Filtering
+            filter_output_path = os.path.join(dataframe_dir, "GitHubPackageInfo_Filtered.csv")
             self.logger.info(f"Applying filters: {version_output_path} -> {filter_output_path}")
             self.filter.process_filters(version_output_path, filter_output_path)
-            
-            # Step 4: PR Status (async)
-            final_output_path = "data/github/GitHubPackageInfo_Final.csv"
+
+            # Step 3: PR Status (async)
+            final_output_path = os.path.join(dataframe_dir, "GitHubPackageInfo_Final.csv")
             self.logger.info(f"Processing PR status: {filter_output_path} -> {final_output_path}")
             asyncio.run(self._run_pr_status_processing(filter_output_path, final_output_path))
-            
+
             self.logger.info(f"GitHub workflow completed successfully. Final output: {final_output_path}")
             return final_output_path
-            
-        except Exception as e:
-            self.logger.error(f"Error in GitHub workflow: {e}")
-            raise
-            self.logger.info(f"Copying to final output: {filter_output_path} -> {final_output_path}")
-            import shutil
-            shutil.copy2(filter_output_path, final_output_path)
-            
-            self.logger.info("GitHub package analysis workflow completed successfully")
-            return True
-            
-        except Exception as e:
-            self.logger.error(f"Error in GitHub workflow: {e}")
-            return False
-            self.logger.info(f"Processing PR status: {filter_output_path} -> {final_output_path}")
-            asyncio.run(self._run_pr_status_processing(filter_output_path, final_output_path))
-            
-            self.logger.info(f"GitHub workflow completed successfully. Final output: {final_output_path}")
-            return final_output_path
-            
         except Exception as e:
             self.logger.error(f"Error in GitHub workflow: {e}")
             raise
 
-    def _run_version_analysis(self, input_path: str, output_path: str):
-        """Run version analysis on packages."""
+    def _run_combined_url_processing_and_version_analysis(self, input_path: str, output_path: str):
+        """Run combined URL processing and version analysis on packages."""
         try:
+            # Read input CSV
             df = pd.read_csv(input_path)
-            packages = df.to_dict('records')
             
+            # Filter for GitHub packages only (from GitHubURLMatcher.process_urls)
+            github_mask = (
+                (df['Source'].str.contains('github.com', case=False, na=False)) |
+                (df['PackageIdentifier'].str.startswith('GitHub.', na=False)) |
+                (df['LatestVersionURLsInWinGet'].str.contains('github.com', case=False, na=False))
+            )
+            df_github = df[github_mask].copy()
+            
+            # Apply URL filtering based on URL patterns (from GitHubURLMatcher.filter_github_urls)
+            url_column = "LatestVersionURLsInWinGet"
+            if url_column in df_github.columns:
+                df_github[url_column] = df_github.apply(self.url_matcher.filter_github_urls, axis=1)
+            
+            self.logger.info(f"Filtered to {len(df_github)} GitHub packages from {len(df)} total packages")
+            
+            # Convert to list for version analysis
+            packages = df_github.to_dict('records')
+
             analyzed_packages = []
             winget_extractor = WinGetManifestExtractor()
             url_comparator = URLComparator()
-            
+
             for package in packages:
                 analyzed_package = self.version_analyzer.analyze_versions(package)
                 
@@ -1454,10 +1451,8 @@ class GitHubOrchestrator:
                         if winget_comparison.get('comparison_performed', False):
                             analyzed_package.update({
                                 "WinGetVersionsFound": winget_comparison.get('winget_versions_found', 0),
-                                "URLComparisonPerformed": True,
                                 "ExactURLMatches": winget_comparison.get('exact_matches_count', 0),
                                 "IsVersionPresent": winget_comparison.get('is_version_present', False),
-                                "WinGetVersionsList": ','.join(winget_comparison.get('winget_versions', [])),
                                 "UniqueWinGetURLsCount": winget_comparison.get('unique_winget_urls_count', 0),
                                 "ExactMatchDetails": ','.join(winget_comparison.get('exact_matches', [])),
                                 "NormalizedMatches": len(winget_comparison.get('normalized_matches', [])),
@@ -1471,10 +1466,8 @@ class GitHubOrchestrator:
                             # No comparison performed
                             analyzed_package.update({
                                 "WinGetVersionsFound": 0,
-                                "URLComparisonPerformed": False,
                                 "ExactURLMatches": 0,
                                 "IsVersionPresent": False,
-                                "WinGetVersionsList": "",
                                 "UniqueWinGetURLsCount": 0,
                                 "ExactMatchDetails": "",
                                 "NormalizedMatches": 0,
@@ -1489,10 +1482,8 @@ class GitHubOrchestrator:
                         # No GitHub URLs found
                         analyzed_package.update({
                             "WinGetVersionsFound": 0,
-                            "URLComparisonPerformed": False,
                             "ExactURLMatches": 0,
                             "IsVersionPresent": False,
-                            "WinGetVersionsList": "",
                             "UniqueWinGetURLsCount": 0,
                             "ExactMatchDetails": "",
                             "NormalizedMatches": 0,
@@ -1507,10 +1498,8 @@ class GitHubOrchestrator:
                     # No package ID or URLs
                     analyzed_package.update({
                         "WinGetVersionsFound": 0,
-                        "URLComparisonPerformed": False,
                         "ExactURLMatches": 0,
                         "IsVersionPresent": False,
-                        "WinGetVersionsList": "",
                         "UniqueWinGetURLsCount": 0,
                         "ExactMatchDetails": "",
                         "NormalizedMatches": 0,
@@ -1523,12 +1512,110 @@ class GitHubOrchestrator:
                     })
                 
                 analyzed_packages.append(analyzed_package)
-            
+
             if analyzed_packages:
                 result_df = pd.DataFrame(analyzed_packages)
                 result_df.to_csv(output_path, index=False)
-                self.logger.info(f"Version analysis completed with WinGet comparison for {len(analyzed_packages)} packages")
-            
+                self.logger.info(f"Combined URL processing and version analysis completed for {len(analyzed_packages)} packages. Output exported to {output_path} for inspection/debugging.")
+
+        except Exception as e:
+            self.logger.error(f"Error in combined URL processing and version analysis: {e}")
+            raise
+
+    def _run_version_analysis(self, input_path: str, output_path: str):
+        """Run version analysis on packages."""
+        try:
+            df = pd.read_csv(input_path)
+            packages = df.to_dict('records')
+
+            analyzed_packages = []
+            winget_extractor = WinGetManifestExtractor()
+            url_comparator = URLComparator()
+
+            for package in packages:
+                analyzed_package = self.version_analyzer.analyze_versions(package)
+                
+                # Perform WinGet comparison even without GitHub API
+                package_id = package.get('PackageIdentifier', '')
+                current_urls = package.get('LatestVersionURLsInWinGet', '')
+                
+                if package_id and current_urls:
+                    github_urls_list = [url.strip() for url in current_urls.split(",") if url.strip() and 'github.com' in url]
+                    
+                    if github_urls_list:
+                        winget_comparison = self._compare_with_winget_versions(package_id, github_urls_list, winget_extractor, url_comparator)
+                        
+                        # Add WinGet comparison results
+                        if winget_comparison.get('comparison_performed', False):
+                            analyzed_package.update({
+                                "WinGetVersionsFound": winget_comparison.get('winget_versions_found', 0),
+                                "ExactURLMatches": winget_comparison.get('exact_matches_count', 0),
+                                "IsVersionPresent": winget_comparison.get('is_version_present', False),
+                                "UniqueWinGetURLsCount": winget_comparison.get('unique_winget_urls_count', 0),
+                                "ExactMatchDetails": ','.join(winget_comparison.get('exact_matches', [])),
+                                "NormalizedMatches": len(winget_comparison.get('normalized_matches', [])),
+                                "GitHubURLsChecked": ','.join(winget_comparison.get('github_urls_checked', [])),
+                                "WinGetURLsTotal": winget_comparison.get('winget_urls_total', 0),
+                                # Add new columns if not already present
+                                "AllVersionInstallerURLsInWinGet": analyzed_package.get('AllVersionInstallerURLsInWinGet', ''),
+                                "LatestReleaseInstallerURLsOfGitHub": analyzed_package.get('LatestReleaseInstallerURLsOfGitHub', '')
+                            })
+                        else:
+                            # No comparison performed
+                            analyzed_package.update({
+                                "WinGetVersionsFound": 0,
+                                "ExactURLMatches": 0,
+                                "IsVersionPresent": False,
+                                "UniqueWinGetURLsCount": 0,
+                                "ExactMatchDetails": "",
+                                "NormalizedMatches": 0,
+                                "GitHubURLsChecked": "",
+                                "WinGetURLsTotal": 0,
+                                "ComparisonFailureReason": winget_comparison.get('reason', 'Unknown'),
+                                # Add new columns if not already present
+                                "AllVersionInstallerURLsInWinGet": analyzed_package.get('AllVersionInstallerURLsInWinGet', ''),
+                                "LatestReleaseInstallerURLsOfGitHub": analyzed_package.get('LatestReleaseInstallerURLsOfGitHub', '')
+                            })
+                    else:
+                        # No GitHub URLs found
+                        analyzed_package.update({
+                            "WinGetVersionsFound": 0,
+                            "ExactURLMatches": 0,
+                            "IsVersionPresent": False,
+                            "UniqueWinGetURLsCount": 0,
+                            "ExactMatchDetails": "",
+                            "NormalizedMatches": 0,
+                            "GitHubURLsChecked": "",
+                            "WinGetURLsTotal": 0,
+                            "ComparisonFailureReason": "No GitHub URLs found",
+                            # Add new columns if not already present
+                            "AllVersionInstallerURLsInWinGet": analyzed_package.get('AllVersionInstallerURLsInWinGet', ''),
+                            "LatestReleaseInstallerURLsOfGitHub": analyzed_package.get('LatestReleaseInstallerURLsOfGitHub', '')
+                        })
+                else:
+                    # No package ID or URLs
+                    analyzed_package.update({
+                        "WinGetVersionsFound": 0,
+                        "ExactURLMatches": 0,
+                        "IsVersionPresent": False,
+                        "UniqueWinGetURLsCount": 0,
+                        "ExactMatchDetails": "",
+                        "NormalizedMatches": 0,
+                        "GitHubURLsChecked": "",
+                        "WinGetURLsTotal": 0,
+                        "ComparisonFailureReason": "Missing package identifier or URLs",
+                        # Add new columns if not already present
+                        "AllVersionInstallerURLsInWinGet": analyzed_package.get('AllVersionInstallerURLsInWinGet', ''),
+                        "LatestReleaseInstallerURLsOfGitHub": analyzed_package.get('LatestReleaseInstallerURLsOfGitHub', '')
+                    })
+                
+                analyzed_packages.append(analyzed_package)
+
+            if analyzed_packages:
+                result_df = pd.DataFrame(analyzed_packages)
+                result_df.to_csv(output_path, index=False)
+                self.logger.info(f"Version analysis completed with WinGet comparison for {len(analyzed_packages)} packages. Output exported to {output_path} for inspection/debugging.")
+
         except Exception as e:
             self.logger.error(f"Error in version analysis: {e}")
             raise
@@ -1538,13 +1625,14 @@ class GitHubOrchestrator:
         try:
             df = pd.read_csv(input_path)
             packages = df.to_dict('records')
-            
+
             processed_packages = await self.pr_processor.process_pr_status(packages)
-            
+
             if processed_packages:
                 result_df = pd.DataFrame(processed_packages)
                 result_df.to_csv(output_path, index=False)
-            
+                self.logger.info(f"PR status processing completed. Output exported to {output_path} for inspection/debugging.")
+
         except Exception as e:
             self.logger.error(f"Error in PR status processing: {e}")
             raise
